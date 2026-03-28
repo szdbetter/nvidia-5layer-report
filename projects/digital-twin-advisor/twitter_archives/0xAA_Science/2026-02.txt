@@ -1,0 +1,78 @@
+
+@0xAA_Science (0xAA):
+@Evengogogo 不是挖矿的 是个节点 可以同步比特币区块数据
+📅 Wed Feb 25 16:48:56 +0000 2026
+🔗 https://x.com/0xAA_Science/status/2026700953605526000
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+@0xdalang 有 ai在写了
+📅 Wed Feb 25 16:48:21 +0000 2026
+🔗 https://x.com/0xAA_Science/status/2026700808684003594
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+Day 7
+让 AI 用 Rust 重写 Bitcoin 客户端: rbtc
+
+目前用了不到 12 小时，已经开始主网同步测试了，欢迎尝试：
+https://t.co/GmOh7bMe0x
+
+https://t.co/ClBgVZGhPz https://t.co/PsHt1Pfmf3
+🎬 https://pbs.twimg.com/amplify_video_thumb/2026689772098617344/img/SBFbKCi6BIX1hs2f.jpg
+📅 Wed Feb 25 16:19:21 +0000 2026
+🔗 https://x.com/0xAA_Science/status/2026693508564922840
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+手机上的 Claude app 可以远程控制 Claude Code 了。
+我希望 Cursor app 赶紧出来 @cursor_ai
+┌─ QT @claudeai:
+│ New in Claude Code: Remote Control.
+│ 
+│ Kick off a task in your terminal and pick it up from your phone while you take a walk or join a meeting. 
+│ 
+│ 🎬 https://pbs.twimg.com/amplify_video_thumb/2026417722394021888/img/7uu-_ciDtZ7v3rYC.jpg
+└─ https://x.com/claudeai/status/2026418433911603668
+📅 Wed Feb 25 02:46:34 +0000 2026
+🔗 https://x.com/0xAA_Science/status/2026488967311642715
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+vibe coding 一年半了，我已经是个成熟的气氛组了。
+┌─ QT @0xAA_Science:
+│ 用 cursor 快两周了，的确好用，骗人是小狗。
+└─ https://x.com/0xAA_Science/status/1829373317712863373
+📅 Tue Feb 24 18:38:50 +0000 2026
+🔗 https://x.com/0xAA_Science/status/2026366222749835639
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+@Markfkurmomx 你是早期用户， shit 非常稀缺，3个已经很多了！
+📅 Tue Feb 24 18:37:14 +0000 2026
+🔗 https://x.com/0xAA_Science/status/2026365819610083688
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+网址写错了 https://t.co/XeLSvJOLai
+📅 Tue Feb 24 18:28:44 +0000 2026
+🔗 https://x.com/0xAA_Science/status/2026363682457006310
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+@jason_chen998 bullish！
+📅 Tue Feb 24 18:03:17 +0000 2026
+🔗 https://x.com/0xAA_Science/status/2026357278212026457
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+@pirrer @MentorWong 银行是比较保守的金融机构，监管较强，我觉得无准入的链上钱包对 agent 更友好
+📅 Tue Feb 24 17:58:52 +0000 2026
+🔗 https://x.com/0xAA_Science/status/2026356167916793922
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+@pirrer @MentorWong 现在人开个银行账户都麻烦
+📅 Tue Feb 24 17:56:09 +0000 2026
+🔗 https://x.com/0xAA_Science/status/2026355482164945202
+──────────────────────────────────────────────────

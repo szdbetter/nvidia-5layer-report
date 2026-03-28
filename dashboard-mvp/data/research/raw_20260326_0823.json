@@ -1,0 +1,397 @@
+{
+  "date": "2026-03-26",
+  "time": "08:21 BJT",
+  "twitterOnline": false,
+  "stats": {
+    "total": 40,
+    "xhs": 20,
+    "reddit": 20,
+    "twitter": 0
+  },
+  "xhs": [
+    {
+      "platform": "小红书",
+      "category": "AI",
+      "title": "盲审前各大模型评分",
+      "score": 17471,
+      "likes": 5441,
+      "collects": 5865,
+      "comments": 150,
+      "url": "https://www.xiaohongshu.com/explore/69bff60c000000001a02f573"
+    },
+    {
+      "platform": "小红书",
+      "category": "AI",
+      "title": "建议都去飞书学Claude code中文教程",
+      "score": 10530,
+      "likes": 2088,
+      "collects": 2323,
+      "comments": 1898,
+      "url": "https://www.xiaohongshu.com/explore/69bb7627000000001f003352"
+    },
+    {
+      "platform": "小红书",
+      "category": "AI",
+      "title": "我的人生分为Claude前和Claude后",
+      "score": 5253,
+      "likes": 1927,
+      "collects": 1453,
+      "comments": 210,
+      "url": "https://www.xiaohongshu.com/explore/69c0e4a9000000002300550e"
+    },
+    {
+      "platform": "小红书",
+      "category": "AI",
+      "title": "写Claude Code中文教程的人，真是个天才！",
+      "score": 4599,
+      "likes": 897,
+      "collects": 1026,
+      "comments": 825,
+      "url": "https://www.xiaohongshu.com/explore/69bb6126000000001f00546c"
+    },
+    {
+      "platform": "小红书",
+      "category": "AI",
+      "title": "Claude是唯一一个真的可以“讨论“的AI",
+      "score": 4429,
+      "likes": 2113,
+      "collects": 848,
+      "comments": 310,
+      "url": "https://www.xiaohongshu.com/explore/69c0d875000000001d01ba69"
+    },
+    {
+      "platform": "小红书",
+      "category": "AI",
+      "title": "我想教会你用Claude Skill （上）",
+      "score": 3733,
+      "likes": 1115,
+      "collects": 1289,
+      "comments": 20,
+      "url": "https://www.xiaohongshu.com/explore/69bcc14f000000002202530f"
+    },
+    {
+      "platform": "小红书",
+      "category": "AI",
+      "title": "离谱，小米大模型一年就逼近Claude Opus 4.",
+      "score": 3296,
+      "likes": 644,
+      "collects": 292,
+      "comments": 1034,
+      "url": "https://www.xiaohongshu.com/explore/69bb795d000000001f0041f2"
+    },
+    {
+      "platform": "小红书",
+      "category": "AI",
+      "title": "怪不得 claude 封号这么严",
+      "score": 3140,
+      "likes": 1466,
+      "collects": 431,
+      "comments": 406,
+      "url": "https://www.xiaohongshu.com/explore/69bcf3be000000001d01b640"
+    },
+    {
+      "platform": "小红书",
+      "category": "AI",
+      "title": "Claude刚刚杀死了OpenClaw！",
+      "score": 3077,
+      "likes": 1015,
+      "collects": 928,
+      "comments": 103,
+      "url": "https://www.xiaohongshu.com/explore/69c23ee9000000002301fc11"
+    },
+    {
+      "platform": "小红书",
+      "category": "AI",
+      "title": "Claude在美国求职上真正有用的八个功能",
+      "score": 3005,
+      "likes": 865,
+      "collects": 996,
+      "comments": 74,
+      "url": "https://www.xiaohongshu.com/explore/69bb53de00000000220284e9"
+    },
+    {
+      "platform": "小红书",
+      "category": "AI",
+      "title": "Claude的两种Multi-Agent架构，一篇讲明白",
+      "score": 2896,
+      "likes": 684,
+      "collects": 1088,
+      "comments": 18,
+      "url": "https://www.xiaohongshu.com/explore/69bdf00e000000001a02367b"
+    },
+    {
+      "platform": "小红书",
+      "category": "AI",
+      "title": "用Claude，实现notebookLM自动化",
+      "score": 2626,
+      "likes": 506,
+      "collects": 1033,
+      "comments": 27,
+      "url": "https://www.xiaohongshu.com/explore/69bfaaf1000000001a024aaf"
+    },
+    {
+      "platform": "小红书",
+      "category": "AI",
+      "title": "",
+      "score": 2318,
+      "likes": 336,
+      "collects": 987,
+      "comments": 4,
+      "url": "https://www.xiaohongshu.com/explore/69c39bb8000000002301faf0"
+    },
+    {
+      "platform": "小红书",
+      "category": "AI",
+      "title": "Claude + Obsidian：搭建永不失忆的AI员工",
+      "score": 2248,
+      "likes": 398,
+      "collects": 910,
+      "comments": 15,
+      "url": "https://www.xiaohongshu.com/explore/69bffec6000000001a0201cb"
+    },
+    {
+      "platform": "小红书",
+      "category": "AI",
+      "title": "Claude这周更新的功能太猛了",
+      "score": 1720,
+      "likes": 566,
+      "collects": 517,
+      "comments": 60,
+      "url": "https://www.xiaohongshu.com/explore/69be5f1f000000002100736f"
+    },
+    {
+      "platform": "小红书",
+      "category": "AI",
+      "title": "终于跑通了Claude Code多agent协同",
+      "score": 1677,
+      "likes": 385,
+      "collects": 629,
+      "comments": 17,
+      "url": "https://www.xiaohongshu.com/explore/69c3fe6b000000002100599a"
+    },
+    {
+      "platform": "小红书",
+      "category": "AI",
+      "title": "Claude code学术使用指南",
+      "score": 1461,
+      "likes": 337,
+      "collects": 558,
+      "comments": 4,
+      "url": "https://www.xiaohongshu.com/explore/69bd01fb000000001d01cce7"
+    },
+    {
+      "platform": "小红书",
+      "category": "AI",
+      "title": "国内AI用户为什么有『claude情结』",
+      "score": 1362,
+      "likes": 328,
+      "collects": 153,
+      "comments": 364,
+      "url": "https://www.xiaohongshu.com/explore/69c0b336000000001b0008ff"
+    },
+    {
+      "platform": "小红书",
+      "category": "AI",
+      "title": "把“第一性原理”写入到claude.md里，绝了",
+      "score": 1300,
+      "likes": 234,
+      "collects": 526,
+      "comments": 7,
+      "url": "https://www.xiaohongshu.com/explore/69bc0801000000002800aeb3"
+    },
+    {
+      "platform": "小红书",
+      "category": "AI",
+      "title": "被Claude Code几百个不同的思考状态可爱到",
+      "score": 1231,
+      "likes": 681,
+      "collects": 244,
+      "comments": 31,
+      "url": "https://www.xiaohongshu.com/explore/69bd5e20000000002200f43c"
+    }
+  ],
+  "reddit": [
+    {
+      "platform": "Reddit",
+      "category": "Crypto",
+      "title": "WTF! A whale literally burned $1.2 Million worth of Bitcoin by sending it to Satoshi's dead wallet.. Why TF?",
+      "score": 2055,
+      "likes": 1075,
+      "comments": 490,
+      "url": "https://reddit.com/r/CryptoCurrency/comments/1s2jv1i/wtf_a_whale_literally_burned_12_million_worth_of/"
+    },
+    {
+      "platform": "Reddit",
+      "category": "Crypto",
+      "title": "Eric Trump Says More Than $1Billion Made In Crypto",
+      "score": 1278,
+      "likes": 912,
+      "comments": 183,
+      "url": "https://reddit.com/r/CryptoCurrency/comments/1s23fxa/eric_trump_says_more_than_1billion_made_in_crypto/"
+    },
+    {
+      "platform": "Reddit",
+      "category": "Crypto",
+      "title": "Elizabeth Warren scrutinizes MrBeast’s teen crypto banking plans after Step deal",
+      "score": 421,
+      "likes": 307,
+      "comments": 57,
+      "url": "https://reddit.com/r/CryptoCurrency/comments/1s22cfq/elizabeth_warren_scrutinizes_mrbeasts_teen_crypto/"
+    },
+    {
+      "platform": "Reddit",
+      "category": "AI",
+      "title": "Open-source AI system on a $500 GPU outperforms Claude Sonnet on coding benchmarks",
+      "score": 397,
+      "likes": 203,
+      "comments": 97,
+      "url": "https://reddit.com/r/artificial/comments/1s2yg3y/opensource_ai_system_on_a_500_gpu_outperforms/"
+    },
+    {
+      "platform": "Reddit",
+      "category": "AI",
+      "title": "Mark Zuckerberg builds AI CEO to help him run Meta",
+      "score": 316,
+      "likes": 122,
+      "comments": 97,
+      "url": "https://reddit.com/r/artificial/comments/1s1qk1c/mark_zuckerberg_builds_ai_ceo_to_help_him_run_meta/"
+    },
+    {
+      "platform": "Reddit",
+      "category": "Crypto",
+      "title": "How Monero Replaced Bitcoin on the Internet's Underground",
+      "score": 269,
+      "likes": 169,
+      "comments": 50,
+      "url": "https://reddit.com/r/CryptoCurrency/comments/1s2vh6k/how_monero_replaced_bitcoin_on_the_internets/"
+    },
+    {
+      "platform": "Reddit",
+      "category": "AI",
+      "title": "Three companies shipped \"AI agent on your desktop\" in the same two weeks. That's not a coincidence.",
+      "score": 243,
+      "likes": 87,
+      "comments": 78,
+      "url": "https://reddit.com/r/artificial/comments/1s2ddgb/three_companies_shipped_ai_agent_on_your_desktop/"
+    },
+    {
+      "platform": "Reddit",
+      "category": "Crypto",
+      "title": "Tether Signs Big Four Firm to Complete First Full Audit",
+      "score": 232,
+      "likes": 82,
+      "comments": 75,
+      "url": "https://reddit.com/r/CryptoCurrency/comments/1s2dcat/tether_signs_big_four_firm_to_complete_first_full/"
+    },
+    {
+      "platform": "Reddit",
+      "category": "Crypto",
+      "title": "Crypto Scams Hit $9.3 Billion as Fake Wallet Apps Target Ledger and Trezor Users",
+      "score": 197,
+      "likes": 147,
+      "comments": 25,
+      "url": "https://reddit.com/r/CryptoCurrency/comments/1s33p6w/crypto_scams_hit_93_billion_as_fake_wallet_apps/"
+    },
+    {
+      "platform": "Reddit",
+      "category": "Crypto",
+      "title": "Markets Rally After Trump Signals Possible Iran Deal",
+      "score": 191,
+      "likes": 37,
+      "comments": 77,
+      "url": "https://reddit.com/r/CryptoCurrency/comments/1s35ntb/markets_rally_after_trump_signals_possible_iran/"
+    },
+    {
+      "platform": "Reddit",
+      "category": "AI",
+      "title": "Is AI actually bad for the environment or are we overreacting?",
+      "score": 154,
+      "likes": 8,
+      "comments": 73,
+      "url": "https://reddit.com/r/artificial/comments/1s2a52u/is_ai_actually_bad_for_the_environment_or_are_we/"
+    },
+    {
+      "platform": "Reddit",
+      "category": "Crypto",
+      "title": "Daily Crypto Discussion - March 25, 2026 (GMT+0)",
+      "score": 143,
+      "likes": 9,
+      "comments": 67,
+      "url": "https://reddit.com/r/CryptoCurrency/comments/1s2wepq/daily_crypto_discussion_march_25_2026_gmt0/"
+    },
+    {
+      "platform": "Reddit",
+      "category": "Crypto",
+      "title": "Bhutan has sold $120M in Bitcoin this month: Markets are starting to notice",
+      "score": 132,
+      "likes": 94,
+      "comments": 19,
+      "url": "https://reddit.com/r/CryptoCurrency/comments/1s3mm3k/bhutan_has_sold_120m_in_bitcoin_this_month/"
+    },
+    {
+      "platform": "Reddit",
+      "category": "Crypto",
+      "title": "New crypto regulations likely to be big favor to the Trump family, industry insiders say | Cryptocurrencies",
+      "score": 94,
+      "likes": 68,
+      "comments": 13,
+      "url": "https://reddit.com/r/CryptoCurrency/comments/1s28dt3/new_crypto_regulations_likely_to_be_big_favor_to/"
+    },
+    {
+      "platform": "Reddit",
+      "category": "AI",
+      "title": "I wrote a contract to stop AI from guessing when writing code",
+      "score": 91,
+      "likes": 11,
+      "comments": 40,
+      "url": "https://reddit.com/r/artificial/comments/1s2eimz/i_wrote_a_contract_to_stop_ai_from_guessing_when/"
+    },
+    {
+      "platform": "Reddit",
+      "category": "Crypto",
+      "title": "How Bitcoin evolved from ‘safe haven’ to become the market’s real-time geopolitical risk indicator",
+      "score": 91,
+      "likes": 39,
+      "comments": 26,
+      "url": "https://reddit.com/r/CryptoCurrency/comments/1s2qmtc/how_bitcoin_evolved_from_safe_haven_to_become_the/"
+    },
+    {
+      "platform": "Reddit",
+      "category": "Crypto",
+      "title": "Leaving your salary on an exchange is like giving root access to your prod to a third party",
+      "score": 84,
+      "likes": 36,
+      "comments": 24,
+      "url": "https://reddit.com/r/CryptoCurrency/comments/1s2gh75/leaving_your_salary_on_an_exchange_is_like_giving/"
+    },
+    {
+      "platform": "Reddit",
+      "category": "AI",
+      "title": "I tested ChatGPT vs Claude vs Gemini for coding ...here's what I found",
+      "score": 73,
+      "likes": 11,
+      "comments": 31,
+      "url": "https://reddit.com/r/artificial/comments/1s2ovhc/i_tested_chatgpt_vs_claude_vs_gemini_for_coding/"
+    },
+    {
+      "platform": "Reddit",
+      "category": "Crypto",
+      "title": "Are you still HODLing LTC or actually trading this chop?",
+      "score": 68,
+      "likes": 6,
+      "comments": 31,
+      "url": "https://reddit.com/r/CryptoCurrency/comments/1s3b923/are_you_still_hodling_ltc_or_actually_trading/"
+    },
+    {
+      "platform": "Reddit",
+      "category": "Crypto",
+      "title": "Bhutan Bitcoin Sales Accelerate With $37 Million Transfer",
+      "score": 64,
+      "likes": 54,
+      "comments": 5,
+      "url": "https://reddit.com/r/CryptoCurrency/comments/1s36q47/bhutan_bitcoin_sales_accelerate_with_37_million/"
+    }
+  ],
+  "twitter": [],
+  "analysis": "## 一、跨平台共振雷达\n\n---\n\n**信号名** | AI Coding工具正在从极客玩具跃迁为创作者工作流标配 | 涉及平台：小红书 + Reddit | 热度合计：约28,500\n> 小红书前10条内容中7条与Claude直接相关，Reddit同步出现\"Three companies shipped AI agent on your desktop in two weeks\"，这不是巧合。底层逻辑是Claude Code打开了\"用自然语言驱动完整开发流程\"的潘多拉盒子，用户发现真实生产力提升后形成自发传播。中文教程稀缺性+飞书生态接入进一步放大中文区热度。\n> 研判：中期趋势（3-6个月）。工具扩散需要时间，教程热→用户热→案例热→企业采购热，链条尚未走完。\n\n---\n\n**信号名** | 开源AI性能快速追赶引发能力重估焦虑 | 涉及平台：小红书 + Reddit | 热度合计：约3,693\n> Reddit热帖\"$500 GPU outperforms Claude Sonnet\"与小红书\"小米大模型一年逼近Claude Opus 4\"形成叙事互证。前者证明开源社区边际成本趋零，后者在东方叙事下补刀\"顶级模型差距被压缩到12个月以内\"。两个市场的科技社区用户在讨论同一个命题：闭源高溢价模型的护城河是否还成立。\n> 研判：长期结构变化。GPU成本曲线+开源模型迭代速度正在系统性侵蚀闭源模型的定价权。\n\n---\n\n**信号名** | Tether审计叙事线浮出水面 | 涉及平台：Reddit + 加密社区 | 热度合计：约464\n> 热度绝对值低但信号质量极高。Tether签署四大完成首次完整审计——这是稳定币领域从未发生过的事件。相比鲸鱼烧币的猎奇叙事，Tether审计是加密市场结构性信任重建的实质一步。Reddit帖子本身冷门，说明主流叙事尚未定价这个信号。\n> 研判：中期趋势（1-3个月）。一旦审计结果发布，将成为稳定币合规化叙事的引爆点。\n\n---\n\n## 二、今日爆款选题库（Top 5）\n\n---\n\n**[小红书] \"我用Claude Code一个月替代了三个付费SaaS\"系列 | 热度分预估：95**\n- **爆款逻辑**：认知差+情绪共鸣。创作者群体对订阅疲劳有强烈共鸣，\"AI替代SaaS\"是存量博弈下的稀缺叙事切入点。真实生产力对比比任何功能介绍都有说服力。\n- **衍生角度**：\n  - 《Claude Code+Notion AI+Cursor：我用0元搭建了月薪5000运营工具矩阵》\n  - 《实测：Claude Code写小红书爆款笔记，比我熬夜想标题快3倍》\n  - 《程序员失业预警？独立开发者用Claude Code 72小时上线MVP全记录》\n- **适合平台**：小红书（核心）+ 公众号（深度复盘）\n\n---\n\n**[Reddit] \"$500 GPU runs code better than Claude Sonnet——The泡沫何时破\" | 热度分预估：88**\n- **爆款逻辑**：信息差+对立情绪。Reddit科技社区对\"算力军备竞赛合理性\"存在结构性分歧，该帖精准踩中\"小团队也能打大厂\"的爽点，同时激发对AI成本结构的理性讨论。\n- **衍生角度**：\n  - 《开源AI代码能力的摩尔定律：每6个月性能翻倍还是幻觉？》\n  - 《$500 GPU挑战Claude：这不是评测，是一场认知革命》\n  - 《从Sonnet到SOTA：开源模型代码能力排名实时追踪（附跑分）》\n- **适合平台**：X（英文线程）+ Reddit（英文社区讨论）\n\n---\n\n**[小红书] \"盲审前各大模型打分\"——一份让所有人焦虑的排名表 | 热度分预估：92**\n- **爆款逻辑**：稀缺性+焦虑触发。模型横评年年有，但\"盲审\"机制制造稀缺性，让读者产生\"我也想知道自己的AI工具排第几\"的强烈代入感。\n- **衍生角度**：\n  - 《Claude/ChatGPT/Gemini中文场景盲审：结果可能和你想的不一样》\n  - 《模型军备竞赛减速了？头部模型差距正在收窄的5个信号》\n  - 《AI模型能力天花板已到？从GPT-5跳票看行业结构性问题》\n- **适合平台**：小红书（图表+情绪）+ 公众号（深度解读）\n\n---\n\n**[Reddit] Tether Signs Big Four to Complete First Full Audit | 热度分预估：82**\n- **爆款逻辑**：信息差。当前热度低意味着尚未被主流叙事定价，但\"稳定币首次四大审计\"是行业里程碑事件。专业加密社区会等待审计结果正式发布后集中爆发。\n- **衍生角度**：\n  - 《Tether审计报告预测：USDT会走向完全合规化吗？》\n  - 《从Tether到Circle：合规稳定币如何重塑DeFi生态位》\n  - 《如果Tether审计失败：USDT脱锚情景推演》\n- **适合平台**：公众号（深度分析）+ X（快讯跟进）\n\n---\n\n**[小红书] \"我的人生分为Claude前和Claude后\" | 热度分预估：90**\n- **爆款逻辑**：情绪共鸣+身份认同。这是典型的\"前后对比\"爆款模板，\"人生分水岭\"叙事具有强传播力和记忆度，且高度适配小红书的个人IP叙事土壤。\n- **衍生角度**：\n  - 《Claude杀死重复劳动：一份打工人的AI替代清单》\n  - 《用Claude三个月，我从月薪8k涨到25k（全流程截图）》\n  - 《AI焦虑者的生存指南：不是AI替代你，是会用AI的人替代你》\n- **适合平台**：小红书（核心）+ 短视频（口播版本）\n\n---\n\n## 三、今日最高确定性机会\n\n---\n\n**机会标题**：Tether四大审计落地前夜的稳定币合规化布局窗口\n\n**背景**：Tether于本周签署四大审计机构完成史上首次完整审计——这是USDT发行9年来从未做到的事。与此同时，Circle已获得部分监管认可，MetaMask、Robinhood等主流应用正在加速接入合规稳定币。稳定币市场正站在\"灰色地带→监管认可\"的转折点上，但市场价格尚未反映这一变化。\n\n**信号链**：\n- 数据1（信号起点）：Tether签署四大完成审计 → 监管透明度大幅提升\n- 数据2（需求侧验证）：Eric Trump公开谈及$1Billion级别crypto利润 → 机构/名人资金正在加速进场，需要合规出入金渠道\n- 数据3（生态侧跟进）：Step App青少年加密银行业务遭Elizabeth Warren审查 → 监管层的\"审查即确认\"效应——被主流政治人物关注意味着体量已不可忽视\n- 逻辑推导：监管审查→合规需求→合规稳定币使用量提升→USDT/合规稳定币市值扩张→相关DeFi协议TVL上升\n\n**执行方案**：\n\n| 动作 | 标的/平台 | 入场条件 | 止损/退出 |\n|------|----------|---------|---------|\n| 布局合规稳定币概念币 | CRV、USDC、DAI相关DeFi流动性仓位 | Tether审计报告发布当日，或相关稳定币市值突破前高 | 审计报告延期超30天；出现重大监管利空消息 |\n| 埋伏合规概念加密股/ETF | COIN、BITW、MSTR等 | 比特币站稳$65,000上方且稳定币总市值突破$180B | 比特币跌破$55,000；审计结果严重不达预期 |\n| 小红书内容卡位 | \"稳定币合规化\"关键词 | 审计结果发布前48小时内 | 热度窗口关闭后自然流量衰减 |\n\n**催化剂时间表**：\n- **Day 1-3**：Tether审计初步结果泄露（通常通过非官方渠道）\n- **Day 5-7**：四大审计机构发布正式报告，CoinDesk/CoinTelegraph等主流加密媒体跟进报道\n- **Day 7-14**：交易所公告支持合规稳定币新功能，稳定币市值数据反映在链上\n- **Day 14-30**：机构投资者正式将合规稳定币纳入托管组合\n\n**风险提示**：\n1. **审计延期或结果不及预期**：Tether历史上曾多次推迟审计，若报告推迟超过1个月，市场可能将不确定性解读为负面。\n2. **监管黑天鹅**：SEC或CFTC在审计结果公布后立刻对USDT发行方提起诉讼，彻底逆转叙事方向。\n\n---\n\n## 四、沉默信号（反向机会）\n\n---\n\n**表面热度高、实质泡沫大的信号**：\n\n**\"Claude杀死OpenClaw\"类叙事** | 小红书热度：3077\n> 这类标题是典型的情绪性标题党，将Claude Code的局部功能优势包装成\"革命性颠覆\"，但OpenClaw/其他竞品的用户基础、收入数据和融资规模并未在热度讨论中出现。\"杀死\"叙事本质上是内容创作者为获取流量而制造的二元对立，实际市场份额数据完全不支持这一结论。\n\n**为什么要回避或反向操作**：\n1. **叙事泡沫**：当一个工具被宣布\"杀死\"竞品时，往往是该工具热度最高、估值最贵的时间点。跟进创作或讨论此类选题，等于在叙事顶点替创作者免费传播。\n2. **数据验证缺失**：小红书3077的热度集中于情绪共鸣而非产品对比，用户实际使用数据（GitHub stars、API调用量、商业合同数）并未同步验证。\n3. **建议反向动作**：关注\"Claude+竞品共存\"类选题——多工具并行的实际工作流比\"替代论\"更接近真实，且竞争格局中真正有壁垒的是差异化能力，而非单点爆发。\n\n**次级泡沫信号**：\"鲸鱼烧币$1.2M\" | Reddit热度：2055\n> 单次不可复制的链上行为，无任何机制支撑，不构成趋势判断依据。烧币动机可能包括：税务优化、隐私保护、玩笑行为，主流媒体跟进后热度即衰减，无实质性的交易机会。"
+}

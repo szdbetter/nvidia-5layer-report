@@ -1,0 +1,98 @@
+
+@jason_chen998 (陈剑Jason):
+@BitInvolution 你在哪里买的
+📅 Mon Jun 30 13:58:58 +0000 2025
+🔗 https://x.com/jason_chen998/status/1939685093523533961
+──────────────────────────────────────────────────
+
+@jason_chen998 (陈剑Jason):
+虽然不少项目都可以实现在币圈买股票的效果，但Bybit应该是首批推出由股票现货抵押的代币化Token交易所，而这句话的重点在于“股票现货抵押”，其实之前Bybit就推出了通过MT5差价合约来买股票的产品，以及更早SNX的合成资产购买股票，但这些方式都只是追踪锚定股票的价格的衍生品，本身并不持有股票现货，所以和RWA其实也并不沾边。
+
+这次Bybit是通过和Backed @BackedFi一起合作发行的股票代币化资产，Backed是总部在瑞士，并符合瑞士 DLT 法案合规监管要求的机构，其宣称所有代币都具备1:1的对应资产，并由第三方进行托管，Backed本身也得到了Coinbase的投资。
+
+这次Bybit上的股票包括谷歌、英伟达、特斯拉、Circle、Robinhood等总共有10个，在上链后接下来除了直接交易股票，也可以把股票带入很多Defi玩法。
+🖼️ https://pbs.twimg.com/media/GusgtsiWgAEEfhW.jpg
+┌─ QT @Bybit_Official:
+│ 📣 Tokenized stocks are landing on Bybit!
+│ 
+│ We're partnering with @xStocksFi to bring tokenized U.S. equities on-chain — introducing xStocks, fully backed, freely transferable representations of top U.S. stocks.
+│ 
+│ 🎬 https://pbs.twimg.com/media/Gurvyj-XEAAhKtC.jpg
+└─ https://x.com/Bybit_Official/status/1939626244728840498
+📅 Mon Jun 30 13:38:54 +0000 2025
+🔗 https://x.com/jason_chen998/status/1939680044307419277
+──────────────────────────────────────────────────
+
+@jason_chen998 (陈剑Jason):
+@GeorgeMaxwellR2 这一页文档里有写https://t.co/SZKM1whNcM
+📅 Mon Jun 30 10:48:55 +0000 2025
+🔗 https://x.com/jason_chen998/status/1939637264419783091
+──────────────────────────────────────────────────
+
+@jason_chen998 (陈剑Jason):
+@bitcoin521520 毕竟已经上市了，也没有必要再发币了
+📅 Mon Jun 30 10:08:04 +0000 2025
+🔗 https://x.com/jason_chen998/status/1939626985556529627
+──────────────────────────────────────────────────
+
+@jason_chen998 (陈剑Jason):
+@travelerfx 🤔🤔🤔
+📅 Mon Jun 30 09:39:01 +0000 2025
+🔗 https://x.com/jason_chen998/status/1939619673819271515
+──────────────────────────────────────────────────
+
+@jason_chen998 (陈剑Jason):
+目前关于Robinhood要使用Arbtrium发行自己L2的传言主要来自于这条推文，Robinhood将会在ETHCC与Arbtrium和Vitalik举办panel，但目前也依然没有任何官方口径说会采用Arbtrium，也只是外界的猜测，就这已经把ARB最高拉了近30%，而按照Arbtrium的文档，所有基于其发行的链，必须要结算到Arbtrium上，否则就要缴纳10%的交易手续费，而OP则没有这类要求，所以Robinhood如果真选择用Arbtrium还是挺让人惊讶的，除非Arbtrium给了Robinhood什么特殊的条款，真想不到他们放着成熟免费的OP Stack不用选择Arbtrium的原因。
+┌─ QT @RobinhoodApp:
+│ Vitalik’s in town.
+│ 
+│ Join us in Cannes for a fireside chat with our crypto GM, @JohannKerbrat, the founder of Ethereum, @VitalikButerin, and the CSO of @offchain, @ajwarner90.
+│ 
+└─ https://x.com/RobinhoodApp/status/1939313739326537800
+📅 Mon Jun 30 09:37:26 +0000 2025
+🔗 https://x.com/jason_chen998/status/1939619276438340051
+──────────────────────────────────────────────────
+
+@jason_chen998 (陈剑Jason):
+@ksbcgmg 有文化
+📅 Mon Jun 30 08:17:34 +0000 2025
+🔗 https://x.com/jason_chen998/status/1939599175953588714
+──────────────────────────────────────────────────
+
+@jason_chen998 (陈剑Jason):
+@0xMoon6626 唉，懂，理解
+📅 Mon Jun 30 07:27:01 +0000 2025
+🔗 https://x.com/jason_chen998/status/1939586457267732792
+──────────────────────────────────────────────────
+
+@jason_chen998 (陈剑Jason):
+我一直觉得在币圈吃瓜做判官是很无聊的事情，我不吃别人的瓜，我也不想别人吃我的瓜，不知道为什么币圈会有这么多消费别人的“苦难”喜欢以吃瓜为乐的群体存在，也许真的应了那句话，币圈本身就是一个娱乐圈，甚至现在都出现了xx军的饭圈文化，唉。
+
+我从内心其实还是很为嗯哼感到开心的，和他认识三年了，第一次接触他当时在一个期权交易所做BD，当时联系我想合作，整体聊下来给人感觉很舒服，还向他请教了不少期权相关的入门知识，后面知道他才上大学很震惊，我还主动的把他推荐给了我认识的其他几位KOL合作，并且重点强调这小伙子年纪轻轻很有前途。
+
+后面逢年过节嗯哼会给我寄一些月饼茶叶之类的礼物，我也以“老大哥”过来人的角色给他一些建议，看着他一路成长起来，至少从资产上赚到了远超这个年龄应该有的财富，还是挺欣慰的。
+
+之前嗯哼和冰蛙、郑皓升起了冲突，我还比较担心嗯哼年龄这么小别经不起打击，专门私聊安慰他想开点，跑得太快了经历一下挫折，对自己的成长也有好处。
+
+直到前段时间我和别人起冲突，嗯哼转发和我相关的聊天记录，并且把我往吃瓜群里拉，那一刻我突然愣了一下，还是很寒心的。
+
+有时候在币圈待着，确实挺心累的，一个巨大的娱乐圈，我自己的心态也经常调整不好，我觉得可能是和我实名上网有关系，导致有人骂我的时候，那可就真的是指名道姓的骂，这种感受和别人骂我个什么张三李四网名是完全不一样的。很多人问我为什么要用自己的真名和头像，其实我一开始想的比较单纯，觉得这样一方面会拉近和大家的关系坦诚相待，另一方面对自己也是一种警示不要做触碰红线的事，可现在我是挺后悔实名上网的。
+
+最后不论如何，还是想呼吁一下，与人为善吧💗如果你讨厌一个人，但他又没损害到你实质的利益，就默默将对方屏蔽永不来往就好，如果你不讨厌一个人，看到他陷入了一些事情中，可以不选择伸手拉他一把，但保持沉默也是一种帮助。
+🖼️ https://pbs.twimg.com/media/GurEKjeWUAA9DBn.jpg
+🖼️ https://pbs.twimg.com/media/GurHRKDa4AAjQiP.jpg
+┌─ QT @0xMoon6626:
+│ 戾气重和报复心强的话
+│ 我觉得很影响自己的状态和心情 真的
+│ 如果有在我群里的人应该知道
+│ 每次吃瓜我都劝群友别去站队喷人
+└─ https://x.com/0xMoon6626/status/1939495195076428069
+📅 Mon Jun 30 07:22:41 +0000 2025
+🔗 https://x.com/jason_chen998/status/1939585364563513442
+──────────────────────────────────────────────────
+
+@jason_chen998 (陈剑Jason):
+@agintender 我想着出块时间缩短的话，夹子排序的难度应该也会提高了😂可能想简单了
+📅 Mon Jun 30 06:48:25 +0000 2025
+🔗 https://x.com/jason_chen998/status/1939576743117070593
+──────────────────────────────────────────────────

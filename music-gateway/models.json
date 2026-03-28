@@ -1,0 +1,11 @@
+{
+  "ace-step": {
+    "name": "ACE-Step 1.5",
+    "description": "Fast diffusion-based music generation. Text-to-music, audio remix, cover generation. MIT license, supports Chinese lyrics.",
+    "internal_url": "http://localhost:7860",
+    "capabilities": ["text2music", "audio2audio", "cover", "repaint", "lyric2music"],
+    "author": "ACE Studio + 阶跃星辰",
+    "params": "medium",
+    "language": ["zh", "en", "ja"]
+  }
+}

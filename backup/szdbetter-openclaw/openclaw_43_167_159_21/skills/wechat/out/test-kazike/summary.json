@@ -1,0 +1,28 @@
+{
+  "title": "我不再“用”AI了，我开始批量制造顾问了",
+  "output_dir": "skills/wechat/out/test-kazike",
+  "payload_article_count": 1,
+  "body_image_count": 5,
+  "used_images": [
+    {
+      "before_heading": "一、我为什么不再满足于“问 AI 一个问题”",
+      "media_id": "tBXovzgo9LwWfOD0M6r9B6CeTDwHqAscNAc8xotv23Q_Ja4ACybOwV9rgWLV-xwk"
+    },
+    {
+      "before_heading": "二、我们不是在做功能，我们是在制造顾问",
+      "media_id": "tBXovzgo9LwWfOD0M6r9Bwv9sPXy_riV0k1Sym4Y6qpmS0iOHRlFgSIwSsVSpp1Y"
+    },
+    {
+      "before_heading": "三、这件事最难的，不是做出来，而是做完整",
+      "media_id": "tBXovzgo9LwWfOD0M6r9B-Ho7wW6ENF6KPYWuYKu-oLacXHVhO93IfIbCtSYGXQB"
+    },
+    {
+      "before_heading": "四、我们已经不是在“做项目”，我们是在生产方法论",
+      "media_id": "tBXovzgo9LwWfOD0M6r9B15lCgpHg5Uftr5SWqKbuAIv0EWE-vcQuujx-vScp_re"
+    },
+    {
+      "before_heading": "五、单个 AI 不够，真正强的是顾问团",
+      "media_id": "tBXovzgo9LwWfOD0M6r9B0k8J195USgpj7n9jaobxlSoiMQKrPWHpnBy1R6tpE7l"
+    }
+  ]
+}

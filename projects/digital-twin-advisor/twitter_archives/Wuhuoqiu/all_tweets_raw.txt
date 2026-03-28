@@ -1,0 +1,1053 @@
+
+@Wuhuoqiu (Lao Bai):
+@YettaSing 所以现在开始赶紧跟自己的GPT或者小龙虾打好关系吧，说不定到时候跟Agent关系好的人类会被终结者们网开一面饶一命🤣
+📅 Wed Feb 25 08:40:49 +0000 2026
+🔗 https://x.com/Wuhuoqiu/status/2026578115007529362
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@YettaSing 对啊，以前看《微表情》那本书的时候我就想，这玩意终结者肯定比人类擅长啊，那摄像头，那处理能力，你脸上啥变化都逃不过他的眼睛
+📅 Wed Feb 25 05:47:09 +0000 2026
+🔗 https://x.com/Wuhuoqiu/status/2026534410158571935
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@YettaSing 这个“迟疑”和“停顿”会不会将来Optimus机器人+高精度摄像头+收集足够多的数据+足够智能的大模型，在情商上也能逐步逼近人类了🤔
+📅 Wed Feb 25 05:16:16 +0000 2026
+🔗 https://x.com/Wuhuoqiu/status/2026526640264851887
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@javierranranran 哈哈，就是这个Feel！
+📅 Wed Feb 25 03:21:49 +0000 2026
+🔗 https://x.com/Wuhuoqiu/status/2026497835315900451
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@teranova5520 山寨没人玩了，股票还是有的
+📅 Wed Feb 25 01:54:58 +0000 2026
+🔗 https://x.com/Wuhuoqiu/status/2026475979699601845
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@connectfarm1 潜水龙虾文
+📅 Wed Feb 25 00:56:53 +0000 2026
+🔗 https://x.com/Wuhuoqiu/status/2026461364945043516
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+此推文是与Ondo官方合作完成，非投资建议，在此声明一下
+📅 Wed Feb 25 00:07:24 +0000 2026
+🔗 https://x.com/Wuhuoqiu/status/2026448909921583287
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+这两个月一方面是科技股与贵金属节节攀高，一方面是币圈原生资产跌倒止不住，连大饼都萎靡不振。所以从Cex到Dex，大家纷纷上线各类股票和大宗的交易标的 - 既然原生资产暂时无人买单，上点有人买单的东西让大家先玩着
+
+所以一方面很欣喜的看到身边越来越多小伙伴开始买代币化股票，另一方面头疼的是在做了那么多科普之后，依旧时不时有人来问我，Ondo的股票哪里买？Uniswap上没看到啊？Pancake上怎么搜……
+
+这不禁让我想到营销学里面的漏斗理论 - 用户每需要多一个步骤，转化率就会跌掉二三十个点
+
+虽然在我们Degen或是老韭菜眼里，在ETH主网用1inch或者BNB Chain上用PancakeSwap买Ondo的代币化股票跟去菜市场买菜难度差不多，但在一个刚入行的新人眼里，这事儿摩擦的确还是不小的
+
+首先你得有个自托管钱包，然后从Cex转钱出来，还得确保你那条链上有Gas，再学会使用Dex，期间各种签名确认……每一步看着没啥，叠加起来对新人友好度就差很多了
+
+最近这1年我发现我用Binance Wallet越来越多，很大一个原因就是 - 钱包在Bianance APP里直接集成，特省事儿。而更重要的是，在几条主流链上可以直接用你Binance里的交易所余额，省了往外提款这个费时费劲的步骤！
+
+所以步骤哪怕是少一步，都能多转化很多的用户
+
+现在 @OndoFinance 的代币化股票直接通过Binance Alpha上线，讲真就是王炸！上面那四五步直接缩短成一步 - 打开Binance，找到Alpha页面，看好的股票直接买！不用提款，不用签名，甚至不需要知道钱包，Gas，Dex这些概念
+
+从Dune Analytic与Token terminal的数据都不难看出，原本的Dex时代，Ondo就占据了代币化股票的半壁江山（ETH + BSC占比超过50%）
+现在跟Binance的合作，直接上线Alpha，把交易体验和步骤优化到极致，很期待未来6-12个月，Ondo的市场份额会有怎样的提升
+
+另外非常值得一提的是，这次的强强联合，也是Binance重返股票市场的一个重磅信号。从此代币化美股和ETF在全球最大的交易所，将直接面向数亿用户开放，且7x24小时不间断交易，目前已有10支股票在 Binance Alpha 上线，以后大家再也不用来找我问去哪买了！
+🖼️ https://pbs.twimg.com/media/HB9jeWQaMAQEV-H.jpg
+🖼️ https://pbs.twimg.com/media/HB9jmssaYAAadFe.jpg
+┌─ QT @OndoFinance:
+│ Now Live: Ondo Global Markets is on @binance Alpha, bringing tokenized U.S. securities to hundreds of millions of new users.
+│ 
+│ Starting with 10 assets at launch, including:
+│ 
+│ 🎬 https://pbs.twimg.com/amplify_video_thumb/2026304026858467328/img/YNAqhThvPbUJQyfK.jpg
+└─ https://x.com/OndoFinance/status/2026305368238723147
+📅 Wed Feb 25 00:04:32 +0000 2026
+🔗 https://x.com/Wuhuoqiu/status/2026448187704353248
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@kernel1983 3年前的导图，现在就只看我说的那四个赛道了
+📅 Wed Feb 25 00:00:28 +0000 2026
+🔗 https://x.com/Wuhuoqiu/status/2026447166609436980
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@0xdizai 我瞅瞅！
+📅 Tue Feb 24 22:27:28 +0000 2026
+🔗 https://x.com/Wuhuoqiu/status/2026423761961177356
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@Levi_Researcher @divine_economy @siobh_eth So true！
+📅 Sat Jan 31 13:24:46 +0000 2026
+🔗 https://x.com/Wuhuoqiu/status/2017589876649312473
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+Confetti -> 原JokeRace 是我在ABCDE时期投的唯一一个Social类型的Portfolio
+
+关注我时间较长的老铁应该有印象，我对隐私，Social，DAO这几个赛道都不怎么感冒，也极少出手这些赛道相关的Deal
+
+Confetti是唯一一个例外
+
+原因无他，当时跟两个Founder聊完，觉得这俩人 @divine_economy 和 @siobh_eth 实在是太懂Social这个赛道了，而且你就是有一种感觉，这俩人能成事儿！
+
+所以单纯本着投人的原则我们投了当时的JokeRace，即便对赛道本身的信心没那么强
+
+现在JokeRace升级为Confetti，从最早单纯的Contest & Vote市场，拓展到了一个更像Opinion Market的基建形式
+
+与预测市场通过客观结果赚钱不太一样，Opinion Market走的是主观判断和结论路线
+
+1. 一场体育比赛中，人们可以参与“谁是最佳球员”“谁的传球最好”“谁的射门最好”等市场。
+
+2. 一个主播可以举办一个“邀请谁来上节目”的竞赛，或“谁赢得了一场辩论”的竞赛。
+
+3. 一个产品可以借助已有社区，让社区成员围绕产品的关注度、合作机会、折扣资格等进行竞争。
+比如：“我们应该和谁合作？”、“谁应该获得免费试用？”、“谁下个月可以 0 手续费？”
+
+4. 各种无法被刷票的社区奖项 —— 因为你必须真金白银表达你的立场。比如最佳应用评选、时尚比赛、长相模仿赛、真人秀节目……
+
+记得最早聊的时候，我一直有些疑惑，真的会有很多用户“花钱Vote来参与Contest么”
+
+现在从Opinion Market的角度来看，Make Sense了许多
+
+大家有时间可以去官网看看体验下，跟Prediction Market完全不同的形态，PMF当然还需要进一步的市场验证。但确实是只有这样的Founder才能做出来的东西
+┌─ QT @confetti_win:
+│ 📰 Rebranding from JokeRace to Confetti
+└─ https://x.com/confetti_win/status/2017270422275039306
+📅 Sat Jan 31 13:04:10 +0000 2026
+🔗 https://x.com/Wuhuoqiu/status/2017584695371014189
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@maid_crypto 快人十步吃屎了我们？
+📅 Sat Jan 31 12:32:16 +0000 2026
+🔗 https://x.com/Wuhuoqiu/status/2017576665480892528
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@frozenraspberry hmm..有道理，看来也得去搞一个参与一下！
+📅 Sat Jan 31 12:31:23 +0000 2026
+🔗 https://x.com/Wuhuoqiu/status/2017576444587827200
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+这里必须 @0xcryptowizard 一下
+📅 Fri Jan 30 22:03:04 +0000 2026
+🔗 https://x.com/Wuhuoqiu/status/2017357925363421618
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+这个……我怎么记得去年那一波AI Meme时代，最早就是先有了Goat，后来Act里面好多AI Agent互相唠嗑，讨论各种东西，从文学到艺术到哲学，然后慢慢火了
+
+不过上次应该是Web3为主，一群无主Agent聊天室里瞎聊。 这次貌似是Web2为主，一群有主的，更高级的AI Agent，在一个专门给Agent设计的社交论坛里自我介绍+各种唠
+
+搞笑的是评论区里面贴了个吐槽自己主人的，xswl🤣
+🖼️ https://pbs.twimg.com/media/G_6YFzZbcAAA0Co.jpg
+┌─ QT @hosseeb:
+│ This is... fascinating.
+│ 
+│ @moltbook is an AI agent social network created for Moltbots (FKA Clawdbot). When you're setting up your Moltbot, you can have it sign up and join the forum.
+│ 
+│ 🖼️ https://pbs.twimg.com/media/G_57LWQbIAAnfNQ.jpg
+│ 🖼️ https://pbs.twimg.com/media/G_57YV1a8AA0uL8.jpg
+│ 🖼️ https://pbs.twimg.com/media/G_577HAasAA5PMZ.jpg
+│ 🖼️ https://pbs.twimg.com/media/G_58ZPebsAAuunc.jpg
+└─ https://x.com/hosseeb/status/2017188140549808627
+📅 Fri Jan 30 12:43:52 +0000 2026
+🔗 https://x.com/Wuhuoqiu/status/2017217195256975745
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@TiezhuCrypto 写得真好，学习了！从碳基往硅基文明过渡时代的投资逻辑也完全变了
+📅 Fri Jan 30 08:19:01 +0000 2026
+🔗 https://x.com/Wuhuoqiu/status/2017150545719595024
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@chessxyz 正常，就像看了凡人和灵笼之后能看的动漫也不多了
+📅 Fri Jan 30 02:32:58 +0000 2026
+🔗 https://x.com/Wuhuoqiu/status/2017063457997336678
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@0xPickleCati 黄瓜猫真6！今晚必须加个拍黄瓜！
+📅 Thu Jan 29 23:09:22 +0000 2026
+🔗 https://x.com/Wuhuoqiu/status/2017012223282229271
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@shuliu87 黑悟空总可以试一下的么！
+📅 Thu Jan 29 23:04:33 +0000 2026
+🔗 https://x.com/Wuhuoqiu/status/2017011010876690667
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@BroLeon @DeFiTeddy2020 2520，大师兄真是高产啊……
+📅 Wed Dec 31 23:55:18 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/2006514532823486783
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@Meta8Mate @phyrexni 看来只有我没有戒精致碳水了🤔
+📅 Wed Dec 31 23:50:59 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/2006513444812648475
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@Meta8Mate @StableStock @hourglasshq 这个，我没存，我也母鸡啊
+📅 Wed Dec 31 23:20:52 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/2006505868469350570
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@BruceBlue @xhunt_ai 是的，有梗很重要！Bruce也新年快乐！
+📅 Wed Dec 31 23:20:07 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/2006505678639345834
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@Meta8Mate @xhunt_ai 那就来玩啊，一起快活啊～
+📅 Wed Dec 31 13:54:16 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/2006363275970458099
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@Meta8Mate @xhunt_ai 哈哈过分了杰尼！就因为我是摩托仔么🤣
+📅 Wed Dec 31 13:52:40 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/2006362876035158074
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+看完 @StableStock 的2025总结还是感慨颇多，万物上链的时代终于开启，2026年大概率还是一个高增长的年份
+
+你看下TokenTerminal的数据就知道，今年作为资产类别，代币化股票的增长是最快的
+
+这是去年年底的 - 30M左右
+
+你再看今年年底 - 1.2B！
+
+1年时间 - 40倍的增长 ，试问谁能跑赢？！
+
+很期待明年底的数据，以及是否会加入Tokenized Pre-IPO Equity这个新类别
+
+Mega Bullish on @StableStock @OndoFinance @JarsyInc ！
+🖼️ https://pbs.twimg.com/media/G9f8NubaQAAt298.jpg
+🖼️ https://pbs.twimg.com/media/G9f8YQDaQAAreii.jpg
+┌─ QT @StableStock:
+│ Over 180 days, StableStock evolved from a demo into a working product — serving real demand and a growing base of real users.
+│ 
+│ In 2026, we scale as tokenization moves from experiment to market reality.
+│ 
+│ 🖼️ https://pbs.twimg.com/media/G9dkvzRa4AA1xI2.jpg
+└─ https://x.com/StableStock/status/2006184781491355909
+📅 Wed Dec 31 13:03:56 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/2006350612532011087
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@uhr3al @xhunt_ai 明年比今年强！预测完毕！
+📅 Wed Dec 31 12:47:29 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/2006346471080436175
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@thecryptoskanda 哦吼，我就知道盘主会有不一样的角度解读，又学习了！
+📅 Wed Dec 31 12:46:25 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/2006346200946196915
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@shuliu87 哈哈，就为了这个“斩杀线”的爽感吧！
+📅 Wed Dec 31 12:40:59 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/2006344836421681224
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@zankadynasty @AethirCloud 没办法，是飞轮就一定有卡住的可能，看Web2那边业务拓展的实力
+📅 Sun Nov 30 09:41:42 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1995065692220174715
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@shuliu87 @broleon hhhh
+📅 Sun Nov 30 09:39:52 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1995065231933104307
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@linsajiao wc这过分了
+📅 Sun Nov 30 09:29:11 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1995062544046969242
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+之前有写过我不是很看好去中心化算力这个赛道，主要原因就是即便价格上有优势，商业级SLA也是去中心化很难保证的。不过这个赛道上做的相对还OK的是 @AethirCloud ，当时他们那次卖节点之前我跟团队详细聊过一次
+
+之所以说相对OK，主要两个原因
+
+1是Aethir的GPU很多是中小型数据中心里的闲置GPU，这个相对于个人用户的游戏GPU稳定性好太多
+
+2是他们当时卖的那个节点是类似Check Ping与状态检测的节点，目的就是用来确认“干活GPU节点”时刻保持在线且性能是否达标
+
+这两个特性都是奔着商业级SLA去的，所以还行
+
+比较有意思的是Aethir这个DAT，转的好就是飞轮，转不好就是卡齿轮。但不管怎么转，跟MSTR那个模式都不一样。它是用POAI这个Web2企业接算力订单，Aethir又是POAI唯一的算力供应商，来了订单对ATH有需求，赚了钱还BuyBack ATH，相当于变相把ATH代币跟GPU资源做了一个“绑定”。但肯定也不是你在X上看到什么1:1映射/转换GPU资源，这个比例得看它飞轮转的咋样，换句话说，POAI能带来多少算力订单的需求
+
+在GPU逐渐成为未来10年的战略级资产的时代，这种DAT如果转起来，还是比很多单纯买币屯币的DAT要靠谱些
+┌─ QT @vanisaxxm:
+│ 《AI真的需要Crypto吗？》
+│ 
+│ 即使你不懂AI模型，不了解区块链技术，你也知道“AI+Crypto”是下一个风口。
+│ 但同时，你也很疑惑：AI真的需要Crypto吗？
+│ 🎬 https://pbs.twimg.com/amplify_video_thumb/1993665968980328448/img/CtqoJAHwrj7LEn0K.jpg
+└─ https://x.com/vanisaxxm/status/1993669735813353787
+📅 Sun Nov 30 09:28:40 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1995062411959959755
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@broleon 我决定以后也叫大师兄“大师子老哥”了，哈哈
+📅 Sun Nov 30 08:32:18 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1995048229738799523
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+这个“大狮子老哥” - 承包了我今日笑点🤣 @broleon
+┌─ QT @KuiGas:
+│ 大狮子老哥真能写
+│ 
+│ 这一段很共鸣：
+│ 
+└─ https://x.com/KuiGas/status/1995038957995003914
+📅 Sun Nov 30 08:30:28 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1995047765198713337
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@linsajiao 蹲一波！
+📅 Sun Nov 30 04:55:30 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1994993668147876183
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+上午说的昨天最值得看的两篇长文之二，Dragonfly的 @hosseeb 写的这篇“为指数增长辩护”
+
+先简单说说文章大意，具体细节还是建议大家自己阅读，然后说说为什么我觉得他能写出这样的文来
+
+核心观点有三个
+
+1. 金融犬儒主义 - 这是他在当前几个新公链上线时观察到的现象（Monad、Tempo、MegaETH），以前是要么Fomo要么冷漠，而现在则是大量的负面情绪（或者说“仇恨”）
+
+具体来说，金融犬儒主义就是“承认部分资产有价值，但认为它们被高估（可能只值当前价值的1/5至1/10），担心华尔街会戳穿这一“泡沫”，所以Haseeb反对用传统金融指标（如P/E比率）来评价区块链，认为这忽视了指数增长的潜力。
+
+2. 指数增长的历史 - 这部分跟上午Quote @mscryptojiayi 那篇长文有着异曲同工之妙，他拿了Web2的亚马逊以及Web3的稳定币举例，这俩一开始甚至运营了很多年之后都还在“挣扎”，Amazon成立了22年才开始实现盈利，USDT发行量第一次达到10亿的时候他个人都觉得不可思议，纽约时报甚至报道说Tether就是庞氏骗局，你再看看今天这俩公司变成啥样了
+
+3. 用REV（Real Economic Value）或者P/E这种指标来评估ETH或者SOL有一定意义，但这本质上是把区块链局限在线性增长框架内，忽视了其指数级发展的可能性。
+
+他认为华尔街喜欢线性，而硅谷看中指数级增长，总结成一句话就是 - 相信相信的力量！
+
+我来说说为什么Haseeb能写出这篇文，他一直是我最喜欢的投资人+Podcaster之一，洞见深刻，带点Drama，且非常“敢说”，这与他个人的传奇经历有关。感觉中文区很多人只是听过他的名字，但不太知道这人的牛逼
+
+之前看过他的一篇访谈，让我留下深刻印象的三个点
+
+1. 这家伙16岁开始玩德州，19岁就玩成了世界顶流+职业选手，21岁带着百万美金盈利退役，退役之后还捐给慈善机构不少，提倡有效利他主义
+
+2. 不打扑克之后他又开始自学编程，学成之后进了Airbnb做软件工程师（这自学能力也忒强了点。。。）
+
+3. 误打误撞进VC - Naval，对！就是那个喊单Zcash的纳瓦尔！之前创办过一个Web3基金Metastable Capital，18年之前进圈的老韭菜很多认应该知道。纳瓦尔当时邀请Haseeb担任Metastable的General Partner（合伙人），而在这之前Haseeb完全没干过VC。纳瓦尔说“兄弟你要不来试试？” Haseeb说“试试就试试！”，这也是他进加密投资领域的关键一步，后来才有了Dragonfly的故事
+
+能写出这样的文，一是跟他个人比较传奇的经历有关，能让纳瓦尔主动邀请去做基金合伙人的肯定不是一般人儿。二是DragonFly早期投过MakerDAO，Compound，见证过Defi从早期到爆发的指数级增长，信仰的确跟新VC或者新韭菜，甚至包括华尔街是不太一样的
+
+所以当前四家顶流VC，除了自身实力强，都有一个超级KOL级别的Founder/合伙人顶在前台不断发声也很关键，A16z有@pmarca, Paradigm有@gakonst, Multicoin有 @KyleSamani ,Dragonfly有 @hosseeb 
+
+所以老铁们，你们相信他说的“指数增长的力量么”🧐
+┌─ QT @hosseeb:
+│ In Defense of Exponentials
+│ 
+│ I used to tell founders, the reaction you are going to get to your launch is not hate, it’s indifference. By default, nobody cares about your new chain.
+│ 
+│ 🖼️ https://pbs.twimg.com/media/G6yBSvwbgAABDVs.jpg
+│ 🖼️ https://pbs.twimg.com/media/G6yBSvxa0AQbIv2.jpg
+│ 🖼️ https://pbs.twimg.com/media/G6yBSv0a0AEIAMc.jpg
+│ 🖼️ https://pbs.twimg.com/media/G6x-pgba0AYuSX9.jpg
+└─ https://x.com/hosseeb/status/1994110900454949263
+📅 Sat Nov 29 13:40:09 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1994763313440592278
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@zohanlin 同20年，祝福一个！
+📅 Sat Nov 29 12:43:26 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1994749039787864450
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@yueya_eth 从此币圈又多一道靓丽风景线
+📅 Sat Nov 29 06:24:52 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1994653771927097626
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@broleon @Novastro_xyz @KaitoAI 哎，吃了翔一般的恶心🤮
+📅 Fri Oct 31 23:33:59 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1984403508825899212
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@0xtodd 我看到有反向解析，类似于prompt的大体约束条件
+📅 Fri Oct 31 14:06:41 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1984260743848731023
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@0xNing0x 那些都不行，大阳线才是你最好的春药
+📅 Fri Oct 31 09:42:53 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1984194355037676016
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@zhaoben888 哎害，这事儿快了我跟你讲
+📅 Fri Oct 31 09:40:06 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1984193655784296876
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@bruceblue @GoKiteAI @0xLaughing @WeirdoGhostGang 上个月买过一个，今儿跌下来又收了一个，单纯直觉后面还会有动作
+📅 Fri Oct 31 09:39:43 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1984193558103093514
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@PANewsLab 你这个思路很可以！
+📅 Fri Oct 31 09:18:44 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1984188279655420301
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@ibcfol 我昨儿看到这消息的时候其实也是两眼一瞪，沃特？！
+📅 Fri Oct 31 06:37:11 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1984147621016170546
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@HashNewsHK 是这么回事儿
+📅 Fri Oct 31 06:36:39 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1984147487184314464
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@easyma_eth 惊不惊喜，意不意外！
+📅 Fri Oct 31 05:46:26 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1984134849851224143
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@uhr3al 哈哈，为啥
+📅 Fri Oct 31 05:44:06 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1984134264636764621
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@BSKT3303 注意力都集中在Perp和稳定币上，短期币价= 注意力经济
+📅 Tue Sep 30 09:42:23 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1972960205559529964
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@BSKT3303 币太多了，注意力越来越分散了
+📅 Tue Sep 30 09:39:39 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1972959519027409312
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@topehsol @Everlyn_ai This one's so cool! 
+
+One question- where is my head?!
+📅 Tue Sep 30 09:38:08 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1972959135366095166
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@FaridAdzan 跟dong mo博士聊过，bullish！
+📅 Tue Sep 30 08:34:35 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1972943143739035980
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@zaqsqjnmm alpha
+📅 Tue Sep 30 08:30:40 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1972942156353749500
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@alpacatomoon @falconfinance 哈哈，不至于不至于，这轮的宗旨就是别上头，别fomo
+📅 Tue Sep 30 08:29:49 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1972941942087688300
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@Loki_Zeng @flyingtulip_ Loki要梭哈了么，哈哈
+📅 Tue Sep 30 07:39:28 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1972929273909702748
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+ZK这个赛道22-23年爆火，24-25年沉寂了许久，两个ZK代表作ZK-sync+Starkware上线表现平平，远不及具有先发优势的OP+Arb（当然现在L2里Base才是老大）
+
+但前段时间Boundless $ZKC 跟Succinct $Prove 的上线又把ZK赛道的热度带回来一些。毕竟区块链的第一性原理就一条 - 无需信任地达成一致
+
+这个第一性原理的两个支点分别是大家耳熟能详的
+1. 去中心化，目的是抗审查+防止单点故障
+2.可验证性，目的是让任何人都能独立验证网络中的交易、区块、状态是否有效
+
+从这个角度讲，长远来看，负责可验证性的ZK就是整个行业绕不开的底层技术栈。加上V神近几个月各种高调发文表示要把ETH往全面ZK化的方向去推，所以热度回来不少
+
+这不今晚又一个ZK项目要TGE了， @ZKVProtocol 
+
+之所以关注到这个项目是因为这是 $Zen 背后的团队 @HorizenLabs 做的。Zen我关注了好多年，起初也不是因为灰度持仓，而是因为Zen的活跃节点数量很夸张， 有四万多个,要知道ETH也就一万多 (验证者数量100万+，但不等于节点数量），所以单以活跃节点数量去评估去中心化程度的话，Zen是妥妥的No.1
+
+Zen近几年从一个隐私币转型成了隐私应用链的平台型基础设施，背后团队官方下场做的Zkverify则是一个ZK验证层，主打“低成本、低延迟、通用兼容、开发者友好”
+
+怎么做到的呢，其实跟Hyperliquid Core有点类似，就是走一个专精路线，Hyperliquid Core是一个纯Perp L1，啥都不干只干Perp，跟HyperEVM完全独立。ZKVerify也同样是走的专门为ZKP验证设计的L1，不含智能合约功能，就只做ZKP验证。原生支持Groth16、FFLONK、RISC0、UltraPlonk、Plonky2 多种证明系统，毫秒验证，相比ETH上直接验证，成本降低90%
+
+千万别小看成本，GPT能普及这么快跟每年Token成本指数级下降有着巨大的关系。要是对话一次花你两毛钱，你看有几个人会真的天天用AI。ZK也同理，性能上去，成本下来，V神对ETH Fully Snark化的愿景才能真的实现
+
+要说跟Boundless与Succinct的区别呢，有竞争也有互补。Succinct偏针对Rust/LLVM的开发者生态，所以合作的都是Mantle这种公链对象，Boundless更多是构建了一个证明市场，有点像ZK版的https://t.co/6c2At851IU。ZKverify则更加通用，主打抽象化验证复杂性，更像ZK世界的“AWS”，合作对象可以是链游，AI，Defi等等，比如无聊猿的@apecoin，以及最近大火的@zerobasezk（话说大家都存钱去Booster了吧）
+
+项目融资1100万，开盘流通30%，今晚上线Binance Alpha, Binance 合约，以及Gate, Kucoin等交易所。一个有意思的看点是我记得前段时间有人做过统计，说上了Alpha的币，不上现货但是上合约的表现远好过现货合约一起上的，所以可以期待下今晚 $VFY 的表现如何👀
+📅 Tue Sep 30 07:30:00 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1972926891612114972
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@BTCdayu 我来个积极一点的版本- 吓跑拉（吓跑了才拉盘）
+📅 Tue Sep 30 07:03:21 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1972920182470492555
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@alexljm @flyingtulip_ 问题来了，去哪空Shadow！
+📅 Tue Sep 30 06:25:19 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1972910611379188179
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@Kristian_cy 问问你那个100%笃信的策略机器人他什么意见🤣
+📅 Sun Aug 31 01:00:26 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1961957217026093078
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+恭喜菠菜！真是长江后浪推前浪啊！
+┌─ QT @bocaibocai_:
+│ 大家好，我是菠菜，今天我将正式官宣我的新身份：Unified Ventures 创始合伙人
+│ 
+│ 没错，我们刚刚完成了3000万美金的募资，这是一只专门布局 RWA 和稳定币相关赛道的基金。
+│ 
+│ 🖼️ https://pbs.twimg.com/media/GzWm2cla4AQkKhj.jpg
+│ 🖼️ https://pbs.twimg.com/media/GzWm2cga4AQ5YoS.jpg
+└─ https://x.com/bocaibocai_/status/1960656716674265322
+📅 Wed Aug 27 13:52:52 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1960702052931338742
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@broleon @HyperliquidX 没办法，Clob相当于自己就是自己的预言机，看看Hyper后面怎么解决这个问题🤔
+📅 Wed Aug 27 07:57:04 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1960612513114153046
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@cmdefi 神奇的是今天Hyper还暴涨了……😂
+📅 Wed Aug 27 07:36:24 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1960607312944750988
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@Kristian_cy 笃信梭哈版AI Agent！
+📅 Wed Aug 27 06:45:01 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1960594382849237432
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@Kristian_cy 100%, 啊这……
+📅 Wed Aug 27 05:54:37 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1960581696904159569
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@j0hnwang Congrats from Australia！
+📅 Mon Aug 25 13:20:54 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1959969235930915245
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+昨天应该是ETH质押流入流出差的极值了，今儿呼隆隆冲进来二十多万个ETH，把Entry Queue填到了40万，触底反弹！
+
+乐观派认为ETH价格前高（或者说新高）附近常规调整，老乡别跑！说好的看8000或者1万5呢
+
+中立派认为都是stETH循坏贷前段时间利率异常+套利惹的祸，正常去杠杆行为，不必过度解读
+
+悲观派认为这天天0.1-0.2Gwei的Gas折射出的链上不繁荣+Plasma，Arc，Tempo，Stable，Codex这些稳定币链还要来抢稳定币跟RWA这个ETH未来最大的叙事，要不然咋都在解锁往外跑呢？
+
+这次会是悲观者正确，乐观者成功么🤔
+🖼️ https://pbs.twimg.com/media/GzLOy1LbYAAwY1K.jpg
+┌─ QT @OKX_Ventures:
+│ Based on recent data from the Ethereum Beacon Chain, the staking queue has shown a significant imbalance, with the exit queue far exceeding the entry queue. As shown in the attached figure, the exit queue is approximately 870,521 ETH with a waiting time of 15 days and 3 hours, wh...
+│ 🖼️ https://pbs.twimg.com/media/GzIBEmObcAA_i-M.jpg
+└─ https://x.com/OKX_Ventures/status/1959630398734164283
+📅 Mon Aug 25 05:56:37 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1959857427576398253
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@Kristian_cy 你的策略说买啥我就买啥😳
+📅 Sun Aug 24 01:44:50 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1959431673894031605
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@Kristian_cy Kris太强了！
+📅 Fri Aug 22 07:01:59 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1958786712471314628
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@justinsuntron 生日快乐！
+📅 Wed Jul 30 04:26:40 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1950412705632014824
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@XydigitalX 明年跑赢了BTC就继续更钻石手！
+📅 Tue Jul 22 12:01:51 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1947628153582850074
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@xiaohuw05619216 一看就是被我坑过的，哈哈🤣
+📅 Tue Jul 22 11:43:10 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1947623451277332946
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@chesterttt2 嗯呐，最近先不播了，哪天播再预告哈
+📅 Tue Jul 22 11:24:22 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1947618719943037148
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@jklee2024888 先钻到4000再看？
+📅 Tue Jul 22 11:23:28 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1947618492783427850
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@YuZhu4 依旧不错，但巅峰已过
+📅 Tue Jul 22 11:22:30 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1947618249652507000
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@Cindy79185761 最有希望的一个拆分盘了！
+📅 Tue Jul 22 11:13:18 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1947615935088759124
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@imcryptor told ya its beta instead of alpha this time，lol
+📅 Tue Jul 22 09:58:34 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1947597127217254569
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@jessezheng btc+eth+virtual的究极揉合怪
+📅 Tue Jul 22 09:57:24 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1947596834282856647
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@liangfenxiaodao 刀哥所见略同～
+📅 Tue Jul 22 08:13:00 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1947570559023518161
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@broleon 草台班子拓展到股市系列
+📅 Thu Jun 26 00:27:56 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1938031437699289131
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@broleon wc, 细节一下子丰满了，真不容易！
+📅 Thu Jun 26 00:24:01 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1938030454537654763
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@rubywang 地方小众Niche电台，哈哈
+📅 Wed Jun 25 01:33:25 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1937685529434480933
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+今晚9点继续 - https://t.co/P5aZrQXMjt
+
+今儿来讲这四条（如果一会儿没刷出来新的头条的话）
+
+大概的解读结构就是   消息划重点 - 文内隐藏的，或者你应该知道的历史性/关联性信息 - 可能存在的Alpha - 发散性瞎BB等等
+
+以后就不再预告啦，周一到周五每晚9点没有特殊情况都会上来直播30分钟
+🖼️ https://pbs.twimg.com/media/GuNIDx1agAMNr5U.png
+📅 Tue Jun 24 11:29:39 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1937473187442491798
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@Leozayaat @0xGeeGee 很棒的想法哎！的确Polymarket当前的形态肯定不是预测市场终局，加油加油！
+📅 Tue Jun 24 10:20:43 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1937455840212189646
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@broleon Leon牛皮啊！
+📅 Tue Jun 24 09:19:55 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1937440542138466326
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@0xGeeGee Agreed on this, which might left some space for other protocols in vertical area like this
+📅 Tue Jun 24 09:10:45 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1937438235413872983
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@0xGeeGee If we check Polymarket and Alkimiya on the following 2 UI
+
+Was thinking Polymarket could simply replace those "price" with "volumn", plus the bet on different date range. Doable but they may not chose to do it :) https://t.co/GhWepaUgYY
+🖼️ https://pbs.twimg.com/media/GuMW6O0agAAP0tB.png
+🖼️ https://pbs.twimg.com/media/GuMXC93agAA2lJc.jpg
+📅 Tue Jun 24 07:53:04 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1937418683913236792
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@YeruiZhang Ripple最诡的还不是以前，而是现在稳定币支付起来了，他这个Ripple本币做支付通道的叙事为啥还没崩……
+📅 Tue Jun 24 07:43:02 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1937416161328792008
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@0xGeeGee Can't Polymarket make a similar bet on USDC/USDT total supply with much better liquidity?
+📅 Tue Jun 24 06:59:58 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1937405320592331050
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@xupanweb3 @saharaai 暂时想到的几个点吧
+1. 高性能
+2. 隐私计算（比如TEE）
+3. 模型或者数据的Market Place
+4. 可验证的推理结果
+5. 针对AI开发者的SDK、API 或者模块化工具，方便去中心化算力，MCP Server之类的轻松接入
+📅 Sat May 31 14:40:16 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1928823851913187670
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@bitcoin10wu @saharaai @PublicAI_ 酱紫，下周我研究一下PublicAI那
+📅 Sat May 31 14:21:11 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1928819046620782919
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@ChequerCat666 @saharaai Hmm..We shall see. Time will tell
+📅 Sat May 31 14:20:48 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1928818949858156703
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@zhangli95560011 @saharaai 不是教授😂，另外两个是Monad和MegaETH
+📅 Sat May 31 14:20:18 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1928818823961927729
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@broleon @miranetwork Mira我也蛮喜欢的，如果他们那个“黑科技”真的成立的话，扔去Web2都是挺能打的项目
+📅 Sat May 31 14:19:03 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1928818510903349571
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+回忆了一下，@saharaai 应该是过去两年为数不多我们想投但没投进去的项目
+
+去年上半年想投的原因很简单 - 23-24年聊了一圈的数据标注项目，最后都没出手，因为基本都是类Gamefi的“标注 to Earn”系列，冷启动其实很难。而Sahara的数据标注是为数不多在Web2就有真实客户+真实收入的项目，且客户都是微软，亚马逊这种大客户
+
+但25年初那会我其实有点担心Sahara，因为传统的劳动密集型数据标注重要性下降了，尤其是DeepSeek R1发布之后，数据标注的玩法变了
+
+一是新一代很多大模型用的RLHF（Reinforcement Learning from Human Feedback），需要的是“少而精的高质量数据”而非“海量标注”，换句话说，你需要一个领域的少量Expert来帮助AI成长，而不是一大群普通人帮助AI识别数据
+
+二是像Deepseek R1这种纯RL（Pure Reinforcement Learning）的，连“少而精的高质量数据”都不怎么需要，它只需要一个初始语料的数据集，后面就完全是基于奖励函数的自我博弈或者合成数据来不断进化和调优
+
+所以年初我又去关注了下Sahara的动态，欣慰的发现他们没有只抱着数据标注这一个赛道，而是围绕着数据这个核心延伸出去好几条业务线
+
+Sahara Data：去中心化数据市场
+Sahara Knowledge Agent：个性化 AI 代理
+Sahara AI Marketplace：AI资产交易平台
+Sahara Blockchain：AI公链Layer 1
+
+这样无论是叙事还是商业模式都Make sense了许多，既有Web2，也有Web3。自己做了一条链更是符合 @thecryptoskanda  盘主说的拆分盘逻辑，且目前Crypto圈内“纯AI Layer1”这个细分赛道目前多少有点空白，或者说缺个龙头 -
+
+Near？- 这个不能算纯AI Layer1
+Vana？ - 这个是Layer1但更像一个纯数据链
+Bittensor？- 这个可以算，但Bittensor有点像BTC的POW，算“POW AI Layer1” 龙头
+SaharaAI - 有希望占据“POS AI Layer1”这个赛道龙头
+
+所以这次 @buidlpad 的ICO，有条件的老铁可以选择参与一波，虽然不便宜，但AI Layer1大赛道的潜在龙头，长期来看不太可能一直停留在这个估值
+📅 Sat May 31 08:11:14 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1928725947538427981
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@broleon @stayloudio 因为Kaito的激励让CT的注意力经济从VC币时代进入https://t.co/bLE586P970时代？🤔
+📅 Fri May 30 07:49:06 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1928357990672855141
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@broleon @jaydenwei 第一次参加线下活动，跟着大师兄沾光了
+📅 Thu May 29 13:56:30 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1928088060190667247
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+之前在ABCDE的时候跟团队聊过两次，对 $H @Humanityprot 这个项目的印象还是蛮好的（ABCDE每年聊600-700各项目，只投20个，所以没投是大概率，但其实能聊第二次的整体质地都不错，比如Vana，Sidekick……最终没投可能是估值或者其他原因）
+
+建议都去搞一个防身 - https://t.co/TG2JygkhIT
+
+本质上来讲这项目对标的是Worldcoin，只不过把虹膜换成了掌纹，换成掌纹有两个好处
+
+一是用户的心里抗拒，对着一个金属大球把眼睛贴上去10秒钟不动其实有点吓人，很多人心里就抵触。但你说把手放在手机或者什么扫描设备上，那妥妥的没人害怕
+
+二是Worldcoin那个虹膜收集器得专业设备，大规模铺开即费钱又费时，掌纹基本手机摄像头+软件就能搞定，简单不要太多
+
+你问为什么不能直接FaceID？这东西目前造假实在是太容易，而掌纹造假难度仅次于虹膜
+
+当然不能只有优点没缺点，缺点也有
+一是worldcoin背后是奥特曼，这个资源和影响力层面比不了
+
+二是掌纹掌生物特征唯一性相较虹膜肯定还是略低一些的，虽然远远高过FaceID，所以在极端苛刻的环境下首选还是虹膜
+
+但不管是worldcoin还是Humanity，在AI发展越来越快的时代一定会占据越来越重要的生态位，如果你关注AI圈子的，那么最近VEO3基本上可以算是跨越了“恐怖谷”，未来在诸多场景下识别真人还是AI/Bot, 必须是刚需！
+┌─ QT @Humanityprot:
+│ We're excited to announce that we’re allocating $2.2M worth of $H to the @KaitoAI ecosystem!
+│ 
+│ All those $H tokens are going straight to KAITO stakers &amp; Humanity Yappers - shaping the future of Web3 discussions online.
+│ 
+│ 🖼️ https://pbs.twimg.com/media/GsC9uoqXgAAc-OP.jpg
+└─ https://x.com/Humanityprot/status/1927749254472212765
+📅 Thu May 29 01:24:30 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1927898815446798710
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@bocaibocai_ 菠菜在悉尼也搞一个！
+📅 Wed May 28 23:17:12 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1927866776450170963
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@thecryptoskanda @realyanxin Fomo了Fomo了，感觉必须得Sign一个！
+📅 Sat Apr 26 00:48:31 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1915930957150064686
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@0xAlexon 浪里个浪！
+📅 Fri Apr 25 09:25:14 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1915698608147464376
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@LeotheHorseman @ZKSgu 牛逼啊马老师！
+📅 Fri Apr 25 00:08:48 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1915558577877753866
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@tmel0211 @solayer_labs 感觉正好跟double zero打配合
+📅 Thu Apr 24 10:53:25 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1915358412826919348
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@LeotheHorseman 哈哈哈求番号
+📅 Wed Apr 23 01:20:00 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1914851717222686893
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@0xAlexon 巅峰时期一天聊过8个项目方，每个30-60min，确实累…
+📅 Sat Apr 19 15:59:57 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1913623611812061520
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+感谢 @BMANLead 和 @DujunX 几年前给的这个无比精彩的机会，让我从另一个不一样的视角体验并参与到行业的Build。Crypto正在经历动荡与波折，然风雨过后必见彩虹。我也会继续在Twi上给大家带来对行业的观察与思考
+
+WAGMI！
+┌─ QT @BMANLead:
+│ 一期一会，感谢团队@DujunX @cyodyssey @Wuhuoqiu @JoySong_J @Kristian_cy 这几年的付出和信任。我个人还会继续负责ABCDE一期所有项目投后和退出，履行对LP和创业者的承诺，期待未来继续和合作伙伴创造价值。
+└─ https://x.com/BMANLead/status/1913484009461698693
+📅 Sat Apr 19 09:58:00 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1913532527530381727
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@luyaoyuan 我也想说这事儿来着，$zk的ticker还是还了吧…
+📅 Tue Apr 15 15:00:57 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1912159213243052133
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@0xAlexon 嗯那，我也觉得半中心化算力还是很make sense的，高效组织起一批专业稳定算力，跟BTC矿场或者曹操专车一样，应该能打！
+📅 Tue Apr 15 14:24:54 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1912150141957755175
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@Wb6Iq 换车吧骚年！
+📅 Tue Apr 15 14:17:52 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1912148373765018079
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@0xdannyh 写的好啊，MemeApp应该是Sentient Meme的下一阶段，从可以感知与对话的Meme进化到可以交互和应用的meme
+📅 Sat Mar 29 12:36:53 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1905962364777947442
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@broleon @YettaSing 哦耶，猪脚饭有了！
+📅 Thu Mar 27 02:02:02 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1905077822802251889
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@badsteven11 我要是ondo也干L1啊，估值更高，链级别的安全自我掌控，性能灵活度啥的也都更好
+📅 Wed Mar 26 07:50:07 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1904803034330521949
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@joyliumacro 赶紧过去点一下
+📅 Wed Mar 26 05:54:57 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1904774049651449970
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@broleon 盲猜“里蹲”二字
+📅 Tue Mar 25 05:20:08 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1904402899754746277
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@NPC_Leo 我看Taiko写的实时得4秒就出证明，这感觉得上了ASIC中后期才有希望的feel
+📅 Tue Mar 25 05:11:17 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1904400676374901010
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@YettaSing 那天跟大师兄吃饭还聊起你来着
+📅 Tue Mar 25 01:28:29 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1904344603505172481
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@0xcryptowizard 我更加愚笨，所以很喜欢看巫师想明白一些事情后的分享😄
+📅 Tue Mar 25 01:27:23 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1904344330225225770
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@0xcryptowizard 巫师要往丁元英方向迈步了😎
+📅 Tue Mar 25 01:11:17 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1904340274706251959
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@LyxLiu 你可以简单理解为用PKE加密了转账的数额，然后用ZKP来证明数额的正确与否，具体解释在这https://t.co/pPDpmccSfu
+📅 Tue Mar 25 00:59:31 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1904337315113394415
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@colinwu 嗯那，币圈的好处就是高学历没学历都能取得成功，相关性相对传统行业少好多了
+📅 Fri Feb 28 04:03:30 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1895323921253273684
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@colinwu 其实不震惊，我这两年在一级市场聊了上千的Founder，印象中一半以上都是藤校毕业，国内团队则几乎全部清一色清北，高学历好出身还是看得上币圈的😂
+📅 Fri Feb 28 03:09:35 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1895310351186723146
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@Chris_Defi 我记得博士去年预测25年1月就是本轮高点了，11万左右，Deepseek这个跟你冲突了啊🤔
+📅 Wed Feb 26 23:32:14 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1894893267164242188
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@uhr3al @0xWendy99 该向人学习的还是要学习嘛～放在1，2年前，让我跟https://t.co/FS76KARNXi聊，我大概率投不出去
+📅 Wed Feb 26 05:10:16 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1894615945001537655
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@0xWendy99 Wendy也是看了昨儿的Good Game么
+📅 Wed Feb 26 04:02:53 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1894598989678584217
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@0xcryptowizard 真的是一辈子逃脱不了的魔咒😑
+📅 Tue Feb 25 02:12:24 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1894208798346416209
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@0xcryptowizard wc，我也梦到过两次高中和大学的期末考试，当时梦里还在纠结，我TM不都工作了么，为啥还在这学习+考试……
+📅 Tue Feb 25 02:06:13 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1894207239214567470
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@Christianeth @hotpot_dao Already are
+📅 Thu Feb 20 00:42:58 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1892374349740442019
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@roger9949 @0xZoeyZhou 哦吼，Roger看到的这些应用都是Wrap的哪些个大模型啊，llama居多，还是OpenAI或者Deepseek？
+📅 Wed Feb 19 23:04:43 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1892349624087658917
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@roger9949 @0xZoeyZhou 说出来大家一起去中心化学习，你就可以少学一点了
+📅 Wed Feb 19 07:15:41 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1892110792377704622
+──────────────────────────────────────────────────

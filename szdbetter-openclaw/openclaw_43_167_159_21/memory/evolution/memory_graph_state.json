@@ -1,0 +1,47 @@
+{
+  "last_action": {
+    "action_id": "act_1771857070157_4596610e",
+    "signal_key": "session_logs_missing",
+    "signals": [
+      "session_logs_missing"
+    ],
+    "mutation_id": "mut_1771857070074",
+    "mutation_category": "innovate",
+    "mutation_risk_level": "medium",
+    "personality_key": "rigor=0.7|creativity=0.3|verbosity=0.3|risk_tolerance=0.4|obedience=0.9",
+    "personality_state": {
+      "type": "PersonalityState",
+      "rigor": 0.7,
+      "creativity": 0.35,
+      "verbosity": 0.25,
+      "risk_tolerance": 0.4,
+      "obedience": 0.85
+    },
+    "gene_id": null,
+    "gene_category": null,
+    "hypothesis_id": "hyp_1771857070075_b15a510b",
+    "capsules_used": [],
+    "had_error": false,
+    "created_at": "2026-02-23T14:31:10.157Z",
+    "outcome_recorded": false,
+    "baseline_observed": {
+      "agent": "main",
+      "session_scope": null,
+      "drift_enabled": false,
+      "review_mode": false,
+      "dry_run": false,
+      "system_health": "Uptime: 0.5h | Node: v22.22.0 | Agent RSS: 37.9MB | Disk: 47% (122.7G free) | Node Processes: 3 | Integrations: Gemini Key Missing",
+      "mood": "Mood: Unknown",
+      "scan_ms": 187,
+      "memory_size_bytes": 2244,
+      "recent_error_count": 0,
+      "node": "v22.22.0",
+      "platform": "darwin",
+      "cwd": "/Users/ai/.openclaw/workspace/skills/capability-evolver",
+      "evidence": {
+        "recent_session_tail": "[NO JSONL FILES]",
+        "today_log_tail": "# 2026-02-23 Monday\n\n## Daily Log\n- [x] Morning check (system health) - Done at 00:46 (CRITICAL BATTERY ALERT)- [x] Evening check (tasks & cron) - Done at 18:25\n"
+      }
+    }
+  }
+}

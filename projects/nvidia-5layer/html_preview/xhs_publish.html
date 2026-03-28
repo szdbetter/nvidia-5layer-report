@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>黄仁勋五层地图 · 小红书发布页</title>
+<style>
+:root {
+  --vi-red: #D2231E;
+  --bg: #FDF8F3;
+  --text: #2C2416;
+  --muted: #8B7355;
+  --card: #FFFFFF;
+  --border: #E8DDD0;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+body {
+  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  max-width: 540px;
+  margin: 0 auto;
+  padding: 12px 16px 100px;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+/* 顶部操作栏 */
+.action-bar {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 540px;
+  background: rgba(253,248,243,0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+  padding: 10px 16px;
+  display: flex;
+  gap: 10px;
+  z-index: 100;
+}
+.action-bar button {
+  flex: 1;
+  height: 38px;
+  border: none;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn-copy {
+  background: var(--vi-red);
+  color: #fff;
+}
+.btn-copy:active { background: #B01A16; }
+.btn-save {
+  background: #fff;
+  color: var(--vi-red);
+  border: 1.5px solid var(--vi-red);
+}
+.btn-save:active { background: #FFF0EE; }
+
+/* 封面 */
+.cover {
+  margin-top: 60px;
+  background: linear-gradient(135deg, #1A1A2E 0%, #2D1F0A 100%);
+  border-radius: 16px;
+  padding: 36px 24px 28px;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.cover::after {
+  content: '';
+  position: absolute;
+  bottom: -30px; right: -30px;
+  width: 160px; height: 160px;
+  background: radial-gradient(circle, rgba(210,35,30,0.12) 0%, transparent 70%);
+  border-radius: 50%;
+}
+.cover-badge {
+  display: inline-block;
+  background: var(--vi-red);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 20px;
+  margin-bottom: 12px;
+  letter-spacing: 0.5px;
+}
+.cover h1 {
+  color: #FFFFFF;
+  font-size: 21px;
+  line-height: 1.45;
+  font-weight: 800;
+}
+.cover-meta {
+  color: rgba(255,255,255,0.45);
+  font-size: 11px;
+  margin-top: 10px;
+  letter-spacing: 0.3px;
+}
+
+/* 文字内容 */
+.text-content {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 18px 16px;
+  margin-bottom: 16px;
+  border: 1px solid var(--border);
+  font-size: 14px;
+  line-height: 1.85;
+  color: var(--text);
+}
+.text-content p { margin-bottom: 12px; }
+.text-content p:last-child { margin-bottom: 0; }
+.text-content strong { color: var(--vi-red); font-weight: 700; }
+.hook-box {
+  background: #1A1A2E;
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin: 14px 0;
+  color: #F5F0E6;
+  font-size: 13.5px;
+  border-left: 3px solid var(--vi-red);
+}
+.hook-box strong { color: var(--vi-red); }
+
+/* 标题样式 */
+h2 {
+  font-size: 17px;
+  font-weight: 800;
+  color: var(--text);
+  margin: 20px 0 10px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--vi-red);
+  display: inline-block;
+}
+h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+  margin: 14px 0 8px;
+}
+h3 .en { color: var(--muted); font-weight: 400; font-size: 12px; }
+
+/* 层级卡片 */
+.layer-block {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 14px;
+  border: 1px solid var(--border);
+  position: relative;
+}
+.layer-block.key-layer {
+  border: 2px solid var(--vi-red);
+  box-shadow: 0 2px 12px rgba(210,35,30,0.08);
+}
+.layer-num {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+.layer-block.key-layer .layer-num { color: var(--vi-red); }
+.takeaway {
+  display: inline-block;
+  background: #FFF5F5;
+  color: var(--vi-red);
+  font-size: 12px;
+  font-weight: 700;
+  padding: 5px 10px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+.stat {
+  background: #1A1A2E;
+  border-radius: 10px;
+  padding: 12px 16px;
+  text-align: center;
+  margin-top: 10px;
+}
+.stat .num { font-size: 26px; font-weight: 900; color: var(--vi-red); }
+.stat .desc { font-size: 11px; color: rgba(255,255,255,0.5); margin-top: 2px; }
+
+/* 图片 */
+.img-block {
+  margin: 14px 0;
+}
+.img-block img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+.img-caption {
+  text-align: center;
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 6px;
+}
+
+/* 表格 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12.5px;
+  margin: 10px 0;
+}
+th {
+  background: var(--text);
+  color: #fff;
+  padding: 8px 6px;
+  text-align: left;
+  font-weight: 700;
+}
+td {
+  padding: 8px 6px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+tr:last-child td { border-bottom: none; }
+
+/* 结论卡片 */
+.conclusion {
+  background: linear-gradient(135deg, #1A1A2E 0%, #2D1F0A 100%);
+  border-radius: 14px;
+  padding: 20px 16px;
+  margin: 20px 0;
+}
+.conclusion h3 {
+  color: var(--vi-red);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin: 0 0 14px;
+  border: none;
+  padding: 0;
+}
+.point {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 14px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.point:last-child { margin-bottom: 0; padding-bottom: 0; border: none; }
+.point-num {
+  width: 20px; height: 20px;
+  background: var(--vi-red);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 900;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.point-text {
+  color: #F5F0E6;
+  font-size: 13px;
+  line-height: 1.65;
+}
+.point-text strong { color: #fff; }
+
+/* 金句 */
+.quote {
+  background: #1A1A2E;
+  border-radius: 10px;
+  padding: 16px;
+  text-align: center;
+  margin: 16px 0;
+}
+.quote p {
+  color: #F5F0E6;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.7;
+  font-style: italic;
+}
+.quote .key { color: var(--vi-red); font-style: normal; }
+
+/* Hashtags */
+.hashtags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 14px;
+  background: var(--card);
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  margin: 16px 0;
+}
+.tag {
+  background: #FFF5F5;
+  color: var(--vi-red);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 9px;
+  border-radius: 20px;
+  border: 1px solid rgba(210,35,30,0.2);
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  color: var(--muted);
+  font-size: 10px;
+  margin-top: 20px;
+  padding-top: 14px;
+  border-top: 1px dashed var(--border);
+}
+
+/* Toast */
+.toast {
+  position: fixed;
+  bottom: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(26,26,46,0.9);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 24px;
+  z-index: 200;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.toast.show { opacity: 1; }
+</style>
+</head>
+<body>
+
+<!-- 顶部操作栏 -->
+<div class="action-bar">
+  <button class="btn-copy" onclick="copyAllText()">📋 复制全文</button>
+  <button class="btn-save" onclick="showSaveTip()">💾 保存图片</button>
+</div>
+
+<!-- 封面 -->
+<div class="cover">
+  <div class="cover-badge">📌 小红书图文</div>
+  <h1>黄仁勋那张五层地图<br>藏着A股最实在的赚钱机会</h1>
+  <div class="cover-meta">黄仁勋AI五层蛋糕理论 · A股投资实战解读 · 2026-03</div>
+</div>
+
+<!-- 全文（用于复制） -->
+<div id="article-text" style="display:none">黄仁勋3月10日发了一篇长文《AI is a Five Layer Cake》——AI是一块五层蛋糕，这是他给全球投资者画的产业地图。
+
+【感知AI】让机器"看懂听懂"。2012年成熟，商品化。→ 已无超额收益。
+
+【生成AI】Llama开源后正在变成水电煤。→ 护城河消失中。
+
+【智能体AI ⭐】你给它目标，它自己找路径、拆任务、走到底。不发工资、不会请假、无限复制。全球白领市场2万亿美元/年。
+
+【物理AI】机器人、自动驾驶、工厂自动化。全球制造业13万亿美元，渗透率极低。→ iPhone替代诺基亚10倍大的故事。
+
+【主权AI】沙特、法国、日本全在砸钱建AI基础设施。→ 把"卖GPU"定义为"帮国家建AI主权"。
+
+【结论】每升一层，算力消耗指数增长。不管AI到哪层，都要买GPU。
+
+A股方向：能源层最确定；基础设施层业绩实在；应用层弹性最大。
+
+搞清楚谁在最底层收过路费，比追谁的概念最性感，重要得多。
+
+#黄仁勋 #AI投资 #英伟达 #A股 #人工智能 #Agent #物理AI #主权AI #算力 #五层蛋糕理论 #智能体 #NVIDIA</div>
+
+<!-- 正文图片1：五层蛋糕总图 -->
+<div class="img-block">
+  <img src="https://szdbetter.github.io/nvidia-5layer-report/nvidia_5layer_v2.png"
+       alt="AI五层蛋糕总图" onclick="saveImage(this)" style="cursor:pointer">
+  <div class="img-caption">↑ 长按保存图片 · 5层蛋糕全景图</div>
+</div>
+
+<!-- 文字拆解 -->
+<div class="text-content">
+  <div class="hook-box">
+    <strong>🚀 黄仁勋3月10日发了一篇长文</strong>《AI is a Five Layer Cake》——<strong>AI是一块五层蛋糕</strong>，这是他给全球投资者画的产业地图。
+  </div>
+</div>
+
+<!-- 各层图片 -->
+<div class="img-block">
+  <img src="https://szdbetter.github.io/nvidia-5layer-report/layer01_perceiving.png"
+       alt="第一层：感知AI" onclick="saveImage(this)" style="cursor:pointer">
+  <div class="img-caption">01 感知AI</div>
+</div>
+
+<div class="layer-block">
+  <div class="layer-num">01 — PERCEIVING AI</div>
+  <h3>感知AI <span class="en">Perceiving AI</span></h3>
+  <p>让机器"看懂"和"听懂"的一层。人脸识别、语音转写、影像诊断——2012年就成熟了，现在已经严重商品化。</p>
+  <div class="takeaway">→ 这一层，已经没有超额收益了</div>
+</div>
+
+<div class="img-block">
+  <img src="https://szdbetter.github.io/nvidia-5layer-report/layer02_generating.png"
+       alt="第二层：生成AI" onclick="saveImage(this)" style="cursor:pointer">
+  <div class="img-caption">02 生成AI</div>
+</div>
+
+<div class="layer-block">
+  <div class="layer-num">02 — GENERATING AI</div>
+  <h3>生成AI <span class="en">Generating AI</span></h3>
+  <p>GPT、Claude、Gemini——让机器从"识别"升级到"创造"。能写文章、能画图、能编程。</p>
+  <p style="margin-top:8px">但Meta把Llama开源之后，这层正在快速基础设施化。"能写字的AI"正在变成水电煤，护城河在消失。</p>
+  <div class="takeaway">→ 这一层正在商品化</div>
+</div>
+
+<div class="img-block">
+  <img src="https://szdbetter.github.io/nvidia-5layer-report/layer03_agentic.png"
+       alt="第三层：智能体AI" onclick="saveImage(this)" style="cursor:pointer">
+  <div class="img-caption">03 智能体AI ⭐ 关键拐点</div>
+</div>
+
+<div class="layer-block key-layer">
+  <div class="layer-num">03 — AGENTIC AI ⭐</div>
+  <h3>智能体AI <span class="en">Agentic AI</span></h3>
+  <p>前两层的AI：你给它输入，它给输出——<strong>本质还是工具</strong>。</p>
+  <p style="margin-top:8px">第三层的AI：你给它目标，它自己想路径、自己拆任务、自己调用工具、自己在复杂环境里走到底。</p>
+  <div style="background:#1A1A2E;border-radius:10px;padding:12px 14px;margin-top:10px;color:#F5F0E6;font-size:13px;font-style:italic">
+    "你告诉它'帮我追踪竞对动态'，它自己搜索、查数据、读文档、写报告、发邮件，全程不用你管。"
+  </div>
+  <p style="margin-top:10px;font-weight:700">这不是更聪明的聊天机器人。这是一个<strong style="color:var(--vi-red)">不用发工资、不会请假、可以无限复制的白领</strong>。</p>
+  <div class="stat">
+    <div class="num">2万亿美元</div>
+    <div class="desc">全球白领劳动力市场 / 年</div>
+  </div>
+</div>
+
+<div class="img-block">
+  <img src="https://szdbetter.github.io/nvidia-5layer-report/layer04_physical.png"
+       alt="第四层：物理AI" onclick="saveImage(this)" style="cursor:pointer">
+  <div class="img-caption">04 物理AI</div>
+</div>
+
+<div class="layer-block">
+  <div class="layer-num">04 — PHYSICAL AI</div>
+  <h3>物理AI <span class="en">Physical AI</span></h3>
+  <p>让AI从数字世界走向物理世界——机器人、自动驾驶、工厂自动化。全球制造业<strong>13万亿美元</strong>，自动化渗透率还极低。</p>
+  <div class="takeaway">→ 这是iPhone替代诺基亚的<strong>10倍大</strong>的故事</div>
+</div>
+
+<div class="img-block">
+  <img src="https://szdbetter.github.io/nvidia-5layer-report/layer05_sovereign.png"
+       alt="第五层：主权AI" onclick="saveImage(this)" style="cursor:pointer">
+  <div class="img-caption">05 主权AI</div>
+</div>
+
+<div class="layer-block">
+  <div class="layer-num">05 — SOVEREIGN AI</div>
+  <h3>主权AI <span class="en">Sovereign AI</span></h3>
+  <p>黄仁勋从不说"AGI"，他说的是"Sovereign AI"——翻译成人话：<strong>你的AI能力凭什么被别人卡脖子？</strong></p>
+  <p style="margin-top:8px">沙特、法国、印度、日本——全在砸钱建自己的AI算力基础设施。单笔订单从百万跳到百亿。</p>
+  <div class="takeaway">→ 把"卖GPU"重新定义成"帮你建AI国家基础设施"</div>
+</div>
+
+<!-- 算力路线图 -->
+<div class="img-block">
+  <img src="https://szdbetter.github.io/nvidia-5layer-report/layer06_compute.png"
+       alt="算力消耗路线图" onclick="saveImage(this)" style="cursor:pointer">
+  <div class="img-caption">算力消耗指数增长路线图</div>
+</div>
+
+<!-- A股表格 -->
+<div class="layer-block">
+  <h3>📊 A股怎么对应？</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>层次</th>
+        <th>方向</th>
+        <th>逻辑</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="color:#9CA3AF;font-weight:700">能源</td>
+        <td>特高压、储能、绿电</td>
+        <td style="color:#9CA3AF">确定性↑ 弹性↓</td>
+      </tr>
+      <tr>
+        <td style="color:#3C4A2E;font-weight:700">芯片</td>
+        <td>国产GPU（海光、寒武纪）</td>
+        <td style="color:#EF4444">历史窗口 风险最大</td>
+      </tr>
+      <tr>
+        <td style="color:#3C4A2E;font-weight:700">基础设施</td>
+        <td>数据中心、光模块、液冷</td>
+        <td style="color:#3C4A2E;font-weight:700">2-3年业绩最实在</td>
+      </tr>
+      <tr>
+        <td style="color:#7C3AED;font-weight:700">模型</td>
+        <td>科大讯飞等垂直玩家</td>
+        <td style="color:#EF4444">纯追GPT概念风险极高</td>
+      </tr>
+      <tr>
+        <td style="color:#D97706;font-weight:700">应用</td>
+        <td>智能制造、自动驾驶</td>
+        <td style="color:#D97706;font-weight:700">渗透率最低 弹性最大</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- 结论 -->
+<div class="conclusion">
+  <h3>⚡ 真正重要的三句话</h3>
+  <div class="point">
+    <div class="point-num">1</div>
+    <div class="point-text"><strong>底层是确定性的钱</strong><br>特高压、电网、储能——不管AI应用长成什么样，电是一定要用的。</div>
+  </div>
+  <div class="point">
+    <div class="point-num">2</div>
+    <div class="point-text"><strong>第三层和第四层是接下来十年最厚的雪</strong><br>Agent替代白领劳动，物理AI重构工业体系。</div>
+  </div>
+  <div class="point">
+    <div class="point-num">3</div>
+    <div class="point-text"><strong>不要追概念，找真正在接订单的</strong><br>真正活下来的是已经拿到政府大单、运营商合同、制造业订单的公司。</div>
+  </div>
+</div>
+
+<!-- 金句 -->
+<div class="quote">
+  <p>搞清楚谁在最底层收过路费<br>比追谁的概念<em class="key">最性感</em>，重要得多。</p>
+</div>
+
+<!-- 投资全景图 -->
+<div class="img-block">
+  <img src="https://szdbetter.github.io/nvidia-5layer-report/layer07_investment.png"
+       alt="A股投资全景图" onclick="saveImage(this)" style="cursor:pointer">
+  <div class="img-caption">A股投资全景图</div>
+</div>
+
+<!-- Hashtags -->
+<div class="hashtags">
+  <span class="tag">#黄仁勋</span>
+  <span class="tag">#AI投资</span>
+  <span class="tag">#英伟达</span>
+  <span class="tag">#A股</span>
+  <span class="tag">#人工智能</span>
+  <span class="tag">#Agent</span>
+  <span class="tag">#物理AI</span>
+  <span class="tag">#主权AI</span>
+  <span class="tag">#算力</span>
+  <span class="tag">#五层蛋糕理论</span>
+  <span class="tag">#智能体</span>
+  <span class="tag">#NVIDIA</span>
+</div>
+
+<div class="footer">
+  转发给你身边还在无脑追AI概念股的朋友 · ClawLabs · 2026-03
+</div>
+
+<!-- Toast -->
+<div class="toast" id="toast"></div>
+
+<script>
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2000);
+}
+
+function copyAllText() {
+  const text = document.getElementById('article-text').innerText;
+  navigator.clipboard.writeText(text).then(() => {
+    showToast('✅ 全文已复制！去小红书粘贴吧');
+  }).catch(() => {
+    // Fallback
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    document.body.appendChild(ta);
+    ta.select();
+    document.execCommand('copy');
+    document.body.removeChild(ta);
+    showToast('✅ 全文已复制！');
+  });
+}
+
+function showSaveTip() {
+  showToast('👆 长按任意图片即可保存到相册');
+}
+
+// saveImage — on mobile this is a no-op since long-press works natively
+function saveImage(img) {
+  // The native long-press behavior handles saving on mobile
+  // This is here as a UX hint
+}
+</script>
+
+</body>
+</html>

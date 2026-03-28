@@ -1,0 +1,15 @@
+{
+  "articles": [
+    {
+      "title": "OpenClaw：AI开始长出手脚",
+      "author": "Reese",
+      "digest": "一篇看懂 OpenClaw 与 AI Agent。",
+      "content": "<h1>我为什么开始认真看 OpenClaw：AI 不只是会聊天了，它开始长出手脚</h1><p>这段时间，AI 圈里冒出了很多新名词：工作流、智能体、Agent、数字员工。</p><p>大部分时候，我对这种新概念会先保持怀疑。因为很多产品看上去很热闹，本质上只是把一个聊天窗口重新包装了一遍：名字更唬人，界面更复杂，真正能解决的问题却没有增加多少。</p><p>但 OpenClaw 不太一样。</p><p>我第一次认真看它，不是因为它又是一个新的 AI 工具，而是因为我隐约感觉到：这东西代表的不是一次产品升级，而是 AI 角色的变化。</p><p>过去，我们把 AI 当顾问、当搜索框、当写作助手；而 OpenClaw 这种系统，开始让 AI 像一个真正的员工那样工作——能接消息、能调工具、能跑流程、能处理任务。</p><h2>以前的 AI，聪明；现在的 AI，开始能干活</h2><p>很多人已经很熟悉 ChatGPT、豆包、Kimi 这类产品了。</p><p>但这类 AI 大多数时候仍然停留在对话工具的层面。它能给你答案，却不一定能替你把事情办完。</p><p>真正的工作不是一句问答就结束的，而是接收信息、识别上下文、调用工具、处理多个步骤，最后把结果交付出来。</p><p>OpenClaw 这类系统试图解决的，不是 AI 会不会回答问题，而是 AI 能不能在真实世界里持续做事。</p>",
+      "thumb_media_id": "xod6kCkNQYQV5mxwdopikaxBXPqnabThRLwwzw_XA1FjGSGgO2XHVxmb_llRR8k0",
+      "need_open_comment": 0,
+      "only_fans_can_comment": 0,
+      "show_cover_pic": 1,
+      "content_source_url": ""
+    }
+  ]
+}

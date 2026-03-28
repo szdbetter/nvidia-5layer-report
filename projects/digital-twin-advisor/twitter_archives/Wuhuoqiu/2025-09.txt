@@ -1,0 +1,84 @@
+
+@Wuhuoqiu (Lao Bai):
+@BSKT3303 注意力都集中在Perp和稳定币上，短期币价= 注意力经济
+📅 Tue Sep 30 09:42:23 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1972960205559529964
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@BSKT3303 币太多了，注意力越来越分散了
+📅 Tue Sep 30 09:39:39 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1972959519027409312
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@topehsol @Everlyn_ai This one's so cool! 
+
+One question- where is my head?!
+📅 Tue Sep 30 09:38:08 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1972959135366095166
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@FaridAdzan 跟dong mo博士聊过，bullish！
+📅 Tue Sep 30 08:34:35 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1972943143739035980
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@zaqsqjnmm alpha
+📅 Tue Sep 30 08:30:40 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1972942156353749500
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@alpacatomoon @falconfinance 哈哈，不至于不至于，这轮的宗旨就是别上头，别fomo
+📅 Tue Sep 30 08:29:49 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1972941942087688300
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@Loki_Zeng @flyingtulip_ Loki要梭哈了么，哈哈
+📅 Tue Sep 30 07:39:28 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1972929273909702748
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+ZK这个赛道22-23年爆火，24-25年沉寂了许久，两个ZK代表作ZK-sync+Starkware上线表现平平，远不及具有先发优势的OP+Arb（当然现在L2里Base才是老大）
+
+但前段时间Boundless $ZKC 跟Succinct $Prove 的上线又把ZK赛道的热度带回来一些。毕竟区块链的第一性原理就一条 - 无需信任地达成一致
+
+这个第一性原理的两个支点分别是大家耳熟能详的
+1. 去中心化，目的是抗审查+防止单点故障
+2.可验证性，目的是让任何人都能独立验证网络中的交易、区块、状态是否有效
+
+从这个角度讲，长远来看，负责可验证性的ZK就是整个行业绕不开的底层技术栈。加上V神近几个月各种高调发文表示要把ETH往全面ZK化的方向去推，所以热度回来不少
+
+这不今晚又一个ZK项目要TGE了， @ZKVProtocol 
+
+之所以关注到这个项目是因为这是 $Zen 背后的团队 @HorizenLabs 做的。Zen我关注了好多年，起初也不是因为灰度持仓，而是因为Zen的活跃节点数量很夸张， 有四万多个,要知道ETH也就一万多 (验证者数量100万+，但不等于节点数量），所以单以活跃节点数量去评估去中心化程度的话，Zen是妥妥的No.1
+
+Zen近几年从一个隐私币转型成了隐私应用链的平台型基础设施，背后团队官方下场做的Zkverify则是一个ZK验证层，主打“低成本、低延迟、通用兼容、开发者友好”
+
+怎么做到的呢，其实跟Hyperliquid Core有点类似，就是走一个专精路线，Hyperliquid Core是一个纯Perp L1，啥都不干只干Perp，跟HyperEVM完全独立。ZKVerify也同样是走的专门为ZKP验证设计的L1，不含智能合约功能，就只做ZKP验证。原生支持Groth16、FFLONK、RISC0、UltraPlonk、Plonky2 多种证明系统，毫秒验证，相比ETH上直接验证，成本降低90%
+
+千万别小看成本，GPT能普及这么快跟每年Token成本指数级下降有着巨大的关系。要是对话一次花你两毛钱，你看有几个人会真的天天用AI。ZK也同理，性能上去，成本下来，V神对ETH Fully Snark化的愿景才能真的实现
+
+要说跟Boundless与Succinct的区别呢，有竞争也有互补。Succinct偏针对Rust/LLVM的开发者生态，所以合作的都是Mantle这种公链对象，Boundless更多是构建了一个证明市场，有点像ZK版的https://t.co/6c2At851IU。ZKverify则更加通用，主打抽象化验证复杂性，更像ZK世界的“AWS”，合作对象可以是链游，AI，Defi等等，比如无聊猿的@apecoin，以及最近大火的@zerobasezk（话说大家都存钱去Booster了吧）
+
+项目融资1100万，开盘流通30%，今晚上线Binance Alpha, Binance 合约，以及Gate, Kucoin等交易所。一个有意思的看点是我记得前段时间有人做过统计，说上了Alpha的币，不上现货但是上合约的表现远好过现货合约一起上的，所以可以期待下今晚 $VFY 的表现如何👀
+📅 Tue Sep 30 07:30:00 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1972926891612114972
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@BTCdayu 我来个积极一点的版本- 吓跑拉（吓跑了才拉盘）
+📅 Tue Sep 30 07:03:21 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1972920182470492555
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@alexljm @flyingtulip_ 问题来了，去哪空Shadow！
+📅 Tue Sep 30 06:25:19 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1972910611379188179
+──────────────────────────────────────────────────

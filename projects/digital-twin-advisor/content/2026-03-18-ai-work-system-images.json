@@ -1,0 +1,19 @@
+{
+  "images": [
+    {
+      "placeholder": "![img1]",
+      "url": "https://filesystem.site/cdn/20260318/16c51882d556a81fa653bb6af2f339.webp",
+      "position": "after:## 二、我的AI团队，长什么样"
+    },
+    {
+      "placeholder": "![img2]",
+      "url": "https://filesystem.site/cdn/20260318/146794f4dfe6d82960fe4deb65b0b4.webp",
+      "position": "after:## 三、我为什么给AI写了一套"毛选""
+    },
+    {
+      "placeholder": "![img3]",
+      "url": "https://filesystem.site/cdn/20260318/594f13c7f51f2daa6c114e6faa432d.webp",
+      "position": "after:## 四、这套东西跑起来什么效果"
+    }
+  ]
+}

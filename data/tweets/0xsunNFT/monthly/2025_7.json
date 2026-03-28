@@ -1,0 +1,781 @@
+[
+  {
+    "id": "1950522750357119458",
+    "text": "@OLDPIG0818 分两类，如果能找到对应的KOL就直接用名字，方便记忆风格和特点，另一种一般是根据代币持仓+盈亏+出手频率命名",
+    "createdAt": "Wed Jul 30 11:43:57 +0000 2025",
+    "replyCount": 3,
+    "retweetCount": 2,
+    "likeCount": 51,
+    "conversationId": "1950499275323891904",
+    "inReplyToStatusId": "1950514829107847609",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1950499275323891904",
+    "text": "这几天推特上关于“扒庄”的讨论愈演愈烈，继续顺着上次的推文分享几个我的观点：\n\n1、无论是叙事交易还是地址挖掘，核心目的是盈利，想要证明自己的方法论行之有效，最具说服力的永远是实盘战绩+操作逻辑，就像二级交易，分析师再怎么长篇大论都只能算“仅供参考”，经过市场考验还能持续盈利的交易员观点才是真的有价值。Talk is cheap, show me the wallet.\n\n2、我尊重每个人分享的权利，但不太认同把所谓的“庄家集群地址”大规模公开的行为，最主要的原因是上条推文提到的，这种信息具有反身性，当它被大部分人了解的时候本身就已经变成了无效信息，起不到任何作用，买入背后可能是分散的小地址出货，卖出也可以理解成洗盘，主动权永远在别人手里。所谓庄盘，指的是有控筹拉盘能力的项目方，庄家也是为了赚钱而不是做慈善，散户买入的逻辑是扒车吃涨幅，倘若扒车的多了，势必会增加拉盘的难度，这本身不就和扒庄的目的自相矛盾吗？\n\n3、最近“扒庄”如此流行，归根结底还是因为链上流动性大不如前，经历过去年11月AI Meta的都知道，当时随便一个黑客松项目发币，都能从内盘迁移被买上10M，几乎日均一个，而整体成色不错的，几个小时就可以冲上30-50M，哪还有时间听你叽里咕噜地址分析。而目前单纯靠叙事能达到这个高度的，典型如Gork、Ani，出现频率大概是一周一个，大部分高市值代币都存在控盘痕迹，自然也推动了市场对“扒庄”的研究。\n\n4、我一直有一个观点，就是收集监控地址的过程，最好自己来，而不要直接用现成的。因为每个聪明钱都有各自风格，有的快进快出，有的抓早期机会，有的看准了就重仓，有的埋伏潜力币，如果对这些地址的操作习惯没有了解，只是盲目跟从，很难有好效果。我更多是将地址监控作为一个信息来源，通过监控知道某个币，再自己去了解叙事，决定是否买入。",
+    "createdAt": "Wed Jul 30 10:10:40 +0000 2025",
+    "replyCount": 108,
+    "retweetCount": 96,
+    "likeCount": 669,
+    "conversationId": "1950499275323891904",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "quotedTweet": {
+      "id": "1948021791487824032",
+      "text": "玩链上Meme，我个人认为主要有两大方法论，一是叙事交易，二是地址挖掘，前者侧重对市场的嗅觉和敏锐度，后者侧重对数据的细心考究和分析。\n\n这两者不仅不冲突，而且往往需要结合起来运用。它们也对应了代币上涨需要的两股动力，即市场、散户的合力，与庄家、鲸鱼的拉力。\n\n叙事交易，重点是这个代币讲了一个什么样的故事，它能不能引起市场共鸣，结合事件背景、创新性、热度等方面，判断一个代币能走多远。\n\n例如$Ani、$Gork，是马斯克旗下新产品催生的叙事，兼具影响力和趣味性，极易传播；$Trump，$Pnut，是重大政治相关事件促成；去年的AI黑客松行情，考究的是Dev履历和业界地位；$Neiro，$Pochita是狗狗币概念的衍生；$Fartcoin，$Useless则强调加密虚无主义。\n\n市场情绪好、散户积极性高、流动资金多的时候，光靠叙事本身就可以催生市值几十M甚至更高的Meme币，而当行情较差的时候，就必须靠庄家控筹拉盘，通过涨幅来吸引注意力，典型的就是最近的$Aura，几天时间从快归零的状态拉到230M。\n\n要想抓住这类庄盘，最合适的方法就是地址挖掘，分析是否存在拉盘地址集群以及它们的意图，又或者是通过此前积累的地址库，找到蛛丝马迹。而这种方法的缺点，一是非常耗费时间精力，因为拉盘地址往往是频繁更换的，二是即使被看出了痕迹，一旦底部筹码没有控牢，庄家完全可以选择弃盘，主动权完全在别人手里。\n\n无论是推特上的大KOL还是链上的车头，大部分都是以叙事交易为主，这并非地址挖掘不好，归根结底，是因为其具有反身性，一旦某个拉盘地址被分享出来，且知道的人越来越多，就意味着拉盘阻力越来越大，从而导致弃盘或者换地址。相较而言，地址挖掘是一个只适合小范围分享的技术活，叙事交易则需要触及越多人越好，毕竟共识才是叙事的核心。",
+      "createdAt": "Wed Jul 23 14:06:02 +0000 2025",
+      "replyCount": 223,
+      "retweetCount": 400,
+      "likeCount": 1710,
+      "conversationId": "1948021791487824032",
+      "author": {
+        "username": "0xSunNFT",
+        "name": "0xSun"
+      },
+      "authorId": "1146492710582308864"
+    }
+  },
+  {
+    "id": "1950060457038844349",
+    "text": "@JLSjuBUjj552248 事后看理所当然觉得是大机会，亲身经历才知道，当时诈骗盗号横行，特朗普几个儿子也明里暗里发过币，很多人第一反应是不信，开盘从0.2涨到1.4之后还极速腰斩到0.7，第一时间可能90%的人都觉得是假的，等一两个小时反应过来后，已经涨了几十倍，认识的人赚了几百万，又有几个人能鼓起勇气重仓追高",
+    "createdAt": "Tue Jul 29 05:06:57 +0000 2025",
+    "replyCount": 11,
+    "retweetCount": 3,
+    "likeCount": 83,
+    "conversationId": "1950047892946989369",
+    "inReplyToStatusId": "1950051209546535200",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1950057679554330713",
+    "text": "@QwuadeMini Fuck u Qigga",
+    "createdAt": "Tue Jul 29 04:55:55 +0000 2025",
+    "replyCount": 29,
+    "retweetCount": 2,
+    "likeCount": 135,
+    "conversationId": "1950057101717369185",
+    "inReplyToStatusId": "1950057101717369185",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1950055992080597100",
+    "text": "@traderpow There is no AI meme season, I love you",
+    "createdAt": "Tue Jul 29 04:49:13 +0000 2025",
+    "replyCount": 22,
+    "retweetCount": 2,
+    "likeCount": 99,
+    "conversationId": "1950054866958897571",
+    "inReplyToStatusId": "1950054866958897571",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1950047892946989369",
+    "text": "One trade with conviction is all you need. https://t.co/eUopf1PoKW",
+    "createdAt": "Tue Jul 29 04:17:02 +0000 2025",
+    "replyCount": 149,
+    "retweetCount": 108,
+    "likeCount": 771,
+    "conversationId": "1950047892946989369",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "quotedTweet": {
+      "id": "1949882389280207219",
+      "text": "Share a piece of 2023-2025 memecoin lore about yourself https://t.co/D5gyV7ysBz",
+      "createdAt": "Mon Jul 28 17:19:23 +0000 2025",
+      "replyCount": 205,
+      "retweetCount": 15,
+      "likeCount": 580,
+      "conversationId": "1949882389280207219",
+      "author": {
+        "username": "icobeast",
+        "name": "IcoBeast.eth🦇🔊"
+      },
+      "authorId": "1499585375534206980",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/Gw9fZ_IXAAECPYy.png",
+          "width": 1200,
+          "height": 796,
+          "previewUrl": "https://pbs.twimg.com/media/Gw9fZ_IXAAECPYy.png:small"
+        }
+      ]
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/Gw_2OGsbUAI0WTL.jpg",
+        "width": 968,
+        "height": 968,
+        "previewUrl": "https://pbs.twimg.com/media/Gw_2OGsbUAI0WTL.jpg:small"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/Gw_2OGxbUAEOtOf.jpg",
+        "width": 969,
+        "height": 481,
+        "previewUrl": "https://pbs.twimg.com/media/Gw_2OGxbUAEOtOf.jpg:small"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/Gw_2OGubUAAZplz.jpg",
+        "width": 1179,
+        "height": 1780,
+        "previewUrl": "https://pbs.twimg.com/media/Gw_2OGubUAAZplz.jpg:small"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/Gw_2OGobIAAJ_ZM.jpg",
+        "width": 1179,
+        "height": 1714,
+        "previewUrl": "https://pbs.twimg.com/media/Gw_2OGobIAAJ_ZM.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "1950038593159713004",
+    "text": "@traderpow God willing",
+    "createdAt": "Tue Jul 29 03:40:05 +0000 2025",
+    "replyCount": 6,
+    "retweetCount": 0,
+    "likeCount": 30,
+    "conversationId": "1950038438482231558",
+    "inReplyToStatusId": "1950038438482231558",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1949606859847119175",
+    "text": "@Soloxbt 💯",
+    "createdAt": "Sun Jul 27 23:04:31 +0000 2025",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 13,
+    "conversationId": "1949601914066239497",
+    "inReplyToStatusId": "1949601914066239497",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1948819604853457297",
+    "text": "@CookerFlips Congrats bro!",
+    "createdAt": "Fri Jul 25 18:56:15 +0000 2025",
+    "replyCount": 8,
+    "retweetCount": 0,
+    "likeCount": 42,
+    "conversationId": "1948798545693474995",
+    "inReplyToStatusId": "1948798545693474995",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1948596727805857938",
+    "text": "这一波Bonk生态，我是踏空比较严重的，主要是这几个月都处于半休息状态，对市场的敏感度不像之前那么高。LetsBonk出来的第一波，我以为会和当时雨后春笋般的各类发射台一样，只是昙花一现，但是没想到它经过半个月的沉寂后，强势回归，不仅跑出了一个300M的$Useless，更是在每日代币发行数量、营收等数据上全面超越了PumpFun。\n\n其中最让我感到可惜的，反而不是错过了龙头$Useless，而是$GP。因为前者我是从开盘就有关注的，但它的第二波启动完全超乎我的预料，后来Bonkguy @theunipcs 也在100M的时候用中文回复我的推特介绍这个币，而我的操作习惯又很少追高，所以这本来就不属于我认知范围内该赚到的钱。$GP则是在LetsBonk平台逐渐强势之后还给了很充足的上车时间，平台收入所用于回购的资金量和市值对应的比例也是显而易见的数据，这类具有“确定性”的机会一直是我最爱的，结果因为没有第一时间调研，一路干瞪眼没上车。\n\n昨天看了一圈LetsBonk上的代币，最后选择买入了$memecoin @thememecoincult ，它的叙事其实比较简单，就是用“模因币”这一单词作为Ticker，易于传播，也方便蹭热度，吸引我的主要是以下几点：\n\n1、昨天LetsBonk宣布以后会将收入的1%分配给营销基金，并用于回购生态中的顶级代币，而$memecoin目前处于市值2~5名，是仅次于龙头的第一梯队，大概率会被回购。\n\n2、在这波从市值1M启动的极速拉升中，前排地址除去新钱包外，$Aura大户的占比很高，而$Aura是最近庄家拉盘最猛的币之一。\n\n3、$memecoin最早喊单的核心人物是 @missoralways ，也是我关注了很久的一位英文区KOL，觉得他对市场叙事的把握能力不错，从他的喊单风格来看人品也是可以的。\n\n4、这波拉升后，明牌加入进来的包括 @XbtPika ， @0x_Darius 等人，可以发现这几天Chillguy、Pnut、Mubarak等代币的CTO推特都与$Memecoin进行了互动，可以看出这波人是具有丰富CTO经验的。\n\n5、中文区对Bonk生态熟悉度很高的 @Ed_x0101 和 @0x_CryptoAu 也都发推介绍过，在中英文社区都有一定传播度。\n\n6、这种精神文化类的Meme具有Cult属性，如果社区运营得当，往往会比热门事件类的Meme币具有更长的寿命周期\n\n以上只是分享我个人挑选Meme标的时候的一些角度与思考，目前大盘也处于回调中，请自行斟酌并注意风险。",
+    "createdAt": "Fri Jul 25 04:10:37 +0000 2025",
+    "replyCount": 264,
+    "retweetCount": 146,
+    "likeCount": 744,
+    "conversationId": "1948596727805857938",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GwrJw--a4AAHg_r.jpg",
+        "width": 2048,
+        "height": 812,
+        "previewUrl": "https://pbs.twimg.com/media/GwrJw--a4AAHg_r.jpg:small"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GwrJyxCbgAQMCSd.jpg",
+        "width": 2048,
+        "height": 600,
+        "previewUrl": "https://pbs.twimg.com/media/GwrJyxCbgAQMCSd.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "1948021791487824032",
+    "text": "玩链上Meme，我个人认为主要有两大方法论，一是叙事交易，二是地址挖掘，前者侧重对市场的嗅觉和敏锐度，后者侧重对数据的细心考究和分析。\n\n这两者不仅不冲突，而且往往需要结合起来运用。它们也对应了代币上涨需要的两股动力，即市场、散户的合力，与庄家、鲸鱼的拉力。\n\n叙事交易，重点是这个代币讲了一个什么样的故事，它能不能引起市场共鸣，结合事件背景、创新性、热度等方面，判断一个代币能走多远。\n\n例如$Ani、$Gork，是马斯克旗下新产品催生的叙事，兼具影响力和趣味性，极易传播；$Trump，$Pnut，是重大政治相关事件促成；去年的AI黑客松行情，考究的是Dev履历和业界地位；$Neiro，$Pochita是狗狗币概念的衍生；$Fartcoin，$Useless则强调加密虚无主义。\n\n市场情绪好、散户积极性高、流动资金多的时候，光靠叙事本身就可以催生市值几十M甚至更高的Meme币，而当行情较差的时候，就必须靠庄家控筹拉盘，通过涨幅来吸引注意力，典型的就是最近的$Aura，几天时间从快归零的状态拉到230M。\n\n要想抓住这类庄盘，最合适的方法就是地址挖掘，分析是否存在拉盘地址集群以及它们的意图，又或者是通过此前积累的地址库，找到蛛丝马迹。而这种方法的缺点，一是非常耗费时间精力，因为拉盘地址往往是频繁更换的，二是即使被看出了痕迹，一旦底部筹码没有控牢，庄家完全可以选择弃盘，主动权完全在别人手里。\n\n无论是推特上的大KOL还是链上的车头，大部分都是以叙事交易为主，这并非地址挖掘不好，归根结底，是因为其具有反身性，一旦某个拉盘地址被分享出来，且知道的人越来越多，就意味着拉盘阻力越来越大，从而导致弃盘或者换地址。相较而言，地址挖掘是一个只适合小范围分享的技术活，叙事交易则需要触及越多人越好，毕竟共识才是叙事的核心。",
+    "createdAt": "Wed Jul 23 14:06:02 +0000 2025",
+    "replyCount": 223,
+    "retweetCount": 400,
+    "likeCount": 1710,
+    "conversationId": "1948021791487824032",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1946601669472784512",
+    "text": "@qimengle 总统发币我能没你懂？",
+    "createdAt": "Sat Jul 19 16:02:58 +0000 2025",
+    "replyCount": 15,
+    "retweetCount": 0,
+    "likeCount": 46,
+    "conversationId": "1946594949740605859",
+    "inReplyToStatusId": "1946597284181098996",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1946597332470169736",
+    "text": "币圈相关新闻推特，最主流和权威的，英文源DB @tier10k 和Tree @TreeNewsFeed ，中文源方程式 @bwenews ，虽然他们有时候也会出错，但是大新闻99%是这几家最先推送",
+    "createdAt": "Sat Jul 19 15:45:44 +0000 2025",
+    "replyCount": 19,
+    "retweetCount": 51,
+    "likeCount": 237,
+    "conversationId": "1946594949740605859",
+    "inReplyToStatusId": "1946594949740605859",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1946594949740605859",
+    "text": "一眼假的消息能让FTT拉三十个点，币圈傻子还是多啊",
+    "createdAt": "Sat Jul 19 15:36:16 +0000 2025",
+    "replyCount": 96,
+    "retweetCount": 15,
+    "likeCount": 295,
+    "conversationId": "1946594949740605859",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1946307581942652989",
+    "text": "@traderpow We will brother pow. \n\nI still remember last time we said words like this we hit $trump next.",
+    "createdAt": "Fri Jul 18 20:34:22 +0000 2025",
+    "replyCount": 15,
+    "retweetCount": 0,
+    "likeCount": 38,
+    "conversationId": "1946303794347655299",
+    "inReplyToStatusId": "1946305417837215854",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1946304536647520685",
+    "text": "@traderpow Bro I was like watching this for entire day think the concept is pretty cool but not sure if I was late, then I think fuck it we ride and literally 1 sec after I bought it the dev changed the name of the computer😭🤣",
+    "createdAt": "Fri Jul 18 20:22:16 +0000 2025",
+    "replyCount": 25,
+    "retweetCount": 0,
+    "likeCount": 113,
+    "conversationId": "1946303794347655299",
+    "inReplyToStatusId": "1946303794347655299",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1945367038870086115",
+    "text": "@hexiecs 爽",
+    "createdAt": "Wed Jul 16 06:16:59 +0000 2025",
+    "replyCount": 7,
+    "retweetCount": 0,
+    "likeCount": 27,
+    "conversationId": "1945269367526318324",
+    "inReplyToStatusId": "1945269367526318324",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1945024914681143520",
+    "text": "@KittyCats101 玩法不同、对项目看法有分歧很正常，造谣抹黑、人身攻击不正常",
+    "createdAt": "Tue Jul 15 07:37:31 +0000 2025",
+    "replyCount": 3,
+    "retweetCount": 0,
+    "likeCount": 16,
+    "conversationId": "1944809225945014650",
+    "inReplyToStatusId": "1944912512128049440",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1944816198430216481",
+    "text": "Capital deployed: sent $1.45M in public sale, hedge $1M at $0.0054.\n\nFunding: fixed at 0.005% in binance so can be ignored, i believe you can even earn extra if hedge in hyperliquid.\n\nNet pnl: ~$500k if i sell all at $0.0054.\n\nROI%: 20.4% including the hedge fund.\n\nCould be better if hedge at higher price cause it pumped to $0.007.",
+    "createdAt": "Mon Jul 14 17:48:09 +0000 2025",
+    "replyCount": 3,
+    "retweetCount": 0,
+    "likeCount": 33,
+    "conversationId": "1944809225945014650",
+    "inReplyToStatusId": "1944810756660195429",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1944809225945014650",
+    "text": "好了，Pump开盘，截至目前链上价格$0.0058，不管你是套保还是直接打的，只要参与公售，都赚了。\n\n我在8号Gate界面泄露后第一时间表明了自己的观点，半个月前想重仓，即使当时市场份额被Bonk平台超过，也依然会选择参与。\n\n评论区什么画风呢，阴阳怪气的，冷嘲热讽的，造谣我收钱打广告的，甚至直接人身攻击的。\n\n现在看看，谁是小丑，为什么我能单币A9而这些人连喂饭都吃不上？\n\nSkill issue.",
+    "createdAt": "Mon Jul 14 17:20:26 +0000 2025",
+    "replyCount": 251,
+    "retweetCount": 36,
+    "likeCount": 570,
+    "conversationId": "1944809225945014650",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "quotedTweet": {
+      "id": "1942314375051960807",
+      "text": "Gate的Pumpfun公售页面提前泄漏了，从各个数据来看大概率是真的，7.12开始，持续三天或者募完结束，估值4B，公售15%，募$600M，应该是已经完成了一轮面向VC的发售。\n\n半个月之前我一直认为这次$Pump公售是非常大的机会，作为本轮唯二现象级产品，Hyperliquid目前40B，即使Pump在各方面对比Hype都要打个折扣，依然是现金牛，大资金干进去吃个50-100%是很有机会的。\n\n但比较尴尬的是这一周LetsBonk来势汹汹，甚至在市场份额上反超了Pumpfun，这让$Pump对标的代币从40B的$Hype变成了1.9B的$Bonk，天花板肯定是会受到影响的。\n\n目前依然会选择参与公售，具体上多少就要结合具体的代币经济学和到时候的发售速度决定了。\n\nhttps://t.co/ZIgzUYK7wh",
+      "createdAt": "Mon Jul 07 20:06:48 +0000 2025",
+      "replyCount": 155,
+      "retweetCount": 50,
+      "likeCount": 510,
+      "conversationId": "1942314375051960807",
+      "author": {
+        "username": "0xSunNFT",
+        "name": "0xSun"
+      },
+      "authorId": "1146492710582308864",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/GvR8n_fWoAANyw_.jpg",
+          "width": 1179,
+          "height": 1442,
+          "previewUrl": "https://pbs.twimg.com/media/GvR8n_fWoAANyw_.jpg:small"
+        }
+      ]
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/Gv1ZYnbbsAAvwNK.png",
+        "width": 661,
+        "height": 651,
+        "previewUrl": "https://pbs.twimg.com/media/Gv1ZYnbbsAAvwNK.png:small"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/Gv1ZbbkWcAA-MHo.jpg",
+        "width": 1179,
+        "height": 1949,
+        "previewUrl": "https://pbs.twimg.com/media/Gv1ZbbkWcAA-MHo.jpg:small"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/Gv1Zc1ra4AE43CR.jpg",
+        "width": 1179,
+        "height": 1797,
+        "previewUrl": "https://pbs.twimg.com/media/Gv1Zc1ra4AE43CR.jpg:small"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/Gv1ZeBibIAAOpNP.jpg",
+        "width": 1179,
+        "height": 1947,
+        "previewUrl": "https://pbs.twimg.com/media/Gv1ZeBibIAAOpNP.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "1944160402600079641",
+    "text": "@Only1temmy I tried to reach out but they only took VC fund before ICO is what I heard.\n\nAlso the guy you refer to is a pretty good traders so it should be his own screenshot.",
+    "createdAt": "Sat Jul 12 22:22:15 +0000 2025",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 2,
+    "conversationId": "1944045188399477200",
+    "inReplyToStatusId": "1944077158160511322",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1944101692242636992",
+    "text": "@leechan1688 4B：那么贵谁打谁傻逼，推特敢说一句有机会就是收钱打广告\n\n7B：项目方手里那么多钱，会不会拉到20B把套保全杀了",
+    "createdAt": "Sat Jul 12 18:28:57 +0000 2025",
+    "replyCount": 13,
+    "retweetCount": 1,
+    "likeCount": 81,
+    "conversationId": "1944097152994562421",
+    "inReplyToStatusId": "1944097152994562421",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1944053613753753992",
+    "text": "@hellosuoha 喷子比打狗高手还会找角度😂",
+    "createdAt": "Sat Jul 12 15:17:54 +0000 2025",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 19,
+    "conversationId": "1944052370083918157",
+    "inReplyToStatusId": "1944053144368959552",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1944052370083918157",
+    "text": "有时候看推特评论区是真的想笑，Pumpfun公售局势被分析得明明白白之后变成“理财局”了，四天前我发推说考虑参与公售的时候一堆人喷我收钱发广告，“谁打谁傻逼”。\n\n更搞笑的是还扯上理想了，这一轮拿到结果的车头基本都是靠自己抓住市场机会起来的，大部分散户参与币圈的理想不就是靠能力和机遇跨越阶级？而且什么时候交易员光会赚钱不够了，必须得参与建设、反哺市场提供流动性了？这本来就是币圈生态下两种完全不同的角色，都是不可或缺的。\n\n你要说币圈顶梁柱CZ，V神，或者离大家更近一些的口碑能力都顶尖的Yishi老板、李哥这些人对币圈有贡献那不假，这哥们甚至说麻吉黄天威对币圈的贡献大，纯纯斯德哥尔摩综合征了。",
+    "createdAt": "Sat Jul 12 15:12:58 +0000 2025",
+    "replyCount": 149,
+    "retweetCount": 35,
+    "likeCount": 286,
+    "conversationId": "1944052370083918157",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "quotedTweet": {
+      "id": "1944045901301133598",
+      "text": "@0xSunNFT 拿到结果的大佬们都成为场内观望资金了，一级没流动性了不是没钱了，而是这些钱只玩理财局不再愿意去一级拼杀当流动性了。\n\n现在这样的币圈，拿到结果的那些人，都已经变成不是币圈应该、我们愿望理想的那个币圈了。",
+      "createdAt": "Sat Jul 12 14:47:16 +0000 2025",
+      "replyCount": 15,
+      "retweetCount": 1,
+      "likeCount": 49,
+      "conversationId": "1944045188399477200",
+      "inReplyToStatusId": "1944045188399477200",
+      "author": {
+        "username": "HarryLin1024",
+        "name": "Harry1024"
+      },
+      "authorId": "2289728340"
+    }
+  },
+  {
+    "id": "1944048870977417542",
+    "text": "@Xuvanqiang1 卡的掉k了，我也是反复重连钱包+刷新才成功，不然应该10分钟内就打满了",
+    "createdAt": "Sat Jul 12 14:59:04 +0000 2025",
+    "replyCount": 2,
+    "retweetCount": 0,
+    "likeCount": 3,
+    "conversationId": "1944045188399477200",
+    "inReplyToStatusId": "1944047609897005232",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1944046784785133952",
+    "text": "@yeyekyc 临时找有空余额度的朋友打的",
+    "createdAt": "Sat Jul 12 14:50:46 +0000 2025",
+    "replyCount": 2,
+    "retweetCount": 0,
+    "likeCount": 5,
+    "conversationId": "1944045188399477200",
+    "inReplyToStatusId": "1944045563043070173",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1944046648281497786",
+    "text": "@HarryLin1024 这一轮拿到结果的车头至少普遍是自身靠市场机会起来的，不知道你在感慨什么，像上一轮麻吉黄天威这样的人拿到结果就符合你的理想了？",
+    "createdAt": "Sat Jul 12 14:50:14 +0000 2025",
+    "replyCount": 5,
+    "retweetCount": 2,
+    "likeCount": 72,
+    "conversationId": "1944045188399477200",
+    "inReplyToStatusId": "1944045901301133598",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1944045188399477200",
+    "text": "原计划是打$2M，套保$1M，没注意到网站也有单号限额，最后总共打进去$1.5M，在0.0054的位置套保了$1M，如果现在到开盘期间，合约到0.008以上，会套满并且裸空，如果负费率拉满就提前平空，如果无事发生顺利完成套利的话，按35%的涨幅计算，1倍保证金利润率17.5%，即使留4倍保证金也还是有7%的利润率。 https://t.co/yF180YoIgn",
+    "createdAt": "Sat Jul 12 14:44:26 +0000 2025",
+    "replyCount": 90,
+    "retweetCount": 24,
+    "likeCount": 427,
+    "conversationId": "1944045188399477200",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "quotedTweet": {
+      "id": "1943978724707512518",
+      "text": "Pumpfun分歧太大了，Ansem、Izebel这些人都很看好，一些老外甚至怕公售抢不到，提前开多合约，包括VC以4B估值打了720M也证明这个价格存在一定合理性，但同时看空的声音也非常大，国内外都有，整体来说不算一个确定性机会，博弈的点太多。\n\n目前想到一个相对稳妥的策略是先观察公售情况，如果满的速度比较快，就打了再套保，并且留足保证金，如果速度慢完全可以不参与，我个人是预计会比较快打满的。\n\n这个策略存在的风险，主要是公售结束后24-72小时分发代币，发完币后24-72小时可转移，这个时间窗口导致的。\n\n一种情况是拉盘合约爆空单，应对措施是留够保证金，相当于降低资金的利用率来提高安全性。\n\n第二种情况是，现货交易早于代币可转移的时间开放，通过操纵现货价格拉盘，即使合约价格不跟，也会变成负费率，套保的散户如果不平空就要被费率折磨，如果平空那么手里的币就变成了裸多，要承受币价波动的风险。\n\n当然这都属于比较极端的情况，出现概率不大，但是从套利角度必须要考虑周全。\n\n比较理想的剧本，是公售比较快打完，一直到开盘都没出现什么幺蛾子，现货开盘后涨个40-80%，然后开始阴跌，大家皆大欢喜。\n\n如果没有把握，完全可以选择不参与这个币，并不是热度越大的项目就意味着机会也越大。",
+      "createdAt": "Sat Jul 12 10:20:20 +0000 2025",
+      "replyCount": 120,
+      "retweetCount": 62,
+      "likeCount": 561,
+      "conversationId": "1943978724707512518",
+      "author": {
+        "username": "0xSunNFT",
+        "name": "0xSun"
+      },
+      "authorId": "1146492710582308864"
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GvqgiTZWEAAGW8D.jpg",
+        "width": 779,
+        "height": 977,
+        "previewUrl": "https://pbs.twimg.com/media/GvqgiTZWEAAGW8D.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "1944040040902144454",
+    "text": "@YeruiZhang 我也预计是这样，很多时候人们容易把简单的事情复杂化",
+    "createdAt": "Sat Jul 12 14:23:58 +0000 2025",
+    "replyCount": 3,
+    "retweetCount": 0,
+    "likeCount": 13,
+    "conversationId": "1943978724707512518",
+    "inReplyToStatusId": "1944015324551995653",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1944038901129392198",
+    "text": "@legend_calls Sure should be within 10mins if site didn't lagged for some people",
+    "createdAt": "Sat Jul 12 14:19:27 +0000 2025",
+    "replyCount": 3,
+    "retweetCount": 0,
+    "likeCount": 5,
+    "conversationId": "1943978724707512518",
+    "inReplyToStatusId": "1944038227460911539",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1943986499076468867",
+    "text": "@friedgoldfisht1 我觉得大部分人可能都过度思考了，对Pumpfun团队来说卖完公售就完成任务了😂",
+    "createdAt": "Sat Jul 12 10:51:13 +0000 2025",
+    "replyCount": 2,
+    "retweetCount": 1,
+    "likeCount": 37,
+    "conversationId": "1943978724707512518",
+    "inReplyToStatusId": "1943983490326049108",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1943986001338413396",
+    "text": "@legend_calls Like 5-10 mins",
+    "createdAt": "Sat Jul 12 10:49:14 +0000 2025",
+    "replyCount": 4,
+    "retweetCount": 0,
+    "likeCount": 15,
+    "conversationId": "1943978724707512518",
+    "inReplyToStatusId": "1943983328907968891",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1943978724707512518",
+    "text": "Pumpfun分歧太大了，Ansem、Izebel这些人都很看好，一些老外甚至怕公售抢不到，提前开多合约，包括VC以4B估值打了720M也证明这个价格存在一定合理性，但同时看空的声音也非常大，国内外都有，整体来说不算一个确定性机会，博弈的点太多。\n\n目前想到一个相对稳妥的策略是先观察公售情况，如果满的速度比较快，就打了再套保，并且留足保证金，如果速度慢完全可以不参与，我个人是预计会比较快打满的。\n\n这个策略存在的风险，主要是公售结束后24-72小时分发代币，发完币后24-72小时可转移，这个时间窗口导致的。\n\n一种情况是拉盘合约爆空单，应对措施是留够保证金，相当于降低资金的利用率来提高安全性。\n\n第二种情况是，现货交易早于代币可转移的时间开放，通过操纵现货价格拉盘，即使合约价格不跟，也会变成负费率，套保的散户如果不平空就要被费率折磨，如果平空那么手里的币就变成了裸多，要承受币价波动的风险。\n\n当然这都属于比较极端的情况，出现概率不大，但是从套利角度必须要考虑周全。\n\n比较理想的剧本，是公售比较快打完，一直到开盘都没出现什么幺蛾子，现货开盘后涨个40-80%，然后开始阴跌，大家皆大欢喜。\n\n如果没有把握，完全可以选择不参与这个币，并不是热度越大的项目就意味着机会也越大。",
+    "createdAt": "Sat Jul 12 10:20:20 +0000 2025",
+    "replyCount": 120,
+    "retweetCount": 62,
+    "likeCount": 561,
+    "conversationId": "1943978724707512518",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1943632615942013434",
+    "text": "@LilTea_eth 产生这种心态很正常，人之常情，本质是把浮盈当成了已经落袋。其实无论是盈利还是本金，做决策的时候都要努力减小“锚定效应”，只根据当前的情况判断，不要让某个特定的数字来影响自己的决策。",
+    "createdAt": "Fri Jul 11 11:25:01 +0000 2025",
+    "replyCount": 1,
+    "retweetCount": 6,
+    "likeCount": 44,
+    "conversationId": "1943450860044132442",
+    "inReplyToStatusId": "1943518650750865598",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1943451246368866446",
+    "text": "@ediephant 没忍住",
+    "createdAt": "Thu Jul 10 23:24:19 +0000 2025",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 7,
+    "conversationId": "1943450860044132442",
+    "inReplyToStatusId": "1943451061035110772",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1943450860044132442",
+    "text": "这波山寨空单挨打了，本来已经获利平掉了大部分仓位，只留了一些长线空的山寨，但是Pumpfun发币的消息我判断是会吸血市场，又重新空了进去，没想到大饼带队冲锋了。\n\n币圈瞬息万变，不存在一直无脑赚钱的单一策略，每次交易都要做好计划，考虑清楚判断错误该怎么办。也恭喜大饼新高吃到肉的朋友们！",
+    "createdAt": "Thu Jul 10 23:22:47 +0000 2025",
+    "replyCount": 151,
+    "retweetCount": 31,
+    "likeCount": 684,
+    "conversationId": "1943450860044132442",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1942990755297190013",
+    "text": "是你们资源太好了还是造谣上瘾了，一个个张口就是Pumpfun有便宜的KOL轮，怎么我一个月前拜托VC朋友想参与同等4B估值的私募轮，最后都问到AK了还是没有额度呢？\n\n当时想参与的逻辑我也写了，我觉得是一个能容纳大资金的机会，止损20%，往上有50-100%的空间，在我眼里是正EV，就这么简单，每个人对项目的判断都不同，完全可以选择不参与或者上线后找机会做空。\n\n当然那是一个月前的情况了，上一篇推文也说了，现在市场情况发生了变化，Pumpfun的发射台市占率被Bonk超越，肯定会影响估值，另外今晚的公告里居然OKX和币安都没有支持本次公售，也是一个负面因素。\n\n就是这样一个很简单的投资逻辑分享，也能硬被说成是接了付费广告，推特就是无脑菜逼太多了，除了阴谋论啥也不会，今晚公布的数据VC打了18%也就是720M，这次公售肯定算不上一个无脑赚钱的机会，但至少是存在博弈空间的，币安选择先上盘前也非常巧妙，目前我会继续关注后两天币安、CB、Upbit有没有上币公告，以及代币具体如何释放来决定是否参与公售。",
+    "createdAt": "Wed Jul 09 16:54:29 +0000 2025",
+    "replyCount": 117,
+    "retweetCount": 27,
+    "likeCount": 392,
+    "conversationId": "1942990755297190013",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/Gvbjyd0asAASpSS.jpg",
+        "width": 1179,
+        "height": 1170,
+        "previewUrl": "https://pbs.twimg.com/media/Gvbjyd0asAASpSS.jpg:small"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GvbjydzakAIFq6F.jpg",
+        "width": 1179,
+        "height": 697,
+        "previewUrl": "https://pbs.twimg.com/media/GvbjydzakAIFq6F.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "1942828757640962099",
+    "text": "@banks888888 我一直觉得“割跟单”这个行为没有错，其实叫“杀跟单”更合适，因为没有任何一个大车头是自己建议别人跟单自己的，都是市场自发的行为，既想跟在车头后面躺赚又不愿意承担风险是不合理的。\n\n我以前也杀过几次跟单，只不过我会提前24小时推特通知，不想误伤真正的粉丝，现在不杀是单纯懒得折腾而已。",
+    "createdAt": "Wed Jul 09 06:10:46 +0000 2025",
+    "replyCount": 2,
+    "retweetCount": 0,
+    "likeCount": 18,
+    "conversationId": "1942821038401937806",
+    "inReplyToStatusId": "1942822376909250903",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1942827238711517670",
+    "text": "@Wwj_1450 这就像我帖子里写的，很难说一个币在车头买入后上涨，是因为跟单还是因为被市场注意到了，如果单纯是跟单带来的买量，车头不砸跟单bot也会砸，如果是被市场认可的叙事，上涨卖出又有什么问题，又不是边喊单边出货，也没车头建议别人跟单自己吧，但是车头自身单纯的链上影响力反而都成了一种道德枷锁",
+    "createdAt": "Wed Jul 09 06:04:44 +0000 2025",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 16,
+    "conversationId": "1942821038401937806",
+    "inReplyToStatusId": "1942822243735589320",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1942825774379327757",
+    "text": "@Ragdoll_Sol1118 你还怪会心疼人的嘞",
+    "createdAt": "Wed Jul 09 05:58:55 +0000 2025",
+    "replyCount": 5,
+    "retweetCount": 0,
+    "likeCount": 9,
+    "conversationId": "1942821038401937806",
+    "inReplyToStatusId": "1942821874469331256",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  }
+]

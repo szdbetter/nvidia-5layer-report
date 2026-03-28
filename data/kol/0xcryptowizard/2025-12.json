@@ -1,0 +1,642 @@
+{
+  "tweets": [
+    {
+      "id": "2006255560585535686",
+      "text": "@agintender 这个问题可能在很多年都没有答案，哪些智力过程，是需要人必须掌握的，哪些是要学习怎么和 ai 共同完成的。\n就像我们站在蒸汽机刚发明的时候，思考如何适应一个未来由机器主导体力劳动的时代。",
+      "createdAt": "Wed Dec 31 06:46:14 +0000 2025",
+      "replyCount": 3,
+      "retweetCount": 0,
+      "likeCount": 4,
+      "conversationId": "2006224149619016191",
+      "inReplyToStatusId": "2006254607874547921",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2006229544416707038",
+      "text": "@drjingle 我觉得问题不大，技能应该是进化的，学习与ai共生",
+      "createdAt": "Wed Dec 31 05:02:51 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2006224149619016191",
+      "inReplyToStatusId": "2006229202950053892",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2006228138024698238",
+      "text": "@aaaa80034532 很多个地方都需要做trade off，否则会执行时间太长",
+      "createdAt": "Wed Dec 31 04:57:16 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2006224149619016191",
+      "inReplyToStatusId": "2006226360747057473",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2006226968145191197",
+      "text": "@drjingle 应该鼓励的",
+      "createdAt": "Wed Dec 31 04:52:37 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 3,
+      "conversationId": "2006224149619016191",
+      "inReplyToStatusId": "2006226691367301282",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2006225434468573523",
+      "text": "如果一个作业，是 ai 就能轻松完成的，那本身就不值得让学生掌握。\n\n问题不在学生，在老师。\n\n老师给学生的挑战，应该是人+ai才能应付的。\n\n这样才是让学生学会开铲车，而不是熟练掌握铁锹。",
+      "createdAt": "Wed Dec 31 04:46:32 +0000 2025",
+      "replyCount": 12,
+      "retweetCount": 1,
+      "likeCount": 41,
+      "conversationId": "2006224149619016191",
+      "inReplyToStatusId": "2006224149619016191",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2006224149619016191",
+      "text": "现在大部分老师非常反感学生用 ai 辅助，觉得这样基础会打不好。\n\n我在想，这种思路，会不会类似蒸汽机刚出来的时候，老师傅还要求学徒熟练掌握怎么用铁锹？\n\n用不用ai不是重点，重点是最终结果的质量。\n\n现在学生应该学习的是怎么开铲车，而不是继续不断深化使用铁锹的技能。",
+      "createdAt": "Wed Dec 31 04:41:25 +0000 2025",
+      "replyCount": 100,
+      "retweetCount": 12,
+      "likeCount": 230,
+      "conversationId": "2006224149619016191",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2006221408746234274",
+      "text": "@luyaoyuan ai 对零散记录的支持真的太棒了，之前这种记录都会飘散或者很难回顾。",
+      "createdAt": "Wed Dec 31 04:30:32 +0000 2025",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 16,
+      "conversationId": "2006207849425428598",
+      "inReplyToStatusId": "2006207849425428598",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2006200289318281485",
+      "text": "@lordOfAFew @daydreamsagents 🧠",
+      "createdAt": "Wed Dec 31 03:06:37 +0000 2025",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 4,
+      "conversationId": "2006154343767237034",
+      "inReplyToStatusId": "2006154343767237034",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2006012648614215689",
+      "text": "@xingpt 嗯，现在感受上，看起来进展很多，未来无限光明，但大部分跟韭菜们关系不大。",
+      "createdAt": "Tue Dec 30 14:40:59 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 2,
+      "conversationId": "2006002414680432942",
+      "inReplyToStatusId": "2006012030021476608",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2006009704342798695",
+      "text": "@xingpt 2019山寨也一直没涨，当时什么感受？我是20年炒币的，记不起来19年的币圈情绪了。",
+      "createdAt": "Tue Dec 30 14:29:18 +0000 2025",
+      "replyCount": 5,
+      "retweetCount": 0,
+      "likeCount": 7,
+      "conversationId": "2006002414680432942",
+      "inReplyToStatusId": "2006008796938919981",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2006002876058050787",
+      "text": "@snow949494 @lighter ❤️❤️❤️",
+      "createdAt": "Tue Dec 30 14:02:10 +0000 2025",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2005892956440375747",
+      "inReplyToStatusId": "2006002665147490599",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2006002414680432942",
+      "text": "市场情绪，回到“币圈完了”阶段。\n\n过去，大概在 312/ ftx 崩盘这种级别的事情，才会出现。\n\n而现在， btc 还在9万附近，这种错位感令人恍惚。",
+      "createdAt": "Tue Dec 30 14:00:20 +0000 2025",
+      "replyCount": 99,
+      "retweetCount": 12,
+      "likeCount": 305,
+      "conversationId": "2006002414680432942",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2006000209751613797",
+      "text": "@snow949494 @lighter 今年最强 alpha",
+      "createdAt": "Tue Dec 30 13:51:34 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 4,
+      "conversationId": "2005892956440375747",
+      "inReplyToStatusId": "2005892956440375747",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2005524800396214409",
+      "text": "@jobhu123 价格波动大，自然trader就会关注，尤其是“数字黄金”的失望情绪。",
+      "createdAt": "Mon Dec 29 06:22:27 +0000 2025",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2005520678473417058",
+      "inReplyToStatusId": "2005523201670209673",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2005524514692882478",
+      "text": "@imajuana &gt; \"tokenized silver (ondo) is at ~80$ while its IRL version is at ~70$, though, presumably there are wicks to ~70$. So, I put a limit order in case of a wick to ~70$ just in case\"\n\n没有幻觉，群聊就是这么说的。\n\n但是群聊信息需要你自己去验证。",
+      "createdAt": "Mon Dec 29 06:21:19 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 0,
+      "conversationId": "2005520678473417058",
+      "inReplyToStatusId": "2005522551875969515",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2005521118363546085",
+      "text": "@Web3_DadGOD 这是我自己做的工具，后面输出稳定了，会考虑开放。",
+      "createdAt": "Mon Dec 29 06:07:50 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 3,
+      "conversationId": "2005520678473417058",
+      "inReplyToStatusId": "2005520865161842785",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2005520678473417058",
+      "text": "昨天，各大社区都在聊啥？（图1/2）\n\n聊的最多的，是 lighter 。（图3）\n\n整体市场情绪，“暴风雨前的宁静。”（图4） https://t.co/eti5vCEhvC",
+      "createdAt": "Mon Dec 29 06:06:05 +0000 2025",
+      "replyCount": 51,
+      "retweetCount": 0,
+      "likeCount": 72,
+      "conversationId": "2005520678473417058",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/G9UJ7gnaAAETZVc.png",
+          "width": 467,
+          "height": 544,
+          "previewUrl": "https://pbs.twimg.com/media/G9UJ7gnaAAETZVc.png:small"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/G9UJ80zbgAAHPjX.jpg",
+          "width": 470,
+          "height": 953,
+          "previewUrl": "https://pbs.twimg.com/media/G9UJ80zbgAAHPjX.jpg:small"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/G9UJ-eEbsAAujdw.jpg",
+          "width": 458,
+          "height": 977,
+          "previewUrl": "https://pbs.twimg.com/media/G9UJ-eEbsAAujdw.jpg:small"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/G9UJ_ZbbEAAQNo6.png",
+          "width": 463,
+          "height": 671,
+          "previewUrl": "https://pbs.twimg.com/media/G9UJ_ZbbEAAQNo6.png:small"
+        }
+      ]
+    },
+    {
+      "id": "2005483715292807429",
+      "text": "@sidelined_cap 新加坡作为曾经英属殖民地的东南亚中心港口，突然被马来踢出来必须独立，连保护自己的能力都没有，没有腹地，没有水资源，种族情况复杂。\n\n拟人化，基本是天崩开局，活着都难，除了家位置好点，一无是处。",
+      "createdAt": "Mon Dec 29 03:39:12 +0000 2025",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 3,
+      "conversationId": "2005453691462222174",
+      "inReplyToStatusId": "2005480034828742766",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2005477774275039303",
+      "text": "把新加坡拟人化，1965年独立时，相当于一个又穷又弱小的，旁边的穷邻居（马来/印尼）都能随时过来踢一脚，家里水都没有。\n\n唯一优势，家位置不错（马六甲），方便做点生意，但邻居（马来）天天惦记着抢过去（派军队进入）。\n\n这么绝望的开局，因为有一个好的大脑（李光耀及同僚），以及勤奋的手脚（新加坡人民），完全扭转了命运。\n\n我个人认为，如果不是这个大脑，如此理性/务实/专注/长期主义，再勤奋也没用的。\n\n看看菲律宾，1965年 GDP 是新加坡的17倍。现在以勤奋敬业的菲佣闻名，人民（手脚）不够勤奋么？显然不是。是领导与精英阶层（大脑）的愚蠢失误/贪婪成性导致的，现在菲律宾的贫弱现状。\n\n对我们的启发是，把新加坡的逆袭历史，当成一个穷小子的发家史来看，看他是如何利用理性/务实/专注/长期主义，在面对极端困境时，用60年时间获得成功的。\n\n60年对一个国家来说很短暂，对于个人来说，也不过就是一生罢了。",
+      "createdAt": "Mon Dec 29 03:15:36 +0000 2025",
+      "replyCount": 4,
+      "retweetCount": 1,
+      "likeCount": 34,
+      "conversationId": "2005453691462222174",
+      "inReplyToStatusId": "2005453691462222174",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2005474140925653241",
+      "text": "有兄弟说：不就是，干中学么？\n\n你说的对，也不够对。\n\n干中学，相当于你把大脑当成一个 ai agent，给了一个相当笼统的指令。\n\n莽夫+智者+会计，相当于你把大脑分配了一个多 agent 协作系统，各自负责具体事务，互相协作和约束。",
+      "createdAt": "Mon Dec 29 03:01:09 +0000 2025",
+      "replyCount": 0,
+      "retweetCount": 1,
+      "likeCount": 13,
+      "conversationId": "2005142542439047588",
+      "inReplyToStatusId": "2005175194206580943",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2005453691462222174",
+      "text": "看到一篇 sam altman 19年写的文章：如何成功？\n\n我不想拆开讲，自己去看原文吧。\n\n只是觉得有趣，从李光耀（我正在读他的 from third to first）到巴菲特，从巴菲特到段永平，从段永平到 altman。\n\n都有一些共性，可以用一个中学生就懂的技巧，提取公因式：\n1️⃣ 理性 + 2️⃣ 务实 + 3️⃣ 专注 + 4️⃣ 长期主义与复利\n\n每个人都在用自己的经历和语言，在表达以上信息。\n\n这些东西，提炼出来像没用的鸡汤，只有专注到每一项背后的细节，才有趣和回味无穷。\n\n比如，李光耀在 from third to first 里描述新加坡刚独立时的困境，和他的思考与应对。\n\n我刚打赌，如果将新加坡比喻成一个人，没有几个看到这篇推文的兄弟，比当时的新加坡更惨。\n\n就是这样一个一手烂牌的贫弱小子，现在成长为人均 GDP 全球前5的小而美的国家，甚至我在日本时，发现很多日本人非常乐于被派到新加坡工作。\n\n李光耀的秘诀，无非就是极端理性/务实/专注/长期主义，对，说起来“也不过是些鸡汤”罢了。\n\naltman 原文：\nhttps://t.co/PZmfj5K8Db",
+      "createdAt": "Mon Dec 29 01:39:54 +0000 2025",
+      "replyCount": 51,
+      "retweetCount": 107,
+      "likeCount": 435,
+      "conversationId": "2005453691462222174",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2005175194206580943",
+      "text": "再加一个角色，“会计”。\n\n可以做“莽夫”就tm干，也可以当“智者”不断反思，以及期待未来。\n\n多个“会计”角色，给每次尝试安排好安全垫，保证不死，不被斩杀。",
+      "createdAt": "Sun Dec 28 07:13:15 +0000 2025",
+      "replyCount": 5,
+      "retweetCount": 2,
+      "likeCount": 31,
+      "conversationId": "2005142542439047588",
+      "inReplyToStatusId": "2005142542439047588",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2005142542439047588",
+      "text": "什么事，想尽快学会，要“莽夫”+“智者”。\n\n“莽夫”：别 tm 分析了，开干。\n\n“智者”：干的过程中，边干边想，不断抽象建模，不断模式识别和复盘，再继续干。",
+      "createdAt": "Sun Dec 28 05:03:30 +0000 2025",
+      "replyCount": 74,
+      "retweetCount": 41,
+      "likeCount": 250,
+      "conversationId": "2005142542439047588",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2004762727076761791",
+      "text": "@linwanwan823 对，还有金蝉子转世。",
+      "createdAt": "Sat Dec 27 03:54:15 +0000 2025",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 3,
+      "conversationId": "2004720703208382606",
+      "inReplyToStatusId": "2004760278760841566",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2004759721837035859",
+      "text": "@Meta8Mate 主要是员工如果确实更优秀，也呆不久，自然就自己走了。",
+      "createdAt": "Sat Dec 27 03:42:18 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 3,
+      "conversationId": "2004720703208382606",
+      "inReplyToStatusId": "2004759569906667656",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2004725245761257792",
+      "text": "@qct0215 我觉得一个公司能起来，最大因素还是做好了产品和服务，给了用户/客户价值。\n\n所谓起来，我指的是生存下来，而且活的还不错，这是比较现实的目标。\n\n运气因素在哪里都有，只能作为背景音处理。",
+      "createdAt": "Sat Dec 27 01:25:19 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 3,
+      "conversationId": "2004720703208382606",
+      "inReplyToStatusId": "2004724028280619024",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2004720703208382606",
+      "text": "很多人认为，老板能力不如员工，事情都是员工做的，老板只是运气好或者胆子大罢了。\n\n我看到的情况，绝大部分老板比员工水平高，人很难雇佣比自己优秀的员工。\n\n第一，从员工角度\n\n真正优秀的人，需要的不只是工资，还有发展空间，他最宝贵的是成长时间和机会成本。\n\n一个水平差的老板，是给不了他这些，自然就留不住他。\n\n如果识别不了比自己强的老板，那也很难说是个优秀人才。\n\n第二，从老板角度\n\n西游记取经4人组，最无法替代的只有唐僧。\n\n看起来最弱，实际最强。\n\n正确的目标和方向（东土大唐而来，西天取经而去），坚强无可动摇的意志（九死不悔，为万民），愿意承担极端风险（被吃身死）。\n\n一个老板，看到方向，愿意坚持，承担风险扛事，这些不是一个所谓业务能力强的员工能替代的。\n\n哪怕悟空这样的员工，也不行。",
+      "createdAt": "Sat Dec 27 01:07:16 +0000 2025",
+      "replyCount": 94,
+      "retweetCount": 14,
+      "likeCount": 234,
+      "conversationId": "2004720703208382606",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2004534675159843079",
+      "text": "@Sea_Bitcoin 只抓tel",
+      "createdAt": "Fri Dec 26 12:48:03 +0000 2025",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 2,
+      "conversationId": "2004483799540023533",
+      "inReplyToStatusId": "2004526705638248853",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2004523973703602199",
+      "text": "@Sea_Bitcoin 围绕自己信息获取需求，做一些小工具，目前做了一个月的群聊汇总。\n\n目标比较清晰，早晚看一眼（5分钟）就知道大家（很多个群）在聊啥（高质量话题），如果感兴趣的话题，就进一步详细了解。\n\n这个事情，如果是盯着群刷，估计每天要几个小时。",
+      "createdAt": "Fri Dec 26 12:05:32 +0000 2025",
+      "replyCount": 4,
+      "retweetCount": 0,
+      "likeCount": 14,
+      "conversationId": "2004483799540023533",
+      "inReplyToStatusId": "2004483799540023533",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2004490268188524990",
+      "text": "想起了之前做产品的时候，调侃程序员的话：\n“又在写 bug 呢？”😂",
+      "createdAt": "Fri Dec 26 09:51:36 +0000 2025",
+      "replyCount": 9,
+      "retweetCount": 4,
+      "likeCount": 27,
+      "conversationId": "2004474845996933511",
+      "inReplyToStatusId": "2004474845996933511",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2004478811841450164",
+      "text": "@chengzi_95330 还是挺好玩的，围绕自己需求做小工具。",
+      "createdAt": "Fri Dec 26 09:06:04 +0000 2025",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2004474845996933511",
+      "inReplyToStatusId": "2004478442788843627",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2004474845996933511",
+      "text": "写代码有个好处，进入心流后，不会频繁check行情了。",
+      "createdAt": "Fri Dec 26 08:50:19 +0000 2025",
+      "replyCount": 40,
+      "retweetCount": 2,
+      "likeCount": 75,
+      "conversationId": "2004474845996933511",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2004362276590252187",
+      "text": "早晨起来，群聊汇总推给我的，两个有趣的事件：\n\n1️⃣ aave 的 stani 跟群友的争论；\n2️⃣ trust wallet 安全事件的警告和原因讨论。 https://t.co/a6a1hjtdAq",
+      "createdAt": "Fri Dec 26 01:23:00 +0000 2025",
+      "replyCount": 45,
+      "retweetCount": 2,
+      "likeCount": 65,
+      "conversationId": "2004362276590252187",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/G9Dse0La8AAXbtc.png",
+          "width": 432,
+          "height": 600,
+          "previewUrl": "https://pbs.twimg.com/media/G9Dse0La8AAXbtc.png:small"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/G9Dsf72aIAA7yjG.png",
+          "width": 439,
+          "height": 695,
+          "previewUrl": "https://pbs.twimg.com/media/G9Dsf72aIAA7yjG.png:small"
+        }
+      ]
+    },
+    {
+      "id": "2004361479513166192",
+      "text": "⭐所有宗教哲学科学，可能是一个终极真理的切片，如果存在这个真理，它最重要的规则会是什么？\n\n我的一些思考，涉及所有宗教：\n“真理不是神秘力量，而是长期可验证的秩序回报函数\n宗教不是答案，而是人类在反复失败中总结出的生存补丁\n真正的修行，是减少与世界对抗的无效动作。”",
+      "createdAt": "Fri Dec 26 01:19:50 +0000 2025",
+      "replyCount": 3,
+      "retweetCount": 0,
+      "likeCount": 18,
+      "conversationId": "2004350296865305046",
+      "inReplyToStatusId": "2004357027389387210",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2004357027389387210",
+      "text": "⭐如果未来智能作为一种资源是无限的，世界会变成什么样子？\n\n无限思考，是数学里经常用的极值思维。\n\n比如，在蒸汽机发明之前，17世纪的手工业者/农民，是无法想象，“人力/畜力无限时，世界会是什么样子？”\n\n现在我们也一样，站在 ai 时代的开端，现在批评 ai ，就像17世纪的手工业者批评机器没法做出精美的产品一样可笑。\n\n反而应该思考，如果未来智能作为一种资源是无限的，这个世界会是什么样子？",
+      "createdAt": "Fri Dec 26 01:02:09 +0000 2025",
+      "replyCount": 3,
+      "retweetCount": 2,
+      "likeCount": 18,
+      "conversationId": "2004350296865305046",
+      "inReplyToStatusId": "2004350296865305046",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2004350296865305046",
+      "text": "最近我在持续思考，还没有答案的“无用知识”。\n\n⭐如果未来智能作为一种资源是无限的，世界会变成什么样子？人的生存和发展，组织和社会的形态会如何？\n\n⭐所有宗教哲学科学，可能是一个终极真理的切片，如果存在这个真理，它最重要的规则会是什么？\n\n⭐模式识别和应用，也可以管他叫规律，是解决所有问题的终极方法论。\n\n⭐什么是艰难而又重要的事情？什么是忙碌而看起来有成效的事情？我们要如何系统性的形成解决前者的习惯？",
+      "createdAt": "Fri Dec 26 00:35:24 +0000 2025",
+      "replyCount": 30,
+      "retweetCount": 1,
+      "likeCount": 44,
+      "conversationId": "2004350296865305046",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2004059413242605736",
+      "text": "@CoinWZH 🎄",
+      "createdAt": "Thu Dec 25 05:19:32 +0000 2025",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2004012713652244559",
+      "inReplyToStatusId": "2004047733372686497",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2004029565732376826",
+      "text": "@chengzi_95330 圣诞快乐🎄",
+      "createdAt": "Thu Dec 25 03:20:56 +0000 2025",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2004012713652244559",
+      "inReplyToStatusId": "2004021253188067616",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2004029515639804363",
+      "text": "@followin_io_zh 🎄",
+      "createdAt": "Thu Dec 25 03:20:44 +0000 2025",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 0,
+      "conversationId": "2004012713652244559",
+      "inReplyToStatusId": "2004021371131908378",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2004018168743055598",
+      "text": "@zhuren1992 🎄",
+      "createdAt": "Thu Dec 25 02:35:38 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2004012713652244559",
+      "inReplyToStatusId": "2004014598383645023",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    }
+  ],
+  "nextCursor": null
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "config": "Day6/8%/单档 (基准)",
+    "actual_sharpe": 2.413244718791184,
+    "actual_pnl": 8632.652029760573,
+    "actual_trades": 34,
+    "actual_hit_rate": 0.23529411764705882,
+    "ci_sharpe_95": [
+      0.315170075243053,
+      4.2628646173511475
+    ],
+    "ci_pnl_95": [
+      780.854914679956,
+      17785.0286861752
+    ],
+    "ci_sharpe_lo_positive": true,
+    "ci_pnl_lo_positive": true,
+    "p_value_sharpe": 0.0,
+    "statistically_significant": true,
+    "n_bootstrap": 10000
+  },
+  {
+    "config": "Day6/6%/多档x2 (最优)",
+    "actual_sharpe": 4.911631331328691,
+    "actual_pnl": 9567.145477486169,
+    "actual_trades": 34,
+    "actual_hit_rate": 0.23529411764705882,
+    "ci_sharpe_95": [
+      2.735798193410956,
+      7.735602394520924
+    ],
+    "ci_pnl_95": [
+      4978.597257683414,
+      14299.81515943675
+    ],
+    "ci_sharpe_lo_positive": true,
+    "ci_pnl_lo_positive": true,
+    "p_value_sharpe": 0.0,
+    "statistically_significant": true,
+    "n_bootstrap": 10000
+  },
+  {
+    "config": "Day5/6%/单档",
+    "actual_sharpe": 1.6031702302649817,
+    "actual_pnl": 4416.934272098424,
+    "actual_trades": 34,
+    "actual_hit_rate": 0.17647058823529413,
+    "ci_sharpe_95": [
+      -1.0618322901373358,
+      3.2657432847499757
+    ],
+    "ci_pnl_95": [
+      -1507.2872557563242,
+      11430.6389156693
+    ],
+    "ci_sharpe_lo_positive": false,
+    "ci_pnl_lo_positive": false,
+    "p_value_sharpe": 0.0,
+    "statistically_significant": true,
+    "n_bootstrap": 10000
+  }
+]

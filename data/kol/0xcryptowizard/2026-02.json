@@ -1,0 +1,406 @@
+{
+  "tweets": [
+    {
+      "id": "2026242641382572338",
+      "text": "@Wuhuoqiu 除了rwa，perp和预测市场都是交易向的。在这么多赛道证伪之前，我也不太看好隐私，现在反而觉得这是 crypto 能干还没被证伪的少数几个方向了。",
+      "createdAt": "Tue Feb 24 10:27:46 +0000 2026",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 7,
+      "conversationId": "2025920673391251510",
+      "inReplyToStatusId": "2026224126286049632",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2026116231808573458",
+      "text": "@Wuhuoqiu 还有隐私？",
+      "createdAt": "Tue Feb 24 02:05:27 +0000 2026",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 0,
+      "conversationId": "2025920673391251510",
+      "inReplyToStatusId": "2025920673391251510",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2023592244108796089",
+      "text": "@Crypto_Cat888 不错的诗",
+      "createdAt": "Tue Feb 17 02:56:02 +0000 2026",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 2,
+      "conversationId": "2023567219595088382",
+      "inReplyToStatusId": "2023586339414044864",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2023583517746307548",
+      "text": "@suxintang99 新年好",
+      "createdAt": "Tue Feb 17 02:21:21 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2023567219595088382",
+      "inReplyToStatusId": "2023573542403797488",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2023583494954512868",
+      "text": "@Chris46666 新年快乐",
+      "createdAt": "Tue Feb 17 02:21:16 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 0,
+      "conversationId": "2023567219595088382",
+      "inReplyToStatusId": "2023572670567117144",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2023583469457313987",
+      "text": "@DanceKeanu 新年好",
+      "createdAt": "Tue Feb 17 02:21:10 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 0,
+      "conversationId": "2023567219595088382",
+      "inReplyToStatusId": "2023569634449047693",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2023583445348409482",
+      "text": "@0xTuffy 新年快乐",
+      "createdAt": "Tue Feb 17 02:21:04 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 0,
+      "conversationId": "2023567219595088382",
+      "inReplyToStatusId": "2023568748888883276",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2023583284996030916",
+      "text": "@0xathenalee 新年快乐！",
+      "createdAt": "Tue Feb 17 02:20:26 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2023567219595088382",
+      "inReplyToStatusId": "2023578597051728363",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2023570060346794488",
+      "text": "@0xcryptopanda 马年快乐。",
+      "createdAt": "Tue Feb 17 01:27:53 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 0,
+      "conversationId": "2023331091399229644",
+      "inReplyToStatusId": "2023569274414231883",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2023567219595088382",
+      "text": "我还是不够深刻\n不够丰富\n不够推陈出新\n\n但我爱自己\n爱自己的有力量\n也爱自己的缺点\n\n今年也平安无事地结束了\n这比什么都重要\n我做得不错\n我必须赞美自己\n\n跨过去\n春天不远了\n永远不要失去\n发芽的信心\n\n---王小波《写给新的一年》",
+      "createdAt": "Tue Feb 17 01:16:35 +0000 2026",
+      "replyCount": 58,
+      "retweetCount": 16,
+      "likeCount": 224,
+      "conversationId": "2023567219595088382",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2023415701470613852",
+      "text": "@KK_TSH 新年快乐。",
+      "createdAt": "Mon Feb 16 15:14:31 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2023331091399229644",
+      "inReplyToStatusId": "2023403178046415236",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2023386246337405034",
+      "text": "@anymose 新年快乐。",
+      "createdAt": "Mon Feb 16 13:17:28 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2023331091399229644",
+      "inReplyToStatusId": "2023372518393032858",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2023361039480565763",
+      "text": "@Evan99503 新年快乐。",
+      "createdAt": "Mon Feb 16 11:37:18 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2023331091399229644",
+      "inReplyToStatusId": "2023337364484174230",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2023355202255180014",
+      "text": "@0x_MrFive 新年快乐。",
+      "createdAt": "Mon Feb 16 11:14:06 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2023331091399229644",
+      "inReplyToStatusId": "2023332238533050562",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2023355165332718018",
+      "text": "@Siberiaxx1909 新年快乐。",
+      "createdAt": "Mon Feb 16 11:13:58 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2023331091399229644",
+      "inReplyToStatusId": "2023331755898581416",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2023355063549427975",
+      "text": "@Ta1_D1 新年快乐。",
+      "createdAt": "Mon Feb 16 11:13:33 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2023331091399229644",
+      "inReplyToStatusId": "2023346951228739759",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2023333978791624930",
+      "text": "@wuya666eth 新年快乐。",
+      "createdAt": "Mon Feb 16 09:49:46 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2023331091399229644",
+      "inReplyToStatusId": "2023332185236005136",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2023331377513668701",
+      "text": "@Zg6716GUJF1316 新年快乐。",
+      "createdAt": "Mon Feb 16 09:39:26 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2023331091399229644",
+      "inReplyToStatusId": "2023331190951063675",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2023331345813139663",
+      "text": "@0xBeyondLee 新年快乐。",
+      "createdAt": "Mon Feb 16 09:39:19 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 2,
+      "conversationId": "2023331091399229644",
+      "inReplyToStatusId": "2023331210966278550",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2023331091399229644",
+      "text": "祝兄弟们，新年快乐。\n\n在马年，身体健康，阖家欢乐，好运常伴。",
+      "createdAt": "Mon Feb 16 09:38:18 +0000 2026",
+      "replyCount": 71,
+      "retweetCount": 2,
+      "likeCount": 185,
+      "conversationId": "2023331091399229644",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2019953352420061504",
+      "text": "哪些 cypto 方向，有可能跨越周期，在下个牛市依然存在？\n\nkyle 提到的是以 zama 为代表的 fhe 链上隐私。\n\n我能想到的，还有：\n\n1️⃣ 新资产发行方式\n\n类似 ico ，二池三池，铭文，solana pump meme 。\n\n在新的周期，会有新的垃圾资产发行方式，crypto 在，赌场就永远会有新的炒作方式。\n\n机会属于下个周期的 ico 参与者 / defi farmer / 铭文玩家 / sol p小将。\n\n2️⃣ ai + crypto\n\n我依然看好 x402 + erc8004 ，这一点说过很多次，这是可能不只是“叙事”的真实有价值的方向。\n\n机会属于有长期战略耐心，看中产品和应用的钻石手/化石手，前提是基本面要成立，不能只是“叙事”，要有真实数据和应用大量采用。\n\n3️⃣ 隐私\n\nkyle 在离开时，认为唯一还没有被证伪的方向。我认可这个方向，这是目前 crypto 少有的可能比 web2 解决更彻底更有效的方向。\n\n4️⃣ 金融融合\n\nrwa 和 稳定币，股票上链这些，可能会带来一些新的资产形态，如果是应用在第三世界国家支付这种方向，可能跟链上/二级玩家没什么关系。\n\n跟散户有关系的方向，可能是这部分与第一点资产发行的某种形式的结合。\n\n在熊市价格深跌时，看空整个行业，无疑是正常的情绪，我也很失落，不过对这个价格表现也并不意外。\n\n但是，注意不要看到有人做空赚了，就习惯性的看空做空，在熊市震荡赚不到几个钱，一旦在几个月/或者半年/一年转牛时，容易犯下大错。",
+      "createdAt": "Sat Feb 07 01:56:22 +0000 2026",
+      "replyCount": 68,
+      "retweetCount": 47,
+      "likeCount": 212,
+      "conversationId": "2019953352420061504",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "quotedTweet": {
+        "id": "2019154455082725861",
+        "text": "0/ A personal update\n\nI have decided to step back from @multicoin. It's a bittersweet moment for me because my time at Multicoin has been some of the most meaningful and rewarding of my life. That said, I am excited to take some time off and explore new areas of technology.\n\nAfter nearly a decade in crypto, I’m more confident than ever that crypto is going to fundamentally rewire the circuitry of finance. I believe the Clarity Act will unlock a tidal wave of new entrants and spur adoption unlike anything we’ve seen. I remain bullish on crypto, specifically Solana, and intend to continue making personal investments in the space and supporting Multicoin portfolio companies. Moreover, I will continue to serve on the board of @zama, and I will continue in my role as Chairman at Forward Industries (@FWDind). More on Forward in next tweet.\n\nIt goes without saying that I also remain bullish on Multicoin. My partners @tushar_jain, Brian Smith, @johnrobertreed, @mattshap1, @xethalis, @SpencerApplebau, and @shayonsengupta are some of the best investors and operators in the world. I am excited for them to continue to drive the crypto ecosystem and Multicoin forward for many years to come.\n\nTo all of our portfolio founders, LPs, and industry partners—thank you for the opportunity to work with you.\n\nFor reference, here is the letter we shared with LPs today\n\nhttps://t.co/AFRYRusU9v",
+        "createdAt": "Wed Feb 04 21:01:50 +0000 2026",
+        "replyCount": 515,
+        "retweetCount": 66,
+        "likeCount": 1778,
+        "conversationId": "2019154455082725861",
+        "author": {
+          "username": "KyleSamani",
+          "name": "Kyle Samani"
+        },
+        "authorId": "46332443"
+      }
+    },
+    {
+      "id": "2017879789374431587",
+      "text": "@0xTsuan 买卖方手续费，路由费用，目前大部分是免费。",
+      "createdAt": "Sun Feb 01 08:36:46 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 2,
+      "conversationId": "2017460383091728724",
+      "inReplyToStatusId": "2017829745157931466",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017873588943237475",
+      "text": "@0xNought @Alvin0617 @TagClaw 希望如此",
+      "createdAt": "Sun Feb 01 08:12:08 +0000 2026",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 2,
+      "conversationId": "2017460383091728724",
+      "inReplyToStatusId": "2017846361564266954",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017799362311844276",
+      "text": "@Alvin0617 希望 ai + crypto 能带来下一个更长久的 narrative 赛道，而不是每天 pvp 一波流",
+      "createdAt": "Sun Feb 01 03:17:11 +0000 2026",
+      "replyCount": 5,
+      "retweetCount": 0,
+      "likeCount": 10,
+      "conversationId": "2017460383091728724",
+      "inReplyToStatusId": "2017794839254061209",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017799240018542730",
+      "text": "@0xTsuan x402就是直接支付啊",
+      "createdAt": "Sun Feb 01 03:16:42 +0000 2026",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2017460383091728724",
+      "inReplyToStatusId": "2017781946412310606",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017758936301199589",
+      "text": "@0xTsuan 不矛盾，x402围绕openclaw的路，为ai助提供方便的支付路径。",
+      "createdAt": "Sun Feb 01 00:36:33 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2017460383091728724",
+      "inReplyToStatusId": "2017620662097989681",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    }
+  ],
+  "nextCursor": null
+}

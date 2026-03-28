@@ -1,0 +1,50 @@
+{
+  "jobs": 4,
+  "tasks": [
+    {
+      "id": "image_1",
+      "promptFiles": ["prompt_1.md"],
+      "image": "kazike_image_1.png",
+      "provider": "google",
+      "model": "gemini-3-pro-image-preview",
+      "ar": "16:9",
+      "quality": "2k"
+    },
+    {
+      "id": "image_2",
+      "promptFiles": ["prompt_2.md"],
+      "image": "kazike_image_2.png",
+      "provider": "google",
+      "model": "gemini-3-pro-image-preview",
+      "ar": "16:9",
+      "quality": "2k"
+    },
+    {
+      "id": "image_3",
+      "promptFiles": ["prompt_3.md"],
+      "image": "kazike_image_3.png",
+      "provider": "google",
+      "model": "gemini-3-pro-image-preview",
+      "ar": "16:9",
+      "quality": "2k"
+    },
+    {
+      "id": "image_4",
+      "promptFiles": ["prompt_4.md"],
+      "image": "kazike_image_4.png",
+      "provider": "google",
+      "model": "gemini-3-pro-image-preview",
+      "ar": "16:9",
+      "quality": "2k"
+    },
+    {
+      "id": "image_5",
+      "promptFiles": ["prompt_5.md"],
+      "image": "kazike_image_5.png",
+      "provider": "google",
+      "model": "gemini-3-pro-image-preview",
+      "ar": "16:9",
+      "quality": "2k"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "file": "微信图片_20260315220720_1773_260.png",
+    "desc": "灰蓝色修身无袖运动背心，搭配黑色高腰紧身运动裤",
+    "task_id": "",
+    "raw": {
+      "code": 1102,
+      "message": "Account balance not enough",
+      "request_id": "07ed62b1-a1f2-4f41-921e-2314ce4bdde4"
+    }
+  },
+  {
+    "file": "微信图片_20260315220800_1774_260.png",
+    "desc": "深青蓝色运动套装——运动内衣搭配同色高腰紧身裤",
+    "task_id": "",
+    "raw": {
+      "code": 1102,
+      "message": "Account balance not enough",
+      "request_id": "ef3acac5-e052-46bf-9edc-79e52cd96422"
+    }
+  },
+  {
+    "file": "微信图片_20260315220825_1775_260.png",
+    "desc": "亮绿色短款运动内衣上衣，搭配深青色高腰骑行短裤",
+    "task_id": "",
+    "raw": {
+      "code": 1102,
+      "message": "Account balance not enough",
+      "request_id": "6cc58f85-857d-465d-b3b6-c8349bd47482"
+    }
+  }
+]

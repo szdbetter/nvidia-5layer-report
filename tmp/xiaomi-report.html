@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<style>
+@page { size: A4; margin: 2cm; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Helvetica Neue', Arial, 'PingFang SC', sans-serif; color: #1a1a2e; line-height: 1.6; background: white; }
+.cover { height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%); color: white; text-align: center; page-break-after: always; }
+.cover h1 { font-size: 48px; font-weight: 300; margin-bottom: 10px; letter-spacing: 4px; }
+.cover h2 { font-size: 28px; font-weight: 400; color: #ff6b35; margin-bottom: 30px; }
+.cover .subtitle { font-size: 16px; color: #aaa; margin-top: 20px; }
+.cover .badge { display: inline-block; background: #ff6b35; padding: 8px 24px; border-radius: 20px; font-size: 14px; margin-top: 15px; }
+.section { padding: 30px 50px; page-break-inside: avoid; }
+h3 { font-size: 22px; color: #302b63; border-left: 4px solid #ff6b35; padding-left: 12px; margin: 30px 0 15px; }
+.metric-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; margin: 20px 0; }
+.metric { background: #f8f9fa; border-radius: 10px; padding: 20px; text-align: center; border: 1px solid #e9ecef; }
+.metric .value { font-size: 28px; font-weight: 700; color: #ff6b35; }
+.metric .label { font-size: 12px; color: #666; margin-top: 5px; }
+table { width: 100%; border-collapse: collapse; margin: 15px 0; font-size: 14px; }
+th { background: #302b63; color: white; padding: 10px 15px; text-align: left; }
+td { padding: 10px 15px; border-bottom: 1px solid #eee; }
+tr:nth-child(even) { background: #f8f9fa; }
+.highlight { background: linear-gradient(90deg, #fff3e6, white); border-left: 3px solid #ff6b35; padding: 15px 20px; margin: 15px 0; border-radius: 0 8px 8px 0; }
+.risk-tag { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 12px; margin: 2px; }
+.risk-high { background: #ffe0e0; color: #c0392b; }
+.risk-mid { background: #fff3cd; color: #856404; }
+.risk-low { background: #d4edda; color: #155724; }
+.rating { text-align: center; padding: 30px; margin: 20px 0; }
+.rating .stars { font-size: 36px; color: #ff6b35; }
+.rating .verdict { font-size: 24px; font-weight: 700; color: #302b63; margin-top: 10px; }
+.footer { text-align: center; color: #999; font-size: 11px; padding: 20px; border-top: 1px solid #eee; margin-top: 30px; }
+p { margin: 10px 0; font-size: 14px; }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <div style="font-size:14px; letter-spacing:2px; color:#888; margin-bottom:30px;">CLAWLABS RESEARCH</div>
+  <h1>小米集团</h1>
+  <h2>XIAOMI CORP (1810.HK)</h2>
+  <div style="font-size:20px; margin:20px 0;">深度研究报告</div>
+  <div class="badge">🔥 买入评级 | 目标价 HK$45.00</div>
+  <div class="subtitle">
+    <p>报告日期：2026年3月19日</p>
+    <p>ClawLabs Research · AI 量化研究部</p>
+    <p style="margin-top:10px; font-size:12px;">本报告由 MiniMax M2.7 + Reese AI 联合生成</p>
+  </div>
+</div>
+
+<div class="section">
+  <h3>📊 核心数据速览</h3>
+  <div class="metric-grid">
+    <div class="metric"><div class="value">HK$36.94</div><div class="label">当前股价 (2026.03.19)</div></div>
+    <div class="metric"><div class="value">HK$910B</div><div class="label">总市值</div></div>
+    <div class="metric"><div class="value">19.36x</div><div class="label">市盈率 (P/E TTM)</div></div>
+    <div class="metric"><div class="value">0.84%</div><div class="label">股息率</div></div>
+    <div class="metric"><div class="value">56,231</div><div class="label">员工人数</div></div>
+    <div class="metric"><div class="value">3月24日</div><div class="label">下次财报日</div></div>
+  </div>
+
+  <h3>🏢 公司概况</h3>
+  <p>小米集团（Xiaomi Corporation）成立于2010年，是全球领先的智能手机及IoT平台公司。2024年正式进军电动汽车市场，推出SU7系列，开启"人车家"全生态战略。公司于2018年在港交所上市，现已发展为横跨消费电子、智能汽车、AIoT三大赛道的科技巨头。</p>
+
+  <h3>🚗 汽车业务 — 核心增长引擎</h3>
+  <div class="highlight">
+    <strong>关键事件：</strong>小米SU7更新版即将发布，股价近日跳涨5%。3月18日公司回购290万股B类股份，耗资HK$1亿，显示管理层对公司价值的信心。
+  </div>
+  <table>
+    <tr><th>指标</th><th>数据</th><th>备注</th></tr>
+    <tr><td>SU7 累计交付</td><td>>130,000辆 (截至2025年底)</td><td>超额完成10万辆年度目标</td></tr>
+    <tr><td>SU7 Ultra</td><td>纽北7:05.87</td><td>四门电车圈速纪录</td></tr>
+    <tr><td>YU7 (SUV)</td><td>2025年发布</td><td>第二款车型，定价更高</td></tr>
+    <tr><td>产能规划</td><td>30万辆/年</td><td>北京亦庄超级工厂</td></tr>
+    <tr><td>汽车毛利率</td><td>~20%</td><td>高于行业平均</td></tr>
+  </table>
+
+  <h3>📱 手机业务 — 稳健基本盘</h3>
+  <p>小米手机全球出货量持续保持前三，2024年全球市场份额约14%。高端化战略持续推进，小米15系列在中国市场获得积极反馈。Xiaomi HyperOS 2.0 生态持续完善，活跃设备数突破8亿。</p>
+  <table>
+    <tr><th>指标</th><th>2024</th><th>2025E</th></tr>
+    <tr><td>全球出货量</td><td>~1.7亿部</td><td>~1.8亿部</td></tr>
+    <tr><td>中国市场份额</td><td>~15%</td><td>~16%</td></tr>
+    <tr><td>ASP（平均售价）</td><td>持续提升</td><td>高端化驱动</td></tr>
+  </table>
+
+  <h3>🌐 AIoT 生态</h3>
+  <p>小米已建成全球最大的消费级IoT平台，连接设备数超8亿台（不含手机和笔记本）。"人车家"全生态战略下，汽车与智能家居的互联互通成为核心差异化优势。小米大模型持续迭代，赋能全场景AI体验。</p>
+
+  <h3>💰 财务分析</h3>
+  <table>
+    <tr><th>指标</th><th>2023</th><th>2024</th><th>趋势</th></tr>
+    <tr><td>总营收</td><td>RMB 2,710亿</td><td>RMB 3,400亿+</td><td>📈 +25%</td></tr>
+    <tr><td>经调整净利润</td><td>RMB 193亿</td><td>RMB 270亿+</td><td>📈 +40%</td></tr>
+    <tr><td>毛利率</td><td>21.2%</td><td>~22%</td><td>📈 持续改善</td></tr>
+    <tr><td>现金储备</td><td>RMB 1,363亿</td><td>RMB 1,500亿+</td><td>📈 充裕</td></tr>
+  </table>
+  <p><em>注：2024全年数据将于3月24日正式公布，以上为市场一致预期。</em></p>
+
+  <h3>⚠️ 风险因素</h3>
+  <p>
+    <span class="risk-mid">汽车业务尚未盈利</span>
+    <span class="risk-mid">手机市场竞争激烈</span>
+    <span class="risk-high">地缘政治风险</span>
+    <span class="risk-low">现金流充裕</span>
+    <span class="risk-mid">SU7产能爬坡</span>
+  </p>
+
+  <h3>📈 投资评级与目标价</h3>
+  <div class="rating">
+    <div class="stars">⭐⭐⭐⭐</div>
+    <div class="verdict">买入 (BUY)</div>
+    <p style="margin-top:10px;">12个月目标价：<strong style="color:#ff6b35; font-size:24px;">HK$45.00</strong>（上涨空间 ~22%）</p>
+    <p style="font-size:13px; color:#666; margin-top:10px;">
+      估值逻辑：手机+IoT业务给予20x PE（≈HK$30），汽车业务按2026年预期交付量给予PS估值（≈HK$15增量），合计HK$45。
+    </p>
+  </div>
+
+  <h3>🔑 核心观点</h3>
+  <div class="highlight">
+    <p><strong>1. 汽车业务是最大催化剂：</strong>SU7交付超预期，YU7即将发布，2026年目标交付>30万辆。汽车业务有望在2026年实现盈利。</p>
+    <p><strong>2. "人车家"生态壁垒加深：</strong>8亿IoT设备+汽车形成独特生态闭环，竞争对手短期内难以复制。</p>
+    <p><strong>3. 高端化战略见效：</strong>手机ASP提升，毛利率改善，品牌力持续增强。</p>
+    <p><strong>4. 管理层持续回购：</strong>近期密集回购彰显信心，每日回购金额超HK$6,700万。</p>
+  </div>
+
+  <div class="footer">
+    <p>⚠️ 免责声明：本报告由AI自动生成，仅供参考，不构成投资建议。投资有风险，入市需谨慎。</p>
+    <p>ClawLabs Research · Powered by MiniMax M2.7 & Reese AI · 2026.03.19</p>
+  </div>
+</div>
+
+</body>
+</html>

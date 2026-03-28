@@ -1,0 +1,47 @@
+{
+  "_comment": "任务注册表 - 所有脚本任务在此统一管理。scheduler.py 读此文件决定运行什么。",
+  "tasks": [
+    {
+      "id": "memory_to_obsidian",
+      "name": "Memory → Obsidian 日记归档",
+      "script": "scripts/tasks/memory_to_obsidian.py",
+      "interval_minutes": 60,
+      "enabled": true,
+      "description": "将 workspace/memory 当日文件追加写入 Obsidian Daily 笔记",
+      "last_run": null,
+      "last_status": null
+    },
+    {
+      "id": "morning_briefing",
+      "name": "晨报推送",
+      "script": "scripts/tasks/morning_briefing.py",
+      "interval_minutes": 1440,
+      "run_at_time": "08:00",
+      "timezone": "Asia/Shanghai",
+      "enabled": true,
+      "description": "每日08:00北京时间，扫描未完成TODO，推送晨报到 Discord #思过崖",
+      "last_run": null,
+      "last_status": null
+    },
+    {
+      "id": "context_briefing",
+      "name": "CEO上下文简报",
+      "script": "scripts/tasks/context_briefing.py",
+      "interval_minutes": 360,
+      "enabled": true,
+      "description": "每6小时生成一次上下文摘要文件，供 Reese 在 session 启动时读取",
+      "last_run": null,
+      "last_status": null
+    },
+    {
+      "id": "github_backup",
+      "name": "GitHub Workspace 备份",
+      "script": "scripts/tasks/github_backup.py",
+      "interval_minutes": 120,
+      "enabled": true,
+      "description": "每2小时增量备份 workspace 到 GitHub master 分支",
+      "last_run": null,
+      "last_status": null
+    }
+  ]
+}

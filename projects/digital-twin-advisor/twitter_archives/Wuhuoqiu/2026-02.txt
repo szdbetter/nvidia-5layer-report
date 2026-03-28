@@ -1,0 +1,88 @@
+
+@Wuhuoqiu (Lao Bai):
+@YettaSing 所以现在开始赶紧跟自己的GPT或者小龙虾打好关系吧，说不定到时候跟Agent关系好的人类会被终结者们网开一面饶一命🤣
+📅 Wed Feb 25 08:40:49 +0000 2026
+🔗 https://x.com/Wuhuoqiu/status/2026578115007529362
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@YettaSing 对啊，以前看《微表情》那本书的时候我就想，这玩意终结者肯定比人类擅长啊，那摄像头，那处理能力，你脸上啥变化都逃不过他的眼睛
+📅 Wed Feb 25 05:47:09 +0000 2026
+🔗 https://x.com/Wuhuoqiu/status/2026534410158571935
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@YettaSing 这个“迟疑”和“停顿”会不会将来Optimus机器人+高精度摄像头+收集足够多的数据+足够智能的大模型，在情商上也能逐步逼近人类了🤔
+📅 Wed Feb 25 05:16:16 +0000 2026
+🔗 https://x.com/Wuhuoqiu/status/2026526640264851887
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@javierranranran 哈哈，就是这个Feel！
+📅 Wed Feb 25 03:21:49 +0000 2026
+🔗 https://x.com/Wuhuoqiu/status/2026497835315900451
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@teranova5520 山寨没人玩了，股票还是有的
+📅 Wed Feb 25 01:54:58 +0000 2026
+🔗 https://x.com/Wuhuoqiu/status/2026475979699601845
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@connectfarm1 潜水龙虾文
+📅 Wed Feb 25 00:56:53 +0000 2026
+🔗 https://x.com/Wuhuoqiu/status/2026461364945043516
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+此推文是与Ondo官方合作完成，非投资建议，在此声明一下
+📅 Wed Feb 25 00:07:24 +0000 2026
+🔗 https://x.com/Wuhuoqiu/status/2026448909921583287
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+这两个月一方面是科技股与贵金属节节攀高，一方面是币圈原生资产跌倒止不住，连大饼都萎靡不振。所以从Cex到Dex，大家纷纷上线各类股票和大宗的交易标的 - 既然原生资产暂时无人买单，上点有人买单的东西让大家先玩着
+
+所以一方面很欣喜的看到身边越来越多小伙伴开始买代币化股票，另一方面头疼的是在做了那么多科普之后，依旧时不时有人来问我，Ondo的股票哪里买？Uniswap上没看到啊？Pancake上怎么搜……
+
+这不禁让我想到营销学里面的漏斗理论 - 用户每需要多一个步骤，转化率就会跌掉二三十个点
+
+虽然在我们Degen或是老韭菜眼里，在ETH主网用1inch或者BNB Chain上用PancakeSwap买Ondo的代币化股票跟去菜市场买菜难度差不多，但在一个刚入行的新人眼里，这事儿摩擦的确还是不小的
+
+首先你得有个自托管钱包，然后从Cex转钱出来，还得确保你那条链上有Gas，再学会使用Dex，期间各种签名确认……每一步看着没啥，叠加起来对新人友好度就差很多了
+
+最近这1年我发现我用Binance Wallet越来越多，很大一个原因就是 - 钱包在Bianance APP里直接集成，特省事儿。而更重要的是，在几条主流链上可以直接用你Binance里的交易所余额，省了往外提款这个费时费劲的步骤！
+
+所以步骤哪怕是少一步，都能多转化很多的用户
+
+现在 @OndoFinance 的代币化股票直接通过Binance Alpha上线，讲真就是王炸！上面那四五步直接缩短成一步 - 打开Binance，找到Alpha页面，看好的股票直接买！不用提款，不用签名，甚至不需要知道钱包，Gas，Dex这些概念
+
+从Dune Analytic与Token terminal的数据都不难看出，原本的Dex时代，Ondo就占据了代币化股票的半壁江山（ETH + BSC占比超过50%）
+现在跟Binance的合作，直接上线Alpha，把交易体验和步骤优化到极致，很期待未来6-12个月，Ondo的市场份额会有怎样的提升
+
+另外非常值得一提的是，这次的强强联合，也是Binance重返股票市场的一个重磅信号。从此代币化美股和ETF在全球最大的交易所，将直接面向数亿用户开放，且7x24小时不间断交易，目前已有10支股票在 Binance Alpha 上线，以后大家再也不用来找我问去哪买了！
+🖼️ https://pbs.twimg.com/media/HB9jeWQaMAQEV-H.jpg
+🖼️ https://pbs.twimg.com/media/HB9jmssaYAAadFe.jpg
+┌─ QT @OndoFinance:
+│ Now Live: Ondo Global Markets is on @binance Alpha, bringing tokenized U.S. securities to hundreds of millions of new users.
+│ 
+│ Starting with 10 assets at launch, including:
+│ 
+│ 🎬 https://pbs.twimg.com/amplify_video_thumb/2026304026858467328/img/YNAqhThvPbUJQyfK.jpg
+└─ https://x.com/OndoFinance/status/2026305368238723147
+📅 Wed Feb 25 00:04:32 +0000 2026
+🔗 https://x.com/Wuhuoqiu/status/2026448187704353248
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@kernel1983 3年前的导图，现在就只看我说的那四个赛道了
+📅 Wed Feb 25 00:00:28 +0000 2026
+🔗 https://x.com/Wuhuoqiu/status/2026447166609436980
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@0xdizai 我瞅瞅！
+📅 Tue Feb 24 22:27:28 +0000 2026
+🔗 https://x.com/Wuhuoqiu/status/2026423761961177356
+──────────────────────────────────────────────────

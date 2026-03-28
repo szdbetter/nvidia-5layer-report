@@ -1,0 +1,82 @@
+
+@0xAA_Science (0xAA):
+@WEDreamscct 有
+📅 Sun Aug 31 16:52:29 +0000 2025
+🔗 https://x.com/0xAA_Science/status/1962196809440497970
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+@AmanjoLLLL 我要是黑客 还公布啥地址？ 闷声发大财不好么
+📅 Sun Aug 31 16:50:25 +0000 2025
+🔗 https://x.com/0xAA_Science/status/1962196286150754632
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+这是其中一个黑客控制的 95 个wlfi钱包地址，公开在github repo: https://t.co/ATeizn57ml https://t.co/PVX7HA2n8A
+🖼️ https://pbs.twimg.com/media/GzscymibYAApkQy.jpg
+┌─ QT @0xAA_Science:
+│ 这次 $WLFI 领取，黑客控制了上百个私钥泄漏的钱包，并用 EIP-7702 的方式批量发送到了锁仓合约，准备明晚领取。
+│ 我觉得 WLFI 官方应该把这部分钱包地址先拉黑名单，以免被黑客盗走，之后再用KYC的方式让真正的持有者领取。
+│ 如果需要，我可以提供被盗的钱包名单。 https://t.co/4nj8moXACO
+│ 🖼️ https://pbs.twimg.com/media/GzsKXe-aMAArbNQ.jpg
+└─ https://x.com/0xAA_Science/status/1962174003063505054
+📅 Sun Aug 31 16:41:25 +0000 2025
+🔗 https://x.com/0xAA_Science/status/1962194023810240780
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+@ConstantinGao 不是钓鱼
+📅 Sun Aug 31 16:07:31 +0000 2025
+🔗 https://x.com/0xAA_Science/status/1962185493619368023
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+这次 $WLFI 领取，黑客控制了上百个私钥泄漏的钱包，并用 EIP-7702 的方式批量发送到了锁仓合约，准备明晚领取。
+我觉得 WLFI 官方应该把这部分钱包地址先拉黑名单，以免被黑客盗走，之后再用KYC的方式让真正的持有者领取。
+如果需要，我可以提供被盗的钱包名单。 https://t.co/4nj8moXACO
+🖼️ https://pbs.twimg.com/media/GzsKXe-aMAArbNQ.jpg
+┌─ QT @worldlibertyfi:
+│ 🚀 The $WLFI Lockbox is LIVE.
+│ 
+│ You can now move your $WLFI into the Lockbox to begin the unlock process.
+│ 
+└─ https://x.com/worldlibertyfi/status/1960068943562870830
+📅 Sun Aug 31 15:21:52 +0000 2025
+🔗 https://x.com/0xAA_Science/status/1962174003063505054
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+黑客是 EIP-7702 最坚实的支持者，跟着黑客学 7702！
+┌─ QT @evilcos:
+│ 经典的 EIP-7702 钓鱼利用。首先你朋友私钥泄露了，钓鱼团伙（可能不止一个）给你朋友私钥对应的钱包地址埋伏好了 EIP-7702 利用机制，这个机制只要你试图想转走其中剩余 token，比如这些被扔进 Lockbox 合约的 $WLFI，你打入了的 Gas 都会被“自动”转走…
+│ 
+│ 抢跑思路是可行的：打入 Gas、把埋伏的 EIP-7702 取消或替换成自己的、转走价值 token，这三个动作用 flashbots 在一个区块里打包发送…但慢雾没做抢跑业务，如果有需要，试试联系 @0xAA_Science @BoxMrChen 他们。
+│ 
+└─ https://x.com/evilcos/status/1962118451285385720
+📅 Sun Aug 31 13:01:14 +0000 2025
+🔗 https://x.com/0xAA_Science/status/1962138609924149676
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+@zhouqiya11 可以
+📅 Sun Aug 31 11:27:18 +0000 2025
+🔗 https://x.com/0xAA_Science/status/1962114973393707361
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+@GamefiMaster 石头烬，各种至高天，女警，乌龟/宗师卡莎，6法，巨像艾希，95
+📅 Sun Aug 31 02:15:30 +0000 2025
+🔗 https://x.com/0xAA_Science/status/1961976109496668545
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+@feifan7686 是的 比前面的赛季难一些 抽牌也有点恶心
+📅 Sun Aug 31 02:02:33 +0000 2025
+🔗 https://x.com/0xAA_Science/status/1961972849641668901
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+@EtherPhantasm 金铲铲之战
+📅 Sat Aug 30 16:31:08 +0000 2025
+🔗 https://x.com/0xAA_Science/status/1961829048281378867
+──────────────────────────────────────────────────

@@ -1,0 +1,436 @@
+[
+  {
+    "id": "1936791388500418588",
+    "text": "@LoopinMichael 不用拉踩，熬鹰的合约技术肯定是比我强的，我只是坚持低倍杠杆做空策略并且赌对了趋势，他这个月是好多次多空转换都吃满了，而且输出了很多有帮助的观点，我现在分享欲已经大不如从前了",
+    "createdAt": "Sun Jun 22 14:20:25 +0000 2025",
+    "replyCount": 1,
+    "retweetCount": 2,
+    "likeCount": 86,
+    "conversationId": "1936782881952858526",
+    "inReplyToStatusId": "1936786513993592939",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1936782881952858526",
+    "text": "The Big Short https://t.co/U40mePmpvF",
+    "createdAt": "Sun Jun 22 13:46:37 +0000 2025",
+    "replyCount": 228,
+    "retweetCount": 92,
+    "likeCount": 689,
+    "conversationId": "1936782881952858526",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "quotedTweet": {
+      "id": "1928769488146804791",
+      "text": "这一波行情让我觉得很像去年三四月，当时BTC在三月中旬突破了新高73k，然后回调到60k，又在四月初重回72k，但是很多山寨币在三月底冲高后就进入了长期下跌趋势。而这波目前看来，很多山寨币的高点在5.10-5.15出现，即使BTC在5.22创下新高，大部分山寨都没有回到高点。\n\n上一波最猛的WIF一个月涨了十多倍，而这波比较强势的币从底部上来也有类似表现，例如Moodeng 17倍，Fartcoin 8倍，Virtual 6倍，很多中小市值山寨也都有2-5倍涨幅，但是从推特情绪来看，大家却依然在苦盼山寨季。\n\n究其原因，大概还是因为BTC和山寨表现的割裂，大家所期待的山寨季或许是比特币新高作为明确信号所开启的全面大普涨，事实却是大部分山寨币的涨幅早在比特币新高前就已经走完，剩下的只是在比特币的不断震荡中持续阴跌。",
+      "createdAt": "Sat May 31 11:04:15 +0000 2025",
+      "replyCount": 191,
+      "retweetCount": 135,
+      "likeCount": 991,
+      "conversationId": "1928769488146804791",
+      "author": {
+        "username": "0xSunNFT",
+        "name": "0xSun"
+      },
+      "authorId": "1146492710582308864"
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GuDVw40aMAARv3D.jpg",
+        "width": 1179,
+        "height": 537,
+        "previewUrl": "https://pbs.twimg.com/media/GuDVw40aMAARv3D.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "1934252034766876696",
+    "text": "这个局有点秀，koge只有链上流动性，没法大量出货，所以借koge/zkj池子砸成zkj，然后zkj再现货砸盘通过提前建好的合约空单吃波大的，币安alpha我没参与，听群友说组lp被宣传成“理财”行为，我估计90%刷alpha的用户搞不懂无常损失吧，非稳定币lp和理财肯定是不沾边的。",
+    "createdAt": "Sun Jun 15 14:09:56 +0000 2025",
+    "replyCount": 119,
+    "retweetCount": 72,
+    "likeCount": 413,
+    "conversationId": "1934252034766876696",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "quotedTweet": {
+      "id": "1934249059801584050",
+      "text": "今晚 $ZKJ 和 $KOGE 的闪崩，或许是一场预谋已久的收割行动🔪\n\n三个主要地址瞄准 Binance Alpha 背景下两个代币对刷的天量交易额和流动性，在今晚通过「大额撤出流动性 + 持续抛售」的双重压力使得 ZKJ 和 KOGE 依次崩盘，无一幸免\n\n以下是事件的详细拆解与部分还原👇\n\n1️⃣ 地址 0x1A2...27599\n\n20:28:21 和 20:33:15 分两次撤出 61130 KOGE（约 376 万美元）和 273017 ZKJ（约 53.2 万美元）的双边流动性\n\n20:28:58 - 20:36:57 期间将 45470 KOGE 换仓为 ZKJ，价值 379.6 万美元，期间 KOGE 链上成交额出现明显增长\n\n20:30:57 - 20:59:49 期间分批抛售 157.3 万枚 ZKJ 换为 USDT 和 BNB，价值 305.2 万美元，平均卖出价格 $1.94\n\n此时 KOGE 和 ZKJ 均出现了小幅阶梯式的下跌，但并未暴跌\n\n钱包地址 https://t.co/bTv5yIt4QY\n\n2️⃣ 地址 0x078...8bdE7\n\n20:30:33 撤出 33651 KOGE（约 207 万美元）和 709203 ZKJ（约 138 万美元）的双边流动性\n\n20:31:10 - 20:58:18 期间将 36814 KOGE 换仓为 ZKJ，价值 226 万美元\n\n20:35:15 - 20:37:34 期间抛售 100 万枚 ZKJ，价值 194.8 万美元，平均卖出价格 $1.948\n\n该地址的「接力式砸盘」才终于推动 KOGE 币价出现快速下跌，也就是大家看到的 K 线几根连续的大阴线了\n\nhttps://t.co/1Zh8jvxmNf\n\n3️⃣ 地址 0x6aD...e2EBb\n\n20:41:55 收到地址 0x078...8bdE7（即上一个砸盘地址）转移的 772759 枚 ZKJ，价值 150 万美元\n\n20:42:28 - 20:50:16 期间清仓 77.2 万枚 ZKJ\n\n第三个地址主要作用是打配合，在 KOGE 币价崩盘后进一步催化 ZKJ 的下跌，完成两个代币 LP 和持币者的收割\n\n最后：这里提到的三个地址为主要推动地址，实际上 Ai 姨找到了更多几十万美金级别的「配合地址」，这里就不展开描述了，砸盘方式都是类似的\n\n-----\n先将事件还原发布出来，几个砸盘地址的归属我会尝试找找看，如果有线索再和大家同步，如果你有相关信息，欢迎在评论区留言或讨论💡",
+      "createdAt": "Sun Jun 15 13:58:07 +0000 2025",
+      "replyCount": 204,
+      "retweetCount": 107,
+      "likeCount": 547,
+      "conversationId": "1934249059801584050",
+      "author": {
+        "username": "ai_9684xtpa",
+        "name": "Ai 姨"
+      },
+      "authorId": "1503362006191026180",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/GtfUaFIbgAAhknI.jpg",
+          "width": 1725,
+          "height": 2048,
+          "previewUrl": "https://pbs.twimg.com/media/GtfUaFIbgAAhknI.jpg:small"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1932643102323593405",
+    "text": "@DreamXThat @XXAntiWar 太走心了Xu总，这三四年区块链带来的不止是财富上的增长，更为珍贵的是这段不同寻常的经历和一路同行的伙伴",
+    "createdAt": "Wed Jun 11 03:36:37 +0000 2025",
+    "replyCount": 2,
+    "retweetCount": 0,
+    "likeCount": 53,
+    "conversationId": "1932609849033924897",
+    "inReplyToStatusId": "1932609849033924897",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1932513623022448944",
+    "text": "@XXAntiWar 恭喜女王，建群第一天到现在，一路见证你从抱着笔记本通宵打图狗到Bome、Trump的超神交易，能拿到自己想要的结果并适时收手是最完美的了！",
+    "createdAt": "Tue Jun 10 19:02:06 +0000 2025",
+    "replyCount": 2,
+    "retweetCount": 2,
+    "likeCount": 299,
+    "conversationId": "1932509386414666228",
+    "inReplyToStatusId": "1932509386414666228",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1932395385580097855",
+    "text": "Bloom推出了2.0版本，我认为是目前市面上比较好用的TG端Bot以及刮刀/狙击工具，这次更新包括：\n\n1、进一步提高交易速度；\n2、重写架构以提升稳定性；\n3、同Slot跟单交易；\n4、全面的Chrome扩展程序更新，支持多种界面。\n5、多钱包交易。\n\n有上述需求的朋友们可以尝试一下：\nhttps://t.co/HyPvshmjGi",
+    "createdAt": "Tue Jun 10 11:12:16 +0000 2025",
+    "replyCount": 133,
+    "retweetCount": 74,
+    "likeCount": 142,
+    "conversationId": "1932395385580097855",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "quotedTweet": {
+      "id": "1932150714530472348",
+      "text": "🚀 Bloom v2.0 is HERE!\n\nWe’ve completely rebuilt Bloom: faster, smoother, and more powerful than ever.\n\n🔥 What's new:\n\n• Ultra-fast fills and transaction speeds\n• Fully rebuilt infrastructure for unmatched stability\n• Same-slot copy-trading\n• Major extension update: Bloom’s Chrome Extension drastically enhances your terminal with improved performance, lower latency, and accurate trading execution.\n• Effortless multi-wallet trading",
+      "createdAt": "Mon Jun 09 19:00:02 +0000 2025",
+      "replyCount": 145,
+      "retweetCount": 93,
+      "likeCount": 335,
+      "conversationId": "1932150714530472348",
+      "author": {
+        "username": "BloomTrading",
+        "name": "Bloom"
+      },
+      "authorId": "1842894371617656832",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/1932148624026189824/img/Dp6wGb-ApKWCmhMP.jpg",
+          "width": 1920,
+          "height": 1080,
+          "previewUrl": "https://pbs.twimg.com/amplify_video_thumb/1932148624026189824/img/Dp6wGb-ApKWCmhMP.jpg:small",
+          "videoUrl": "https://video.twimg.com/amplify_video/1932148624026189824/vid/avc1/1920x1080/WIP7ohOf4SWRBvqE.mp4?tag=21",
+          "durationMs": 35900
+        }
+      ]
+    }
+  },
+  {
+    "id": "1932391066772427182",
+    "text": "@BloomTrading 🔥🌸",
+    "createdAt": "Tue Jun 10 10:55:07 +0000 2025",
+    "replyCount": 3,
+    "retweetCount": 0,
+    "likeCount": 7,
+    "conversationId": "1932150714530472348",
+    "inReplyToStatusId": "1932150714530472348",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1930971397557559643",
+    "text": "@shirleyusy 太低调了梨庄，你美股一天可以买两辆",
+    "createdAt": "Fri Jun 06 12:53:51 +0000 2025",
+    "replyCount": 2,
+    "retweetCount": 0,
+    "likeCount": 12,
+    "conversationId": "1930932656113623352",
+    "inReplyToStatusId": "1930970886506487862",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1930940234465976690",
+    "text": "@mrblock 好像只有Stradale才有这个，我的是Spider",
+    "createdAt": "Fri Jun 06 10:50:01 +0000 2025",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 18,
+    "conversationId": "1930932656113623352",
+    "inReplyToStatusId": "1930936027411304637",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1930938168871907455",
+    "text": "@coolish 哈哈，比较喜欢黑色，也更特别",
+    "createdAt": "Fri Jun 06 10:41:49 +0000 2025",
+    "replyCount": 8,
+    "retweetCount": 1,
+    "likeCount": 60,
+    "conversationId": "1930932656113623352",
+    "inReplyToStatusId": "1930935146376520043",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1930932656113623352",
+    "text": "Thank you crypto! https://t.co/iPIDcEZE4V",
+    "createdAt": "Fri Jun 06 10:19:54 +0000 2025",
+    "replyCount": 1553,
+    "retweetCount": 349,
+    "likeCount": 9494,
+    "conversationId": "1930932656113623352",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GswNAxkbAAAgoHA.jpg",
+        "width": 1536,
+        "height": 2048,
+        "previewUrl": "https://pbs.twimg.com/media/GswNAxkbAAAgoHA.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "1930730154432860488",
+    "text": "@0xMapleH 也不算，这波上涨我基本是踏空了，之后就一直在找机会重新做空",
+    "createdAt": "Thu Jun 05 20:55:14 +0000 2025",
+    "replyCount": 2,
+    "retweetCount": 0,
+    "likeCount": 20,
+    "conversationId": "1930722585828118705",
+    "inReplyToStatusId": "1930723512962162921",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1930722585828118705",
+    "text": "Boom💥\n\n简单说一下选标逻辑，Fartcoin是因为Pumpfun发币预期吸血SOL生态，Trump在晚宴新闻后我认为是放利好拉高出货，一直在找机会空，另外像Griffain、Goat、Chillguy这些是底部涨上来几倍，但这波并非领涨而是跟涨，加上项目本身持续驱动力不足。\n\n另外我做空山寨一定是低倍杠杆，参考此前推文。 https://t.co/edJZAgJdC4",
+    "createdAt": "Thu Jun 05 20:25:10 +0000 2025",
+    "replyCount": 175,
+    "retweetCount": 99,
+    "likeCount": 938,
+    "conversationId": "1930722585828118705",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "quotedTweet": {
+      "id": "1928769488146804791",
+      "text": "这一波行情让我觉得很像去年三四月，当时BTC在三月中旬突破了新高73k，然后回调到60k，又在四月初重回72k，但是很多山寨币在三月底冲高后就进入了长期下跌趋势。而这波目前看来，很多山寨币的高点在5.10-5.15出现，即使BTC在5.22创下新高，大部分山寨都没有回到高点。\n\n上一波最猛的WIF一个月涨了十多倍，而这波比较强势的币从底部上来也有类似表现，例如Moodeng 17倍，Fartcoin 8倍，Virtual 6倍，很多中小市值山寨也都有2-5倍涨幅，但是从推特情绪来看，大家却依然在苦盼山寨季。\n\n究其原因，大概还是因为BTC和山寨表现的割裂，大家所期待的山寨季或许是比特币新高作为明确信号所开启的全面大普涨，事实却是大部分山寨币的涨幅早在比特币新高前就已经走完，剩下的只是在比特币的不断震荡中持续阴跌。",
+      "createdAt": "Sat May 31 11:04:15 +0000 2025",
+      "replyCount": 191,
+      "retweetCount": 135,
+      "likeCount": 991,
+      "conversationId": "1928769488146804791",
+      "author": {
+        "username": "0xSunNFT",
+        "name": "0xSun"
+      },
+      "authorId": "1146492710582308864"
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GstN9IfaYAA9eG3.jpg",
+        "width": 768,
+        "height": 1378,
+        "previewUrl": "https://pbs.twimg.com/media/GstN9IfaYAA9eG3.jpg:small"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GstN9IebEAAUjrM.jpg",
+        "width": 1179,
+        "height": 1822,
+        "previewUrl": "https://pbs.twimg.com/media/GstN9IebEAAUjrM.jpg:small"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GstN9IfbYAEsmKv.jpg",
+        "width": 1179,
+        "height": 1812,
+        "previewUrl": "https://pbs.twimg.com/media/GstN9IfbYAEsmKv.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "1930463415019155591",
+    "text": "@ohyishi 牛b，恭喜！",
+    "createdAt": "Thu Jun 05 03:15:19 +0000 2025",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 10,
+    "conversationId": "1930448599856623797",
+    "inReplyToStatusId": "1930448599856623797",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1929779508447433155",
+    "text": "@wolfyxbt 这个完全是Ben的不负责任导致的，看图1他说五天前就知道是Scam，但是凌晨图2lmran说的是“我们”一直没联系上推特本人所以无法确认，图3里面Ben的两个红色感叹号也不是一个明确的澄清，所以才会有很多人一直抄底赌反转，直到推特本人发声明杀死比赛 https://t.co/KB6LdhSGH9",
+    "createdAt": "Tue Jun 03 05:57:43 +0000 2025",
+    "replyCount": 15,
+    "retweetCount": 3,
+    "likeCount": 85,
+    "conversationId": "1929715338939453855",
+    "inReplyToStatusId": "1929715338939453855",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/Gsf0O3Rb0AM5nzC.jpg",
+        "width": 1178,
+        "height": 1720,
+        "previewUrl": "https://pbs.twimg.com/media/Gsf0O3Rb0AM5nzC.jpg:small"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/Gsf0O3Ib0AAxL59.jpg",
+        "width": 1179,
+        "height": 1873,
+        "previewUrl": "https://pbs.twimg.com/media/Gsf0O3Ib0AAxL59.jpg:small"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/Gsf0O3Rb0AYQS_L.jpg",
+        "width": 1179,
+        "height": 1152,
+        "previewUrl": "https://pbs.twimg.com/media/Gsf0O3Rb0AYQS_L.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "1929678383455330604",
+    "text": "@Bibibnbice https://t.co/7ErV78GCgE",
+    "createdAt": "Mon Jun 02 23:15:52 +0000 2025",
+    "replyCount": 2,
+    "retweetCount": 0,
+    "likeCount": 10,
+    "conversationId": "1928769488146804791",
+    "inReplyToStatusId": "1929677114967838854",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "quotedTweet": {
+      "id": "1929645906732912950",
+      "text": "@megastuffs ‼️",
+      "createdAt": "Mon Jun 02 21:06:49 +0000 2025",
+      "replyCount": 36,
+      "retweetCount": 6,
+      "likeCount": 46,
+      "conversationId": "1927814393103888740",
+      "inReplyToStatusId": "1927819307435618518",
+      "author": {
+        "username": "pasternak",
+        "name": "Ben Pasternak"
+      },
+      "authorId": "356651832"
+    }
+  },
+  {
+    "id": "1929537381369016570",
+    "text": "@JamesWynnReal 哥们在半个月内从单枪匹马赚80M到金钱无用哲学家再到土狗式喊单BTC求救然后开始水滴筹，我服了",
+    "createdAt": "Mon Jun 02 13:55:35 +0000 2025",
+    "replyCount": 76,
+    "retweetCount": 9,
+    "likeCount": 680,
+    "conversationId": "1929536882125447536",
+    "inReplyToStatusId": "1929536882125447536",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1928848332400767000",
+    "text": "@web3hahabug 这些“土狗”也就是Meme币龙头，其实已经是这轮的强势币种了，传统意义上那些VC山寨币绝大部分都更弱的多",
+    "createdAt": "Sat May 31 16:17:33 +0000 2025",
+    "replyCount": 3,
+    "retweetCount": 0,
+    "likeCount": 18,
+    "conversationId": "1928769488146804791",
+    "inReplyToStatusId": "1928773473222205856",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1928769488146804791",
+    "text": "这一波行情让我觉得很像去年三四月，当时BTC在三月中旬突破了新高73k，然后回调到60k，又在四月初重回72k，但是很多山寨币在三月底冲高后就进入了长期下跌趋势。而这波目前看来，很多山寨币的高点在5.10-5.15出现，即使BTC在5.22创下新高，大部分山寨都没有回到高点。\n\n上一波最猛的WIF一个月涨了十多倍，而这波比较强势的币从底部上来也有类似表现，例如Moodeng 17倍，Fartcoin 8倍，Virtual 6倍，很多中小市值山寨也都有2-5倍涨幅，但是从推特情绪来看，大家却依然在苦盼山寨季。\n\n究其原因，大概还是因为BTC和山寨表现的割裂，大家所期待的山寨季或许是比特币新高作为明确信号所开启的全面大普涨，事实却是大部分山寨币的涨幅早在比特币新高前就已经走完，剩下的只是在比特币的不断震荡中持续阴跌。",
+    "createdAt": "Sat May 31 11:04:15 +0000 2025",
+    "replyCount": 191,
+    "retweetCount": 135,
+    "likeCount": 991,
+    "conversationId": "1928769488146804791",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  }
+]

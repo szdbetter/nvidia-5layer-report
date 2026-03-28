@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>Bot 监控 — ClawLabs</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+      background: #f0f2f5; color: #333; height: 100vh; overflow: hidden;
+      display: flex; flex-direction: column;
+    }
+
+    /* ── 顶栏（首页同款）── */
+    .app-header {
+      height: 56px; background: #001529;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 24px; flex-shrink: 0; z-index: 100;
+    }
+    .header-left { display: flex; align-items: center; gap: 10px; }
+    .header-logo { font-size: 22px; }
+    .header-title { color: #fff; font-size: 16px; font-weight: 600; letter-spacing: .5px; }
+    .header-right { display: flex; align-items: center; gap: 16px; font-size: 13px; color: rgba(255,255,255,.85); }
+    .header-back { color: rgba(255,255,255,.6); text-decoration: none; font-size: 13px; }
+    .header-back:hover { color: #fff; }
+
+    /* ── 扫描进度条 ── */
+    .scan-bar-wrap { height: 3px; background: #001529; }
+    .scan-bar { height: 100%; width: 0; background: linear-gradient(90deg, #1890ff, #52c41a); transition: width .15s; }
+
+    /* ── 主体 ── */
+    .app-body { display: flex; flex: 1; overflow: hidden; }
+
+    /* ── 左侧列表 ── */
+    .sidebar {
+      width: 280px; background: #001529; flex-shrink: 0;
+      overflow-y: auto; display: flex; flex-direction: column;
+    }
+    .sidebar::-webkit-scrollbar { width: 4px; }
+    .sidebar::-webkit-scrollbar-thumb { background: #1c3558; border-radius: 2px; }
+
+    .sidebar-header {
+      padding: 14px 16px 10px; border-bottom: 1px solid #0a2540;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .sidebar-title { color: rgba(255,255,255,.9); font-size: 13px; font-weight: 600; flex: 1; }
+
+    /* 搜索框 */
+    .sidebar-search {
+      padding: 8px 12px; border-bottom: 1px solid #0a2540;
+    }
+    .sidebar-search input {
+      width: 100%; background: #0d2d4a; border: 1px solid #1c3558;
+      border-radius: 4px; color: rgba(255,255,255,.85); font-size: 12px;
+      padding: 5px 10px; outline: none; transition: border-color .15s;
+    }
+    .sidebar-search input::placeholder { color: rgba(255,255,255,.3); }
+    .sidebar-search input:focus { border-color: #1890ff; }
+    .btn-scan {
+      padding: 4px 10px; border-radius: 4px; border: 1px solid #1890ff44;
+      background: #0d2d4a; color: #1890ff; font-size: 12px; cursor: pointer;
+      transition: all .15s;
+    }
+    .btn-scan:hover { background: #1890ff; color: #fff; }
+    .btn-scan:disabled { opacity: .4; cursor: not-allowed; }
+
+    /* 统计小徽章 */
+    .sidebar-stats {
+      padding: 8px 16px; display: flex; gap: 6px; flex-wrap: wrap;
+      border-bottom: 1px solid #0a2540;
+    }
+    .stat-badge {
+      padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; cursor: pointer;
+    }
+    .s-all    { background: #0d2d4a; color: rgba(255,255,255,.7); }
+    .s-all.active { background: #1890ff22; color: #1890ff; }
+    .s-error  { background: #2d0e0e; color: #ff4d4f; }
+    .s-error.active { background: #ff4d4f22; color: #ff4d4f; border: 1px solid #ff4d4f44; }
+    .s-warn   { background: #2d1f00; color: #faad14; }
+    .s-ok     { background: #092b00; color: #52c41a; }
+    .s-idle   { background: #0a1428; color: rgba(255,255,255,.35); }
+
+    /* 频道列表项 */
+    .ch-item {
+      padding: 10px 16px; cursor: pointer; border-left: 3px solid transparent;
+      transition: background .1s; display: flex; align-items: center; gap: 10px;
+      border-bottom: 1px solid #0a2540;
+    }
+    .ch-item:hover { background: #0d2d4a; }
+    .ch-item.active { background: #0d2d4a; border-left-color: #1890ff; }
+    .ch-item.s-error { border-left-color: #ff4d4f; }
+    .ch-item.s-warn  { border-left-color: #faad14; }
+    .ch-item.s-ok    { border-left-color: #52c41a; }
+    .ch-item.s-idle  { border-left-color: #263351; }
+
+    .ch-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+    .d-error { background: #ff4d4f; animation: blink 1.2s infinite; box-shadow: 0 0 6px #ff4d4f88; }
+    .d-warn  { background: #faad14; }
+    .d-ok    { background: #52c41a; }
+    .d-idle  { background: #263351; }
+    .d-unknown { background: #595959; }
+
+    .ch-info { flex: 1; min-width: 0; }
+    .ch-name { color: rgba(255,255,255,.9); font-size: 13px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .ch-category { color: rgba(255,255,255,.35); font-size: 11px; margin-top: 1px; }
+    .ch-idle { color: rgba(255,255,255,.3); font-size: 11px; flex-shrink: 0; }
+
+    /* ── 右侧详情 ── */
+    .main-content { flex: 1; overflow-y: auto; background: #f0f2f5; padding: 24px; }
+
+    /* 空状态 */
+    .detail-empty {
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      height: 100%; color: #8c8c8c; gap: 12px;
+    }
+    .detail-empty-icon { font-size: 48px; }
+
+    /* 详情页 */
+    .detail-header {
+      background: #fff; border-radius: 8px; padding: 20px 24px;
+      display: flex; align-items: flex-start; justify-content: space-between;
+      margin-bottom: 16px; box-shadow: 0 1px 4px #0001;
+    }
+    .detail-title-row { display: flex; align-items: center; gap: 12px; }
+    .detail-dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
+    .detail-name { font-size: 18px; font-weight: 600; color: #1a1a1a; }
+    .detail-path { font-size: 13px; color: #8c8c8c; margin-top: 4px; }
+    .detail-actions { display: flex; gap: 8px; align-items: center; }
+
+    .btn {
+      padding: 6px 14px; border-radius: 6px; border: 1px solid; cursor: pointer;
+      font-size: 13px; font-weight: 500; transition: all .15s;
+    }
+    .btn-default { background: #fff; color: #595959; border-color: #d9d9d9; }
+    .btn-default:hover { border-color: #1890ff; color: #1890ff; }
+    .btn-warn { background: #fff7e6; color: #d46b08; border-color: #ffd591; }
+    .btn-warn:hover { background: #fa8c16; color: #fff; border-color: #fa8c16; }
+    .btn-danger { background: #fff0f0; color: #ff4d4f; border-color: #ffccc7; }
+    .btn-danger:hover { background: #ff4d4f; color: #fff; }
+    .btn-primary { background: #1890ff; color: #fff; border-color: #1890ff; }
+    .btn-primary:hover { background: #096dd9; }
+
+    /* 诊断卡片 */
+    .diagnosis-card {
+      border-radius: 8px; padding: 16px 20px;
+      margin-bottom: 16px; border-left: 4px solid; box-shadow: 0 1px 4px #0001;
+    }
+    .diag-error  { background: #fff2f0; border-color: #ff4d4f; }
+    .diag-warn   { background: #fffbe6; border-color: #faad14; }
+    .diag-ok     { background: #f6ffed; border-color: #52c41a; }
+    .diag-idle   { background: #fafafa; border-color: #d9d9d9; }
+    .diag-unknown{ background: #fafafa; border-color: #bfbfbf; }
+
+    .diag-status { font-size: 15px; font-weight: 700; margin-bottom: 6px; display: flex; align-items: center; gap: 8px; }
+    .diag-error  .diag-status { color: #cf1322; }
+    .diag-warn   .diag-status { color: #d46b08; }
+    .diag-ok     .diag-status { color: #389e0d; }
+    .diag-idle   .diag-status { color: #8c8c8c; }
+    .diag-reason { font-size: 13px; color: #595959; margin-bottom: 10px; line-height: 1.6; }
+    .diag-fix { font-size: 13px; padding: 10px 14px; background: rgba(0,0,0,.04); border-radius: 6px; }
+    .diag-fix-label { font-weight: 600; color: #1890ff; margin-bottom: 4px; }
+    .diag-fix-text { color: #333; line-height: 1.6; }
+
+    /* 信息卡片行 */
+    .info-row { display: flex; gap: 12px; margin-bottom: 16px; flex-wrap: wrap; }
+    .info-card {
+      background: #fff; border-radius: 8px; padding: 14px 18px; flex: 1; min-width: 140px;
+      box-shadow: 0 1px 4px #0001;
+    }
+    .info-label { font-size: 12px; color: #8c8c8c; margin-bottom: 4px; }
+    .info-value { font-size: 15px; font-weight: 600; color: #1a1a1a; }
+
+    /* 事件列表 */
+    .events-card {
+      background: #fff; border-radius: 8px; padding: 16px 20px;
+      box-shadow: 0 1px 4px #0001;
+    }
+    .events-title { font-size: 14px; font-weight: 600; color: #1a1a1a; margin-bottom: 12px; }
+    .event-row { display: flex; gap: 10px; padding: 6px 0; border-bottom: 1px solid #f0f2f5; align-items: flex-start; font-size: 13px; }
+    .event-row:last-child { border-bottom: none; }
+    .event-ts   { color: #8c8c8c; flex-shrink: 0; font-size: 12px; width: 50px; }
+    .event-role { flex-shrink: 0; font-weight: 600; width: 56px; }
+    .r-bot   { color: #389e0d; }
+    .r-user  { color: #1890ff; }
+    .r-tool  { color: #d46b08; }
+    .r-error { color: #cf1322; }
+    .event-text { color: #333; flex: 1; line-height: 1.5; word-break: break-all; }
+
+    /* 模态 */
+    .modal-overlay { position: fixed; inset: 0; background: #0006; z-index: 999; display: flex; align-items: center; justify-content: center; }
+    .modal { background: #fff; border-radius: 10px; padding: 24px; max-width: 420px; width: 90%; box-shadow: 0 8px 32px #0002; }
+    .modal h3 { font-size: 16px; font-weight: 600; margin-bottom: 10px; }
+    .modal p  { font-size: 14px; color: #595959; margin-bottom: 20px; line-height: 1.6; }
+    .modal-actions { display: flex; gap: 8px; justify-content: flex-end; }
+
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.2} }
+
+    /* ── 悟空预警弹窗 ── */
+    .wukong-alert-overlay {
+      position: fixed; inset: 0; background: rgba(0,0,0,.55); z-index: 2000;
+      display: flex; align-items: center; justify-content: center;
+      animation: fadeIn .2s ease;
+    }
+    @keyframes fadeIn { from{opacity:0} to{opacity:1} }
+    .wukong-alert-box {
+      background: #fff; border-radius: 14px; padding: 32px 36px;
+      max-width: 440px; width: 90%; text-align: center;
+      box-shadow: 0 16px 48px rgba(0,0,0,.28);
+      animation: popIn .25s cubic-bezier(.34,1.56,.64,1);
+    }
+    @keyframes popIn { from{transform:scale(.85);opacity:0} to{transform:scale(1);opacity:1} }
+    .wk-alert-icon { font-size: 52px; margin-bottom: 12px; }
+    .wk-alert-title { font-size: 20px; font-weight: 700; color: #cf1322; margin-bottom: 8px; }
+    .wk-alert-sub { font-size: 14px; color: #595959; margin-bottom: 6px; line-height: 1.6; }
+    .wk-alert-count { font-size: 13px; color: #faad14; font-weight: 600; margin-bottom: 20px; }
+    .wk-alert-img { width: 100%; max-width: 320px; border-radius: 8px; margin-bottom: 20px; border: 1px solid #f0f0f0; }
+    .wk-alert-actions { display: flex; gap: 10px; justify-content: center; }
+    .wk-alert-btn-go {
+      padding: 9px 24px; background: #ff4d4f; color: #fff; border: none;
+      border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer;
+      transition: background .15s;
+    }
+    .wk-alert-btn-go:hover { background: #cf1322; }
+    .wk-alert-btn-dismiss {
+      padding: 9px 20px; background: #f5f5f5; color: #595959; border: 1px solid #d9d9d9;
+      border-radius: 8px; font-size: 14px; cursor: pointer; transition: background .15s;
+    }
+    .wk-alert-btn-dismiss:hover { background: #e8e8e8; }
+
+    /* ── 悟空浮动窗口 ── */
+    .wukong-float {
+      position: fixed; bottom: 20px; right: 20px; z-index: 1000;
+      width: 310px; background: #fff; border-radius: 14px;
+      box-shadow: 0 8px 32px rgba(0,0,0,.18), 0 2px 8px rgba(0,0,0,.08);
+      overflow: hidden; font-size: 13px;
+    }
+    .wk-header {
+      background: linear-gradient(135deg, #ff7c2a, #ffb547);
+      padding: 11px 14px; display: flex; align-items: center; gap: 8px;
+      cursor: pointer; user-select: none;
+    }
+    .wk-title { color: #fff; font-weight: 700; font-size: 14px; flex: 1; text-shadow: 0 1px 2px rgba(0,0,0,.15); }
+    .wk-min-icon { color: rgba(255,255,255,.85); font-size: 13px; }
+    .wk-body { padding: 12px 14px; }
+    .wk-image-wrap {
+      margin-bottom: 10px; border-radius: 8px; overflow: hidden;
+      border: 1px solid #2a1a0e; background: #1a1a2e;
+      min-height: 58px; display: flex; align-items: center; justify-content: center;
+    }
+    .wk-image-wrap img { width: 100%; height: auto; display: block; }
+    .wk-image-placeholder { color: #bfbfbf; font-size: 12px; padding: 10px; }
+    .wk-status-row { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+    .wk-badge-active  { background: #f6ffed; color: #389e0d; border: 1px solid #b7eb8f; padding: 3px 10px; border-radius: 12px; font-weight: 700; font-size: 12px; }
+    .wk-badge-claimed { background: #fffbe6; color: #ad8b00; border: 1px solid #ffe58f; padding: 3px 10px; border-radius: 12px; font-weight: 600; font-size: 12px; }
+    .wk-badge-unknown { background: #f5f5f5; color: #8c8c8c; border: 1px solid #d9d9d9; padding: 3px 10px; border-radius: 12px; font-size: 12px; }
+    .wk-badge-off     { background: #f5f5f5; color: #8c8c8c; border: 1px solid #d9d9d9; padding: 3px 10px; border-radius: 12px; font-size: 12px; }
+    .wk-meta { color: #8c8c8c; font-size: 11px; line-height: 1.8; }
+    .wk-actions { display: flex; gap: 6px; margin-top: 10px; }
+    .wk-btn { flex: 1; padding: 6px 0; border-radius: 6px; border: 1px solid; cursor: pointer; font-size: 12px; font-weight: 600; transition: all .15s; text-align: center; background: #fff; }
+    .wk-btn:disabled { opacity: .5; cursor: not-allowed; }
+    .wk-btn-check { color: #0958d9; border-color: #91caff; background: #e6f7ff; }
+    .wk-btn-check:hover:not(:disabled) { background: #1677ff; color: #fff; border-color: #1677ff; }
+    .wk-btn-off { color: #cf1322; border-color: #ffa39e; background: #fff1f0; }
+    .wk-btn-off:hover:not(:disabled) { background: #ff4d4f; color: #fff; border-color: #ff4d4f; }
+    .wk-btn-on  { color: #389e0d; border-color: #b7eb8f; background: #f6ffed; }
+    .wk-btn-on:hover:not(:disabled)  { background: #52c41a; color: #fff; border-color: #52c41a; }
+  </style>
+</head>
+<body>
+
+<!-- 顶栏 -->
+<header class="app-header">
+  <div class="header-left">
+    <span class="header-logo">🤖</span>
+    <span class="header-title">Bot 频道监控</span>
+  </div>
+  <div class="header-right">
+    <span id="gw-status">检测中…</span>
+    <button class="btn btn-danger" style="padding:4px 12px;font-size:12px" onclick="restartGateway()">重启 Gateway</button>
+    <a href="/" class="header-back">← 返回首页</a>
+  </div>
+</header>
+<div class="scan-bar-wrap"><div class="scan-bar" id="scan-bar"></div></div>
+
+<!-- 主体 -->
+<div class="app-body">
+
+  <!-- 左侧频道列表 -->
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <span class="sidebar-title" id="sidebar-title">Bot 频道</span>
+      <button class="btn-scan" id="btn-scan" onclick="startScan()">扫描</button>
+    </div>
+    <div class="sidebar-search">
+      <input type="text" id="search-input" placeholder="搜索频道名称或 ID…" oninput="setSearch(this.value)">
+    </div>
+    <div class="sidebar-stats" id="sidebar-stats"></div>
+    <div id="ch-list"></div>
+
+  </aside>
+
+  <!-- 右侧详情 -->
+  <main class="main-content" id="main-content">
+    <div class="detail-empty">
+      <div class="detail-empty-icon">📡</div>
+      <div>正在扫描频道状态…</div>
+    </div>
+  </main>
+</div>
+
+<!-- 悟空浮动窗口 -->
+<div class="wukong-float" id="wukong-float">
+  <div class="wk-header" onclick="wukongToggleMinimize()">
+    <span style="font-size:20px;line-height:1">🐵</span>
+    <span class="wk-title">悟空邀请码监控</span>
+    <span class="wk-min-icon" id="wk-min-icon">▼</span>
+  </div>
+  <div class="wk-body" id="wk-float-body">
+    <div class="wk-image-wrap" id="wk-image-wrap">
+      <span class="wk-image-placeholder">加载中…</span>
+    </div>
+    <div class="wk-status-row">
+      <span id="wk-badge" class="wk-badge-unknown">…</span>
+      <span id="wk-time" style="color:#8c8c8c;font-size:11px;"></span>
+    </div>
+    <div class="wk-meta" id="wk-meta"></div>
+    <div id="wk-mode-indicator" style="font-size:11px;text-align:center;margin-bottom:6px;color:#999;">💤 常规模式 (60s)</div>
+    <div class="wk-actions">
+      <button class="wk-btn wk-btn-check" id="wk-check-btn" onclick="wukongCheckNow()">立即检查</button>
+      <button class="wk-btn wk-btn-off" id="wk-toggle-btn" onclick="wukongToggle()">…</button>
+    </div>
+  </div>
+</div>
+
+<!-- 确认模态 -->
+<div class="modal-overlay" id="modal" style="display:none">
+  <div class="modal">
+    <h3 id="modal-title"></h3>
+    <p id="modal-body"></p>
+    <div class="modal-actions">
+      <button class="btn btn-default" onclick="closeModal()">取消</button>
+      <button class="btn btn-danger" id="modal-confirm">确认</button>
+    </div>
+  </div>
+</div>
+
+<script>
+let allChannels = [];
+let selectedId = null;
+let filterStatus = 'all';
+let searchQuery = '';
+
+function setSearch(val) {
+  searchQuery = val.trim().toLowerCase();
+  renderSidebar();
+}
+
+// ── 工具 ─────────────────────────────────────────────────────
+function esc(s) { return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+function dotClass(st) {
+  return { error:'d-error', warn:'d-warn', ok:'d-ok', idle:'d-idle' }[st] || 'd-unknown';
+}
+function diagClass(st) {
+  return { error:'diag-error', warn:'diag-warn', ok:'diag-ok', idle:'diag-idle' }[st] || 'diag-unknown';
+}
+function roleInfo(role, isError) {
+  if (isError) return ['r-error', '❌错误'];
+  if (role === 'assistant') return ['r-bot', 'Bot'];
+  if (role === 'user') return ['r-user', '用户'];
+  return ['r-tool', '工具'];
+}
+function fmtTime(isoStr) {
+  if (!isoStr) return '?';
+  return new Date(isoStr).toLocaleTimeString('zh-CN', { hour:'2-digit', minute:'2-digit', second:'2-digit' });
+}
+
+// ── 频道显示名 ───────────────────────────────────────────────
+function channelDisplayName(ch) {
+  if (ch.channelName) return ch.channelName;
+  return ch.channelId.slice(-6);
+}
+function channelPath(ch) {
+  const parts = [];
+  if (ch.channelCategory && ch.channelCategory !== 'main' && ch.channelCategory !== '') {
+    parts.push(ch.channelCategory);
+  }
+  parts.push(channelDisplayName(ch));
+  return parts.join(' / ');
+}
+function channelFullTitle(ch) {
+  const name = channelDisplayName(ch);
+  const cat = ch.channelCategory && ch.channelCategory !== 'main' ? ch.channelCategory + ' / ' : '';
+  return `${cat}${name}`;
+}
+
+// ── Gateway ─────────────────────────────────────────────────
+async function refreshGateway() {
+  try {
+    const r = await fetch('/api/bot/gateway');
+    const d = await r.json();
+    const el = document.getElementById('gw-status');
+    el.textContent = d.ok ? `✅ Gateway 正常 (pid ${d.pid||'?'})` : '🔴 Gateway 离线';
+    el.style.color = d.ok ? '#52c41a' : '#ff4d4f';
+  } catch {}
+}
+
+function restartGateway() {
+  showModal('重启 Gateway', '确认重启？正在运行的任务会被中断，所有 session 将重置。', async () => {
+    const r = await fetch('/api/bot/restart-gateway', { method: 'POST' });
+    const d = await r.json();
+    alert(d.ok ? '✅ ' + d.message : '❌ ' + d.error);
+    refreshGateway();
+    setTimeout(startScan, 2000);
+  });
+}
+
+async function sendAlert(channelId) {
+  const ch = allChannels.find(c => c.channelId === channelId);
+  const name = ch ? channelDisplayName(ch) : channelId;
+  showModal('发送预警', `向「${name}」发送 Discord 预警消息？`, async () => {
+    const r = await fetch('/api/bot/alert/' + channelId, { method: 'POST' });
+    const d = await r.json();
+    if (d.ok) {
+      showToast('✅ 预警已发送到频道');
+    } else {
+      alert('❌ 发送失败：' + (d.error || '未知错误'));
+    }
+  });
+}
+
+// 自动预警：扫描完成后调用，对新出现的 error/warn 发送 Discord 通知
+async function autoAlert() {
+  try {
+    const r = await fetch('/api/bot/alert-scan', { method: 'POST' });
+    const d = await r.json();
+    if (d.alerts && d.alerts.length > 0) {
+      const names = d.alerts.map(a => a.name || a.channelId.slice(-6)).join('、');
+      const failCount = d.alerts.filter(a => !a.ok).length;
+      if (failCount === 0) {
+        showToast(`📢 已向 ${d.alerts.length} 个频道发送预警：${names}`);
+      } else {
+        showToast(`⚠️ 预警发送部分失败（${d.alerts.length - failCount}/${d.alerts.length}）`);
+      }
+    }
+  } catch {}
+}
+
+function showToast(msg) {
+  let t = document.getElementById('toast');
+  if (!t) {
+    t = document.createElement('div');
+    t.id = 'toast';
+    t.style.cssText = 'position:fixed;bottom:24px;right:24px;background:#52c41a;color:#fff;padding:10px 20px;border-radius:8px;font-size:14px;z-index:9999;box-shadow:0 4px 12px #0003;transition:opacity .3s';
+    document.body.appendChild(t);
+  }
+  t.textContent = msg;
+  t.style.opacity = '1';
+  clearTimeout(t._timer);
+  t._timer = setTimeout(() => { t.style.opacity = '0'; }, 3000);
+}
+
+function resetSession(channelId) {
+  const ch = allChannels.find(c => c.channelId === channelId);
+  const name = ch ? channelDisplayName(ch) : channelId;
+  showModal('重置 Session', `确认重置「${name}」的 session？bot 下次收到消息会重新开始对话。`, async () => {
+    const r = await fetch('/api/bot/reset-session/' + channelId, { method: 'POST' });
+    const d = await r.json();
+    alert(d.ok ? '✅ ' + d.message : '❌ ' + d.error);
+    startScan();
+  });
+}
+
+// ── 模态 ────────────────────────────────────────────────────
+function showModal(title, body, onConfirm) {
+  document.getElementById('modal-title').textContent = title;
+  document.getElementById('modal-body').textContent = body;
+  document.getElementById('modal-confirm').onclick = () => { closeModal(); onConfirm(); };
+  document.getElementById('modal').style.display = 'flex';
+}
+function closeModal() { document.getElementById('modal').style.display = 'none'; }
+
+// ── 渲染左侧列表 ─────────────────────────────────────────────
+function renderSidebar() {
+  // 统计
+  const counts = { error:0, warn:0, ok:0, idle:0, unknown:0 };
+  for (const ch of allChannels) counts[ch.diagnosis.status] = (counts[ch.diagnosis.status]||0) + 1;
+
+  const stats = document.getElementById('sidebar-stats');
+  stats.innerHTML = `
+    <span class="stat-badge s-all ${filterStatus==='all'?'active':''}" onclick="setFilter('all')">全部 ${allChannels.length}</span>
+    ${counts.error ? `<span class="stat-badge s-error ${filterStatus==='error'?'active':''}" onclick="setFilter('error')">🔴 ${counts.error}</span>` : ''}
+    ${counts.warn  ? `<span class="stat-badge s-warn  ${filterStatus==='warn' ?'active':''}" onclick="setFilter('warn')">🟡 ${counts.warn}</span>` : ''}
+    ${counts.ok    ? `<span class="stat-badge s-ok    ${filterStatus==='ok'   ?'active':''}" onclick="setFilter('ok')">🟢 ${counts.ok}</span>` : ''}
+    ${counts.idle  ? `<span class="stat-badge s-idle  ${filterStatus==='idle' ?'active':''}" onclick="setFilter('idle')">⚫ ${counts.idle}</span>` : ''}
+  `;
+
+  const list = document.getElementById('ch-list');
+  let filtered = filterStatus === 'all' ? allChannels : allChannels.filter(c => c.diagnosis.status === filterStatus);
+  if (searchQuery) {
+    filtered = filtered.filter(c =>
+      c.channelId.toLowerCase().includes(searchQuery) ||
+      (c.channelName || '').toLowerCase().includes(searchQuery) ||
+      (c.channelCategory || '').toLowerCase().includes(searchQuery)
+    );
+  }
+  list.innerHTML = filtered.map(ch => `
+    <div class="ch-item s-${ch.diagnosis.status} ${selectedId===ch.channelId?'active':''}"
+         id="li-${ch.channelId}" onclick="selectChannel('${ch.channelId}')">
+      <div class="ch-dot ${dotClass(ch.diagnosis.status)}"></div>
+      <div class="ch-info">
+        <div class="ch-name">${esc(channelDisplayName(ch))}</div>
+        <div class="ch-category">${esc(ch.channelCategory||'')} ${ch.diagnosis.label}</div>
+      </div>
+      <div class="ch-idle">${ch.idleLabel}</div>
+    </div>
+  `).join('');
+
+  document.getElementById('sidebar-title').textContent = `Bot 频道 (${allChannels.length})`;
+}
+
+function setFilter(status) {
+  filterStatus = status;
+  renderSidebar();
+}
+
+// ── 渲染右侧详情 ─────────────────────────────────────────────
+function selectChannel(channelId) {
+  selectedId = channelId;
+  // 更新左侧选中样式
+  document.querySelectorAll('.ch-item').forEach(el => el.classList.remove('active'));
+  const li = document.getElementById('li-' + channelId);
+  if (li) li.classList.add('active');
+
+  const ch = allChannels.find(c => c.channelId === channelId);
+  if (!ch) return;
+
+  const diagCls = diagClass(ch.diagnosis.status);
+  const statusLabels = { error:'🔴 报错', warn:'🟡 中断', ok:'🟢 正常', idle:'⚫ 空闲', unknown:'❓ 未知' };
+
+  const eventsHtml = ch.last5.length ? ch.last5.map(ev => {
+    const ts = fmtTime(ev.ts);
+    const [rcls, rlabel] = roleInfo(ev.role, ev.isError);
+    return `<div class="event-row">
+      <span class="event-ts">${ts}</span>
+      <span class="event-role ${rcls}">${rlabel}</span>
+      <span class="event-text">${esc((ev.text||'').replace(/\n/g,' ').slice(0,200))}</span>
+    </div>`;
+  }).join('') : '<div style="color:#8c8c8c;font-size:13px">暂无事件记录</div>';
+
+  document.getElementById('main-content').innerHTML = `
+    <!-- 标题栏 -->
+    <div class="detail-header">
+      <div>
+        <div class="detail-title-row">
+          <div class="detail-dot ${dotClass(ch.diagnosis.status)}" style="width:12px;height:12px"></div>
+          <span class="detail-name">${esc(channelDisplayName(ch))}</span>
+        </div>
+        <div class="detail-path">
+          ${ch.channelCategory ? esc(ch.channelCategory) + ' / ' : ''}${esc(channelDisplayName(ch))}
+          &nbsp;·&nbsp;
+          <span style="font-family:monospace;font-size:11px;color:#bfbfbf">${ch.channelId}</span>
+        </div>
+      </div>
+      <div class="detail-actions">
+        <button class="btn btn-default" onclick="resetSession('${ch.channelId}')">重置 Session</button>
+        <button class="btn btn-default" onclick="navigator.clipboard.writeText('${ch.channelId}').then(()=>alert('已复制 ID'))">复制 ID</button>
+        ${(ch.diagnosis.status==='error'||ch.diagnosis.status==='warn') ? `<button class="btn btn-warn" onclick="sendAlert('${ch.channelId}')">📢 发送预警</button>` : ''}
+      </div>
+    </div>
+
+    <!-- 诊断 -->
+    <div class="diagnosis-card ${diagCls}">
+      <div class="diag-status">${statusLabels[ch.diagnosis.status]||'未知'} &nbsp; ${esc(ch.diagnosis.label)}</div>
+      <div class="diag-reason">${esc(ch.diagnosis.reason)}</div>
+      <div class="diag-fix">
+        <div class="diag-fix-label">🔧 处理方案</div>
+        <div class="diag-fix-text">${esc(ch.diagnosis.fix)}</div>
+      </div>
+    </div>
+
+    <!-- 元信息行 -->
+    <div class="info-row">
+      <div class="info-card"><div class="info-label">最后活动</div><div class="info-value">${ch.idleLabel}</div></div>
+      <div class="info-card"><div class="info-label">当前模型</div><div class="info-value" style="font-size:13px">${esc(ch.model||'未知')}</div></div>
+      <div class="info-card"><div class="info-label">事件总数</div><div class="info-value">${ch.eventCount}</div></div>
+      <div class="info-card"><div class="info-label">有锁</div><div class="info-value">${ch.hasLock?'🔒 是':'否'}</div></div>
+    </div>
+
+    <!-- 最近事件 -->
+    <div class="events-card">
+      <div class="events-title">最近事件</div>
+      ${eventsHtml}
+    </div>
+  `;
+}
+
+// ── SSE 扫描 ─────────────────────────────────────────────────
+function startScan() {
+  const btn = document.getElementById('btn-scan');
+  btn.disabled = true; btn.textContent = '…';
+  document.getElementById('ch-list').innerHTML = '';
+  allChannels = [];
+
+  const bar = document.getElementById('scan-bar');
+  bar.style.width = '0';
+  bar.style.transition = 'width .15s';
+
+  let total = 0;
+  const es = new EventSource('/api/bot/scan');
+
+  es.onmessage = (e) => {
+    const msg = JSON.parse(e.data);
+
+    if (msg.type === 'gateway') {
+      const d = msg.data;
+      const el = document.getElementById('gw-status');
+      el.textContent = d.ok ? `✅ Gateway 正常 (pid ${d.pid||'?'})` : '🔴 Gateway 离线';
+      el.style.color = d.ok ? '#52c41a' : '#ff4d4f';
+
+    } else if (msg.type === 'total') {
+      total = msg.data;
+
+    } else if (msg.type === 'channel') {
+      const ch = msg.data;
+      // 插入排序
+      const order = { error:0, warn:1, unknown:2, ok:3, idle:4 };
+      const newOrd = order[ch.diagnosis.status]??9;
+      let idx = allChannels.findIndex(c => (order[c.diagnosis.status]??9) > newOrd);
+      if (idx === -1) allChannels.push(ch);
+      else allChannels.splice(idx, 0, ch);
+
+      renderSidebar();
+      if (total > 0) bar.style.width = `${((msg.idx+1)/total)*100}%`;
+
+      // 如果当前选中的频道刷新了，重新渲染详情
+      if (selectedId === ch.channelId) selectChannel(selectedId);
+
+    } else if (msg.type === 'done') {
+      es.close();
+      bar.style.width = '100%';
+      btn.disabled = false; btn.textContent = '扫描';
+      const now = new Date().toLocaleTimeString('zh-CN');
+      // 若无选中，自动选第一个有问题的
+      if (!selectedId && allChannels.length > 0) {
+        const first = allChannels.find(c => c.diagnosis.status !== 'idle') || allChannels[0];
+        selectChannel(first.channelId);
+      }
+      setTimeout(() => { bar.style.width = '0'; bar.style.transition = 'none'; }, 2000);
+      // 自动预警：发现新错误时发送 Discord 通知
+      autoAlert();
+      setTimeout(startScan, 30000);
+
+    } else if (msg.type === 'error') {
+      es.close();
+      btn.disabled = false; btn.textContent = '扫描';
+      document.getElementById('main-content').innerHTML =
+        `<div class="detail-empty"><div>扫描出错：${esc(msg.message)}</div></div>`;
+    }
+  };
+
+  es.onerror = () => {
+    es.close();
+    btn.disabled = false; btn.textContent = '扫描';
+  };
+}
+
+// ── 悟空邀请码监控（浮动窗口）────────────────────────────────
+let wukongMinimized = false;
+
+function wukongToggleMinimize() {
+  wukongMinimized = !wukongMinimized;
+  document.getElementById('wk-float-body').style.display = wukongMinimized ? 'none' : 'block';
+  document.getElementById('wk-min-icon').textContent = wukongMinimized ? '▲' : '▼';
+}
+
+async function wukongRefresh() {
+  try {
+    const r = await fetch('/api/wukong/state');
+    const d = await r.json();
+    renderWukongStatus(d);
+  } catch {}
+}
+
+function renderWukongStatus(d) {
+  const badge = document.getElementById('wk-badge');
+  const timeEl = document.getElementById('wk-time');
+  const meta = document.getElementById('wk-meta');
+  const toggleBtn = document.getElementById('wk-toggle-btn');
+  const imgWrap = document.getElementById('wk-image-wrap');
+  if (!badge) return;
+
+  // Image
+  if (d.lastImageUrl) {
+    // 保留已有的邀请码显示区域
+    const existingCode = document.getElementById('wk-invite-code-display');
+    const codeHtml = existingCode ? existingCode.outerHTML : '<div id="wk-invite-code-display" style="text-align:center;font-size:13px;color:#666;min-height:18px;margin-top:4px;"></div>';
+    imgWrap.innerHTML = `<img src="${d.lastImageUrl}" alt="悟空邀请码" onerror="this.parentElement.innerHTML='<span class=\\'wk-image-placeholder\\'>图片加载失败</span>'">${codeHtml}`;
+  } else if (!d.disabled) {
+    imgWrap.innerHTML = '<span class="wk-image-placeholder">暂无图片</span>';
+  }
+
+  if (d.disabled) {
+    badge.className = 'wk-badge-off'; badge.textContent = '⏸ 已关闭';
+    timeEl.textContent = '';
+    meta.innerHTML = '<span style="color:#bfbfbf">监控已关闭，不会自动检测</span>';
+    toggleBtn.textContent = '开启监控'; toggleBtn.className = 'wk-btn wk-btn-on';
+    return;
+  }
+
+  // Status badge
+  if (!d.baselineSet) {
+    badge.className = 'wk-badge-unknown'; badge.textContent = '⏳ 建立基线中…';
+  } else {
+    badge.className = 'wk-badge-unknown'; badge.textContent = '👁 监控中';
+  }
+
+  // Time
+  if (d.lastCheck) {
+    const ago = Math.round((Date.now() - new Date(d.lastCheck)) / 1000);
+    timeEl.textContent = ago < 60 ? `${ago}秒前检查` : `${Math.round(ago/60)}分钟前检查`;
+  } else {
+    timeEl.textContent = '尚未检查';
+  }
+
+  // Meta lines
+  const lines = [];
+  if (d.enabledAt) {
+    const ago = Math.round((Date.now() - new Date(d.enabledAt)) / 1000 / 60);
+    lines.push(`🟢 已开启：${ago < 1 ? '刚刚' : ago + '分钟前'}`);
+  }
+  if (d.lastNotify) {
+    const ago = Math.round((Date.now() - new Date(d.lastNotify)) / 1000 / 60);
+    lines.push(`📢 上次通知：${ago < 1 ? '刚刚' : ago + '分钟前'}`);
+  }
+  if (d.lastUrlId) {
+    lines.push(`🔑 当前图片：<span style="font-family:monospace;font-size:10px">${d.lastUrlId.slice(0, 18)}…</span>`);
+  }
+  if (d.lastError) {
+    lines.push(`<span style="color:#ff4d4f">⚠ ${esc(d.lastError.slice(0,60))}</span>`);
+  }
+  meta.innerHTML = lines.join('<br>') || '';
+
+  toggleBtn.textContent = '复制邀请码'; toggleBtn.className = 'wk-btn wk-btn-check';
+}
+
+// 兼容 HTTP 的剪切板复制（navigator.clipboard 需要 HTTPS）
+function copyToClipboard(text) {
+  try {
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.cssText = 'position:fixed;left:-9999px;top:-9999px';
+    document.body.appendChild(ta);
+    ta.focus();
+    ta.select();
+    document.execCommand('copy');
+    document.body.removeChild(ta);
+  } catch(e) {}
+  return Promise.resolve();
+}
+
+function showInviteCode(code) {
+  const el = document.getElementById('wk-invite-code-display');
+  if (el) {
+    el.innerHTML = code
+      ? `<span style="color:#e74c3c;font-weight:bold;font-size:16px;user-select:all;cursor:pointer;" title="点击可手动选中复制">${code}</span>`
+      : '';
+  }
+}
+
+async function wukongToggle() {
+  // 复制邀请码：OCR 当前图片 → 显示 + 复制到剪切板
+  const btn = document.getElementById('wk-toggle-btn');
+  if (btn) { btn.disabled = true; btn.textContent = '解析中…'; }
+  try {
+    const state = await fetch('/api/wukong/state').then(r => r.json());
+    const imageUrl = state.lastImageUrl;
+    if (!imageUrl) { showToast('❌ 暂无图片'); if (btn) { btn.disabled = false; btn.textContent = '复制邀请码'; } return; }
+    const r = await fetch('/api/wukong/ocr', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ imageUrl })
+    });
+    const d = await r.json();
+    if (d.ok && d.inviteCode) {
+      showInviteCode(d.inviteCode);
+      await copyToClipboard(d.inviteCode);
+      showToast('✅ 已复制邀请码: ' + d.inviteCode);
+      if (btn) { btn.textContent = '已复制 ✓'; btn.style.background = '#27ae60'; btn.style.color = '#fff'; }
+    } else {
+      showToast('❌ 未识别到邀请码' + (d.error ? ': ' + d.error : ''));
+      if (btn) { btn.disabled = false; btn.textContent = '复制邀请码'; }
+    }
+  } catch (e) {
+    showToast('❌ 请求失败: ' + e.message);
+    if (btn) { btn.disabled = false; btn.textContent = '复制邀请码'; }
+  }
+}
+
+async function wukongCheckNow() {
+  const btn = document.getElementById('wk-check-btn');
+  if (btn) { btn.disabled = true; btn.textContent = '检查中…'; }
+  try {
+    const r = await fetch('/api/wukong/check', { method: 'POST' });
+    const d = await r.json();
+    if (d.status === 'disabled') {
+      showToast('⏸ 监控已关闭，请先开启');
+    } else if (d.status === 'error') {
+      showToast('❌ ' + d.message);
+    } else if (d.notified) {
+      showToast('🔔 图片有更新！已发送邮件通知');
+      const imgUrl = d.imageUrl || '';
+      triggerWukongAlerts(imgUrl);
+    } else if (d.isBaseline) {
+      showToast('✅ 基线已建立，开始监控变化');
+    } else {
+      showToast('✅ 无变化');
+    }
+    wukongRefresh();
+  } catch (e) {
+    showToast('❌ 请求失败');
+  } finally {
+    if (btn) { btn.disabled = false; btn.textContent = '立即检查'; }
+  }
+}
+
+// ── 悟空预警：持续提醒10次 + 声音 ───────────────────────────
+let wukongAlertRemaining = 0;
+let wukongAlertTimer = null;
+let wukongAlertImageUrl = '';
+
+function playAlertSound() {
+  try {
+    const ctx = new (window.AudioContext || window.webkitAudioContext)();
+    // 三声短促蜂鸣
+    [0, 0.25, 0.5].forEach(offset => {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.connect(gain); gain.connect(ctx.destination);
+      osc.type = 'sine';
+      osc.frequency.value = 880;
+      gain.gain.setValueAtTime(0.6, ctx.currentTime + offset);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + offset + 0.2);
+      osc.start(ctx.currentTime + offset);
+      osc.stop(ctx.currentTime + offset + 0.22);
+    });
+  } catch(e) {}
+}
+
+function showWukongAlert(imageUrl, remaining) {
+  // 移除旧弹窗
+  const old = document.getElementById('wukong-alert-overlay');
+  if (old) old.remove();
+
+  playAlertSound();
+
+  const overlay = document.createElement('div');
+  overlay.className = 'wukong-alert-overlay';
+  overlay.id = 'wukong-alert-overlay';
+  overlay.innerHTML = `
+    <div class="wukong-alert-box">
+      <div class="wk-alert-icon">🔔</div>
+      <div class="wk-alert-title">悟空邀请码有更新！</div>
+      <div class="wk-alert-sub">图片已更换，请立即前往领取新邀请码</div>
+      <div class="wk-alert-count">还将提醒 ${remaining} 次</div>
+      ${imageUrl ? `<img class="wk-alert-img" src="${imageUrl}" alt="邀请码图片" />` : ''}
+      <div id="wk-ocr-status" style="font-size:13px;color:#666;margin:8px 0;min-height:20px;"></div>
+      <div class="wk-alert-actions">
+        <button class="wk-alert-btn-go" onclick="window.open('https://www.dingtalk.com/wukong','_blank');dismissWukongAlert()">立即前往领取</button>
+        <button class="wk-alert-btn-dismiss" id="wk-copy-btn" onclick="wukongOcrAndCopy()">复制邀请码</button>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(overlay);
+}
+
+let wukongOcrDone = false; // 只 OCR+复制一次
+
+async function wukongOcrAndCopy() {
+  if (wukongOcrDone) {
+    dismissWukongAlert();
+    return;
+  }
+  const btn = document.getElementById('wk-copy-btn');
+  const status = document.getElementById('wk-ocr-status');
+  if (btn) { btn.disabled = true; btn.textContent = '解析中…'; }
+  if (status) status.textContent = '正在识别邀请码…';
+
+  try {
+    const imageUrl = wukongAlertImageUrl;
+    const r = await fetch('/api/wukong/ocr', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ imageUrl })
+    });
+    const d = await r.json();
+    if (d.ok && d.inviteCode) {
+      await copyToClipboard(d.inviteCode);
+      showInviteCode(d.inviteCode);
+      wukongOcrDone = true;
+      if (status) status.innerHTML = `<span style="color:#27ae60;font-weight:bold;">✅ 已复制: ${d.inviteCode}</span>`;
+      if (btn) { btn.textContent = '已复制 ✓'; btn.style.background = '#27ae60'; btn.style.color = '#fff'; }
+      showToast('✅ 邀请码已复制到剪切板: ' + d.inviteCode);
+    } else {
+      if (status) status.innerHTML = `<span style="color:#e74c3c;">❌ 未识别到邀请码${d.error ? ': ' + d.error : ''}</span>`;
+      if (btn) { btn.disabled = false; btn.textContent = '重试复制'; }
+    }
+  } catch (e) {
+    if (status) status.innerHTML = `<span style="color:#e74c3c;">❌ 请求失败: ${e.message}</span>`;
+    if (btn) { btn.disabled = false; btn.textContent = '重试复制'; }
+  }
+}
+
+function dismissWukongAlert() {
+  const el = document.getElementById('wukong-alert-overlay');
+  if (el) el.remove();
+}
+
+function triggerWukongAlerts(imageUrl) {
+  // 清除上一轮未完成的提醒
+  if (wukongAlertTimer) clearInterval(wukongAlertTimer);
+  wukongAlertRemaining = 10;
+  wukongAlertImageUrl = imageUrl;
+
+  // 立即弹第一次
+  showWukongAlert(wukongAlertImageUrl, wukongAlertRemaining);
+  wukongAlertRemaining--;
+
+  // 之后每 10 秒再弹，共 9 次（总计约 100 秒）
+  wukongAlertTimer = setInterval(() => {
+    if (wukongAlertRemaining <= 0) {
+      clearInterval(wukongAlertTimer);
+      wukongAlertTimer = null;
+      return;
+    }
+    showWukongAlert(wukongAlertImageUrl, wukongAlertRemaining);
+    wukongAlertRemaining--;
+  }, 10000);
+}
+
+// ── 悟空独立轮询（高频抢码）─────────────────────────────────
+// 分钟 59-04 → 每1秒检查，其余 → 每60秒检查
+// 检测到新图后停止高频，回到60秒
+let wukongPollTimer = null;
+let wukongDetected = false; // 本轮已检测到新图，停止高频
+
+function getWukongInterval() {
+  if (wukongDetected) return 60000; // 已抢到，回归常规
+  const min = new Date().getMinutes();
+  return (min >= 59 || min <= 4) ? 1000 : 60000;
+}
+
+function updateWukongModeIndicator() {
+  const interval = getWukongInterval();
+  const el = document.getElementById('wk-mode-indicator');
+  if (!el) return;
+  if (wukongDetected) {
+    el.textContent = '🎯 已检测到新码，常规模式';
+    el.style.color = '#27ae60';
+  } else if (interval <= 1000) {
+    el.textContent = '⚡ 高频模式 (1s)';
+    el.style.color = '#e74c3c';
+  } else {
+    el.textContent = '💤 常规模式 (60s)';
+    el.style.color = '#999';
+  }
+}
+
+async function wukongPollOnce() {
+  try {
+    const r = await fetch('/api/wukong/check', { method: 'POST' });
+    const d = await r.json();
+    if (d.notified) {
+      wukongDetected = true;
+      wukongOcrDone = false; // 重置 OCR 标记，允许新一次复制
+      showToast('🔔 悟空邀请码图片有更新！');
+      await wukongRefresh();
+      const img = document.getElementById('wk-image-wrap')?.querySelector('img')?.src || d.imageUrl || '';
+      triggerWukongAlerts(img);
+    }
+    wukongRefresh();
+  } catch {}
+}
+
+function wukongPollLoop() {
+  wukongPollOnce();
+  updateWukongModeIndicator();
+  const interval = getWukongInterval();
+  wukongPollTimer = setTimeout(wukongPollLoop, interval);
+}
+
+// ── 初始化 ───────────────────────────────────────────────────
+refreshGateway();
+startScan();
+wukongRefresh();
+wukongPollLoop();
+</script>
+</body>
+</html>

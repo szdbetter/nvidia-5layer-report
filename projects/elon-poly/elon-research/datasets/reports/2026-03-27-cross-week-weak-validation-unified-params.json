@@ -1,0 +1,150 @@
+{
+  "params": {
+    "edge_threshold": 0.05,
+    "slippage_bps": 100,
+    "max_position_size": 10.0,
+    "top_brackets": 3
+  },
+  "aggregate": {
+    "trade_count": 0,
+    "total_pnl": 0.0,
+    "max_drawdown": 0.0,
+    "win_rate": 0.0
+  },
+  "events": [
+    {
+      "trade_count": 0,
+      "total_pnl": 0.0,
+      "max_drawdown": 0.0,
+      "event_id": 208544,
+      "title": "Elon Musk # tweets February 17 - February 24, 2026?",
+      "start": "2026-02-14",
+      "end": "2026-02-24",
+      "weekly_total_tweets": 361,
+      "trade_rows": 3710,
+      "price_rows": 0,
+      "brackets_analyzed": 0,
+      "bracket_rows": []
+    },
+    {
+      "trade_count": 0,
+      "total_pnl": 0.0,
+      "max_drawdown": 0.0,
+      "event_id": 212454,
+      "title": "Elon Musk # tweets February 20 - February 27, 2026?",
+      "start": "2026-02-17",
+      "end": "2026-02-27",
+      "weekly_total_tweets": 311,
+      "trade_rows": 4210,
+      "price_rows": 104,
+      "brackets_analyzed": 0,
+      "bracket_rows": []
+    },
+    {
+      "trade_count": 0,
+      "total_pnl": 0.0,
+      "max_drawdown": 0.0,
+      "event_id": 220474,
+      "title": "Elon Musk # tweets February 24 - March 3, 2026?",
+      "start": "2026-02-21",
+      "end": "2026-03-03",
+      "weekly_total_tweets": 208,
+      "trade_rows": 5000,
+      "price_rows": 4212,
+      "brackets_analyzed": 0,
+      "bracket_rows": []
+    },
+    {
+      "trade_count": 0,
+      "total_pnl": 0.0,
+      "max_drawdown": 0.0,
+      "event_id": 226986,
+      "title": "Elon Musk # tweets February 27 - March 6, 2026?",
+      "start": "2026-02-24",
+      "end": "2026-03-06",
+      "weekly_total_tweets": 211,
+      "trade_rows": 4000,
+      "price_rows": 8638,
+      "brackets_analyzed": 0,
+      "bracket_rows": []
+    },
+    {
+      "trade_count": 0,
+      "total_pnl": 0.0,
+      "max_drawdown": 0.0,
+      "event_id": 236151,
+      "title": "Elon Musk # tweets March 3 - March 10, 2026?",
+      "start": "2026-02-28",
+      "end": "2026-03-10",
+      "weekly_total_tweets": 359,
+      "trade_rows": 5000,
+      "price_rows": 12480,
+      "brackets_analyzed": 0,
+      "bracket_rows": []
+    },
+    {
+      "trade_count": 0,
+      "total_pnl": 0.0,
+      "max_drawdown": 0.0,
+      "event_id": 251243,
+      "title": "Elon Musk # tweets March 10 - March 17, 2026?",
+      "start": "2026-03-07",
+      "end": "2026-03-17",
+      "weekly_total_tweets": 286,
+      "trade_rows": 5000,
+      "price_rows": 12388,
+      "brackets_analyzed": 0,
+      "bracket_rows": []
+    },
+    {
+      "trade_count": 0,
+      "total_pnl": 0.0,
+      "max_drawdown": 0.0,
+      "event_id": 257217,
+      "title": "Elon Musk # tweets March 13 - March 20, 2026?",
+      "start": "2026-03-09",
+      "end": "2026-03-20",
+      "weekly_total_tweets": 339,
+      "trade_rows": 4000,
+      "price_rows": 12807,
+      "brackets_analyzed": 0,
+      "bracket_rows": []
+    },
+    {
+      "trade_count": 0,
+      "total_pnl": 0.0,
+      "max_drawdown": 0.0,
+      "event_id": 278377,
+      "title": "Elon Musk # tweets March 20 - March 27, 2026?",
+      "start": "2026-03-17",
+      "end": "2026-03-27",
+      "weekly_total_tweets": 122,
+      "trade_rows": 5000,
+      "price_rows": 12528,
+      "brackets_analyzed": 1,
+      "bracket_rows": [
+        {
+          "bracket_low": 260,
+          "bracket_high": 279,
+          "price_points": 253,
+          "fair_value": 0.02,
+          "all": {
+            "trade_count": 0,
+            "total_pnl": 0.0,
+            "max_drawdown": 0.0
+          },
+          "last_2h": {
+            "trade_count": 0,
+            "total_pnl": 0.0,
+            "max_drawdown": 0.0
+          },
+          "last_1h": {
+            "trade_count": 0,
+            "total_pnl": 0.0,
+            "max_drawdown": 0.0
+          }
+        }
+      ]
+    }
+  ]
+}

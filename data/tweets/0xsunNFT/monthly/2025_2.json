@@ -1,0 +1,784 @@
+[
+  {
+    "id": "1894755311367676228",
+    "text": "@sisibinance 感谢sisi，工作辛苦，这个帖子不针对币安的任何一位工作人员，只是希望得到一个合理的反馈",
+    "createdAt": "Wed Feb 26 14:24:03 +0000 2025",
+    "replyCount": 4,
+    "retweetCount": 0,
+    "likeCount": 26,
+    "conversationId": "1894720066018746564",
+    "inReplyToStatusId": "1894723185666334965",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1894727449797386439",
+    "text": "@thankUcrypto 白名单是啥",
+    "createdAt": "Wed Feb 26 12:33:21 +0000 2025",
+    "replyCount": 6,
+    "retweetCount": 0,
+    "likeCount": 9,
+    "conversationId": "1894720066018746564",
+    "inReplyToStatusId": "1894723626672463984",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1894721129786613824",
+    "text": "第二段的act打错了，是arc",
+    "createdAt": "Wed Feb 26 12:08:14 +0000 2025",
+    "replyCount": 6,
+    "retweetCount": 4,
+    "likeCount": 95,
+    "conversationId": "1894720066018746564",
+    "inReplyToStatusId": "1894720066018746564",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1894720066018746564",
+    "text": "我想请问一下币安，是不是现在用户正常开单交易都有被封号的风险？我从1月底开始做空山寨币，逻辑从我推特上都能找得到，选了一些我觉得热点不再并且估值虚高的币，结果币安说我在Ban上操控价格，我的开单历史都在下面，因为深度一般我还是用的分时委托（Twap），2.8日我观察到ban从底部0.023拉升到0.065左右后横盘了几天，建仓空单，2.18大暴跌，我观察了一天左右，觉得跌不下去了，低于50M做空的性价比也不高，所以平掉了空单，同样是用的分时委托，这一单最后历时11天，开仓均价0.066，平仓均价0.049，盈利28万u，完全是合理的散户交易行为，结果币安警告我不能多账号交易，不能同时利用现货和合约价格操盘，不能鼓励其他人进场来拉升价格，请问以上三种行为我有哪一样？\n\n自己上的合约被人这样拉砸，不去找原因，跑来用封号警告正常交易的用户？同样我之前做空act也收到了类似的警告，说我空单仓位太大，怀疑有内幕消息，我开单的逻辑是act的发射台推出后第一个币表现不佳，利好落地。请问我是需要教你们炒币还是需要把我每一次获利的逻辑全盘托出？\n\n还有，你们的分时委托Twap功能，正常情况下开单是按杠杆可开仓位作为百分比，平单是按持有仓位作为百分比，结果分时委托的平单是按杠杆可开仓位作为百分比，导致我在平仓Wif的时候，误以为10%是我仓位的10%，其实平掉了可开仓位10M的10%，导致我过早平单损失了部分利润，你们的功能细节不去完善，反而用这种方式惊吓散户？\n\n我一直将币安作为最信任的交易所，不管是CEX资产还是交易都主要在币安，难道用户正常交易还要担惊受怕封号风险？希望币安可以重视以上问题，不要站在正常用户的对立面。 @heyibinance @cz_binance @sisibinance 。",
+    "createdAt": "Wed Feb 26 12:04:00 +0000 2025",
+    "replyCount": 513,
+    "retweetCount": 206,
+    "likeCount": 1273,
+    "conversationId": "1894720066018746564",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/Gktl2UbXwAAbWGq.jpg",
+        "width": 1028,
+        "height": 2048,
+        "previewUrl": "https://pbs.twimg.com/media/Gktl2UbXwAAbWGq.jpg:small"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/Gktl2T2bkAAKdXk.jpg",
+        "width": 1014,
+        "height": 2048,
+        "previewUrl": "https://pbs.twimg.com/media/Gktl2T2bkAAKdXk.jpg:small"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/Gktl2T4aMAAGp5n.jpg",
+        "width": 1018,
+        "height": 2048,
+        "previewUrl": "https://pbs.twimg.com/media/Gktl2T4aMAAGp5n.jpg:small"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/Gktl2UhXcAAuXhB.jpg",
+        "width": 1122,
+        "height": 2048,
+        "previewUrl": "https://pbs.twimg.com/media/Gktl2UhXcAAuXhB.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "1894126254573699324",
+    "text": "@VincentSkywalke https://t.co/yFhpduaKG9",
+    "createdAt": "Mon Feb 24 20:44:24 +0000 2025",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 5,
+    "conversationId": "1894037627374129439",
+    "inReplyToStatusId": "1894037627374129439",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "quotedTweet": {
+      "id": "1894125889954484464",
+      "text": "指正一下，Trump这个币获利10M+的应该不少于20人，我自己群里的群友加上我认识的国外链上玩家就有10个以上，这还是只算链上，没考虑交易所内的。\n\n50M肯定不是小钱，但“小钱”和“愿意全额赔付”是两码事，我相信李哥是完全有能力和意愿去妥善处理好这件事的。我的性格就是这样，即使关系很好的朋友或是内心很认可的人，平时可能也不会频繁联络，但彼此之间清楚是可靠的。我自己在Infini里一直存着1M，也是出于对李哥的信任，在力所能及的范围里支持一下业务。\n\nInfini出事的第一时间，我也很紧张，因为之前开展过社区合作，我担心社区用户会有资产损失。之后李哥和郡主很快表示会全额赔付，提现也陆续到账，心里的石头才落下来。希望Infini能顺利度过这次难关。\n\n很多人不理解，为什么最近Bybit和Infini黑客事件里， @benbybit 和 @Christianeth 收获的赞誉如此之多。首先这种行业级别的安全事故，肯定是大家都不愿意看到的，也无疑需要问责，从而完善行业的安全标准，尽量防止以后再出现类似事件。但是两位创始人全程积极响应、勇于担责、站在用户的立场提出解决方案，我认为是非常值得认可的。我们已经见过太多SBF和Do Kwon，太需要能在困境中迎难而上的Founder来为行业树立正面标杆。\n\n近期无论是行情的困难程度，还是黑客事件频发，都给人一种凛冬将至的感觉，作为散户，希望大家都能守住本金，等待光明的到来。",
+      "createdAt": "Mon Feb 24 20:42:57 +0000 2025",
+      "replyCount": 37,
+      "retweetCount": 16,
+      "likeCount": 133,
+      "conversationId": "1894125889954484464",
+      "author": {
+        "username": "0xSunNFT",
+        "name": "0xSun"
+      },
+      "authorId": "1146492710582308864"
+    }
+  },
+  {
+    "id": "1894125889954484464",
+    "text": "指正一下，Trump这个币获利10M+的应该不少于20人，我自己群里的群友加上我认识的国外链上玩家就有10个以上，这还是只算链上，没考虑交易所内的。\n\n50M肯定不是小钱，但“小钱”和“愿意全额赔付”是两码事，我相信李哥是完全有能力和意愿去妥善处理好这件事的。我的性格就是这样，即使关系很好的朋友或是内心很认可的人，平时可能也不会频繁联络，但彼此之间清楚是可靠的。我自己在Infini里一直存着1M，也是出于对李哥的信任，在力所能及的范围里支持一下业务。\n\nInfini出事的第一时间，我也很紧张，因为之前开展过社区合作，我担心社区用户会有资产损失。之后李哥和郡主很快表示会全额赔付，提现也陆续到账，心里的石头才落下来。希望Infini能顺利度过这次难关。\n\n很多人不理解，为什么最近Bybit和Infini黑客事件里， @benbybit 和 @Christianeth 收获的赞誉如此之多。首先这种行业级别的安全事故，肯定是大家都不愿意看到的，也无疑需要问责，从而完善行业的安全标准，尽量防止以后再出现类似事件。但是两位创始人全程积极响应、勇于担责、站在用户的立场提出解决方案，我认为是非常值得认可的。我们已经见过太多SBF和Do Kwon，太需要能在困境中迎难而上的Founder来为行业树立正面标杆。\n\n近期无论是行情的困难程度，还是黑客事件频发，都给人一种凛冬将至的感觉，作为散户，希望大家都能守住本金，等待光明的到来。",
+    "createdAt": "Mon Feb 24 20:42:57 +0000 2025",
+    "replyCount": 37,
+    "retweetCount": 16,
+    "likeCount": 133,
+    "conversationId": "1894125889954484464",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1893875946207187260",
+    "text": "@Christianeth 李哥加油",
+    "createdAt": "Mon Feb 24 04:09:46 +0000 2025",
+    "replyCount": 2,
+    "retweetCount": 0,
+    "likeCount": 10,
+    "conversationId": "1893875013469491241",
+    "inReplyToStatusId": "1893875013469491241",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1893517113702391940",
+    "text": "@kanyewest 你真是个神人啊ye",
+    "createdAt": "Sun Feb 23 04:23:54 +0000 2025",
+    "replyCount": 17,
+    "retweetCount": 1,
+    "likeCount": 67,
+    "conversationId": "1893515965490442269",
+    "inReplyToStatusId": "1893515965490442269",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1893516772591939734",
+    "text": "@EuniceQXZ @Siegfried90210 @kanyewest @barkmeta @doginaldogs @IGGYAZALEA 我勒个去😧",
+    "createdAt": "Sun Feb 23 04:22:33 +0000 2025",
+    "replyCount": 7,
+    "retweetCount": 0,
+    "likeCount": 4,
+    "conversationId": "1893486743783170384",
+    "inReplyToStatusId": "1893513619435901091",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1893513454373478835",
+    "text": "@Siegfried90210 @kanyewest @barkmeta @doginaldogs @IGGYAZALEA 我勒个狗头帮，如果真是他们就没得玩了",
+    "createdAt": "Sun Feb 23 04:09:21 +0000 2025",
+    "replyCount": 8,
+    "retweetCount": 0,
+    "likeCount": 49,
+    "conversationId": "1893486743783170384",
+    "inReplyToStatusId": "1893486743783170384",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1893501052533506217",
+    "text": "@wolfyxbt 用1000万买一个币翻10倍就可以了",
+    "createdAt": "Sun Feb 23 03:20:05 +0000 2025",
+    "replyCount": 28,
+    "retweetCount": 2,
+    "likeCount": 70,
+    "conversationId": "1893482099350638976",
+    "inReplyToStatusId": "1893493050351198371",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1893482099350638976",
+    "text": "今天又翻到这篇一年前写的推文，关于链上，关于币圈不同资产阶段如何上升一个数量级，人生真神奇。",
+    "createdAt": "Sun Feb 23 02:04:46 +0000 2025",
+    "replyCount": 181,
+    "retweetCount": 120,
+    "likeCount": 678,
+    "conversationId": "1893482099350638976",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "quotedTweet": {
+      "id": "1751888091487580633",
+      "text": "两年多以前我刚入圈的时候就反复看过神鱼的这篇《在区块链行业如何从1000刀的本金赚到1亿刀》，还存在了手机相册里，那时候我刚读研一，带入币圈的本金不到五万元，今天看到这条推特还是挺感慨的。这几天有很多朋友都分享了财富增长的经验，我也斗胆借此机会讲讲自己的看法。\n\n首先最重要的一点，我认为是找到自己擅长或是感兴趣的赛道，当然能两者兼得是最完美的。例如你组织能力强或者动手能力强就去撸空投，对游戏数值和策略比较了解就去研究链游，擅长估值分析和投研就去炒山寨，币圈的赛道非常多，吃透其中一条对绝大部分人而言已经足够。高倍合约等杠杆率太高的方式我是从来不碰的，也不建议大家接触。\n\n对我自身而言，比较强的能力是快速地获取信息、分析决策并且执行操作，同时我对市场热点也有不错的敏感度，所以自然而然地选择了链上一级这条赛道，现在也有很多人称其为1.5级。它的定义很广泛，例如NFT、土狗币、铭文等其实都可以纳入，核心是在相对早期的阶段接触项目，从而获得成本较低的筹码，但又不同于私募等回报周期通常较久的形式。\n\n链上一级的优缺点都很鲜明，在对项目大致判断正确的前提下，这种玩法具有极高的盈亏比，但也正因为接触项目处于早期，又带来了更大的不确定性和风险。从收集信息、做出分析再到执行操作这三个步骤，每一步的失误都可能带来结果的巨大差异。接下来更具体地分享我的经历，以下单位为CNY。\n\n1万~10万：以小博大、见好就收\n可以泛指所有在币圈没有投入较大本金的情况，对小资金来说，追求年化几个点的稳定收益没有太大意义，平时大家也总打趣说“是来币圈翻身的，不是翻倍的”，所以这一阶段要尽量寻找潜在倍数高、前期投入小的项目，我在21年的时候是参与BSC上的土狗币，同样道理但更符合当下币圈生态的例如铭文新协议、SOL土狗币等，或者一些投入成本较小的撸毛项目，殊途同归。\n一些朋友可能认为资金少所以一定要死拿到百倍千倍才卖，但是我有不同看法，小资金意味着低容错率，在这一阶段更重要的是获利出本，及时止盈，只要你的路径是对的，一定可以把雪球越滚越大。那些靠拿住一个币暴富的故事往往是幸存者偏差，新闻稿可以从1000个人中选出一个成功者大书特书，而不会提及剩下的999个失败者。\n\n10万~100万：对所在的赛道有一定的深度了解\n2021年年底的时候我发现只要持有几个平台的代币就可以获得打新额度，而这些打新项目通常开盘就有几十倍，所以我把大部分资金用于买入GAFI、Redkite、Poolz等平台的代币，剩下的就是不断参与打新并在开盘不久后卖出，而这种造富效应又带动平台币价上涨，又吃又拿，我在进圈三个多月的时候赚到了第一个一百万。\n时至今日，信息传播的速度越来越快，这种简单粗暴的左脚踩右脚已经很难持续下去，而且质量不错的项目通常都会选择有各类筛选和风控机制的打新平台。不过如果把我那段经历背后的逻辑抽象出来，那么依然是通用的，也就是在自己最熟悉的赛道经过钻研后找到一些存在信息差的机会，投入适当的仓位，静待开花结果。\n\n100万~1000万：深度、宽度和高度\n客观来说，个人资产超过千万在国内已经远超绝大部分人了，所以没必要把这当做一个很大的目标或者压力，一切平常心看待。\n想要度过这一阶段，我总结了三种方式，分别对应深度、宽度和高度，做到其一即可。第一个是把资金容量足够的机会研究透，第二个是在自己所处赛道形成规模化，第三个是早于大部分人看到了引领市场的赛道。\n先说深度，单项目千万收益听起来很夸张，大家听闻比较多的应该是Blur第二季空投名列前茅的几位大哥。当然，刷Blur毕竟对技术、资金量都有要求，时间周期也长达几个月，很多人可能根本没有意识到更夸张的是去年10月的NFT碎片化平台代币FLC、去年12月的BTC NFT节点猴和今年1月的BTC二层代币SAVM，都是能在1周甚至1天内将100万转化为1000万的项目，对于分析足够透彻并且敢上仓位的人是实实在在可以做到的，而这还仅仅是短短过去3个月内的部分机会而已。\n再说宽度，也就是在自己擅长的赛道形成规模化，可以是通过铺人力和高效的组织管理形成的，对应的机会例如Sui打新，也可以是借助代码和工具实现的，例如NFT图狗早期大部分人还在前端手搓的时候，用脚本合约批量Mint就是降维打击，收益也是成倍增长。不过宽度的扩张是存在边际效益的，一方面是每个项目的资金容量都有限，利润并不是完全跟随规模的扩大而扩大，另一方面是随着某个赛道上扩大规模的玩家越来越多，财富效应就逐渐被稀释了。\n最后是高度，通过精准的判断和敏锐的嗅觉在极早期介入某个赛道的龙头标的，然后充分享受赛道扩大的胜利果实，随风起舞，例如21年的链游和今年的铭文。这也是我个人认为难度最大的一种方式，因为不仅要求有极强的判断力，更需要敢为天下先的勇气，某个赛道在极早期的时候要么无人问津，要么备受嘲讽，能在这种情况下耐得住寂寞的投资者才能守得云开见月明，我想只要见证过PEPE、ORDI和TIA发展历程的朋友都深有体会，正是这3个曾经被百般嫌弃的标的开启了2023年的Meme、铭文和模块化这三大标志性叙事。\n这也引出了另一个重要话题，就是赛道的选择，一般情况下在币圈还是得追逐热点，玩新不玩旧，两个各方面水平相同的人，假如在2023年的下半年一个选择了NFT赛道，另一个选择了铭文赛道，他们最终的收益率肯定是云泥之别，大部分人最终所能拿到的结果还是依托于市场的红利，要学会顺势而为。\n此外，在这个阶段还可以适当扩大一下自己的接触面，敢于拿小仓位试错各个赛道，说不定收获的经验在日后就成了宝贵的财富。也可以分配一定比例的资金去参与各类相对稳定的打新机会，给自己配置安全垫的同时也一定程度形成了现金流。\n最后就是做好风险控制和仓位管理，尤其在牛市，账面财富其实分文不值，没有落袋为安之前都是虚的，有太多牛市风光一时熊市回撤严重甚至倾家荡产的例子，不多赘述。\n\n1000万~1亿：\n还在摸索，争取早日再做分享，希望与大家顶峰相见。",
+      "createdAt": "Mon Jan 29 08:40:44 +0000 2024",
+      "replyCount": 267,
+      "retweetCount": 848,
+      "likeCount": 2153,
+      "conversationId": "1751888091487580633",
+      "author": {
+        "username": "0xSunNFT",
+        "name": "0xSun"
+      },
+      "authorId": "1146492710582308864"
+    }
+  },
+  {
+    "id": "1893180709407175132",
+    "text": "@benbybit Goat level response👍",
+    "createdAt": "Sat Feb 22 06:07:09 +0000 2025",
+    "replyCount": 3,
+    "retweetCount": 0,
+    "likeCount": 22,
+    "conversationId": "1893131588415955409",
+    "inReplyToStatusId": "1893131588415955409",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1893180156702830999",
+    "text": "@0x_claudia 牛逼",
+    "createdAt": "Sat Feb 22 06:04:57 +0000 2025",
+    "replyCount": 5,
+    "retweetCount": 0,
+    "likeCount": 25,
+    "conversationId": "1893147982998184117",
+    "inReplyToStatusId": "1893147982998184117",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1893042163992162614",
+    "text": "@jessepollak What's even the point of all of these? You said \"yes, I coined this\" then reposted some 100 coins shit 3 mins later. Why people use these funtions if the creator dont care about the coin and what's the point of \"coin\" those media and content then? https://t.co/mfQeVmcaJR",
+    "createdAt": "Fri Feb 21 20:56:37 +0000 2025",
+    "replyCount": 14,
+    "retweetCount": 1,
+    "likeCount": 53,
+    "conversationId": "1892333576990929169",
+    "inReplyToStatusId": "1892333576990929169",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GkVvKZ0aoAM6hvC.jpg",
+        "width": 1063,
+        "height": 1561,
+        "previewUrl": "https://pbs.twimg.com/media/GkVvKZ0aoAM6hvC.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "1893039800179138966",
+    "text": "@jessepollak You really think this is a PVE game when you dropped the coin, posted on twitter, shiled it then quotes some \"100 coins\" tweet 8 mins later? \n\nWho will care the zora update when the founder of the chain's coin looks like this? https://t.co/0vxOu5NEEn",
+    "createdAt": "Fri Feb 21 20:47:13 +0000 2025",
+    "replyCount": 28,
+    "retweetCount": 6,
+    "likeCount": 130,
+    "conversationId": "1893034238448210334",
+    "inReplyToStatusId": "1893034238448210334",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GkVs7g-aoAAW99C.jpg",
+        "width": 2048,
+        "height": 850,
+        "previewUrl": "https://pbs.twimg.com/media/GkVs7g-aoAAW99C.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "1892108763340964006",
+    "text": "@0x_mgig 保证金是仓位两倍，不就是0.5倍合约了么",
+    "createdAt": "Wed Feb 19 07:07:37 +0000 2025",
+    "replyCount": 3,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "1891767522786934837",
+    "inReplyToStatusId": "1891773725449580769",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1892080851011371317",
+    "text": "@hexiecs 链上明牌地址赚10m+，完全不需要理会黑子，认知不是一个级别了，继续一起冲！",
+    "createdAt": "Wed Feb 19 05:16:42 +0000 2025",
+    "replyCount": 24,
+    "retweetCount": 3,
+    "likeCount": 214,
+    "conversationId": "1892059430570881170",
+    "inReplyToStatusId": "1892059430570881170",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1891785959428981059",
+    "text": "@31415926eth 图里都是均价，中间平仓又开仓了几次，一开始开仓价格没那么低，另外就是大方向看空，做空wif是在拉斯维加斯巨球广告被否认之后，所以不太担心。",
+    "createdAt": "Tue Feb 18 09:44:55 +0000 2025",
+    "replyCount": 3,
+    "retweetCount": 1,
+    "likeCount": 22,
+    "conversationId": "1891767522786934837",
+    "inReplyToStatusId": "1891784703843369320",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1891768773067026487",
+    "text": "@whitegoldjin 0.5倍以下",
+    "createdAt": "Tue Feb 18 08:36:37 +0000 2025",
+    "replyCount": 5,
+    "retweetCount": 0,
+    "likeCount": 25,
+    "conversationId": "1891767522786934837",
+    "inReplyToStatusId": "1891767995887759487",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "quotedTweet": {
+      "id": "1886235075156824386",
+      "text": "补充一下，做空部分是我认为这轮中长期都适用的一种思路，不是让你在今天这种暴跌后再去做空。如果仓位管理能力不够，也不要空。",
+      "createdAt": "Mon Feb 03 02:07:41 +0000 2025",
+      "replyCount": 11,
+      "retweetCount": 9,
+      "likeCount": 117,
+      "conversationId": "1886229854385025198",
+      "inReplyToStatusId": "1886229854385025198",
+      "author": {
+        "username": "0xSunNFT",
+        "name": "0xSun"
+      },
+      "authorId": "1146492710582308864"
+    }
+  },
+  {
+    "id": "1891767522786934837",
+    "text": "选择大于努力 https://t.co/7i06WJbf8C",
+    "createdAt": "Tue Feb 18 08:31:39 +0000 2025",
+    "replyCount": 298,
+    "retweetCount": 89,
+    "likeCount": 1031,
+    "conversationId": "1891767522786934837",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "quotedTweet": {
+      "id": "1886229854385025198",
+      "text": "分享一下近期对市场的想法：\n\n链上节奏大大加速，这半个月速通盘不少，但是几乎都没有持续性，大部分代币的走势都是标准的滑滑梯式一波流。\n\n从实际操作的体感上，虽说我基本都在休息，没有枯坐，操作也比较随意，有这些客观因素，但我选择的也都是觉得整体叙事还不错的币，而且也就是比第一波上涨晚了几个小时进场，结果我链上买入较多的三个币都是亏损。要知道即便是休息，我的信息接收速度依然是超过大部分玩家的，其实已经很能反映出情绪和资金的消退。\n\n造成这种现象的原因，主要有两个，核心依然是上篇推文提到的，如果说特朗普本人发的$Trump是在吹一个巨大的泡泡，那他老婆的$Melania就是戳破了泡泡的针，把整个市场齐聚一心的势头击碎了。连总统发的币走势都那么难看，其他币自然也没有让人长拿的信心，需要等一个奖励钻石手的代币改善情绪。\n\n另一个就是，任何赛道的发展都符合客观规律，越往后，工具就越普及，掌握方法论的玩家就越多，滞后的资金就越少，此消彼长之下，就体现为速度加快、红利减弱。\n\n当然也不需要过分悲观，无论牛熊，链上都是时不时就会有金狗，而且熊市反而会出神盘，因为资金和注意力容易聚集。\n\n关于山寨季，我依然保持之前的观点，这一轮相较之前，代币数量多了太多，新资产发行也容易，所以全面普涨很难。\n\n我也开始尝试超低倍做空（0.5倍以下），一是因为最近注意力经济愈发明显，热门代币的高估值大部分已经来自情绪而非基本面和叙事了；二是以前的VC币，因为存在解锁，至少项目方还有一些动力护盘，而这轮流行的全解锁代币，很是时候一旦庄家出货完毕，就根本没人管了，所以才有那么多几百M代币一路跌90%的情况。\n\n目前思路是选择3-5个估值依然较高的过时热门叙事代币，可以避免单个标的被控盘爆拉的情况。不过做空除非滚仓，否则收益有限，对于普通玩家来说，能意识到空仓不动也是一种操作，就很好了。\n\n最后说点题外话，龙王X哥都大半个月前就分享过对后市的担忧了，但在推特看空是一件吃力不讨好的事，哪怕永远无脑看多都更容易收获流量和好评，所以可能也导致很多人不愿意公开看空，信息茧房就是这么来的。",
+      "createdAt": "Mon Feb 03 01:46:56 +0000 2025",
+      "replyCount": 94,
+      "retweetCount": 128,
+      "likeCount": 799,
+      "conversationId": "1886229854385025198",
+      "author": {
+        "username": "0xSunNFT",
+        "name": "0xSun"
+      },
+      "authorId": "1146492710582308864"
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GkDoiF-aAAEdIh8.jpg",
+        "width": 1152,
+        "height": 2048,
+        "previewUrl": "https://pbs.twimg.com/media/GkDoiF-aAAEdIh8.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "1891322523393929344",
+    "text": "@traderpow Sometimes doing less is more",
+    "createdAt": "Mon Feb 17 03:03:23 +0000 2025",
+    "replyCount": 8,
+    "retweetCount": 1,
+    "likeCount": 22,
+    "conversationId": "1891319028100321688",
+    "inReplyToStatusId": "1891319028100321688",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1890629435524890955",
+    "text": "只能感谢昨晚的睡眠质量，好几个群友电话都没喊醒我，否则在$Libra上亏钱是大概率，因为这根本不是真币假币的问题，是阿根廷一国总统发推置顶之后明牌出货，再撇清责任，哪怕币圈无良项目方都很少这么明目张胆收割的。另一个因素是市场节奏太快，后续流动性不足，开盘半小时后就是高点，敢格局或者敢抄底一律被埋。\n\n富在术数，不在劳身；利在势局，不在力耕。在市场活的越久，越理解这句话的含金量。",
+    "createdAt": "Sat Feb 15 05:09:18 +0000 2025",
+    "replyCount": 209,
+    "retweetCount": 106,
+    "likeCount": 941,
+    "conversationId": "1890629435524890955",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1890560718572868020",
+    "text": "@XXAntiWar 多享受生活吧女王，到这个数量级，小机会赚点亏点已经没什么本质影响了，保持一下对市场的敏感度就行",
+    "createdAt": "Sat Feb 15 00:36:14 +0000 2025",
+    "replyCount": 10,
+    "retweetCount": 0,
+    "likeCount": 74,
+    "conversationId": "1890550219718214066",
+    "inReplyToStatusId": "1890550219718214066",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1889496469830508878",
+    "text": "@BloomTradingBot 🌸🌸🌸",
+    "createdAt": "Wed Feb 12 02:07:18 +0000 2025",
+    "replyCount": 2,
+    "retweetCount": 0,
+    "likeCount": 5,
+    "conversationId": "1889412987397537900",
+    "inReplyToStatusId": "1889412987397537900",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1889480122761462038",
+    "text": "首先恭喜参与投资的 @solayer_labs 首发上线了Binance、Upbit等大所，之前投它的理由一个是SVM叙事的想象空间很大，毕竟Solana是这一轮最亮眼的公链，另一个是看到 @fried_rice 从伯克利PHD休学加入Solayer作为首席工程师，让我很Bullish，有了解MEV和安全领域的朋友应该都听说过他和Fuzzland的大名。\n\n价格走势上，$Layer正在大V天龙，这其实非常能反映市场的博弈。首先，最近做空VC币几乎已经成了一种政治正确，大家都受够了VC币高估值、低流通、持续解锁这几个特性，也确实大部分VC币都是上所即巅峰，后续对行业没有多少实际贡献，只是团队和投资人的取钱罐。\n\n但是任何事情都不能脱离本质只看表面，当所有人都意识到做空是财富密码的时候，距离翻车也就不远了，在币圈从来没有什么钱是可以不带脑子还能长期赚下去的。以Solayer为例，最低的时候流通市值其实已经只有100多M，并不能算是一个典型的高估值开盘，而且币安合约上线的时间往往较晚，如果你等到币安合约再去开空，很可能已经错过了现货开盘的高价，还要扛着顶格的负费率，做空将会非常被动，再遇上轧空的话，很可能会损失惨重。\n\n每个操作，一定要理解背后的核心逻辑，而不是邯郸学步，才能在这个风险和机遇都无处不在的市场长久生存。",
+    "createdAt": "Wed Feb 12 01:02:20 +0000 2025",
+    "replyCount": 56,
+    "retweetCount": 26,
+    "likeCount": 203,
+    "conversationId": "1889480122761462038",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "quotedTweet": {
+      "id": "1889254647644172682",
+      "text": "https://t.co/vojnTq4EJd",
+      "createdAt": "Tue Feb 11 10:06:23 +0000 2025",
+      "replyCount": 343,
+      "retweetCount": 244,
+      "likeCount": 1930,
+      "conversationId": "1889254647644172682",
+      "author": {
+        "username": "solayer_labs",
+        "name": "Solayer (mainnet arc)"
+      },
+      "authorId": "1745510685470265345",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/Gjf7Fr7XQAAHeQh.jpg",
+          "width": 2040,
+          "height": 2040,
+          "previewUrl": "https://pbs.twimg.com/media/Gjf7Fr7XQAAHeQh.jpg:small"
+        }
+      ]
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GjjGBLRaIAAQbT9.jpg",
+        "width": 2048,
+        "height": 821,
+        "previewUrl": "https://pbs.twimg.com/media/GjjGBLRaIAAQbT9.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "1888848826150302051",
+    "text": "TST我是觉得CZ够可以了，虽然全程辟谣式喊单，终究也是连喊了几天，上车机会也给了，几M到500M的涨幅也不错了，你不能指望他真的CA甩脸上还配文“按头买”。\n\n我唯一不理解的就是上完币安后，应该是直接创了现货单日最大跌幅，这不是把用户从交易所往链上逼吗，以现在的情况，用户会被逼去SOL还是BSC？",
+    "createdAt": "Mon Feb 10 07:13:47 +0000 2025",
+    "replyCount": 191,
+    "retweetCount": 56,
+    "likeCount": 312,
+    "conversationId": "1888848826150302051",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "quotedTweet": {
+      "id": "1887487783448813803",
+      "text": "@cz_binance Bought some for \"happy trading\", btw check this address, prob owned by bnb chain team member:\n\nhttps://t.co/U8luugacV6\n\nhttps://t.co/MD2W8Vyr3r",
+      "createdAt": "Thu Feb 06 13:05:30 +0000 2025",
+      "replyCount": 21,
+      "retweetCount": 8,
+      "likeCount": 125,
+      "conversationId": "1887477388335833594",
+      "inReplyToStatusId": "1887477388335833594",
+      "author": {
+        "username": "0xSunNFT",
+        "name": "0xSun"
+      },
+      "authorId": "1146492710582308864"
+    }
+  },
+  {
+    "id": "1888509967650492569",
+    "text": "We won forever",
+    "createdAt": "Sun Feb 09 08:47:17 +0000 2025",
+    "replyCount": 77,
+    "retweetCount": 44,
+    "likeCount": 431,
+    "conversationId": "1888509967650492569",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1887571205915615523",
+    "text": "@shirleyusy 恭喜梨庄！",
+    "createdAt": "Thu Feb 06 18:36:59 +0000 2025",
+    "replyCount": 2,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "1886689209043272191",
+    "inReplyToStatusId": "1886689209043272191",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1887560454119301535",
+    "text": "@FlippingProfits Heard the timeline has changed since then.",
+    "createdAt": "Thu Feb 06 17:54:16 +0000 2025",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 9,
+    "conversationId": "1887559497662517687",
+    "inReplyToStatusId": "1887559497662517687",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1887487783448813803",
+    "text": "@cz_binance Bought some for \"happy trading\", btw check this address, prob owned by bnb chain team member:\n\nhttps://t.co/U8luugacV6\n\nhttps://t.co/MD2W8Vyr3r",
+    "createdAt": "Thu Feb 06 13:05:30 +0000 2025",
+    "replyCount": 21,
+    "retweetCount": 8,
+    "likeCount": 125,
+    "conversationId": "1887477388335833594",
+    "inReplyToStatusId": "1887477388335833594",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "quotedTweet": {
+      "id": "1887483489366516064",
+      "text": "幸运儿 / 聪明钱 0xeBB...74711c 恰巧在 @cz_binance 发推提及 $TST 前五分钟建仓 3.5 万美金的代币，现已浮盈 65.7 万美金，回报率 1885%！😲\n\nCZ 发推后他又赶紧加仓了 2 BNB，目前持有 2882 万枚 TST，为持仓 TOP1 地址；这运气我也是服气哈哈\n\n钱包地址 https://t.co/2rD02xPoJH",
+      "createdAt": "Thu Feb 06 12:48:26 +0000 2025",
+      "replyCount": 119,
+      "retweetCount": 34,
+      "likeCount": 163,
+      "conversationId": "1887483489366516064",
+      "author": {
+        "username": "ai_9684xtpa",
+        "name": "Ai 姨"
+      },
+      "authorId": "1503362006191026180",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/GjGwMhfbMAAC9XA.jpg",
+          "width": 1270,
+          "height": 919,
+          "previewUrl": "https://pbs.twimg.com/media/GjGwMhfbMAAC9XA.jpg:small"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1887486260497031388",
+    "text": "@IoNJ0fnICAZ1NOJ @cz_binance AI agent这个赛道我本来坚定看好，但是特朗普老婆之后整个市场的流动性和情绪都太差了，少数AI币可以重新反弹，大部分应该不行了，后市我也看不清楚。",
+    "createdAt": "Thu Feb 06 12:59:26 +0000 2025",
+    "replyCount": 3,
+    "retweetCount": 0,
+    "likeCount": 7,
+    "conversationId": "1887477388335833594",
+    "inReplyToStatusId": "1887484664409170231",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1887483016618123268",
+    "text": "@cz_binance Ayo",
+    "createdAt": "Thu Feb 06 12:46:33 +0000 2025",
+    "replyCount": 7,
+    "retweetCount": 0,
+    "likeCount": 25,
+    "conversationId": "1887477388335833594",
+    "inReplyToStatusId": "1887477388335833594",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1886235075156824386",
+    "text": "补充一下，做空部分是我认为这轮中长期都适用的一种思路，不是让你在今天这种暴跌后再去做空。如果仓位管理能力不够，也不要空。",
+    "createdAt": "Mon Feb 03 02:07:41 +0000 2025",
+    "replyCount": 11,
+    "retweetCount": 9,
+    "likeCount": 117,
+    "conversationId": "1886229854385025198",
+    "inReplyToStatusId": "1886229854385025198",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1886229854385025198",
+    "text": "分享一下近期对市场的想法：\n\n链上节奏大大加速，这半个月速通盘不少，但是几乎都没有持续性，大部分代币的走势都是标准的滑滑梯式一波流。\n\n从实际操作的体感上，虽说我基本都在休息，没有枯坐，操作也比较随意，有这些客观因素，但我选择的也都是觉得整体叙事还不错的币，而且也就是比第一波上涨晚了几个小时进场，结果我链上买入较多的三个币都是亏损。要知道即便是休息，我的信息接收速度依然是超过大部分玩家的，其实已经很能反映出情绪和资金的消退。\n\n造成这种现象的原因，主要有两个，核心依然是上篇推文提到的，如果说特朗普本人发的$Trump是在吹一个巨大的泡泡，那他老婆的$Melania就是戳破了泡泡的针，把整个市场齐聚一心的势头击碎了。连总统发的币走势都那么难看，其他币自然也没有让人长拿的信心，需要等一个奖励钻石手的代币改善情绪。\n\n另一个就是，任何赛道的发展都符合客观规律，越往后，工具就越普及，掌握方法论的玩家就越多，滞后的资金就越少，此消彼长之下，就体现为速度加快、红利减弱。\n\n当然也不需要过分悲观，无论牛熊，链上都是时不时就会有金狗，而且熊市反而会出神盘，因为资金和注意力容易聚集。\n\n关于山寨季，我依然保持之前的观点，这一轮相较之前，代币数量多了太多，新资产发行也容易，所以全面普涨很难。\n\n我也开始尝试超低倍做空（0.5倍以下），一是因为最近注意力经济愈发明显，热门代币的高估值大部分已经来自情绪而非基本面和叙事了；二是以前的VC币，因为存在解锁，至少项目方还有一些动力护盘，而这轮流行的全解锁代币，很是时候一旦庄家出货完毕，就根本没人管了，所以才有那么多几百M代币一路跌90%的情况。\n\n目前思路是选择3-5个估值依然较高的过时热门叙事代币，可以避免单个标的被控盘爆拉的情况。不过做空除非滚仓，否则收益有限，对于普通玩家来说，能意识到空仓不动也是一种操作，就很好了。\n\n最后说点题外话，龙王X哥都大半个月前就分享过对后市的担忧了，但在推特看空是一件吃力不讨好的事，哪怕永远无脑看多都更容易收获流量和好评，所以可能也导致很多人不愿意公开看空，信息茧房就是这么来的。",
+    "createdAt": "Mon Feb 03 01:46:56 +0000 2025",
+    "replyCount": 94,
+    "retweetCount": 128,
+    "likeCount": 799,
+    "conversationId": "1886229854385025198",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "quotedTweet": {
+      "id": "1882971617783173341",
+      "text": "特朗普老婆发了$Melania之后，感觉市场的情绪就不对了，用四个字来形容，就是精疲力尽。好像大家都已经很累了，又都还在全力奔跑。\n\n本来对$Trump的解读，应该是正面积极为主，代表美国总统对加密货币的一种认可，即使踏空的人，也期待这件事开启一个新的时代。\n\n但是没过多久他老婆又发了一个币，事情就变得很微妙了，包括我自己到现在也没想明白这个行为的意图到底是什么，哪怕纯粹为了捞一笔快钱，收益恐怕也不如做大做稳$Trump这个币吧，毕竟两者的市值差了十倍。\n\n链上更是妖魔鬼怪横行，我这几天基本是休息状态，看见不错的叙事就随缘买一些，但是最后基本都是亏钱，而且纳斯达克和巴西总统那种雷我还已经躲过去了。\n\n一方面说明，现在链上节奏越来越快，想赚到超额收益还是需要投入时间和精力的，另一方面也说明，这几天没有太多持续性强的项目，大部分币都是极速推到几十M，然后极速下跌。\n\n本来对后市是比较乐观的，现在也有些看不懂了。还是时刻提醒自己，牛市最难的是止盈，落袋才是真的。",
+      "createdAt": "Sat Jan 25 01:59:52 +0000 2025",
+      "replyCount": 276,
+      "retweetCount": 130,
+      "likeCount": 1298,
+      "conversationId": "1882971617783173341",
+      "author": {
+        "username": "0xSunNFT",
+        "name": "0xSun"
+      },
+      "authorId": "1146492710582308864"
+    }
+  },
+  {
+    "id": "1886073048962564232",
+    "text": "@haze0x 鸡哥牛逼",
+    "createdAt": "Sun Feb 02 15:23:51 +0000 2025",
+    "replyCount": 3,
+    "retweetCount": 1,
+    "likeCount": 19,
+    "conversationId": "1886053463978913883",
+    "inReplyToStatusId": "1886053463978913883",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1885978415872036949",
+    "text": "大年初五迎财神，为了方便大家链上收红包链下花，Infini x 0xSun Group也来一张限量联名卡，支持一下李哥 @Christianeth @0xinfini ，也给大家抽5个联名卡邀请码，转发评论就好。\n\n💳 联名卡特点：\n1、Mastercard预付借记卡：充u即用；\n2、免KYC享$500消费额度：KYC后消费无上限；\n3、每日收益：web3余额宝，存u每日生息，收益由底层协议决定。\n\n📢 如何获取：\n1、0xSun Group社区内领取激活码，免费开卡，获得专属卡面。\n2、注册链接：https://t.co/ysAreQrfI8\n3、开卡教程：https://t.co/EnPO3TNEUU\n\n🆕节后新卡选择：\n节后有2种卡可选，用于不同支付场景。\n\n1、Meow Card：全球消费，支持绑定微信、支付宝、美团，Uber、Grab、Netflix、OnlyFans 等日常支付。\n\n2、Rabbit Card （2月5号上线）：用于订阅chatgpt, X premium等风控严格的场景。",
+    "createdAt": "Sun Feb 02 09:07:48 +0000 2025",
+    "replyCount": 331,
+    "retweetCount": 252,
+    "likeCount": 464,
+    "conversationId": "1885978415872036949",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GixXXZCbcAAwIDs.jpg",
+        "width": 2048,
+        "height": 1152,
+        "previewUrl": "https://pbs.twimg.com/media/GixXXZCbcAAwIDs.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "1885949217459589355",
+    "text": "@niuniu255431 @DanaBuidl 牛牛哥，语言的艺术",
+    "createdAt": "Sun Feb 02 07:11:47 +0000 2025",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 5,
+    "conversationId": "1885900048896311508",
+    "inReplyToStatusId": "1885911897276657688",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1885207411059023982",
+    "text": "@fejau_inc Well said",
+    "createdAt": "Fri Jan 31 06:04:06 +0000 2025",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 6,
+    "conversationId": "1883255773146632415",
+    "inReplyToStatusId": "1883255773146632415",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  }
+]

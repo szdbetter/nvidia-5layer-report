@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌊 霍尔木兹宏观引擎</title>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+      background: #f0f2f5;
+      color: #333;
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    .app-header {
+      height: 56px;
+      background: #001529;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 24px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .header-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .header-title {
+      color: #fff;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+    .btn-back {
+      background: rgba(255,255,255,0.12);
+      color: rgba(255,255,255,0.85);
+      border: none;
+      padding: 5px 14px;
+      border-radius: 6px;
+      font-size: 13px;
+      cursor: pointer;
+      transition: background 0.2s;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .btn-back:hover { background: rgba(255,255,255,0.22); }
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      color: rgba(255,255,255,0.75);
+      font-size: 13px;
+    }
+    .header-time { font-variant-numeric: tabular-nums; }
+    .countdown-badge {
+      background: rgba(255,255,255,0.08);
+      padding: 3px 10px;
+      border-radius: 12px;
+      font-size: 12px;
+    }
+
+    /* ── Main ── */
+    .main-content {
+      padding: 24px;
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    /* ── Card base ── */
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+      padding: 20px 24px;
+      transition: box-shadow 0.2s;
+    }
+    .card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+
+    /* ── Signal Card ── */
+    .signal-card {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+      padding: 20px 24px;
+      margin-bottom: 20px;
+      border-left: 4px solid #d9d9d9;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .signal-card.signal-red    { border-left-color: #ff4d4f; }
+    .signal-card.signal-orange { border-left-color: #fa8c16; }
+    .signal-card.signal-yellow { border-left-color: #faad14; }
+    .signal-card.signal-green  { border-left-color: #52c41a; }
+    .signal-card.signal-nodata { border-left-color: #d9d9d9; }
+
+    .signal-main { flex: 1; }
+    .signal-title {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      line-height: 1.4;
+    }
+    .signal-title.signal-red    { color: #ff4d4f; }
+    .signal-title.signal-orange { color: #fa8c16; }
+    .signal-title.signal-yellow { color: #faad14; }
+    .signal-title.signal-green  { color: #52c41a; }
+    .signal-title.signal-nodata { color: #8c8c8c; }
+
+    .signal-recommendation {
+      font-size: 14px;
+      color: #595959;
+      margin-bottom: 10px;
+      line-height: 1.6;
+    }
+    .signal-meta {
+      font-size: 13px;
+      color: #8c8c8c;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .badge-mock {
+      display: inline-block;
+      padding: 2px 10px;
+      border-radius: 10px;
+      font-size: 12px;
+      font-weight: 500;
+      background: #fffbe6;
+      color: #faad14;
+      border: 1px solid #ffe58f;
+    }
+
+    /* ── Metric Cards ── */
+    .metrics-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+    .metric-card {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+      padding: 20px 24px;
+    }
+    .metric-label {
+      font-size: 13px;
+      color: #8c8c8c;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .metric-value {
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+    .metric-value.red   { color: #ff4d4f; }
+    .metric-value.green { color: #52c41a; }
+    .metric-value.blue  { color: #1677ff; }
+    .metric-sub {
+      font-size: 13px;
+      color: #8c8c8c;
+    }
+
+    /* ── Chart Row ── */
+    .charts-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+    .chart-card {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+      padding: 20px 24px;
+    }
+    .chart-card-title {
+      font-size: 15px;
+      font-weight: 600;
+      color: #262626;
+      margin-bottom: 16px;
+    }
+    .chart-area { height: 200px; }
+
+    /* ── Polymarket scan ── */
+    .poly-card {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+      padding: 20px 24px;
+      margin-bottom: 20px;
+    }
+    .poly-card-title {
+      font-size: 15px;
+      font-weight: 600;
+      color: #262626;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .poly-markets {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 14px;
+    }
+    .poly-market-block {
+      border: 1px solid #f0f0f0;
+      border-radius: 8px;
+      padding: 16px;
+    }
+    .poly-market-header {
+      font-size: 13px;
+      color: #8c8c8c;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .poly-market-link {
+      color: #1677ff;
+      text-decoration: none;
+      font-size: 12px;
+    }
+    .poly-market-link:hover { text-decoration: underline; }
+    .poly-yes-big {
+      font-size: 36px;
+      font-weight: 700;
+      color: #1677ff;
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+    .poly-no-row {
+      font-size: 13px;
+      color: #8c8c8c;
+      margin-bottom: 8px;
+    }
+    .poly-volume {
+      font-size: 12px;
+      color: #bbb;
+    }
+    .poly-mispricing {
+      background: #fffbe6;
+      border: 1px solid #ffe58f;
+      border-radius: 6px;
+      padding: 10px 14px;
+      font-size: 13px;
+      color: #7c5800;
+      margin-top: 12px;
+    }
+    .poly-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px solid #f5f5f5;
+      font-size: 14px;
+    }
+    .poly-row:last-child { border-bottom: none; }
+
+    /* ── Engine Detail ── */
+    .detail-card {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+      padding: 20px 24px;
+      margin-bottom: 20px;
+    }
+    .detail-card-title {
+      font-size: 15px;
+      font-weight: 600;
+      color: #262626;
+      margin-bottom: 14px;
+    }
+    .alert-box {
+      background: #fff2f0;
+      border: 1px solid #ffccc7;
+      border-radius: 6px;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #595959;
+      white-space: pre-wrap;
+      margin-bottom: 14px;
+      line-height: 1.6;
+    }
+    .detail-meta {
+      display: flex;
+      gap: 24px;
+      font-size: 13px;
+      color: #8c8c8c;
+      flex-wrap: wrap;
+    }
+    .detail-meta span strong { color: #595959; }
+
+    /* ── Skeleton ── */
+    @keyframes skeleton-pulse {
+      0%   { opacity: 0.6; }
+      50%  { opacity: 0.3; }
+      100% { opacity: 0.6; }
+    }
+    .skeleton {
+      background: #e9ecef;
+      border-radius: 4px;
+      animation: skeleton-pulse 1.5s ease-in-out infinite;
+      display: block;
+    }
+
+    /* ── States ── */
+    .loading-text {
+      color: #8c8c8c;
+      font-size: 14px;
+      text-align: center;
+      padding: 40px 0;
+    }
+    .retry-btn {
+      display: inline-block;
+      margin-top: 10px;
+      background: #ff4d4f;
+      color: #fff;
+      border: none;
+      padding: 6px 16px;
+      border-radius: 6px;
+      font-size: 13px;
+      cursor: pointer;
+    }
+    .retry-btn:hover { background: #d9363e; }
+
+    /* ── Scrollbar ── */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.15); border-radius: 3px; }
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="app-header">
+  <div class="header-left">
+    <a href="/" class="btn-back">← 返回</a>
+    <span class="header-title">🌊 霍尔木兹宏观引擎</span>
+  </div>
+  <div class="header-right">
+    <span class="header-time" id="headerTime">--:--:--</span>
+    <span class="countdown-badge" id="countdownBadge">刷新 60s</span>
+  </div>
+</div>
+
+<!-- Main -->
+<div class="main-content">
+
+  <!-- A: Signal Card -->
+  <div id="signalCard" class="signal-card signal-nodata">
+    <div class="signal-main">
+      <div class="signal-title signal-nodata" id="signalTitle">
+        <span class="skeleton" style="display:inline-block;width:260px;height:24px;border-radius:4px;"></span>
+      </div>
+      <div class="signal-recommendation" id="signalRec" style="display:none;"></div>
+      <div class="signal-meta" id="signalMeta">
+        <span class="skeleton" style="display:inline-block;width:180px;height:14px;border-radius:4px;"></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- B: 3 Metric Cards -->
+  <div class="metrics-row">
+    <div class="metric-card">
+      <div class="metric-label" id="metricLabel1">📊 吞吐量</div>
+      <div class="metric-value blue" id="metricVal1">
+        <span class="skeleton" style="display:inline-block;width:80px;height:32px;border-radius:4px;"></span>
+      </div>
+      <div class="metric-sub" id="metricSub1">—</div>
+    </div>
+    <div class="metric-card">
+      <div class="metric-label" id="metricLabel2">⚓ 滞留船只</div>
+      <div class="metric-value blue" id="metricVal2">
+        <span class="skeleton" style="display:inline-block;width:80px;height:32px;border-radius:4px;"></span>
+      </div>
+      <div class="metric-sub" id="metricSub2">艘</div>
+    </div>
+    <div class="metric-card">
+      <div class="metric-label" id="metricLabel3">🚢 当日通行</div>
+      <div class="metric-value blue" id="metricVal3">
+        <span class="skeleton" style="display:inline-block;width:80px;height:32px;border-radius:4px;"></span>
+      </div>
+      <div class="metric-sub" id="metricSub3">艘/天</div>
+    </div>
+  </div>
+
+  <!-- C: Charts -->
+  <div class="charts-row">
+    <div class="chart-card">
+      <div class="chart-card-title">📊 吞吐量 7日走势</div>
+      <div id="chartTransit" class="chart-area"></div>
+    </div>
+    <div class="chart-card">
+      <div class="chart-card-title">🚢 当日通行 7日走势</div>
+      <div id="chartTransitCount" class="chart-area"></div>
+    </div>
+  </div>
+
+  <!-- D: Polymarket Scan -->
+  <div class="poly-card">
+    <div class="poly-card-title">🎯 Polymarket 美伊停战 · 盘口扫描</div>
+    <div id="polyContent">
+      <div class="loading-text">盘口数据加载中...</div>
+    </div>
+  </div>
+
+  <!-- E: Engine Detail -->
+  <div class="detail-card">
+    <div class="detail-card-title">📋 引擎详情</div>
+    <div id="alertBox" class="alert-box" style="display:none;"></div>
+    <div class="detail-meta" id="detailMeta">
+      <span>🌐 数据来源：<strong id="sourceText">—</strong></span>
+      <span>🕐 引擎更新：<strong id="tsText">—</strong></span>
+      <span>💰 盘口更新：<strong id="pmUpdateText">—</strong></span>
+      <span>⚙️ 取数频率：引擎 30分钟 | 盘口 1分钟</span>
+      <span>📡 引擎状态：<strong id="engineStatus" style="color:#52c41a">运行中</strong></span>
+    </div>
+  </div>
+
+</div>
+
+<script>
+// ── History stored in localStorage ──
+const LS_KEY_THROUGHPUT    = 'macro_history_throughput';
+const LS_KEY_TRANSIT_COUNT = 'macro_history_transit_count';
+const MAX_HISTORY = 7;
+
+function loadHistory(key) {
+  try {
+    let arr = JSON.parse(localStorage.getItem(key) || '[]');
+    // 清理旧的分钟级数据：只保留 YYYY-MM-DD 格式的日期点
+    const cleaned = arr.filter(h => h.time && /^\d{4}-\d{2}-\d{2}$/.test(h.time));
+    if (cleaned.length !== arr.length) {
+      localStorage.setItem(key, JSON.stringify(cleaned));
+      return cleaned;
+    }
+    return arr;
+  } catch { return []; }
+}
+function saveHistory(key, arr) {
+  localStorage.setItem(key, JSON.stringify(arr.slice(-MAX_HISTORY)));
+}
+function pushHistory(key, time, value) {
+  const hist = loadHistory(key);
+  // 按日去重：同一天只保留最新值
+  const dateKey = time.slice(0, 10); // "2026-03-16"
+  const idx = hist.findIndex(h => h.time && h.time.slice(0, 10) === dateKey);
+  if (idx >= 0) {
+    hist[idx] = { time: dateKey, value }; // 更新当天
+  } else {
+    hist.push({ time: dateKey, value }); // 新增一天
+  }
+  saveHistory(key, hist);
+}
+
+// ── Time ──
+function toBJTime(isoStr) {
+  if (!isoStr) return '—';
+  const d = new Date(isoStr);
+  return d.toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai', hour12: false });
+}
+function nowBJ() {
+  return new Date().toLocaleTimeString('zh-CN', { timeZone: 'Asia/Shanghai', hour12: false });
+}
+function updateClock() {
+  document.getElementById('headerTime').textContent = '🕐 ' + nowBJ() + ' 北京时间';
+}
+setInterval(updateClock, 1000);
+updateClock();
+
+// ── Countdown ──
+let countdownSec = 60;
+function tickCountdown() {
+  countdownSec--;
+  if (countdownSec <= 0) {
+    countdownSec = 60;
+    fetchData();
+  }
+  document.getElementById('countdownBadge').textContent = `刷新 ${countdownSec}s`;
+}
+setInterval(tickCountdown, 1000);
+
+// ── Signal helpers ──
+function signalColorClass(signal) {
+  const map = {
+    'STRAIT_CLOSED':       'signal-red',
+    'SEVERE_DISRUPTION':   'signal-orange',
+    'PARTIAL_DISRUPTION':  'signal-yellow',
+    'NORMAL':              'signal-green',
+  };
+  return map[signal] || 'signal-nodata';
+}
+
+// ── Render signal card ──
+function renderSignal(data) {
+  const cls = signalColorClass(data.signal);
+  const card = document.getElementById('signalCard');
+  card.className = 'signal-card ' + cls;
+
+  const title = document.getElementById('signalTitle');
+  title.className = 'signal-title ' + cls;
+  title.textContent = data.signal_cn || data.signal || '⚠️ 暂无信号';
+
+  const rec = document.getElementById('signalRec');
+  if (data.recommendation) {
+    rec.style.display = 'block';
+    rec.textContent = data.recommendation;
+  } else {
+    rec.style.display = 'none';
+  }
+
+  const meta = document.getElementById('signalMeta');
+  const bjTime = toBJTime(data.ts);
+  let html = `<span>最后更新：${bjTime}</span>`;
+  if (data.mock) html += `<span class="badge-mock">⚠ 模拟数据</span>`;
+  meta.innerHTML = html;
+}
+
+// ── Render metrics ──
+function renderMetrics(d) {
+  const throughput      = d.data?.throughput_pct;
+  const strandedVessels = d.data?.stranded_vessels;
+  const transitCount    = d.data?.transit_count;
+  const normalDaily     = d.data?.normal_daily ?? 60;
+
+  // Metric 1: 吞吐量 (throughput_pct)
+  const v1El = document.getElementById('metricVal1');
+  if (throughput != null) {
+    const cls = throughput < 50 ? 'red' : throughput < 90 ? 'metric-value blue' : 'green';
+    v1El.className = 'metric-value ' + (throughput < 50 ? 'red' : throughput < 90 ? 'blue' : 'green');
+    v1El.textContent = throughput + '%';
+    document.getElementById('metricSub1').textContent = `正常水平的 ${throughput}%`;
+  } else {
+    v1El.textContent = '—';
+    document.getElementById('metricSub1').textContent = '%';
+  }
+
+  // Metric 2: 滞留船只 (stranded_vessels)
+  const v2El = document.getElementById('metricVal2');
+  if (strandedVessels != null) {
+    v2El.className = 'metric-value ' + (strandedVessels > 50 ? 'red' : strandedVessels > 10 ? 'blue' : 'green');
+    v2El.textContent = strandedVessels;
+    document.getElementById('metricSub2').textContent = '艘 · 海峡滞留船只';
+  } else {
+    v2El.textContent = '—';
+    document.getElementById('metricSub2').textContent = '艘';
+  }
+
+  // Metric 3: 当日通行 (transit_count) + 正常基准 normal_daily
+  const v3El = document.getElementById('metricVal3');
+  if (transitCount != null) {
+    v3El.className = 'metric-value ' + (transitCount < normalDaily * 0.5 ? 'red' : transitCount < normalDaily * 0.9 ? 'blue' : 'green');
+    v3El.textContent = transitCount;
+    document.getElementById('metricLabel3').textContent = '🚢 当日通行';
+    document.getElementById('metricSub3').textContent = `艘/天 · 📊 正常基准 ${normalDaily} 艘/天`;
+  } else {
+    v3El.textContent = '—';
+    document.getElementById('metricSub3').textContent = `艘/天 · 正常基准 ${normalDaily} 艘/天`;
+  }
+}
+
+// ── ECharts instances ──
+let chartTransit      = null;
+let chartTransitCount = null;
+
+function initCharts() {
+  const t1El = document.getElementById('chartTransit');
+  const t2El = document.getElementById('chartTransitCount');
+  if (!chartTransit)      chartTransit      = echarts.init(t1El);
+  if (!chartTransitCount) chartTransitCount = echarts.init(t2El);
+}
+
+const emptyOpt = {
+  graphic: [{
+    type: 'text',
+    left: 'center', top: 'middle',
+    style: { text: '📊 暂无历史数据，等待引擎运行后自动累积', fill: '#bbb', fontSize: 13 }
+  }]
+};
+
+function renderCharts(normalDaily) {
+  const throughputHist    = loadHistory(LS_KEY_THROUGHPUT);
+  const transitCountHist  = loadHistory(LS_KEY_TRANSIT_COUNT);
+  const nd = normalDaily ?? 60;
+
+  // Chart 1: Throughput %
+  if (throughputHist.length < 1) {
+    chartTransit.setOption(emptyOpt);
+  } else {
+    const labels = throughputHist.map(h => h.time);
+    const values = throughputHist.map(h => h.value);
+    chartTransit.setOption({
+      grid: { left: 40, right: 16, top: 16, bottom: 28 },
+      xAxis: { type: 'category', data: labels, axisLabel: { fontSize: 11, color: '#8c8c8c' } },
+      yAxis: { type: 'value', min: 0, max: 110, axisLabel: { fontSize: 11, color: '#8c8c8c', formatter: v => v + '%' }, splitLine: { lineStyle: { color: '#f5f5f5' } } },
+      series: [{
+        type: 'bar', data: values, itemStyle: { color: '#1677ff', borderRadius: [3,3,0,0] },
+        markLine: { data: [{ yAxis: 100, lineStyle: { color: '#8c8c8c', type: 'dashed' }, label: { formatter: '正常' } }] }
+      }],
+      tooltip: { trigger: 'axis', formatter: p => p[0].name + '<br/>吞吐量: ' + p[0].value + '%' }
+    });
+  }
+
+  // Chart 2: Transit count
+  if (transitCountHist.length < 1) {
+    chartTransitCount.setOption(emptyOpt);
+  } else {
+    const labels = transitCountHist.map(h => h.time);
+    const values = transitCountHist.map(h => h.value);
+    chartTransitCount.setOption({
+      grid: { left: 40, right: 16, top: 16, bottom: 28 },
+      xAxis: { type: 'category', data: labels, axisLabel: { fontSize: 11, color: '#8c8c8c' } },
+      yAxis: { type: 'value', min: 0, axisLabel: { fontSize: 11, color: '#8c8c8c', formatter: v => v + '艘' }, splitLine: { lineStyle: { color: '#f5f5f5' } } },
+      series: [{
+        type: 'line', data: values, smooth: true,
+        lineStyle: { color: '#fa8c16', width: 2 },
+        itemStyle: { color: '#fa8c16' },
+        areaStyle: { color: { type: 'linear', x: 0, y: 0, x2: 0, y2: 1, colorStops: [{ offset: 0, color: 'rgba(250,140,22,0.25)' }, { offset: 1, color: 'rgba(250,140,22,0.02)' }] } },
+        markLine: { data: [{ yAxis: nd, lineStyle: { color: '#8c8c8c', type: 'dashed' }, label: { formatter: `正常 ${nd}` } }] }
+      }],
+      tooltip: { trigger: 'axis', formatter: p => p[0].name + '<br/>通行: ' + p[0].value + ' 艘' }
+    });
+  }
+}
+
+// ── Polymarket scan ──
+function renderPolymarket(data) {
+  const el = document.getElementById('polyContent');
+  const pm = data?.polymarket;
+
+  if (!pm) {
+    el.innerHTML = '<div class="loading-text">暂无盘口数据</div>';
+    return;
+  }
+
+  const fmt = (v) => v != null ? (v * 100).toFixed(1) + '%' : '—';
+  const fmtVol = (v) => v != null ? '$' + (v / 1000000).toFixed(2) + 'M' : '—';
+
+  const march31 = pm.march31 || {};
+  const april30 = pm.april30 || {};
+
+  let html = '<div class="poly-markets">';
+
+  // March 31
+  html += `<div class="poly-market-block">
+    <div class="poly-market-header">
+      <span>📅 3月31日前停战</span>
+      ${march31.url ? `<a href="${march31.url}" target="_blank" class="poly-market-link">↗ Polymarket</a>` : ''}
+    </div>
+    <div class="poly-yes-big">${fmt(march31.yes)}</div>
+    <div class="poly-no-row">NO: <strong>${fmt(march31.no)}</strong></div>
+    <div class="poly-volume">成交量: ${fmtVol(march31.volume)}</div>
+  </div>`;
+
+  // April 30
+  html += `<div class="poly-market-block">
+    <div class="poly-market-header">
+      <span>📅 4月30日前停战</span>
+      ${april30.url ? `<a href="${april30.url}" target="_blank" class="poly-market-link">↗ Polymarket</a>` : ''}
+    </div>
+    <div class="poly-yes-big">${fmt(april30.yes)}</div>
+    <div class="poly-no-row">NO: <strong>${fmt(april30.no)}</strong></div>
+    <div class="poly-volume">成交量: ${fmtVol(april30.volume)}</div>
+  </div>`;
+
+  html += '</div>';
+
+  // Mispricing
+  if (data.mispricing) {
+    html += `<div class="poly-mispricing">⚡ 套利信号：${data.mispricing}</div>`;
+  }
+
+  el.innerHTML = html;
+}
+
+// ── Engine detail ──
+function renderDetail(data) {
+  const alertBox = document.getElementById('alertBox');
+  if (data.alert) {
+    alertBox.style.display = 'block';
+    alertBox.textContent = data.alert;
+  } else {
+    alertBox.style.display = 'none';
+  }
+
+  document.getElementById('sourceText').textContent = data.data?.data_source || '—';
+  document.getElementById('tsText').textContent = toBJTime(data.ts);
+  const pmEl = document.getElementById('pmUpdateText');
+  if (pmEl) pmEl.textContent = data.polymarket_updated_at ? toBJTime(data.polymarket_updated_at) : '—';
+  const engEl = document.getElementById('engineStatus');
+  if (engEl) {
+    const ageMin = data.ts ? Math.round((Date.now() - new Date(data.ts).getTime()) / 60000) : 999;
+    engEl.textContent = ageMin < 60 ? '运行中' : `${ageMin}分钟前`;
+    engEl.style.color = ageMin < 60 ? '#52c41a' : '#ff4d4f';
+  }
+}
+
+// ── Main fetch ──
+async function fetchData() {
+  try {
+    const resp = await fetch('/api/runtime');
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const runtime = await resp.json();
+    const data = runtime.poly_macro;
+
+    if (!data) {
+      showEmptyAll();
+      return;
+    }
+
+    renderSignal(data);
+    renderMetrics(data);
+    renderDetail(data);
+    renderPolymarket(data);
+
+    // Push history
+    // 按日记录，不再按分钟
+    const today = new Date().toLocaleDateString('sv-SE', { timeZone: 'Asia/Shanghai' }); // "2026-03-16"
+    if (data.data?.throughput_pct != null)   pushHistory(LS_KEY_THROUGHPUT,    today, data.data.throughput_pct);
+    if (data.data?.transit_count  != null)   pushHistory(LS_KEY_TRANSIT_COUNT, today, data.data.transit_count);
+
+    initCharts();
+    renderCharts(data.data?.normal_daily);
+
+  } catch (err) {
+    showError(err.message);
+  }
+}
+
+function showEmptyAll() {
+  const card = document.getElementById('signalCard');
+  card.className = 'signal-card signal-nodata';
+  document.getElementById('signalTitle').className = 'signal-title signal-nodata';
+  document.getElementById('signalTitle').textContent = '⚠️ 暂无宏观引擎数据';
+  document.getElementById('signalRec').style.display = 'none';
+  document.getElementById('signalMeta').textContent = '等待引擎产出信号...';
+  ['metricVal1','metricVal2','metricVal3'].forEach(id => { document.getElementById(id).textContent = '—'; });
+  document.getElementById('polyContent').innerHTML = '<div class="loading-text">暂无盘口数据</div>';
+  initCharts();
+  renderCharts(60);
+}
+
+function showError(msg) {
+  const card = document.getElementById('signalCard');
+  card.className = 'signal-card signal-nodata';
+  document.getElementById('signalTitle').className = 'signal-title signal-nodata';
+  document.getElementById('signalTitle').innerHTML = `<span style="color:#ff4d4f;">❌ 数据加载失败</span>`;
+  document.getElementById('signalRec').style.display = 'none';
+  document.getElementById('signalMeta').innerHTML = `<span style="color:#ff4d4f;">${msg}</span>
+    <button class="retry-btn" onclick="fetchData()">重试</button>`;
+}
+
+// ── Init ──
+fetchData();
+</script>
+</body>
+</html>

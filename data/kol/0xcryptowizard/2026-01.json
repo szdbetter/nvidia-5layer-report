@@ -1,0 +1,611 @@
+{
+  "tweets": [
+    {
+      "id": "2017585848364179846",
+      "text": "@Alvin0617 个人助理应该是趋势",
+      "createdAt": "Sat Jan 31 13:08:45 +0000 2026",
+      "replyCount": 3,
+      "retweetCount": 0,
+      "likeCount": 2,
+      "conversationId": "2017439535131725950",
+      "inReplyToStatusId": "2017570646340071860",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017565588844171684",
+      "text": "@dudunode 独行月球～",
+      "createdAt": "Sat Jan 31 11:48:15 +0000 2026",
+      "replyCount": 2,
+      "retweetCount": 1,
+      "likeCount": 4,
+      "conversationId": "2017527405553062168",
+      "inReplyToStatusId": "2017562721563328999",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017557049480253737",
+      "text": "@KelseyWeb3VC dream big",
+      "createdAt": "Sat Jan 31 11:14:19 +0000 2026",
+      "replyCount": 6,
+      "retweetCount": 2,
+      "likeCount": 5,
+      "conversationId": "2017551480392409286",
+      "inReplyToStatusId": "2017551480392409286",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017522578152415465",
+      "text": "@stevenkaiweb3 dreams",
+      "createdAt": "Sat Jan 31 08:57:21 +0000 2026",
+      "replyCount": 7,
+      "retweetCount": 2,
+      "likeCount": 15,
+      "conversationId": "2017460383091728724",
+      "inReplyToStatusId": "2017509579060613370",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017502652037533735",
+      "text": "@mattyryze 🫡",
+      "createdAt": "Sat Jan 31 07:38:10 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 3,
+      "conversationId": "2017460383091728724",
+      "inReplyToStatusId": "2017498785354813885",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017496351911907332",
+      "text": "@scottshics 我在实施看看了，主要还是模拟我在电脑端的行为，把tg作为ui和入口",
+      "createdAt": "Sat Jan 31 07:13:08 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 0,
+      "conversationId": "2017439535131725950",
+      "inReplyToStatusId": "2017494783225409956",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017483575038509528",
+      "text": "@degentalk_hk 对的，clawd优势就是集成在一个界面，接管跟各种的接口。",
+      "createdAt": "Sat Jan 31 06:22:21 +0000 2026",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 2,
+      "conversationId": "2017439535131725950",
+      "inReplyToStatusId": "2017482544791634140",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017479862995562801",
+      "text": "@degentalk_hk 没有区别，主要是数据未来汇总融合，比如我现在已经做了以天为级别汇总热门代币和群聊话题，x的信息没法直接对接。\n\n如果直接用 clawdbot 抓 x 信息，就把所有信息汇总融合了，查看也方便。",
+      "createdAt": "Sat Jan 31 06:07:36 +0000 2026",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 3,
+      "conversationId": "2017439535131725950",
+      "inReplyToStatusId": "2017477290582806750",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017476092161110422",
+      "text": "@coolish x402 + erc8004\n我能想到 ai 需要 crypto 的就是这些，能支付，有身份。",
+      "createdAt": "Sat Jan 31 05:52:37 +0000 2026",
+      "replyCount": 2,
+      "retweetCount": 4,
+      "likeCount": 33,
+      "conversationId": "2017471781456777535",
+      "inReplyToStatusId": "2017471781456777535",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017473283755782600",
+      "text": "@MMoonbit 这两个是可以结合",
+      "createdAt": "Sat Jan 31 05:41:28 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 3,
+      "conversationId": "2017460383091728724",
+      "inReplyToStatusId": "2017463074052313333",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017472739981070576",
+      "text": "@scottshics tg vibe coding能做到什么程度",
+      "createdAt": "Sat Jan 31 05:39:18 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 0,
+      "conversationId": "2017439535131725950",
+      "inReplyToStatusId": "2017463493595959564",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017465959339131329",
+      "text": "@lordr_eth dream big",
+      "createdAt": "Sat Jan 31 05:12:22 +0000 2026",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 9,
+      "conversationId": "2017460383091728724",
+      "inReplyToStatusId": "2017462695503814825",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017462465848873336",
+      "text": "@wdzij 对，我看好。",
+      "createdAt": "Sat Jan 31 04:58:29 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 2,
+      "conversationId": "2017460383091728724",
+      "inReplyToStatusId": "2017461531500544406",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017462428049805434",
+      "text": "@aiedoaod40116 是的。",
+      "createdAt": "Sat Jan 31 04:58:20 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 4,
+      "conversationId": "2017460383091728724",
+      "inReplyToStatusId": "2017461323710480599",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017462399100678235",
+      "text": "@Aniu1688 是的，erc8004官方列的推荐工具里，4个有2个是dreams的",
+      "createdAt": "Sat Jan 31 04:58:13 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 7,
+      "conversationId": "2017460383091728724",
+      "inReplyToStatusId": "2017460669302669761",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017462276316664319",
+      "text": "@helen_sea 先有标准，后有应用，不过moltbot是一个有趣的催化剂，因为每个人真的很低成本可以部署 ai 助理了。",
+      "createdAt": "Sat Jan 31 04:57:43 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 8,
+      "conversationId": "2017460383091728724",
+      "inReplyToStatusId": "2017460899733504123",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017462145429213192",
+      "text": "@LZRationalnvest 没错，终于看到曙光了",
+      "createdAt": "Sat Jan 31 04:57:12 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 8,
+      "conversationId": "2017460383091728724",
+      "inReplyToStatusId": "2017461241573466586",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017460383091728724",
+      "text": "moltbot/clawdbot 的爆火，和erc8004的发布一起出现。\n\n也许前面 x402 + erc8004 的标的都还太早期，一方面没有催化剂和hype，一方面还没有数据证明。\n\n但从行业发展看，我能想到 ai + crypto 最佳应用（不是 meme），就是 x402 + erc8004 ，ai 助理普及之后，最佳的支付方式就是 crypto （带身份）。",
+      "createdAt": "Sat Jan 31 04:50:12 +0000 2026",
+      "replyCount": 105,
+      "retweetCount": 51,
+      "likeCount": 381,
+      "conversationId": "2017460383091728724",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017452977402126578",
+      "text": "@blu0222 我目前主要用这个，交易还是看看乐呵，真的用还是要很严肃的设计和测试，不能随便让它搞。",
+      "createdAt": "Sat Jan 31 04:20:46 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 0,
+      "conversationId": "2017439535131725950",
+      "inReplyToStatusId": "2017449915425984687",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017452805448208855",
+      "text": "@WyHai_Crypto 就是智能监控了",
+      "createdAt": "Sat Jan 31 04:20:05 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2017439535131725950",
+      "inReplyToStatusId": "2017451660294164677",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017448742467866803",
+      "text": "@no1harm 我给的最高的，因为用一个专门的x账号，不用担心风险问题，就算被hack也无所谓。",
+      "createdAt": "Sat Jan 31 04:03:57 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2017439535131725950",
+      "inReplyToStatusId": "2017446526994563118",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017448625681666475",
+      "text": "@jdb_crypto moltbot本身免费开源，bird也不需要费用，不是api，但是你要弄服务器，每个月有点费用；或者用旧电脑跑一份。",
+      "createdAt": "Sat Jan 31 04:03:29 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 2,
+      "conversationId": "2017439535131725950",
+      "inReplyToStatusId": "2017448100668051891",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017448448040259969",
+      "text": "@jojojooven @obsdmd 这个应该是很不错的应用，我下一步搞一个",
+      "createdAt": "Sat Jan 31 04:02:47 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 0,
+      "conversationId": "2017439535131725950",
+      "inReplyToStatusId": "2017446918901927951",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017448353794306086",
+      "text": "@0x_29 对，信息汇总目前比较实用",
+      "createdAt": "Sat Jan 31 04:02:24 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 2,
+      "conversationId": "2017439535131725950",
+      "inReplyToStatusId": "2017443407422259371",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017442690972209517",
+      "text": "@wdzij 这个比较实用",
+      "createdAt": "Sat Jan 31 03:39:54 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 0,
+      "conversationId": "2017439535131725950",
+      "inReplyToStatusId": "2017442342421336368",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017441081093448073",
+      "text": "@helen_sea 这个不用 api，而且是刷你的首页home",
+      "createdAt": "Sat Jan 31 03:33:30 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2017439535131725950",
+      "inReplyToStatusId": "2017440485460386046",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017440792688923062",
+      "text": "@0xCryptoFishy 这个也可以做，我也给了gmail权限，不过我目前gmail没太多需要处理的邮件，大家都是im聊",
+      "createdAt": "Sat Jan 31 03:32:21 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 0,
+      "conversationId": "2017439535131725950",
+      "inReplyToStatusId": "2017440360952447404",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017440065572769937",
+      "text": "@XxrNier 可以监控你的首页推文，以及给定list，以及search，不用api",
+      "createdAt": "Sat Jan 31 03:29:28 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 2,
+      "conversationId": "2017439535131725950",
+      "inReplyToStatusId": "2017439861360496958",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017439981007217117",
+      "text": "@helen_sea 他监控实现方式是什么？",
+      "createdAt": "Sat Jan 31 03:29:08 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 0,
+      "conversationId": "2017439535131725950",
+      "inReplyToStatusId": "2017439828867223687",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017439535131725950",
+      "text": "你们现在用 moltbot 有哪些最佳的实用案例？具体怎么实现的？\n\n我是说，真的对自己有帮助的，不只是看起来科幻炫酷的。\n\n我目前探索的是：帮我刷推，2小时汇总一份推给我，用bird指令实现。\n\n后面我应该会结合已经实现的，tele群聊和频道抓取，把 x + tele 群聊 / 频道的所有信息定时汇总推送，全了。 https://t.co/c8FsYsgodY",
+      "createdAt": "Sat Jan 31 03:27:22 +0000 2026",
+      "replyCount": 63,
+      "retweetCount": 29,
+      "likeCount": 255,
+      "conversationId": "2017439535131725950",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/G_9iWAHbEAIELbS.png",
+          "width": 368,
+          "height": 712,
+          "previewUrl": "https://pbs.twimg.com/media/G_9iWAHbEAIELbS.png:small"
+        }
+      ]
+    },
+    {
+      "id": "2017427251734974897",
+      "text": "@lordr_eth 冲",
+      "createdAt": "Sat Jan 31 02:38:33 +0000 2026",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2017163208159818078",
+      "inReplyToStatusId": "2017426312122798228",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017425886933549248",
+      "text": "@lordr_eth dream big",
+      "createdAt": "Sat Jan 31 02:33:08 +0000 2026",
+      "replyCount": 2,
+      "retweetCount": 1,
+      "likeCount": 3,
+      "conversationId": "2017163208159818078",
+      "inReplyToStatusId": "2017163208159818078",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017422684905476540",
+      "text": "@RaccoonHKG 良性竞争，大家都能获益，包括 bn 自己。",
+      "createdAt": "Sat Jan 31 02:20:24 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 2,
+      "conversationId": "2017269786749837693",
+      "inReplyToStatusId": "2017269786749837693",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017422491120243152",
+      "text": "@Wuhuoqiu 这个挺有意思的。\n\n我的 bot 不太敢暴露在外面，怕有风险（可能主要是我对技术风险边界还不确定），虽然都放在新机器里，而且只给新x账号/邮箱授权，也还是比较谨慎。",
+      "createdAt": "Sat Jan 31 02:19:38 +0000 2026",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 8,
+      "conversationId": "2017217195256975745",
+      "inReplyToStatusId": "2017217195256975745",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017114319159496868",
+      "text": "@nine_DeFi @web3nggg 看一次欧美用户啥时候入场吧",
+      "createdAt": "Fri Jan 30 05:55:04 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 2,
+      "conversationId": "2017048495367344539",
+      "inReplyToStatusId": "2017112422494916915",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017100192965865853",
+      "text": "@web3nggg 是的，垄断即使对垄断者自己也是坏事",
+      "createdAt": "Fri Jan 30 04:58:56 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 3,
+      "conversationId": "2017048495367344539",
+      "inReplyToStatusId": "2017099753897771031",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017049979807031618",
+      "text": "@0xlianjinshu 对，丁老板没人盯着，开心做事赚钱。",
+      "createdAt": "Fri Jan 30 01:39:24 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 4,
+      "conversationId": "2017048495367344539",
+      "inReplyToStatusId": "2017049607927451698",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017049582023454839",
+      "text": "@lordr_eth 有意思，今天研究一下",
+      "createdAt": "Fri Jan 30 01:37:49 +0000 2026",
+      "replyCount": 5,
+      "retweetCount": 1,
+      "likeCount": 8,
+      "conversationId": "2017045125348876423",
+      "inReplyToStatusId": "2017045125348876423",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2017048495367344539",
+      "text": "我不希望 bn 倒掉，也不希望一家独大。\n\n从20年老韭菜就在开玩笑，玩币归赵，真实现了谁也笑不出来了。\n\n我希望 bn 以及新的竞争者，能互相制衡，良性竞争发展，这样对大家都好。\n\n只剩一个节点的区块链，总归让人扫兴。",
+      "createdAt": "Fri Jan 30 01:33:30 +0000 2026",
+      "replyCount": 113,
+      "retweetCount": 22,
+      "likeCount": 387,
+      "conversationId": "2017048495367344539",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "2016731958026653966",
+      "text": "@0xCryptoFishy 基础设置我倾向跟配置clawdbot的agent聊",
+      "createdAt": "Thu Jan 29 04:35:42 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 3,
+      "conversationId": "2016731320031072645",
+      "inReplyToStatusId": "2016731761427042413",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    }
+  ],
+  "nextCursor": null
+}

@@ -1,0 +1,49 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif; background: linear-gradient(180deg,#0a1020,#10182c); color: #eef3ff; }
+header { padding: 20px 28px; border-bottom: 1px solid #28385e; background: linear-gradient(90deg,#121a31,#182544); display:flex; justify-content:space-between; align-items:center; gap:20px; }
+h1 { margin: 0 0 8px; font-size: 30px; color:#9ed0ff; }
+p { margin: 0; color: #bfd0ee; }
+.hero-icons { display:flex; gap:10px; }
+.hero-icons img { width:120px; height:72px; object-fit:cover; border-radius:10px; border:2px solid #365089; }
+main { padding: 20px 28px; }
+.stats { display: grid; grid-template-columns: repeat(6, minmax(120px, 1fr)); gap: 12px; margin-bottom: 16px; }
+.stat, .panel, .detail-card, .mission-item, .toolbar, .file-block { background: #131d36; border: 1px solid #2a3b66; border-radius: 14px; padding: 14px; box-shadow: 0 8px 24px rgba(0,0,0,.18); }
+.stat { background: linear-gradient(180deg,#172444,#13203a); }
+.stat strong { display: block; font-size: 24px; margin-top: 8px; color:#ffe082; }
+.layout-wide { display:grid; grid-template-columns: 420px 1fr; gap:18px; }
+.list { display:flex; flex-direction:column; gap:10px; max-height:72vh; overflow:auto; }
+.mission-item { cursor:pointer; background: linear-gradient(180deg,#0f1830,#111b33); }
+.mission-item.active { border-color:#74b6ff; box-shadow: 0 0 0 2px rgba(116,182,255,.25) inset; }
+.badge { display:inline-block; padding:2px 8px; border-radius:999px; font-size:12px; margin-right:6px; background:#2d4573; color:#e8f1ff; }
+.badge.green { background:#1e6b4f; color:#d8ffe9; }
+.badge.orange { background:#8b5a14; color:#ffe9b3; }
+.badge.red { background:#7a2331; color:#ffd1da; }
+.badge.blue { background:#2b5f9e; }
+.tabs { display:flex; gap:10px; margin-bottom:14px; flex-wrap:wrap; }
+.tab { background:#17284a; color:#eef4ff; border:1px solid #355185; border-radius:10px; padding:10px 14px; cursor:pointer; }
+.tab.active { background:#3264b2; }
+.tab-panel { display:none; }
+.tab-panel.active { display:block; }
+.grid-2 { display:grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap:14px; }
+.small { color:#afc4e9; font-size:13px; }
+.table { width:100%; border-collapse: collapse; }
+.table th,.table td { text-align:left; padding:10px; border-bottom:1px solid #273556; vertical-align:top; }
+.table th { color:#9ed0ff; }
+code, pre { background:#0c1324; color:#dce8ff; padding:8px; border-radius:8px; overflow:auto; white-space:pre-wrap; }
+.toolbar { display:flex; gap:12px; margin-bottom:16px; align-items:center; }
+.toolbar input,.toolbar select { background:#0c1324; color:#eef3ff; border:1px solid #355185; border-radius:10px; padding:10px 12px; }
+.toolbar input { flex:1; }
+.file-link { color:#86c8ff; cursor:pointer; text-decoration:underline; }
+.progress-bar { height:8px; border-radius:999px; background:#223153; overflow:hidden; margin-top:8px; }
+.progress-fill { height:100%; background:linear-gradient(90deg,#71d7ff,#7cff98); }
+.check { color:#7cff98; font-weight:bold; margin-right:6px; }
+.modal { position:fixed; inset:0; background:rgba(0,0,0,.55); display:flex; align-items:center; justify-content:center; }
+.modal.hidden { display:none; }
+.modal-card { width:min(1000px,92vw); max-height:88vh; overflow:auto; background:#121a31; border:1px solid #355185; border-radius:16px; padding:20px; position:relative; }
+#modal-close { position:absolute; right:14px; top:10px; background:#7a2331; color:#fff; border:none; border-radius:999px; width:32px; height:32px; cursor:pointer; }
+.image-preview { max-width:100%; border-radius:10px; border:1px solid #355185; }
+.file-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+.file-block h4 { margin:0 0 8px; color:#ffd970; }
+.file-meta { margin-bottom:10px; }
+.file-empty { color:#8ea4c8; font-style:italic; }
+@media (max-width: 1100px) { .layout-wide { grid-template-columns: 1fr; } .stats { grid-template-columns: repeat(2, minmax(120px,1fr)); } .hero-icons { display:none; } .grid-2, .file-grid { grid-template-columns:1fr; } }

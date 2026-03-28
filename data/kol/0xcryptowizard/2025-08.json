@@ -1,0 +1,676 @@
+{
+  "tweets": [
+    {
+      "id": "1962075546718011524",
+      "text": "第二波打法，挺简单，就是等。\n\n等到好标的，好时机，好价格。\n\n也有点难，难在，\n\n什么是好标的？\n叙事，团队，热度，筹码情况？\n\n什么是好时机？\n处于趋势哪个阶段，启动前，fomo中，高潮，结束？\n\n什么是好价格？\n压力/支撑位，平均成本，回撤幅度？\n\n等，是战略耐力/定力和判断力的综合结果。",
+      "createdAt": "Sun Aug 31 08:50:38 +0000 2025",
+      "replyCount": 128,
+      "retweetCount": 45,
+      "likeCount": 416,
+      "conversationId": "1962075546718011524",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1962032395059888570",
+      "text": "@a695785864 @cryptosixman ani我也考虑过建仓，后面没有，是因为叙事不如 spark 新颖，我个人意见哈。\n\n不过 ani 和 spark 都有个优点，大家还没看到，就是有可能出现拆分盘，如果价格快速上涨，spark的那个动漫世界会再继续搞新盘子。\n\n拆分盘的坏处是行情差的时候，影响主盘；\n拆分盘的好处是行情好的时候，提升主盘影响力。",
+      "createdAt": "Sun Aug 31 05:59:10 +0000 2025",
+      "replyCount": 5,
+      "retweetCount": 0,
+      "likeCount": 15,
+      "conversationId": "1962002083156259085",
+      "inReplyToStatusId": "1962031662684065840",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1962030256296177681",
+      "text": "@cryptosixman 分析的很清晰，看趋势认为有望启动，看叙事是我喜欢和认可的，看价格和筹码有一定安全空间。\n\n其实观察了蛮久，第一次14m拉起来我也在看，等着再回落才开始建仓，不够安全就宁可不动。",
+      "createdAt": "Sun Aug 31 05:50:40 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 1,
+      "likeCount": 35,
+      "conversationId": "1962002083156259085",
+      "inReplyToStatusId": "1962028028697235555",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1962007418688425987",
+      "text": "@elonmusk 强奸幼女的，都是该死的王八蛋，这个毋庸置疑。\n\n但是，兄弟，你这么大流量，刻意在说亚洲人强奸白人，是不是在煽动对种群仇恨呢？",
+      "createdAt": "Sun Aug 31 04:19:55 +0000 2025",
+      "replyCount": 7,
+      "retweetCount": 0,
+      "likeCount": 50,
+      "conversationId": "1961946245796143306",
+      "inReplyToStatusId": "1961946245796143306",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1962002083156259085",
+      "text": "solana ai (meme) 这个，选了 $spark ，12m到15m建仓了不到1个点。\n\n说实话，这个时间点，是比较冒险的，注意这不是第二波，这是赌链上趋势的第一波，因为还没有真正财富效应出来确认链上趋势启动。\n\n同时，spark的市值较低，fdv目前只有12m，注意不要fomo。\n\n说完风险，说一下我建仓的理由：\n\n1️⃣叙事\n\n看了一圈最近fomo过的标的，从我个人喜好上，选了一个看起来叙事最有趣的，有一定的新意，和一个在继续搞事的团队。\n\n2️⃣二段\n\n前面从14m反弹到40m附近，再跌回，有吸筹区间的感觉，不过还需要日线再确认，如果跌破了，那风险是再跌回2-3m。\n\n3️⃣趋势\n\n我个人认为大盘没有结束，链上和山寨在接下来几个月流动性会趋向更好。\n因此，在bn赛道选了 bas（目前3x），在wlfi赛道选了block（目前略微盈利），在solana赛道选了spark。\n\n如果趋势判断错了的话，那就认了，这个既是机会也是风险。\n\n再一次强调，这和第二波理论不符，这是在赌趋势的第一波。",
+      "createdAt": "Sun Aug 31 03:58:43 +0000 2025",
+      "replyCount": 135,
+      "retweetCount": 61,
+      "likeCount": 428,
+      "conversationId": "1962002083156259085",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "quotedTweet": {
+        "id": "1960932541776715800",
+        "text": "链上热身，每个赛道都会买几万刀。\n前面建仓的 $bas 是 bn（bsc）生态，目前上了perp，最高3x，目前2x多一些；\n\n这两天建仓 wlfi （usd1）生态，选了 $block ，建仓价格在差不多140m-150m fdv 之间，理由：\n\n1️⃣wlfi 生态最重要项目之一，类似昨天上了bn的 $doro（wlfi的cto），$block是wlfi的cio做的，做生态孵化 ；\n2️⃣目前看，130m附近类似二段支撑，赌一下后续整个生态热度和上所。",
+        "createdAt": "Thu Aug 28 05:08:44 +0000 2025",
+        "replyCount": 71,
+        "retweetCount": 45,
+        "likeCount": 271,
+        "conversationId": "1960932541776715800",
+        "author": {
+          "username": "0xcryptowizard",
+          "name": "0xWizard"
+        },
+        "authorId": "1195728139898376193"
+      }
+    },
+    {
+      "id": "1961965956143714305",
+      "text": "链上还是要玩的，去年投入链上几十万刀，最高浮盈差不多20m，真正落袋了30%，回撤了70%。\n\n即使这么高的回撤，依然有10倍，这就是我说的，链上对我来说是“做对的事”，只是还需要提升能力，“把事做对”，做的更好。",
+      "createdAt": "Sun Aug 31 01:35:10 +0000 2025",
+      "replyCount": 17,
+      "retweetCount": 11,
+      "likeCount": 140,
+      "conversationId": "1961964489382969755",
+      "inReplyToStatusId": "1961964489382969755",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1961964489382969755",
+      "text": "早晨整理记录链上钱包，整个一个晕倒。\n\n去年底留在链上的币和仓位，除了 ava 和 anon ，基本全部归零了，差不多比年初又没了几十万刀。\n\n确认链上趋势过去，全部清仓才是最好选择，要牢记。",
+      "createdAt": "Sun Aug 31 01:29:20 +0000 2025",
+      "replyCount": 75,
+      "retweetCount": 25,
+      "likeCount": 262,
+      "conversationId": "1961964489382969755",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1961778067661357164",
+      "text": "学习 ai 一定先看 karpathy 这个视频，讲的非常清晰，这就是真懂的人。\n\n附了一张网友做的思维导图。\n\n怕链接有问题的，直接去b站搜 karpathy，然后看3.5小时时长那个就是了。\n\nhttps://t.co/BOPc20Wwmz https://t.co/Mt7K8ECTuu",
+      "createdAt": "Sat Aug 30 13:08:34 +0000 2025",
+      "replyCount": 33,
+      "retweetCount": 283,
+      "likeCount": 1097,
+      "conversationId": "1961778067661357164",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/GzmiMaEbQAASUy-.jpg",
+          "width": 2048,
+          "height": 2032,
+          "previewUrl": "https://pbs.twimg.com/media/GzmiMaEbQAASUy-.jpg:small"
+        }
+      ]
+    },
+    {
+      "id": "1961700915897069967",
+      "text": "现在 gmgn 能自定义所有工具栏和信息，其实是给用户一个更强大和适合自己的链上工具。\n\n我自己试了一下，取消了很多原来会觉得冗余的信息项，界面更清晰了。\n\n对长时间扫链的用户，更重要：\nA要123的功能，B觉得456的信息更重要，那大概花个15分钟了解适应，重新配置一下，还是很值得的。",
+      "createdAt": "Sat Aug 30 08:01:59 +0000 2025",
+      "replyCount": 21,
+      "retweetCount": 7,
+      "likeCount": 47,
+      "conversationId": "1961700915897069967",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "quotedTweet": {
+        "id": "1961643865217143263",
+        "text": "自定义更新的视频回顾：\n1、自定义战壕，按钮、数据、颜色、三栏变两栏，随心定义。\n2、右侧交易栏，数据多少，每一栏的位置，谁展示谁不展示，都可以定义。\n3、K线下方数据栏，持有者、追踪怎么排列，这么多的数据哪些你看，你不看，同样可以自定义。 https://t.co/xq8WaiTgvv",
+        "createdAt": "Sat Aug 30 04:15:17 +0000 2025",
+        "replyCount": 77,
+        "retweetCount": 52,
+        "likeCount": 168,
+        "conversationId": "1961643865217143263",
+        "author": {
+          "username": "haze0x",
+          "name": "Haze 𝓰𝓶𝓰𝓷𝓪𝓲"
+        },
+        "authorId": "959291597622886400",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://pbs.twimg.com/amplify_video_thumb/1961640844081168384/img/zY4yQUVYG_Y9luVr.jpg",
+            "width": 1600,
+            "height": 900,
+            "previewUrl": "https://pbs.twimg.com/amplify_video_thumb/1961640844081168384/img/zY4yQUVYG_Y9luVr.jpg:small",
+            "videoUrl": "https://video.twimg.com/amplify_video/1961640844081168384/vid/avc1/1600x900/r52POl_TDBAR1lyE.mp4?tag=21",
+            "durationMs": 57916
+          }
+        ]
+      }
+    },
+    {
+      "id": "1961699005433614457",
+      "text": "@timotimo007 都是大模型训练数据集和成本。",
+      "createdAt": "Sat Aug 30 07:54:24 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 4,
+      "conversationId": "1961384873480130856",
+      "inReplyToStatusId": "1961384873480130856",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1961697604057928056",
+      "text": "这也能解释，为什么我创业10年，做公司最高只能做到几m刀一年的营收和利润；而做投机/投资，第一年就是创业时的10倍。\n\n因为创业不只是一个思考游戏，更是要有管理/细节/执行；投机/投资不是，最重要的就是想清楚，动作反而越少越好。",
+      "createdAt": "Sat Aug 30 07:48:50 +0000 2025",
+      "replyCount": 5,
+      "retweetCount": 9,
+      "likeCount": 102,
+      "conversationId": "1961694759191474247",
+      "inReplyToStatusId": "1961694759191474247",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1961694759191474247",
+      "text": "什么是能力圈？想想moba类游戏，英雄联盟和王者荣耀。\n\n为什么每个人只能玩自己特定的几个英雄？\n因为每个人的特长，性格，爱好，目标，缘分都不一样。\n\n我在王者只用硬辅，为啥？\n思考强，手慢，打不了射手；\n更愿意直面敌人的攻击，不愿意猥琐，打不了软辅和法师；\n大局观强，细节弱，打不了对抗路。\n\n所以用硬辅，我可以单排120星，别的很难过20星。\n\n这个思考过程，跟我20年入圈选择做链上degen起手，是一模一样的。\n\n先分析自己，再分析要面对的对手和战场。\n\n知己知彼，干啥都一样，知己排第一位，兄弟。",
+      "createdAt": "Sat Aug 30 07:37:31 +0000 2025",
+      "replyCount": 79,
+      "retweetCount": 22,
+      "likeCount": 267,
+      "conversationId": "1961694759191474247",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1961690231503208885",
+      "text": "怎么阅读？\n\n一，量，把智者的书和他们的推荐的书，先不管功利目标，尽量看。\n\n二，质，读时读后，带着困惑自己的问题，反复思考，在实践遇到的正负反馈也拿进来，吃饭走路旅行都在努力思考。\n\n三，统一，所有内容和思考实践统一到自己框架，形成本能，和思考的肌肉记忆。",
+      "createdAt": "Sat Aug 30 07:19:32 +0000 2025",
+      "replyCount": 6,
+      "retweetCount": 2,
+      "likeCount": 68,
+      "conversationId": "1961680830268674377",
+      "inReplyToStatusId": "1961686300077297826",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1961686300077297826",
+      "text": "对于阅读，我个人感受是，当我遇到困惑时，有时会同时问活在我脑子中的不同智者，他们会对同一个问题给我答案。\n\n比如，关于懂和不懂，孔子说知之为知之，不知为不知；巴菲特说知道能力圈边界，比能力圈大小更重要。\n\n比如，关于无法用语言表达的感悟，维根斯坦说语言的边界就是认知的边界；释迦牟尼说能用语言表达的法，就已经落入下乘。\n\n我可以无限制的举例子下去。\n\n有时候不是我看的透，而是我更爱跟智慧的人请教。",
+      "createdAt": "Sat Aug 30 07:03:54 +0000 2025",
+      "replyCount": 6,
+      "retweetCount": 2,
+      "likeCount": 57,
+      "conversationId": "1961680830268674377",
+      "inReplyToStatusId": "1961680830268674377",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1961683154332463334",
+      "text": "@CindyCreation 体脂还要看健康饮食和充足睡眠。",
+      "createdAt": "Sat Aug 30 06:51:24 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 3,
+      "conversationId": "1961680830268674377",
+      "inReplyToStatusId": "1961682812756709648",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1961680830268674377",
+      "text": "阅读和运动，都是最划算的投资。\n\n前者如果能配合理性与思考，会让你和人类文明最智慧的人交朋友。\n\n后者每天投入一小时，复利结果，会让你更健康舒适，头脑清明的生活。",
+      "createdAt": "Sat Aug 30 06:42:10 +0000 2025",
+      "replyCount": 62,
+      "retweetCount": 40,
+      "likeCount": 376,
+      "conversationId": "1961680830268674377",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1961365175442792735",
+      "text": "什么事做的好的人，都是无比热爱自己的工作，无时无刻都琢磨那点事。\n\n之前跟一个家里做了400年海带食品的兄弟聊，跟我聊了几个小时他的各种海带衍生品。\n\n我没见过哪个做出成绩的人，是想着做这个就为了赚钱，实际每天惦记着诗和远方的。",
+      "createdAt": "Fri Aug 29 09:47:52 +0000 2025",
+      "replyCount": 66,
+      "retweetCount": 19,
+      "likeCount": 235,
+      "conversationId": "1961365175442792735",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1961331179346337895",
+      "text": "@Crypto_Cat888 为了煲这碗汤，不知道亏了多少钱，enjoy",
+      "createdAt": "Fri Aug 29 07:32:47 +0000 2025",
+      "replyCount": 5,
+      "retweetCount": 0,
+      "likeCount": 20,
+      "conversationId": "1961329517613679068",
+      "inReplyToStatusId": "1961329517613679068",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1961238028518903886",
+      "text": "投机投资很简单，便宜就买，贵了就卖，不用margin，不做空。\n\n也很难，\n\n什么是便宜什么是贵？\n这涉及到你的能力圈。\n\n你能等到便宜和贵的时候么？\n这涉及到你的品性和耐心。\n\n别人不认可，或其他资产更快更高上涨怎么办？\n这涉及对理性的信念和坚守。\n\n每一步都需要悟道，大量的盈亏和反思去喂。",
+      "createdAt": "Fri Aug 29 01:22:38 +0000 2025",
+      "replyCount": 75,
+      "retweetCount": 33,
+      "likeCount": 293,
+      "conversationId": "1961238028518903886",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1961224726204010523",
+      "text": "过于勤奋，也是一种贪婪。\n\n长期主义，不只是面对事业的态度，也是面对生活中一切的态度。",
+      "createdAt": "Fri Aug 29 00:29:47 +0000 2025",
+      "replyCount": 62,
+      "retweetCount": 36,
+      "likeCount": 361,
+      "conversationId": "1961224726204010523",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1961077051127119893",
+      "text": "大家都有自己的能力圈，或大或小，在能力圈内能赚钱。\n\n但，却总能找到新的方法把钱亏掉。",
+      "createdAt": "Thu Aug 28 14:42:58 +0000 2025",
+      "replyCount": 74,
+      "retweetCount": 9,
+      "likeCount": 273,
+      "conversationId": "1961077051127119893",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1961035232767037632",
+      "text": "@timotimo007 人生合伙人",
+      "createdAt": "Thu Aug 28 11:56:48 +0000 2025",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 5,
+      "conversationId": "1961031938711691303",
+      "inReplyToStatusId": "1961031938711691303",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1961018845378052517",
+      "text": "@SpiderCrypto0x to da moon",
+      "createdAt": "Thu Aug 28 10:51:41 +0000 2025",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "1960932541776715800",
+      "inReplyToStatusId": "1961017160517439779",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1961013472940212398",
+      "text": "bn 赛道，wlfi 赛道，solana meme（ai）这三个，各有各的问题和机会。\n\nbn 赛道有非常明确的流动性承接，但是不像 meme 那样持有者充足涵盖中英文；\n\nsolana/base meme（ai），持有者社区活跃一些，但目前不会得到最大所流动性支持；\n\nwlfi 赛道既有中英文社区，又有可能有流动性支持，但太贵。\n\n如果未来链上有特别大的机会，最理想的情况应该是：\n1️⃣流动性后续得到大所支持；\n2️⃣能涵盖中英文社区，更多的持有者；\n3️⃣初期有10m以下的充足建仓机会。\n\n同时具备这三个条件，才会出现特别大的造富机会和财富效应。",
+      "createdAt": "Thu Aug 28 10:30:20 +0000 2025",
+      "replyCount": 92,
+      "retweetCount": 43,
+      "likeCount": 282,
+      "conversationId": "1961013472940212398",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "quotedTweet": {
+        "id": "1960934155421934081",
+        "text": "我对链上的判断，大概是这样的：\n\n1️⃣未来3个月到6个月，大概率流动性会持续向好；\n\n2️⃣具体龙头是谁，猜不到，也许还没出来。\n\n所以目前在我看好的几个赛道每个都会买：\nbn赛道；wlfi赛道；solana meme（ai）。\n唯一没想好的是台子币，完全判断不了，应该不搞了。",
+        "createdAt": "Thu Aug 28 05:15:09 +0000 2025",
+        "replyCount": 36,
+        "retweetCount": 23,
+        "likeCount": 169,
+        "conversationId": "1960932541776715800",
+        "inReplyToStatusId": "1960932541776715800",
+        "author": {
+          "username": "0xcryptowizard",
+          "name": "0xWizard"
+        },
+        "authorId": "1195728139898376193"
+      }
+    },
+    {
+      "id": "1960987376102285684",
+      "text": "信任的4个层次\n\n一，瞎搞型\n不了解对方，就不做任何保护和约束的信任。\n\n二，契约型\n通过合同，质押等方式，对信任进行保护。\n\n三，合作型\n有合同，也有长期合作基础，属于多次博弈，双方违约意愿都低。\n\n四，人品型\n经过长期相处和过钱过事，尤其是艰难时刻见品性后，相信对方的人品和本心。\n\n我被骗的经历，都是第一种；\n纠纷的经历，都是第二种；\n很好合作伙伴，都是第三种；\n很好的朋友，都是第四种。\n\n第四种可遇而不可求，这种人不是因为好借好还再借不难的约束做决策，他们是无法接受亏欠任何人的本心做决策。\n\n有第四种朋友，一定要珍惜。",
+      "createdAt": "Thu Aug 28 08:46:38 +0000 2025",
+      "replyCount": 41,
+      "retweetCount": 21,
+      "likeCount": 180,
+      "conversationId": "1960987376102285684",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1960938807832011225",
+      "text": "我大部分时间在发思考，并不针对具体某个币。\n\n有的兄弟不理解，只想立刻赚钱。\n\n让我想起一个故事，你也一定听说过：\n\n“有个人吃了10个饼饱了，他很懊悔，早知道吃第10个可以饱，就不用吃前面9个了。”\n\n只想看ca，只想知道多空，这第10个饼，能吃饱么？",
+      "createdAt": "Thu Aug 28 05:33:38 +0000 2025",
+      "replyCount": 58,
+      "retweetCount": 12,
+      "likeCount": 204,
+      "conversationId": "1960938807832011225",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1960934155421934081",
+      "text": "我对链上的判断，大概是这样的：\n\n1️⃣未来3个月到6个月，大概率流动性会持续向好；\n\n2️⃣具体龙头是谁，猜不到，也许还没出来。\n\n所以目前在我看好的几个赛道每个都会买：\nbn赛道；wlfi赛道；solana meme（ai）。\n唯一没想好的是台子币，完全判断不了，应该不搞了。",
+      "createdAt": "Thu Aug 28 05:15:09 +0000 2025",
+      "replyCount": 36,
+      "retweetCount": 23,
+      "likeCount": 169,
+      "conversationId": "1960932541776715800",
+      "inReplyToStatusId": "1960932541776715800",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1960933178283319375",
+      "text": "@Bevis__x 当然。",
+      "createdAt": "Thu Aug 28 05:11:16 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 3,
+      "conversationId": "1960932541776715800",
+      "inReplyToStatusId": "1960932855036666317",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1960932541776715800",
+      "text": "链上热身，每个赛道都会买几万刀。\n前面建仓的 $bas 是 bn（bsc）生态，目前上了perp，最高3x，目前2x多一些；\n\n这两天建仓 wlfi （usd1）生态，选了 $block ，建仓价格在差不多140m-150m fdv 之间，理由：\n\n1️⃣wlfi 生态最重要项目之一，类似昨天上了bn的 $doro（wlfi的cto），$block是wlfi的cio做的，做生态孵化 ；\n2️⃣目前看，130m附近类似二段支撑，赌一下后续整个生态热度和上所。",
+      "createdAt": "Thu Aug 28 05:08:44 +0000 2025",
+      "replyCount": 71,
+      "retweetCount": 45,
+      "likeCount": 271,
+      "conversationId": "1960932541776715800",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "quotedTweet": {
+        "id": "1958073902753878034",
+        "text": "买了点 BAS ，目前市值22m；买的量不大，很快拉上去了。\n\n买入理由：\n1️⃣赌 boost 作为 bn 要扶持的赛道，第二个项目表现不会太差；\n2️⃣ bas 做的基建，类似 bnb chain的官方合作“验证层”，已经和four meme等15个项目合作；\n3️⃣20m左右市值还可以，如果后面有回调，看再补点仓位。",
+        "createdAt": "Wed Aug 20 07:49:32 +0000 2025",
+        "replyCount": 114,
+        "retweetCount": 39,
+        "likeCount": 346,
+        "conversationId": "1958073902753878034",
+        "author": {
+          "username": "0xcryptowizard",
+          "name": "0xWizard"
+        },
+        "authorId": "1195728139898376193"
+      }
+    },
+    {
+      "id": "1960884255158120708",
+      "text": "挺有意思的。\n\n看到一些人在感叹：为什么找不到真心爱自己的恋人/朋友，对方只看中自己的钱/外貌/身材/地位/名气时，我其实想问几个问题：\n\n第一，你吸引你的恋人/朋友时，用的什么方式？\n\n第二，你是否真的爱对方呢？爱的是什么？\n\n第三，你是否投入了真诚/时间/爱意在对方身上？\n\n最后，同频本来就不好寻找，不需要很多人爱你，只需要那么几个就够了。\n\n人际关系也是一种复利，总想着不劳而获，结果可想而知。",
+      "createdAt": "Thu Aug 28 01:56:52 +0000 2025",
+      "replyCount": 60,
+      "retweetCount": 20,
+      "likeCount": 235,
+      "conversationId": "1960884255158120708",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1960573456749052327",
+      "text": "你说，巫师你说这些太理想化了，在现实情况下很容易被算计。\n\n短期来看，可能确实会吃亏；长期来看，会帮你形成更好的系统：\n\n专注在事上，身边筛选的密关系：爱人/朋友/合作伙伴，非常少但都信得过（违背一次信任就远离）。\n\n在事情上更高效，在人际上更快乐。",
+      "createdAt": "Wed Aug 27 05:21:52 +0000 2025",
+      "replyCount": 13,
+      "retweetCount": 1,
+      "likeCount": 87,
+      "conversationId": "1960518534628565329",
+      "inReplyToStatusId": "1960522797840785442",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1960532488662736906",
+      "text": "trump 解雇联储理事这件事，分析独立性问题和后续的复杂财政政策，都有点太远了。\n\n简单点看，就是这届美国总统，下定决心在以月和年为周期，把经济硬搞上去，所谓 run it hot 。\n\n这是基本的宏观背景。",
+      "createdAt": "Wed Aug 27 02:39:04 +0000 2025",
+      "replyCount": 42,
+      "retweetCount": 15,
+      "likeCount": 175,
+      "conversationId": "1960532488662736906",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1960522797840785442",
+      "text": "举“忘恩负义”为例，很多人对此耿耿于怀。\n\n且不说大部分情况下，是一笔糊涂账，两个人，从情感是非利益都各执一词，很难辨的清。\n\n就算非常清晰的一个施恩，一个背刺，又如何？\n你理解人性，就不会有受害者心态，远离即可；\n自己，从最初就不要抱着“施恩”的态度，才更好些。\n我做了，就是本心罢了。",
+      "createdAt": "Wed Aug 27 02:00:34 +0000 2025",
+      "replyCount": 12,
+      "retweetCount": 2,
+      "likeCount": 105,
+      "conversationId": "1960518534628565329",
+      "inReplyToStatusId": "1960518534628565329",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1960518534628565329",
+      "text": "金瓶梅有一段，关于理解人性很有帮助。\n\n武松出差回来，对大郎的死非常怀疑，到处探访证据，县里没一个人愿意讲。\n\n后，武松被陷害流放，县里乡亲凑钱给押送的狱卒，帮他路上不至被折磨，能活着到流放地。\n\n所以，人性善还是恶？\n都不是。\n\n人性，\n首先，是趋利避害的，就如躲开高浓度盐水的草履虫一样。\n其次，大部分人是有良知的，只是不能违背趋利避害原则罢了。\n\n既有“沉默的大多数”，有“忘恩负义”，也有“东极岛渔民救英军战俘”，都源自以上两个原因。\n\n如何面对？看清楚后，我的选择：\n\n遇到背刺，不要有受害者心态，从不怨天尤人，远离不认可的人就好了；\n\n即使有利益诱惑，也绝不作恶，不结恶缘，不生恶念；\n\n如果做了有益于他人的事，也是发自本心，不要惦记着回报；\n\n谨慎挑选任何可能产生缘分链接的人，爱人也好，朋友也好，合作者也罢，宁可不结缘，也不要和不认可的人，产生关联。",
+      "createdAt": "Wed Aug 27 01:43:37 +0000 2025",
+      "replyCount": 151,
+      "retweetCount": 185,
+      "likeCount": 1139,
+      "conversationId": "1960518534628565329",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1960253451117760630",
+      "text": "@mangzige 我觉得这是两种思维方式。\n\n就像创新，我们首先要乐观的假设，这类似某种胡说八道。\n\n但是投机和投资如果这么做，大概率要亏完的，想想股市上破产的牛顿。",
+      "createdAt": "Tue Aug 26 08:10:17 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 6,
+      "conversationId": "1960242549333045569",
+      "inReplyToStatusId": "1960249981455265834",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1960249191302672840",
+      "text": "@creolophus123 就是要不断回想成功/失败的经历，就跟 ai 训练的奖励/惩罚机制一样，有个函数不断去调校参数。\n\n这样才能在下一次自己产生“幻觉”的时候，尽量调校到相对客观理性的结论上。\n\n这就是“赚钱”“亏钱”“经验”带来的训练效果。",
+      "createdAt": "Tue Aug 26 07:53:21 +0000 2025",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 6,
+      "conversationId": "1960242549333045569",
+      "inReplyToStatusId": "1960248206274482508",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1960246669137637756",
+      "text": "一个交易者/投资者，能够清晰知道，他懂什么，不懂什么，这个非常非常非常难。\n\n能把这个“幻觉”关过了，决策水平可以提升一大截。",
+      "createdAt": "Tue Aug 26 07:43:20 +0000 2025",
+      "replyCount": 3,
+      "retweetCount": 5,
+      "likeCount": 56,
+      "conversationId": "1960242549333045569",
+      "inReplyToStatusId": "1960242549333045569",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1960242549333045569",
+      "text": "发现一个有趣的类比，\n\nai 的“幻觉”：在不知道正确答案时，也会根据概率胡说八道；\n这和人很像，很多人在一些根本不懂的领域，会根据自己想象自信给出“答案”。\n\n处理 ai “幻觉”的一个方法是：用很多他回答错误的对话，来训练他，让他明白，不知道的时候，要说：对不起，我不知道。\n\n处理人的“幻觉”也许可以用类似的方法：\n\n多回想一下自己“以为知道”，但结果证明是完全错误的案例。很多时候，一些重大亏损，都是来源于此。\n\n这样，下次做交易决策时，好好想想是不是自己在“幻觉”中，会很有帮助。",
+      "createdAt": "Tue Aug 26 07:26:57 +0000 2025",
+      "replyCount": 47,
+      "retweetCount": 11,
+      "likeCount": 157,
+      "conversationId": "1960242549333045569",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1960209519726010526",
+      "text": "@BTCrpSats 我说的不是这个意思，我没想过好好研究物理/数学/经济学。\n\n看任何学科，都是为了服务于如何思考和理解投机/投资。\n\n只有把你真正投入全部精力/时间/生命的，真正热爱的工作做到一个更高的高度，才能更好的理解“天道”。\n\n修行在日常和工作中。",
+      "createdAt": "Tue Aug 26 05:15:43 +0000 2025",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 19,
+      "conversationId": "1960184786963845322",
+      "inReplyToStatusId": "1960202339283030512",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1960198967817535915",
+      "text": "如何面对失败？\n\n举个我的例子，创业时一直在探索各种方向，一度尝试去做“互联网金融”，投入了大概几十万（10个左右的人力，2个月的成本），结果融资和产品进展都不顺利，以失败告终。\n\n如果当时顺利融资，强行推进产品，做大做强，资金端搞来钱，“投”到子虚乌有的资产端，也许要失去几年自由了。\n\n所以，失败不一定是坏事；\n关键是要分清，到底是做了“错的事”，还是“把事做错了”。\n\n我对于曾经在币圈的一些大额亏损/回撤，也是一样的态度：\n有一些是“错的事”，那失败反而要感谢神的提醒；\n有一些是“把事做错了”，那失败就要反思自己，下次争取“把事做对”。",
+      "createdAt": "Tue Aug 26 04:33:47 +0000 2025",
+      "replyCount": 66,
+      "retweetCount": 27,
+      "likeCount": 213,
+      "conversationId": "1960198967817535915",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "quotedTweet": {
+        "id": "1957631683412520982",
+        "text": "我是相信有“神”存在的，或者某种“力量”“规则”，凌驾于整个宇宙之上。\n\n至于这个“神”的样子，也许一些人认为是“佛陀”，一些人认为是“基督”，还有人认为是“科学规律”罢了。\n\n回看过去，我很庆幸的是，我走的不少弯路，都以快速失败或放弃告终；若非如此，可能现在还在麻烦缠身。\n\n对于这些，都是“神”的恩赐和偏爱，我是如此认为的。\n\n至于什么是“真实”，其实不重要，更重要的是，自己认可的一种世界观，是否能够带来平静与自洽。",
+        "createdAt": "Tue Aug 19 02:32:19 +0000 2025",
+        "replyCount": 82,
+        "retweetCount": 17,
+        "likeCount": 275,
+        "conversationId": "1957631683412520982",
+        "author": {
+          "username": "0xcryptowizard",
+          "name": "0xWizard"
+        },
+        "authorId": "1195728139898376193"
+      }
+    }
+  ],
+  "nextCursor": null
+}

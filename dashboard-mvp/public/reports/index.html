@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>研报库 · ClawLabs</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #0d1117;
+    --bg2: #161b22;
+    --bg3: #21262d;
+    --border: #30363d;
+    --text: #e6edf3;
+    --muted: #8b949e;
+    --accent: #58a6ff;
+    --green: #3fb950;
+    --tag-bg: rgba(88,166,255,0.12);
+    --tag-border: rgba(88,166,255,0.3);
+  }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
+    min-height: 100vh;
+  }
+
+  /* NAV */
+  .topnav {
+    background: var(--bg2);
+    border-bottom: 1px solid var(--border);
+    padding: 0 24px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .nav-logo {
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--text);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .nav-logo span { color: var(--accent); }
+  .nav-back {
+    margin-left: auto;
+    font-size: 12px;
+    color: var(--muted);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 5px 12px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    transition: all 0.15s;
+  }
+  .nav-back:hover { color: var(--text); border-color: var(--muted); }
+
+  /* HERO */
+  .hero {
+    padding: 48px 24px 32px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .hero-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .hero-sub {
+    font-size: 14px;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+
+  /* FILTERS */
+  .filters {
+    max-width: 900px;
+    margin: 0 auto 24px;
+    padding: 0 24px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .filter-btn {
+    padding: 5px 14px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    background: var(--bg2);
+    color: var(--muted);
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.15s;
+    font-family: inherit;
+  }
+  .filter-btn:hover, .filter-btn.active {
+    background: var(--tag-bg);
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  /* GRID */
+  .grid {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 24px 48px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    gap: 16px;
+  }
+
+  /* CARD */
+  .card {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: border-color 0.15s, transform 0.15s;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--text);
+  }
+  .card:hover {
+    border-color: var(--accent);
+    transform: translateY(-2px);
+  }
+  .card-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .card-tag {
+    font-size: 11px;
+    padding: 3px 9px;
+    border-radius: 12px;
+    background: var(--tag-bg);
+    border: 1px solid var(--tag-border);
+    color: var(--accent);
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .card-title {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.45;
+    flex: 1;
+  }
+  .card-subtitle {
+    font-size: 12px;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+  .card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4px;
+  }
+  .card-date { font-size: 11px; color: var(--muted); }
+  .card-size { font-size: 11px; color: var(--muted); }
+  .card-open {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    color: var(--accent);
+    padding: 4px 12px;
+    border: 1px solid rgba(88,166,255,0.3);
+    border-radius: 6px;
+    background: rgba(88,166,255,0.08);
+    transition: all 0.15s;
+  }
+  .card:hover .card-open {
+    background: rgba(88,166,255,0.18);
+  }
+
+  /* EMPTY */
+  .empty {
+    grid-column: 1/-1;
+    text-align: center;
+    padding: 60px 0;
+    color: var(--muted);
+    font-size: 14px;
+  }
+
+  /* LOADING */
+  .loading {
+    text-align: center;
+    padding: 60px 0;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<nav class="topnav">
+  <a class="nav-logo" href="/">🧠 Claw<span>Labs</span></a>
+  <a class="nav-back" href="/">← 返回控制台</a>
+</nav>
+
+<div class="hero">
+  <h1 class="hero-title">研报库</h1>
+  <p class="hero-sub">ClawLabs 发布的行业研究报告 · 按需下载阅读</p>
+</div>
+
+<div class="filters" id="filters">
+  <button class="filter-btn active" data-cat="全部">全部</button>
+</div>
+
+<div class="grid" id="grid">
+  <div class="loading">加载中…</div>
+</div>
+
+<script>
+const CATEGORY_COLORS = {
+  '方案报告': '#58a6ff',
+  '技术评估': '#3fb950',
+  '行业分析': '#d29922',
+  '政策研究': '#a371f7',
+  '竞品分析': '#fb8500',
+};
+
+let allReports = [];
+let activeFilter = '全部';
+
+async function load() {
+  try {
+    const r = await fetch('/reports/reports.json?t=' + Date.now());
+    allReports = await r.json();
+    render();
+  } catch(e) {
+    document.getElementById('grid').innerHTML = '<div class="empty">暂无研报</div>';
+  }
+}
+
+function render() {
+  const cats = ['全部', ...new Set(allReports.map(r => r.category))];
+  const filtersEl = document.getElementById('filters');
+  filtersEl.innerHTML = cats.map(c =>
+    `<button class="filter-btn${c===activeFilter?' active':''}" data-cat="${c}">${c}</button>`
+  ).join('');
+  filtersEl.querySelectorAll('.filter-btn').forEach(b =>
+    b.addEventListener('click', () => { activeFilter = b.dataset.cat; render(); })
+  );
+
+  const filtered = activeFilter === '全部' ? allReports : allReports.filter(r => r.category === activeFilter);
+  const grid = document.getElementById('grid');
+
+  if (!filtered.length) {
+    grid.innerHTML = '<div class="empty">该分类下暂无研报</div>';
+    return;
+  }
+
+  grid.innerHTML = filtered.map(r => {
+    const color = CATEGORY_COLORS[r.category] || '#58a6ff';
+    const tagStyle = `background:${color}18;border:1px solid ${color}55;color:${color}`;
+    return `
+    <a class="card" href="/reports/${r.file}" target="_blank" download="${r.file}">
+      <div class="card-header">
+        <div class="card-title">${r.title}</div>
+        <span class="card-tag" style="${tagStyle}">${r.category}</span>
+      </div>
+      ${r.subtitle ? `<div class="card-subtitle">${r.subtitle}</div>` : ''}
+      <div class="card-footer">
+        <div>
+          <div class="card-date">${r.date}</div>
+          ${r.size_kb ? `<div class="card-size">${r.size_kb} KB · PDF</div>` : ''}
+        </div>
+        <span class="card-open">↓ 下载阅读</span>
+      </div>
+    </a>`;
+  }).join('');
+}
+
+load();
+</script>
+</body>
+</html>

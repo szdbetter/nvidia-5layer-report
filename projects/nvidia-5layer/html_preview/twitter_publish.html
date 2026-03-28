@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>黄仁勋五层地图 · Twitter发布页</title>
+<style>
+:root {
+  --vi-red: #D2231E;
+  --bg: #15202B;
+  --card: #192734;
+  --text: #E7E9EA;
+  --muted: #8B98A5;
+  --border: #2F3F4F;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 12px 16px 100px;
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+/* 顶部操作栏 */
+.action-bar {
+  position: fixed;
+  top: 0; left: 50%;
+  transform: translateX(-50%);
+  width: 100%; max-width: 600px;
+  background: rgba(21,32,43,0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+  padding: 10px 16px;
+  display: flex;
+  gap: 10px;
+  z-index: 100;
+}
+.action-bar button {
+  flex: 1; height: 38px;
+  border: none; border-radius: 8px;
+  font-size: 13px; font-weight: 700;
+  cursor: pointer;
+}
+.btn-copy { background: var(--vi-red); color: #fff; }
+.btn-copy:active { background: #B01A16; }
+.btn-img { background: #fff; color: var(--bg); border: 1.5px solid var(--muted); }
+
+/* 页面标题 */
+.page-header {
+  margin-top: 60px;
+  background: var(--card);
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 16px;
+  border: 1px solid var(--border);
+}
+.page-header h1 {
+  font-size: 17px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 6px;
+}
+.page-header p {
+  font-size: 12px;
+  color: var(--muted);
+}
+.page-header .brand {
+  color: var(--vi-red);
+  font-weight: 700;
+}
+
+/* 每条推文 */
+.tweet {
+  background: var(--card);
+  border-radius: 14px;
+  padding: 16px;
+  margin-bottom: 14px;
+  border: 1px solid var(--border);
+  position: relative;
+}
+.tweet-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.tweet-num {
+  background: var(--vi-red);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 900;
+  padding: 2px 8px;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+.tweet-label {
+  font-size: 12px;
+  color: var(--muted);
+  font-weight: 600;
+}
+.tweet-img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 8px 0;
+  display: block;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+.tweet-img-caption {
+  font-size: 11px;
+  color: var(--muted);
+  text-align: center;
+  margin-bottom: 10px;
+}
+.tweet-text {
+  font-size: 14px;
+  color: var(--text);
+  line-height: 1.75;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+.tweet-text .highlight { color: var(--vi-red); font-weight: 700; }
+.tweet-footer {
+  margin-top: 10px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.tweet-footer button {
+  background: transparent;
+  border: 1.5px solid var(--border);
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 5px 12px;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.tweet-footer button:active {
+  border-color: var(--vi-red);
+  color: var(--vi-red);
+}
+.char-count {
+  font-size: 11px;
+  color: var(--muted);
+  margin-left: auto;
+  align-self: center;
+}
+.char-count.warn { color: #F59E0B; }
+.char-count.ok { color: #22C55E; }
+
+/* 线程连接线 */
+.thread-connector {
+  width: 2px;
+  height: 20px;
+  background: var(--border);
+  margin: 0 auto 14px;
+  border-radius: 1px;
+}
+
+/* 图片说明区 */
+.img-index {
+  background: var(--card);
+  border-radius: 14px;
+  padding: 16px;
+  margin-bottom: 14px;
+  border: 1px solid var(--border);
+}
+.img-index h3 {
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 12px;
+}
+.img-item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 13px;
+  color: var(--text);
+}
+.img-item:last-child { border-bottom: none; padding-bottom: 0; }
+.img-item .num-badge {
+  width: 22px; height: 22px;
+  background: var(--vi-red);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 900;
+  flex-shrink: 0;
+}
+.img-item a {
+  color: #38BDF8;
+  text-decoration: none;
+  font-size: 12px;
+  flex-shrink: 0;
+}
+.img-item a:hover { text-decoration: underline; }
+.img-item .desc { color: var(--muted); font-size: 12px; }
+
+/* 操作说明 */
+.guide {
+  background: var(--card);
+  border-radius: 14px;
+  padding: 16px;
+  margin-bottom: 14px;
+  border: 1px solid var(--border);
+}
+.guide h3 {
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.guide ol {
+  padding-left: 20px;
+  font-size: 13px;
+  color: var(--text);
+  line-height: 2;
+}
+.guide li { margin-bottom: 4px; }
+.guide .tip {
+  background: rgba(210,35,30,0.1);
+  border: 1px solid rgba(210,35,30,0.3);
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 12px;
+  color: var(--vi-red);
+  margin-top: 10px;
+}
+
+/* CTA */
+.cta-box {
+  background: linear-gradient(135deg, #1A1A2E, #2D1F0A);
+  border-radius: 14px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 14px;
+}
+.cta-box p {
+  color: #F5F0E6;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.7;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  color: var(--muted);
+  font-size: 11px;
+  padding-top: 14px;
+  border-top: 1px dashed var(--border);
+}
+
+/* Toast */
+.toast {
+  position: fixed; bottom: 90px; left: 50%;
+  transform: translateX(-50%);
+  background: rgba(26,26,46,0.9);
+  color: #fff; font-size: 13px; font-weight: 600;
+  padding: 10px 20px; border-radius: 24px;
+  z-index: 200; pointer-events: none;
+  opacity: 0; transition: opacity 0.3s;
+}
+.toast.show { opacity: 1; }
+</style>
+</head>
+<body>
+
+<!-- 顶部操作栏 -->
+<div class="action-bar">
+  <button class="btn-copy" onclick="copyAllTweets()">📋 复制全部推文</button>
+  <button class="btn-img" onclick="showImgList()">🖼️ 图片索引</button>
+</div>
+
+<!-- 页面标题 -->
+<div class="page-header">
+  <h1>🧵 Twitter Thread · 黄仁勋五层地图</h1>
+  <p>共 10 条推文 · 每条 ≤ 280 字 · 图文对应 · <span class="brand">ClawLabs</span></p>
+</div>
+
+<!-- 图片索引 -->
+<div id="img-index" class="img-index" style="display:none">
+  <h3>🖼️ 图片 CDN 直链（长按保存）</h3>
+  <div class="img-item">
+    <div class="num-badge">0</div>
+    <span>封面总图</span>
+    <a href="https://szdbetter.github.io/nvidia-5layer-report/nvidia_5layer_v2.png" target="_blank">nvidia_5layer_v2.png</a>
+  </div>
+  <div class="img-item">
+    <div class="num-badge">①</div>
+    <span>感知AI</span>
+    <a href="https://szdbetter.github.io/nvidia-5layer-report/layer01_perceiving.png" target="_blank">layer01_perceiving.png</a>
+  </div>
+  <div class="img-item">
+    <div class="num-badge">②</div>
+    <span>生成AI</span>
+    <a href="https://szdbetter.github.io/nvidia-5layer-report/layer02_generating.png" target="_blank">layer02_generating.png</a>
+  </div>
+  <div class="img-item">
+    <div class="num-badge">③</div>
+    <span>智能体AI ⭐</span>
+    <a href="https://szdbetter.github.io/nvidia-5layer-report/layer03_agentic.png" target="_blank">layer03_agentic.png</a>
+  </div>
+  <div class="img-item">
+    <div class="num-badge">④</div>
+    <span>物理AI</span>
+    <a href="https://szdbetter.github.io/nvidia-5layer-report/layer04_physical.png" target="_blank">layer04_physical.png</a>
+  </div>
+  <div class="img-item">
+    <div class="num-badge">⑤</div>
+    <span>主权AI</span>
+    <a href="https://szdbetter.github.io/nvidia-5layer-report/layer05_sovereign.png" target="_blank">layer05_sovereign.png</a>
+  </div>
+  <div class="img-item">
+    <div class="num-badge">⑥</div>
+    <span>算力路线图</span>
+    <a href="https://szdbetter.github.io/nvidia-5layer-report/layer06_compute.png" target="_blank">layer06_compute.png</a>
+  </div>
+  <div class="img-item">
+    <div class="num-badge">⑦</div>
+    <span>A股全景图</span>
+    <a href="https://szdbetter.github.io/nvidia-5layer-report/layer07_investment.png" target="_blank">layer07_investment.png</a>
+  </div>
+</div>
+
+<!-- Thread 推文列表 -->
+
+<!-- T1: Hook -->
+<div class="tweet" id="t1">
+  <div class="tweet-header">
+    <div class="tweet-num">1</div>
+    <div class="tweet-label">Hook · 封面图</div>
+    <div class="char-count ok">213字</div>
+  </div>
+  <img class="tweet-img" src="https://szdbetter.github.io/nvidia-5layer-report/nvidia_5layer_v2.png" alt="封面图">
+  <div class="tweet-img-caption">↑ 封面图（可另存为 Tweet 配图）</div>
+  <div class="tweet-text">3月10日，黄仁勋发了一篇长文《AI is a Five Layer Cake》。
+
+翻译过来就是：AI是一块五层蛋糕。
+
+听起来像在讲甜品。实际上，这是他给全球投资者画的一张产业地图。
+
+我把他的框架翻译成A股语言，拆给你看👇</div>
+  <div class="tweet-footer">
+    <button onclick="copyTweet('t1')">📋 复制此条</button>
+  </div>
+</div>
+
+<div class="thread-connector"></div>
+
+<!-- T2: 五层总览 -->
+<div class="tweet" id="t2">
+  <div class="tweet-header">
+    <div class="tweet-num">2</div>
+    <div class="tweet-label">五层总览</div>
+    <div class="char-count ok">185字</div>
+  </div>
+  <div class="tweet-text">先搞清楚这五层到底是什么：
+
+①感知AI — 机器"看懂"和"听懂"
+②生成AI — 机器从识别到创造
+③<span class="highlight">智能体AI</span> — 给目标，自己走到底 ← 关键
+④物理AI — AI从数字走向物理世界
+⑤主权AI — 国家AI基础设施
+
+每一层都是下一层的基础，且每升一层，算力消耗指数增长。</div>
+  <div class="tweet-footer">
+    <button onclick="copyTweet('t2')">📋 复制此条</button>
+  </div>
+</div>
+
+<div class="thread-connector"></div>
+
+<!-- T3: 感知AI -->
+<div class="tweet" id="t3">
+  <div class="tweet-header">
+    <div class="tweet-num">3</div>
+    <div class="tweet-label">① 感知AI</div>
+    <div class="char-count ok">194字</div>
+  </div>
+  <img class="tweet-img" src="https://szdbetter.github.io/nvidia-5layer-report/layer01_perceiving.png" alt="感知AI">
+  <div class="tweet-img-caption">① layer01_perceiving.png</div>
+  <div class="tweet-text"><span class="highlight">感知AI（Perceiving AI）</span>
+
+让机器"看懂"和"听懂"的一层。
+
+人脸识别、语音转写、医学影像诊断——技术早在2012年就成熟了，现在已经严重商品化。
+
+→ 这一层，已经没有超额收益了。</div>
+  <div class="tweet-footer">
+    <button onclick="copyTweet('t3')">📋 复制此条</button>
+  </div>
+</div>
+
+<div class="thread-connector"></div>
+
+<!-- T4: 生成AI -->
+<div class="tweet" id="t4">
+  <div class="tweet-header">
+    <div class="tweet-num">4</div>
+    <div class="tweet-label">② 生成AI</div>
+    <div class="char-count ok">220字</div>
+  </div>
+  <img class="tweet-img" src="https://szdbetter.github.io/nvidia-5layer-report/layer02_generating.png" alt="生成AI">
+  <div class="tweet-img-caption">② layer02_generating.png</div>
+  <div class="tweet-text"><span class="highlight">生成AI（Generating AI）</span>
+
+让机器从"识别"升级到"创造"的一层。
+
+GPT、Claude、Gemini——能写文章、能画图、能编程。
+
+但Meta把Llama开源之后，"能写字的AI"正在变成水电煤，护城河在消失。
+
+→ 这一层正在商品化。</div>
+  <div class="tweet-footer">
+    <button onclick="copyTweet('t4')">📋 复制此条</button>
+  </div>
+</div>
+
+<div class="thread-connector"></div>
+
+<!-- T5: 智能体AI ⭐ -->
+<div class="tweet" id="t5">
+  <div class="tweet-header">
+    <div class="tweet-num">5</div>
+    <div class="tweet-label">③ 智能体AI ⭐ 关键拐点</div>
+    <div class="char-count warn">278字</div>
+  </div>
+  <img class="tweet-img" src="https://szdbetter.github.io/nvidia-5layer-report/layer03_agentic.png" alt="智能体AI">
+  <div class="tweet-img-caption">③ layer03_agentic.png</div>
+  <div class="tweet-text"><span class="highlight">智能体AI（Agentic AI）</span>⭐
+
+前两层：你给它输入，它给输出——本质还是工具。
+
+第三层：你给它目标，它自己想路径、自己拆解任务、自己调用工具、在复杂环境里走到底。
+
+你告诉它"帮我追踪竞对动态"，它自己搜索、查数据、写报告、发邮件，全程不用你管。
+
+这是不用发工资、不会请假、可以无限复制的白领。
+
+全球白领劳动力市场：<span class="highlight">2万亿美元/年</span></div>
+  <div class="tweet-footer">
+    <button onclick="copyTweet('t5')">📋 复制此条</button>
+  </div>
+</div>
+
+<div class="thread-connector"></div>
+
+<!-- T6: 物理AI -->
+<div class="tweet" id="t6">
+  <div class="tweet-header">
+    <div class="tweet-num">6</div>
+    <div class="tweet-label">④ 物理AI</div>
+    <div class="char-count ok">249字</div>
+  </div>
+  <img class="tweet-img" src="https://szdbetter.github.io/nvidia-5layer-report/layer04_physical.png" alt="物理AI">
+  <div class="tweet-img-caption">④ layer04_physical.png</div>
+  <div class="tweet-text"><span class="highlight">物理AI（Physical AI）</span>
+
+让AI从数字世界走向物理世界。
+
+机器人、自动驾驶、工厂自动化——AI不只处理语言和图片，而是处理真实的物理空间。
+
+全球制造业一年<span class="highlight">13万亿美元</span>，自动化渗透率还极低。
+
+黄仁勋说物理AI的市场规模比LLM大<span class="highlight">10倍</span>——这不是iPhone替代诺基亚的故事，这是整个工业体系被重构的故事。</div>
+  <div class="tweet-footer">
+    <button onclick="copyTweet('t6')">📋 复制此条</button>
+  </div>
+</div>
+
+<div class="thread-connector"></div>
+
+<!-- T7: 主权AI -->
+<div class="tweet" id="t7">
+  <div class="tweet-header">
+    <div class="tweet-num">7</div>
+    <div class="tweet-label">⑤ 主权AI</div>
+    <div class="char-count ok">232字</div>
+  </div>
+  <img class="tweet-img" src="https://szdbetter.github.io/nvidia-5layer-report/layer05_sovereign.png" alt="主权AI">
+  <div class="tweet-img-caption">⑤ layer05_sovereign.png</div>
+  <div class="tweet-text"><span class="highlight">主权AI（Sovereign AI）</span>
+
+黄仁勋从不说"AGI"，他说的是"Sovereign AI"。
+
+翻译成人话：你的AI能力凭什么被别人卡脖子？
+
+沙特、法国、印度、日本——全都在砸钱建自己的AI算力基础设施。单笔订单从百万跳到百亿。
+
+黄仁勋最聪明的一步：把"<span class="highlight">卖GPU</span>"重新定义成了"<span class="highlight">帮你建AI国家基础设施</span>"。</div>
+  <div class="tweet-footer">
+    <button onclick="copyTweet('t7')">📋 复制此条</button>
+  </div>
+</div>
+
+<div class="thread-connector"></div>
+
+<!-- T8: 算力结论 -->
+<div class="tweet" id="t8">
+  <div class="tweet-header">
+    <div class="tweet-num">8</div>
+    <div class="tweet-label">核心洞察 · 算力</div>
+    <div class="char-count ok">248字</div>
+  </div>
+  <img class="tweet-img" src="https://szdbetter.github.io/nvidia-5layer-report/layer06_compute.png" alt="算力路线图">
+  <div class="tweet-img-caption">⑥ layer06_compute.png</div>
+  <div class="tweet-text">这五层框架，底层逻辑是：
+
+每一层的突破都会拉动下面所有层的需求。
+
+关键是：每往上一层，单位算力消耗呈<span class="highlight">指数增长</span>。
+
+第三层一个Agent完成复杂任务 = 第一层识别一张图片的<span class="highlight">上万倍</span>
+
+第四层一个物理机器人实时感知 = 第三层的<span class="highlight">几十倍</span>
+
+这才是黄仁勋的真实意图：
+
+<span class="highlight">不管AI走到哪一层，都要买GPU。</span></div>
+  <div class="tweet-footer">
+    <button onclick="copyTweet('t8')">📋 复制此条</button>
+  </div>
+</div>
+
+<div class="thread-connector"></div>
+
+<!-- T9: A股 -->
+<div class="tweet" id="t9">
+  <div class="tweet-header">
+    <div class="tweet-num">9</div>
+    <div class="tweet-label">A股映射</div>
+    <div class="char-count ok">260字</div>
+  </div>
+  <img class="tweet-img" src="https://szdbetter.github.io/nvidia-5layer-report/layer07_investment.png" alt="A股全景图">
+  <div class="tweet-img-caption">⑦ layer07_investment.png</div>
+  <div class="tweet-text">黄仁勋五层地图，翻译成A股语言：
+
+<span class="highlight">能源层</span> — 特高压、储能、绿电。确定性最高，弹性最小。"十五五"国家电网投4万亿。
+
+<span class="highlight">基础设施层</span> — 数据中心、光模块、液冷。AI服务器功率是传统服务器10-20倍。接下来2-3年业绩最实在。
+
+<span class="highlight">应用层</span> — 智能制造、自动驾驶。渗透率最低，弹性最大，但选股难度最高。</div>
+  <div class="tweet-footer">
+    <button onclick="copyTweet('t9')">📋 复制此条</button>
+  </div>
+</div>
+
+<div class="thread-connector"></div>
+
+<!-- T10: 结论 CTA -->
+<div class="tweet" id="t10">
+  <div class="tweet-header">
+    <div class="tweet-num">10</div>
+    <div class="tweet-label">结论 · CTA</div>
+    <div class="char-count ok">219字</div>
+  </div>
+  <div class="tweet-text">真正重要的三句话：
+
+① 底层是确定性的钱 — 特高压、电网、储能，不管AI应用长成什么样，电是一定要用的。
+
+② 第三层和第四层是接下来十年最厚的雪 — Agent替代白领，物理AI重构工业体系。
+
+③ 不要追概念，找真正在接订单的 — 拿到政府大单、运营商合同、制造业订单的公司。
+
+搞清楚谁在最底层收过路费，比追谁的概念最性感，重要得多。</div>
+  <div class="tweet-footer">
+    <button onclick="copyTweet('t10')">📋 复制此条</button>
+  </div>
+</div>
+
+<!-- CTA -->
+<div class="cta-box">
+  <p>转发给你身边还在无脑追AI概念股的朋友<br>这篇能帮他省不少钱 🙏</p>
+</div>
+
+<!-- 操作说明 -->
+<div class="guide">
+  <h3>📋 发布流程</h3>
+  <ol>
+    <li>逐条点击"复制此条"，粘贴到 Twitter/X 发推</li>
+    <li>每条推文配上对应编号的图片（CDN链接在顶部"🖼️ 图片索引"按钮）</li>
+    <li>发完一条后，点击下方 "↳ Reply" 按钮接续下一条，形成 Thread</li>
+    <li>第一条配封面总图，最后一条不加图</li>
+  </ol>
+  <div class="tip">💡 提示：所有图片已托管在 GitHub CDN，长按即可保存到手机相册</div>
+</div>
+
+<div class="footer">
+  ClawLabs · 黄仁勋AI五层蛋糕理论 · A股投资解读 · 2026-03
+</div>
+
+<!-- Toast -->
+<div class="toast" id="toast"></div>
+
+<script>
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2000);
+}
+
+function copyTweet(id) {
+  const el = document.getElementById(id);
+  const text = el.querySelector('.tweet-text').innerText;
+  navigator.clipboard.writeText(text).then(() => {
+    showToast('✅ 已复制！粘贴到 Twitter 吧');
+  }).catch(() => {
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    document.body.appendChild(ta);
+    ta.select();
+    document.execCommand('copy');
+    document.body.removeChild(ta);
+    showToast('✅ 已复制！');
+  });
+}
+
+function copyAllTweets() {
+  const tweets = document.querySelectorAll('.tweet');
+  let all = '';
+  tweets.forEach((t, i) => {
+    const num = t.querySelector('.tweet-num').textContent;
+    const text = t.querySelector('.tweet-text').innerText;
+    const imgCaption = t.querySelector('.tweet-img-caption');
+    all += `【Tweet ${num}】\n${text}\n`;
+    if (imgCaption && i < tweets.length - 1) {
+      all += `[配图：${imgCaption.textContent.trim()}]`;
+    }
+    all += '\n\n';
+  });
+  navigator.clipboard.writeText(all).then(() => {
+    showToast('✅ 全部推文已复制！');
+  }).catch(() => {
+    showToast('❌ 复制失败，请手动选择复制');
+  });
+}
+
+function showImgList() {
+  const el = document.getElementById('img-index');
+  el.style.display = el.style.display === 'none' ? 'block' : 'none';
+  if (el.style.display === 'block') {
+    el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+</script>
+
+</body>
+</html>

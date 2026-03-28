@@ -1,0 +1,124 @@
+{
+  "date": "2026-03-25",
+  "time": "07:03 BJ",
+  "stats": {
+    "xhs": 10,
+    "reddit": 10,
+    "twitter": 1,
+    "total": 21
+  },
+  "xhs": [
+    {
+      "title": "盲审前各大模型评分",
+      "url": "https://www.xiaohongshu.com/explore/69bff60c000000001a02f573",
+      "score": 17424
+    },
+    {
+      "title": "写Claude Code中文教程的人，真是个天才！",
+      "url": "https://www.xiaohongshu.com/explore/69ba0d4f000000001a0206f5",
+      "score": 12423
+    },
+    {
+      "title": "建议都去飞书学Claude code中文教程",
+      "url": "https://www.xiaohongshu.com/explore/69bb7627000000001f003352",
+      "score": 9825
+    },
+    {
+      "title": "硅谷大佬把自己 Claude Code 武器库开源了",
+      "url": "https://www.xiaohongshu.com/explore/69c0047d000000001a031ae8",
+      "score": 6333
+    },
+    {
+      "title": "芒格犀利说出比特币的本质",
+      "url": "https://www.xiaohongshu.com/explore/69baa175000000002202b1c1",
+      "score": 4878
+    },
+    {
+      "title": "离谱，小米大模型一年就逼近Claude Opus 4.",
+      "url": "https://www.xiaohongshu.com/explore/69bb795d000000001f0041f2",
+      "score": 3265
+    },
+    {
+      "title": "我想教会你用Claude Skill （上）",
+      "url": "https://www.xiaohongshu.com/explore/69bcc14f000000002202530f",
+      "score": 3165
+    },
+    {
+      "title": "怪不得 claude 封号这么严",
+      "url": "https://www.xiaohongshu.com/explore/69bcf3be000000001d01b640",
+      "score": 2961
+    },
+    {
+      "title": "我的人生分为Claude前和Claude后",
+      "url": "https://www.xiaohongshu.com/explore/69c0e4a9000000002300550e",
+      "score": 2937
+    },
+    {
+      "title": "Claude在美国求职上真正有用的八个功能",
+      "url": "https://www.xiaohongshu.com/explore/69bb53de00000000220284e9",
+      "score": 2880
+    }
+  ],
+  "reddit": [
+    {
+      "title": "Eric Trump Says More Than $1Billion Made In Crypto",
+      "url": "https://reddit.com/r/CryptoCurrency/comments/1s23fxa/eric_trump_says_more_than_1billion_made_in_crypto/",
+      "score": 1086
+    },
+    {
+      "title": "WTF! A whale literally burned $1.2 Million worth of Bitcoin by sending it to Satoshi's dead wallet.. Why TF?",
+      "url": "https://reddit.com/r/CryptoCurrency/comments/1s2jv1i/wtf_a_whale_literally_burned_12_million_worth_of/",
+      "score": 1077
+    },
+    {
+      "title": "Hacker Mints $80 Million worth of Fake Stablecoins and Swaps Them For ETH",
+      "url": "https://reddit.com/r/CryptoCurrency/comments/1s1mm81/hacker_mints_80_million_worth_of_fake_stablecoins/",
+      "score": 874
+    },
+    {
+      "title": "Saylor's Strategy buys 1,031 BTC for $76.6 Million – Total Holdings Reach 762,099 BTC",
+      "url": "https://reddit.com/r/CryptoCurrency/comments/1s1f0y4/saylors_strategy_buys_1031_btc_for_766_million/",
+      "score": 482
+    },
+    {
+      "title": "Andrej Karpathy's autonomous AI research agent ran 700 experiments in 2 days and gave a glimpse of where AI is heading",
+      "url": "https://reddit.com/r/artificial/comments/1s1b1zm/andrej_karpathys_autonomous_ai_research_agent_ran/",
+      "score": 387
+    },
+    {
+      "title": "Elizabeth Warren scrutinizes MrBeast’s teen crypto banking plans after Step deal",
+      "url": "https://reddit.com/r/CryptoCurrency/comments/1s22cfq/elizabeth_warren_scrutinizes_mrbeasts_teen_crypto/",
+      "score": 347
+    },
+    {
+      "title": "Pentagon to adopt Palantir AI as core US military system, memo says",
+      "url": "https://reddit.com/r/artificial/comments/1s11nu4/pentagon_to_adopt_palantir_ai_as_core_us_military/",
+      "score": 276
+    },
+    {
+      "title": "Mark Zuckerberg builds AI CEO to help him run Meta",
+      "url": "https://reddit.com/r/artificial/comments/1s1qk1c/mark_zuckerberg_builds_ai_ceo_to_help_him_run_meta/",
+      "score": 251
+    },
+    {
+      "title": "Gold, Silver Crash Wipes $2T as Iran Tensions Trigger Market Shock",
+      "url": "https://reddit.com/r/CryptoCurrency/comments/1s1tznb/gold_silver_crash_wipes_2t_as_iran_tensions/",
+      "score": 244
+    },
+    {
+      "title": "Polymarket has opened 'The Situation Room'...",
+      "url": "https://reddit.com/r/CryptoCurrency/comments/1s1tenm/polymarket_has_opened_the_situation_room/",
+      "score": 193
+    }
+  ],
+  "twitter": [
+    {
+      "title": "Introducing the Claude Marketplace, a way for enterprises to simplify their proc...",
+      "score": 23304,
+      "likes": 19398,
+      "retweets": 1302,
+      "views": 5089576
+    }
+  ],
+  "analysis": "## 📊 跨平台共振信号\n\n### 🔴 信号1：Claude从「聊天」→「工具」范式转移\n\n**小红书**：多个Claude Code中文教程爆火（热度1.7w+），开源武器库获6k+热度\n**X平台**：Claude Marketplace发布、Claude Cowork曝光（X热度3.6w+）\n**核心逻辑**：Claude正从问答机器人演变为开发者工作流基础设施\n\n> 💹 **投资价值**：Claude生态系公司（Anthropic持股方）价值重估窗口开启\n\n---\n\n### 🟠 信号2：比特币「机构化叙事」加速确认\n\n**X平台**：Citibank给出明确目标价——$143K BTC（2026）\n**Reddit**：Saylor旗下Strategy再购1,031 BTC（持仓达762,099枚）\n**小红书**：芒格谈比特币本质（民间热度）\n\n> 💰 **投资价值**：机构定价权从\"回避\"转向\"主动覆盖\"，牛熊转换信号\n\n---\n\n### 🟡 信号3：AI Agent自主性突破临界点\n\n**Reddit**：Karpathy AI agent 2天完成700实验\n**X平台**：Claude调查自身架构、multi-agent orchestration\n\n> ⚙️ **技术价值**：AI从「工具」进化为「数字员工」，AGI路径更清晰\n\n---\n\n## 🎯 今日最值得关注的1个机会\n\n### 📈 **BTC现货 + 矿企股票组合**\n\n**核心催化**：\n- Citibank 143K目标价 + Saylor持续买入 = 机构定价权确认\n- ETF持续净流入，抛压减弱\n- 减半效应12-18个月后显现（历史规律）\n\n**具体行动建议**：\n\n| 策略 | 标的 | 仓位建议 | 止损 |\n|------|------|----------|------|\n| 核心持仓 | $BTC 现货/ETF | 30% | -15% |\n| 进攻仓位 | $MARA / $COIN | 10% | -20% |\n| 对冲 | 10%仓位做多ETH/BTC汇率 | 5% | -10% |\n\n**入场节奏**：分3批，$62K/$58K/$55K各1/3\n**目标持有期**：6-18个月（对标Citibank 2026目标）\n\n---\n\n⚠️ **风险提示**：以上为信息分享，不构成投资建议。市场有风险，决策需自主。\n\n---"
+}

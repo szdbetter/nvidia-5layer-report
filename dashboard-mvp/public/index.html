@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ClawLabs 指挥中心</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <!-- Header -->
+  <header class="app-header">
+    <div class="header-left">
+      <span class="header-logo">🧠</span>
+      <span class="header-title">ClawLabs</span>
+    </div>
+    <div class="header-right">
+      <span id="header-time" class="header-time"></span>
+      <span class="header-user">👤 岁月</span>
+    </div>
+  </header>
+
+  <div class="app-body">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <nav class="sidebar-nav">
+        <div class="nav-item active" data-page="home">
+          <span class="nav-icon">🏠</span>
+          <span class="nav-label">首页</span>
+        </div>
+
+        <!-- Polymarket 项目组 -->
+        <div class="nav-item nav-parent" id="nav-polymarket">
+          <span class="nav-icon">📊</span>
+          <span class="nav-label">Polymarket</span>
+          <span class="nav-arrow" id="poly-arrow">▶</span>
+        </div>
+        <div class="nav-submenu" id="poly-submenu" style="display:none">
+          <div class="nav-item nav-sub" data-href="/macro">
+            <span class="nav-icon">🌊</span><span class="nav-label">宏观引擎</span>
+          </div>
+          <div class="nav-item nav-sub" data-href="/iran-arb">
+            <span class="nav-icon">🇮🇷</span><span class="nav-label">美伊套利</span>
+          </div>
+          <div class="nav-item nav-sub" data-href="/elon2">
+            <span class="nav-icon">🐦</span><span class="nav-label">Elon 追踪</span>
+          </div>
+        </div>
+
+        <!-- 闲鱼电影票 项目组 -->
+        <div class="nav-item nav-parent" id="nav-ticket">
+          <span class="nav-icon">🎬</span>
+          <span class="nav-label">闲鱼电影票</span>
+          <span class="nav-arrow" id="ticket-arrow">▶</span>
+        </div>
+        <div class="nav-submenu" id="ticket-submenu" style="display:none">
+          <div class="nav-item nav-sub" data-href="/ticket">
+            <span class="nav-icon">🛒</span><span class="nav-label">自动助手</span>
+          </div>
+          <div class="nav-item nav-sub" data-href="/scraper">
+            <span class="nav-icon">🔍</span><span class="nav-label">比价抓取</span>
+          </div>
+        </div>
+
+        <!-- Bot 监控 项目组 -->
+        <div class="nav-item nav-parent" id="nav-bot">
+          <span class="nav-icon">🤖</span>
+          <span class="nav-label">Bot 监控</span>
+          <span class="nav-arrow" id="bot-arrow">▶</span>
+        </div>
+        <div class="nav-submenu" id="bot-submenu" style="display:none">
+          <div class="nav-item nav-sub" data-href="/bot">
+            <span class="nav-icon">📡</span><span class="nav-label">频道监控</span>
+          </div>
+          <div class="nav-item nav-sub" data-href="/wukong">
+            <span class="nav-icon">🐒</span><span class="nav-label">悟空 Agent</span>
+          </div>
+        </div>
+
+        <div class="nav-divider"></div>
+        <div class="nav-item" id="nav-bg-tasks" data-section="bg-tasks">
+          <span class="nav-icon">⚙️</span>
+          <span class="nav-label">后台任务</span>
+          <span class="nav-badge" id="nav-task-badge">0</span>
+        </div>
+        <div class="nav-item" onclick="window.location.href='/research'" style="cursor:pointer">
+          <span class="nav-icon">🔍</span>
+          <span class="nav-label">热点情报</span>
+        </div>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <div id="page-home" class="page active">
+
+        <!-- ── Stats Bar ── -->
+        <div class="stats-row" style="margin-bottom:20px">
+          <div class="stat-card">
+            <div class="stat-icon">📁</div>
+            <div class="stat-body">
+              <div class="stat-value" id="stat-projects">—</div>
+              <div class="stat-label">活跃项目</div>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">⚡</div>
+            <div class="stat-body">
+              <div class="stat-value" id="stat-tasks">—</div>
+              <div class="stat-label">进行中任务</div>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">🔧</div>
+            <div class="stat-body">
+              <div class="stat-value" id="stat-bg-running">—</div>
+              <div class="stat-label">后台脚本</div>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">🕐</div>
+            <div class="stat-body">
+              <div class="stat-value" id="stat-crons">—</div>
+              <div class="stat-label">Cron 任务</div>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">🐛</div>
+            <div class="stat-body">
+              <div class="stat-value" id="stat-issues">—</div>
+              <div class="stat-label">Open Issues</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ── Bitfinex + 系统状态 横排 ── -->
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:20px">
+          <!-- Bitfinex Widget -->
+          <div class="section-card">
+            <div class="section-card-header">
+              <span>📊 Bitfinex USDT 实时行情</span>
+              <span id="bfx-badge"></span>
+              <a href="/tasks" style="margin-left:auto;font-size:11px;color:#6366f1;text-decoration:none">详情 →</a>
+            </div>
+            <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px">
+              <div class="mini-stat">
+                <div class="mini-stat-label">价格</div>
+                <div class="mini-stat-val" id="bfx-price">--</div>
+              </div>
+              <div class="mini-stat">
+                <div class="mini-stat-label">借出利率/日</div>
+                <div class="mini-stat-val" id="bfx-rate">--</div>
+              </div>
+              <div class="mini-stat">
+                <div class="mini-stat-label">FRR/年</div>
+                <div class="mini-stat-val" id="bfx-frr">--</div>
+              </div>
+            </div>
+            <div style="font-size:11px;color:#475569;margin-top:8px">更新：<span id="bfx-updated">--</span></div>
+          </div>
+
+          <!-- 系统节点状态 -->
+          <div class="section-card">
+            <div class="section-card-header"><span>🖥️ 系统节点状态</span></div>
+            <div style="display:flex;flex-direction:column;gap:8px;margin-top:12px">
+              <div class="node-row"><span>🧠 OpenViking</span><span id="sys-ov">—</span></div>
+              <div class="node-row"><span>💻 Fiona-mbp2015</span><span id="sys-fiona">—</span></div>
+              <div class="node-row"><span>📡 Bot 监控</span><span id="sys-bot">—</span></div>
+              <div class="node-row"><span>🔧 Bitfinex 守护</span><span id="sys-bfx-daemon">—</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ── AI+Crypto 研报入口 ── -->
+        <a href="/research.html" style="display:block;text-decoration:none;margin-bottom:20px">
+          <div style="background:linear-gradient(135deg,rgba(88,166,255,0.1),rgba(163,113,247,0.1));border:1px solid rgba(88,166,255,0.3);border-radius:10px;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;transition:border-color 0.2s;cursor:pointer" onmouseover="this.style.borderColor='rgba(88,166,255,0.6)'" onmouseout="this.style.borderColor='rgba(88,166,255,0.3)'">
+            <div>
+              <div style="font-size:15px;font-weight:600;color:#e6edf3;margin-bottom:4px">🔍 AI+Crypto 热点情报</div>
+              <div style="font-size:12px;color:#8b949e">每日三平台采集 · MiniMax深度分析</div>
+            </div>
+            <div style="color:#58a6ff;font-size:13px;font-weight:500;white-space:nowrap">查看今日研报 →</div>
+          </div>
+        </a>
+
+        <!-- ── 项目看板 ── -->
+        <div class="section-title" style="margin-bottom:12px">📁 项目看板</div>
+        <div id="project-grid" class="project-grid" style="margin-bottom:24px">
+          <div class="loading-placeholder">加载中...</div>
+        </div>
+
+        <!-- ── 后台脚本任务 ── -->
+        <div class="section-title" id="bg-tasks" style="margin-bottom:12px;display:flex;align-items:center;justify-content:space-between">
+          <span>⚙️ 后台脚本任务</span>
+          <button class="btn-mini" onclick="openAddTaskModal()">+ 添加</button>
+        </div>
+        <div class="table-wrapper" style="margin-bottom:24px">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>状态</th><th>任务名</th><th>命令</th><th>重启</th><th>PID</th><th>启动时间</th><th>操作</th>
+              </tr>
+            </thead>
+            <tbody id="bg-task-tbody">
+              <tr><td colspan="7" class="table-empty">加载中...</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- ── Cron 定时任务 ── -->
+        <div class="section-title" style="margin-bottom:12px">🕐 Cron 定时任务</div>
+        <div class="table-wrapper" style="margin-bottom:24px">
+          <table class="data-table">
+            <thead>
+              <tr><th>任务名</th><th>状态</th><th>上次运行</th><th>下次运行</th><th>计划</th></tr>
+            </thead>
+            <tbody id="cron-tbody">
+              <tr><td colspan="5" class="table-empty">加载中...</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div><!-- /page-home -->
+    </main>
+  </div>
+</div>
+
+<!-- 添加任务 Modal -->
+<div class="modal-overlay" id="add-task-modal">
+  <div class="modal" style="width:560px">
+    <div class="modal-header">
+      <span>添加后台任务</span>
+      <button class="btn-ghost-sm" onclick="closeAddTaskModal()">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="form-grid">
+        <div class="form-group"><label>任务 ID</label><input id="at-id" placeholder="my-task"></div>
+        <div class="form-group"><label>任务名</label><input id="at-name" placeholder="我的任务"></div>
+        <div class="form-group full"><label>说明</label><input id="at-desc" placeholder="这个任务做什么..."></div>
+        <div class="form-group"><label>命令</label><input id="at-cmd" placeholder="python3"></div>
+        <div class="form-group"><label>参数（空格分隔）</label><input id="at-args" placeholder="/path/to/script.py"></div>
+        <div class="form-group full"><label>工作目录（可选）</label><input id="at-cwd" placeholder="/root/..."></div>
+        <div class="form-group"><label>退出后重启间隔（秒，0=不重启）</label><input type="number" id="at-interval" value="0"></div>
+      </div>
+      <div style="margin-top:16px;display:flex;gap:8px;justify-content:flex-end">
+        <button class="btn-ghost-sm" onclick="closeAddTaskModal()">取消</button>
+        <button class="btn-primary-sm" onclick="submitAddTask()">注册并启动</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

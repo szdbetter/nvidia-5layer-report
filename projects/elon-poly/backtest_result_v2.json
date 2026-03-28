@@ -1,0 +1,16 @@
+{
+  "total_weeks": 35,
+  "total_trades": 34,
+  "no_trade_periods": 0,
+  "total_pnl": 9353.209264864803,
+  "hit_rate": 0.23529411764705882,
+  "avg_ev": 1.674340026249042,
+  "avg_pnl_per_trade": 275.0943901430824,
+  "sharpe_annualized": 2.4115389596990733,
+  "max_drawdown": 1367.2428653962043,
+  "avg_edge": 0.15221702945607002,
+  "profit_factor": 3.144386695011641,
+  "is_ev_positive": true,
+  "is_profitable": true,
+  "timestamp": "2026-03-23T15:07:43.596993+00:00"
+}

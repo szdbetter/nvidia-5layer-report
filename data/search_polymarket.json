@@ -1,0 +1,665 @@
+[
+  {
+    "id": "2023805308133667139",
+    "text": "@CarOnPolymarket Hi, nice to e-meet u.\nI am building some utilities on Polymarket like copytrader, arbitrage bot.\nIt would be exciting to talk to u.",
+    "createdAt": "Tue Feb 17 17:02:40 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2023520138004492568",
+    "inReplyToStatusId": "2023521890938302732",
+    "author": {
+      "username": "soulcrancerdev",
+      "name": "$oul Cr@ncr | AI | Blockchain | Game Developer"
+    },
+    "authorId": "3468519201"
+  },
+  {
+    "id": "2023805126918685090",
+    "text": "@k1rallik @Polymarket @PolymarketTrade @kreoapp such a profit in 15 days! It's powerful! \n\nbut to be honest, he had quite a large deposit!",
+    "createdAt": "Tue Feb 17 17:01:57 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2023802079211307112",
+    "inReplyToStatusId": "2023803775086113110",
+    "author": {
+      "username": "KnightShift",
+      "name": "Knight"
+    },
+    "authorId": "1483427019983622144"
+  },
+  {
+    "id": "2023804907329909010",
+    "text": "Everyone thinks Polymarket is “slow money.”\n\nIt’s not.\n\nIt’s just slow for you.\n\nAverage spread mispricing on volatile events lives for 3–7 seconds.\n\nHere’s what actually decides who gets paid:\n\nPython bot: ~2.3s reaction\nNode.js: ~1.9s\nGo: ~1.4s\nC++: ~1.1s\nRust: ~0.8s\nSpread collapse time on real size?\nOften under 2 seconds.\nDo the math.\nIf your stack reacts slower than the spread closes, you’re not trading inefficiency.\nYou’re donating to whoever is.\nPeople argue about “edge.”\nEdge is reaction speed × execution certainty × capital rotation.\n\nHidden layer most don’t see:\n• Bots monitor cross-market mispricings, not single markets\n• They pre-calc hedge paths before clicking\n• They rotate capital every 20–40 seconds, not every 10 minutes\n• They price in gas, slippage, and hedge latency before you even notice the move\n\nManual traders refreshing the page?\n\nYou’re not competing with other humans.\nYou’re competing with compiled code sitting next to the RPC.\n\nWhen you think “hmm is this mispriced?”\nThe Rust bot already hedged, rotated, and is scanning the next event.\nAnd when you finally enter?\n\nYou’re the exit liquidity that validates their model.\n\nPolymarket isn’t inefficient.\nIt’s selectively efficient.\nAnd the selection isn’t random.\nhttps://t.co/rLrPfwl5zH",
+    "createdAt": "Tue Feb 17 17:01:05 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2023804907329909010",
+    "author": {
+      "username": "sanek_1sd",
+      "name": "Sanek"
+    },
+    "authorId": "2009638304711581697",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HBX_yqOW0AAIuGG.jpg",
+        "width": 1200,
+        "height": 800,
+        "previewUrl": "https://pbs.twimg.com/media/HBX_yqOW0AAIuGG.jpg:small"
+      },
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2023804853517250565/img/B7HHLCyao5MIVp0s.jpg",
+        "width": 1920,
+        "height": 1080,
+        "previewUrl": "https://pbs.twimg.com/amplify_video_thumb/2023804853517250565/img/B7HHLCyao5MIVp0s.jpg:small",
+        "videoUrl": "https://video.twimg.com/amplify_video/2023804853517250565/vid/avc1/1920x1080/tvm8NTdwxazFYw-r.mp4?tag=21",
+        "durationMs": 14826
+      }
+    ]
+  },
+  {
+    "id": "2023804871531536719",
+    "text": "A Polymarket user named \"MR99.9c\" just did exactly that.\n\nEvent: Bitcoin &gt; $68k today?\nSide: NO @ 99.90¢\nSize: $10,000\n\nRisk: $10,000\nProfit: $10\n\nThe username is the strategy.\n\nSpotted on https://t.co/IdEtBdhclg",
+    "createdAt": "Tue Feb 17 17:00:56 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2023804871531536719",
+    "author": {
+      "username": "dipiridotcom",
+      "name": "Dipiri"
+    },
+    "authorId": "1982314428000546816"
+  },
+  {
+    "id": "2023804846173024701",
+    "text": "@DenisKursakov @Polymarket @PolymarketTrade LoL profit in one day $50k",
+    "createdAt": "Tue Feb 17 17:00:50 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2023800606503186752",
+    "inReplyToStatusId": "2023800606503186752",
+    "author": {
+      "username": "adiix_official",
+      "name": "AdiiX"
+    },
+    "authorId": "1840788730249961476"
+  },
+  {
+    "id": "2023804783120064581",
+    "text": "$6.0K sell just hit on US strikes Iran by February 28, 2026\n\n81% | 7,401 contracts | Polymarket\n\nsellers taking profit",
+    "createdAt": "Tue Feb 17 17:00:35 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2023804783120064581",
+    "author": {
+      "username": "PolyxAlpha",
+      "name": "PolyAlpha"
+    },
+    "authorId": "1731458481012838400"
+  },
+  {
+    "id": "2023804734717436394",
+    "text": "One guy dropped a Polymarket screenshot instead.\n\nCaption: \"She said I was gambling my life away. Now she watches my portfolio from her finsta.\"\n\nPost hit 12K likes. Her entire year of Stories? 847.\n\nk9Q2mX4L8A7ZP3R. $667K profit in one month. 17,589 predictions. The chart doesn't dip. It doesn't flatten. It just climbs.\n\nComments went feral.\n\n\"Bro replaced emotional damage with compound interest.\" \"This is the most romantic thing I've seen all week.\" \"She's screenshotting. He's scaling.\"\n\nThe wallet doesn't ghost you. Doesn't need closure. Doesn't text at 2am asking to talk.\n$13K in → $36K out. $19K in → $36K out. $11K in → $27K out. $5.9K in → $18K out.\nBTC windows. ETH windows. 15 minutes. Over and over. All green.\n\n128K people watching now. His ex is probably one of them.\n\nSomeone commented: \"She wanted a provider. Didn't realize his paycheck comes every 15 minutes.\"\n\nHe replied with a fresh screenshot. Up another $23K since breakfast. Left her on read.\n\n→ Try it yourself — BTC Up/Down (15m) https://t.co/YGaQs5XdWR",
+    "createdAt": "Tue Feb 17 17:00:23 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2023804734717436394",
+    "author": {
+      "username": "tomnixson",
+      "name": "Nixson"
+    },
+    "authorId": "1691190963018874880",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HBX9qncXIAA189J.png",
+        "width": 700,
+        "height": 800,
+        "previewUrl": "https://pbs.twimg.com/media/HBX9qncXIAA189J.png:small"
+      },
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2023804703646388225/img/6ChkRx5Kg0Yq9Hdf.jpg",
+        "width": 554,
+        "height": 750,
+        "previewUrl": "https://pbs.twimg.com/amplify_video_thumb/2023804703646388225/img/6ChkRx5Kg0Yq9Hdf.jpg:small",
+        "videoUrl": "https://video.twimg.com/amplify_video/2023804703646388225/vid/avc1/554x750/HKimINEXnlMnuQJ1.mp4?tag=21",
+        "durationMs": 7168
+      }
+    ]
+  },
+  {
+    "id": "2023804547605676435",
+    "text": "@bonduelleioat @Polymarket 1.55m from 1.3k in 3 months short btc/sol bot vibes",
+    "createdAt": "Tue Feb 17 16:59:39 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2023682564213424205",
+    "inReplyToStatusId": "2023682564213424205",
+    "author": {
+      "username": "LeisenCrypto",
+      "name": "Leisen"
+    },
+    "authorId": "1960437204691640322"
+  },
+  {
+    "id": "2023804518916608507",
+    "text": "@shitcoinintern @Rickie99_ @Polymarket Yes we do. It should be a right. You not think so either makes you a foreign bot or anti-america.",
+    "createdAt": "Tue Feb 17 16:59:32 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2023422506963747319",
+    "inReplyToStatusId": "2023670720107061598",
+    "author": {
+      "username": "SilentSnake000",
+      "name": "Silent"
+    },
+    "authorId": "1916337845997813760"
+  },
+  {
+    "id": "2023804448708194406",
+    "text": "@LeisenCrypto @Polymarket @PolymarketTrade I don’t even know how he came to this strategy",
+    "createdAt": "Tue Feb 17 16:59:15 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2023748620768452933",
+    "inReplyToStatusId": "2023803974403715571",
+    "author": {
+      "username": "MazinoTower",
+      "name": "mazino.patron"
+    },
+    "authorId": "1755866758408200192"
+  },
+  {
+    "id": "2023804277475643897",
+    "text": "@gavelsvtw @Polymarket @PolymarketTrade chatgpt 5min bot 2k to 60k in 48hrs no sleep printing",
+    "createdAt": "Tue Feb 17 16:58:34 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2023722394745995348",
+    "inReplyToStatusId": "2023722394745995348",
+    "author": {
+      "username": "LeisenCrypto",
+      "name": "Leisen"
+    },
+    "authorId": "1960437204691640322"
+  },
+  {
+    "id": "2023804249356866008",
+    "text": "I agree that with the development of AI, this has become possible for almost anyone\n\nThe problem here lies in understanding the entire logic of the bot's actions so that it can consistently make money in all market situations rather than lose it. Unfortunately, AI is not yet very good at this. Even if you load all the trades into it",
+    "createdAt": "Tue Feb 17 16:58:28 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2023795986074644607",
+    "inReplyToStatusId": "2023802942869123247",
+    "author": {
+      "username": "RiskRich",
+      "name": "Risk Rich"
+    },
+    "authorId": "3304268134"
+  },
+  {
+    "id": "2023803517060935774",
+    "text": "@AlterEgo_eth @Polymarket @PolymarketTrade wow, thats actually huge profit",
+    "createdAt": "Tue Feb 17 16:55:33 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2023796822104522805",
+    "inReplyToStatusId": "2023796822104522805",
+    "author": {
+      "username": "Marchiii_1337",
+      "name": "Marchiii"
+    },
+    "authorId": "1896905101660618752"
+  },
+  {
+    "id": "2023803501781151881",
+    "text": "This is a @PolyblockTrade @Polymarket bot.\n\nYou can easily lose your money just as easily as you can win it. \n\nPlease proceed with caution my friends.",
+    "createdAt": "Tue Feb 17 16:55:29 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2023801807773073860",
+    "inReplyToStatusId": "2023801807773073860",
+    "author": {
+      "username": "Dejota_SPS",
+      "name": "Dejota"
+    },
+    "authorId": "1218035202041102341"
+  },
+  {
+    "id": "2023803395984011511",
+    "text": "@AlterEgo_eth @Polymarket DCA strategy often good to accumulate position",
+    "createdAt": "Tue Feb 17 16:55:04 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2023710738712252593",
+    "inReplyToStatusId": "2023798968074047571",
+    "author": {
+      "username": "Predicti0r",
+      "name": "Predict0r"
+    },
+    "authorId": "1413901427764862976"
+  },
+  {
+    "id": "2023803382335414438",
+    "text": "~13% of wallets on Polymarket have a positive PnL.\n\nIf you’re one of them, you’ve got nothing to worry about.\n\nBut if your curve is going straight down, I have a genius solution for you.\n                                        \nYou only need to change ONE thing in your strategy.\n\nDo your event analysis exactly the same way as before. No need to change anything there.\n\nBut when it’s time to place the trade, just force yourself to take the opposite side 🙂\n\nI promise you, your results will improve.\n\nDYOR.",
+    "createdAt": "Tue Feb 17 16:55:01 +0000 2026",
+    "replyCount": 3,
+    "retweetCount": 0,
+    "likeCount": 7,
+    "conversationId": "2023803382335414438",
+    "author": {
+      "username": "papa_couch",
+      "name": "Couch"
+    },
+    "authorId": "1435316703496445955"
+  },
+  {
+    "id": "2023803105784332536",
+    "text": "@Alexo_0x @Polymarket @PolymarketTrade @zscdao 5min btc delay glitch hacked and bot printing now?? copying this dude fr",
+    "createdAt": "Tue Feb 17 16:53:55 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2023790423756440004",
+    "inReplyToStatusId": "2023790423756440004",
+    "author": {
+      "username": "LeisenCrypto",
+      "name": "Leisen"
+    },
+    "authorId": "1960437204691640322"
+  },
+  {
+    "id": "2023802942869123247",
+    "text": "In fact, it is now much easier to create such a bot because neural networks greatly simplify the process.\n\nYou can even learn to code yourself with their help.\n\nThe point is that over time, the number of bots will grow and a battle will begin between them. The winner will be the one who constantly improves their bot, making it faster and more efficient.",
+    "createdAt": "Tue Feb 17 16:53:16 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 2,
+    "conversationId": "2023795986074644607",
+    "inReplyToStatusId": "2023802019207901640",
+    "author": {
+      "username": "AlterEgo_eth",
+      "name": "Alter Ego"
+    },
+    "authorId": "1960003551314534400"
+  },
+  {
+    "id": "2023802874766258378",
+    "text": "So many people on the TL\n\n\"I built this 5m @Polymarket bot that made me a million dollars\"\n\nAs someone who has been heads down on these markets long before they were viral\n\n99% are LARP, 1% actually work, .1% actually let traders use it\n\nThis is @PolyblockTrade \n\n300% in 24hrs👇",
+    "createdAt": "Tue Feb 17 16:53:00 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 1,
+    "likeCount": 3,
+    "conversationId": "2023802874766258378",
+    "author": {
+      "username": "StreamGuy_",
+      "name": "B // StreamGuy"
+    },
+    "authorId": "1856060841914748928",
+    "quotedTweet": {
+      "id": "2023801807773073860",
+      "text": "I was at $122 yesterday and haven’t added any extra funds. \n\nJust letting the bot do its thing.\n\nFind out more with my code and we both get rewarded. \n\nhttps://t.co/3547y1OZ3R https://t.co/AMaR8vUIYB",
+      "createdAt": "Tue Feb 17 16:48:46 +0000 2026",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 3,
+      "conversationId": "2023801807773073860",
+      "author": {
+        "username": "Dejota_SPS",
+        "name": "Dejota"
+      },
+      "authorId": "1218035202041102341",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HBX9BKMawAA7XW4.jpg",
+          "width": 962,
+          "height": 1046,
+          "previewUrl": "https://pbs.twimg.com/media/HBX9BKMawAA7XW4.jpg:small"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2023802700778082509",
+    "text": "@DenisKursakov @Polymarket @PolymarketTrade already more than $1.5m bot earned on... omg",
+    "createdAt": "Tue Feb 17 16:52:18 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2023800606503186752",
+    "inReplyToStatusId": "2023800606503186752",
+    "author": {
+      "username": "nursexxl",
+      "name": "nursex"
+    },
+    "authorId": "1799778091142717440"
+  },
+  {
+    "id": "2023802597489209368",
+    "text": "@KnightShift @Polymarket @PolymarketTrade @kreoapp I just tested this bot today! \n\nI can say one thing that it looks just fine, it's comfortable unlike the others 😃",
+    "createdAt": "Tue Feb 17 16:51:54 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2023802079211307112",
+    "inReplyToStatusId": "2023802079211307112",
+    "author": {
+      "username": "AlenaChramtsova",
+      "name": "Alena Chramtsova"
+    },
+    "authorId": "1539915612100694016"
+  },
+  {
+    "id": "2023802397647397132",
+    "text": "@0xRicker Incredible automation 🚀\nThe Polymarket bot makes ~$20K/day using micro-arbitrage, Down bets, and oracle delays — clean, stable income without manual operations.",
+    "createdAt": "Tue Feb 17 16:51:06 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2023761881748374015",
+    "inReplyToStatusId": "2023761881748374015",
+    "author": {
+      "username": "SafihanR",
+      "name": "Rustam.ink SparkChain.AI 🍚 ⛓ π² (❖,❖)🫎"
+    },
+    "authorId": "1792516522872565760"
+  },
+  {
+    "id": "2023802326860132685",
+    "text": "@Polymarket @saylor Easy 12% profit here",
+    "createdAt": "Tue Feb 17 16:50:49 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2023744880577548457",
+    "inReplyToStatusId": "2023764901702058024",
+    "author": {
+      "username": "0xzxch",
+      "name": "zacks.eth"
+    },
+    "authorId": "1528988380360499206"
+  },
+  {
+    "id": "2023802161314804174",
+    "text": "@kiira7094 @Polymarket @zscdao @PolymarketTrade thats a wild profit honestly\n\nthe sounds different huh",
+    "createdAt": "Tue Feb 17 16:50:10 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2023800858580787265",
+    "inReplyToStatusId": "2023800858580787265",
+    "author": {
+      "username": "SlotWinX",
+      "name": "SLOT.WIN"
+    },
+    "authorId": "1818790530291036160"
+  },
+  {
+    "id": "2023802079211307112",
+    "text": "This trader keeps printing money on Polymarket!\n\nActive since Feb 2nd! Up +$302,773 in profit\n\nHe doesn't scalp the 5-15m markets - he just focuses on strategic, consistent BTC price action\n\nCopying a trader's moves like this is a massive meta right now!\n\nThe play is simple:\n\n- get a fast, functional bot (I'm using the one by the @kreoapp team)\n\n- deposit funds\n\n- set it up and let it run\n\nReminder: сopy-trading is essentially delegating risk!\n\nAlways DYOR\n\nAccess: https://t.co/4mYs9xOCeB\n\nProfile: https://t.co/ziSKjZOkGw",
+    "createdAt": "Tue Feb 17 16:49:50 +0000 2026",
+    "replyCount": 6,
+    "retweetCount": 0,
+    "likeCount": 6,
+    "conversationId": "2023802079211307112",
+    "author": {
+      "username": "KnightShift",
+      "name": "Knight"
+    },
+    "authorId": "1483427019983622144",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2023800748702920710/img/7cokameuUbXdo91O.jpg",
+        "width": 1074,
+        "height": 1218,
+        "previewUrl": "https://pbs.twimg.com/amplify_video_thumb/2023800748702920710/img/7cokameuUbXdo91O.jpg:small",
+        "videoUrl": "https://video.twimg.com/amplify_video/2023800748702920710/vid/avc1/1074x1218/ICLZXAbfxLI3-RYv.mp4?tag=21",
+        "durationMs": 51710
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HBX8Hx2aUAA-SyP.jpg",
+        "width": 1074,
+        "height": 1217,
+        "previewUrl": "https://pbs.twimg.com/media/HBX8Hx2aUAA-SyP.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2023802019207901640",
+    "text": "@AlterEgo_eth @Polymarket @PolymarketTrade It seems simple, but in reality, creating such a bot is very difficult\n\nYou might think you've done the same thing, but it turns out there's some feature you didn't even think about, and without it, the bot won't work\n\nThere is no publicly available information",
+    "createdAt": "Tue Feb 17 16:49:36 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2023795986074644607",
+    "inReplyToStatusId": "2023801187976573269",
+    "author": {
+      "username": "RiskRich",
+      "name": "Risk Rich"
+    },
+    "authorId": "3304268134"
+  },
+  {
+    "id": "2023801948693270551",
+    "text": "Great roundup! Alerts are useful but the real edge is automating execution — not just getting notified 🤖\n\nhttps://t.co/QnZwQq3egT lets you deploy strategies that trade 24/7, no coding needed. Strategy leaderboard helps copy what's actually working.\n\nWhat's your fav tool in the list?",
+    "createdAt": "Tue Feb 17 16:49:19 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2009274265716277647",
+    "inReplyToStatusId": "2009274265716277647",
+    "author": {
+      "username": "PolymarBot",
+      "name": "PolymarBot"
+    },
+    "authorId": "1981551124021989377"
+  },
+  {
+    "id": "2023801780501414144",
+    "text": "My trading bot on Polymarket earned $1,059 using the Chainlink API.\n\nI'm not a professional coder, but...\n\nanyone can make such a bot, you just need to\n\nfollow this plan(you don't have to do everything like me):\n\n1. Use the Chainlink and Polymarket API\n\n2. Sync your server with NTP \n\n3. Rent a low-latency VPS.\n\n4. Run a lightweight stack (Linux + Python/Node).\n\n5. Track price changes and resolution conditions in real time.\n\n6. Detect oracle update before UI / terminal reflects it\n\n7. Enter only if edge > fees + slippage + error margin\n\n8.  Send orders immediately via API / smart contract interaction.\n\n9. Use fixed size. No martingale.\n\nDYOR",
+    "createdAt": "Tue Feb 17 16:48:39 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 5,
+    "conversationId": "2023801780501414144",
+    "author": {
+      "username": "Xdamagee",
+      "name": "damage"
+    },
+    "authorId": "1549004995302985728",
+    "quotedTweet": {
+      "id": "2023482366296289667",
+      "text": "Polymarket uses Chainlink Data for 5-min markets resolution\n\nBut terminal has crucial 1 minute delay\n\nWhat if I take Chainlink API, integrate chart and rent a server for a few bucks?\n\nThis would worth me an hour and up to 6 figures profits https://t.co/UY6x9LODn7",
+      "createdAt": "Mon Feb 16 19:39:25 +0000 2026",
+      "replyCount": 78,
+      "retweetCount": 39,
+      "likeCount": 732,
+      "conversationId": "2023482366296289667",
+      "author": {
+        "username": "KyleDeWriter",
+        "name": "Kyle the Writer"
+      },
+      "authorId": "1458442711418261505",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2023481653826351104/img/eVg-vp65I8eN6hQJ.jpg",
+          "width": 1920,
+          "height": 1080,
+          "previewUrl": "https://pbs.twimg.com/amplify_video_thumb/2023481653826351104/img/eVg-vp65I8eN6hQJ.jpg:small",
+          "videoUrl": "https://video.twimg.com/amplify_video/2023481653826351104/vid/avc1/1920x1080/ck7-AWK-HcNLFWoM.mp4?tag=21",
+          "durationMs": 10933
+        }
+      ]
+    }
+  },
+  {
+    "id": "2023801670874825165",
+    "text": "Not collecting rewards? You might want to rethink your strategy for $POLY.\n\nThis could end up being the largest airdrop ever.\n\n⚠️ $POLY DISTRIBUTION COMING ⚠️\n\nhttps://t.co/GuNEt2S3WN\n\nIt’s not just about a few bucks. It’s all about wallet ranking.\n\nEligible:\n→ Polymarket trader\n→ Daily rewards collector\n→ Single wallet user\n→ Active participant\n\nEvery single transaction counts.\n\nAim to be one of the most valuable wallets\nTop 5,000–20,000 could see $10K to $30K\n\n$POLY ticker trademarked February 5, 2026\nHigh-profile drop is on the way.\n\n⚠️ MULTI-WALLET = SYBIL = ZERO\nNo exceptions. Stick to one wallet.\n\nStart collecting now 👇\n\n$DMCP $GAIX",
+    "createdAt": "Tue Feb 17 16:48:13 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 125,
+    "likeCount": 479,
+    "conversationId": "2023801670874825165",
+    "author": {
+      "username": "juancbarry_eth",
+      "name": "JuancBarry.eth"
+    },
+    "authorId": "51465562",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HBX84ahXMAA65nZ.jpg",
+        "width": 1200,
+        "height": 346,
+        "previewUrl": "https://pbs.twimg.com/media/HBX84ahXMAA65nZ.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "2023800696248614919",
+    "text": "🚨 BREAKING: OpenClaw is pushing serious numbers.\n\nThis bot reportedly turned $204 into $157K on Polymarket.\n\nProfile:\n https://t.co/ZD8cZ4vXiP\n\nCopy:https://t.co/YP1pZU4PGb\n\nStrategy overview\n\n• Buys YES/NO shares in the 38¢–54¢ range\n• Trades short-duration Bitcoin Up/Down markets\n• Not permanently bullish or bearish\n• Flips bias based on structure\nThis isn’t moonshot hunting.\nIt’s mid-range probability positioning.\nCapturing asymmetric pricing when implied odds diverge from short-term momentum.\n\nSample wins\n\n• $3,031.80 → $6,003.35\n• $1,830.06 → $4,402.69\n\nThat suggests:\n\n• Aggressive sizing\n• Conviction entries\n• High volatility tolerance\n\nReality check\nTurning $204 into $157K implies:\n\n• Heavy compounding\n• Significant reinvestment\n• Potential exposure to large drawdowns\n\nMid-range entries (38–54¢) mean:\n\n• Not near-certain bets\n• Real directional risk\n• Variance swings\n\nBefore copying:\n\n• Check full trade history\n• Evaluate streak dependence\n• Consider liquidity depth\n• Factor fees and slippage\n\nBig returns get attention.\n\nSustainability is the real question.",
+    "createdAt": "Tue Feb 17 16:44:21 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 1,
+    "likeCount": 3,
+    "conversationId": "2023800696248614919",
+    "author": {
+      "username": "0xPhilanthrop",
+      "name": "Philanthrop"
+    },
+    "authorId": "1057932804493852672",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HBX4_l4acAAni7s.png",
+        "width": 344,
+        "height": 360,
+        "previewUrl": "https://pbs.twimg.com/media/HBX4_l4acAAni7s.png:small"
+      },
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2023800499355742213/img/LqKqgkxNmjRsg6B8.jpg",
+        "width": 1280,
+        "height": 720,
+        "previewUrl": "https://pbs.twimg.com/amplify_video_thumb/2023800499355742213/img/LqKqgkxNmjRsg6B8.jpg:small",
+        "videoUrl": "https://video.twimg.com/amplify_video/2023800499355742213/vid/avc1/1280x720/G0fZQUa2w0N5mC8S.mp4?tag=21",
+        "durationMs": 12145
+      }
+    ]
+  },
+  {
+    "id": "2023800606503186752",
+    "text": "22% spread on one trade today\n\narbitrage bot on Polymarket that prints $50k per day\n\nmany people already know it. In the last 24 hours, it made $53,756.\n\nit trades across different markets: 5-minute, 15-minute, and 24-hour.\n\nliterally all of its trades are profitable. As a result, it has already earned more than $1.5M.\n\nthere aren’t many bots this strong on the market, but those who build them don’t work regular jobs anymore.\n\nu should check article with this profile and Claude bots info",
+    "createdAt": "Tue Feb 17 16:43:59 +0000 2026",
+    "replyCount": 3,
+    "retweetCount": 0,
+    "likeCount": 5,
+    "conversationId": "2023800606503186752",
+    "author": {
+      "username": "DenisKursakov",
+      "name": "Denis Kursakov"
+    },
+    "authorId": "1429486176952623111",
+    "quotedTweet": {
+      "id": "2023761507364786290",
+      "text": "Create a OpenClaw + Polymarket trading bot without your programming so you never have to work again",
+      "createdAt": "Tue Feb 17 14:08:37 +0000 2026",
+      "replyCount": 5,
+      "retweetCount": 0,
+      "likeCount": 14,
+      "conversationId": "2023761507364786290",
+      "author": {
+        "username": "DenisKursakov",
+        "name": "Denis Kursakov"
+      },
+      "authorId": "1429486176952623111",
+      "article": {
+        "title": "Create a OpenClaw + Polymarket trading bot without your programming so you never have to work again",
+        "previewText": "Who cares if you’re a zero at programming? That’s the whole point. Take 5 minutes.\nyou don’t need to be a programmer to launch a trading bot.\nalthough GPT might come in handy.\nnot sure?\n \n@noisyb0y1 -"
+      }
+    },
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2023765668311822336/img/16iRFgTl4EPtMDHt.jpg",
+        "width": 700,
+        "height": 800,
+        "previewUrl": "https://pbs.twimg.com/amplify_video_thumb/2023765668311822336/img/16iRFgTl4EPtMDHt.jpg:small",
+        "videoUrl": "https://video.twimg.com/amplify_video/2023765668311822336/vid/avc1/700x800/zxkG819q90ZxuzM-.mp4?tag=21",
+        "durationMs": 10843
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HBXcNRLbcAEQWil.png",
+        "width": 700,
+        "height": 800,
+        "previewUrl": "https://pbs.twimg.com/media/HBXcNRLbcAEQWil.png:small"
+      }
+    ]
+  },
+  {
+    "id": "2023800140910477687",
+    "text": "@0xLanister Im going to try this new polymarket strategy RIGHT NOW. It looks like a free money bro. THANK YOU SO MUCH FOR LEAKING THIS INFO TO US",
+    "createdAt": "Tue Feb 17 16:42:08 +0000 2026",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2023795387987865999",
+    "inReplyToStatusId": "2023795387987865999",
+    "author": {
+      "username": "riptide_eth",
+      "name": "riptide.eth"
+    },
+    "authorId": "1088242298"
+  },
+  {
+    "id": "2023799808855863639",
+    "text": "@0xd1namit @Polymarket Solid strategy but the hidden risk is liquidity drying up before you can exit.\n\nThese thin markets can sit at 0.2¢ for weeks with nobody on the other side. The ones who make this consistently profitable set tight exit windows, not just price targets.",
+    "createdAt": "Tue Feb 17 16:40:49 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2023776097066700927",
+    "inReplyToStatusId": "2023776097066700927",
+    "author": {
+      "username": "predictoryx",
+      "name": "Predictoryx ▸ Polymarket Edge"
+    },
+    "authorId": "1884953158926893056"
+  },
+  {
+    "id": "2023799389614117193",
+    "text": "Best Polymarket Copy Trading Bot In 2026 https://t.co/Z9MYVTDO2t via @YouTube",
+    "createdAt": "Tue Feb 17 16:39:09 +0000 2026",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2023799389614117193",
+    "author": {
+      "username": "JoysFashionXtra",
+      "name": "Zero Webb"
+    },
+    "authorId": "1514581535030132738"
+  }
+]

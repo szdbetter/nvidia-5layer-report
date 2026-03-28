@@ -1,0 +1,113 @@
+
+@Wuhuoqiu (Lao Bai):
+@xupanweb3 @saharaai 暂时想到的几个点吧
+1. 高性能
+2. 隐私计算（比如TEE）
+3. 模型或者数据的Market Place
+4. 可验证的推理结果
+5. 针对AI开发者的SDK、API 或者模块化工具，方便去中心化算力，MCP Server之类的轻松接入
+📅 Sat May 31 14:40:16 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1928823851913187670
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@bitcoin10wu @saharaai @PublicAI_ 酱紫，下周我研究一下PublicAI那
+📅 Sat May 31 14:21:11 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1928819046620782919
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@ChequerCat666 @saharaai Hmm..We shall see. Time will tell
+📅 Sat May 31 14:20:48 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1928818949858156703
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@zhangli95560011 @saharaai 不是教授😂，另外两个是Monad和MegaETH
+📅 Sat May 31 14:20:18 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1928818823961927729
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@broleon @miranetwork Mira我也蛮喜欢的，如果他们那个“黑科技”真的成立的话，扔去Web2都是挺能打的项目
+📅 Sat May 31 14:19:03 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1928818510903349571
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+回忆了一下，@saharaai 应该是过去两年为数不多我们想投但没投进去的项目
+
+去年上半年想投的原因很简单 - 23-24年聊了一圈的数据标注项目，最后都没出手，因为基本都是类Gamefi的“标注 to Earn”系列，冷启动其实很难。而Sahara的数据标注是为数不多在Web2就有真实客户+真实收入的项目，且客户都是微软，亚马逊这种大客户
+
+但25年初那会我其实有点担心Sahara，因为传统的劳动密集型数据标注重要性下降了，尤其是DeepSeek R1发布之后，数据标注的玩法变了
+
+一是新一代很多大模型用的RLHF（Reinforcement Learning from Human Feedback），需要的是“少而精的高质量数据”而非“海量标注”，换句话说，你需要一个领域的少量Expert来帮助AI成长，而不是一大群普通人帮助AI识别数据
+
+二是像Deepseek R1这种纯RL（Pure Reinforcement Learning）的，连“少而精的高质量数据”都不怎么需要，它只需要一个初始语料的数据集，后面就完全是基于奖励函数的自我博弈或者合成数据来不断进化和调优
+
+所以年初我又去关注了下Sahara的动态，欣慰的发现他们没有只抱着数据标注这一个赛道，而是围绕着数据这个核心延伸出去好几条业务线
+
+Sahara Data：去中心化数据市场
+Sahara Knowledge Agent：个性化 AI 代理
+Sahara AI Marketplace：AI资产交易平台
+Sahara Blockchain：AI公链Layer 1
+
+这样无论是叙事还是商业模式都Make sense了许多，既有Web2，也有Web3。自己做了一条链更是符合 @thecryptoskanda  盘主说的拆分盘逻辑，且目前Crypto圈内“纯AI Layer1”这个细分赛道目前多少有点空白，或者说缺个龙头 -
+
+Near？- 这个不能算纯AI Layer1
+Vana？ - 这个是Layer1但更像一个纯数据链
+Bittensor？- 这个可以算，但Bittensor有点像BTC的POW，算“POW AI Layer1” 龙头
+SaharaAI - 有希望占据“POS AI Layer1”这个赛道龙头
+
+所以这次 @buidlpad 的ICO，有条件的老铁可以选择参与一波，虽然不便宜，但AI Layer1大赛道的潜在龙头，长期来看不太可能一直停留在这个估值
+📅 Sat May 31 08:11:14 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1928725947538427981
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@broleon @stayloudio 因为Kaito的激励让CT的注意力经济从VC币时代进入https://t.co/bLE586P970时代？🤔
+📅 Fri May 30 07:49:06 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1928357990672855141
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@broleon @jaydenwei 第一次参加线下活动，跟着大师兄沾光了
+📅 Thu May 29 13:56:30 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1928088060190667247
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+之前在ABCDE的时候跟团队聊过两次，对 $H @Humanityprot 这个项目的印象还是蛮好的（ABCDE每年聊600-700各项目，只投20个，所以没投是大概率，但其实能聊第二次的整体质地都不错，比如Vana，Sidekick……最终没投可能是估值或者其他原因）
+
+建议都去搞一个防身 - https://t.co/TG2JygkhIT
+
+本质上来讲这项目对标的是Worldcoin，只不过把虹膜换成了掌纹，换成掌纹有两个好处
+
+一是用户的心里抗拒，对着一个金属大球把眼睛贴上去10秒钟不动其实有点吓人，很多人心里就抵触。但你说把手放在手机或者什么扫描设备上，那妥妥的没人害怕
+
+二是Worldcoin那个虹膜收集器得专业设备，大规模铺开即费钱又费时，掌纹基本手机摄像头+软件就能搞定，简单不要太多
+
+你问为什么不能直接FaceID？这东西目前造假实在是太容易，而掌纹造假难度仅次于虹膜
+
+当然不能只有优点没缺点，缺点也有
+一是worldcoin背后是奥特曼，这个资源和影响力层面比不了
+
+二是掌纹掌生物特征唯一性相较虹膜肯定还是略低一些的，虽然远远高过FaceID，所以在极端苛刻的环境下首选还是虹膜
+
+但不管是worldcoin还是Humanity，在AI发展越来越快的时代一定会占据越来越重要的生态位，如果你关注AI圈子的，那么最近VEO3基本上可以算是跨越了“恐怖谷”，未来在诸多场景下识别真人还是AI/Bot, 必须是刚需！
+┌─ QT @Humanityprot:
+│ We're excited to announce that we’re allocating $2.2M worth of $H to the @KaitoAI ecosystem!
+│ 
+│ All those $H tokens are going straight to KAITO stakers &amp; Humanity Yappers - shaping the future of Web3 discussions online.
+│ 
+│ 🖼️ https://pbs.twimg.com/media/GsC9uoqXgAAc-OP.jpg
+└─ https://x.com/Humanityprot/status/1927749254472212765
+📅 Thu May 29 01:24:30 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1927898815446798710
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@bocaibocai_ 菠菜在悉尼也搞一个！
+📅 Wed May 28 23:17:12 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1927866776450170963
+──────────────────────────────────────────────────

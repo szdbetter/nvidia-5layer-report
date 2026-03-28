@@ -1,0 +1,30 @@
+[
+  {
+    "before_heading": "第一层：感知AI（Perceiving AI）",
+    "image_path": "/root/.openclaw/workspace/projects/nvidia-5layer/images/layer01_perceiving.png"
+  },
+  {
+    "before_heading": "第二层：生成AI（Generating AI）",
+    "image_path": "/root/.openclaw/workspace/projects/nvidia-5layer/images/layer02_generating.png"
+  },
+  {
+    "before_heading": "第三层：智能体AI ⭐（关键拐点）",
+    "image_path": "/root/.openclaw/workspace/projects/nvidia-5layer/images/layer03_agentic.png"
+  },
+  {
+    "before_heading": "第四层：物理AI",
+    "image_path": "/root/.openclaw/workspace/projects/nvidia-5layer/images/layer04_physical.png"
+  },
+  {
+    "before_heading": "第五层：主权AI",
+    "image_path": "/root/.openclaw/workspace/projects/nvidia-5layer/images/layer05_sovereign.png"
+  },
+  {
+    "before_heading": "关键结论",
+    "image_path": "/root/.openclaw/workspace/projects/nvidia-5layer/images/layer06_compute.png"
+  },
+  {
+    "before_heading": "A股怎么对应？",
+    "image_path": "/root/.openclaw/workspace/projects/nvidia-5layer/images/layer07_investment.png"
+  }
+]

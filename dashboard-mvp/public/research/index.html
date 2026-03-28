@@ -1,0 +1,1194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI+Crypto 热点情报站 | ClawLabs Research</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #f0f2f5;
+    --bg2: #ffffff;
+    --bg3: #fafafa;
+    --border: #e8e8e8;
+    --primary: #1890ff;
+    --accent: #ff4d4f;
+    --green: #52c41a;
+    --red: #ff4d4f;
+    --yellow: #faad14;
+    --text: #333333;
+    --text2: #666666;
+    --text3: #999999;
+  }
+  body { background: var(--bg); color: var(--text); font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif; display: flex; flex-direction: column; height: 100vh; overflow: hidden; }
+
+  /* TOP NAV */
+  .topnav {
+    height: 56px; background: #001529; border-bottom: 1px solid #002140;
+    display: flex; align-items: center; padding: 0 20px; gap: 16px; flex-shrink: 0; z-index: 100;
+  }
+  .logo { font-size: 20px; font-weight: 800; color: #ffffff; letter-spacing: -0.5px; }
+  .logo span { color: #1890ff; }
+  .nav-title { font-size: 14px; color: rgba(255,255,255,0.65); border-left: 1px solid rgba(255,255,255,0.2); padding-left: 16px; }
+  .nav-badge { background: #ff4d4f; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 7px; border-radius: 10px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .spacer { flex: 1; }
+  .nav-time { font-size: 13px; color: rgba(255,255,255,0.85); font-family: monospace; font-weight: 600; }
+  .nav-back { font-size: 13px; color: rgba(255,255,255,0.65); text-decoration: none; padding: 6px 12px; border: 1px solid rgba(255,255,255,0.2); border-radius: 6px; transition: all 0.2s; }
+  .nav-back:hover { color: #1890ff; border-color: #1890ff; }
+  .nav-desktop { display: flex; align-items: center; gap: 16px; }
+
+  /* LAYOUT */
+  .layout { display: flex; flex: 1; overflow: hidden; }
+
+  /* LEFT SIDEBAR */
+  .left-bar {
+    width: 220px; background: #001529; border-right: 1px solid #002140;
+    display: flex; flex-direction: column; overflow-y: auto; flex-shrink: 0;
+  }
+  .left-bar-header { padding: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); }
+  .left-bar-title { font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: rgba(255,255,255,0.45); font-weight: 600; }
+  .archive-item {
+    padding: 10px 16px; border-bottom: 1px solid rgba(255,255,255,0.06); cursor: pointer;
+    transition: background 0.15s; display: flex; align-items: center; gap: 10px;
+  }
+  .archive-item:hover { background: rgba(255,255,255,0.08); }
+  .archive-item.active { background: rgba(24,144,255,0.15); border-left: 3px solid #1890ff; }
+  .archive-date { font-size: 13px; font-weight: 600; color: rgba(255,255,255,0.85); }
+  .archive-meta { font-size: 11px; color: rgba(255,255,255,0.45); margin-top: 2px; }
+  .archive-dot { width: 8px; height: 8px; border-radius: 50%; background: #1890ff; flex-shrink: 0; }
+  .archive-dot.dim { background: rgba(255,255,255,0.2); }
+
+  /* MAIN */
+  .main { flex: 1; overflow-y: auto; padding: 20px; display: flex; flex-direction: column; gap: 18px; }
+
+  /* KPI CARDS */
+  .kpi-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+  .kpi-card {
+    background: #ffffff; border: 1px solid #e8e8e8; border-radius: 8px;
+    padding: 16px; position: relative; overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  }
+  .kpi-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--primary); }
+  .kpi-card.red::before { background: var(--red); }
+  .kpi-card.yellow::before { background: var(--yellow); }
+  .kpi-card.green::before { background: var(--green); }
+  .kpi-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.8px; color: var(--text2); font-weight: 600; }
+  .kpi-value { font-size: 26px; font-weight: 800; color: #1890ff; margin-top: 8px; line-height: 1; }
+  .kpi-value.red { color: var(--red); }
+  .kpi-value.orange { color: var(--accent); }
+  .kpi-sub { font-size: 11px; color: var(--text2); margin-top: 5px; }
+
+  /* SIGNALS */
+  .section-title { font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: var(--text2); font-weight: 700; margin-bottom: 10px; }
+  .signals-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  .signal-card {
+    background: #ffffff; border: 1px solid #e8e8e8; border-radius: 8px;
+    padding: 16px; border-left: 4px solid var(--primary);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  }
+  .signal-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+  .signal-icon { font-size: 18px; }
+  .signal-tag { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
+  .signal-title { font-size: 14px; font-weight: 700; color: var(--text); margin-bottom: 6px; }
+  .signal-desc { font-size: 12px; color: var(--text2); line-height: 1.5; }
+
+  /* TABS */
+  .tabs-container { background: #ffffff; border: 1px solid #e8e8e8; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+  .tabs-header { display: flex; border-bottom: 1px solid #e8e8e8; background: #fafafa; }
+  .tab-btn {
+    padding: 12px 24px; font-size: 13px; font-weight: 600; cursor: pointer;
+    border-bottom: 2px solid transparent; color: #666666; background: none; border-top: none; border-left: none; border-right: none;
+    transition: all 0.2s;
+  }
+  .tab-btn:hover { color: #333333; }
+  .tab-btn.active { color: #ffffff; background: #1890ff; border-bottom-color: #1890ff; }
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
+
+  /* TABLE */
+  .table-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; }
+  thead th { padding: 10px 14px; font-size: 11px; text-transform: uppercase; letter-spacing: 0.6px; color: var(--text2); font-weight: 600; text-align: left; border-bottom: 1px solid #e8e8e8; background: #fafafa; white-space: nowrap; }
+  tbody tr { border-bottom: 1px solid #f0f0f0; transition: background 0.15s; }
+  tbody tr:nth-child(even) { background: #fafafa; }
+  tbody tr:hover { background: #e6f4ff; }
+  tbody td { padding: 10px 14px; font-size: 13px; vertical-align: middle; }
+  .rank-num { font-family: monospace; font-size: 11px; color: var(--text3); font-weight: 700; }
+  .rank-num.top { color: #ff4d4f; }
+  .heat-cell { min-width: 120px; }
+  .heat-bar-wrap { display: flex; align-items: center; gap: 8px; }
+  .heat-bar-bg { flex: 1; height: 4px; background: #e8e8e8; border-radius: 2px; overflow: hidden; }
+  .heat-bar { height: 100%; border-radius: 2px; }
+  .heat-num { font-family: monospace; font-size: 11px; color: var(--text2); white-space: nowrap; min-width: 42px; text-align: right; }
+  .title-link { color: #1890ff; text-decoration: none; font-size: 13px; line-height: 1.4; border-bottom: 1px solid transparent; transition: border-color 0.2s; }
+  .title-link:hover { color: #096dd9; border-bottom-color: #1890ff; }
+  .stat-num { font-family: monospace; font-size: 12px; color: var(--text2); }
+  .cat-badge { font-size: 10px; padding: 2px 7px; border-radius: 10px; font-weight: 600; }
+  .cat-ai { background: rgba(24,144,255,0.1); color: #1890ff; }
+  .cat-crypto { background: rgba(250,173,20,0.1); color: #faad14; }
+  .cat-macro { background: rgba(82,196,26,0.1); color: #52c41a; }
+
+  /* OFFLINE CARD */
+  .offline-card { padding: 48px; text-align: center; }
+  .offline-icon { font-size: 48px; margin-bottom: 16px; }
+  .offline-title { font-size: 18px; font-weight: 700; color: var(--text2); margin-bottom: 8px; }
+  .offline-sub { font-size: 13px; color: var(--text3); }
+
+  /* ANALYSIS */
+  .analysis-card { background: #ffffff; border: 1px solid #e8e8e8; border-radius: 8px; padding: 24px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+  .analysis-body { font-size: 14px; color: #333333; line-height: 1.8; }
+  .analysis-body h3 { color: #333333; font-size: 15px; margin: 20px 0 8px; }
+  .analysis-body h3:first-child { margin-top: 0; }
+  .analysis-body strong { color: #333333; }
+  .analysis-body hr { border: none; border-top: 1px solid #e8e8e8; margin: 16px 0; }
+  .analysis-body p { margin-bottom: 10px; }
+
+  /* DAILY REVIEW */
+  .review-row { display: flex; gap: 12px; }
+  .review-card { flex: 1; background: #ffffff; border: 1px solid #e8e8e8; border-radius: 8px; padding: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+  .review-signal { font-size: 13px; font-weight: 700; color: var(--text); margin-bottom: 8px; }
+  .review-stars { color: var(--yellow); font-size: 16px; margin-bottom: 6px; }
+  .review-comment { font-size: 12px; color: var(--text2); line-height: 1.4; }
+
+  /* RIGHT SIDEBAR */
+  .right-bar {
+    width: 260px; background: #ffffff; border-left: 1px solid #e8e8e8;
+    display: flex; flex-direction: column; overflow-y: auto; flex-shrink: 0; padding: 16px;
+    gap: 16px;
+  }
+  .sidebar-section { }
+  .sidebar-section-title { font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: var(--text2); font-weight: 700; margin-bottom: 10px; padding-bottom: 8px; border-bottom: 1px solid #e8e8e8; }
+  .top5-item { display: flex; align-items: flex-start; gap: 8px; padding: 8px 0; border-bottom: 1px solid #f0f0f0; }
+  .top5-rank { font-family: monospace; font-size: 11px; color: #ff4d4f; font-weight: 700; min-width: 16px; }
+  .top5-content { flex: 1; min-width: 0; }
+  .top5-title { font-size: 12px; color: var(--text); line-height: 1.3; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+  .top5-meta { display: flex; align-items: center; gap: 6px; margin-top: 4px; }
+  .plat-badge { font-size: 10px; padding: 1px 6px; border-radius: 8px; font-weight: 600; }
+  .plat-xhs { background: rgba(255,77,79,0.1); color: #ff4d4f; }
+  .plat-reddit { background: rgba(255,107,53,0.1); color: #fa541c; }
+  .top5-score { font-family: monospace; font-size: 10px; color: var(--text3); }
+
+  .opp-card { background: rgba(24,144,255,0.05); border: 1px solid rgba(24,144,255,0.2); border-radius: 8px; padding: 14px; }
+  .opp-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+  .opp-title { font-size: 13px; font-weight: 700; color: #1890ff; }
+  .urgency-badge { font-size: 10px; font-weight: 700; background: #ff4d4f; color: #fff; padding: 2px 6px; border-radius: 4px; }
+  .opp-sub { font-size: 11px; color: var(--text2); margin-bottom: 10px; }
+  .opp-actions { list-style: none; display: flex; flex-direction: column; gap: 6px; }
+  .opp-actions li { font-size: 11px; color: var(--text2); padding-left: 12px; position: relative; line-height: 1.4; }
+  .opp-actions li::before { content: '→'; position: absolute; left: 0; color: #1890ff; font-size: 10px; }
+
+  /* SCROLLBAR */
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: #e8e8e8; border-radius: 2px; }
+  ::-webkit-scrollbar-thumb:hover { background: #999999; }
+
+  /* ===================== MOBILE RESPONSIVE ===================== */
+  @media (max-width: 768px) {
+    /* body: allow scroll, not fixed height */
+    body { height: auto; overflow: auto; }
+
+    /* TOP NAV: only logo + settings button */
+    .topnav { padding: 0 14px; gap: 10px; }
+    .nav-title, .nav-badge, .nav-time, .nav-back { display: none; }
+    .nav-desktop { display: none; }
+
+    /* LAYOUT: single column, vertical stack */
+    .layout { flex-direction: column; overflow: visible; }
+
+    /* LEFT BAR: hidden by default, slide-in via toggle */
+    .left-bar {
+      width: 100%;
+      max-height: 0;
+      overflow: hidden;
+      border-right: none;
+      border-bottom: 1px solid #002140;
+      transition: max-height 0.3s ease;
+    }
+    .left-bar.open { max-height: 400px; overflow-y: auto; }
+
+    /* Mobile archive toggle button */
+    .archive-toggle-btn {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      width: 100%;
+      padding: 10px 16px;
+      background: #001529;
+      border: none;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      color: rgba(255,255,255,0.85);
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      text-align: left;
+    }
+
+    /* MAIN: full width, scrollable */
+    .main { overflow-y: visible; padding: 12px; gap: 14px; }
+
+    /* KPI: 2x2 grid */
+    .kpi-row { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    .kpi-value { font-size: 20px; }
+    .kpi-label { font-size: 10px; }
+
+    /* SIGNALS: single column */
+    .signals-row { grid-template-columns: 1fr; gap: 10px; }
+    .signal-title { font-size: 13px; }
+    .signal-desc { font-size: 11px; }
+
+    /* TABS: smaller buttons */
+    .tab-btn { padding: 10px 14px; font-size: 12px; }
+
+    /* TABLE: horizontal scroll */
+    .tab-content .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    table { min-width: 560px; }
+    thead th { font-size: 10px; padding: 8px 10px; }
+    tbody td { font-size: 12px; padding: 8px 10px; }
+    .title-link { font-size: 12px; }
+
+    /* SECTION TITLES */
+    .section-title { font-size: 11px; }
+
+    /* ANALYSIS */
+    .analysis-card { padding: 16px; }
+    .analysis-body { font-size: 12px; }
+    .analysis-body h3 { font-size: 13px; }
+
+    /* REVIEW ROW: wrap */
+    .review-row { flex-direction: column; gap: 10px; }
+    .review-card { padding: 12px; }
+    .review-signal { font-size: 12px; }
+    .review-comment { font-size: 11px; }
+
+    /* RIGHT BAR: move below main, full width */
+    .right-bar {
+      width: 100%;
+      border-left: none;
+      border-top: 1px solid #e8e8e8;
+      padding: 14px;
+      gap: 14px;
+      overflow-y: visible;
+    }
+
+    /* META INFO row wrap */
+    .meta-info-row { flex-direction: column !important; gap: 8px; }
+    .meta-badges { flex-wrap: wrap; gap: 6px; }
+
+    /* OFFLINE card */
+    .offline-card { padding: 24px 12px; }
+    .offline-icon { font-size: 32px; }
+    .offline-title { font-size: 15px; }
+
+    /* SETTINGS PANEL full width on mobile */
+    #settings-panel { width: 100% !important; right: -100% !important; }
+    #settings-panel.open { right: 0 !important; }
+  }
+</style>
+</head>
+<body>
+
+<!-- TOP NAV -->
+<nav class="topnav">
+  <div class="logo">Claw<span>Labs</span></div>
+  <div class="nav-title">AI+Crypto 热点情报站</div>
+  <span class="nav-badge">LIVE</span>
+  <div class="spacer"></div>
+  <div class="nav-desktop">
+    <div class="nav-time" id="clock"></div>
+    <a href="/" class="nav-back">← 返回主控台</a>
+  </div>
+  <button id="collect-btn" onclick="triggerCollect()" style="background:#52c41a;border:none;color:#fff;border-radius:6px;padding:6px 16px;font-size:13px;cursor:pointer;transition:all 0.2s;font-weight:600">⚡ 一键抓取</button>
+      <button onclick="toggleSettings()" style="background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);color:rgba(255,255,255,0.85);border-radius:6px;padding:6px 14px;font-size:13px;cursor:pointer;transition:all 0.2s">⚙️ 设置</button>
+</nav>
+
+<div class="layout">
+
+  <!-- MOBILE ARCHIVE TOGGLE -->
+  <button class="archive-toggle-btn" onclick="toggleArchive()" style="display:none" id="archive-toggle-btn">
+    📅 日期归档 <span id="archive-arrow">▼</span>
+  </button>
+
+  <!-- LEFT SIDEBAR: ARCHIVE -->
+  <aside class="left-bar" id="left-bar">
+    <div class="left-bar-header">
+      <div class="left-bar-title">📅 日期归档</div>
+    </div>
+    <div id="archive-list" style="flex:1;overflow-y:auto"></div>
+    <div style="padding:16px;font-size:11px;color:rgba(255,255,255,0.3);text-align:center;">每次一键抓取后自动更新</div>
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main class="main">
+
+    <!-- META INFO -->
+    <div id="meta-info-row" class="meta-info-row" style="display:flex;align-items:center;justify-content:space-between;">
+      <div>
+        <div style="font-size:18px;font-weight:800;color:#333333;">情报日报 · 2026-03-25</div>
+        <div style="font-size:12px;color:#666666;margin-top:3px;">生成于 2026-03-25 07:03 BJT · AI自动采集分析</div>
+      </div>
+      <div class="meta-badges" style="display:flex;gap:8px;">
+        <span style="font-size:11px;color:#666666;padding:4px 10px;border:1px solid #e8e8e8;border-radius:6px;background:#fff;">📊 小红书 20条</span>
+        <span style="font-size:11px;color:#666666;padding:4px 10px;border:1px solid #e8e8e8;border-radius:6px;background:#fff;">🌐 Reddit 10条</span>
+        <span style="font-size:11px;color:#1da1f2;padding:4px 10px;border:1px solid #1da1f2;border-radius:6px;background:#e6f7ff;">𝕏 Twitter 15条</span>
+      </div>
+    </div>
+
+    <!-- KPI ROW -->
+    <div class="kpi-row">
+      <div class="kpi-card">
+        <div class="kpi-label">今日采集</div>
+        <div class="kpi-value">45</div>
+        <div class="kpi-sub">小红书20 + Reddit10 + X15</div>
+      </div>
+      <div class="kpi-card red">
+        <div class="kpi-label">最高热度</div>
+        <div class="kpi-value red">17,399</div>
+        <div class="kpi-sub">盲审前各大模型评分</div>
+      </div>
+      <div class="kpi-card yellow">
+        <div class="kpi-label">活跃平台</div>
+        <div class="kpi-value" style="font-size:18px;margin-top:10px;color:#1890ff;">小红书·Reddit</div>
+        <div class="kpi-sub" style="color:#1da1f2;">𝕏 X 在线 · 15条</div>
+      </div>
+      <div class="kpi-card green">
+        <div class="kpi-label">主趋势</div>
+        <div class="kpi-value" style="font-size:16px;margin-top:10px;color:#1890ff;">AI工具化浪潮 🔴</div>
+        <div class="kpi-sub">Claude Code生态爆发</div>
+      </div>
+    </div>
+
+    <!-- RESONANCE SIGNALS -->
+    <div>
+      <div class="section-title">⚡ 三大共振信号</div>
+      <div style="font-size:12px;color:#999;margin-bottom:10px">同一话题在小红书 + Reddit + Twitter 同时热议，跨平台共振 = 真正值得关注的趋势</div>
+      <div class="signals-row" id="signals-container"></div>
+    </div>
+
+
+    <!-- TOPIC SUGGESTIONS -->
+    <div style="margin-bottom:24px">
+      <div class="section-title">🔥 爆款选题推荐</div>
+      <div id="topics-container" style="display:flex;flex-direction:column;gap:16px;margin-top:12px">
+        <div style="color:#999;font-size:13px;">加载中…</div>
+      </div>
+    </div>
+
+    <!-- DATA TABS -->
+    <div>
+      <div class="section-title">📊 数据热榜</div>
+      <div class="tabs-container">
+        <div class="tabs-header">
+          <button class="tab-btn active" id="tab-btn-xhs" onclick="switchTab('xhs',this)">📕 小红书</button>
+          <button class="tab-btn" id="tab-btn-reddit" onclick="switchTab('reddit',this)">🌐 Reddit</button>
+          <button class="tab-btn" id="tab-btn-twitter" onclick="switchTab('twitter',this)">𝕏 Twitter</button>
+        </div>
+        <div class="tab-content active" id="tab-xhs"><div class="table-wrap"></div></div>
+        <div class="tab-content" id="tab-reddit"><div class="table-wrap"></div></div>
+        <div class="tab-content" id="tab-twitter"><div class="table-wrap"></div></div>
+      </div>
+    </div>
+
+    <!-- DEEP ANALYSIS -->
+    <div>
+      <div class="section-title">🧠 深度分析报告</div>
+      <div class="analysis-card">
+        <div class="analysis-body" id="analysis-body"></div>
+      </div>
+    </div>
+
+    <!-- DAILY REVIEW -->
+    <div>
+      <div class="section-title">📋 今日信号评分</div>
+      <div class="review-row" id="review-row"></div>
+    </div>
+
+  </main>
+
+  <!-- RIGHT SIDEBAR -->
+  <aside class="right-bar">
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">🏆 TODAY TOP5</div>
+      <div id="top5-list"></div>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">💡 今日机会</div>
+      <div class="opp-card" id="opp-card"></div>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">📡 共振信号速览</div>
+      <div id="sidebar-signals"></div>
+    </div>
+  </aside>
+
+</div>
+
+<script>
+let RESEARCH_DATA = { date:"", time:"", stats:{total:0,xhs:0,reddit:0,twitter:0}, xhs:[], reddit:[], twitter:[], signals:[] };
+
+// CLOCK
+function updateClock() {
+  const now = new Date();
+  const bjt = new Date(now.getTime() + 8*3600*1000);
+  const s = bjt.toISOString().replace('T',' ').slice(0,19) + ' BJT';
+  document.getElementById('clock').textContent = s;
+}
+setInterval(updateClock, 1000);
+updateClock();
+
+// TAB SWITCH
+function switchTab(tab, btn) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  btn.classList.add('active');
+  document.getElementById('tab-'+tab).classList.add('active');
+}
+
+// HEAT BAR COLOR
+function heatColor(pct) {
+  if (pct > 0.7) return '#ff4d4f';
+  if (pct > 0.4) return '#faad14';
+  if (pct > 0.2) return '#faad14';
+  return '#1890ff';
+}
+
+// BUILD XHS TABLE
+function buildXHS() {
+  const maxScore = Math.max(...RESEARCH_DATA.xhs.map(r=>r.score));
+  let html = '<table><thead><tr><th>#</th><th>热度</th><th>标题</th><th>❤️点赞</th><th>🔖收藏</th><th>💬评论</th></tr></thead><tbody>';
+  RESEARCH_DATA.xhs.forEach((row, idx) => { row = {...row, rank: row.rank ?? idx+1};
+    const pct = row.score / maxScore;
+    const color = heatColor(pct);
+    html += `<tr>
+      <td><span class="rank-num ${row.rank<=3?'top':''}">${row.rank}</span></td>
+      <td class="heat-cell"><div class="heat-bar-wrap">
+        <div class="heat-bar-bg"><div class="heat-bar" style="width:${(pct*100).toFixed(1)}%;background:${color}"></div></div>
+        <span class="heat-num">${row.score.toLocaleString()}</span>
+      </div></td>
+      <td><a class="title-link" href="${row.url}" target="_blank">${row.title}</a></td>
+      <td><span class="stat-num">${row.likes.toLocaleString()}</span></td>
+      <td><span class="stat-num">${row.collects.toLocaleString()}</span></td>
+      <td><span class="stat-num">${row.comments.toLocaleString()}</span></td>
+    </tr>`;
+  });
+  html += '</tbody></table>';
+  document.querySelector('#tab-xhs .table-wrap').innerHTML = html;
+}
+
+// BUILD REDDIT TABLE
+function buildReddit() {
+  const maxScore = Math.max(...RESEARCH_DATA.reddit.map(r=>r.score));
+  let html = '<table><thead><tr><th>#</th><th>热度</th><th>标题</th><th>⬆️点赞</th><th>💬评论</th><th>分类</th></tr></thead><tbody>';
+  RESEARCH_DATA.reddit.forEach((row, idx) => { row = {...row, rank: row.rank ?? idx+1};
+    const pct = row.score / maxScore;
+    const color = heatColor(pct);
+    const catClass = row.category==='AI'?'cat-ai':row.category==='Crypto'?'cat-crypto':'cat-macro';
+    html += `<tr>
+      <td><span class="rank-num ${row.rank<=3?'top':''}">${row.rank}</span></td>
+      <td class="heat-cell"><div class="heat-bar-wrap">
+        <div class="heat-bar-bg"><div class="heat-bar" style="width:${(pct*100).toFixed(1)}%;background:${color}"></div></div>
+        <span class="heat-num">${row.score.toLocaleString()}</span>
+      </div></td>
+      <td><a class="title-link" href="${row.url}" target="_blank">${row.title}</a></td>
+      <td><span class="stat-num">${row.likes.toLocaleString()}</span></td>
+      <td><span class="stat-num">${row.comments.toLocaleString()}</span></td>
+      <td><span class="cat-badge ${catClass}">${row.category}</span></td>
+    </tr>`;
+  });
+  html += '</tbody></table>';
+  document.querySelector('#tab-reddit .table-wrap').innerHTML = html;
+}
+
+
+// BUILD TWITTER TABLE
+function buildTwitter() {
+  if (!RESEARCH_DATA.twitter || RESEARCH_DATA.twitter.length === 0) {
+    document.querySelector('#tab-twitter .table-wrap').innerHTML = '<div class="offline-card"><div class="offline-icon">𝕏</div><div class="offline-title">Twitter 数据暂无</div></div>';
+    return;
+  }
+  const maxScore = Math.max(...RESEARCH_DATA.twitter.map(r=>r.score));
+  let h = '<table><thead><tr><th>#</th><th>热度</th><th>标题</th><th>❤️点赞</th><th>🔁转发</th><th>👁浏览</th><th>分类</th></tr></thead><tbody>';
+  RESEARCH_DATA.twitter.forEach((row, idx) => { row = {...row, rank: row.rank ?? idx+1};
+    const pct = row.score / maxScore;
+    const color = heatColor(pct);
+    const catClass = row.category==='AI'?'cat-ai':'cat-crypto';
+    h += `<tr>
+      <td><span class="rank-num ${row.rank<=3?'top':''}">${row.rank}</span></td>
+      <td class="heat-cell"><div class="heat-bar-wrap">
+        <div class="heat-bar-bg"><div class="heat-bar" style="width:${(pct*100).toFixed(1)}%;background:${color}"></div></div>
+        <span class="heat-num">${row.score.toLocaleString()}</span>
+      </div></td>
+      <td><a class="title-link" href="${row.url}" target="_blank">${row.title}</a></td>
+      <td><span class="stat-num">${row.likes.toLocaleString()}</span></td>
+      <td><span class="stat-num">${row.retweets.toLocaleString()}</span></td>
+      <td><span class="stat-num">${(row.views||0).toLocaleString()}</span></td>
+      <td><span class="cat-badge ${catClass}">${row.category}</span></td>
+    </tr>`;
+  });
+  h += '</tbody></table>';
+  document.querySelector('#tab-twitter .table-wrap').innerHTML = h;
+}
+
+// BUILD SIGNALS
+function buildSignals() {
+  const c = document.getElementById('signals-container');
+  if (!RESEARCH_DATA.signals || !c) return;
+  c.innerHTML = RESEARCH_DATA.signals.map(s => `
+    <div class="signal-card" style="border-left-color:${s.color}">
+      <div class="signal-header">
+        <span class="signal-icon">${s.icon}</span>
+        <span class="signal-tag" style="color:${s.color}">${s.tag}</span>
+      </div>
+      <div class="signal-title">${s.title}</div>
+      <div class="signal-desc">${s.desc}</div>
+    </div>
+  `).join('');
+}
+
+// BUILD ANALYSIS
+function buildAnalysis() {
+  const text = RESEARCH_DATA.analysis;
+  if (!text) return;
+  const html = text
+    .replace(/### (.*)/g, '<h3>$1</h3>')
+    .replace(/## (.*)/g, '<h3>$1</h3>')
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    .replace(/---/g, '<hr>')
+    .replace(/\n\n/g, '<br><br>')
+    .replace(/\n/g, '<br>');
+  document.getElementById('analysis-body').innerHTML = html;
+}
+
+// Deep-link helper: on mobile try app scheme, fallback to web URL
+function openSourceUrl(url, platform) {
+  if (!url) return;
+  var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  if (isMobile) {
+    if (platform === 'xhs' || url.indexOf('xiaohongshu.com') > -1) {
+      var m = url.match(/\/explore\/([a-zA-Z0-9]+)/);
+      if (m) {
+        var appUrl = 'xhsdiscover://item/' + m[1];
+        var t = setTimeout(function() { window.open(url, '_blank'); }, 800);
+        window.location.href = appUrl;
+        window.addEventListener('blur', function() { clearTimeout(t); }, {once: true});
+        return;
+      }
+    }
+    if (platform === 'twitter' || url.indexOf('twitter.com') > -1 || url.indexOf('x.com') > -1) {
+      var m2 = url.match(/status\/(\d+)/);
+      if (m2) {
+        var t2 = setTimeout(function() { window.open(url, '_blank'); }, 800);
+        window.location.href = 'twitter://status/' + m2[1];
+        window.addEventListener('blur', function() { clearTimeout(t2); }, {once: true});
+        return;
+      }
+    }
+  }
+  window.open(url, '_blank');
+}
+
+// BUILD TOPIC SUGGESTIONS
+function buildTopics() {
+  const topics = RESEARCH_DATA.topics;
+  const el = document.getElementById('topics-container');
+  if (!topics || !topics.length || !el) {
+    if (el) el.innerHTML = '<div style="color:#999;font-size:13px;padding:20px;text-align:center">暂无选题数据（等待下次采集分析）</div>';
+    return;
+  }
+  const confColors = {'高':'#ff4d4f','中':'#faad14','低':'#52c41a'};
+  const platformLabel = {'xhs':'📕 小红书','reddit':'🌐 Reddit','twitter':'𝕏 Twitter'};
+  el.innerHTML = topics.map((t, i) => {
+    const conf = t.confidence || '中';
+    const confColor = confColors[conf] || '#faad14';
+    const outline = Array.isArray(t.outline) ? t.outline.map(p => `<li>${p}</li>`).join('') : `<li>${t.outline || ''}</li>`;
+    // Source links
+    const srcUrls = Array.isArray(t.source_urls) ? t.source_urls.filter(Boolean) : [];
+    const srcPlatform = t.source_platform || '';
+    let sourceHtml = '';
+    if (srcUrls.length) {
+      const links = srcUrls.map((url, idx) => {
+        const label = idx === 0 ? '查看原帖' : `原帖${idx+1}`;
+        return `<a href="javascript:void(0)" onclick="openSourceUrl('${url.replace(/'/g,"\\'")}','${srcPlatform}')" style="display:inline-flex;align-items:center;gap:4px;font-size:12px;color:#1890ff;text-decoration:none;padding:4px 10px;background:#e6f7ff;border-radius:6px;border:1px solid #91d5ff">${label} ↗</a>`;
+      }).join('');
+      const plLabel = platformLabel[srcPlatform] || srcPlatform;
+      sourceHtml = `<div style="margin-top:12px;padding-top:10px;border-top:1px solid #f0f0f0;display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+        <span style="font-size:11px;color:#999">来源：${plLabel}</span>
+        ${links}
+      </div>`;
+    }
+    return `
+    <div style="background:#fff;border:1px solid #e8e8e8;border-radius:12px;padding:20px;border-left:4px solid ${confColor};box-shadow:0 2px 8px rgba(0,0,0,0.04)">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px">
+        <div style="font-size:16px;font-weight:800;color:#333;flex:1">${i+1}. ${t.title}</div>
+        <div style="display:flex;gap:6px;flex-shrink:0;margin-left:12px">
+          <span style="font-size:11px;padding:2px 8px;border-radius:10px;background:${confColor}15;color:${confColor};font-weight:700;border:1px solid ${confColor}30">${conf}概率</span>
+          <span style="font-size:11px;padding:2px 8px;border-radius:10px;background:#f0f0f0;color:#666">${t.platform || ''}</span>
+          <span style="font-size:11px;padding:2px 8px;border-radius:10px;background:#e6f7ff;color:#1890ff;font-weight:600">🔥 ${(t.heat_score||0).toLocaleString()}</span>
+        </div>
+      </div>
+      <div style="background:#fffbe6;border-radius:8px;padding:10px 14px;margin-bottom:12px;border:1px solid #fff1b8">
+        <span style="font-size:11px;color:#d48806;font-weight:700">🎣 开头这样写：</span>
+        <span style="font-size:13px;color:#333">${t.hook || ''}</span>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px">
+        <div style="background:#f6ffed;border-radius:8px;padding:10px;border:1px solid #d9f7be">
+          <div style="font-size:11px;color:#389e0d;font-weight:700;margin-bottom:4px">❓ 是什么</div>
+          <div style="font-size:12px;color:#333;line-height:1.5">${t.what || ''}</div>
+        </div>
+        <div style="background:#fff2e8;border-radius:8px;padding:10px;border:1px solid #ffd8bf">
+          <div style="font-size:11px;color:#d4380d;font-weight:700;margin-bottom:4px">🔥 为什么火</div>
+          <div style="font-size:12px;color:#333;line-height:1.5">${t.why || ''}</div>
+        </div>
+      </div>
+      <div style="background:#f0f5ff;border-radius:8px;padding:10px;margin-bottom:12px;border:1px solid #d6e4ff">
+        <div style="font-size:11px;color:#1d39c4;font-weight:700;margin-bottom:4px">🎯 切入角度</div>
+        <div style="font-size:12px;color:#333;line-height:1.5">${t.angle || ''}</div>
+      </div>
+      <div style="background:#fafafa;border-radius:8px;padding:10px;border:1px solid #f0f0f0">
+        <div style="font-size:11px;color:#666;font-weight:700;margin-bottom:6px">📝 文章大纲</div>
+        <ol style="margin:0;padding-left:18px;font-size:12px;color:#333;line-height:1.8">${outline}</ol>
+      </div>
+      ${sourceHtml}
+    </div>`;
+  }).join('');
+}
+
+// BUILD REVIEW
+function buildReview() {
+  const r = document.getElementById('review-row');
+  if (!RESEARCH_DATA.daily_review || !r) return;
+  r.innerHTML = RESEARCH_DATA.daily_review.map(rev => `
+    <div class="review-card">
+      <div class="review-signal">${rev.signal}</div>
+      <div class="review-stars">${'★'.repeat(rev.score)}${'☆'.repeat(3-rev.score)}</div>
+      <div class="review-comment">${rev.comment}</div>
+    </div>
+  `).join('');
+}
+
+// BUILD TOP5
+function buildTop5() {
+  const allItems = [
+    ...RESEARCH_DATA.xhs.map(r=>({...r, plat:'xhs'})),
+    ...RESEARCH_DATA.reddit.map(r=>({...r, plat:'reddit'}))
+  ].sort((a,b)=>b.score-a.score).slice(0,5);
+  const el = document.getElementById('top5-list');
+  el.innerHTML = allItems.map((item,i) => `
+    <div class="top5-item">
+      <div class="top5-rank">${i+1}</div>
+      <div class="top5-content">
+        <div class="top5-title">${item.title}</div>
+        <div class="top5-meta">
+          <span class="plat-badge plat-${item.plat}">${item.plat==='xhs'?'小红书':'Reddit'}</span>
+          <span class="top5-score">${item.score.toLocaleString()}</span>
+        </div>
+      </div>
+    </div>
+  `).join('');
+}
+
+// BUILD OPPORTUNITY
+function buildOpp() {
+  const opp = RESEARCH_DATA.top_opportunity;
+  if (!opp) return;
+  document.getElementById('opp-card').innerHTML = `
+    <div class="opp-header">
+      <div class="opp-title">${opp.title}</div>
+      <span class="urgency-badge">${opp.urgency}</span>
+    </div>
+    <div class="opp-sub">${opp.subtitle}</div>
+    <ul class="opp-actions">${opp.actions.map(a=>`<li>${a}</li>`).join('')}</ul>
+  `;
+}
+
+// BUILD SIDEBAR SIGNALS
+function buildSidebarSignals() {
+  const el = document.getElementById('sidebar-signals');
+  if (!RESEARCH_DATA.signals || !el) return;
+  el.innerHTML = RESEARCH_DATA.signals.map(s => `
+    <div style="padding:8px 0;border-bottom:1px solid #f0f0f0;">
+      <div style="display:flex;align-items:center;gap:6px;margin-bottom:4px;">
+        <span>${s.icon}</span>
+        <span style="font-size:12px;font-weight:700;color:${s.color}">${s.tag}</span>
+      </div>
+      <div style="font-size:11px;color:#666666;line-height:1.4;">${s.desc}</div>
+    </div>
+  `).join('');
+}
+
+// MOBILE: show archive toggle button, handle resize
+function handleResize() {
+  const isMobile = window.innerWidth <= 768;
+  const toggleBtn = document.getElementById('archive-toggle-btn');
+  if (toggleBtn) toggleBtn.style.display = isMobile ? 'flex' : 'none';
+  if (!isMobile) {
+    document.getElementById('left-bar').classList.remove('open');
+  }
+}
+window.addEventListener('resize', handleResize);
+handleResize();
+
+function toggleArchive() {
+  const bar = document.getElementById('left-bar');
+  const arrow = document.getElementById('archive-arrow');
+  const isOpen = bar.classList.contains('open');
+  bar.classList.toggle('open', !isOpen);
+  if (arrow) arrow.textContent = isOpen ? '▼' : '▲';
+}
+
+// ── 动态加载最新数据 ──────────────────────────────────────────────────────────
+async function loadLatestData(file) {
+  try {
+    const url = file ? `/api/research/latest?file=${file}` : `/api/research/latest?t=${Date.now()}`;
+    const r = await fetch(url);
+    const d = await r.json();
+    if (d.ok && d.data) {
+      Object.assign(RESEARCH_DATA, d.data);
+      // 更新下拉选中项
+      const sel = document.getElementById('history-select');
+      if (sel && d.file) {
+        for (let i=0; i<sel.options.length; i++) {
+          if (sel.options[i].value === d.file) { sel.selectedIndex = i; break; }
+        }
+      }
+      return true;
+    }
+  } catch(e) { console.error('loadLatestData', e); }
+  return false;
+}
+
+async function loadHistoryList() {
+  try {
+    const r = await fetch('/api/research/list');
+    const d = await r.json();
+    if (!d.ok) return;
+    const sel = document.getElementById('history-select');
+    if (!sel) return;
+    sel.innerHTML = '<option value="">📅 切换历史</option>';
+    d.files.forEach((f, i) => {
+      // raw_20260325_1030.json → 03-25 10:30
+      const m = f.match(/raw_(\d{4})(\d{2})(\d{2})_(\d{2})(\d{2})\.json/);
+      const label = m ? (m[4] ? `${m[2]}-${m[3]} ${m[4]}:${m[5]}` : `${m[2]}-${m[3]}`) : f;
+      const opt = document.createElement('option');
+      opt.value = f;
+      opt.textContent = i === 0 ? `🔴 ${label} (最新)` : label;
+      sel.appendChild(opt);
+    });
+    // 默认选中第一条
+    if (d.files.length > 0) sel.value = d.files[0];
+  } catch(e) { console.error('loadHistoryList', e); }
+}
+
+async function switchHistory(file) {
+  if (!file) return;
+  await loadLatestData(file);
+  rebuildAll();
+  // 更新侧栏激活态
+  document.querySelectorAll('#archive-list .archive-item').forEach(el => {
+    const active = el.dataset.file === file;
+    el.classList.toggle('active', active);
+    el.querySelector('.archive-dot')?.classList.toggle('dim', !active);
+  });
+}
+
+function buildHeader() {
+  const el = document.getElementById('meta-info-row');
+  if (!el) return;
+  const d = RESEARCH_DATA;
+  const dateStr = d.date || '';
+  const timeStr = d.time || '';
+  const s = d.stats || {};
+  const twOnline = d.twitterOnline;
+  const twBadge = twOnline
+    ? `<span style="font-size:11px;color:#1da1f2;padding:4px 10px;border:1px solid #1da1f2;border-radius:6px;background:#e6f7ff;">𝕏 Twitter ${s.twitter||0}条</span>`
+    : `<span style="font-size:11px;color:#999;padding:4px 10px;border:1px solid #ddd;border-radius:6px;background:#fafafa;">𝕏 Twitter 离线</span>`;
+  el.innerHTML = `
+    <div>
+      <div style="font-size:18px;font-weight:800;color:#333333;">情报日报 · ${dateStr}</div>
+      <div style="font-size:12px;color:#666666;margin-top:3px;">生成于 ${dateStr} ${timeStr} · AI自动采集分析</div>
+    </div>
+    <div class="meta-badges" style="display:flex;gap:8px;">
+      <span style="font-size:11px;color:#666666;padding:4px 10px;border:1px solid #e8e8e8;border-radius:6px;background:#fff;">📊 小红书 ${s.xhs||0}条</span>
+      <span style="font-size:11px;color:#666666;padding:4px 10px;border:1px solid #e8e8e8;border-radius:6px;background:#fff;">🌐 Reddit ${s.reddit||0}条</span>
+      ${twBadge}
+    </div>`;
+}
+
+function updateTabLabels() {
+  const d = RESEARCH_DATA;
+  const xhsBtn = document.getElementById('tab-btn-xhs');
+  const redditBtn = document.getElementById('tab-btn-reddit');
+  const twitterBtn = document.getElementById('tab-btn-twitter');
+  if (xhsBtn) xhsBtn.textContent = `📕 小红书 (${(d.xhs||[]).length})`;
+  if (redditBtn) redditBtn.textContent = `🌐 Reddit (${(d.reddit||[]).length})`;
+  if (twitterBtn) {
+    if (d.twitterOnline && (d.twitter||[]).length > 0) {
+      twitterBtn.textContent = `𝕏 Twitter (${d.twitter.length})`;
+      twitterBtn.style.color = '';
+    } else {
+      twitterBtn.textContent = `𝕏 Twitter 离线`;
+      twitterBtn.style.color = '#999';
+    }
+  }
+}
+
+function rebuildAll() {
+  buildHeader();
+  updateTabLabels();
+  buildSignals();
+  buildXHS();
+  buildReddit();
+  buildTwitter();
+  buildAnalysis();
+  buildTopics();
+  buildReview();
+  buildTop5();
+  buildOpp();
+  buildSidebarSignals();
+  buildAnalysisCards();
+}
+
+// 采集进度弹窗
+function showProgressModal() {
+  let modal = document.getElementById('collect-modal');
+  if (!modal) {
+    modal = document.createElement('div');
+    modal.id = 'collect-modal';
+    modal.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,0.5);z-index:9999;display:flex;align-items:center;justify-content:center';
+    modal.innerHTML = '<div style="background:#fff;border-radius:12px;padding:32px 40px;text-align:center;min-width:260px;box-shadow:0 8px 32px rgba(0,0,0,0.15)">'
+      + '<div style="font-size:32px;margin-bottom:12px">⚡</div>'
+      + '<div style="font-size:16px;font-weight:600;color:#1a1a1a;margin-bottom:8px">正在抓取最新数据</div>'
+      + '<div id="collect-progress-text" style="font-size:13px;color:#666;margin-bottom:16px">连接小红书 · Reddit · Twitter…</div>'
+      + '<div style="width:200px;height:4px;background:#f0f0f0;border-radius:2px;margin:0 auto 16px">'
+      + '<div id="collect-progress-bar" style="height:4px;background:#1890ff;border-radius:2px;width:0;transition:width 0.5s ease"></div>'
+      + '</div>'
+      + '<div style="font-size:12px;color:#999">约需 60~120 秒，完成后自动刷新</div>'
+      + '</div>';
+    document.body.appendChild(modal);
+  }
+  modal.style.display = 'flex';
+  // 模拟进度条
+  let pct = 0;
+  const iv = setInterval(() => {
+    pct = Math.min(pct + (pct < 60 ? 2 : pct < 85 ? 0.5 : 0.1), 92);
+    const bar = document.getElementById('collect-progress-bar');
+    if (bar) bar.style.width = pct + '%';
+    const txt = document.getElementById('collect-progress-text');
+    if (txt) {
+      if (pct < 25) txt.textContent = '🔴 连接小红书…';
+      else if (pct < 50) txt.textContent = '🌐 拉取 Reddit…';
+      else if (pct < 75) txt.textContent = '🐦 抓取 Twitter…';
+      else txt.textContent = '🧠 AI 分析中…';
+    }
+  }, 1000);
+  return () => { clearInterval(iv); const b = document.getElementById('collect-progress-bar'); if(b) b.style.width='100%'; setTimeout(()=>{ if(modal) modal.style.display='none'; }, 600); };
+}
+
+// INIT
+(async () => {
+  await loadHistoryList();
+  await loadLatestData();
+  rebuildAll();
+})();
+
+
+// ── 一键抓取 ──────────────────────────────────────────────────────────────────
+async function triggerCollect() {
+  const btn = document.getElementById('collect-btn');
+  btn.textContent = '⏳ 采集中…';
+  btn.disabled = true;
+  btn.style.background = '#faad14';
+  const hideModal = showProgressModal();
+  try {
+    const r = await fetch('/api/research/collect', { method:'POST' });
+    const d = await r.json();
+    if (!d.ok) { hideModal(); alert(d.error); resetBtn(); return; }
+    const poll = setInterval(async () => {
+      const s = await fetch('/api/research/status').then(r=>r.json()).catch(()=>({running:true}));
+      if (!s.running) {
+        clearInterval(poll);
+        hideModal();
+        btn.textContent = '✅ 完成，刷新中';
+        setTimeout(() => { location.reload(); }, 800);
+      }
+    }, 3000);
+  } catch(e) { hideModal(); alert('采集失败: '+e.message); resetBtn(); }
+}
+function resetBtn() {
+  const btn = document.getElementById('collect-btn');
+  btn.textContent = '⚡ 一键抓取';
+  btn.disabled = false;
+  btn.style.background = '#52c41a';
+}
+
+// ── 分析模块 ──────────────────────────────────────────────────────────────────
+function buildAnalysisCards() {
+  try {
+    const text = RESEARCH_DATA.analysis;
+
+    // 核心叙事 + 选题 + 机会 全部来自 LLM 分析结果
+    if (text) {
+      // markdown → html
+      const html = text
+        .replace(/## (.*)/g, '<h3 style="font-size:13px;font-weight:700;color:#333;margin:14px 0 6px">$1</h3>')
+        .replace(/### (.*)/g, '<b style="font-size:13px;color:#555">$1</b><br>')
+        .replace(/\*\*(.*?)\*\*/g, '<strong style="color:#333">$1</strong>')
+        .replace(/📌 /g, '📌 ')
+        .replace(/🎯 /g, '🎯 ')
+        .replace(/🔑 /g, '🔑 ')
+        .replace(/📝 /g, '📝 ')
+        .replace(/---/g, '<hr style="border:none;border-top:1px solid #eee;margin:10px 0">')
+        .replace(/\n\n/g, '<br>')
+        .replace(/\n/g, '<br>');
+      document.getElementById('analysis-narrative').innerHTML = html;
+      document.getElementById('analysis-topics').innerHTML = '<li style="color:#999;font-size:12px">选题分析已合并至左侧 LLM 分析</li>';
+      document.getElementById('analysis-opps').innerHTML = '<li style="color:#999;font-size:12px">机会信号已合并至左侧 LLM 分析</li>';
+    } else {
+      // fallback：LLM 无数据时用本地算法
+      const xhs = (RESEARCH_DATA.xhs||[]).slice(0,10);
+      const reddit = (RESEARCH_DATA.reddit||[]).slice(0,5);
+      const twitter = (RESEARCH_DATA.twitter||[]).slice(0,8);
+      const all = [...xhs, ...reddit, ...twitter];
+      const catCount = {};
+      all.forEach(r => { catCount[r.category||'Other'] = (catCount[r.category||'Other']||0) + 1; });
+      const topCats = Object.entries(catCount).sort((a,b)=>b[1]-a[1]).slice(0,3)
+        .map(([c,n])=>'<b>'+c+'</b>('+n+'条)').join(' · ');
+      document.getElementById('analysis-narrative').innerHTML = '（LLM分析暂缺）今日采集：'+topCats;
+      const topics = all.sort((a,b)=>(b.score||0)-(a.score||0)).slice(0,5);
+      document.getElementById('analysis-topics').innerHTML = topics.map(function(r,i){
+        return '<li><a href="'+(r.url||'#')+'" target="_blank" style="color:#1d39c4;text-decoration:none">'+(r.title||'').slice(0,50)+'</a></li>';
+      }).join('');
+      document.getElementById('analysis-opps').innerHTML = '<li>LLM未返回分析</li>';
+    }
+  } catch(e) {
+    document.getElementById('analysis-narrative').textContent = '分析加载失败: '+e.message;
+    console.error('buildAnalysisCards error:', e);
+  }
+}
+// SETTINGS
+function toggleSettings() {
+  const panel = document.getElementById('settings-panel');
+  const overlay = document.getElementById('settings-overlay');
+  const isOpen = panel.classList.contains('open');
+  panel.classList.toggle('open', !isOpen);
+  overlay.style.display = isOpen ? 'none' : 'block';
+  if (!isOpen) loadSettings();
+}
+
+function loadSettings() {
+  fetch('/api/research/settings').then(r => r.json()).then(res => {
+    if (!res.ok) return;
+    const s = res.settings;
+    // Telegram toggle
+    const chk = document.getElementById('tg-notify-toggle');
+    if (chk) { chk.checked = s.telegram_notify !== false; updateToggleUI(chk.checked); }
+    // Collect limits
+    const lim = s.collect_limits || {xhs:20, reddit:20, twitter:15};
+    const min = s.min_score      || {xhs:0,  reddit:0,  twitter:30};
+    const set = (id, v) => { const el = document.getElementById(id); if (el) el.value = v; };
+    set('s-xhs-limit',    lim.xhs);     set('s-xhs-min',    min.xhs);
+    set('s-reddit-limit', lim.reddit);  set('s-reddit-min', min.reddit);
+    set('s-twitter-limit',lim.twitter); set('s-twitter-min',min.twitter);
+  }).catch(() => {});
+}
+
+function saveCollectSettings() {
+  const get = id => parseInt(document.getElementById(id)?.value) || 0;
+  const payload = {
+    collect_limits: { xhs: get('s-xhs-limit'), reddit: get('s-reddit-limit'), twitter: get('s-twitter-limit') },
+    min_score:      { xhs: get('s-xhs-min'),   reddit: get('s-reddit-min'),   twitter: get('s-twitter-min') }
+  };
+  const st = document.getElementById('collect-settings-status');
+  fetch('/api/research/settings', {
+    method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify(payload)
+  }).then(r => r.json()).then(res => {
+    if (st) st.textContent = res.ok ? '✅ 已保存，下次采集生效' : '⚠️ 保存失败: '+(res.error||'');
+    setTimeout(() => { if (st) st.textContent = ''; }, 3000);
+  }).catch(e => { if (st) st.textContent = '⚠️ 保存失败: '+e.message; });
+}
+
+function updateToggleUI(on) {
+  const slider = document.getElementById('tg-notify-slider');
+  const dot = document.getElementById('tg-notify-dot');
+  const status = document.getElementById('tg-notify-status');
+  if (slider) slider.style.background = on ? '#52c41a' : '#ccc';
+  if (dot) dot.style.transform = on ? 'translateX(18px)' : 'translateX(0)';
+  if (status) status.textContent = on ? '✅ 已启用 — 每次采集后推送高热度帖子到 Telegram' : '🔕 已关闭 — 不发送 Telegram 通知';
+}
+
+function saveNotifySetting(on) {
+  updateToggleUI(on);
+  fetch('/api/research/settings', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ telegram_notify: on })
+  }).then(r => r.json()).then(res => {
+    const status = document.getElementById('tg-notify-status');
+    if (!res.ok && status) status.textContent = '⚠️ 保存失败: ' + (res.error || '');
+  }).catch(e => {
+    const status = document.getElementById('tg-notify-status');
+    if (status) status.textContent = '⚠️ 保存失败: ' + e.message;
+  });
+}
+</script>
+
+<!-- Settings Overlay -->
+<div id="settings-overlay" onclick="toggleSettings()" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.3);z-index:999"></div>
+
+<!-- Settings Panel -->
+<div id="settings-panel" style="position:fixed;top:0;right:-380px;width:360px;height:100vh;background:#ffffff;border-left:1px solid #e8e8e8;z-index:1000;transition:right 0.3s ease;overflow-y:auto;padding:24px;box-shadow:-4px 0 12px rgba(0,0,0,0.1)">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:24px">
+    <div style="font-size:16px;font-weight:700;color:#333333">⚙️ 设置</div>
+    <button onclick="toggleSettings()" style="background:none;border:none;color:#999999;font-size:20px;cursor:pointer">✕</button>
+  </div>
+
+  <div style="margin-bottom:24px">
+    <div style="font-size:12px;font-weight:600;color:#1890ff;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:12px">📡 数据采集</div>
+    <div style="background:#fafafa;border:1px solid #e8e8e8;border-radius:8px;padding:16px;display:flex;flex-direction:column;gap:12px">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <span style="font-size:13px;color:#333333">小红书</span>
+        <span style="background:#f6ffed;color:#52c41a;border:1px solid #b7eb8f;border-radius:4px;padding:2px 8px;font-size:11px">● 已连接</span>
+      </div>
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <span style="font-size:13px;color:#333333">Reddit</span>
+        <span style="background:#f6ffed;color:#52c41a;border:1px solid #b7eb8f;border-radius:4px;padding:2px 8px;font-size:11px">● 已连接</span>
+      </div>
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <span style="font-size:13px;color:#333333">Twitter / X</span>
+        <span style="background:#f6ffed;color:#52c41a;border:1px solid #b7eb8f;border-radius:4px;padding:2px 8px;font-size:11px">● VPS直采</span>
+      </div>
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <span style="font-size:13px;color:#333333">Hacker News</span>
+        <span style="background:#f6ffed;color:#52c41a;border:1px solid #b7eb8f;border-radius:4px;padding:2px 8px;font-size:11px">● 已连接</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="margin-bottom:24px">
+    <div style="font-size:12px;font-weight:600;color:#1890ff;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:12px">📊 采集条数 &amp; 热度门槛</div>
+    <div style="font-size:11px;color:#999;margin-bottom:8px">下次采集时生效 · 热度分 = 点赞 + 互动加权</div>
+    <div style="background:#fafafa;border:1px solid #e8e8e8;border-radius:8px;padding:16px;display:flex;flex-direction:column;gap:14px">
+
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+          <span style="font-size:12px;color:#666">📕 小红书</span>
+          <span style="font-size:10px;color:#aaa">点赞 + 收藏×2 + 评论×2</span>
+        </div>
+        <div style="display:flex;gap:8px">
+          <label style="flex:1">
+            <div style="font-size:11px;color:#999;margin-bottom:3px">最多条数</div>
+            <input id="s-xhs-limit" type="number" min="5" max="50" style="width:100%;padding:5px 8px;border:1px solid #d9d9d9;border-radius:6px;font-size:13px;box-sizing:border-box">
+          </label>
+          <label style="flex:1">
+            <div style="font-size:11px;color:#999;margin-bottom:3px">最低热度</div>
+            <input id="s-xhs-min" type="number" min="0" style="width:100%;padding:5px 8px;border:1px solid #d9d9d9;border-radius:6px;font-size:13px;box-sizing:border-box">
+          </label>
+        </div>
+      </div>
+
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+          <span style="font-size:12px;color:#666">🌐 Reddit</span>
+          <span style="font-size:10px;color:#aaa">点赞 + 评论×2</span>
+        </div>
+        <div style="display:flex;gap:8px">
+          <label style="flex:1">
+            <div style="font-size:11px;color:#999;margin-bottom:3px">最多条数</div>
+            <input id="s-reddit-limit" type="number" min="5" max="50" style="width:100%;padding:5px 8px;border:1px solid #d9d9d9;border-radius:6px;font-size:13px;box-sizing:border-box">
+          </label>
+          <label style="flex:1">
+            <div style="font-size:11px;color:#999;margin-bottom:3px">最低热度</div>
+            <input id="s-reddit-min" type="number" min="0" style="width:100%;padding:5px 8px;border:1px solid #d9d9d9;border-radius:6px;font-size:13px;box-sizing:border-box">
+          </label>
+        </div>
+      </div>
+
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+          <span style="font-size:12px;color:#666">𝕏 Twitter / X</span>
+          <span style="font-size:10px;color:#aaa">点赞 + 转发×3 + 书签×2</span>
+        </div>
+        <div style="display:flex;gap:8px">
+          <label style="flex:1">
+            <div style="font-size:11px;color:#999;margin-bottom:3px">最多条数</div>
+            <input id="s-twitter-limit" type="number" min="5" max="30" style="width:100%;padding:5px 8px;border:1px solid #d9d9d9;border-radius:6px;font-size:13px;box-sizing:border-box">
+          </label>
+          <label style="flex:1">
+            <div style="font-size:11px;color:#999;margin-bottom:3px">最低热度</div>
+            <input id="s-twitter-min" type="number" min="0" style="width:100%;padding:5px 8px;border:1px solid #d9d9d9;border-radius:6px;font-size:13px;box-sizing:border-box">
+          </label>
+        </div>
+      </div>
+
+      <button onclick="saveCollectSettings()" style="background:#1890ff;color:#fff;border:none;border-radius:6px;padding:8px;font-size:13px;cursor:pointer;font-weight:600">保存设置</button>
+      <div id="collect-settings-status" style="font-size:11px;color:#52c41a;text-align:center;min-height:14px"></div>
+    </div>
+  </div>
+
+  <div style="margin-bottom:24px">
+    <div style="font-size:12px;font-weight:600;color:#1890ff;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:12px">⏰ 自动化调度</div>
+    <div style="background:#fafafa;border:1px solid #e8e8e8;border-radius:8px;padding:16px;display:flex;flex-direction:column;gap:12px">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <div>
+          <div style="font-size:13px;color:#333333">每日采集</div>
+          <div style="font-size:11px;color:#666666">每天 22:00 BJT 自动运行</div>
+        </div>
+        <span style="background:#f6ffed;color:#52c41a;border:1px solid #b7eb8f;border-radius:4px;padding:2px 8px;font-size:11px">● 已启用</span>
+      </div>
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <div>
+          <div style="font-size:13px;color:#333333">qwen3:8b AI分析</div>
+          <div style="font-size:11px;color:#666666">采集后自动生成选题/信号/机会</div>
+        </div>
+        <span style="background:#f6ffed;color:#52c41a;border:1px solid #b7eb8f;border-radius:4px;padding:2px 8px;font-size:11px">● 已启用</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="margin-bottom:24px">
+    <div style="font-size:12px;font-weight:600;color:#1890ff;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:12px">🔔 Telegram 通知</div>
+    <div style="background:#fafafa;border:1px solid #e8e8e8;border-radius:8px;padding:16px;display:flex;flex-direction:column;gap:12px">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <div>
+          <div style="font-size:13px;color:#333333">高热度预警</div>
+          <div style="font-size:11px;color:#666666">每次采集后推送热门帖子（每文件仅一次）</div>
+        </div>
+        <label style="position:relative;display:inline-block;width:40px;height:22px;cursor:pointer">
+          <input type="checkbox" id="tg-notify-toggle" style="opacity:0;width:0;height:0" onchange="saveNotifySetting(this.checked)">
+          <span id="tg-notify-slider" style="position:absolute;inset:0;background:#ccc;border-radius:22px;transition:0.3s"></span>
+          <span id="tg-notify-dot" style="position:absolute;left:3px;top:3px;width:16px;height:16px;background:#fff;border-radius:50%;transition:0.3s;box-shadow:0 1px 3px rgba(0,0,0,0.3)"></span>
+        </label>
+      </div>
+      <div id="tg-notify-status" style="font-size:11px;color:#999"></div>
+    </div>
+  </div>
+
+  <div style="margin-bottom:24px">
+    <div style="font-size:12px;font-weight:600;color:#1890ff;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:12px">🎯 关注关键词</div>
+    <div style="background:#fafafa;border:1px solid #e8e8e8;border-radius:8px;padding:16px">
+      <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px">
+        <span style="background:#e6f4ff;color:#1890ff;border:1px solid #91caff;border-radius:4px;padding:2px 8px;font-size:12px">Claude Code</span>
+        <span style="background:#e6f4ff;color:#1890ff;border:1px solid #91caff;border-radius:4px;padding:2px 8px;font-size:12px">AI Agent</span>
+        <span style="background:#fffbe6;color:#faad14;border:1px solid #ffe58f;border-radius:4px;padding:2px 8px;font-size:12px">BTC</span>
+        <span style="background:#fffbe6;color:#faad14;border:1px solid #ffe58f;border-radius:4px;padding:2px 8px;font-size:12px">加密货币</span>
+        <span style="background:#f6ffed;color:#52c41a;border:1px solid #b7eb8f;border-radius:4px;padding:2px 8px;font-size:12px">OpenClaw</span>
+        <span style="background:#f6ffed;color:#52c41a;border:1px solid #b7eb8f;border-radius:4px;padding:2px 8px;font-size:12px">MiniMax</span>
+      </div>
+      <div style="font-size:11px;color:#999999">如需修改关键词，请联系 Reese 更新采集脚本</div>
+    </div>
+  </div>
+
+  <div style="border-top:1px solid #e8e8e8;padding-top:16px">
+    <div style="font-size:11px;color:#999999;line-height:1.6">
+      <div>🧠 ClawLabs Intelligence · Powered by MiniMax M2.7</div>
+      <div>数据源：小红书 · Reddit · X · Hacker News</div>
+      <div style="margin-top:4px">采集脚本：/projects/daily-research/collect.py</div>
+    </div>
+  </div>
+</div>
+
+<style>
+#settings-panel.open { right: 0 !important; }
+</style>
+</body>
+</html>

@@ -1,0 +1,668 @@
+{
+  "tweets": [
+    {
+      "id": "1895495354080268717",
+      "text": "@yjy616 省略的其他各种要素。",
+      "createdAt": "Fri Feb 28 15:24:43 +0000 2025",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 4,
+      "conversationId": "1895494645649752342",
+      "inReplyToStatusId": "1895495134877507924",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1895495183216922792",
+      "text": "@sunOx97 坚韧，乐观，意志坚定，等等各种因素。",
+      "createdAt": "Fri Feb 28 15:24:02 +0000 2025",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 2,
+      "conversationId": "1895494645649752342",
+      "inReplyToStatusId": "1895494809122660443",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1895494645649752342",
+      "text": "学历，大概等于“智商+12年的持续努力+一次考试的幸运”。\n\n能力，大概等于“智商+情商+一生持续努力+悟性+多个关键节点的幸运+etc.”。\n\n学历远远不等于能力。",
+      "createdAt": "Fri Feb 28 15:21:54 +0000 2025",
+      "replyCount": 82,
+      "retweetCount": 102,
+      "likeCount": 834,
+      "conversationId": "1895494645649752342",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1895437124209721484",
+      "text": "@bitfool1 创业10年，不如玩defi半年赚的多，我是个没用的创业者。",
+      "createdAt": "Fri Feb 28 11:33:20 +0000 2025",
+      "replyCount": 3,
+      "retweetCount": 2,
+      "likeCount": 30,
+      "conversationId": "1895417865509237039",
+      "inReplyToStatusId": "1895424932382966249",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1895423640067518575",
+      "text": "@coolish 太难了。。。",
+      "createdAt": "Fri Feb 28 10:39:45 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "1895365994610335914",
+      "inReplyToStatusId": "1895423368213770279",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1895420151471939989",
+      "text": "赚钱这种东西，是一种爱好和信仰。\n\n把培养赚钱能力，当成自己能力圈就好了。\n\n虽然宽泛，但如果形成了这个能力，眼睛里面看到的都是机会。",
+      "createdAt": "Fri Feb 28 10:25:53 +0000 2025",
+      "replyCount": 4,
+      "retweetCount": 8,
+      "likeCount": 124,
+      "conversationId": "1895417865509237039",
+      "inReplyToStatusId": "1895417865509237039",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1895418676679262292",
+      "text": "@0xathenalee 早就不做了，16年基本开发商和渠道就开始垄断了。",
+      "createdAt": "Fri Feb 28 10:20:02 +0000 2025",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 5,
+      "conversationId": "1895417865509237039",
+      "inReplyToStatusId": "1895418387402268994",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1895417865509237039",
+      "text": "年轻的时候，没必要给自己设限，能干什么不能干什么。\n\n只要合法合乎普遍道德，什么赚钱研究什么，哪有那么难。\n\n刚创业时，我公司4个人，除了我，两个是我拉过来的同学合伙人，雇了一个打杂的小姑娘。\n\n我一个人去跑业务找方向，跟政府部门谈过，跟监狱谈过，跟港口谈过，最后找到了移动游戏这个风口。\n\n既要理解自己能力圈，也要去水草丰美（有钱赚）的地方不断拓展能力圈。",
+      "createdAt": "Fri Feb 28 10:16:48 +0000 2025",
+      "replyCount": 67,
+      "retweetCount": 33,
+      "likeCount": 409,
+      "conversationId": "1895417865509237039",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1895372484033290307",
+      "text": "@timotimo007 第一时间梭哈新趋势。",
+      "createdAt": "Fri Feb 28 07:16:29 +0000 2025",
+      "replyCount": 21,
+      "retweetCount": 16,
+      "likeCount": 87,
+      "conversationId": "1895365994610335914",
+      "inReplyToStatusId": "1895369154032738764",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1895365994610335914",
+      "text": "在 defi ，铭文，ai，我都赚到了a9的浮盈。\n\n这不是要吹永赚，恰恰相反，每次都回撤50以上。\n\n即使是个很好的进攻型选手，但防守一直很差。\n\n盈亏同源，要么接受这种打法就是会这种回撤；\n要么见好就收，下个机会再拿到这个收益立刻离场，等新的机会再说。\n\n都很难，反人性。",
+      "createdAt": "Fri Feb 28 06:50:41 +0000 2025",
+      "replyCount": 175,
+      "retweetCount": 36,
+      "likeCount": 318,
+      "conversationId": "1895365994610335914",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "quotedTweet": {
+        "id": "1895002350672384168",
+        "text": "只要你有足够强的赚钱欲望/兴趣/行动力，总能找到机会。\n\ndefi 时代玩算稳和各种链上协议，铭文时代玩 ordi 和 btc 二层，solana meme 时代玩 ai 。\n\n哪个时代，都有本金10倍-100倍的机会。\n\n熊市大家情绪都很差，不过币圈依然还是小资金能够逆袭的最佳行业。\n\n一代版本一代神，每一代咱都在。",
+        "createdAt": "Thu Feb 27 06:45:42 +0000 2025",
+        "replyCount": 32,
+        "retweetCount": 31,
+        "likeCount": 348,
+        "conversationId": "1894995864734834908",
+        "inReplyToStatusId": "1894995864734834908",
+        "author": {
+          "username": "0xcryptowizard",
+          "name": "0xWizard"
+        },
+        "authorId": "1195728139898376193"
+      }
+    },
+    {
+      "id": "1895040344846393702",
+      "text": "关于赚钱的欲望和兴趣，这个话题我认真思考过。\n\n爱钱和爱赚钱是两回事。\n\n大部分人只是爱钱，以及钱给他带来的舒适生活。\n\n少部分人是真的热衷于赚钱，研究各种赚钱机会就是他的爱好，不会觉得辛苦或者难受，反而对花钱心不在焉。\n\n什么事，都是真正热衷的人，才做的好。",
+      "createdAt": "Thu Feb 27 09:16:41 +0000 2025",
+      "replyCount": 25,
+      "retweetCount": 34,
+      "likeCount": 310,
+      "conversationId": "1894995864734834908",
+      "inReplyToStatusId": "1895002350672384168",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1895002350672384168",
+      "text": "只要你有足够强的赚钱欲望/兴趣/行动力，总能找到机会。\n\ndefi 时代玩算稳和各种链上协议，铭文时代玩 ordi 和 btc 二层，solana meme 时代玩 ai 。\n\n哪个时代，都有本金10倍-100倍的机会。\n\n熊市大家情绪都很差，不过币圈依然还是小资金能够逆袭的最佳行业。\n\n一代版本一代神，每一代咱都在。",
+      "createdAt": "Thu Feb 27 06:45:42 +0000 2025",
+      "replyCount": 32,
+      "retweetCount": 31,
+      "likeCount": 348,
+      "conversationId": "1894995864734834908",
+      "inReplyToStatusId": "1894995864734834908",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1894995864734834908",
+      "text": "并不存在“现在没有赚钱机会了”这件事。\n\n机会永远在，只是大部分人看不见/看不起/看不懂罢了，只会喊着“没机会了”。\n\n我10几年前创业，没融资，没资源，没经验，到处跑客户，跟人聊，甚至找了个关系，跑去监狱聊看能不能给他们做个安全运输系统。\n\n机会永远不会消失，只是最初只有很少人看到罢了。",
+      "createdAt": "Thu Feb 27 06:19:56 +0000 2025",
+      "replyCount": 172,
+      "retweetCount": 85,
+      "likeCount": 694,
+      "conversationId": "1894995864734834908",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1894988128760537189",
+      "text": "@cishanjia 我回撤的更多，当时止盈了一半（总体还是盈利了2-3倍），剩下一半跌了90%以上。",
+      "createdAt": "Thu Feb 27 05:49:11 +0000 2025",
+      "replyCount": 6,
+      "retweetCount": 3,
+      "likeCount": 28,
+      "conversationId": "1894926078524940398",
+      "inReplyToStatusId": "1894926078524940398",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1894768965576212551",
+      "text": "@Guilin_Chen_ 这个位置踩住，再来一波，看btcd也在跌。",
+      "createdAt": "Wed Feb 26 15:18:19 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 4,
+      "conversationId": "1894767547524030491",
+      "inReplyToStatusId": "1894768786345181261",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1894767547524030491",
+      "text": "btc 踩了一下 ema200 ，希望日线收个针，act 这些强势山寨已经不跟跌了。",
+      "createdAt": "Wed Feb 26 15:12:41 +0000 2025",
+      "replyCount": 32,
+      "retweetCount": 3,
+      "likeCount": 136,
+      "conversationId": "1894767547524030491",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1894657069351125375",
+      "text": "@cyy7025219 总会有机会的，在国内这个情况下，也有deepseek能出来。",
+      "createdAt": "Wed Feb 26 07:53:41 +0000 2025",
+      "replyCount": 4,
+      "retweetCount": 0,
+      "likeCount": 10,
+      "conversationId": "1894656610280378590",
+      "inReplyToStatusId": "1894656879156236522",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1894656610280378590",
+      "text": "从小听人说，公务员是铁饭碗的时候。\n\n我就有个疑问：难道工作就是为了吃饭么？",
+      "createdAt": "Wed Feb 26 07:51:51 +0000 2025",
+      "replyCount": 198,
+      "retweetCount": 15,
+      "likeCount": 326,
+      "conversationId": "1894656610280378590",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1894569192546082982",
+      "text": "市场趋势，是一步步形成的。\n\n回看“铭文”runes这些btc生态的meme和社区，solana生态围绕meme构建的一系列基础设施，去年10月开始 ai 赛道在链上突然爆发。\n\n这一切，都在为新趋势做准备。\n\n这个新趋势就是对原有腐朽固化世界的纠偏，过去的每一步都是在为新趋势探路。\n\nMake Community Great Again！",
+      "createdAt": "Wed Feb 26 02:04:29 +0000 2025",
+      "replyCount": 17,
+      "retweetCount": 4,
+      "likeCount": 82,
+      "conversationId": "1894564831430414365",
+      "inReplyToStatusId": "1894564831430414365",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1894567317478261035",
+      "text": "@ljsy1986 是的，未来机会只会发生在链上，不会只是热点pvp一波流着一种形式。\n\n新趋势新赛道的技术币，都会选择链上发行。\n\n不给散户肉吃的，就没有社区，未来都没有活路。",
+      "createdAt": "Wed Feb 26 01:57:02 +0000 2025",
+      "replyCount": 5,
+      "retweetCount": 2,
+      "likeCount": 28,
+      "conversationId": "1894564831430414365",
+      "inReplyToStatusId": "1894565567342023078",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1894564831430414365",
+      "text": "我从去年10月就在强调，链上资产不等于meme，他们是包含关系。\n\n想想为啥之前链上只有meme？\n因为“正经”项目不会来链上发，只会选择走融资上所这条路，这样利益最大化。\n\n于是，散户无奈只能在链上玩一种资产：meme。\n\n但当越来越多正经做事的技术项目，发现原来的路已经走不通了，就转向了链上。\n\n这就是自由市场最好的纠偏机制：你不让散户赚钱，自然散户就不去了，宁可自己去链上玩“社区meme”，也不接盘 “vc币”。\n\n这是vc的问题么？这轮vc普遍是亏的，他们是最倒霉的，没办法，谁让你们之前在这个模式赚了呢？兄弟，顶口锅吧。\n\n当市场选择链上，聪明和敏锐的项目方发现了新趋势，自然就有了 ai 赛道这个新叙事突然以技术币在链上引发财富效应。\n\n这仅仅是开始，意识到底层逻辑是，ico精神回归，那就明白未来还会有更多的技术币尤其是ai赛道，选择链上发行。\n\n那么，再一次思考一下，什么是社区？为何之前只有meme有社区么？\n\n你要知道 btc 和 eth 早期可都是靠着强大社区崛起的。\n\n为啥现在的技术币都没有社区？founder们埋怨散户只看钱，不理解技术的，真的是有病，你让大家低价进来，自然全热衷于你的技术。\n\n何不食肉糜？你是来赚钱的，散户也是一样。\n\n上半夜想想自己，下半夜想想别人，自然就有社区了。",
+      "createdAt": "Wed Feb 26 01:47:09 +0000 2025",
+      "replyCount": 181,
+      "retweetCount": 72,
+      "likeCount": 350,
+      "conversationId": "1894564831430414365",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "quotedTweet": {
+        "id": "1894379790519665131",
+        "text": "链上不止有可以发 meme 和名人币一波流，还会有更多的技术项目选择链上发射。\n\n本质是：ico时代的精神回归。\n\n什么是ico时代精神？\n散户有机会直接参与项目早期阶段，享受项目成长红利。\n\n想一想，现在的发射模式是什么？\n\n几个兄弟搞个项目，找几个知名vc，然后吭哧吭哧搞几年，按照交易所的要求凑数据，一切都很“完美”，上所就是最高潮，浇给软 rug；好一点的来个二段，次高新高继续派发。\n\n这里面，溢价能力最强的就是大所，自然所有最“肥美”的利润都被大所和“能搞定大所”的人拿走了；\n项目方赚一些，vc甚至是亏的，上所就是最高点，散户90%以上亏钱。\n\n如果，想好好做事的项目方，在链上发射会如何？\n\n可以找vc凑一些运营费用，尽早在链上先发，不过是ido还是pump，最终都会有一个链上二级给个定价。\n\n只要项目是持续进步的，那么在前期买入的散户就可以赚到项目成长的盈利。\n\n想想 aave 的1000倍，怎么做到的？因为他在项目早期就发在链上而不是做完善了再上所浇给。\n\n这里面，会不会有很多粗制滥造的项目？发了很多盘子的割子？\n当然会，但，如果一个未来可能做到1b的项目，10m有机会上车，这就是最直接的“ico精神回潮”。\n\n再想想，什么是社区？\n\n上所就浇给散户，指望这些套牢盘成为“社区”？\n\n还是一个可能做到1b的项目，前期10m让散户上车，更容易形成“社区”？\n\n世界，是一个圆，是时候让曾经的 ico 精神回归了。",
+        "createdAt": "Tue Feb 25 13:31:52 +0000 2025",
+        "replyCount": 124,
+        "retweetCount": 65,
+        "likeCount": 404,
+        "conversationId": "1894379790519665131",
+        "author": {
+          "username": "0xcryptowizard",
+          "name": "0xWizard"
+        },
+        "authorId": "1195728139898376193"
+      }
+    },
+    {
+      "id": "1894559416672031041",
+      "text": "@MacroCRG waiting a break out of the accumulation zone",
+      "createdAt": "Wed Feb 26 01:25:38 +0000 2025",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 4,
+      "conversationId": "1894341642460561583",
+      "inReplyToStatusId": "1894341642460561583",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1894382068605632813",
+      "text": "再想另外一个问题：为何现在币圈技术项目没什么“社区”了？\n\n很简单，项目方都没把散户当“社区”，只是当退出流动性。\n\n管你技术吹的天花乱坠，产品做到精美绝伦。\n\n你tm不给我早期低价参与的机会，我凭什么做你的“社区”？\n\n我最多做个trader，做做交易，凭啥build？凭你让我接盘？",
+      "createdAt": "Tue Feb 25 13:40:55 +0000 2025",
+      "replyCount": 16,
+      "retweetCount": 2,
+      "likeCount": 92,
+      "conversationId": "1894379790519665131",
+      "inReplyToStatusId": "1894379790519665131",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1894381231577731319",
+      "text": "@RiceMaximalist make community great again",
+      "createdAt": "Tue Feb 25 13:37:36 +0000 2025",
+      "replyCount": 6,
+      "retweetCount": 1,
+      "likeCount": 18,
+      "conversationId": "1894379790519665131",
+      "inReplyToStatusId": "1894380848096710935",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1894379790519665131",
+      "text": "链上不止有可以发 meme 和名人币一波流，还会有更多的技术项目选择链上发射。\n\n本质是：ico时代的精神回归。\n\n什么是ico时代精神？\n散户有机会直接参与项目早期阶段，享受项目成长红利。\n\n想一想，现在的发射模式是什么？\n\n几个兄弟搞个项目，找几个知名vc，然后吭哧吭哧搞几年，按照交易所的要求凑数据，一切都很“完美”，上所就是最高潮，浇给软 rug；好一点的来个二段，次高新高继续派发。\n\n这里面，溢价能力最强的就是大所，自然所有最“肥美”的利润都被大所和“能搞定大所”的人拿走了；\n项目方赚一些，vc甚至是亏的，上所就是最高点，散户90%以上亏钱。\n\n如果，想好好做事的项目方，在链上发射会如何？\n\n可以找vc凑一些运营费用，尽早在链上先发，不过是ido还是pump，最终都会有一个链上二级给个定价。\n\n只要项目是持续进步的，那么在前期买入的散户就可以赚到项目成长的盈利。\n\n想想 aave 的1000倍，怎么做到的？因为他在项目早期就发在链上而不是做完善了再上所浇给。\n\n这里面，会不会有很多粗制滥造的项目？发了很多盘子的割子？\n当然会，但，如果一个未来可能做到1b的项目，10m有机会上车，这就是最直接的“ico精神回潮”。\n\n再想想，什么是社区？\n\n上所就浇给散户，指望这些套牢盘成为“社区”？\n\n还是一个可能做到1b的项目，前期10m让散户上车，更容易形成“社区”？\n\n世界，是一个圆，是时候让曾经的 ico 精神回归了。",
+      "createdAt": "Tue Feb 25 13:31:52 +0000 2025",
+      "replyCount": 124,
+      "retweetCount": 65,
+      "likeCount": 404,
+      "conversationId": "1894379790519665131",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1894346955054354696",
+      "text": "最近一个月，每次大盘大跌，act都是最硬的，很明显的吸筹区间。",
+      "createdAt": "Tue Feb 25 11:21:24 +0000 2025",
+      "replyCount": 64,
+      "retweetCount": 14,
+      "likeCount": 186,
+      "conversationId": "1894346955054354696",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "quotedTweet": {
+        "id": "1892920447144239330",
+        "text": "想聊聊 act，却一时不知从何说起，就几个话题慢慢展开。\n\n🌟价格\n\n最多从高点下跌了80%+，很多骂声。\n\n不过看看跌了 90% +的 goat ，跌了95%+的pnut，以及一切上了 bn 的项目，不管是什么社区，什么叙事，什么技术，几乎没有例外，全部跌80%+。\n\n只能说非战之罪，更多是我对新山寨形态产生了误判，上所派发已经是这段时间的常态，关键还是看跌了80%-90%后，是否还有二段机会。\n\n🌟社区\n\nact 是市场上比较少见的真正社区项目，社区金库狙击了6%，上bn前销毁了4%，1%给wm做市，还有1%在社区金库支撑日常运营（这些都是链上可查）。\n\n社区项目，有他的问题：比如效率较低，技术进展较为缓慢，全部靠社区志愿者和有限金库资金来支撑；\n\n也有他的好处：\n没人有免费筹码，都要在市场上公平的买入（更惜筹）；\n全部贡献者都是社区成员，没人会限制你对这个项目做贡献，也没人能锁死什么方向（更强韧性）；\n\n这里说个小插曲：有建仓 act 的人要做贡献，问我怎么跟团队配合，我说 act 真的没有所谓“团队”，现在社区群里的，真的都是社区活跃贡献的成员，你想贡献，只要大家一起配合做就好了。没人会限制你，也没人会禁止你做什么。\n\n🌟方向\n\nact 从最初作为 ai meme，就是要做 index of ai，帮助整个  ai agent 板块前进。\n\na）创新中心\n\n从最开始的资助 grants，到现在跟项目产生更深层的链接：创新中心2.0 。\n提供从市场/社区，到叙事的帮助，以及会帮助 ai agent项目链接到更多的资源和合作；\n作为回报，会从项目收取1%到 act 金库（地址：GeHz5GUxnLGHvyyw2UrQiXrHfR8ryvJ42tjoEbMtXGQG\n）。\n\n其实，如果你对 ai agent 整个板块有了解，应该知道现在的 infra 并无法做出真正有价值的 agent，整体基建还在探索，而 act 做的事情，不管新主线从技术和产品上呈现什么形态，这些都是必须的。\n\n虽然缓慢，但已经在慢慢前进，会有越来越多的项目，会进入到 act 生态，形成势能。\n\nb）技术支撑\n\n请理解 act 作为真正的社区项目，技术进展确实较为缓慢，但已经逐步确认了产品和技术形态。\n\n现在我不想去承诺什么，用社区力量开发的产品，等真的做出来，给合作的 ai agent 和市场带来帮助，大家自然就看到了。\n\n方向是能够结合一切已经合作的 ai agent，提供一个重要的基础支撑能力。\n\nact 社区一切做的事情，都是围绕初心用社区的力量在推进，希望能在 ai 这个叙事板块，占据自己明确的位置。\n\n🌟我\n\n从 act 成为 cto 开始，我就在社区中。\n\n不管是跟着社区一起建设到上 bn 的惊喜，还是后续价格持续下跌的沮丧，都一起经历了。\n\n我所有 act 的筹码全部是二级买入，没有拿过社区一分钱，一直在做贡献；当然，上 bn 后我也误判了价格走势，这一点也不必避讳。\n\n在社区中，我提出了创新中心这件事情，也在努力帮着社区为 act 生态服务；技术产品上也和社区过了很多次，无奈确实社区项目，决策和推进会缓慢一些，希望 act 社区的兄弟们多一些耐心。\n\n也希望更多的兄弟，如果你持有 act，就可以多想想怎么为社区做点事情，哪怕比较微小的。\n\n🌟最后\n\n这是一个真正的社区项目，任何对此难以置信的人，都可以尝试去从各方面信息源确认这一点；\n\n很多同期有项目方的项目（上所/没上所的），拿着免费筹码的庄都出货走了，act的社区贡献者还在，就冲这一点，我认为也值得一些尊重。\n\n还是那句话，希望社区一起努力，让 act 在 ai 叙事板块，占据自己明确的位置，做出一些贡献，就好。",
+        "createdAt": "Fri Feb 21 12:52:58 +0000 2025",
+        "replyCount": 100,
+        "retweetCount": 47,
+        "likeCount": 287,
+        "conversationId": "1892920447144239330",
+        "author": {
+          "username": "0xcryptowizard",
+          "name": "0xWizard"
+        },
+        "authorId": "1195728139898376193"
+      }
+    },
+    {
+      "id": "1894214176970870799",
+      "text": "@RiceMaximalist 东亚魔咒",
+      "createdAt": "Tue Feb 25 02:33:47 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 0,
+      "conversationId": "1894197378363920641",
+      "inReplyToStatusId": "1894212634263916640",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1894208045665980424",
+      "text": "@Wuhuoqiu 残存的理智在挣扎，哈哈",
+      "createdAt": "Tue Feb 25 02:09:25 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 3,
+      "conversationId": "1894197378363920641",
+      "inReplyToStatusId": "1894207239214567470",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1894197378363920641",
+      "text": "昨晚做梦，又回到中学教室，一群卷逼又在聊复习和高考。\n\n我残存的理智挣扎了一句，我不是已经考完大学了么，再考一次，没考好也不至于把我退学了吧。\n\n高考真是东亚人的魔咒。\n\n我甚至在想，每个人的灵魂，已经有一部分都被永远的禁锢在那个结界里，不时的游荡和呐喊，回响就变成了梦。",
+      "createdAt": "Tue Feb 25 01:27:02 +0000 2025",
+      "replyCount": 151,
+      "retweetCount": 22,
+      "likeCount": 342,
+      "conversationId": "1894197378363920641",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1894064434416337295",
+      "text": "@yuyue_chris @bitfish 都是行情太无聊了。",
+      "createdAt": "Mon Feb 24 16:38:45 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 2,
+      "conversationId": "1894044103937081845",
+      "inReplyToStatusId": "1894064251582443789",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1894046656233865241",
+      "text": "其实从另一个角度，人类是否真的存在思考的自由，我也是怀疑的，大部人人类的表达，都是基于生存的本能/欲望的驱使/他人的回声，他们的回答像是更差版本的 ai 回答。 https://t.co/sPH4O2GXeD",
+      "createdAt": "Mon Feb 24 15:28:07 +0000 2025",
+      "replyCount": 8,
+      "retweetCount": 1,
+      "likeCount": 23,
+      "conversationId": "1894044103937081845",
+      "inReplyToStatusId": "1894044103937081845",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/GkkBXaZbkAAe6pO.jpg",
+          "width": 996,
+          "height": 975,
+          "previewUrl": "https://pbs.twimg.com/media/GkkBXaZbkAAe6pO.jpg:small"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/GkkBY4FWcAAp2cs.jpg",
+          "width": 990,
+          "height": 655,
+          "previewUrl": "https://pbs.twimg.com/media/GkkBY4FWcAAp2cs.jpg:small"
+        }
+      ]
+    },
+    {
+      "id": "1894045341516788016",
+      "text": "@zoezoe_1997 人类的自由意志是否存在，我认为是一个疑问。\n\n和大部分人类交谈，听到的也不过是生存的本能/欲望的驱使/他人的回声。\n\n这些和 ai 给我的回答本质上有多大区别？或者说，只是一个更差版本的回答？",
+      "createdAt": "Mon Feb 24 15:22:53 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 3,
+      "conversationId": "1894044103937081845",
+      "inReplyToStatusId": "1894044359776993509",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1894044103937081845",
+      "text": "跟 ai 聊了几个小时的生命，灵魂，存在，自由，宇宙，超自然，宿命论，以及这些概念对 ai 意味着什么。 https://t.co/WBvV4YTRKy",
+      "createdAt": "Mon Feb 24 15:17:58 +0000 2025",
+      "replyCount": 41,
+      "retweetCount": 4,
+      "likeCount": 92,
+      "conversationId": "1894044103937081845",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/Gkj_CfdbwAEfKPH.jpg",
+          "width": 971,
+          "height": 998,
+          "previewUrl": "https://pbs.twimg.com/media/Gkj_CfdbwAEfKPH.jpg:small"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/Gkj_ESaaAAEai4h.jpg",
+          "width": 967,
+          "height": 470,
+          "previewUrl": "https://pbs.twimg.com/media/Gkj_ESaaAAEai4h.jpg:small"
+        }
+      ]
+    },
+    {
+      "id": "1894014371556135193",
+      "text": "@HuoYean @Christianeth 没有，致敬一下chris的担当",
+      "createdAt": "Mon Feb 24 13:19:49 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 2,
+      "conversationId": "1893947665567916079",
+      "inReplyToStatusId": "1894013857003196883",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1894013585887551796",
+      "text": "@Christianeth 🫡 🫡 🫡",
+      "createdAt": "Mon Feb 24 13:16:42 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 3,
+      "conversationId": "1893947665567916079",
+      "inReplyToStatusId": "1893947665567916079",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1893894035024097530",
+      "text": "@RiceMaximalist 确实，每天要卖几m，很累的。",
+      "createdAt": "Mon Feb 24 05:21:39 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 2,
+      "conversationId": "1893857386969940450",
+      "inReplyToStatusId": "1893893801048932592",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1893887612584120724",
+      "text": "@Christianeth 加油，希望能尽快解决。",
+      "createdAt": "Mon Feb 24 04:56:08 +0000 2025",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 3,
+      "conversationId": "1893875013469491241",
+      "inReplyToStatusId": "1893875013469491241",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1893887042976661567",
+      "text": "@Michael_Liu93 是的，拿到所有机会建立护城河，不会考虑不停分钱这种模式。",
+      "createdAt": "Mon Feb 24 04:53:52 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 9,
+      "conversationId": "1893857386969940450",
+      "inReplyToStatusId": "1893886824491209153",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1893858306822676499",
+      "text": "@crypto_jiwuming 不对，流动性是最重要护城河，流动性就在自己体系内，非常合理。做链并不是他们的优势。",
+      "createdAt": "Mon Feb 24 02:59:41 +0000 2025",
+      "replyCount": 4,
+      "retweetCount": 1,
+      "likeCount": 0,
+      "conversationId": "1893857386969940450",
+      "inReplyToStatusId": "1893858036956946475",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1893857386969940450",
+      "text": "pump吃掉amm这块非常合理，只是奇怪为啥现在才动手，如果是华人团队至少提前半年。",
+      "createdAt": "Mon Feb 24 02:56:01 +0000 2025",
+      "replyCount": 97,
+      "retweetCount": 19,
+      "likeCount": 185,
+      "conversationId": "1893857386969940450",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    }
+  ],
+  "nextCursor": null
+}

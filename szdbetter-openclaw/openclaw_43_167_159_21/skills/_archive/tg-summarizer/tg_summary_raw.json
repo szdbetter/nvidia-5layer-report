@@ -1,0 +1,276 @@
+[33m[2026-02-18T10:09:53.580] [INFO] - [Running gramJS version 2.26.21][0m
+[33m[2026-02-18T10:09:53.585] [INFO] - [Connecting to 91.108.56.139:80/TCPFull...][0m
+[33m[2026-02-18T10:09:53.589] [INFO] - [Connection to 91.108.56.139:80/TCPFull complete!][0m
+[33m[2026-02-18T10:09:53.590] [INFO] - [Using LAYER 198 for initial connect][0m
+{
+  "Crypto Market Aggregator|币圈新闻汇总": [
+    {
+      "date": "2/18/2026, 8:03:49 AM",
+      "text": "[2/2]\n将发币手续费拆分为“创作者费”与“交易返现”，由创建者发行时选择；若选择交易者返现，则创作者费用将全部返还给交易者，且该模式无法进行 CTO。  \n（PANews）\n\n2、代币化黄金新用例：Elemental Royalty 未来或支持用 XAUT 发放股息  \nElemental Royalty 表示投资者未来可选择用 Tether 的代币化黄金 XAUT 接收股息。  \n（Decrypt）\n\n━━ 其他 ━━\n\n1、日本 1 月外贸数据：进口低于预期、出口高于预期  \n进口同比 -2.5%（预期 +3.0%）；出口同比 +16.8%（预期 +12.0%）。  \n（DB）"
+    },
+    {
+      "date": "2/18/2026, 8:03:46 AM",
+      "text": "[1/2]\n【Crypto/TradFi 信息汇总】2026-02-18 08:00（北京时间）\n\n━━ 重要新闻 ━━\n\n1、特朗普称“美日大规模贸易协议”已正式启动  \n日本承诺向美国投资 5500 亿美元，并将落地/资助包括德州油气/LNG、俄亥俄州发电、佐治亚州关键矿产等项目。  \n（BWEtradfi/Tradfin | Cointelegraph | Kobeissi Letter）\n\n2、英伟达与 Meta 达成多年期战略合作，扩展 AI 基础设施  \n消息称 Meta 将在协议下部署“数百万”英伟达芯片/GPU，且 Meta 已为英伟达芯片第二大采购方；同时提到 Meta 将用 NVIDIA Spectrum‑X Ethernet 扩展 AI 工作负载。  \n（BWEtradfi/Tradfin | Cointelegraph | Kobeissi Letter）\n\n3、Stripe 旗下稳定币公司 Bridge 获 OCC 有条件批准全国性银行信托牌照  \nBridge 获得美国货币监理署（OCC）对 National Bank Trust Charter 的有条件批准，以强化其稳定币相关产品布局。  \n（Decrypt | The Block）\n\n4、贝莱德质押以太坊 ETF（ETHB）申报披露费用结构  \n最新申报披露：年费率（expense ratio）0.25%；贝莱德将从该 ETF 的以太坊质押总收益中保留 18%作为质押费用。  \n（BlockBeats | CoinGape | velo）\n\n5、文件披露：阿布扎比基金 2025 年末将 IBIT 敞口增至超 10 亿美元  \n披露显示，阿布扎比基金在 2025 年末将其对贝莱德比特币现货 ETF IBIT 的敞口提升至超过 10 亿美元。  \n（Decrypt | The Block）\n\n6、伯克希尔·哈撒韦 13F：Q4 大幅减持亚马逊与苹果  \n披露口径显示，伯克希尔在 2025 年 Q4 减持亚马逊持仓 77%（约 17 亿美元），并在上季度卖出约 27 亿美元苹果股票。  \n（BWEtradfi/Tradfin | Kobeissi Letter）\n\n7、SEC 文件：英伟达披露持仓变动（英特尔、诺基亚等）  \n英伟达披露持有英特尔 2.148 亿股、持有诺基亚 1.664 亿份赞助型 ADR；同时披露已清仓 ARM，并解除其在 Applied Digital（APLD）与 WeRide（WRD）的持股。  \n（BWEtradfi/Tradfin | trad_fin）\n\n8、闪迪（Sandisk，SNDK）启动 30.8 亿美元二次公开发行  \n公司启动 30.8 亿美元 Secondary Public Offering，并就股东西部数据（WDC）出售所持股份完成登记/注册流程。  \n（BWEtradfi/Tradfin | trad_fin）\n\n9、CFTC 主席：加密监管将“面向未来的加固”，不希望出现“Gensler 2.0”  \nCFTC 主席表示将对加密监管进行 future‑proof，并称“不希望出现 Gary Gensler 2.0 把一切推翻”。  \n（CoinGape | WatcherGuru）\n\n10、CFTC 提交“法庭之友”意见书，主张对预测市场的排他性管辖权  \nCFTC 向法院提交 friend‑of‑the‑court 意见书，为其对美国 prediction markets 的排他性管辖权进行辩护。  \n（Cointelegraph）\n\n━━ 市场分析 ━━\n\n1、Decrypt：BTC 未平仓合约较 2025 年 10 月峰值下跌 55%  \n比特币 Open Interest 下降 55%，为自 2023 年 4 月以来最陡降幅，反映交易者去杠杆（unwind leverage）。  \n（Decrypt）\n\n2、BTC 短线剧烈波动：跌破 67000 USDT 后快速收复 68000 USDT  \nBTC 一度跌破 67000 USDT（66993.01，日内 -2.77%），随后反弹突破 68000 USDT（68021.84）；另有快讯称反弹后 24H 跌幅约 0.01%，价格在 68000 USDT 上方。  \n（Foresight News | Foresight News | Odaily）\n\n3、美股收盘：标普 500 基本持平，纳指涨 0.1%  \n（DB）\n\n━━ 项目动态 ━━\n\n1、Pump.fun 上线创作者费用新机制"
+    },
+    {
+      "date": "2/18/2026, 12:09:59 AM",
+      "text": "[3/3]\n公司披露 BTC 财库均价 84,944 美元，并称 2026 年初以来持有量增长 74.8%。  \n（PANews | BlockBeats）\n\n3、Jane Street Q4 增持 IBIT 至约 7.9 亿美元  \n披露增持 7,105,206 股 IBIT，目前合计持有 20,315,780 股；并提及市场关于其“美东时间上午 10 点压价 BTC”的社区传言。  \n（BlockBeats）\n\n4、链上高风险动向：WLFI 在 Hyperliquid 多单加仓与交易所大额提币被监测  \n监测称某地址向 Hyperliquid 再存入 50 万 USDC 做多 WLFI，浮亏超 100 万美元；另有新建地址从币安转出 2,500 万枚 WLFI（约 252 万美元）。  \n（PANews | BlockBeats）"
+    },
+    {
+      "date": "2/18/2026, 12:09:57 AM",
+      "text": "[2/3]\n（Foresight News | PANews）\n\n9、SBI Holdings 拟收购新加坡交易所 Coinhako 多数股权  \nSBI 全资子公司 SBI Ventures Asset 与 Coinhako 母公司签署意向书，拟注资并收购股份；交易仍需监管批准，条款与持股细节未披露。  \n（Foresight News）\n\n━━ 市场分析 ━━\n\n1、Wintermute：BTC 在 200 周均线附近获支撑，但反弹或更像“去风险机会”，7 万美元为阻力  \nWintermute 指出现货成交量收缩、杠杆主导短期波动，缺乏结构性买盘时更易急涨急跌；宏观信号未明朗前，反弹可能被用于降低风险敞口。  \n（PANews | BlockBeats）\n\n2、风险资产承压：纳指走弱、VIX 拉升；加密概念股普跌  \n纳指/纳指100走弱、VIX 日内明显上行；加密概念股走低，包括 MSTR、COIN、GEMI 等出现不同幅度下跌。  \n（BlockBeats | TechFlow | DBnewsdelayed）\n\n3、交易所资金格局：CryptoQuant 称 Binance 持有约 475 亿美元稳定币，占 CEX 流动性 65%  \n数据指向交易所层面稳定币流动性进一步集中，可能放大单一平台对市场短期流动性的影响。  \n（PANews | BlockBeats）\n\n4、美国需求偏弱信号：Coinbase 比特币溢价指数连续 33 天为负  \n负溢价常被解读为美国市场卖压更大、风险偏好走弱或资金外流；本次连负创 2023 年 5 月以来最长纪录。  \n（BlockBeats | TechFlow）\n\n5、宏观：古尔斯比称需证据证明通胀回到 2%；加拿大 CPI 低于预期  \n芝加哥联储主席古尔斯比称服务业通胀“并非温和”，降息仍需通胀回落证据；加拿大 1 月 CPI 同比 2.3%（预期 2.4%）低于预期。  \n（PANews | DB News）\n\n━━ 项目动态 ━━\n\n1、StarkWare 将 EY 开源零知识隐私层 Nightfall 集成至 Starknet  \n面向机构级机密交易，支持隐私交易、选择性披露与合规（如 KYC），覆盖 B2B 支付、资金操作与代币化资产转移等场景。  \n（The Block | PANews）\n\n2、Aave 发布治理提案“Aave Will Win Framework”：拟将品牌产品收入 100% 注入 DAO 国库，路线图聚焦 V4  \n提案强调在监管清晰度改善背景下，重新推进“代币价值回流”的窗口期；Aave V4 处于温度测试阶段。  \n（Foresight News）\n\n3、Monad Foundation 引入多名高管：强化主网后机构化战略与亚太采用  \n新增管理层来自 Optimism、FalconX、BVNK 等机构，重点推进资本市场策略、品牌与亚太（香港、新加坡、日本、韩国）机构采用。  \n（Foresight News | BlockBeats）\n\n4、DeFi 借贷平台 ZeroLend 宣布关闭：TVL 下滑与收入压力下停止运营  \nZeroLend 表示无法产生可持续收入，将逐步停止运营。  \n（Decrypt | The Block）\n\n5、TON Foundation × OSL 旗下 Banxa：为亚太中小企业提供合规稳定币支付基础设施  \n合作面向亚太地区企业结算与跨境支付等场景，Banxa 负责法币与数字资产转换。  \n（The Block | PANews）\n\n━━ 其他 ━━\n\n1、美伊谈判推进但地缘风险仍受关注：第二轮达成总体共识，后续谈细节  \n报道称双方在总体问题上达成一致，将继续讨论细节；市场同时关注霍尔木兹海峡相关区域的风险与能源运输不确定性。  \n（PANews | BlockBeats | Kobeissi Letter）\n\n2、DDC 连续第六周增持 BTC：新增 80 枚，总持仓 2,068 枚"
+    },
+    {
+      "date": "2/18/2026, 12:09:54 AM",
+      "text": "[1/3]\n【Crypto/TradFi 合并快报】2026-02-18 00:00（北京时间）\n\n━━ 重要新闻 ━━\n\n1、美国 CFTC 主席：加密市场结构法案“接近/即将”签署成法，结束“以执法代监管”  \nCFTC 主席 Mike Selig 表示，加密市场结构法案已“接近/即将”签署成法，目标是建立更“面向未来”的法定框架，避免类似“Gary Gensler 2.0”的监管回潮，并称“以执法代监管”的时代结束。  \n（PANews | TechFlow | BlockBeats | Cointelegraph | WatcherGuru）\n\n2、CFTC 为预测市场“专属管辖权”辩护：州监管挑战下必要时“法庭见”  \n在多州对 Polymarket、Kalshi 等预测市场平台提出挑战之际，CFTC 主席公开主张预测市场应由 CFTC 统一管辖，并表示如有必要将诉诸司法途径。  \n（Decrypt | CoinGape）\n\n3、Strategy 再度增持 2,486 枚 BTC：总持仓 717,131 枚，均价 76,027 美元  \nStrategy 以约 1.684 亿美元买入 2,486 枚 BTC，买入均价约 67,710 美元；截至 2/16 总持仓 717,131 枚，累计投入约 545.2 亿美元，整体均价约 76,027 美元。  \n（Foresight News | PANews | BlockBeats | The Block）\n\n4、BitMine 大幅增持 ETH：财库增至约 437.15 万枚，预计年质押收入约 2.52 亿美元  \nBitMine 上周增持 45,759 枚 ETH，总持仓约 4,371,497 枚（约占 ETH 总供应量 3.62%）；其中已质押约 3,040,483 枚，披露通过 MAVAN 预计年度质押收入约 2.52 亿美元。  \n（The Block | Foresight News | PRNewswire）\n\n5、Gemini IPO 数月后高管“集体离职”：COO/CFO/CLO 同时卸任  \nGemini COO Marshall Beard、CFO Dan Chen、CLO Tyler Meade 同日卸任；公司称离任非因分歧，且暂不计划任命新 COO，部分职责由联合创始人 Cameron Winklevoss 接手。  \n（The Block | PANews | TechFlow）\n\n6、Dragonfly Capital 完成第 4 支基金募资 6.5 亿美元：称行业正经历“mass extinction”  \nDragonfly 宣布完成 6.5 亿美元新基金募资，认为加密风投环境正“大规模出清”，但仍重点押注稳定币、链上金融与 RWA 代币化等方向。  \n（The Block | Fortune）\n\n7、币安推出 WLFI 奖励活动：持有 USD1 可共享 2.35 亿枚 WLFI，2/20 开始  \n币安宣布 2026/02/20 08:00（东八区）起为持有 USD1 的合格用户提供 WLFI 奖励，按周发放，首次发放为 2026/03/04，活动持续至 2026/03/20。  \n（Binance | Foresight News | BlockBeats）\n\n8、欧洲合规进展：稳定币基础设施 BVNK 获马耳他 MFSA 颁发 MiCA 框架 CASP 牌照  \nBVNK 获 CASP 牌照后，可在 EEA 范围内“护照化”开展稳定币与数字资产相关服务，定位连接欧元传统支付轨道与稳定币结算的合规桥梁。"
+    },
+    {
+      "date": "2/17/2026, 4:06:26 PM",
+      "text": "[2/2]\n（BlockBeats）\n\n2、Wintermute 上线机构级“代币化黄金”OTC（PAXG/XAUT），并预测 2026 年市场规模或达 150 亿美元  \nWintermute 宣布支持 PAXG 与 XAUT 的机构级 OTC，提供算法优化现货执行、可用 USDT/USDC/法币/主流加密资产交易，并支持链上实时结算与对冲；其引用数据称 2025 年 Q4 代币化黄金交易量达 1260 亿美元、链上市值近 3 个月增长逾 80%。  \n（BlockBeats | Foresight News | 深潮 TechFlow）\n\n3、Backpack 启动 TGE 前身份验证（KYC/人脸识别等）  \n官方称完成验证是申领代币的第一步，用户可通过网站或 App 操作。  \n（Foresight News | TechFlow | Odaily）\n\n4、Alchemy Pay：2 月 23 日推出 L1 公链 Alchemy Chain 测试网  \nAlchemy Chain 采用 Solana 虚拟机架构，定位支付系统，支持法币与加密交易并面向大规模商业应用。  \n（Foresight News）\n\n5、Andre Cronje 相关项目 Flying Tulip（FT）开启公开代币销售，TGE 计划 2 月 23 日  \n项目引入“ftPUT”本金保护机制（公募代币附带按原始投资价值赎回权），并称公募上限/FDV 均为 10 亿美元；已部署以太坊、Base、Avalanche，并计划拓展至 MegaETH 与 Hyperliquid。  \n（BlockBeats）\n\n━━ 其他 ━━\n\n1、链上监测：与 Pump.fun 托管钱包关联地址出售约 5.43 亿枚 PUMP 兑换 120.7 万 USDC  \n相关地址 7 个月前曾从托管钱包接收 37.5 亿枚 PUMP（当时约 2539 万美元），目前仍持有约 32 亿枚（按现价约 707 万美元）。  \n（BlockBeats | Foresight News | PANews）\n\n2、链上监测：Astaria 创始人地址向 Binance 存入约 1419 万枚 WLD（约 572–578 万美元）  \n监测称存入地址为 0x64b96a…03e9；另有报道提到该地址仍持有约 482 万枚 WLD。  \n（BlockBeats | Foresight News）\n\n3、安全提示：Ledger 与 Trezor 用户再遭“伪造实体信件”钓鱼攻击  \n攻击者以带全息图与二维码的实体信件引导至仿冒页面，诱骗用户输入助记词；建议仅通过官方渠道核验信息，切勿向任何人/网站提供助记词。  \n（TechFlow）\n\n4、公司动向：菲律宾数字银行 Maya 据称评估赴美 IPO，募资或最高 10 亿美元  \nMaya 持有菲律宾央行数字银行牌照，并在受监管的 VASP 框架下提供 App 内加密交易。  \n（Foresight News | Decrypt | TechFlow）\n\n5、贵金属大幅走弱：现货黄金一度跌至 4860–4950 美元/盎司区间，期银一度跌约 7%  \n多家快讯显示黄金、白银日内波动显著，部分报道将其与地缘消息下避险情绪变化相关联。  \n（BlockBeats | BlockBeats | PANews）"
+    },
+    {
+      "date": "2/17/2026, 4:06:23 PM",
+      "text": "[1/2]\n【Crypto/TradFi 合并快报】2026-02-17 16:00（北京时间）\n\n━━ 重要新闻 ━━\n\n1、ZeroLend 宣布将逐步停止运营，多数市场 LTV 已下调至 0%  \n借贷协议 ZeroLend 表示将逐步停止运营并敦促用户尽快提现；团队称因部分链流动性下降、预言机支持中止、长期亏损及安全风险上升等导致不可持续，并计划通过 timelock 升级与合约更新处理低流动性链（如 Manta、Zircuit、XLayer）资产回收与再分配。  \n（BlockBeats | Foresight News | TechFlow）\n\n2、香港证监会新增持牌虚拟资产交易平台，并放宽部分业务框架  \nSFC 将 Victory Fintech Company Limited 纳入持牌虚拟资产交易平台名单，持牌加密及区块链相关机构增至 12 家；并发布新指引：允许持牌券商提供虚拟资产保证金融资（初期仅接受 BTC、ETH 作抵押），同时允许交易平台向专业投资者提供永续合约交易框架。  \n（BlockBeats）\n\n3、OKX 获欧盟支付机构（PI）许可，拟强化稳定币支付服务以应对 3 月新规  \nOKX 宣布已在欧盟获得支付机构（PI）许可，将在遵守 MiCA 与 PSD2 前提下增强稳定币相关支付服务能力，以应对 3 月实施的新规。  \n（Foresight News）\n\n4、哈佛捐赠基金披露：减持比特币 ETF、首次建立以太坊 ETF 头寸  \nHarvard Management Company 披露 2025 年 Q4 将比特币 ETF 持仓减持约 21%，并首次建立以太坊 ETF 头寸；截至 2025-12-31：持有贝莱德 IBIT 约 535 万股（约 2.658 亿美元），并新建 iShares Ethereum Trust 约 387 万股（约 8680 万美元），两者合计敞口约 3.526 亿美元。  \n（PANews）\n\n5、SBI Holdings 拟收购新加坡加密交易所 Coinhako 多数股权  \nSBI 全资子公司 SBI Ventures Asset 与 Coinhako 母公司 Holdbuild 签署意向书，拟注资并收购现有投资者股份；交易仍待监管批准，条款与持股细节未披露。  \n（BlockBeats）\n\n6、Nexo 宣布 2026 年正式重返美国市场，Bakkt 提供交易基础设施  \nNexo 表示将为投资与信贷产品建立符合美国监管的框架，并称其在美国的数字资产交易基础设施由 Bakkt 提供。  \n（PANews）\n\n7、安全事件：投毒攻击致交易者误转账，损失约 60 万美元 USDT  \nCyvers Alerts 监测到交易者因“地址投毒”误将资金发送至仿冒地址，损失约 60 万美元 USDT。  \n（BlockBeats | PANews）\n\n━━ 市场分析 ━━\n\n1、BTC 结构偏弱：2 月或录得 2018 年以来最长连跌，周线 RSI 跌入超卖区  \n若 2 月收跌，BTC 或出现连续第 5 个月下跌（创 2018 年熊市以来最长连跌）；周线 RSI 降至约 27.8，处于超卖区间，叠加假期流动性下降引发“清算式挤压”。  \n（BlockBeats | BlockBeats）\n\n2、Coinbase 比特币溢价指数连续 33 日为负，创 2023 年 5 月以来最长纪录  \n指数暂报约 -0.0477%；持续负溢价通常反映美国市场卖压偏强、风险偏好走弱。  \n（PANews | Odaily）\n\n3、CryptoQuant：牛熊指数触及 FTX 崩盘以来最低附近；Binance 鲸鱼流入比率上升  \n牛熊指数跌至 2022 年 FTX 事件以来最低附近但未进入“极端熊市”；同时 Binance 鲸鱼 BTC 流入比率在 2/2—2/15 由 0.4 升至 0.62，叠加“OG 巨鲸”近两周存入约 1 万枚 BTC，潜在抛压值得关注。  \n（BlockBeats | BlockBeats | Odaily）\n\n4、情绪指标：恐惧与贪婪指数降至 10（极度恐慌）  \nAlternative.me 指数读数 10，维持“极度恐惧”；部分观点认为若短期均线在深度转负后拐头，历史上可能对应阶段性底部附近，但短期仍存走弱风险。  \n（BlockBeats | Foresight News | TechFlow）\n\n5、Coinglass：BTC 关键价位清算强度集中在 66,000 下方与 70,000 上方  \n数据显示若跌破 66,000 美元，主流 CEX 多单累计清算强度约 8.34 亿美元；若突破 70,000 美元，空单累计清算强度约 5.72 亿美元。  \n（BlockBeats | Foresight News | Odaily）\n\n━━ 项目动态 ━━\n\n1、Rocket Pool 将部署历史最大升级 Saturn One，RPL 24 小时一度涨超 60%  \n升级计划于 2026/2/18 00:00 UTC 在以太坊主网部署，重点包括：激活 RPL Fee Switch（协议收入分配给质押 RPL 用户）、节点运营商最低 ETH 要求降至 4 ETH、引入 Megapools、rETH 优化及后续通胀减排等。"
+    }
+  ],
+  "@BWETradFi |方程式财经（传统金融新闻）": [
+    {
+      "date": "2/18/2026, 9:27:03 AM",
+      "text": "Tradfin: *USER REPORTS INDICATE PROBLEMS WITH CLOUDFLARE- DOWNDETECTOR\n\n*USER REPORTS INDICATE PROBLEMS WITH AMAZON WEB SERVICES - DOWNDETECTOR\n\n$NET $AMZN\n\nTradfin: *用户报告显示 Cloudflare 服务出现问题 - DownDetector\n\n*用户报告显示 Amazon Web Services 服务出现问题 - DownDetector\n\n$NET $AMZN\n\n————————————\n2026-02-18 09:27:01"
+    },
+    {
+      "date": "2/18/2026, 9:00:13 AM",
+      "text": "DB: *NZ LEAVES BENCHMARK INTEREST RATE AT 2.25%; EST. 2.25%\n\nDB: *新西兰将基准利率维持在2.25%；估计2.25%\n\n————————————\n2026-02-18 09:00:12"
+    },
+    {
+      "date": "2/18/2026, 8:12:53 AM",
+      "text": "Tradfin: https://t.co/E4FGTwnJzI\n\n————————————\n2026-02-18 08:12:51"
+    },
+    {
+      "date": "2/18/2026, 8:12:37 AM",
+      "text": "Tradfin: *ATLASSIAN FREEZES HIRING AMID BUSINESS SOFTWARE MARKET TURMOIL - THE INFORMATION\n\n$TEAM\n\nTradfin: ATLASSIAN在商业软件市场动荡中冻结招聘 - THE INFORMATION\n\n————————————\n2026-02-18 08:12:37"
+    },
+    {
+      "date": "2/18/2026, 5:45:28 AM",
+      "text": "Tradfin: *SANDISK CORP - LAUNCHES $3.08 BLN SECONDARY PUBLIC OFFERING\n\n$SNDK\n\nTradfin: *闪迪公司 - 推出30.8亿美元的二次公开发行\n\n————————————\n2026-02-18 05:45:27"
+    },
+    {
+      "date": "2/18/2026, 5:31:30 AM",
+      "text": "Tradfin: *NVIDIA DISSOLVES SHARE STAKE IN APPLIED DIGITAL - SEC FILING\n\n*NVIDIA CORP DISSOLVES SHARE STAKE IN WERIDE INC\n\n$NVDA $APLD $WRD\n\nTradfin: *英伟达已清仓持有Applied Digital股份 - 已向美国证券交易委员会提交文件\n\n*英伟达公司已清仓持有Weride Inc.股份\n\n$NVDA $APLD $WRD\n\n————————————\n2026-02-18 05:31:28"
+    },
+    {
+      "date": "2/18/2026, 5:30:41 AM",
+      "text": "Tradfin: *NVIDIA CORP REPORTS SHARE STAKE OF 214.8 MLN SHARES IN INTEL - SEC FILING\n\n*NVIDIA REPORTS SHARE STAKE OF 166.4 MLN SPONSORED ADR IN NOKIA - SEC FILING\n\n*NVIDIA CORP DISSOLVES SHARE STAKE IN ARM HOLDINGS PLC - SEC FILING\n\n$NVDA $INTC $NOK $ARM\n\nTradfin: *英伟达公司向美国证券交易委员会（SEC）提交文件，披露持有英特尔2.148亿股股份\n\n*英伟达公司向美国证券交易委员会（SEC）提交文件，披露持有诺基亚1.664亿股赞助型美国存托凭证（ADR）\n\n*英伟达公司向美国证券交易委员会（SEC）提交文件，披露已清仓其持有的ARM控股公司股份\n\n$NVDA $INTC $NOK $ARM\n\n————————————\n2026-02-18 05:30:39"
+    },
+    {
+      "date": "2/18/2026, 5:23:03 AM",
+      "text": "Tradfin: *SANDISK REGISTERS FOR SHARE SALE BY HOLDER WESTERN DIGITAL\n\n$SNDK $WDC\n\nTradfin: 闪迪公司就股东西部数据公司的股份出售进行登记\n\n————————————\n2026-02-18 05:23:02"
+    },
+    {
+      "date": "2/18/2026, 5:22:43 AM",
+      "text": "Tradfin: https://t.co/ebPDZU9uT3\n\n————————————\n2026-02-18 05:22:42"
+    },
+    {
+      "date": "2/18/2026, 5:16:37 AM",
+      "text": "Tradfin: https://t.co/GCxZCU1Zeo\n\n————————————\n2026-02-18 05:16:37"
+    },
+    {
+      "date": "2/18/2026, 5:16:05 AM",
+      "text": "Tradfin: *NVIDIA CORP - META SCALES AI WORKLOADS WITH NVIDIA SPECTRUM-X ETHERNET\n\n$NVDA $META $ANET\n\nTradfin: 英伟达公司 - Meta 利用英伟达 Spectrum-X 以太网扩展 AI 工作负载\n\n————————————\n2026-02-18 05:16:04"
+    },
+    {
+      "date": "2/18/2026, 5:15:19 AM",
+      "text": "Tradfin: *META IS ALREADY THE SECOND-BIGGEST PURCHASER OF NVIDIA CHIPS\n\n*META TO DEPLOY ‘MILLIONS’ OF NVIDIA CHIPS AS PART OF AGREEMENT\n\n$META $NVDA\n\nTradfin: *META 已是英伟达芯片的第二大采购商\n\n*根据协议，META 将部署“数百万”颗英伟达芯片\n\n$META $NVDA\n\n————————————\n2026-02-18 05:15:18"
+    },
+    {
+      "date": "2/18/2026, 5:15:15 AM",
+      "text": "Tradfin: *NVIDIA, META PLATFORMS ANNOUNCE MULTIYEAR STRATEGIC PARTNERSHIP\n\n$NVDA $META\n\nTradfin: 英伟达、Meta Platforms宣布建立多年战略合作伙伴关系\n\n————————————\n2026-02-18 05:15:14"
+    },
+    {
+      "date": "2/18/2026, 5:11:00 AM",
+      "text": "Tradfin: https://t.co/Qn2pC4yNuR\n\n————————————\n2026-02-18 05:10:59"
+    },
+    {
+      "date": "2/18/2026, 5:06:01 AM",
+      "text": "Tradfin: *BERKSHIRE HATHAWAY DISCLOSES LATEST HOLDINGS IN 13F FILING\n\n$BRK.B\n\nTradfin: 伯克希尔哈撒韦在13F文件中披露最新持仓\n\n————————————\n2026-02-18 05:06:00"
+    },
+    {
+      "date": "2/18/2026, 5:00:13 AM",
+      "text": "DB: *S&P 500 CLOSES LITTLE CHANGED, NASDAQ GAINS 0.1%\n\nDB: 标准普尔500指数收盘几无变化，纳斯达克指数上涨0.1%\n\n————————————\n2026-02-18 05:00:12"
+    },
+    {
+      "date": "2/18/2026, 4:21:46 AM",
+      "text": "Tradfin: *TRUMP: MASSIVE TRADE DEAL WITH JAPAN HAS JUST LAUNCHED\n\n*TRUMP: JAPAN COMMITTING $550 BILLION DOLLARS TO INVEST IN UNITED STATES\n\n*TRUMP: ANNOUNCING PROJECTS IN TEXAS OIL & GAS, OHIO POWER GENERATION, GEORGIA CRITICAL MINERALS\n\nTradfin: *特朗普：与日本的大规模贸易协议正式启动\n\n*特朗普：日本承诺向美国投资55​​00亿美元\n\n*特朗普：宣布在德克萨斯州的石油和天然气项目、俄亥俄州的发电项目以及佐治亚州的关键矿产项目\n\n————————————\n2026-02-18 04:21:44"
+    },
+    {
+      "date": "2/17/2026, 10:30:44 PM",
+      "text": "DB: *S&P 500 OPENS 0.2% LOWER, NASDAQ FALLS 0.6%\n\nDB: 标准普尔500指数低开0.2%，纳斯达克指数下跌0.6%\n\n————————————\n2026-02-17 22:30:43"
+    },
+    {
+      "date": "2/17/2026, 9:30:15 PM",
+      "text": "DB: *CANADA JAN. CONSUMER PRICES RISE 2.3% Y/Y; EST. +2.4%\n*CANADA JAN. CORE CPI RISES 2.6% Y/Y; PREV. 2.8%\n*CANADA JAN. MEDIAN CPI RISES 2.5% Y/Y; EST. +2.5%\n*CANADA JAN. TRIMMED CPI RISES 2.4% Y/Y; EST. +2.6%\n\nDB: *加拿大1月消费者价格指数同比上涨2.3%；预期上涨2.4%\n\n*加拿大1月核心消费者价格指数同比上涨2.6%；前值2.8%\n\n*加拿大1月中值消费者价格指数同比上涨2.5%；预期上涨2.5%\n\n*加拿大1月剔除其他因素消费者价格指数同比上涨2.4%；预期上涨2.6%\n\n————————————\n2026-02-17 21:30:12"
+    },
+    {
+      "date": "2/17/2026, 9:30:12 PM",
+      "text": "DB: *US FEB. EMPIRE STATE FACTORY INDEX AT 7.1; EST. 7.0\n\nDB: *美国2月份帝国州制造业指数为7.1；预期7.0\n\n————————————\n2026-02-17 21:30:11"
+    }
+  ],
+  "Sea 哥币圈日志": [
+    {
+      "date": "2/18/2026, 8:30:03 AM",
+      "text": "值此新春佳节之季\n我也祝你们大家：\n\n春节玉块\n阖家欢洛\n万事如意！"
+    }
+  ],
+  "Pow's Gem Calls": [
+    {
+      "date": "2/18/2026, 8:02:05 AM",
+      "text": "Now if this were to go back on track, breaking the 1-5m giga resistance + pvp attempts, maybe we can see some milestones back into play"
+    },
+    {
+      "date": "2/18/2026, 7:52:32 AM",
+      "text": "If you are expecting crime to come out of it, then maybe it is not a good coin and you are just falling victim to your own complaints of no good coins on these launchpads bc nothing is organic. You just want your position to go up"
+    },
+    {
+      "date": "2/18/2026, 7:51:29 AM",
+      "text": "This happens every time a coin juices harder than the average slop pnd that has potential, then it gets vamped endlessly rather than being pooled into the main runner"
+    },
+    {
+      "date": "2/18/2026, 7:50:34 AM",
+      "text": "Exhibit A: https://fxtwitter.com/cookerflips/status/2023905732177916261?s=46&t=EyACoroBp9NpyW9hgkuesg"
+    },
+    {
+      "date": "2/18/2026, 5:55:42 AM",
+      "text": "Anywho, good day"
+    },
+    {
+      "date": "2/18/2026, 5:52:32 AM",
+      "text": "Sums up today's seriousness vibe"
+    },
+    {
+      "date": "2/18/2026, 5:47:09 AM",
+      "text": "😂"
+    },
+    {
+      "date": "2/18/2026, 5:47:07 AM",
+      "text": "No shot"
+    },
+    {
+      "date": "2/18/2026, 5:47:04 AM",
+      "text": "https://x.com/elonmusk/status/2023876601080172829"
+    },
+    {
+      "date": "2/18/2026, 5:47:02 AM",
+      "text": "LMAO"
+    },
+    {
+      "date": "2/18/2026, 5:38:50 AM",
+      "text": "Sheep"
+    },
+    {
+      "date": "2/18/2026, 5:38:39 AM",
+      "text": "You get the gist"
+    },
+    {
+      "date": "2/18/2026, 5:38:23 AM",
+      "text": "Power into the people, within the memes, not because you are biased over a launchpad (then it becomes OH yeah it is launched on bonk, crime is coming talks)"
+    },
+    {
+      "date": "2/18/2026, 5:37:29 AM",
+      "text": "Again, I've said my peace. The rest depends on the holders/market to make something a good coin. I will not overpush my boundaries on these parasites anymore"
+    },
+    {
+      "date": "2/18/2026, 5:35:04 AM",
+      "text": "Sure it would be great to have the tokenomics increase the LP more than creator fees (my take, same as many), but it is the game we are given, not what we want. Tho I do believe with more being vocal about the changes they WANT to see, one day it will work out in the new arc"
+    },
+    {
+      "date": "2/18/2026, 5:32:35 AM",
+      "text": "❗️New coin verified on moonshot!\n\n🟣 Kimchi ($KIMCHI)\nHaUXAdAWWUkb2WTmh8z1TdaEmZkYjnQnmC6tHUdTAHvi\n\nSupply: 999,998,117.00\nMarket Cap: $3.1M\n\nToken\n\n📝 Description:\nKimchi, the #ChooseMyShibe winner, and her owner joined House of Doge at the NASDAQ Exchange in New York City on February 17, 2026, to celebrate the Dogecoin ETF launch on Nasdaq.\n\nTheir appearance marked a special moment for the Dogecoin community as the first 21Shares Dogecoin ETF (TDOG), a physically backed ETF offering regulated Dogecoin exposure, began trading earlier in January in partnership with 21Shares and House of Doge.\n\n🪶 Socials:\nTwitter"
+    },
+    {
+      "date": "2/18/2026, 5:32:01 AM",
+      "text": "If the launchpad has to come about themselves to push a narrative to be on their launchpad rather than letting the market decide, then it is the same as the coin is as good as the \"one person\" ideology pushing it as a good coin, not being a good coin \n\nIf coins were to go without the reliance of one person/trader with some influence, then it is a good coin. If it fully relies on that to depict on its successpath, then maybe it is not a good coin."
+    }
+  ],
+  "Pendle 中文": [
+    {
+      "date": "2/18/2026, 3:18:13 AM",
+      "text": "我已经在这里开始上班了。"
+    },
+    {
+      "date": "2/18/2026, 2:17:23 AM",
+      "text": "没事，我可以和你一起送外卖"
+    },
+    {
+      "date": "2/18/2026, 2:16:53 AM",
+      "text": "好好安慰他一下"
+    },
+    {
+      "date": "2/18/2026, 2:13:18 AM",
+      "text": "哥"
+    },
+    {
+      "date": "2/18/2026, 12:57:51 AM",
+      "text": "也不少了"
+    },
+    {
+      "date": "2/18/2026, 12:53:15 AM",
+      "text": "usdx xusd算机构爆吗。几亿U的盘子"
+    },
+    {
+      "date": "2/18/2026, 12:24:00 AM",
+      "text": "没事，我已经爆雷了。"
+    },
+    {
+      "date": "2/18/2026, 12:08:09 AM",
+      "text": "几个月也没发酵出来，不一定会爆出来了"
+    },
+    {
+      "date": "2/18/2026, 12:07:05 AM",
+      "text": "10.11肯定有爆仓的，只是没爆出来"
+    },
+    {
+      "date": "2/17/2026, 11:46:25 PM",
+      "text": "因为还没有机构暴雷，交易所跑路"
+    },
+    {
+      "date": "2/17/2026, 11:46:00 PM",
+      "text": "感觉这次的底应该会很低"
+    },
+    {
+      "date": "2/17/2026, 11:34:19 PM",
+      "text": "ff也崩盘了 底息上不去了"
+    },
+    {
+      "date": "2/17/2026, 10:53:46 PM",
+      "text": "要重走来时路了"
+    },
+    {
+      "date": "2/17/2026, 10:40:38 PM",
+      "text": "https://x.com/pendle_fi/status/2022462419373822317?s=46&t=cOmoDwibe225xByCc1cPsg\nICO 的份額是依照 spendle snapshot 期間的時間權重來算，空投就是直接發 token。"
+    },
+    {
+      "date": "2/17/2026, 10:02:52 PM",
+      "text": "麻了"
+    },
+    {
+      "date": "2/17/2026, 10:02:01 PM",
+      "text": "麻了"
+    },
+    {
+      "date": "2/17/2026, 9:01:19 PM",
+      "text": "麻了"
+    },
+    {
+      "date": "2/17/2026, 8:52:46 PM",
+      "text": "Usdai这种项目，Pendle的yt 获得了ico 的份额，还有空投，这种怎么分给spendle的holder啊？以什么形式发放啊"
+    },
+    {
+      "date": "2/17/2026, 8:49:57 PM",
+      "text": "如果卖掉ada应该会更爽😭"
+    },
+    {
+      "date": "2/17/2026, 8:49:46 PM",
+      "text": "@Cheng2330 去吧"
+    }
+  ]
+}

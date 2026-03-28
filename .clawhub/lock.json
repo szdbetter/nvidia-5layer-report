@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "skills": {
+    "qveris-official": {
+      "version": "1.0.2",
+      "installedAt": 1772366048042
+    },
+    "skill-vetter": {
+      "version": "1.0.0",
+      "installedAt": 1773381844894
+    },
+    "agent-reach": {
+      "version": "1.1.0",
+      "installedAt": 1773494597703
+    },
+    "research-analyzer": {
+      "version": "1.0.1",
+      "installedAt": 1773494706213
+    },
+    "faster-whisper-transcribe": {
+      "version": "1.0.0",
+      "installedAt": 1773636972398
+    },
+    "obsidian-direct": {
+      "version": "1.0.0",
+      "installedAt": 1773714504639
+    },
+    "obsidian-linux": {
+      "version": "1.2.0",
+      "installedAt": 1773710197687
+    },
+    "obsidian-sync": {
+      "version": "1.0.0",
+      "installedAt": 1773722044109
+    },
+    "ima-all-ai": {
+      "version": "1.0.9",
+      "installedAt": 1773843311172
+    },
+    "polymarket-fast-loop": {
+      "version": "1.4.1",
+      "installedAt": 1773906630763
+    },
+    "polymarket-weather-trader": {
+      "version": "1.15.0",
+      "installedAt": 1773906654211
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "skills": {
+    "skill-vetter": {
+      "name": "Skill Vetter",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=skill-vetter",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "agent-reach": {
+      "name": "Agent Reach",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=agent-reach",
+      "source": "skillhub",
+      "version": "1.1.0"
+    },
+    "research-analyzer": {
+      "name": "Research Analyzer",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=research-analyzer",
+      "source": "skillhub",
+      "version": "1.0.1"
+    },
+    "obsidian-direct": {
+      "name": "Obsidian - read, search, write and edit direct to obsidian vault.",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=obsidian-direct",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "obsidian-linux": {
+      "name": "Obsidian (Linux)",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=obsidian-linux",
+      "source": "skillhub",
+      "version": "1.2.0"
+    },
+    "obsidian-sync": {
+      "name": "Obsidian Sync",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=obsidian-sync",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "ima-all-ai": {
+      "name": "IMA Studio All-in-One — Image, Video, Music, SeeDream, Veo, Suno. Banana",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=ima-all-ai",
+      "source": "skillhub",
+      "version": "1.0.9"
+    },
+    "polymarket-fast-loop": {
+      "name": "Polymarket Fast Loop",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=polymarket-fast-loop",
+      "source": "skillhub",
+      "version": "1.4.1"
+    },
+    "polymarket-weather-trader": {
+      "name": "Polymarket Weather Trader",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=polymarket-weather-trader",
+      "source": "skillhub",
+      "version": "1.15.0"
+    }
+  }
+}

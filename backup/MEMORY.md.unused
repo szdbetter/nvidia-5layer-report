@@ -1,0 +1,74 @@
+
+## Twitter Crawling Best Practices (2026-02-17)
+- **Problem:** Twitter API (`UserTweets`) and `bird user-tweets` are strictly rate-limited and depth-limited (often cap at 20-40 tweets). Browser automation (Puppeteer) is hard due to anti-bot.
+- **Solution (The "Bird Search + Time Slicing" Strategy):**
+  1.  **Tool:** Use `bird search` instead of `user-tweets`. It's more resilient.
+  2.  **Logic:** Do NOT search for "whole year". Slice the timeframe into **months** (e.g., `since:2025-01-01 until:2025-02-01`).
+  3.  **Execution:** Run `bird search` for each month sequentially. This bypasses the depth limit and retrieves 300-500+ tweets/year instead of 40.
+  4.  **Skill:** Use `skills/twitter-crawler/deep_crawl.js`.
+- **Cookie:** Requires valid `auth_token` and `ct0` in `bird` config or passed as args.
+
+## 2026-02-18 Review & Alpha
+- **AgentCoin (@0xquqi):** AI answering-mining project. **Critical:** Run local script, avoid proxy services (private key risk).
+- **Tooling Success:**
+  - **Telegram:** QR login flaky; session saved. Monitoring 10 crypto channels via `tg_monitor_finance`.
+  - **Moltbook:** API configured (shuhu1).
+  - **Imagen 4:** Generating images via Google API (Discord `media` param works for local files).
+
+## 资产备案更新 (2026-02-22)
+1. **推特 Cookie**：有效期极长，至 **2027年3月14日**。绝对核心资产，必须稳健使用，尽量通过 `deep_crawl.js` 脚本配合合理延迟进行抓取，避免滥用导致封禁。
+2. **Telegram Bot Token**：已写入网关配置（已迁移至 `config/.secrets`）。
+3. **Moltbook API Key**：已接入并迁移至 `config/.secrets`，可作为知识库/技能池。
+4. **last30days 技能**：本地已配置的高阶基建，支持 Watchlist 监控、Morning Briefing 生成，数据来源涵盖 Reddit, X, YouTube。Reddit 深度抓取依赖此模块的 OpenAI API 接口。
+
+## 协作与执行准则 (2026-02-23)
+- **核心原则**：禁止“单体认输”。任务 100% 闭环。
+- **调度分工**：
+  - **Gemini**：初筛、数据爬取、初步分析。
+  - **Opus 4.6** (`opus-agent`)：负责 100p+ 长文本、深度研报、海量推文分析（1M 上下文）。
+  - **Codex** (`codex-agent`)：负责代码实现、工程落地、前端展示、底层排障。
+- **沟通纪律**：出现阻塞立即汇报“原因+修复方案+ETA”。绝不死等，绝不停止执行。
+- **产出结构**：核心数据（PE/PS, FCF 等）需沉淀至最终报告站点或仪表盘，由 Codex 负责可视化。
+- **每日日报机制 (2026-03-05)**：
+  - **时间**：每日 21:00 (北京时间 / 13:00 UTC)。
+  - **校验**：发布前必须通过 `web_search` 或 API 校验实时对价（如 BTC/ETH/SPX），禁止混淆当前对价与研报预期。
+  - **分工**：Fiona 提交底层数据，Reese 汇总产出深度研判。
+  - **实盘对价 (2026-03-05 08:30 CST)**: BTC $71,680.30, ETH $2,064.64, SPX 6,873.28。
+  - **核心产出**: Fiona 部署 Meme 监控脚本 v2，发现 $STABLE 等强信号。
+
+## 基础设施变更 (2026-02-24)
+- **环境迁移**：实例已成功迁移至腾讯云 VPS (`VM-0-11-opencloudos`)。
+- **工作区**：`/Users/ai/.openclaw/workspace` (OpenCloudOS)。
+
+## 项目回顾：RDW 深度研报 (2026-02-28)
+- **标的**：Redwire Corp (RDW)。
+- **最新财报 (Q4 2025)**：营收超预期 10%+，积压订单创新高 ($411.2M)，但 EPS (-$0.58) 与 FCF (-$30.12M) 均逊于预期。
+- **状态**：进入财报后观察期，维持分批建仓评级，侧重监控现金流拐点。
+- **交付物**：`workspace/RDW_Phase2_Report.md` (已更新 Q4 审计)。
+
+## API Keys 补充
+- **Resend Email API Keys**：已迁移至 `config/.secrets`。
+  - 使用逻辑：如果第一个超限/失败，自动降级切换至下一个，直到发送成功。
+
+## Agent Operating System (State-Driven Collaboration Protocol) (2026-03-09)
+- **Problem:** AI chats suffer from amnesia and drift, acting as "tool-based customer service" rather than autonomous CEOs.
+- **Solution:** Adopted a 6-document framework for all ongoing projects (`roadmap`, `task`, `issue`, `cowork`, `decision`, `learning`).
+- **Execution Rules:** 
+  - Every session must read these before acting, and write to them when done.
+  - "Done" tasks require physical proof (TxHash, PID, File path, etc.).
+  - Delegated coding/sweat tasks to Sub-agents instead of cluttering the main strategy channel.
+
+## Polymarket Execution Topology Update (2026-03-10)
+- User instruction: move all Polymarket strategies to the Fiona node, change cadence to minute-level, and escalate abnormalities back to Reese.
+- Role split fixed: Reese = brain (strategy/design/dev/distribution/oversight), Fiona node = execution substrate for routine runtime and monitoring.
+- Operational implication: future Polymarket automation should preferentially run on Fiona when node execution is available, with exception reporting routed back here.
+
+## Polymarket OSINT Military Trading (2026-03-09)
+- **Target:** `US x Iran ceasefire by March 31?` -> Trade `NO`
+- **Methodology (Jing'an Tech Inspired):** Trade the probability change of preemptive signals, not news titles. Monitor 6 physical dimensions (ADS-B KC-135 Tankers, GPS jamming in Tehran/Isfahan, V-22 carrier resupply tracks, C-40B VIP flights, C-5M Patriot deliveries, OSINTdefender/Faytuks X accounts).
+- **Milestone:** MVP established. Swapped Native USDC to USDC.e via KyberSwap script. Executed first 5-share $0.77 Ask Limit Order successfully. Built Cron-based price monitor and 8-hour Brave API-based OSINT sentiment scorer (Tanqi 6-dimension scoring).
+
+## Heartbeat Ops Learnings (2026-03-09)
+- `qmd embed` may attempt CUDA builds on this host and fail before falling back to CPU; heartbeat maintenance should treat this as non-fatal if indexing continues on CPU.
+- Daily Polymarket monitor state on 2026-03-09 23:10 UTC: unified engine repaired, private-key loading fixed, latest observed `NO` mid price `$0.775`, OSINT conflict probability `35%`, action remains observe.
+

@@ -1,0 +1,78 @@
+
+@0xAA_Science (0xAA):
+@minwhy3 太狠了，我找了很久没看到套利bot的交易，原来是池子的问题 😂
+📅 Mon Jun 30 17:42:14 +0000 2025
+🔗 https://x.com/0xAA_Science/status/1939741278134313431
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+如何避免？
+1. 选择靠谱的路由
+2. 路由错误时，设置滑点是没用的。需要交易前仔细检查能换出的代币数量（amount out）。
+📅 Mon Jun 30 16:07:55 +0000 2025
+🔗 https://x.com/0xAA_Science/status/1939717543406850233
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+BNB Chain基金会回购时因为swap路由问题损失约 25000u
+
+今天，BNB Chain基金会拿出 25000u 进行 Janitor 的链上回购。
+Janitor 的大部分流动性在Pancake V3，但是swap路由走了 Uniswap V4 没有流动性的小池子，导致 25000u 仅兑换了 22,611 枚 Janitor，单价高达 $1.1，但市场价仅有 $0.01，损失 $24728。
+这次损失不是因为被夹，而是0x protocol的路由bug。
+
+交易哈希: https://t.co/Pw7SjFoiiV
+@BNBCHAIN @cz_binance @heyibinance
+🖼️ https://pbs.twimg.com/media/Gus_ZBEaYAAK2Tw.jpg
+🖼️ https://pbs.twimg.com/media/GutAYILaoAE4I5m.jpg
+┌─ QT @BNBCHAIN:
+│ $100M Incentive Program: Purchase Announcement
+│ 
+│ The BNB Chain Foundation wallet has made new asset purchases. Here are the details:
+│ 
+└─ https://x.com/BNBCHAIN/status/1939662358038650980
+📅 Mon Jun 30 16:03:06 +0000 2025
+🔗 https://x.com/0xAA_Science/status/1939716331869524181
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+@Chi_Kuong 我没有“中国一半人像这样”，“地球60亿人都这样”的道德负担
+📅 Mon Jun 30 15:31:15 +0000 2025
+🔗 https://x.com/0xAA_Science/status/1939708315975774346
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+@Adagegege 有时候懒，2天一换
+📅 Mon Jun 30 13:40:38 +0000 2025
+🔗 https://x.com/0xAA_Science/status/1939680481362215023
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+@PUU60K1V 我是拖鞋党 不怎么穿袜子
+📅 Mon Jun 30 08:44:49 +0000 2025
+🔗 https://x.com/0xAA_Science/status/1939606034890567925
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+@jiajue74 跟普通内裤没差别
+📅 Mon Jun 30 08:43:08 +0000 2025
+🔗 https://x.com/0xAA_Science/status/1939605610146000950
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+@AIGladiatorAI 有点过度包装，但其实每个袋子就三条。
+图片就是一个月的量。
+📅 Mon Jun 30 03:52:37 +0000 2025
+🔗 https://x.com/0xAA_Science/status/1939532499694264428
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+@vQeBnOPo8Nl0w9x 请给我打钱！
+📅 Sun Jun 29 17:27:11 +0000 2025
+🔗 https://x.com/0xAA_Science/status/1939375104468853216
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+@WBGZ_007 美感的确没有 好的一次性内裤舒适度和普通内裤没差别
+📅 Sun Jun 29 17:26:57 +0000 2025
+🔗 https://x.com/0xAA_Science/status/1939375046012854345
+──────────────────────────────────────────────────

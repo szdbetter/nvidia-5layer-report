@@ -1,0 +1,6 @@
+{
+  "ACCOUNT": "0x_kraken",
+  "AUTH_TOKEN_LEN": 40,
+  "CT0_LEN": 52,
+  "TOKEN_EXPIRE_DATE": "2027/03/14"
+}

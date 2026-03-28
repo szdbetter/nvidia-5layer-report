@@ -1,0 +1,798 @@
+{
+  "tweets": [
+    {
+      "id": "1995051671479836956",
+      "text": "@Michael_Liu93 也是好事，短期割韭菜的难度上升劝退，优质项目就更有空间了。",
+      "createdAt": "Sun Nov 30 08:45:59 +0000 2025",
+      "replyCount": 3,
+      "retweetCount": 1,
+      "likeCount": 27,
+      "conversationId": "1995038444439908556",
+      "inReplyToStatusId": "1995038444439908556",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1995025445067391257",
+      "text": "@timotimo007 https://t.co/8fFod2SeIF",
+      "createdAt": "Sun Nov 30 07:01:46 +0000 2025",
+      "replyCount": 4,
+      "retweetCount": 0,
+      "likeCount": 4,
+      "conversationId": "1995020351508812270",
+      "inReplyToStatusId": "1995020351508812270",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/G6_BEfebwAA5JH_.jpg",
+          "width": 450,
+          "height": 305,
+          "previewUrl": "https://pbs.twimg.com/media/G6_BEfebwAA5JH_.jpg:small"
+        }
+      ]
+    },
+    {
+      "id": "1995005119604425145",
+      "text": "这个类比，并非说后面一定会出现312，以及随之而来的无限QE带来的疯狂牛市；\n\n而是说，不要主观的认定下跌70%+的深熊已经开始了，尤其在宏观宽松的前夕。\n\n深熊有没有可能？有，但那不是基准假设。",
+      "createdAt": "Sun Nov 30 05:41:00 +0000 2025",
+      "replyCount": 10,
+      "retweetCount": 1,
+      "likeCount": 64,
+      "conversationId": "1995004490802762191",
+      "inReplyToStatusId": "1995004490802762191",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1995004490802762191",
+      "text": "如果非要刻舟求剑的类比，我更愿意用2025年类比2019年，而不是2021年。\n\n1️⃣ 类似的宏观环境，宽松前夕，水没进来只有预期；\n2️⃣ 类似的代币表现，btc小涨（感谢etf，这次新高了），山寨趴在地上不动；\n3️⃣ 靠 bn 带来小财富效应，19年的ieo，26年的bsc meme。\n\nbtc 接下来一定是70%+的跌幅？\n这是市场很多参与者的假设，刻2022年的k线。\n真的不一定。\n\n与其不停的猜测/预测/幻想牛熊，不如根据几种可能（宽幅震荡/筑底走牛/深熊开启）的假设安排自己的仓位和计划。\n\n换一个视角看btc/ndx，周线已经在极端超卖的区间，这个chart在我看来就是基本面与流动性之争，可能已经是黎明前的黑暗。",
+      "createdAt": "Sun Nov 30 05:38:30 +0000 2025",
+      "replyCount": 108,
+      "retweetCount": 56,
+      "likeCount": 373,
+      "conversationId": "1995004490802762191",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/G6-rbtObkAEdRjG.jpg",
+          "width": 896,
+          "height": 1215,
+          "previewUrl": "https://pbs.twimg.com/media/G6-rbtObkAEdRjG.jpg:small"
+        }
+      ]
+    },
+    {
+      "id": "1992805172125610089",
+      "text": "目前共识：二测做反弹，众所周知的压力位出货。",
+      "createdAt": "Mon Nov 24 03:59:12 +0000 2025",
+      "replyCount": 9,
+      "retweetCount": 0,
+      "likeCount": 55,
+      "conversationId": "1992804842948174034",
+      "inReplyToStatusId": "1992804842948174034",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1992804842948174034",
+      "text": "暂时底 √\n强势币继续趋势 ×\n妖币乱飞 √",
+      "createdAt": "Mon Nov 24 03:57:53 +0000 2025",
+      "replyCount": 48,
+      "retweetCount": 3,
+      "likeCount": 125,
+      "conversationId": "1992804842948174034",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "quotedTweet": {
+        "id": "1991634753016279415",
+        "text": "暂时底了，接下来震荡。\n\n3个月100k上不去就继续走熊概率更大，宏观出大利好站上去就还有趋势行情。\n\n山寨震荡期间，可能会有些强势币可以做，妖币也会表演。\n\n现在已经不是恐慌出货的时机。",
+        "createdAt": "Thu Nov 20 22:28:22 +0000 2025",
+        "replyCount": 91,
+        "retweetCount": 29,
+        "likeCount": 393,
+        "conversationId": "1991634753016279415",
+        "author": {
+          "username": "0xcryptowizard",
+          "name": "0xWizard"
+        },
+        "authorId": "1195728139898376193"
+      }
+    },
+    {
+      "id": "1992084634184859803",
+      "text": "@Guilin_Chen_ 没办法，浮盈回撤60%以上倒没什么，主要是zec高位日线背离有点可怕",
+      "createdAt": "Sat Nov 22 04:16:02 +0000 2025",
+      "replyCount": 6,
+      "retweetCount": 0,
+      "likeCount": 14,
+      "conversationId": "1992062969283592687",
+      "inReplyToStatusId": "1992077336918028662",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1992066298659156157",
+      "text": "0.15 建仓，0.18加仓，依然有20%安全空间，保留一点仓位继续观察。",
+      "createdAt": "Sat Nov 22 03:03:11 +0000 2025",
+      "replyCount": 11,
+      "retweetCount": 0,
+      "likeCount": 48,
+      "conversationId": "1992062969283592687",
+      "inReplyToStatusId": "1992062969283592687",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1992062969283592687",
+      "text": "zec 日线收的很差，像派发。\n\nstrk 昨天收针很强后就开始跟随 zec，这不是好现象， 先减仓了。\n\n继续观察几天，看要不要接回来，还是看好这个叙事，但尊重k线。\n\n现在行情，想做个中期持仓都很难。",
+      "createdAt": "Sat Nov 22 02:49:57 +0000 2025",
+      "replyCount": 96,
+      "retweetCount": 5,
+      "likeCount": 227,
+      "conversationId": "1992062969283592687",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1991779806573388199",
+      "text": "今天插针后，strk的表现，让我想起了1011那天的zec。",
+      "createdAt": "Fri Nov 21 08:04:46 +0000 2025",
+      "replyCount": 51,
+      "retweetCount": 4,
+      "likeCount": 127,
+      "conversationId": "1991779806573388199",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1991634753016279415",
+      "text": "暂时底了，接下来震荡。\n\n3个月100k上不去就继续走熊概率更大，宏观出大利好站上去就还有趋势行情。\n\n山寨震荡期间，可能会有些强势币可以做，妖币也会表演。\n\n现在已经不是恐慌出货的时机。",
+      "createdAt": "Thu Nov 20 22:28:22 +0000 2025",
+      "replyCount": 91,
+      "retweetCount": 29,
+      "likeCount": 393,
+      "conversationId": "1991634753016279415",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1991392896344613221",
+      "text": "哪有人喊单之后自己买的？\n我。\n\n因为这不是喊单，这是表达观点。\n\n周线放量突破重要 accumulation 区域，回踩区间顶部时加仓，是自然的选择。",
+      "createdAt": "Thu Nov 20 06:27:19 +0000 2025",
+      "replyCount": 77,
+      "retweetCount": 6,
+      "likeCount": 141,
+      "conversationId": "1991392896344613221",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "quotedTweet": {
+        "id": "1990944866357162067",
+        "text": "周线放量突破后，回踩支撑位继续加仓，赌一个周线趋势。\n\nbtc形态走的很差，不过这个位置已经超跌，局部热点可能更集中。 https://t.co/czrfmVC6cQ",
+        "createdAt": "Wed Nov 19 00:47:00 +0000 2025",
+        "replyCount": 69,
+        "retweetCount": 10,
+        "likeCount": 147,
+        "conversationId": "1990944866357162067",
+        "author": {
+          "username": "0xcryptowizard",
+          "name": "0xWizard"
+        },
+        "authorId": "1195728139898376193",
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/G6FBziZa0AAm6dk.jpg",
+            "width": 1076,
+            "height": 1798,
+            "previewUrl": "https://pbs.twimg.com/media/G6FBziZa0AAm6dk.jpg:small"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1991345876066042274",
+      "text": "starknet quantum-secure √",
+      "createdAt": "Thu Nov 20 03:20:28 +0000 2025",
+      "replyCount": 32,
+      "retweetCount": 6,
+      "likeCount": 79,
+      "conversationId": "1991345876066042274",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "quotedTweet": {
+        "id": "1991168151414059331",
+        "text": "Quantum-secure. Higher scale. Faster speed. No trusted setup.\n\nFixing privacy and scalability together.\n\nJust use ZK-STARKs. https://t.co/H1MgKRai6x",
+        "createdAt": "Wed Nov 19 15:34:16 +0000 2025",
+        "replyCount": 21,
+        "retweetCount": 33,
+        "likeCount": 182,
+        "conversationId": "1991168151414059331",
+        "author": {
+          "username": "StarkWareLtd",
+          "name": "StarkWare (Privacy x BTCFi) 🥷"
+        },
+        "authorId": "953893947822280704",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://pbs.twimg.com/amplify_video_thumb/1991167735079092224/img/OZZ5aSnSfV12GAnv.jpg",
+            "width": 1280,
+            "height": 720,
+            "previewUrl": "https://pbs.twimg.com/amplify_video_thumb/1991167735079092224/img/OZZ5aSnSfV12GAnv.jpg:small",
+            "videoUrl": "https://video.twimg.com/amplify_video/1991167735079092224/vid/avc1/1280x720/v3gT_q4uPxJ4o6eW.mp4?tag=21",
+            "durationMs": 20701
+          }
+        ]
+      }
+    },
+    {
+      "id": "1991304621860753883",
+      "text": "@PaikCapital strk",
+      "createdAt": "Thu Nov 20 00:36:33 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "1991248577180627025",
+      "inReplyToStatusId": "1991248577180627025",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1991295826719830350",
+      "text": "想明白这个问题，才能想明白以 strk zec 为代表的这波 cyberpunk 叙事的持续性。\n\n前两年 meme 是怎么气势如虹的替代 vc 币拉盘的，现在 cyberpunk 类赛道就会怎么替代 meme 拉盘。\n\n前者代表了“公平”，后者代表了“理想”，这就是币圈的阴阳鱼。",
+      "createdAt": "Thu Nov 20 00:01:36 +0000 2025",
+      "replyCount": 66,
+      "retweetCount": 16,
+      "likeCount": 148,
+      "conversationId": "1991295826719830350",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "quotedTweet": {
+        "id": "1989846001574973544",
+        "text": "币圈叙事总是在阴阳两极端徘徊。\n\n如果说，去年兴起的 meme，是以“社区与公平”，对抗“vc币”。\n\n那么，今年的隐私币，就是以“理想主义”，对抗“虚无赌场pvp”。\n\n你说，meme币也有阴谋集团，没那么公平，影响他形成了一个将近两年的趋势么？\n\n同理，隐私币到底有人用么？真的隐私么？\n\nmidcurve",
+        "createdAt": "Sun Nov 16 00:00:30 +0000 2025",
+        "replyCount": 81,
+        "retweetCount": 10,
+        "likeCount": 169,
+        "conversationId": "1989846001574973544",
+        "author": {
+          "username": "0xcryptowizard",
+          "name": "0xWizard"
+        },
+        "authorId": "1195728139898376193"
+      }
+    },
+    {
+      "id": "1991291930639245724",
+      "text": "@elonmusk 老黄怎么突然消失了🤣",
+      "createdAt": "Wed Nov 19 23:46:07 +0000 2025",
+      "replyCount": 5,
+      "retweetCount": 0,
+      "likeCount": 10,
+      "conversationId": "1991241884056895703",
+      "inReplyToStatusId": "1991241884056895703",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1991113129250656508",
+      "text": "zec -&gt; strk https://t.co/IYCyBoMX8i",
+      "createdAt": "Wed Nov 19 11:55:37 +0000 2025",
+      "replyCount": 47,
+      "retweetCount": 3,
+      "likeCount": 87,
+      "conversationId": "1991113129250656508",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "quotedTweet": {
+        "id": "1989891270177951802",
+        "text": "隐私币是 crypto 的信仰赎罪券。 https://t.co/CVVxjWjxai",
+        "createdAt": "Sun Nov 16 03:00:23 +0000 2025",
+        "replyCount": 78,
+        "retweetCount": 4,
+        "likeCount": 120,
+        "conversationId": "1989891270177951802",
+        "author": {
+          "username": "0xcryptowizard",
+          "name": "0xWizard"
+        },
+        "authorId": "1195728139898376193",
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/G52Dj3hbkAAFl8W.jpg",
+            "width": 1080,
+            "height": 1981,
+            "previewUrl": "https://pbs.twimg.com/media/G52Dj3hbkAAFl8W.jpg:small"
+          }
+        ]
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/G6Ha1wXaAAAl0ME.jpg",
+          "width": 1060,
+          "height": 2048,
+          "previewUrl": "https://pbs.twimg.com/media/G6Ha1wXaAAAl0ME.jpg:small"
+        }
+      ]
+    },
+    {
+      "id": "1991083415395807394",
+      "text": "@CryptoTony__ zcash -&gt; starknet",
+      "createdAt": "Wed Nov 19 09:57:33 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 9,
+      "conversationId": "1991073754546397457",
+      "inReplyToStatusId": "1991073754546397457",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1991056148938858826",
+      "text": "@0xFinish zcash -&gt; starknet",
+      "createdAt": "Wed Nov 19 08:09:12 +0000 2025",
+      "replyCount": 3,
+      "retweetCount": 0,
+      "likeCount": 2,
+      "conversationId": "1991013128100847996",
+      "inReplyToStatusId": "1991013128100847996",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1991055844545626127",
+      "text": "@kyledoops √",
+      "createdAt": "Wed Nov 19 08:08:00 +0000 2025",
+      "replyCount": 3,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "1990714119251767437",
+      "inReplyToStatusId": "1990714119251767437",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1991033115150856682",
+      "text": "@blknoiz06 √",
+      "createdAt": "Wed Nov 19 06:37:40 +0000 2025",
+      "replyCount": 3,
+      "retweetCount": 0,
+      "likeCount": 8,
+      "conversationId": "1990981229584203882",
+      "inReplyToStatusId": "1990981229584203882",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1990944866357162067",
+      "text": "周线放量突破后，回踩支撑位继续加仓，赌一个周线趋势。\n\nbtc形态走的很差，不过这个位置已经超跌，局部热点可能更集中。 https://t.co/czrfmVC6cQ",
+      "createdAt": "Wed Nov 19 00:47:00 +0000 2025",
+      "replyCount": 69,
+      "retweetCount": 10,
+      "likeCount": 147,
+      "conversationId": "1990944866357162067",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/G6FBziZa0AAm6dk.jpg",
+          "width": 1076,
+          "height": 1798,
+          "previewUrl": "https://pbs.twimg.com/media/G6FBziZa0AAm6dk.jpg:small"
+        }
+      ]
+    },
+    {
+      "id": "1990712778072707300",
+      "text": "上学时，看到有人失恋跳楼，也有人读博被导师欺负没法毕业跳楼；\n工作了，看有人失业了负债跳楼，也有人投资不顺利跳楼。\n\n本质上，每个人人生必须的东西真的不多，想清楚了，该吃吃，该睡睡，钱多了多花点，钱少了少花点，如此而已。 https://t.co/biytSkmUEf",
+      "createdAt": "Tue Nov 18 09:24:46 +0000 2025",
+      "replyCount": 128,
+      "retweetCount": 234,
+      "likeCount": 2257,
+      "conversationId": "1990712778072707300",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/G6Butu6aIAI42PP.jpg",
+          "width": 828,
+          "height": 690,
+          "previewUrl": "https://pbs.twimg.com/media/G6Butu6aIAI42PP.jpg:small"
+        }
+      ]
+    },
+    {
+      "id": "1990432522958762291",
+      "text": "@EliBenSasson @andyyy √",
+      "createdAt": "Mon Nov 17 14:51:08 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 0,
+      "conversationId": "1990402613557231991",
+      "inReplyToStatusId": "1990416896361967730",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1990218019499651445",
+      "text": "strk 周线放巨量，突破8个月以来的震荡吸筹区间。 https://t.co/ZsS83lK3nK",
+      "createdAt": "Mon Nov 17 00:38:46 +0000 2025",
+      "replyCount": 118,
+      "retweetCount": 17,
+      "likeCount": 227,
+      "conversationId": "1990218019499651445",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/G56sveBbMAA7nMt.jpg",
+          "width": 1075,
+          "height": 1778,
+          "previewUrl": "https://pbs.twimg.com/media/G56sveBbMAA7nMt.jpg:small"
+        }
+      ]
+    },
+    {
+      "id": "1990006190563278849",
+      "text": "@Nebraskangooner higher",
+      "createdAt": "Sun Nov 16 10:37:03 +0000 2025",
+      "replyCount": 4,
+      "retweetCount": 0,
+      "likeCount": 3,
+      "conversationId": "1989884613674651999",
+      "inReplyToStatusId": "1989884613674651999",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1989918347937681570",
+      "text": "@Michael_Liu93 我当时建仓是这么想的",
+      "createdAt": "Sun Nov 16 04:47:59 +0000 2025",
+      "replyCount": 3,
+      "retweetCount": 0,
+      "likeCount": 5,
+      "conversationId": "1989911022761906486",
+      "inReplyToStatusId": "1989918218295890014",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1989917737725132863",
+      "text": "@Michael_Liu93 我考虑是，\n\n第一个问题，是不是一个叙事赛道，主要是前面大家在链上pvp的财富效应越来越弱，情绪越来越差，所以隐私这种理念币是类似当年meme对vc那种感觉，两极反转。\n\n第二个问题，谁是beta，谁是赛道中扩展叙事？类比 eth 和 btc，virtual 和 goat 就比较清晰了。",
+      "createdAt": "Sun Nov 16 04:45:34 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 1,
+      "likeCount": 15,
+      "conversationId": "1989911022761906486",
+      "inReplyToStatusId": "1989914652000784774",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1989911022761906486",
+      "text": "strk 是 zec 的 beta 么？\n\n回答两个问题：\n\n隐私会是一个叙事赛道，还是单纯 zec 拉盘带来的溢出？\n\neth 是 btc 的 beta 么？当年 virtual  和 ai16z 是 goat 的 beta 么？\n\n想明白这些，再去看 k线。",
+      "createdAt": "Sun Nov 16 04:18:53 +0000 2025",
+      "replyCount": 76,
+      "retweetCount": 5,
+      "likeCount": 118,
+      "conversationId": "1989911022761906486",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "quotedTweet": {
+        "id": "1989728966912114786",
+        "text": "@EliBenSasson zcash = privacy bitcoin\nstarknet = privacy ethereum",
+        "createdAt": "Sat Nov 15 16:15:27 +0000 2025",
+        "replyCount": 9,
+        "retweetCount": 3,
+        "likeCount": 34,
+        "conversationId": "1989720020654412085",
+        "inReplyToStatusId": "1989720020654412085",
+        "author": {
+          "username": "0xcryptowizard",
+          "name": "0xWizard"
+        },
+        "authorId": "1195728139898376193"
+      }
+    },
+    {
+      "id": "1989891270177951802",
+      "text": "隐私币是 crypto 的信仰赎罪券。 https://t.co/CVVxjWjxai",
+      "createdAt": "Sun Nov 16 03:00:23 +0000 2025",
+      "replyCount": 78,
+      "retweetCount": 4,
+      "likeCount": 120,
+      "conversationId": "1989891270177951802",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "quotedTweet": {
+        "id": "1989348016827048215",
+        "text": "大盘暴跌时，最强势的币。 https://t.co/qsEmukJX0m",
+        "createdAt": "Fri Nov 14 15:01:42 +0000 2025",
+        "replyCount": 93,
+        "retweetCount": 17,
+        "likeCount": 196,
+        "conversationId": "1989348016827048215",
+        "author": {
+          "username": "0xcryptowizard",
+          "name": "0xWizard"
+        },
+        "authorId": "1195728139898376193",
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/G5uVelibQAACfCj.jpg",
+            "width": 1080,
+            "height": 1977,
+            "previewUrl": "https://pbs.twimg.com/media/G5uVelibQAACfCj.jpg:small"
+          }
+        ]
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/G52Dj3hbkAAFl8W.jpg",
+          "width": 1080,
+          "height": 1981,
+          "previewUrl": "https://pbs.twimg.com/media/G52Dj3hbkAAFl8W.jpg:small"
+        }
+      ]
+    },
+    {
+      "id": "1989863032324067749",
+      "text": "@Guilin_Chen_ 现在pvp讲究拔吊无情，热点直接掏了浇。\n隐私是在喊口号，讲的是初心。\n\n都是叙事。",
+      "createdAt": "Sun Nov 16 01:08:11 +0000 2025",
+      "replyCount": 4,
+      "retweetCount": 1,
+      "likeCount": 12,
+      "conversationId": "1989846001574973544",
+      "inReplyToStatusId": "1989861218644033945",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1989847578691899768",
+      "text": "@0xcryptopanda √",
+      "createdAt": "Sun Nov 16 00:06:46 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 2,
+      "conversationId": "1989846001574973544",
+      "inReplyToStatusId": "1989847512728178957",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1989846001574973544",
+      "text": "币圈叙事总是在阴阳两极端徘徊。\n\n如果说，去年兴起的 meme，是以“社区与公平”，对抗“vc币”。\n\n那么，今年的隐私币，就是以“理想主义”，对抗“虚无赌场pvp”。\n\n你说，meme币也有阴谋集团，没那么公平，影响他形成了一个将近两年的趋势么？\n\n同理，隐私币到底有人用么？真的隐私么？\n\nmidcurve",
+      "createdAt": "Sun Nov 16 00:00:30 +0000 2025",
+      "replyCount": 81,
+      "retweetCount": 10,
+      "likeCount": 169,
+      "conversationId": "1989846001574973544",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1989728966912114786",
+      "text": "@EliBenSasson zcash = privacy bitcoin\nstarknet = privacy ethereum",
+      "createdAt": "Sat Nov 15 16:15:27 +0000 2025",
+      "replyCount": 9,
+      "retweetCount": 3,
+      "likeCount": 34,
+      "conversationId": "1989720020654412085",
+      "inReplyToStatusId": "1989720020654412085",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1989573586105901223",
+      "text": "@Lyskey √",
+      "createdAt": "Sat Nov 15 05:58:02 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 2,
+      "conversationId": "1989554560441168353",
+      "inReplyToStatusId": "1989554560441168353",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1989570542366515632",
+      "text": "@mert you mean starknet \nscaling privacy",
+      "createdAt": "Sat Nov 15 05:45:56 +0000 2025",
+      "replyCount": 3,
+      "retweetCount": 0,
+      "likeCount": 3,
+      "conversationId": "1989411741936333009",
+      "inReplyToStatusId": "1989411741936333009",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1989529201633104391",
+      "text": "🤔 https://t.co/DDcpbUX1fQ",
+      "createdAt": "Sat Nov 15 03:01:39 +0000 2025",
+      "replyCount": 70,
+      "retweetCount": 22,
+      "likeCount": 250,
+      "conversationId": "1989529201633104391",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/G5w6Q-fbkAA-_ek.jpg",
+          "width": 1024,
+          "height": 1024,
+          "previewUrl": "https://pbs.twimg.com/media/G5w6Q-fbkAA-_ek.jpg:small"
+        }
+      ]
+    },
+    {
+      "id": "1989521686069481548",
+      "text": "@Wuhuoqiu 迪拜前面举办过喷气背包竞速赛",
+      "createdAt": "Sat Nov 15 02:31:48 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "1989348016827048215",
+      "inReplyToStatusId": "1989517501982736728",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1989509457836216386",
+      "text": "@Wuhuoqiu 屎大粒现在是斯塔克科技集团了，钢铁侠。",
+      "createdAt": "Sat Nov 15 01:43:12 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 2,
+      "conversationId": "1989348016827048215",
+      "inReplyToStatusId": "1989469979088228363",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1989508816103510079",
+      "text": "@SolidTradesz √",
+      "createdAt": "Sat Nov 15 01:40:39 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 2,
+      "conversationId": "1987660555692257492",
+      "inReplyToStatusId": "1987660555692257492",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    }
+  ],
+  "nextCursor": null
+}

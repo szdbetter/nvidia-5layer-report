@@ -1,0 +1,25 @@
+{
+  "jobs": 2,
+  "tasks": [
+    {
+      "id": "read-order",
+      "promptFiles": [
+        "image_prompts_gen2/read-order.md"
+      ],
+      "image": "generated_images/read-order.png",
+      "provider": "google",
+      "ar": "16:9",
+      "quality": "2k"
+    },
+    {
+      "id": "ai-employee",
+      "promptFiles": [
+        "image_prompts_gen2/ai-employee.md"
+      ],
+      "image": "generated_images/ai-employee.png",
+      "provider": "google",
+      "ar": "16:9",
+      "quality": "2k"
+    }
+  ]
+}

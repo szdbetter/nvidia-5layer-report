@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🇺🇸🇮🇷 美伊战争套利监控</title>
+  <link rel="stylesheet" href="https://unpkg.com/antd@5.14.0/dist/antd.min.css">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif; background: #f0f2f5; color: #333; min-height: 100vh; }
+
+    /* Header — 与主站完全一致 */
+    .app-header { height: 56px; background: #001529; display: flex; align-items: center; justify-content: space-between; padding: 0 24px; position: sticky; top: 0; z-index: 100; }
+    .header-left { display: flex; align-items: center; gap: 10px; }
+    .header-logo { font-size: 22px; }
+    .header-title { color: #fff; font-size: 16px; font-weight: 600; letter-spacing: 0.5px; }
+    .header-right { display: flex; align-items: center; gap: 20px; color: rgba(255,255,255,0.85); font-size: 13px; }
+    .header-time { font-variant-numeric: tabular-nums; }
+    .btn-back { background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.85); border: none; padding: 5px 14px; border-radius: 6px; font-size: 13px; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; transition: background 0.2s; }
+    .btn-back:hover { background: rgba(255,255,255,0.18); }
+    .btn-sm { background: #fff; color: #1677ff; border: 1px solid #1677ff; padding: 4px 12px; border-radius: 5px; font-size: 12px; cursor: pointer; transition: all 0.2s; }
+    .btn-sm:hover { background: #1677ff; color: #fff; }
+
+    /* Layout */
+    .main-content { padding: 24px; max-width: 1400px; margin: 0 auto; }
+
+    /* Page header */
+    .page-header { margin-bottom: 24px; display: flex; align-items: baseline; justify-content: space-between; }
+    .page-header-left { display: flex; align-items: baseline; gap: 12px; }
+    .page-title { font-size: 20px; font-weight: 600; color: #1a1a1a; }
+    .page-subtitle { font-size: 13px; color: #999; }
+
+    /* Stats row */
+    .stats-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 16px; margin-bottom: 28px; }
+    .stat-card { background: #fff; border-radius: 8px; box-shadow: 0 1px 2px rgba(0,0,0,0.06); padding: 18px 20px; display: flex; align-items: center; gap: 14px; transition: box-shadow 0.2s; }
+    .stat-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+    .stat-icon { font-size: 28px; opacity: 0.8; }
+    .stat-body .stat-value { font-size: 22px; font-weight: 700; color: #1a1a1a; }
+    .stat-body .stat-label { font-size: 12px; color: #999; margin-top: 2px; }
+    .stat-value-red { color: #ff4d4f !important; }
+    .stat-value-green { color: #52c41a !important; }
+    .stat-value-blue { color: #1677ff !important; }
+    .stat-value-orange { color: #fa8c16 !important; }
+
+    /* Section */
+    .section { margin-bottom: 28px; }
+    .section-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+    .section-title { font-size: 15px; font-weight: 600; color: #1a1a1a; display: flex; align-items: center; gap: 8px; }
+
+    /* Card */
+    .card { background: #fff; border-radius: 8px; box-shadow: 0 1px 2px rgba(0,0,0,0.06); overflow: hidden; }
+    .card-pad { padding: 20px 24px; }
+
+    /* Table */
+    .market-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    .market-table th { text-align: left; padding: 12px 16px; color: #8c8c8c; font-weight: 500; border-bottom: 1px solid #f0f0f0; background: #fafafa; font-size: 12px; letter-spacing: 0.3px; }
+    .market-table td { padding: 12px 16px; border-bottom: 1px solid #f0f0f0; vertical-align: middle; }
+    .market-table tr:last-child td { border-bottom: none; }
+    .market-table tbody tr:hover td { background: #f5f5f5; }
+    .group-row td { background: #f0f5ff; color: #1677ff; font-size: 12px; font-weight: 600; padding: 8px 16px; }
+
+    /* Price */
+    .price-high { color: #52c41a; font-weight: 700; font-size: 14px; }
+    .price-mid { color: #fa8c16; font-weight: 700; font-size: 14px; }
+    .price-low { color: #ff4d4f; font-weight: 700; font-size: 14px; }
+    .price-bar { height: 3px; border-radius: 2px; background: #f0f0f0; margin-top: 4px; overflow: hidden; }
+    .price-fill { height: 100%; border-radius: 2px; }
+
+    /* Opportunity cards */
+    .opp-list { display: flex; flex-direction: column; gap: 12px; }
+    .opp-card { background: #fff; border-radius: 8px; box-shadow: 0 1px 2px rgba(0,0,0,0.06); border-left: 4px solid; padding: 16px 20px; }
+    .opp-card.high { border-color: #ff4d4f; }
+    .opp-card.medium { border-color: #fa8c16; }
+    .opp-card.low { border-color: #52c41a; }
+    .opp-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+    .tag { display: inline-flex; align-items: center; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+    .tag-red { background: #fff1f0; color: #ff4d4f; border: 1px solid #ffa39e; }
+    .tag-orange { background: #fff7e6; color: #fa8c16; border: 1px solid #ffd591; }
+    .tag-blue { background: #e6f4ff; color: #1677ff; border: 1px solid #91caff; }
+    .tag-green { background: #f6ffed; color: #52c41a; border: 1px solid #b7eb8f; }
+    .opp-title { font-size: 14px; font-weight: 600; color: #1a1a1a; flex: 1; }
+    .opp-desc { font-size: 13px; color: #595959; margin-bottom: 10px; line-height: 1.6; }
+    .opp-action { background: #f5f5f5; border: 1px solid #d9d9d9; border-radius: 6px; padding: 8px 12px; font-size: 12px; color: #1677ff; font-family: 'SF Mono', 'Fira Code', monospace; margin-bottom: 8px; }
+    .opp-meta { display: flex; gap: 20px; font-size: 12px; color: #8c8c8c; }
+    .opp-meta strong { color: #1a1a1a; }
+
+    /* Monotonicity table */
+    .mono-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    .mono-table th { padding: 10px 14px; color: #8c8c8c; font-weight: 500; text-align: left; border-bottom: 1px solid #f0f0f0; background: #fafafa; font-size: 12px; }
+    .mono-table td { padding: 10px 14px; border-bottom: 1px solid #f0f0f0; }
+    .mono-table tr:hover td { background: #f5f5f5; }
+    .mono-ok { color: #52c41a; font-weight: 600; }
+    .mono-fail { color: #ff4d4f; font-weight: 600; }
+
+    /* Rules accordion */
+    .rule-list { display: flex; flex-direction: column; gap: 8px; }
+    .rule-item { background: #fff; border-radius: 8px; box-shadow: 0 1px 2px rgba(0,0,0,0.06); overflow: hidden; }
+    .rule-header { padding: 14px 20px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none; }
+    .rule-header:hover { background: #fafafa; }
+    .rule-title { font-size: 14px; font-weight: 600; color: #1a1a1a; }
+    .rule-toggle { font-size: 12px; color: #8c8c8c; display: flex; align-items: center; gap: 6px; }
+    .rule-body { padding: 0 20px 16px; display: none; border-top: 1px solid #f0f0f0; }
+    .rule-body.open { display: block; }
+    .rule-field { margin-top: 12px; }
+    .rule-field-label { font-size: 11px; color: #8c8c8c; font-weight: 600; letter-spacing: 0.8px; text-transform: uppercase; margin-bottom: 4px; }
+    .rule-field-value { font-size: 13px; color: #333; line-height: 1.7; }
+
+    /* Empty / loading */
+    .loading { text-align: center; padding: 48px; color: #8c8c8c; }
+    .spinner { display: inline-block; width: 20px; height: 20px; border: 2px solid #f0f0f0; border-top-color: #1677ff; border-radius: 50%; animation: spin 0.8s linear infinite; vertical-align: middle; margin-right: 8px; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .empty { text-align: center; padding: 40px; color: #8c8c8c; font-size: 14px; }
+    .empty-icon { font-size: 32px; margin-bottom: 8px; }
+
+    /* Update time badge */
+    .update-badge { display: inline-flex; align-items: center; gap: 6px; background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.75); padding: 3px 10px; border-radius: 12px; font-size: 12px; }
+    .dot-live { width: 6px; height: 6px; border-radius: 50%; background: #52c41a; animation: pulse 2s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
+  </style>
+</head>
+<body>
+
+<header class="app-header">
+  <div class="header-left">
+    <span class="header-logo">🧠</span>
+    <a href="/" class="btn-back">← 返回</a>
+    <span class="header-title">🇺🇸🇮🇷 美伊战争套利监控</span>
+  </div>
+  <div class="header-right">
+    <span class="update-badge"><span class="dot-live"></span><span id="last-update">加载中...</span></span>
+    <span class="header-user">👤 岁月</span>
+  </div>
+</header>
+
+<div class="main-content">
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <div class="page-header-left">
+      <h2 class="page-title">📊 盘口套利分析</h2>
+      <span class="page-subtitle">基于 Polymarket 实时数据的单调性 & 逻辑一致性检验</span>
+    </div>
+    <button class="btn-sm" onclick="refreshAll()">⟳ 立即刷新</button>
+  </div>
+
+  <!-- Stats Row -->
+  <div class="stats-row" id="stats-row">
+    <div class="stat-card">
+      <div class="stat-icon">📋</div>
+      <div class="stat-body"><div class="stat-value" id="stat-events">—</div><div class="stat-label">事件组</div></div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-icon">📈</div>
+      <div class="stat-body"><div class="stat-value" id="stat-markets">—</div><div class="stat-label">有价格盘口</div></div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-icon">🎯</div>
+      <div class="stat-body"><div class="stat-value stat-value-red" id="stat-opps">—</div><div class="stat-label">套利机会</div></div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-icon">🕊️</div>
+      <div class="stat-body"><div class="stat-value stat-value-orange" id="stat-ceasefire3">—</div><div class="stat-label">3月停战 YES</div></div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-icon">🕊️</div>
+      <div class="stat-body"><div class="stat-value stat-value-orange" id="stat-ceasefire4">—</div><div class="stat-label">4月停战 YES</div></div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-icon">⚔️</div>
+      <div class="stat-body"><div class="stat-value stat-value-blue" id="stat-forces">—</div><div class="stat-label">美军进入(3月)</div></div>
+    </div>
+  </div>
+
+  <!-- Section 0: Cross-market Real Arbitrage -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-title">💰 跨市场真实套利对比 <span style="font-size:12px;font-weight:400;color:#999;margin-left:8px">外部参考概率 vs Polymarket 现价</span></div>
+    </div>
+    <div id="cross-market-wrap" class="loading"><span class="spinner"></span>拉取跨市场数据...</div>
+  </div>
+
+  <!-- Section 0b: Logic Constraints -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-title">⚖️ 逻辑约束套利 <span style="font-size:12px;font-weight:400;color:#999;margin-left:8px">同平台内部定价矛盾，可验证</span></div>
+    </div>
+    <div id="logic-arb-wrap" class="loading"><span class="spinner"></span>检验逻辑约束...</div>
+  </div>
+
+  <!-- Section 1: Arbitrage -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-title">🎯 套利机会扫描</div>
+    </div>
+    <div id="arb-wrap" class="loading"><span class="spinner"></span>运行套利引擎...</div>
+  </div>
+
+  <!-- Section 2: Monotonicity -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-title">📈 单调性检验 <span style="font-size:12px;font-weight:400;color:#999;margin-left:8px">同事件组跨日期价格应单调递增</span></div>
+    </div>
+    <div class="card">
+      <div id="mono-wrap" class="loading"><span class="spinner"></span>计算中...</div>
+    </div>
+  </div>
+
+  <!-- Section 3: Market Table -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-title">📋 全盘口一览</div>
+    </div>
+    <div class="card">
+      <div id="market-table-wrap" class="loading"><span class="spinner"></span>拉取 Polymarket 数据...</div>
+    </div>
+  </div>
+
+  <!-- Section 4: LLM Rules -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-title">📖 LLM 规则语义解读</div>
+      <button class="btn-sm" onclick="loadRules(true)">🤖 刷新解读</button>
+    </div>
+    <div id="rules-wrap" class="loading"><span class="spinner"></span>等待市场数据...</div>
+  </div>
+
+</div>
+
+<script>
+let marketsData = null;
+
+function fmtVol(v) {
+  if (!v) return '—';
+  const n = parseFloat(v);
+  if (n >= 1e6) return `$${(n/1e6).toFixed(1)}M`;
+  if (n >= 1e3) return `$${(n/1e3).toFixed(0)}K`;
+  return `$${n.toFixed(0)}`;
+}
+
+function priceClass(p) {
+  if (p >= 0.6) return 'price-high';
+  if (p >= 0.3) return 'price-mid';
+  return 'price-low';
+}
+
+function priceColor(p) {
+  if (p >= 0.6) return '#52c41a';
+  if (p >= 0.3) return '#fa8c16';
+  return '#ff4d4f';
+}
+
+function fmtDate(d) {
+  if (!d) return '—';
+  return new Date(d).toLocaleDateString('zh-CN', {month:'short', day:'numeric'});
+}
+
+async function loadMarkets() {
+  try {
+    const r = await fetch('/api/iran-markets');
+    const data = await r.json();
+    marketsData = data;
+    if (!data.ok || !data.events.length) {
+      document.getElementById('market-table-wrap').innerHTML = '<div class="empty"><div class="empty-icon">⚠️</div>无法获取盘口数据</div>';
+      return;
+    }
+
+    const allMarkets = data.events.flatMap(e => e.markets || []);
+    const priced = allMarkets.filter(m => m.yes_price !== null);
+    document.getElementById('stat-events').textContent = data.count;
+    document.getElementById('stat-markets').textContent = priced.length;
+    document.getElementById('last-update').textContent = '更新 ' + new Date().toLocaleTimeString('zh-CN', {hour:'2-digit',minute:'2-digit',second:'2-digit'});
+
+    const findM = (regex) => priced.find(m => regex.test(m.question || ''));
+    const c3 = findM(/ceasefire.*march.*31|march.*31.*ceasefire/i);
+    const c4 = findM(/ceasefire.*april.*30|april.*30.*ceasefire/i);
+    const f3 = findM(/forces.*enter.*march.*31|enter.*iran.*march.*31/i);
+    if (c3) document.getElementById('stat-ceasefire3').textContent = (c3.yes_price*100).toFixed(1)+'%';
+    if (c4) document.getElementById('stat-ceasefire4').textContent = (c4.yes_price*100).toFixed(1)+'%';
+    if (f3) document.getElementById('stat-forces').textContent = (f3.yes_price*100).toFixed(1)+'%';
+
+    // Build table
+    let html = '<table class="market-table"><thead><tr><th>事件组</th><th>盘口问题</th><th>YES</th><th>NO</th><th>流动性</th><th>交易量</th><th>截止日</th></tr></thead><tbody>';
+    for (const ev of data.events) {
+      const evPriced = (ev.markets||[]).filter(m => m.yes_price !== null);
+      if (!evPriced.length) continue;
+      html += `<tr class="group-row"><td colspan="7">📁 ${ev.title}</td></tr>`;
+      for (const m of evPriced) {
+        const yes = m.yes_price, no = m.no_price;
+        const yesHtml = `<span class="${priceClass(yes)}">${(yes*100).toFixed(1)}%</span><div class="price-bar"><div class="price-fill" style="width:${yes*100}%;background:${priceColor(yes)}"></div></div>`;
+        const noHtml = no != null ? `<span style="color:#8c8c8c">${(no*100).toFixed(1)}%</span>` : '—';
+        html += `<tr><td></td><td style="max-width:380px;font-size:12px;color:#333">${m.question||m.slug}</td><td style="min-width:100px">${yesHtml}</td><td>${noHtml}</td><td style="color:#8c8c8c">${fmtVol(m.liquidity)}</td><td style="color:#8c8c8c">${fmtVol(m.volume)}</td><td style="color:#8c8c8c;font-size:12px">${fmtDate(m.endDate)}</td></tr>`;
+      }
+    }
+    html += '</tbody></table>';
+    document.getElementById('market-table-wrap').innerHTML = html;
+  } catch(e) {
+    document.getElementById('market-table-wrap').innerHTML = `<div class="empty"><div class="empty-icon">❌</div>${e.message}</div>`;
+  }
+}
+
+async function loadArbitrage() {
+  try {
+    const r = await fetch('/api/iran-arbitrage');
+    const data = await r.json();
+    document.getElementById('stat-opps').textContent = data.opportunities?.length || 0;
+
+    const arbWrap = document.getElementById('arb-wrap');
+    if (!data.ok) { arbWrap.innerHTML = `<div class="empty"><div class="empty-icon">❌</div>${data.error}</div>`; return; }
+
+    if (!data.opportunities?.length) {
+      arbWrap.innerHTML = `<div class="card card-pad"><div class="empty"><div class="empty-icon">✅</div>当前无明显套利机会<br><small style="color:#8c8c8c">价格符合预期单调性，无逻辑矛盾</small></div></div>`;
+    } else {
+      // Filter out already-expired (100% price) noise — only show meaningful gaps
+      const meaningful = data.opportunities.filter(o => {
+        const a = o.market_a?.yes, b = o.market_b?.yes;
+        if (a >= 0.99 || b >= 0.99) return false; // already resolved
+        return true;
+      });
+      document.getElementById('stat-opps').textContent = meaningful.length;
+
+      let html = '<div class="opp-list">';
+      for (const opp of meaningful.slice(0, 20)) {
+        const cls = opp.severity === 'HIGH' ? 'high' : 'medium';
+        const tagCls = opp.severity === 'HIGH' ? 'tag-red' : 'tag-orange';
+        const typeLabel = {
+          monotonicity_violation: '⚠️ 单调性违反',
+          logical_inconsistency: '🔄 逻辑矛盾',
+          price_gap: '💰 价差套利'
+        }[opp.type] || opp.type;
+        html += `<div class="opp-card ${cls}">
+          <div class="opp-header">
+            <span class="tag ${tagCls}">${typeLabel}</span>
+            <span class="tag ${opp.severity==='HIGH'?'tag-red':'tag-orange'}">${opp.severity}</span>
+            <span class="opp-title">${opp.event || ''}</span>
+          </div>
+          <div class="opp-desc">${opp.description || ''}</div>
+          <div class="opp-action">🎯 ${opp.action || ''}</div>
+          <div class="opp-meta">
+            <span>价差: <strong style="color:#ff4d4f">${opp.edge ? (opp.edge*100).toFixed(1)+'%' : '—'}</strong></span>
+            <span>预期收益: <strong>${opp.expected_roi || '—'}</strong></span>
+          </div>
+        </div>`;
+      }
+      html += '</div>';
+      if (meaningful.length > 20) html += `<div style="text-align:center;padding:12px;color:#8c8c8c;font-size:13px">还有 ${meaningful.length-20} 个机会已过滤...</div>`;
+      arbWrap.innerHTML = html;
+    }
+
+    // Analysis notes
+    if (data.analysis?.length) {
+      const notesHtml = data.analysis.map(a => `<div style="padding:8px 16px;font-size:12px;color:#595959;border-bottom:1px solid #f0f0f0">${a.note || JSON.stringify(a)}</div>`).join('');
+      arbWrap.insertAdjacentHTML('beforeend', `<div class="card" style="margin-top:12px"><div style="padding:10px 16px;font-size:12px;font-weight:600;color:#8c8c8c;background:#fafafa;border-bottom:1px solid #f0f0f0">📝 分析备注</div>${notesHtml}</div>`);
+    }
+
+    // Monotonicity table
+    const monoWrap = document.getElementById('mono-wrap');
+    if (data.monotonicity_table?.length) {
+      let mhtml = '<table class="mono-table"><thead><tr><th>事件组</th><th>日期序列 (YES%)</th><th>单调性</th></tr></thead><tbody>';
+      for (const row of data.monotonicity_table) {
+        const series = row.series.map(s => `<span style="color:${priceColor(s.yes)}">${s.date}: ${(s.yes*100).toFixed(1)}%</span>`).join(' <span style="color:#d9d9d9">→</span> ');
+        const mono = row.is_monotone
+          ? '<span class="mono-ok">✓ 正常</span>'
+          : '<span class="mono-fail">✗ 异常</span>';
+        mhtml += `<tr><td style="font-size:12px;max-width:280px;color:#333">${row.event}</td><td style="font-size:12px">${series}</td><td>${mono}</td></tr>`;
+      }
+      mhtml += '</tbody></table>';
+      monoWrap.innerHTML = mhtml;
+    } else {
+      monoWrap.innerHTML = '<div class="empty">无多日期系列数据</div>';
+    }
+  } catch(e) {
+    document.getElementById('arb-wrap').innerHTML = `<div class="empty"><div class="empty-icon">❌</div>${e.message}</div>`;
+  }
+}
+
+async function loadRules(forceRefresh = false) {
+  const wrap = document.getElementById('rules-wrap');
+  wrap.innerHTML = '<div class="loading"><span class="spinner"></span>调用 Claude API 解析盘口规则（约10-30秒）...</div>';
+  try {
+    const url = forceRefresh ? '/api/iran-rules?bust=' + Date.now() : '/api/iran-rules';
+    const r = await fetch(url);
+    const data = await r.json();
+    if (!data.ok || !data.rules?.length) {
+      wrap.innerHTML = `<div class="card card-pad"><div class="empty"><div class="empty-icon">⚠️</div>${data.error || '无规则数据，请点击「刷新解读」'}</div></div>`;
+      return;
+    }
+    let html = '<div class="rule-list">';
+    for (const rule of data.rules) {
+      const status = rule.error ? '<span class="tag tag-orange">⚠️ 解析失败</span>' : '<span class="tag tag-green">✅ 已解析</span>';
+      html += `<div class="rule-item">
+        <div class="rule-header" onclick="toggleRule(this)">
+          <span class="rule-title">${rule.title}</span>
+          <span class="rule-toggle">${status} <span class="arrow">▼</span></span>
+        </div>
+        <div class="rule-body">
+          ${rule.error ? `<div class="rule-field"><div class="rule-field-value" style="color:#ff4d4f">${rule.error}</div></div>` : `
+          <div class="rule-field"><div class="rule-field-label">触发条件</div><div class="rule-field-value">${rule.trigger_conditions||'—'}</div></div>
+          <div class="rule-field"><div class="rule-field-label">灰色地带 / 歧义点</div><div class="rule-field-value">${rule.gray_areas||'—'}</div></div>
+          <div class="rule-field"><div class="rule-field-label">与其他盘口逻辑关联</div><div class="rule-field-value">${rule.logical_relation||'—'}</div></div>
+          <div class="rule-field"><div class="rule-field-label">解析风险</div><div class="rule-field-value">${rule.resolution_risk||'—'}</div></div>
+          ${rule.key_entities?.length ? `<div class="rule-field"><div class="rule-field-label">关键实体</div><div class="rule-field-value">${rule.key_entities.map(e=>`<span class="tag tag-blue" style="margin-right:4px">${e}</span>`).join('')}</div></div>` : ''}
+          `}
+        </div>
+      </div>`;
+    }
+    html += '</div>';
+    wrap.innerHTML = html;
+  } catch(e) {
+    wrap.innerHTML = `<div class="card card-pad"><div class="empty"><div class="empty-icon">❌</div>${e.message}</div></div>`;
+  }
+}
+
+function toggleRule(header) {
+  const body = header.nextElementSibling;
+  const arrow = header.querySelector('.arrow');
+  body.classList.toggle('open');
+  if (arrow) arrow.textContent = body.classList.contains('open') ? '▲' : '▼';
+}
+
+// Update clock
+function updateClock() {
+  // clock is in update-badge, updated on refresh
+}
+
+async function loadCrossMarket() {
+  // Fetch reference prices from external platforms
+  const [refRes, mktRes] = await Promise.all([
+    fetch('/api/iran-reference'),
+    fetch('/api/iran-markets')
+  ]);
+  const ref = await refRes.json();
+  const mkt = await mktRes.json();
+
+  const allMarkets = {};
+  for (const ev of (mkt.events || [])) {
+    for (const m of (ev.markets || [])) {
+      if (m.yes_price != null) allMarkets[m.slug] = m;
+    }
+  }
+
+  const cmWrap = document.getElementById('cross-market-wrap');
+  const logicWrap = document.getElementById('logic-arb-wrap');
+
+  // === Cross-platform comparison ===
+  const manifoldItems = (ref.sources || []).filter(s => s.platform === 'Manifold' && s.probability && s.poly_slug);
+  if (!manifoldItems.length) {
+    cmWrap.innerHTML = '<div class="empty"><div class="empty-icon">📡</div>Manifold 数据加载失败</div>';
+  } else {
+    let rows = '';
+    const opportunities = [];
+    for (const src of manifoldItems) {
+      const slug = src.poly_slug;
+      const pm = allMarkets[slug];
+      if (!pm) continue;
+      const refP = src.probability;
+      const polyP = pm.yes_price;
+      const gap = refP - polyP;
+      const absGap = Math.abs(gap);
+      opportunities.push({ src, slug, pm, refP, polyP, gap, absGap });
+    }
+    opportunities.sort((a, b) => b.absGap - a.absGap);
+
+    {
+      let html = `<div style="margin-bottom:12px;padding:10px 16px;background:#fff7e6;border:1px solid #ffd591;border-radius:8px;font-size:12px;color:#d46b08">
+        ⚠️ <strong>方法说明</strong>：仅对比<strong>截止日期相同、问题本质一致</strong>的盘口。Manifold 使用虚拟货币，流动性低，价差作参考而非直接套利依据。每条信号均附套利逻辑说明。
+      </div>`;
+      html += '<div class="opp-list">';
+      for (const o of opportunities) {
+        const isPolyHigher = o.gap < 0;
+        const absGapPct = (o.absGap * 100).toFixed(1);
+        const severity = o.absGap > 0.08 ? 'high' : o.absGap > 0.04 ? 'medium' : 'low';
+        const tagCls = severity === 'high' ? 'tag-red' : severity === 'medium' ? 'tag-orange' : 'tag-green';
+
+        // 核心：为什么定价偏低/偏高
+        const pricingVerdict = isPolyHigher
+          ? `Polymarket YES(${(o.polyP*100).toFixed(1)}%) > Manifold(${(o.refP*100).toFixed(1)}%) → <strong>Polymarket 可能高估</strong>`
+          : `Manifold(${(o.refP*100).toFixed(1)}%) > Polymarket YES(${(o.polyP*100).toFixed(1)}%) → <strong>Polymarket 可能低估</strong>`;
+
+        const action = isPolyHigher
+          ? `考虑 BUY NO @ ${((1-o.polyP)*100).toFixed(1)}¢ (若认同Manifold更低的概率)`
+          : `考虑 BUY YES @ ${(o.polyP*100).toFixed(1)}¢ (若认同Manifold更高的概率)`;
+
+        html += `<div class="opp-card ${severity}">
+          <div class="opp-header">
+            <span class="tag ${tagCls}">价差 ${absGapPct}%</span>
+            <span class="tag tag-blue">📅 截止 ${o.src.deadline}</span>
+            <span class="opp-title" style="font-size:13px">${o.pm.question || o.slug}</span>
+          </div>
+
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px">
+            <div style="background:${isPolyHigher?'#f6ffed':'#fff1f0'};border:1px solid ${isPolyHigher?'#b7eb8f':'#ffa39e'};border-radius:6px;padding:10px 14px">
+              <div style="font-size:11px;color:#8c8c8c;margin-bottom:2px">MANIFOLD 参考</div>
+              <div style="font-size:20px;font-weight:700;color:${isPolyHigher?'#52c41a':'#ff4d4f'}">${(o.refP*100).toFixed(1)}%</div>
+              <div style="font-size:11px;margin-top:4px"><a href="${o.src.url}" target="_blank" style="color:#1677ff">🔗 原始链接 ↗</a></div>
+              <div style="font-size:10px;color:#8c8c8c;margin-top:2px">问题: ${o.src.question.slice(0,55)}</div>
+              <div style="font-size:10px;color:#8c8c8c">参与者: ${o.src.unique_traders || '?'} 人</div>
+            </div>
+            <div style="background:${isPolyHigher?'#fff1f0':'#f6ffed'};border:1px solid ${isPolyHigher?'#ffa39e':'#b7eb8f'};border-radius:6px;padding:10px 14px">
+              <div style="font-size:11px;color:#8c8c8c;margin-bottom:2px">POLYMARKET 现价</div>
+              <div style="font-size:20px;font-weight:700;color:${isPolyHigher?'#ff4d4f':'#52c41a'}">${(o.polyP*100).toFixed(1)}%</div>
+              <div style="font-size:11px;margin-top:4px"><a href="https://polymarket.com/event/${o.slug}" target="_blank" style="color:#1677ff">🔗 polymarket.com ↗</a></div>
+              <div style="font-size:10px;color:#8c8c8c;margin-top:2px">Liq: $${(parseFloat(o.pm.liquidity||0)/1000).toFixed(0)}K | Vol: $${(parseFloat(o.pm.volume||0)/1000).toFixed(0)}K</div>
+            </div>
+          </div>
+
+          <div style="background:#fffbe6;border:1px solid #ffe58f;border-radius:6px;padding:10px 14px;margin-bottom:8px;font-size:12px">
+            <div style="font-weight:600;color:#d46b08;margin-bottom:4px">💡 套利逻辑 — 为什么定价可能偏误</div>
+            <div style="color:#595959;line-height:1.7">${o.src.why_underpriced}</div>
+          </div>
+
+          <div style="display:flex;align-items:center;gap:10px">
+            <div style="font-size:12px;color:#595959">${pricingVerdict}</div>
+          </div>
+          <div class="opp-action" style="margin-top:8px">🎯 ${action}</div>
+        </div>`;
+      }
+      html += '</div>';
+      cmWrap.innerHTML = html;
+    }
+  }
+
+  // === Logic constraint violations ===
+  const bounds = ref.logical_bounds || [];
+  if (!bounds.length) {
+    logicWrap.innerHTML = '<div class="card card-pad"><div class="empty">无逻辑约束数据</div></div>';
+    return;
+  }
+
+  let logicHtml = '<div class="opp-list">';
+  let foundViolation = false;
+  for (const b of bounds) {
+    const mA = allMarkets[b.a_slug];
+    const mB = allMarkets[b.b_slug];
+    if (!mA || !mB) continue;
+    const pA = mA.yes_price, pB = mB.yes_price;
+    const gap = pA - pB;
+    // Check violation
+    let violated = false, violationDesc = '', action = '';
+    if (b.expected_relation === 'A ≤ B' && gap > 0.02) {
+      violated = true;
+      violationDesc = `🔥 违反！A(${(pA*100).toFixed(1)}%) > B(${(pB*100).toFixed(1)}%)，价差 +${(gap*100).toFixed(1)}%`;
+      action = `做空A的YES 或 做多B的YES — 两者必须收敛（逻辑约束）`;
+    } else if (b.expected_relation === 'A ≥ B' && gap < -0.02) {
+      violated = true;
+      violationDesc = `🔥 违反！A(${(pA*100).toFixed(1)}%) < B(${(pB*100).toFixed(1)}%)，差 ${(gap*100).toFixed(1)}%`;
+      action = `做多A的YES 或 做空B的YES — 两者必须收敛`;
+    }
+
+    const status = violated ? 'high' : 'low';
+    const tagCls = violated ? 'tag-red' : 'tag-green';
+    const statusText = violated ? '⚠️ 违反约束' : '✅ 满足约束';
+    foundViolation = foundViolation || violated;
+
+    logicHtml += `<div class="opp-card ${status}">
+      <div class="opp-header">
+        <span class="tag ${tagCls}">${statusText}</span>
+        <span class="opp-title">${b.description}</span>
+      </div>
+      <div style="font-size:12px;color:#595959;margin-bottom:10px;background:#f5f5f5;padding:8px 12px;border-radius:6px">
+        <strong>逻辑规则</strong>: ${b.rule}<br>
+        <strong>依据</strong>: <a href="${b.source_url}" target="_blank" style="color:#1677ff">${b.source_url} ↗</a>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:10px">
+        <div style="background:#fafafa;border:1px solid #d9d9d9;border-radius:6px;padding:10px 14px">
+          <div style="font-size:11px;color:#8c8c8c">A: ${mA.question?.slice(0,45) || b.a_slug}</div>
+          <div style="font-size:20px;font-weight:700;color:${pA >= pB ? '#ff4d4f' : '#52c41a'}">${(pA*100).toFixed(1)}%</div>
+          <div style="font-size:10px;color:#8c8c8c">Liq $${(parseFloat(mA.liquidity||0)/1000).toFixed(0)}K | <a href="https://polymarket.com/event/${b.a_slug}" target="_blank" style="color:#1677ff">polymarket ↗</a></div>
+        </div>
+        <div style="background:#fafafa;border:1px solid #d9d9d9;border-radius:6px;padding:10px 14px">
+          <div style="font-size:11px;color:#8c8c8c">B: ${mB.question?.slice(0,45) || b.b_slug}</div>
+          <div style="font-size:20px;font-weight:700;color:#1a1a1a">${(pB*100).toFixed(1)}%</div>
+          <div style="font-size:10px;color:#8c8c8c">Liq $${(parseFloat(mB.liquidity||0)/1000).toFixed(0)}K | <a href="https://polymarket.com/event/${b.b_slug}" target="_blank" style="color:#1677ff">polymarket ↗</a></div>
+        </div>
+      </div>
+      ${violated ? `<div class="opp-action">🎯 ${action}</div>` : '<div style="font-size:12px;color:#52c41a;padding:6px 0">价格符合逻辑预期，无套利空间</div>'}
+      ${violated && violationDesc ? `<div class="opp-meta" style="margin-top:8px"><span>${violationDesc}</span></div>` : ''}
+    </div>`;
+  }
+  logicHtml += '</div>';
+  logicWrap.innerHTML = logicHtml;
+}
+
+async function refreshAll() {
+  await loadMarkets();
+  await Promise.all([loadArbitrage(), loadCrossMarket()]);
+}
+
+// Initial load
+refreshAll().then(() => loadRules());
+// Auto refresh every 30s
+setInterval(refreshAll, 30000);
+</script>
+</body>
+</html>

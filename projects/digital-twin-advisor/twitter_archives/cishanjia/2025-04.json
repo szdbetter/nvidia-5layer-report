@@ -1,0 +1,606 @@
+{
+  "tweets": [
+    {
+      "id": "2026952079567425720",
+      "text": "@Haiteng_okx @Goupenguin 🥲真正的上量😂",
+      "createdAt": "Thu Feb 26 09:26:49 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 0,
+      "conversationId": "2026920188176904610",
+      "inReplyToStatusId": "2026951554562187598",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2026831819086377167",
+      "text": "@Pathusa 年纪小小就领悟了爱与被爱的本质。👍天赋",
+      "createdAt": "Thu Feb 26 01:28:57 +0000 2026",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 7,
+      "conversationId": "2026570502148599829",
+      "inReplyToStatusId": "2026570502148599829",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2026482665608933492",
+      "text": "@qinbafrank 这段是真的好漂亮",
+      "createdAt": "Wed Feb 25 02:21:32 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 2,
+      "conversationId": "2026480845767455171",
+      "inReplyToStatusId": "2026480845767455171",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2026200765795352864",
+      "text": "@Pathusa @BTCBruce1 😂😂",
+      "createdAt": "Tue Feb 24 07:41:22 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 0,
+      "conversationId": "2026122558748377315",
+      "inReplyToStatusId": "2026170180506947951",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2026191415450194354",
+      "text": "@tiffanyli1010 🥲🥲🥲🥲🥲你理解错了😂😂😂",
+      "createdAt": "Tue Feb 24 07:04:12 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 0,
+      "conversationId": "2025823943547105670",
+      "inReplyToStatusId": "2026188538472173571",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2026166118420025414",
+      "text": "@BTCBruce1 🥲🥲🥲我知道，是B哥喜欢我，所以才这么安慰我的。",
+      "createdAt": "Tue Feb 24 05:23:41 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 6,
+      "conversationId": "2026122558748377315",
+      "inReplyToStatusId": "2026165962232504367",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2026164408674865206",
+      "text": "@penny777 怎么说哈哈哈哈",
+      "createdAt": "Tue Feb 24 05:16:53 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2025823943547105670",
+      "inReplyToStatusId": "2026158677212946813",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2026150823173214641",
+      "text": "@BMANLead 👍👍",
+      "createdAt": "Tue Feb 24 04:22:54 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2026137432425677112",
+      "inReplyToStatusId": "2026137432425677112",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2026149796302782568",
+      "text": "@PANewsLab 我上次有一次线下遇到你们公司人，说让他回公司一定要大力夸赞表扬你，不知道他做到了没",
+      "createdAt": "Tue Feb 24 04:18:50 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2025823943547105670",
+      "inReplyToStatusId": "2026149238405763183",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2026149660826677523",
+      "text": "@PANewsLab 真被ai奇袭了？",
+      "createdAt": "Tue Feb 24 04:18:17 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 0,
+      "conversationId": "2025823943547105670",
+      "inReplyToStatusId": "2026149238405763183",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2026149461790187900",
+      "text": "@dotyyds1234 哎，反思了几个月，我承认自己的认知不足+执行力不足。好痛苦！铁子。我好羡慕你是个天才，你知道么！",
+      "createdAt": "Tue Feb 24 04:17:30 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 9,
+      "conversationId": "2026142481881166261",
+      "inReplyToStatusId": "2026142481881166261",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2026148833890300323",
+      "text": "@lijiuer1 🩷我们一起加油！",
+      "createdAt": "Tue Feb 24 04:15:00 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2026122558748377315",
+      "inReplyToStatusId": "2026134945953902755",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2026148735173202317",
+      "text": "@ziyubtc 🥲你说的这话，说我的心花怒放！",
+      "createdAt": "Tue Feb 24 04:14:37 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 0,
+      "conversationId": "2026122558748377315",
+      "inReplyToStatusId": "2026136155838881981",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2026148562955055449",
+      "text": "@Joy_rich168 🥲🥲我需要赚钱，姐。",
+      "createdAt": "Tue Feb 24 04:13:56 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 0,
+      "conversationId": "2026122558748377315",
+      "inReplyToStatusId": "2026139477249532294",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2026123494652792836",
+      "text": "@0xkkyyzz ！！！！！！！！！！我喜欢你说的话，你多说点😭😭",
+      "createdAt": "Tue Feb 24 02:34:19 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2026122558748377315",
+      "inReplyToStatusId": "2026123015738777831",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2026122558748377315",
+      "text": "最近的一些思维变化：\n1.奶子哥之前总觉得自己是块金子，总感觉自己没有发光，没有被更多人认可，感觉大家（这帮吊毛）都不识货，就会心生嫉妒，怨念。\n2.最近读巴菲特的过程中，突然反思了一下自己，意识到，奶子哥当下确实不是一颗金子。不是大家没看到，不是大家不识货，而是奶子哥当下确实不是金子。\n3.奶子哥发现，奶子哥可以通过不断的读书学习，实践，不断的迭代自己，不断的百炼，剔除杂质，成金。没有人一生下来就是金子的。芒格说90岁的巴菲特肯定是要比70岁的巴菲特更加聪明智慧的，因为巴菲特把自己打造成了学习机器。\n4.幻想自己是颗金子，但自己当下并不是金子，这个过程，非常矛盾，痛苦。\n把思维改变成：接纳真实的自己，我目前还不是一块金子，我还是个需要不断迭代的新手。\n这样想会轻松，会让奶子哥更加的真实面对自己，更加开心的成长和进步。\n5.承认自己菜真的挺难的兄弟们😭。但是，面对客观事实，不活在自己的幻觉里面，是让自己进步的开始。",
+      "createdAt": "Tue Feb 24 02:30:36 +0000 2026",
+      "replyCount": 56,
+      "retweetCount": 4,
+      "likeCount": 148,
+      "conversationId": "2026122558748377315",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2026111929186664469",
+      "text": "@aus_mini @grok 真的假的？",
+      "createdAt": "Tue Feb 24 01:48:21 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 5,
+      "conversationId": "2026021073788293547",
+      "inReplyToStatusId": "2026021073788293547",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2026088881293324325",
+      "text": "@xingxingjun8888 太赞了",
+      "createdAt": "Tue Feb 24 00:16:46 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 0,
+      "conversationId": "2025823943547105670",
+      "inReplyToStatusId": "2025948010245742614",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2025926363866423556",
+      "text": "@wdctlllltcdw 🩷",
+      "createdAt": "Mon Feb 23 13:30:59 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 0,
+      "conversationId": "2025925643322703955",
+      "inReplyToStatusId": "2025925643322703955",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2025915782983716899",
+      "text": "@941035636L 买不起，没别的原因。。。。",
+      "createdAt": "Mon Feb 23 12:48:57 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 0,
+      "conversationId": "2025823943547105670",
+      "inReplyToStatusId": "2025914381784240199",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2025915708396478494",
+      "text": "@BTCdayu 🩷努力！",
+      "createdAt": "Mon Feb 23 12:48:39 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 3,
+      "conversationId": "2025823943547105670",
+      "inReplyToStatusId": "2025864775381442688",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2025842549831962897",
+      "text": "@jiroucaigou 👍👍",
+      "createdAt": "Mon Feb 23 07:57:56 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 0,
+      "conversationId": "2025823943547105670",
+      "inReplyToStatusId": "2025840815474638927",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2025839371908485206",
+      "text": "@0XTiger666 全力以赴！",
+      "createdAt": "Mon Feb 23 07:45:19 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 0,
+      "conversationId": "2025823943547105670",
+      "inReplyToStatusId": "2025838262007562645",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2025839301112803644",
+      "text": "@fangyuan2580 其实就很简单，每天固定时间，学俩小时，养成习惯就好了。\n一点点来，可能我在国外，学了airport相关词汇，下次去机场立刻就能用到，带来的反馈极其爽，然后我就特别愿意学。",
+      "createdAt": "Mon Feb 23 07:45:02 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2025823943547105670",
+      "inReplyToStatusId": "2025837682933612951",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2025832563148029955",
+      "text": "@punk2898 🩷🩷🩷 感谢哥！",
+      "createdAt": "Mon Feb 23 07:18:15 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2025823943547105670",
+      "inReplyToStatusId": "2025828686256324637",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2025826701096415714",
+      "text": "@boysimp3 勤行之！！！",
+      "createdAt": "Mon Feb 23 06:54:58 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2025823943547105670",
+      "inReplyToStatusId": "2025826338167517600",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2025825326920769773",
+      "text": "@btc_jx 哈哈哈哈 静香懂我",
+      "createdAt": "Mon Feb 23 06:49:30 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2025823943547105670",
+      "inReplyToStatusId": "2025825023194497524",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2025825089875525837",
+      "text": "@boysimp3 哈哈哈哈是的！！！主要是，我觉得可能人和人真的有缘分这么一说吧，巴菲特芒格说的那些话，我看一眼就能看懂，而且高度认同。",
+      "createdAt": "Mon Feb 23 06:48:34 +0000 2026",
+      "replyCount": 3,
+      "retweetCount": 0,
+      "likeCount": 3,
+      "conversationId": "2025823943547105670",
+      "inReplyToStatusId": "2025824836350878042",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2025823943547105670",
+      "text": "聊聊租房过程的感悟",
+      "createdAt": "Mon Feb 23 06:44:00 +0000 2026",
+      "replyCount": 62,
+      "retweetCount": 4,
+      "likeCount": 166,
+      "conversationId": "2025823943547105670",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017",
+      "article": {
+        "title": "聊聊租房过程的感悟",
+        "previewText": "1.上个月奶子哥想换房子租，线上大概看到了300多套，选中了30套房子链接，然后奶子哥的房屋中介，也看了300多套，选中了30多套房子链接。然后从这60多个感觉不错的房子里面，又筛选了一遍，选出了20套房子线下一个个"
+      }
+    },
+    {
+      "id": "2025814239076925847",
+      "text": "@XiaoNianTalk 很赞同！",
+      "createdAt": "Mon Feb 23 06:05:27 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 0,
+      "conversationId": "2025814068486090889",
+      "inReplyToStatusId": "2025814068486090889",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2025448798169039036",
+      "text": "@Seanzhao1105 建立属于我们自己的内部积分卡！",
+      "createdAt": "Sun Feb 22 05:53:19 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 5,
+      "conversationId": "2025445038109385196",
+      "inReplyToStatusId": "2025445038109385196",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2025442720236650600",
+      "text": "@timotimo007 🩷",
+      "createdAt": "Sun Feb 22 05:29:10 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 0,
+      "conversationId": "2025412646426890726",
+      "inReplyToStatusId": "2025432324368990550",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2025428379986747557",
+      "text": "@uncle2 😂",
+      "createdAt": "Sun Feb 22 04:32:11 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 2,
+      "conversationId": "2025428251317883052",
+      "inReplyToStatusId": "2025428251317883052",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2025417501564436965",
+      "text": "@Skuitel 是的，人最终会成为那个本该成为的人，段永平说的。\n段说的话真的有点抽象。但很有哲理",
+      "createdAt": "Sun Feb 22 03:48:57 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "2025412646426890726",
+      "inReplyToStatusId": "2025417078879257047",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2025413944937165181",
+      "text": "@0xmster 天天给自己洗脑，自己没有吸烟的习惯和爱好，自己是一个不抽烟的人。",
+      "createdAt": "Sun Feb 22 03:34:49 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 2,
+      "conversationId": "2025412646426890726",
+      "inReplyToStatusId": "2025413761205686689",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2025413685918007587",
+      "text": "@wuw119 😂😂😂肯定不是。别老开玩笑了。我英语老师的年纪六七十岁了。",
+      "createdAt": "Sun Feb 22 03:33:47 +0000 2026",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 0,
+      "conversationId": "2024380068336980277",
+      "inReplyToStatusId": "2025413364403617829",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2025412646426890726",
+      "text": "芒格说：每天睡觉前，努力让自己比那天早上起床时更聪明一点点。\n段永平说：找到对的事情，然后坚持做。\n巴菲特讲：人生就像滚雪球。重要的是发现很湿的雪和一条很长的坡。\n这些大佬，讲的内容本质，其实都是复利。不只是金钱可以复利，思想也可以复利，影响力也可以复利，健康身体也可以复利。\n\n让奶子哥戒烟，每天阅读6小时+学习2小时英文，每天坚持健身跑步，真的不是励志和自律。（2022年奶子哥推特写过，自己从183斤减肥到133斤，以及每天早九晚六去上课学习java）。\n因为自律和励志需要每天消耗能量，但是习惯不需要消耗能量，一个好的行为方式，一旦养成习惯，是不需要说我很克制，我自律，我很励志。（可以把抽烟当成一个习惯，不抽烟也是一种习惯，仅仅是一个习惯。）\n自律本质是反人性的，习惯本质是顺人性的。\n\n习惯就是复利，复利就是习惯。\n好的习惯让你复利（1.01的365次方为37.38），坏的习惯也让你复利（0.99的365次方为0.025）。\n上士闻道 勤而行之 中士闻道 若存若亡 下士闻道 大笑之。不笑不足以为道。\n\n说到底，每个人都有自己梦想的中的生活方式。奶子哥梦想的生活方式，就是每天读8小时书，跟爱的人全球旅居生活，成为伟大的投资者，给社会做贡献。\n有些人赚钱目的就是为了去ktv喝酒，奶子哥赚钱是为了别人不敢对我进行服从性测试让我去ktv喝酒。喝酒对喜欢酒精的人讲，是一种幸福，对奶子哥这种酒精过敏的人是一种肉体上巨大的折磨。\n为自由。",
+      "createdAt": "Sun Feb 22 03:29:39 +0000 2026",
+      "replyCount": 34,
+      "retweetCount": 28,
+      "likeCount": 206,
+      "conversationId": "2025412646426890726",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2025144425656225793",
+      "text": "@SunJH921217 👍👍👍太赞了",
+      "createdAt": "Sat Feb 21 09:43:51 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 0,
+      "conversationId": "2024380068336980277",
+      "inReplyToStatusId": "2025102901283373155",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2025020414993539136",
+      "text": "@Web3Feng 😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂",
+      "createdAt": "Sat Feb 21 01:31:04 +0000 2026",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 5,
+      "conversationId": "2024839938353856628",
+      "inReplyToStatusId": "2024839938353856628",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    },
+    {
+      "id": "2024708049257349341",
+      "text": "@JaydenWei 想笑哈哈哈哈",
+      "createdAt": "Fri Feb 20 04:49:50 +0000 2026",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 8,
+      "conversationId": "2024706813632139296",
+      "inReplyToStatusId": "2024706813632139296",
+      "author": {
+        "username": "cishanjia",
+        "name": "慈善家"
+      },
+      "authorId": "1002945631407702017"
+    }
+  ],
+  "nextCursor": null
+}

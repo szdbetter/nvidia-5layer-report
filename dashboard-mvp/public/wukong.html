@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>悟空邀请码监控</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif; background:#1a1a2e; min-height:100vh; display:flex; align-items:center; justify-content:center; }
+  .card { background:#16213e; border-radius:16px; box-shadow:0 8px 32px rgba(0,0,0,.4); width:380px; max-width:95vw; overflow:hidden; color:#e0e0e0; }
+  .header { background:linear-gradient(135deg,#e94560,#c70039); color:#fff; padding:20px 24px; display:flex; align-items:center; gap:12px; }
+  .header-icon { font-size:32px; }
+  .header-title { font-size:20px; font-weight:700; }
+  .header-sub { font-size:12px; opacity:.8; margin-top:2px; }
+  .body { padding:20px; }
+
+  .image-wrap { background:#0f0f23; border-radius:12px; overflow:hidden; margin-bottom:16px; min-height:80px; display:flex; flex-direction:column; align-items:center; justify-content:center; }
+  .image-wrap img { width:100%; display:block; border-radius:12px; }
+  .image-placeholder { color:#555; font-size:14px; padding:30px; }
+
+  /* 邀请码大字展示 */
+  .invite-code-display { text-align:center; min-height:24px; margin:12px 0; }
+  .invite-code-text { color:#00ff88; font-weight:800; font-size:28px; letter-spacing:4px; user-select:all; cursor:pointer; padding:10px 20px; background:#0a2a1a; border-radius:8px; border:2px dashed #00ff88; display:inline-block; text-shadow:0 0 8px rgba(0,255,136,.3); }
+
+  .status-row { display:flex; align-items:center; gap:8px; margin-bottom:8px; }
+  .badge { font-size:12px; padding:3px 10px; border-radius:10px; font-weight:600; }
+  .badge-monitoring { background:#1a3a5c; color:#4fc3f7; }
+  .badge-off { background:#2a2a2a; color:#777; }
+  .time-text { color:#888; font-size:11px; }
+
+  .meta { font-size:12px; color:#999; line-height:1.8; margin-bottom:12px; }
+
+  /* 模式切换 */
+  .mode-bar { display:flex; align-items:center; justify-content:space-between; background:#1a1a3a; border-radius:10px; padding:8px 14px; margin-bottom:14px; }
+  .mode-label { font-size:13px; color:#888; }
+  .mode-toggle { display:flex; background:#0f0f2a; border-radius:8px; overflow:hidden; }
+  .mode-btn { border:none; padding:6px 14px; font-size:12px; cursor:pointer; background:transparent; color:#777; font-weight:500; transition:all .2s; }
+  .mode-btn.active { background:#2a2a5a; color:#fff; box-shadow:0 1px 4px rgba(0,0,0,.3); font-weight:700; }
+  .mode-btn:hover:not(.active) { color:#aaa; }
+
+  .actions { display:flex; gap:10px; }
+  .btn { flex:1; border:none; padding:10px 0; border-radius:10px; font-size:14px; font-weight:600; cursor:pointer; transition:all .15s; }
+  .btn:disabled { opacity:.5; cursor:not-allowed; }
+  .btn-check { background:#2a2a4a; color:#ccc; }
+  .btn-check:hover:not(:disabled) { background:#3a3a5a; }
+  .btn-copy { background:#e94560; color:#fff; }
+  .btn-copy:hover:not(:disabled) { background:#c70039; }
+  .btn-copy.copied { background:#27ae60; }
+
+  /* Toast */
+  .toast { position:fixed; top:20px; left:50%; transform:translateX(-50%); background:rgba(0,255,136,.15); color:#00ff88; border:1px solid #00ff8844; padding:10px 24px; border-radius:10px; font-size:14px; z-index:9999; opacity:0; transition:opacity .3s; pointer-events:none; backdrop-filter:blur(8px); }
+  .toast.show { opacity:1; }
+
+  .footer { text-align:center; padding:12px; font-size:11px; color:#444; border-top:1px solid #1a1a3a; }
+</style>
+</head>
+<body>
+
+<div class="card">
+  <div class="header">
+    <span class="header-icon">🐵</span>
+    <div>
+      <div class="header-title">悟空邀请码监控</div>
+      <div class="header-sub" id="mode-indicator">💤 常规模式 · 60秒/次</div>
+    </div>
+  </div>
+
+  <div class="body">
+    <div class="image-wrap" id="image-wrap">
+      <span class="image-placeholder">加载中…</span>
+    </div>
+
+    <div class="invite-code-display" id="invite-code-display"></div>
+
+    <div class="status-row">
+      <span class="badge badge-monitoring" id="badge">…</span>
+      <span class="time-text" id="time-text"></span>
+    </div>
+
+    <div class="meta" id="meta"></div>
+
+    <div class="mode-bar">
+      <span class="mode-label">检查频率</span>
+      <div class="mode-toggle">
+        <button class="mode-btn active" id="mode-normal" onclick="setMode('normal')">💤 常规</button>
+        <button class="mode-btn" id="mode-fast" onclick="setMode('fast')">⚡ 高频</button>
+      </div>
+    </div>
+
+    <div class="actions">
+      <button class="btn btn-check" id="btn-check" onclick="checkNow()">立即检查</button>
+      <button class="btn btn-copy" id="btn-copy" onclick="copyInviteCode()">复制邀请码</button>
+    </div>
+  </div>
+
+  <div class="footer">ClawLabs 悟空监控 · 自动检测邀请码更新</div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+// Token 鉴权：从 URL ?token=xxx 读取，附加到所有 API 请求
+const TOKEN = new URLSearchParams(location.search).get('token') || '';
+function api(path, opts = {}) {
+  const sep = path.includes('?') ? '&' : '?';
+  return fetch(path + sep + 'token=' + TOKEN, opts);
+}
+
+let currentMode = 'normal'; // 'normal' | 'fast'
+let pollTimer = null;
+let detected = false; // 检测到新码后停止高频
+let autoCopied = false; // 已自动复制过
+
+function getInterval() {
+  if (detected) return 60000;
+  if (currentMode === 'fast') return 1000;
+  // auto: 分钟 59-04 高频，其他常规
+  const min = new Date().getMinutes();
+  return (min >= 59 || min <= 4) ? 1000 : 60000;
+}
+
+function setMode(mode) {
+  currentMode = mode;
+  detected = false; // 手动切换时重置检测标记
+  document.getElementById('mode-normal').className = 'mode-btn' + (mode === 'normal' ? ' active' : '');
+  document.getElementById('mode-fast').className = 'mode-btn' + (mode === 'fast' ? ' active' : '');
+  updateModeIndicator();
+  // 重启轮询
+  if (pollTimer) clearTimeout(pollTimer);
+  pollLoop();
+}
+
+function updateModeIndicator() {
+  const el = document.getElementById('mode-indicator');
+  const interval = getInterval();
+  if (detected) {
+    el.textContent = '🎯 已检测到新码 · 常规模式';
+  } else if (interval <= 1000) {
+    el.textContent = '⚡ 高频模式 · 1秒/次';
+  } else {
+    el.textContent = '💤 常规模式 · 60秒/次';
+  }
+}
+
+// 提示音（检测到新邀请码时连续播放）
+let alertTimer = null;
+function playAlert() {
+  try {
+    const ctx = new (window.AudioContext || window.webkitAudioContext)();
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.connect(gain); gain.connect(ctx.destination);
+    osc.frequency.value = 880;
+    gain.gain.value = 0.3;
+    osc.start(); osc.stop(ctx.currentTime + 0.15);
+    setTimeout(() => {
+      const o2 = ctx.createOscillator();
+      const g2 = ctx.createGain();
+      o2.connect(g2); g2.connect(ctx.destination);
+      o2.frequency.value = 1200;
+      g2.gain.value = 0.3;
+      o2.start(); o2.stop(ctx.currentTime + 0.2);
+    }, 200);
+  } catch(e) {}
+}
+
+function startAlertLoop() {
+  if (alertTimer) return;
+  playAlert();
+  alertTimer = setInterval(playAlert, 3000); // 每3秒响一次
+  // 30秒后自动停止
+  setTimeout(stopAlertLoop, 30000);
+}
+function stopAlertLoop() {
+  if (alertTimer) { clearInterval(alertTimer); alertTimer = null; }
+}
+
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 3000);
+}
+
+function copyToClipboard(text) {
+  // 始终用 execCommand fallback，避免 Clipboard API 权限问题
+  try {
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.cssText = 'position:fixed;left:-9999px;top:-9999px';
+    document.body.appendChild(ta);
+    ta.focus();
+    ta.select();
+    document.execCommand('copy');
+    document.body.removeChild(ta);
+  } catch(e) {}
+  return Promise.resolve();
+}
+
+function showInviteCode(code) {
+  const el = document.getElementById('invite-code-display');
+  if (code) {
+    el.innerHTML = `<span class="invite-code-text" onclick="copyToClipboard('${code}').then(()=>showToast('✅ 已复制'))">${code}</span>`;
+  } else {
+    el.innerHTML = '';
+  }
+}
+
+function renderState(d) {
+  if (d.error) return; // 鉴权失败等异常，不更新 UI
+  const badge = document.getElementById('badge');
+  const timeEl = document.getElementById('time-text');
+  const meta = document.getElementById('meta');
+  const imgWrap = document.getElementById('image-wrap');
+
+  if (d.lastImageUrl) {
+    const img = imgWrap.querySelector('img');
+    if (!img || !img.src.includes(d.lastUrlId || '___')) {
+      imgWrap.innerHTML = `<img src="${d.lastImageUrl}" alt="邀请码图片" onerror="this.parentElement.innerHTML='<span class=image-placeholder>图片加载失败</span>'">`;
+    }
+  } else if (!d.disabled) {
+    imgWrap.innerHTML = '<span class="image-placeholder">暂无图片</span>';
+  }
+
+  if (d.disabled) {
+    badge.className = 'badge badge-off'; badge.textContent = '⏸ 已关闭';
+    timeEl.textContent = '';
+    meta.innerHTML = '<span style="color:#bbb">监控已关闭</span>';
+    return;
+  }
+
+  if (!d.baselineSet) {
+    badge.className = 'badge badge-monitoring'; badge.textContent = '⏳ 建立基线中';
+  } else {
+    badge.className = 'badge badge-monitoring'; badge.textContent = '👁 监控中';
+  }
+
+  if (d.lastCheck) {
+    const ago = Math.round((Date.now() - new Date(d.lastCheck)) / 1000);
+    timeEl.textContent = ago < 60 ? `${ago}秒前` : `${Math.round(ago/60)}分钟前`;
+  }
+
+  const lines = [];
+  if (d.lastNotify) {
+    const ago = Math.round((Date.now() - new Date(d.lastNotify)) / 1000 / 60);
+    lines.push(`📢 上次通知：${ago < 1 ? '刚刚' : ago + '分钟前'}`);
+  }
+  if (d.lastUrlId) {
+    lines.push(`🔑 ${d.lastUrlId.slice(0, 20)}…`);
+  }
+  if (d.lastError) {
+    lines.push(`<span style="color:#ff4d4f">⚠ ${d.lastError.slice(0,50)}</span>`);
+  }
+  if (d.ocrStatus === 'pending') {
+    lines.push(`⏳ 正在识别邀请码…`);
+  }
+  meta.innerHTML = lines.join('<br>') || '';
+
+  // 自动显示已缓存的邀请码
+  if (d.lastInviteCode) {
+    showInviteCode(d.lastInviteCode);
+  }
+}
+
+async function refreshState() {
+  try {
+    const r = await api('/api/wukong/state');
+    renderState(await r.json());
+  } catch {}
+}
+
+async function pollOnce() {
+  try {
+    const r = await api('/api/wukong/check', { method: 'POST' });
+    const d = await r.json();
+    if (d.notified) {
+      detected = true;
+      startAlertLoop();
+      showToast('🔔 邀请码图片有更新！正在自动识别…');
+    }
+    // 如果服务端已 OCR 完成且有邀请码，自动显示+复制（只做一次）
+    if (d.inviteCode && !autoCopied) {
+      autoCopied = true;
+      startAlertLoop();
+      showInviteCode(d.inviteCode);
+      copyToClipboard(d.inviteCode);
+      showToast('✅ 邀请码已自动复制: ' + d.inviteCode);
+      const btn = document.getElementById('btn-copy');
+      if (btn) { btn.textContent = '已复制 ✓'; btn.className = 'btn btn-copy copied'; }
+      // 5秒后停止提示音（已复制成功）
+      setTimeout(stopAlertLoop, 5000);
+    }
+    refreshState();
+  } catch {}
+  updateModeIndicator();
+}
+
+function pollLoop() {
+  pollOnce();
+  const interval = getInterval();
+  pollTimer = setTimeout(pollLoop, interval);
+}
+
+async function checkNow() {
+  const btn = document.getElementById('btn-check');
+  btn.disabled = true; btn.textContent = '检查中…';
+  try {
+    const r = await api('/api/wukong/check', { method: 'POST' });
+    const d = await r.json();
+    if (d.notified) {
+      showToast('🔔 有更新！');
+      detected = true;
+      updateModeIndicator();
+    } else if (d.status === 'disabled') {
+      showToast('⏸ 监控已关闭');
+    } else {
+      showToast('✅ 无变化');
+    }
+    refreshState();
+  } catch (e) {
+    showToast('❌ 请求失败');
+  }
+  btn.disabled = false; btn.textContent = '立即检查';
+}
+
+async function copyInviteCode() {
+  const btn = document.getElementById('btn-copy');
+  btn.disabled = true; btn.textContent = '解析中…';
+  try {
+    const state = await api('/api/wukong/state').then(r => r.json());
+    if (!state.lastImageUrl) { showToast('❌ 暂无图片'); btn.disabled = false; btn.textContent = '复制邀请码'; return; }
+    await copyInviteCodeFromUrl(state.lastImageUrl);
+  } catch (e) {
+    showToast('❌ 请求失败');
+    btn.disabled = false; btn.textContent = '复制邀请码';
+  }
+}
+
+async function copyInviteCodeFromUrl(imageUrl) {
+  const btn = document.getElementById('btn-copy');
+  btn.disabled = true; btn.textContent = '解析中…';
+  try {
+    const r = await api('/api/wukong/ocr', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ imageUrl })
+    });
+    const d = await r.json();
+    if (d.ok && d.inviteCode) {
+      showInviteCode(d.inviteCode);
+      await copyToClipboard(d.inviteCode);
+      showToast('✅ 已复制: ' + d.inviteCode);
+      btn.textContent = '已复制 ✓'; btn.className = 'btn btn-copy copied';
+    } else {
+      showToast('❌ 未识别到邀请码');
+      btn.disabled = false; btn.textContent = '复制邀请码';
+    }
+  } catch (e) {
+    showToast('❌ OCR 失败');
+    btn.disabled = false; btn.textContent = '复制邀请码';
+  }
+}
+
+// 初始化
+refreshState();
+pollLoop();
+</script>
+</body>
+</html>

@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>后台任务管理</title>
+<style>
+  :root{--bg:#0f1117;--card:#1a1d27;--border:#2a2d3a;--accent:#6366f1;--green:#22c55e;--red:#ef4444;--yellow:#f59e0b;--text:#e2e8f0;--muted:#64748b}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-serif;font-size:14px;min-height:100vh}
+  header{background:var(--card);border-bottom:1px solid var(--border);padding:14px 24px;display:flex;align-items:center;gap:16px}
+  header h1{font-size:18px;font-weight:600}
+  header a{color:var(--muted);text-decoration:none;font-size:13px}
+  header a:hover{color:var(--text)}
+  .main{padding:24px;max-width:1200px;margin:0 auto}
+
+  /* Bitfinex Widget */
+  .bfx-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px;margin-bottom:24px}
+  .bfx-card h2{font-size:15px;font-weight:600;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+  .bfx-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-bottom:16px}
+  .bfx-stat{background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:12px 16px}
+  .bfx-stat .label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
+  .bfx-stat .val{font-size:22px;font-weight:700;margin-top:4px}
+  .bfx-stat .val.alert{color:var(--red)}
+  .bfx-stat .sub{font-size:11px;color:var(--muted);margin-top:2px}
+  .bfx-config{display:flex;gap:12px;flex-wrap:wrap;align-items:flex-end;margin-top:14px;padding-top:14px;border-top:1px solid var(--border)}
+  .field{display:flex;flex-direction:column;gap:4px}
+  .field label{font-size:11px;color:var(--muted)}
+  .field input{background:var(--bg);border:1px solid var(--border);color:var(--text);padding:6px 10px;border-radius:6px;width:180px;font-size:13px}
+  .field input:focus{outline:none;border-color:var(--accent)}
+  .btn{padding:7px 16px;border-radius:6px;border:none;cursor:pointer;font-size:13px;font-weight:500;transition:.15s}
+  .btn-primary{background:var(--accent);color:#fff}.btn-primary:hover{opacity:.85}
+  .btn-green{background:var(--green);color:#fff}.btn-green:hover{opacity:.85}
+  .btn-red{background:var(--red);color:#fff}.btn-red:hover{opacity:.85}
+  .btn-sm{padding:4px 10px;font-size:12px}
+  .btn-ghost{background:transparent;border:1px solid var(--border);color:var(--text)}.btn-ghost:hover{background:var(--border)}
+  .alert-badge{display:inline-flex;align-items:center;gap:4px;background:#ef44441a;color:var(--red);border:1px solid #ef444440;border-radius:999px;padding:2px 8px;font-size:11px}
+  .ok-badge{display:inline-flex;align-items:center;gap:4px;background:#22c55e1a;color:var(--green);border:1px solid #22c55e40;border-radius:999px;padding:2px 8px;font-size:11px}
+
+  /* Tasks */
+  .section-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
+  .section-header h2{font-size:15px;font-weight:600}
+  table{width:100%;border-collapse:collapse}
+  th{text-align:left;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;padding:8px 12px;border-bottom:1px solid var(--border)}
+  td{padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:middle}
+  tr:hover td{background:#ffffff05}
+  .status-dot{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:6px}
+  .dot-running{background:var(--green);box-shadow:0 0 6px var(--green)}
+  .dot-stopped{background:var(--muted)}
+  .dot-error{background:var(--red)}
+  .dot-restarting{background:var(--yellow);animation:pulse 1s infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+  .actions{display:flex;gap:6px}
+  .tag{display:inline-block;background:#6366f11a;color:#818cf8;border-radius:4px;padding:1px 6px;font-size:11px;border:1px solid #6366f130}
+
+  /* Log modal */
+  .modal-overlay{display:none;position:fixed;inset:0;background:#00000088;z-index:100;align-items:center;justify-content:center}
+  .modal-overlay.open{display:flex}
+  .modal{background:var(--card);border:1px solid var(--border);border-radius:12px;width:800px;max-height:80vh;display:flex;flex-direction:column;overflow:hidden}
+  .modal-header{padding:16px 20px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center}
+  .modal-body{flex:1;overflow:auto;padding:16px 20px}
+  pre{font-size:12px;line-height:1.6;color:#94a3b8;white-space:pre-wrap;word-break:break-all}
+
+  /* Add task modal */
+  .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .form-grid .full{grid-column:1/-1}
+  .form-group{display:flex;flex-direction:column;gap:4px}
+  .form-group label{font-size:12px;color:var(--muted)}
+  .form-group input,.form-group textarea,.form-group select{background:var(--bg);border:1px solid var(--border);color:var(--text);padding:8px 10px;border-radius:6px;font-size:13px;width:100%}
+  .form-group input:focus,.form-group textarea:focus{outline:none;border-color:var(--accent)}
+  .updated{font-size:11px;color:var(--muted)}
+</style>
+</head>
+<body>
+<header>
+  <h1>⚙️ 后台任务管理</h1>
+  <a href="/">← 返回首页</a>
+  <span style="margin-left:auto;font-size:12px;color:var(--muted)" id="refresh-hint">每 15s 自动刷新</span>
+</header>
+
+<div class="main">
+  <!-- Bitfinex 实时数据 -->
+  <div class="bfx-card">
+    <h2>📊 Bitfinex USDT 实时监控 <span id="bfx-status-badge"></span></h2>
+    <div class="bfx-grid">
+      <div class="bfx-stat">
+        <div class="label">UST/USD 最新价</div>
+        <div class="val" id="bfx-price">--</div>
+        <div class="sub" id="bfx-chg">--</div>
+      </div>
+      <div class="bfx-stat">
+        <div class="label">买一 / 卖一</div>
+        <div class="val" style="font-size:16px" id="bfx-bidask">--</div>
+      </div>
+      <div class="bfx-stat">
+        <div class="label">借贷最优借出利率/日</div>
+        <div class="val" id="bfx-ask-rate">--</div>
+        <div class="sub" id="bfx-ann-rate">-- %/年</div>
+      </div>
+      <div class="bfx-stat">
+        <div class="label">FRR 闪回利率/年</div>
+        <div class="val" id="bfx-frr">--</div>
+      </div>
+      <div class="bfx-stat">
+        <div class="label">24h 成交量</div>
+        <div class="val" style="font-size:16px" id="bfx-volume">--</div>
+      </div>
+    </div>
+    <div class="updated">更新时间：<span id="bfx-updated">--</span></div>
+
+    <!-- 配置区 -->
+    <div class="bfx-config">
+      <div class="field">
+        <label>价格告警阈值（高于此值推送）</label>
+        <input type="number" id="cfg-price" step="0.0001" value="1.0002">
+      </div>
+      <div class="field">
+        <label>借贷日利率告警（如 0.00045 = 0.045%）</label>
+        <input type="number" id="cfg-rate" step="0.00001" value="0.00045">
+      </div>
+      <div class="field">
+        <label>Telegram Bot Token</label>
+        <input type="text" id="cfg-tg-token" placeholder="留空则不推送">
+      </div>
+      <div class="field">
+        <label>Telegram Chat ID</label>
+        <input type="text" id="cfg-tg-chatid" placeholder="-100xxxxxxxxx">
+      </div>
+      <button class="btn btn-primary" onclick="saveConfig()">保存配置</button>
+    </div>
+  </div>
+
+  <!-- 任务列表 -->
+  <div class="bfx-card">
+    <div class="section-header">
+      <h2>🔧 后台脚本任务</h2>
+      <button class="btn btn-ghost" onclick="openAddModal()">+ 添加任务</button>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>状态</th>
+          <th>任务名</th>
+          <th>说明</th>
+          <th>命令</th>
+          <th>重启间隔</th>
+          <th>PID</th>
+          <th>启动时间</th>
+          <th>操作</th>
+        </tr>
+      </thead>
+      <tbody id="task-tbody"></tbody>
+    </table>
+  </div>
+</div>
+
+<!-- 日志 Modal -->
+<div class="modal-overlay" id="log-modal">
+  <div class="modal">
+    <div class="modal-header">
+      <span id="log-modal-title">任务日志</span>
+      <button class="btn btn-ghost btn-sm" onclick="closeLogModal()">关闭</button>
+    </div>
+    <div class="modal-body"><pre id="log-content">加载中...</pre></div>
+  </div>
+</div>
+
+<!-- 添加任务 Modal -->
+<div class="modal-overlay" id="add-modal">
+  <div class="modal" style="width:620px">
+    <div class="modal-header">
+      <span>添加后台任务</span>
+      <button class="btn btn-ghost btn-sm" onclick="closeAddModal()">取消</button>
+    </div>
+    <div class="modal-body">
+      <div class="form-grid">
+        <div class="form-group"><label>任务 ID（唯一标识）</label><input id="add-id" placeholder="my-task"></div>
+        <div class="form-group"><label>任务名</label><input id="add-name" placeholder="我的任务"></div>
+        <div class="form-group full"><label>说明</label><input id="add-desc" placeholder="这个任务做什么..."></div>
+        <div class="form-group"><label>命令</label><input id="add-cmd" placeholder="python3"></div>
+        <div class="form-group"><label>参数（空格分隔）</label><input id="add-args" placeholder="/path/to/script.py --flag"></div>
+        <div class="form-group"><label>工作目录（可选）</label><input id="add-cwd" placeholder="/root/..."></div>
+        <div class="form-group"><label>退出后重启间隔（秒，0=不重启）</label><input type="number" id="add-interval" value="0"></div>
+      </div>
+      <div style="margin-top:16px;display:flex;gap:8px;justify-content:flex-end">
+        <button class="btn btn-ghost" onclick="closeAddModal()">取消</button>
+        <button class="btn btn-primary" onclick="submitAddTask()">注册并启动</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+async function api(url, opts={}) {
+  const r = await fetch(url, { headers:{'Content-Type':'application/json'}, ...opts });
+  return r.json();
+}
+
+// ── Bitfinex ──────────────────────────────────────────────────────────────────
+async function loadBfx() {
+  const d = await api('/api/bitfinex/status');
+  if (d.error) { document.getElementById('bfx-status-badge').innerHTML=`<span class="alert-badge">⚠ ${d.error}</span>`; return; }
+
+  const spot = d.spot || {};
+  const fr   = d.funding || {};
+  const cfg  = await api('/api/bitfinex/config');
+
+  // price
+  const price = spot.last;
+  const priceEl = document.getElementById('bfx-price');
+  priceEl.textContent = price ? price.toFixed(5) : '--';
+  priceEl.className = 'val' + (price > (cfg.price_alert_above||1.0002) ? ' alert' : '');
+
+  document.getElementById('bfx-chg').textContent =
+    spot.daily_chg_pct != null ? `${spot.daily_chg_pct>0?'+':''}${spot.daily_chg_pct}%` : '--';
+  document.getElementById('bfx-bidask').textContent =
+    (spot.bid && spot.ask) ? `${spot.bid.toFixed(5)} / ${spot.ask.toFixed(5)}` : '--';
+
+  const askRate = fr.ask_daily;
+  const rateEl  = document.getElementById('bfx-ask-rate');
+  rateEl.textContent = askRate ? askRate.toFixed(8) : '--';
+  rateEl.className = 'val' + (askRate > (cfg.rate_alert_above||0.00045) ? ' alert' : '');
+  document.getElementById('bfx-ann-rate').textContent = fr.ask_annual_pct ? `≈ ${fr.ask_annual_pct}%/年` : '--';
+  document.getElementById('bfx-frr').textContent = fr.frr_annual_pct ? `${fr.frr_annual_pct}%` : '--';
+  document.getElementById('bfx-volume').textContent = spot.volume ? `${(spot.volume/1e6).toFixed(2)}M UST` : '--';
+  document.getElementById('bfx-updated').textContent = d.updated_at || '--';
+
+  // alerts
+  const badge = document.getElementById('bfx-status-badge');
+  if (d.alerts && d.alerts.length) {
+    badge.innerHTML = `<span class="alert-badge">🚨 ${d.alerts.length} 条告警</span>`;
+  } else {
+    badge.innerHTML = `<span class="ok-badge">✓ 正常</span>`;
+  }
+
+  // fill config inputs
+  document.getElementById('cfg-price').value = cfg.price_alert_above ?? 1.0002;
+  document.getElementById('cfg-rate').value  = cfg.rate_alert_above  ?? 0.00045;
+  document.getElementById('cfg-tg-token').value   = cfg.telegram_token  || '';
+  document.getElementById('cfg-tg-chatid').value  = cfg.telegram_chat_id || '';
+}
+
+async function saveConfig() {
+  const body = {
+    price_alert_above: parseFloat(document.getElementById('cfg-price').value),
+    rate_alert_above:  parseFloat(document.getElementById('cfg-rate').value),
+    telegram_token:    document.getElementById('cfg-tg-token').value.trim(),
+    telegram_chat_id:  document.getElementById('cfg-tg-chatid').value.trim(),
+  };
+  await api('/api/bitfinex/config', { method:'POST', body: JSON.stringify(body) });
+  alert('✅ 配置已保存，下次轮询生效');
+}
+
+// ── Tasks ─────────────────────────────────────────────────────────────────────
+async function loadTasks() {
+  const tasks = await api('/api/tasks');
+  const tbody = document.getElementById('task-tbody');
+  tbody.innerHTML = tasks.map(t => {
+    const dotClass = { running:'dot-running', stopped:'dot-stopped', error:'dot-error', restarting:'dot-restarting' }[t.status] || 'dot-stopped';
+    const cmd = [t.command, ...(t.args||[])].join(' ');
+    const interval = t.interval_sec > 0 ? `${t.interval_sec}s` : '仅一次';
+    const started = t.last_started ? t.last_started.replace('T',' ').slice(0,19) : '--';
+    return `<tr>
+      <td><span class="status-dot ${dotClass}"></span>${t.status}</td>
+      <td><strong>${t.name}</strong></td>
+      <td style="color:var(--muted);max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${t.description||''}</td>
+      <td><code style="font-size:11px;color:#94a3b8">${cmd.length>40?cmd.slice(0,40)+'…':cmd}</code></td>
+      <td><span class="tag">${interval}</span></td>
+      <td style="color:var(--muted)">${t.pid||'--'}</td>
+      <td style="color:var(--muted)">${started}</td>
+      <td>
+        <div class="actions">
+          ${t.status==='running'
+            ? `<button class="btn btn-red btn-sm" onclick="stopTask('${t.id}')">停止</button>`
+            : `<button class="btn btn-green btn-sm" onclick="startTask('${t.id}')">启动</button>`
+          }
+          <button class="btn btn-ghost btn-sm" onclick="viewLog('${t.id}','${t.name}')">日志</button>
+          <button class="btn btn-ghost btn-sm" style="color:var(--red)" onclick="deleteTask('${t.id}')">删除</button>
+        </div>
+      </td>
+    </tr>`;
+  }).join('');
+}
+
+async function startTask(id) {
+  await api(`/api/tasks/${id}/start`, { method:'POST' });
+  loadTasks();
+}
+async function stopTask(id) {
+  await api(`/api/tasks/${id}/stop`, { method:'POST' });
+  loadTasks();
+}
+async function deleteTask(id) {
+  if (!confirm(`确认删除任务 ${id}？`)) return;
+  await api(`/api/tasks/${id}`, { method:'DELETE' });
+  loadTasks();
+}
+async function viewLog(id, name) {
+  document.getElementById('log-modal-title').textContent = `日志 — ${name}`;
+  document.getElementById('log-content').textContent = '加载中...';
+  document.getElementById('log-modal').classList.add('open');
+  const d = await api(`/api/tasks/${id}/log?lines=200`);
+  document.getElementById('log-content').textContent = d.log || '（暂无日志）';
+}
+function closeLogModal() { document.getElementById('log-modal').classList.remove('open'); }
+
+function openAddModal() { document.getElementById('add-modal').classList.add('open'); }
+function closeAddModal() { document.getElementById('add-modal').classList.remove('open'); }
+async function submitAddTask() {
+  const body = {
+    id:           document.getElementById('add-id').value.trim(),
+    name:         document.getElementById('add-name').value.trim(),
+    description:  document.getElementById('add-desc').value.trim(),
+    command:      document.getElementById('add-cmd').value.trim(),
+    args:         document.getElementById('add-args').value.trim().split(/\s+/).filter(Boolean),
+    cwd:          document.getElementById('add-cwd').value.trim() || null,
+    interval_sec: parseInt(document.getElementById('add-interval').value) || 0,
+  };
+  if (!body.id || !body.name || !body.command) { alert('ID、名称、命令必填'); return; }
+  await api('/api/tasks', { method:'POST', body: JSON.stringify(body) });
+  await api(`/api/tasks/${body.id}/start`, { method:'POST' });
+  closeAddModal();
+  loadTasks();
+}
+
+// ── init ──────────────────────────────────────────────────────────────────────
+function refresh() { loadBfx(); loadTasks(); }
+refresh();
+setInterval(refresh, 15000);
+</script>
+</body>
+</html>

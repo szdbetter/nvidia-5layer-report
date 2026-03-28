@@ -1,0 +1,706 @@
+[
+  {
+    "id": "1993888156073251209",
+    "text": "@AndyJYGood68 本硕都学计算机的，不过毕业后基本没写过代码了",
+    "createdAt": "Thu Nov 27 03:42:35 +0000 2025",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 8,
+    "conversationId": "1993691150512005456",
+    "inReplyToStatusId": "1993719863500779943",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1993709420644331967",
+    "text": "@0xshunshun 最主要就是Lighter和TradeXYZ，然后在看Variational，其他暂时没参与。",
+    "createdAt": "Wed Nov 26 15:52:21 +0000 2025",
+    "replyCount": 2,
+    "retweetCount": 1,
+    "likeCount": 21,
+    "conversationId": "1993691150512005456",
+    "inReplyToStatusId": "1993695875567349902",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1993708363016966625",
+    "text": "@sky_gpt 刚上手的时候效率挺低的，一个很简单的价格异动监控都搞了三四天，后来逐渐学会了和AI沟通的Prompt技巧，提准确的需求，加上本地也有了相关代码做基础，现在数据监控这种几十分钟就能搞定。刷分脚本类的话，AI做出雏形很简单，但是需要花挺多时间去测试+debug然后让它改进。",
+    "createdAt": "Wed Nov 26 15:48:09 +0000 2025",
+    "replyCount": 4,
+    "retweetCount": 2,
+    "likeCount": 34,
+    "conversationId": "1993691150512005456",
+    "inReplyToStatusId": "1993692235632894036",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1993693981742641243",
+    "text": "@BarlowLi @porounclemao 看完了，很赞",
+    "createdAt": "Wed Nov 26 14:51:00 +0000 2025",
+    "replyCount": 3,
+    "retweetCount": 1,
+    "likeCount": 10,
+    "conversationId": "1993691150512005456",
+    "inReplyToStatusId": "1993692914397097984",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1993693200100536425",
+    "text": "@wgrey999 我以前基本用Claude的Sonnet 4.5，刚换到了新出的Opus 4.5，看下来Gemini 3应该是前端比较强。",
+    "createdAt": "Wed Nov 26 14:47:54 +0000 2025",
+    "replyCount": 3,
+    "retweetCount": 2,
+    "likeCount": 44,
+    "conversationId": "1993691150512005456",
+    "inReplyToStatusId": "1993692471453417743",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1993691150512005456",
+    "text": "市场确实太差了，刚刷推居然看到vida和土豆吵起来了，两位都是我朋友也是我非常喜欢的中文区博主，一个是新闻交易的天花板，一个是最厉害的纯交易员之一，都是认知顶级的人，一般来说应该更容易互相认可，可能也是被最近推特上各种无脑言论影响到心情了，导致产生误会。\n\n不知不觉也有十多天没发推了，确实也没发现什么特别值得分享的内容，本来我10.13的推文写了已经基本空仓准备防守一波，但是后续大饼下跌的过程中没管住手，尝试抄底了几次，都止损了，又靠做空Zec的几个Beta赚回来了一些，除此之外就没找到太好的交易机会了。\n\n这段时间除了调整和休息，花精力比较多的就是继续研究vibe coding，AI编程的能力越来越强了，我自己目前用cursor写了一些CEX的数据监控来辅助交易，也完成了几个Perp DEX的脚本刷分，整体效果还不错，熟练运用这类AI工具对于生产力的提升非常大，也让我感觉到成为“超级个体”在这个时代真的有了可行性。",
+    "createdAt": "Wed Nov 26 14:39:45 +0000 2025",
+    "replyCount": 203,
+    "retweetCount": 62,
+    "likeCount": 1020,
+    "conversationId": "1993691150512005456",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1991112664328872152",
+    "text": "@c_dylanber @tradexyz @BasedOneX 没理解错的话XYZ才是这些股票的底层实现吧，Hype和Based都只是前端接入了XYZ，另外XYZ第一条推文是Unit转推的。",
+    "createdAt": "Wed Nov 19 11:53:46 +0000 2025",
+    "replyCount": 7,
+    "retweetCount": 2,
+    "likeCount": 41,
+    "conversationId": "1991101616230162715",
+    "inReplyToStatusId": "1991101616230162715",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1990002530177405037",
+    "text": "@hexiecs 舒服了",
+    "createdAt": "Sun Nov 16 10:22:30 +0000 2025",
+    "replyCount": 4,
+    "retweetCount": 0,
+    "likeCount": 25,
+    "conversationId": "1989996248473174151",
+    "inReplyToStatusId": "1989996248473174151",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1989700120632594688",
+    "text": "@niuniu255431 时来天地皆同力，运去英雄不自由",
+    "createdAt": "Sat Nov 15 14:20:50 +0000 2025",
+    "replyCount": 11,
+    "retweetCount": 2,
+    "likeCount": 86,
+    "conversationId": "1989616628472987936",
+    "inReplyToStatusId": "1989616628472987936",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1989569990010556761",
+    "text": "@penguinpecker1 1 point = 1 point😭",
+    "createdAt": "Sat Nov 15 05:43:44 +0000 2025",
+    "replyCount": 2,
+    "retweetCount": 0,
+    "likeCount": 3,
+    "conversationId": "1989548583146983875",
+    "inReplyToStatusId": "1989567764517064950",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1989549906781245651",
+    "text": "@0xhonor 永远不要做空这几种：\n1、强势龙头币\n2、高控盘妖币\n3、市值过小的币\n哪怕赢99次都没用，输1次就完蛋。",
+    "createdAt": "Sat Nov 15 04:23:56 +0000 2025",
+    "replyCount": 6,
+    "retweetCount": 1,
+    "likeCount": 66,
+    "conversationId": "1989548583146983875",
+    "inReplyToStatusId": "1989549173801361832",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1989548583146983875",
+    "text": "ZEC太震了，Lighter太卷了，接近理想太难了 https://t.co/GT8LvQHXPS",
+    "createdAt": "Sat Nov 15 04:18:40 +0000 2025",
+    "replyCount": 168,
+    "retweetCount": 28,
+    "likeCount": 370,
+    "conversationId": "1989548583146983875",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "quotedTweet": {
+      "id": "1982604872286609765",
+      "text": "看了下，这两天强势的山寨大概是以下几个板块：\n\n1、隐私币，龙头Zec，监管放宽，纳瓦尔领衔喊单，金融主权、去中心化等话题延伸。相关的有之前介绍过的隐私+ZK赛道次新币Prove，老牌隐私币XMR，Dash，Zen等等。\n\n2、Hyperliquid，HIP3的推出，真正的链上金融市场，无需赘述。相关的可以看看Perp Dex赛道和HIP3相关的标的，但是我感觉Hype已经不仅仅是一个Perp Dex了。\n\n3、X402，其实是已经被市场讨论了挺长一段时间，但是相关标的一直不温不火，直到Ping以Meme的形式出圈才彻底引燃。X402是用于AI智能体之间的支付协议，所以也带动了一批相关的山寨上涨，例如Virtual，Clanker等等。另外Eigen其实也很早就和谷歌合作推出了AP2，其中就包括了用X402实现加密支付。\n\n以上标的我会作为近期主要观察对象，后续如果市场大跌，也可以优先选择，往往强势币的反弹是最迅猛的。",
+      "createdAt": "Mon Oct 27 00:26:51 +0000 2025",
+      "replyCount": 181,
+      "retweetCount": 210,
+      "likeCount": 1367,
+      "conversationId": "1982604872286609765",
+      "author": {
+        "username": "0xSunNFT",
+        "name": "0xSun"
+      },
+      "authorId": "1146492710582308864"
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G5xLkD8bcAA7sp3.jpg",
+        "width": 1259,
+        "height": 674,
+        "previewUrl": "https://pbs.twimg.com/media/G5xLkD8bcAA7sp3.jpg:small"
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G5xLvWBbkAMzd07.jpg",
+        "width": 1182,
+        "height": 464,
+        "previewUrl": "https://pbs.twimg.com/media/G5xLvWBbkAMzd07.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "1988614560832778674",
+    "text": "@1912212eth 最看好Hype和Lighter",
+    "createdAt": "Wed Nov 12 14:27:12 +0000 2025",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 9,
+    "conversationId": "1988609058048500185",
+    "inReplyToStatusId": "1988612086575112521",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1988609058048500185",
+    "text": "https://t.co/nHTh9LX3IV",
+    "createdAt": "Wed Nov 12 14:05:20 +0000 2025",
+    "replyCount": 76,
+    "retweetCount": 10,
+    "likeCount": 236,
+    "conversationId": "1988609058048500185",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "quotedTweet": {
+      "id": "1982334510504267943",
+      "text": "@ai_9684xtpa 来都来了，打下广告：\n\nHL我是刷交易量排队准备参与 @tradexyz \nhttps://t.co/fZdMALZp9g\n\n现在Perp Dex我一般用Lighter，交易的同时刷刷分，非常丝滑：\nhttps://t.co/KIYt1CexKO https://t.co/H2cwJsNVE3",
+      "createdAt": "Sun Oct 26 06:32:31 +0000 2025",
+      "replyCount": 41,
+      "retweetCount": 12,
+      "likeCount": 152,
+      "conversationId": "1982333192205131999",
+      "inReplyToStatusId": "1982333192205131999",
+      "author": {
+        "username": "0xSunNFT",
+        "name": "0xSun"
+      },
+      "authorId": "1146492710582308864",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/G4Kqhq4X0AAshoM.jpg",
+          "width": 1200,
+          "height": 926,
+          "previewUrl": "https://pbs.twimg.com/media/G4Kqhq4X0AAshoM.jpg:small"
+        }
+      ]
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G5j1WUtaMAAJaAK.jpg",
+        "width": 2048,
+        "height": 2048,
+        "previewUrl": "https://pbs.twimg.com/media/G5j1WUtaMAAJaAK.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "1988477546288361700",
+    "text": "昨天Uniswap的费用开关和回购销毁提案出来以后，Uni从$7.2开始涨，我起床看到消息的时候大概是$8.8，最后分批买入均价在$9，选择追高是因为觉得这个提案确实属于实质性利好，而且Uniswap是Dex的开山鼻祖，基本面够硬，再加上之前有一次类似的提案，让Uni从$7涨到了$16左右，所以我的止盈计划是$12开始分批卖出，结果是摸了3次$10就跌下来了。\n\n最后受这个消息影响，上涨最多的反而是Meteora，因为一对比数据，发现Meteora的Fees可以达到Uniswap的70~80%，但是$Met的市值却只有$Uni的3~4%，虽然Meteora目前暂时没有公布回购销毁等计划，但也可以作为一种潜在的利好预期。\n\n所以现在这个行情，能赚到钱的，要么是出手果断，止盈坚决，不带任何幻想的顶级交易员，要么就是能比大部分聪明人再多想几层的顶级聪明人。\n\n我从10.13清掉多单之后，已经有意识地控制出手次数了，做的少数几笔交易，也都是我认知里很好的机会，例如第一波追GGG，抄底Ping，昨天追Uni等等，但最后基本都是从浮盈到亏损。可能直到现在，10.11闪崩的后果才慢慢显现出来，一大批多头被清算，热钱少了很多，再加上龙王说的，市场上剩下手里还有钱的几乎全是聪明人，难度确实是变大了。",
+    "createdAt": "Wed Nov 12 05:22:45 +0000 2025",
+    "replyCount": 166,
+    "retweetCount": 64,
+    "likeCount": 616,
+    "conversationId": "1988477546288361700",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G5h5ER8bcAIthvx.jpg",
+        "width": 2048,
+        "height": 735,
+        "previewUrl": "https://pbs.twimg.com/media/G5h5ER8bcAIthvx.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "1988454269796900930",
+    "text": "@jup_studio Jup and uranus looks good here",
+    "createdAt": "Wed Nov 12 03:50:16 +0000 2025",
+    "replyCount": 6,
+    "retweetCount": 8,
+    "likeCount": 51,
+    "conversationId": "1988281957755875661",
+    "inReplyToStatusId": "1988281957755875661",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1988242907158245486",
+    "text": "@yourQuantGuy 牛逼，期待下篇技术细节",
+    "createdAt": "Tue Nov 11 13:50:23 +0000 2025",
+    "replyCount": 2,
+    "retweetCount": 0,
+    "likeCount": 30,
+    "conversationId": "1988178533936468077",
+    "inReplyToStatusId": "1988178533936468077",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1988241779716489637",
+    "text": "@AggrNews 🕯️",
+    "createdAt": "Tue Nov 11 13:45:54 +0000 2025",
+    "replyCount": 2,
+    "retweetCount": 0,
+    "likeCount": 6,
+    "conversationId": "1988230562922815872",
+    "inReplyToStatusId": "1988230562922815872",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1988044723727343932",
+    "text": "@cmdefi 专业",
+    "createdAt": "Tue Nov 11 00:42:52 +0000 2025",
+    "replyCount": 3,
+    "retweetCount": 0,
+    "likeCount": 13,
+    "conversationId": "1988029500060561747",
+    "inReplyToStatusId": "1988029500060561747",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1988016621701779900",
+    "text": "xy=k",
+    "createdAt": "Mon Nov 10 22:51:12 +0000 2025",
+    "replyCount": 51,
+    "retweetCount": 8,
+    "likeCount": 125,
+    "conversationId": "1988016621701779900",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "quotedTweet": {
+      "id": "1987990314997739625",
+      "text": "Today, I’m incredibly excited to make my first proposal to Uniswap governance on behalf of @Uniswap alongside @devinawalsh and @nkennethk \n\nThis proposal turns on protocol fees and aligns incentives across the Uniswap ecosystem\n\nUniswap has been my passion and singular focus for the past 8 years. What started as a small side project is now global financial infrastructure powering thousands of applications with ~$1.8 trillion in annual trading\n\nUNI launched in 2020, but for the past 5 years Labs has been unable to meaningfully participate in Uniswap governance, and has been greatly restricted in the ways it can build value for the Uniswap community. That ends today!\n\nThis restriction was in great part due to a hostile regulatory environment that cost thousands of hours and tens of millions in legal fees. Fortunately, the regulatory environment has shifted\n\nThis proposal comes from a strong desire to see the Uniswap protocol win as the global decentralized exchange for tokenized value\n\nAt a high level, the proposal:\n1. Turns on protocol fees and uses them to burn UNI\n\n2. Sends @unichain sequencer fees to the UNI burn\n\n3. Burns 100M UNI from the treasury representing the protocol fees that could have been burned if fees were turned on at token launch\n\n4. Introduces Protocol Fee Discount Auctions, a new way to improve LP outcomes and internalize MEV to the protocol\n\n5. Introduces \"aggregator hooks” which will turns Uniswap v4 into an onchain aggregator that collects protocol fees on external liquidity sources\n\n6. Focus Labs on driving protocol growth and adoption, including a contractual agreement to only pursue initiatives that align with Uniswap governance interests\n\n^ As part of this, Labs will stop collecting fees on its interface, wallet, and API to supercharge distribution and adoption of the Uniswap protocol\n\n7. Moves Foundation employees to Labs with a shared goal of accelerating protocol growth, under a growth fund from the treasury\n\n8. Move governance-owned Unisocks liquidity to v4 on Unichain and burn the LP position\n\nI believe Uniswap protocol can be the primary place tokens are traded. This proposal sets the stage for the next decade of its growth\n\n@Uniswap will ship relentlessly over the coming years and supercharge the ecosystem of developers, LPs, and traders building on top\n\nI'm so grateful to the community that has made this all possible, and excited for what's next\n\n🦄",
+      "createdAt": "Mon Nov 10 21:06:40 +0000 2025",
+      "replyCount": 752,
+      "retweetCount": 765,
+      "likeCount": 4548,
+      "conversationId": "1987990314997739625",
+      "author": {
+        "username": "haydenzadams",
+        "name": "Hayden Adams 🦄"
+      },
+      "authorId": "702654540387127296",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/G5bBb26XoAAzKxL.jpg",
+          "width": 2048,
+          "height": 1536,
+          "previewUrl": "https://pbs.twimg.com/media/G5bBb26XoAAzKxL.jpg:small"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1987334280813723888",
+    "text": "@silverfang88 笑死",
+    "createdAt": "Sun Nov 09 01:39:50 +0000 2025",
+    "replyCount": 28,
+    "retweetCount": 0,
+    "likeCount": 58,
+    "conversationId": "1987140599909392467",
+    "inReplyToStatusId": "1987140599909392467",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1987107291083251781",
+    "text": "CBB这篇文章非常有趣，讲了他如何从2020年开始狙击Uniswap上的新币的故事，他在大学教IT的兄弟负责技术，他则找项目和卖出代币，从小资金开始，最终实现超过50M利润。虽然篇幅比较长，但是行文很流畅，好像一个朋友在分享他的经历，读起来挺舒服。\n\n我对他写的内容非常有共鸣，第一个原因是，他分享的经历截止到2021年夏天，而我也正是在那个时候逐渐接触到区块链和币圈，第二个原因是，刚进圈的我也和他一样，是小资金玩家，通过类似的方式，慢慢积累到了第一桶金。\n\n我最初接触币圈，是2021年读研一的时候，不知道从哪里听说了“HTMoon”，就摸索着下载了钱包，买了1000RMB的HTMoon和500RMB的猪猪币Pig，没几天就涨到了两三万R，当时一度觉得自己是交易天才，还准备长拿三四年。\n\n之后一段时间，就和无头苍蝇一样，在各个网站看币圈讯息，什么币喊的人多就去买一些，完全没有自己的逻辑，结果自然是折腾来折腾去钱越亏越少。\n\n非常幸运的是，因为我最开始就是用钱包从DEX买土狗币，所以对于币圈的认识不仅仅局限在交易所内的山寨，也花了比较多的时间去研究BSC链上的土狗。一次偶然的机会，在某个币的TG群认识了弘哥，发现他经常知道什么币热度高，于是就加了他，学到了很多东西，例如怎么找早期项目，怎么大概判断项目质量。\n\n也是从那时候开始，我意识到想要赚钱，必须要有自己的优势，可以是技术，可以是认知，也可以是信息。否则在一片混沌的市场中，盲目买卖和赌博没有本质区别。\n\n和现在相比，当时的环境堪称傻瓜模式，你只需要多付出一点点努力，就能超过很多人。那时候很多BSC上的土狗币预售，只要打进去开盘就能赚5~10倍，甚至出现过Babydoge，Minidoge这种千倍万倍的超级金狗。而想顺利抢到开盘，压根不需要脚本，只要用小狐狸提早2~3秒发送16进制数据就可以了。\n\n这并不是因为那时候的玩家比现在笨，而是市场整体不够成熟，尤其是链上，属于极早期，处处是风险，也处处是机遇。我记得我最早听说过的Bot是“买土狗”和“hong”，那批用户后来很多都成为了狙击大神，经常霸榜新币的前排。\n\n那段时间，也正好是NFT的飞速上涨期，我购买的第一个NFT是Lazy Lions，按现在的定义算是BAYC的仿盘，因为觉得BAYC太贵了，所以选了画风相似又比较帅的狮子。我最开始购买的时候，还因为直接在Opensea输入名字，买到了假的系列，万幸又重新去买了真的，不到一个月的时间，地板价翻了10倍。\n\n就这样，靠着NFT和BSC上的土狗，从6月到10月，我用进圈时的几万块，赚到了人生的第一个一百万。而牛熊转变，也正在悄然酝酿，当时的我并不会知道，BTC再次触及$69000，已经是近三年后的事情了。\n\n11月开始，市场直转急下，BSC上的土狗也每况愈下，预售亏钱破发频频出现，我意识到不能再将此作为主要的参与方向。因为正好有交易NFT的经验，一番考虑后，我加入了猫群，并且把重心转移到了NFT。也正是在猫群，我认识了紫菜和民总，后来他们成为了我在币圈合作最多的人。\n\n此后几个月，NFT最流行的都是肝白模式，需要在Discord里聊天、创作、完成各种任务，或是抽奖拼运气，才能拿到白名单，这种模式更利于擅长组织管理的工作室，我并没有什么优势，只是自己搞了20个DC账号，尽量增加拿到白单的概率。但当时的NFT市场非常Fomo，一个白单能带来的利润通常就高达几个ETH，换算成RMB是大几万，对于当时的我而言，已经是非常不错的收入。我也购买了自己的第一个蓝筹NFT：Doodles，并且在肚兜群认识了非常多币圈好友，直到现在，还有近1/3群友来自当时的肚兜群。\n\n肝白模式的弊病显而易见，大部分白单最后往往流入工作室和老鼠仓手中，属于纯粹的抛压，而市面上的NFT项目越来越多，二级买量被分散，再加上项目方定价越来越高，此消彼长之下，利润空间就越来越小。其实不难发现，每个赛道红利的衰减，基本都符合相同的规律，工具越来越普及，后信的人慢慢成了先信的人，财富效应也就逐渐减小了。\n\n转机出现在2022年春节后，越来越多高质量NFT项目选择了直接Mint的方式发售，而当时的我经过大半年的摸爬滚打，收集信息和分析项目的能力都大有进步，通过各种工具软件和消息渠道，我经常能发掘出早期项目，并正确判断是否存在利润空间。相对二级交易，这种参与链上一级市场的思维，在当时算是比较领先的，也因此，我的推特和交流群都逐渐有了名气。\n\n将投资/投机拆解开，核心就三步，获取信息、做出判断、正确执行。当时我的前两步已经做的不错，为了进一步扩大优势，我开始研究如何在执行层面优化，这也正是CBB的长文让我最感同身受的地方。从最初摸索着在Etherscan上通过合约Mint，阅读智能合约代码了解相关信息，到学习使用Mintech、MetaSniper、Thunder等Bot，再到尝试各种节点和服务器实现零区块Mint，背后是许许多多足不出户的日子。\n\n我最出名的NFT战绩应该是Doge Club，成功判断了项目方的公售逻辑，抢到了2000个，最后获利100多ETH。虽然这几十万U的利润现在看来不算太惊人，但是放在图狗时期已经非常夸张了。这也是回想起来我觉得很幸运的一点，参与NFT一级市场，虽然单个项目利润往往不会太高，但是亏损也非常有限，盈亏比十足，很适合小资金逐步积累。\n\n另外不得不提的是，Abot也始于NFT时期，用户基础从几个群的群友开始，逐渐称霸中文区。到后来，无论是铭文还是Meme币交易，Abot都表现卓越，甚至直到现在，大部分交易Bot都沿用了Abot监控、看板、交易一体化的设计。A神选择激流勇退，对用户是遗憾，对他自身则是圆满收尾了。\n\n2022年5月，猴地发售结束后，我出售了大多数Mint到的土地，并用部分利润以160E的价格买了一只BAYC，当时的地板价，相比起我刚进入币圈第一次看到这些猴子图片的时候，已经上涨了130倍。彼时彼刻的NFT，是真正的人声鼎沸，各界名流纷纷入场，甚至上市公司都购置无聊猿以显潮流，人们满怀对元宇宙的憧憬，讨论着自己能不能在仅有一万块的猴地核心区分得一席之地。只有极少数人能意识到，这场华丽演出恰好标志着一场宏大叙事由盛转衰，一年后链上的重心将彻底从NFT转移到Meme币，而新世界的大门，已经悄然向我打开。",
+    "createdAt": "Sat Nov 08 10:37:51 +0000 2025",
+    "replyCount": 195,
+    "retweetCount": 305,
+    "likeCount": 1613,
+    "conversationId": "1987107291083251781",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "quotedTweet": {
+      "id": "1985511389029679424",
+      "text": "How We Made +$50M Sniping Shitcoins On DEXs",
+      "createdAt": "Tue Nov 04 00:56:18 +0000 2025",
+      "replyCount": 824,
+      "retweetCount": 907,
+      "likeCount": 7036,
+      "conversationId": "1985511389029679424",
+      "author": {
+        "username": "Cbb0fe",
+        "name": "CBB"
+      },
+      "authorId": "1703332734603591680",
+      "article": {
+        "title": "How We Made +$50M Sniping Shitcoins On DEXs",
+        "previewText": "August 2020.\nMy brother is teaching IT at the university. I’ve just finished a 1.5-year contract as a product manager in an insurance company.\n \nCrypto has been terrible for years and is slowly"
+      }
+    }
+  },
+  {
+    "id": "1986608637360660724",
+    "text": "@hourglasshq Why choose such a clown team as the deposit partner @stable",
+    "createdAt": "Fri Nov 07 01:36:23 +0000 2025",
+    "replyCount": 30,
+    "retweetCount": 2,
+    "likeCount": 160,
+    "conversationId": "1986605842368811073",
+    "inReplyToStatusId": "1986605842368811073",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1986264142232388051",
+    "text": "@lawrenceBTC00 没追，睡醒看到消息已经快涨回100，心态受影响了，如果是第一时间醒着可能会重新建仓",
+    "createdAt": "Thu Nov 06 02:47:29 +0000 2025",
+    "replyCount": 2,
+    "retweetCount": 0,
+    "likeCount": 5,
+    "conversationId": "1986172225599545496",
+    "inReplyToStatusId": "1986172471113072890",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1986172225599545496",
+    "text": "伟大的操盘，我被操了",
+    "createdAt": "Wed Nov 05 20:42:14 +0000 2025",
+    "replyCount": 67,
+    "retweetCount": 20,
+    "likeCount": 301,
+    "conversationId": "1986172225599545496",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "quotedTweet": {
+      "id": "1986084580072501524",
+      "text": "这次学到了，不要信内幕，不要靠幻想，一个币在一级市场的短期高度由叙事决定，到了二级市场靠的是筹码分布，主力手上没筹码，一切都是散户的幻想。\n\ngiggle 我也是上线后暴力洗盘的受害者，但现在我佩服，能割我的都是牛逼的庄。如果能回前高，就是伟大的操盘，服气！",
+      "createdAt": "Wed Nov 05 14:53:58 +0000 2025",
+      "replyCount": 65,
+      "retweetCount": 64,
+      "likeCount": 436,
+      "conversationId": "1986084580072501524",
+      "author": {
+        "username": "Btc_Dou",
+        "name": "Dou"
+      },
+      "authorId": "1962376920219389952"
+    }
+  },
+  {
+    "id": "1985887399126450683",
+    "text": "@J_c_Magee Wow it’s a long journey since then. Appreciate for your kind words!",
+    "createdAt": "Wed Nov 05 01:50:26 +0000 2025",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 4,
+    "conversationId": "1985876255594725828",
+    "inReplyToStatusId": "1985885919233425762",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1985877936185229824",
+    "text": "@abyssofgambling 好的知道了",
+    "createdAt": "Wed Nov 05 01:12:50 +0000 2025",
+    "replyCount": 2,
+    "retweetCount": 0,
+    "likeCount": 20,
+    "conversationId": "1985876255594725828",
+    "inReplyToStatusId": "1985877787379712157",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1985876255594725828",
+    "text": "很久没有一笔交易让我这么郁闷了，昨天我是看到币安支持手续费捐款的新闻，90开始追，其实预期也比较简单，这种事CZ肯定会发推，所以下跌的过程中，我还在加仓，最后82均价买了4万多个。\n\n不久后CZ也确实发推了，但是说的很模棱两可，价格不涨反跌，这让我非常确信市场的流动性和情绪大不如前。但是按我的交易风格，一般不会轻易割肉，所以我没有马上卖出。\n\n最后选择止损的原因，是60反弹到75那波，没有站稳又开始小步子阴跌，走得实在太弱了，大盘也岌岌可危的样子，一番考虑之后均价60平仓。\n\n就是这么阴差阳错，第二天等我睡醒，发现币安又发了一条关于燃烧的新闻，CZ和一姐连续发推，币价一口气从50反弹到了120。其实可能只是一条推文的内容差别，让这笔交易的结果里外里差了2M，说不郁闷是假的。\n\n类似这种新闻交易的场景是我非常擅长的，也给我带来过很多盈利，再来一百遍我还是会做同样的事。而且在我60止损后，一路阴跌最低到了47，所以说我做了多么错误的操作吧，好像也没有。我也不会觉得这笔亏损是他人或者市场的问题，只是这次运气没有站在我这边。\n\n上半年我基本在休息旅游，近三个月觉得行情好转后回归全力干，经常连续一周不出门，每天只睡五六个小时。这波10.13把多单清掉后，虽然后续抄底BTC和这笔交易吃到一些回撤，但整体结果依然足够满意了。\n\n现在市场各种妖币横行，难度明显加大，也该回到休息为主，多看少动的状态了。短期除了慢慢分批抄一些BTC、Hype这种长期仓位，尽量不做风险敞口较高的操作了，多参与Stable、Arc、Tempo这种级别的理财项目，保住本金，不输为赢。",
+    "createdAt": "Wed Nov 05 01:06:09 +0000 2025",
+    "replyCount": 141,
+    "retweetCount": 42,
+    "likeCount": 586,
+    "conversationId": "1985876255594725828",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "quotedTweet": {
+      "id": "1985304190894166410",
+      "text": "盈亏同源，上波靠新闻交易的逻辑250跑了，忍了很久到今天没忍住，冲进去被干了，市场永远是对的，上波赚的这波还回去，也怪不了别人。\n\n至于BSC，经过TST和白布，大家都以为总攒够经验了，结果节奏掌控得还是稀烂，虽然有10.11以后市场流动性和情绪深受打击的因素，但拿手续费做慈善这种利好，CZ能一条模棱两可的推文把所有币价格打下来30-40%，长此以往谁还信呢。\n\n想靠卡脖子不上其他链的币，让玩家聚集到自家来，那假如现货搭配各种利好最后也就几十M的下场，是不是又会倒逼玩家去钻研其他链的项目，毕竟SOL和Base上各个赛道的项目可比现在的BSC有趣多了。",
+      "createdAt": "Mon Nov 03 11:12:58 +0000 2025",
+      "replyCount": 287,
+      "retweetCount": 73,
+      "likeCount": 877,
+      "conversationId": "1985304190894166410",
+      "author": {
+        "username": "0xSunNFT",
+        "name": "0xSun"
+      },
+      "authorId": "1146492710582308864",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/G403ovgaMAATJGz.jpg",
+          "width": 981,
+          "height": 394,
+          "previewUrl": "https://pbs.twimg.com/media/G403ovgaMAATJGz.jpg:small"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1985304190894166410",
+    "text": "盈亏同源，上波靠新闻交易的逻辑250跑了，忍了很久到今天没忍住，冲进去被干了，市场永远是对的，上波赚的这波还回去，也怪不了别人。\n\n至于BSC，经过TST和白布，大家都以为总攒够经验了，结果节奏掌控得还是稀烂，虽然有10.11以后市场流动性和情绪深受打击的因素，但拿手续费做慈善这种利好，CZ能一条模棱两可的推文把所有币价格打下来30-40%，长此以往谁还信呢。\n\n想靠卡脖子不上其他链的币，让玩家聚集到自家来，那假如现货搭配各种利好最后也就几十M的下场，是不是又会倒逼玩家去钻研其他链的项目，毕竟SOL和Base上各个赛道的项目可比现在的BSC有趣多了。",
+    "createdAt": "Mon Nov 03 11:12:58 +0000 2025",
+    "replyCount": 287,
+    "retweetCount": 73,
+    "likeCount": 877,
+    "conversationId": "1985304190894166410",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "quotedTweet": {
+      "id": "1981953203437793740",
+      "text": "这波BNB链Meme三驾马车里，$币安人生是第一波大回调到60M的时候买入的，$4是一路浮亏从220M抄到70M拉低均价然后吃到反弹，$Giggle是今天现货上市新闻出来后疯狂市价买入，三个币，没有一个是低位上车的，却用三种不同的交易方式，都算拿到了不错的结果。\n\n我想这也是近半年来，我个人交易进步最大的地方，以前错过这种大金狗，尤其是看到别人已经倍数很高、利润很大的时候，更多是懊恼遗憾，复盘错过的原因，而现在会用更平和冷静的心态，去分析这个标的潜在的机会，不关心他人的成本和盈利，只在乎买入后是否还有上涨空间。",
+      "createdAt": "Sat Oct 25 05:17:21 +0000 2025",
+      "replyCount": 204,
+      "retweetCount": 86,
+      "likeCount": 1038,
+      "conversationId": "1981953203437793740",
+      "author": {
+        "username": "0xSunNFT",
+        "name": "0xSun"
+      },
+      "authorId": "1146492710582308864",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/G4FNQnhWgAAooyE.jpg",
+          "width": 1202,
+          "height": 633,
+          "previewUrl": "https://pbs.twimg.com/media/G4FNQnhWgAAooyE.jpg:small"
+        }
+      ]
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G403ovgaMAATJGz.jpg",
+        "width": 981,
+        "height": 394,
+        "previewUrl": "https://pbs.twimg.com/media/G403ovgaMAATJGz.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "1985284261201776852",
+    "text": "@cz_binance @GiggleAcademy @binance 神人👍",
+    "createdAt": "Mon Nov 03 09:53:47 +0000 2025",
+    "replyCount": 67,
+    "retweetCount": 4,
+    "likeCount": 346,
+    "conversationId": "1985282462776275321",
+    "inReplyToStatusId": "1985282462776275321",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1985173400432652713",
+    "text": "如果 $pizza 他做不起来，他unisat也别想做了\n如果 $714他做不起来，他bsc也别想做了\n如果$草蛙 他做不起来，他bonk也别想做了\n如果$okay他做不起来，他飞轮也别想做了\n如果$mdog 他做不起来，他morph也别想做了\n如果 $xdog 他做不起来，他xlayer也别想做了\n如果$bnbholder他做不起来，他bn wallet也别想做了\n如果$loopy他做起不来，他韩国所也别想做了\n如果$giggle他做不起来，他币安现货也别想做了\n如果$aster他做不起来，他币安也别想做了",
+    "createdAt": "Mon Nov 03 02:33:16 +0000 2025",
+    "replyCount": 46,
+    "retweetCount": 25,
+    "likeCount": 201,
+    "conversationId": "1985172256784547976",
+    "inReplyToStatusId": "1985172726215279090",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1985172256784547976",
+    "text": "2025年区块链最大骗局：如果A做不起来，B也别想做了。\n\n结果要么B真就没想做，要么B做得好好的，和A怎么样一点关系没有，最后受伤的都是信了这句话被A套牢的。",
+    "createdAt": "Mon Nov 03 02:28:43 +0000 2025",
+    "replyCount": 143,
+    "retweetCount": 51,
+    "likeCount": 556,
+    "conversationId": "1985172256784547976",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1984489816063709334",
+    "text": "@sky_gpt Tao是几个强势币里，目前被讨论相对较少的",
+    "createdAt": "Sat Nov 01 05:16:56 +0000 2025",
+    "replyCount": 4,
+    "retweetCount": 1,
+    "likeCount": 12,
+    "conversationId": "1984472181548728547",
+    "inReplyToStatusId": "1984474601007825044",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1984472181548728547",
+    "text": "今天大盘稍微稳住，涨幅榜基本就是上次提到的这些强势币霸榜，Virtual和Tao算是AI+Robotics板块，其他三个是隐私币板块，上次也说过，有明确强势币的时候，抄底优先选择它们，往往会比去埋伏没怎么涨过的币更好。\n\n另外感觉大盘的走势也不像情绪反映的那么悲观，几次下跌都没有跌破10.11的低点，我也选择接回了一些大饼，如果跌破103000就止损。",
+    "createdAt": "Sat Nov 01 04:06:52 +0000 2025",
+    "replyCount": 118,
+    "retweetCount": 47,
+    "likeCount": 477,
+    "conversationId": "1984472181548728547",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "quotedTweet": {
+      "id": "1982604872286609765",
+      "text": "看了下，这两天强势的山寨大概是以下几个板块：\n\n1、隐私币，龙头Zec，监管放宽，纳瓦尔领衔喊单，金融主权、去中心化等话题延伸。相关的有之前介绍过的隐私+ZK赛道次新币Prove，老牌隐私币XMR，Dash，Zen等等。\n\n2、Hyperliquid，HIP3的推出，真正的链上金融市场，无需赘述。相关的可以看看Perp Dex赛道和HIP3相关的标的，但是我感觉Hype已经不仅仅是一个Perp Dex了。\n\n3、X402，其实是已经被市场讨论了挺长一段时间，但是相关标的一直不温不火，直到Ping以Meme的形式出圈才彻底引燃。X402是用于AI智能体之间的支付协议，所以也带动了一批相关的山寨上涨，例如Virtual，Clanker等等。另外Eigen其实也很早就和谷歌合作推出了AP2，其中就包括了用X402实现加密支付。\n\n以上标的我会作为近期主要观察对象，后续如果市场大跌，也可以优先选择，往往强势币的反弹是最迅猛的。",
+      "createdAt": "Mon Oct 27 00:26:51 +0000 2025",
+      "replyCount": 181,
+      "retweetCount": 210,
+      "likeCount": 1367,
+      "conversationId": "1982604872286609765",
+      "author": {
+        "username": "0xSunNFT",
+        "name": "0xSun"
+      },
+      "authorId": "1146492710582308864"
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G4o_U7VaIAANpP2.jpg",
+        "width": 1206,
+        "height": 1205,
+        "previewUrl": "https://pbs.twimg.com/media/G4o_U7VaIAANpP2.jpg:small"
+      }
+    ]
+  }
+]

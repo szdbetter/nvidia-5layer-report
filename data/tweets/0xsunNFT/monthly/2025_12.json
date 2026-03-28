@@ -1,0 +1,516 @@
+[
+  {
+    "id": "2005598246849409344",
+    "text": "@bynlalala payai、dreams这些标的我一直在关注，x402这个“让AI自主支付”的概念还是很不错的，但是我感觉目前还是缺少一个能让市场合力并且具有持续性的标，给人感觉就是一阵阵的，结果一郎比一浪低了",
+    "createdAt": "Mon Dec 29 11:14:18 +0000 2025",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 16,
+    "conversationId": "2005587945240027233",
+    "inReplyToStatusId": "2005589295592341558",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "2005587945240027233",
+    "text": "最近行情一潭死水，推特上依然还有较高讨论度的主要是Perp Dex、预测市场、X402这几个赛道。\n\n先聊一下Perp Dex，我认为Hyperliquid的成功已经证明了链上合约是有真实用户需求的。类比CEX，虽然币安具备较强的领先优势，但也没有到独占市场的程度，所以Perp Dex这个赛道肯定也不止能容纳下一家HL。\n\n在目前一众产品里，我最看好的还是Lighter @Lighter_xyz  。虽然近期因为女巫、空投规则和TGE时间仍不清晰等原因，出现了一些FUD，但是从产品力、团队能力、融资背景等角度，Lighter依然是我心目中最有机会坐稳龙二，并和HL形成一定竞争的项目，零手续费、外汇和大宗商品交易的流动性等等优势是实打实存在的。\n\n由于Lighter的各项发币细则都还没有公布，没有办法对开盘情况做出太具体的判断，考虑到当下市场的整体情绪一般，如果空投数量比较大方，我认为最可能的走势是先由空投抛压带来一波下跌，随后逐渐筑底并反弹。\n\n再来说一下预测市场，毫无疑问是最出圈的Crypto应用，甚至已经一定程度脱离了币圈，只是结合了区块链技术。任何存在不确定性的事件，理论上都能供用户下注。\n\n当然，预测市场目前也有一些被人诟病的地方，例如某些主题涉及政治敏感、关于战争伤亡的下注是否有悖于道德等等，也有一些事件由于判定规则不清晰而导致结果引起争议。另外，一个比较普遍的担忧是，当利益足够大时，就有了通过内部操纵从而改变结果的动机，这就导致预测市场反过来对事件的走向产生了影响。\n\n但无可争议的是，预测市场就是目前最众望所归的下一个大叙事，所以尽早去了解相关概念，并在力所能及的前提下进行一些交互，还是很有必要的。关于预测市场的具体交互方法，推特上已经有很多分享，我就不再赘述，因为预测市场的点差、判定等问题，交互不像Perp DEX刷交易那么容易，在实际上手前一定要先理解清楚相关概念。\n\n几个规模比较大的项目，Polymarket还未确定发币时间，很多人认为会在2026年世界杯前后，而Kalshi还不确定是否发币，OPINION @opinionlabsxyz 则是目前BNB链上发展最好的，今天刚看到新闻，交易量已经突破了100 亿。这三者的数据断层领先其他项目，加上币安一贯会给BNB生态项目一定支持，因此从交互角度来说，Polymarket和Opinion是最适合大部分人的选择。",
+    "createdAt": "Mon Dec 29 10:33:22 +0000 2025",
+    "replyCount": 189,
+    "retweetCount": 69,
+    "likeCount": 635,
+    "conversationId": "2005587945240027233",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "2001944698139844754",
+    "text": "@simo0n321 目前费用大概每天1-2u，问题不大",
+    "createdAt": "Fri Dec 19 09:16:25 +0000 2025",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 1,
+    "conversationId": "2001642353694781635",
+    "inReplyToStatusId": "2001664536638820515",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "2001944676115656724",
+    "text": "@simo0n321 目前api费用大概每天1-2u，问题不大",
+    "createdAt": "Fri Dec 19 09:16:19 +0000 2025",
+    "replyCount": 0,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2001642353694781635",
+    "inReplyToStatusId": "2001664536638820515",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "2001942344976027794",
+    "text": "@0xshunshun 好的，我考虑一下，之前尝试过让AI加入重要度评级，但是我怕这样会带来一个心理预设，可能某些评级低的新闻才藏着真正有价值的信息，容易下意识忽略掉。\n\n目前这个脚本最主要的还是整合信息，方便查看，至于判断消息的重要性和价值还是靠自己。",
+    "createdAt": "Fri Dec 19 09:07:03 +0000 2025",
+    "replyCount": 3,
+    "retweetCount": 0,
+    "likeCount": 5,
+    "conversationId": "2001642353694781635",
+    "inReplyToStatusId": "2001702212502966668",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "2001940947031277953",
+    "text": "@linwanwan823 Gemini3有测试过，整理出来的重点差不多，内容更精炼一些",
+    "createdAt": "Fri Dec 19 09:01:30 +0000 2025",
+    "replyCount": 3,
+    "retweetCount": 0,
+    "likeCount": 3,
+    "conversationId": "2001642353694781635",
+    "inReplyToStatusId": "2001648351146893765",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "2001940236541259802",
+    "text": "Holder和Trader的平衡点很难找，也算是某种程度上的盈亏同源，假如没有信仰很可能拿不到上币安，但是信仰太足了又很难在合适的位置卖出。\n\n做建设，最尴尬的就是容易把自己架住，出钱又出力，结果往往是你做的事情越多，反而卖出的时候越容易有压力，这明显是不合理的。很多人就是又要马儿跑，又不让马吃草的心态，学会过滤这些人的干扰，靠自己的理性做判断会更好，不要被道德绑架。\n\n有绝望的感觉，主要是因为市场走熊了，机会少了，不需要过分焦虑的，相信自己的能力还在，等流动性好了很快就可以把损失的都拿回来，杀不死你的只会让你更强大。",
+    "createdAt": "Fri Dec 19 08:58:41 +0000 2025",
+    "replyCount": 6,
+    "retweetCount": 5,
+    "likeCount": 97,
+    "conversationId": "2001730619131428966",
+    "inReplyToStatusId": "2001730619131428966",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "2001863573426094193",
+    "text": "@MAGICT_TAN 好建议，一会修改下",
+    "createdAt": "Fri Dec 19 03:54:03 +0000 2025",
+    "replyCount": 3,
+    "retweetCount": 0,
+    "likeCount": 0,
+    "conversationId": "2001642353694781635",
+    "inReplyToStatusId": "2001810141545689454",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "2001858724319895950",
+    "text": "@XaphetS A股和美股好像在Telegram的优质消息源相对不多，雪球、富途牛牛、Youtube这些平台更多一些？",
+    "createdAt": "Fri Dec 19 03:34:47 +0000 2025",
+    "replyCount": 4,
+    "retweetCount": 0,
+    "likeCount": 6,
+    "conversationId": "2001642353694781635",
+    "inReplyToStatusId": "2001699047279825285",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "2001643838746825122",
+    "text": "@Cedar_sol1 是根据所有频道过去8小时的内容进行总结的，只要这期间推送的新闻基本在总结里都能看到。",
+    "createdAt": "Thu Dec 18 13:20:54 +0000 2025",
+    "replyCount": 5,
+    "retweetCount": 0,
+    "likeCount": 6,
+    "conversationId": "2001642353694781635",
+    "inReplyToStatusId": "2001642751990075728",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "2001642353694781635",
+    "text": "受巫师的启发，正好也有这个需求，就Vibe Coding了一个汇总币圈新闻的脚本，每8个小时，根据我常看的30多个TG频道，将内容总结后发出来，一般会包括重要新闻、市场分析、项目动态和其他四个板块，开放给大家阅读：\n\nhttps://t.co/qwlFNtYsqN\n\n牛市盯着电脑手机的时间多，睡醒第一件事也是爬楼群消息，所以不太怕错过资讯，现在熊市的味道越来越重，推特和群聊的活跃度都下降了，但是又希望能了解市场动向和热点，自己测试了几天，每天3次，每次阅读10分钟，基本够用了，比起每天挨个翻看所有频道要省事很多。\n\n频道大部分选自中文圈和英文圈比较权威的币圈媒体，也包含了少数韩文频道以及交易员的个人频道。\n\n几种最新的AI模型都进行了测试，对比下来，对于重点的选择基本一致，区别是详细内容的简略之分，最后选用了相对详尽的GPT-5.2，我习惯先看加粗的新闻标题，感兴趣就阅读完整内容，末尾也附上了出处链接。\n\n如果有什么建议和想法，可以在评论区留言，我会参考并进行更新。",
+    "createdAt": "Thu Dec 18 13:15:00 +0000 2025",
+    "replyCount": 306,
+    "retweetCount": 155,
+    "likeCount": 1159,
+    "conversationId": "2001642353694781635",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G8dC4Gma8AEseOo.png",
+        "width": 862,
+        "height": 1020,
+        "previewUrl": "https://pbs.twimg.com/media/G8dC4Gma8AEseOo.png:small"
+      }
+    ]
+  },
+  {
+    "id": "2000266701968158871",
+    "text": "@liangfenxiaodao 加油小刀哥，不破不立",
+    "createdAt": "Sun Dec 14 18:08:39 +0000 2025",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 5,
+    "conversationId": "2000151490972021231",
+    "inReplyToStatusId": "2000151490972021231",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1998700154493317219",
+    "text": "昨晚到现在$WET又拉了个翻倍，并且顺利登录了币安合约，公售0.069的成本，开盘就是盈利的，并且一路也没有太大的回调，是最近少有的持仓体验很好的项目了。\n\n@JupiterExchange 这次的DTF打新，首个项目还是非常成功的，虽然一开始Tokenomics受到了一些质疑，但胜在FDV较低，让利给了用户，并且代币流通全透明，只要后续能保证项目质量，再进一步提升防Bot机制和公售体验，又会是一个非常值得持续关注的ICO平台了。",
+    "createdAt": "Wed Dec 10 10:23:45 +0000 2025",
+    "replyCount": 133,
+    "retweetCount": 13,
+    "likeCount": 254,
+    "conversationId": "1998700154493317219",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "quotedTweet": {
+      "id": "1998399693072871787",
+      "text": "之前提到的 @humidifi 开盘了，公售过程有些曲折，第一次被科学家包场之后选择了重启，第二次还是有挺多真人打进去了，虽然单号额度不大，不过目前这个市场状况，开盘能有翻倍多的收益，也上了Coinbase和OKX，算挺不错了，现在的行情明显赚钱难度越来越大了，守住本金，耐心等待好机会。 https://t.co/QdXuARKNUt",
+      "createdAt": "Tue Dec 09 14:29:49 +0000 2025",
+      "replyCount": 86,
+      "retweetCount": 6,
+      "likeCount": 195,
+      "conversationId": "1998399693072871787",
+      "author": {
+        "username": "0xSunNFT",
+        "name": "0xSun"
+      },
+      "authorId": "1146492710582308864",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/G7u94vMbMAAPp4K.jpg",
+          "width": 2048,
+          "height": 966,
+          "previewUrl": "https://pbs.twimg.com/media/G7u94vMbMAAPp4K.jpg:small"
+        }
+      ]
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G7zNSrEbwAApdne.jpg",
+        "width": 2048,
+        "height": 1202,
+        "previewUrl": "https://pbs.twimg.com/media/G7zNSrEbwAApdne.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "1998399693072871787",
+    "text": "之前提到的 @humidifi 开盘了，公售过程有些曲折，第一次被科学家包场之后选择了重启，第二次还是有挺多真人打进去了，虽然单号额度不大，不过目前这个市场状况，开盘能有翻倍多的收益，也上了Coinbase和OKX，算挺不错了，现在的行情明显赚钱难度越来越大了，守住本金，耐心等待好机会。 https://t.co/QdXuARKNUt",
+    "createdAt": "Tue Dec 09 14:29:49 +0000 2025",
+    "replyCount": 86,
+    "retweetCount": 6,
+    "likeCount": 195,
+    "conversationId": "1998399693072871787",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "quotedTweet": {
+      "id": "1996036886356431091",
+      "text": "Jup DTF的第一个项目 @humidifi ，目前Sol上最大的Prop AMM。DTF主要强调的就是，所有代币供应全部在链上标记，这样用户就可以清楚看见代币去向。\n\n1号公布了Tokenomics之后有挺多FUD的，因为只有10%的代币给ICO，剩下的都分配给了Foundation+Ecosystem+Labs，不过后续宣布了打新FDV是69M，对应15.9M的流通市值（10% ICO，8% Foundation， 5% Ecosystem），再加上Coinbase上币新闻，性价比又出来了。\n\nICO分为3个阶段，从12.3号晚上10点开始，每个阶段持续12小时，都是FCFS的，第一个阶段是白名单，第二阶段是Jup质押者，最后一个阶段是公售，公售总共卖2%的币，单号限额1000 USDC，在官方网页可以看到更多细节：\nhttps://t.co/LlpwBpG1AR",
+      "createdAt": "Wed Dec 03 02:00:52 +0000 2025",
+      "replyCount": 144,
+      "retweetCount": 35,
+      "likeCount": 331,
+      "conversationId": "1996036886356431091",
+      "author": {
+        "username": "0xSunNFT",
+        "name": "0xSun"
+      },
+      "authorId": "1146492710582308864",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/G7NSSIlaQAAEvoa.jpg",
+          "width": 1096,
+          "height": 752,
+          "previewUrl": "https://pbs.twimg.com/media/G7NSSIlaQAAEvoa.jpg:small"
+        }
+      ]
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G7u94vMbMAAPp4K.jpg",
+        "width": 2048,
+        "height": 966,
+        "previewUrl": "https://pbs.twimg.com/media/G7u94vMbMAAPp4K.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "1998042596514685301",
+    "text": "@weremeow Welcome back, cat is cooking!",
+    "createdAt": "Mon Dec 08 14:50:51 +0000 2025",
+    "replyCount": 7,
+    "retweetCount": 1,
+    "likeCount": 12,
+    "conversationId": "1997996543870415305",
+    "inReplyToStatusId": "1997996543870415305",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1998039925804159449",
+    "text": "@0xhonor USDT跨到stable链上就是gUSDT，可以用Stargate跨，这篇文章里有链接：\nhttps://t.co/OeokYN7R62",
+    "createdAt": "Mon Dec 08 14:40:14 +0000 2025",
+    "replyCount": 2,
+    "retweetCount": 0,
+    "likeCount": 6,
+    "conversationId": "1998022650556535049",
+    "inReplyToStatusId": "1998037196876775821",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1998022650556535049",
+    "text": "这stable从头折磨到尾，第一轮好不容易打进去本来高兴坏了，知道不可能复刻XPL，期望能有个20~30%的收益就心满意足了，当时能直接砸池子拿10~12%也没跑，结果到头来勉勉强强就4%的收益，汗-_-|| https://t.co/rkru69rpMj",
+    "createdAt": "Mon Dec 08 13:31:36 +0000 2025",
+    "replyCount": 122,
+    "retweetCount": 4,
+    "likeCount": 246,
+    "conversationId": "1998022650556535049",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G7pm97tbwAAgerL.jpg",
+        "width": 1218,
+        "height": 438,
+        "previewUrl": "https://pbs.twimg.com/media/G7pm97tbwAAgerL.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "1997672006989340927",
+    "text": "@surpr164 哈哈，当时是算法实习生，做推荐相关的，那时候已经接触到币圈了，每天午休和下班之后就研究NFT、链游还有BSC上的土狗。这段实习经历也一定程度上坚定了我全职币圈的想法，因为同组的同事们都太厉害了，基本浙大起步，全是聪明人，我就觉得自己如果走算法工程师这条路的话，上限不会太高。",
+    "createdAt": "Sun Dec 07 14:18:16 +0000 2025",
+    "replyCount": 19,
+    "retweetCount": 0,
+    "likeCount": 331,
+    "conversationId": "1997658263542731165",
+    "inReplyToStatusId": "1997658263542731165",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1997107533904073027",
+    "text": "@ai_9684xtpa 真正值得关注的币圈女博主 @0xPickleCati",
+    "createdAt": "Sat Dec 06 00:55:15 +0000 2025",
+    "replyCount": 18,
+    "retweetCount": 3,
+    "likeCount": 84,
+    "conversationId": "1996941357789700511",
+    "inReplyToStatusId": "1996941357789700511",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1996038910028534084",
+    "text": "@phill76815 @humidifi 确实，估计找了个啥也不懂的agency分发广子",
+    "createdAt": "Wed Dec 03 02:08:55 +0000 2025",
+    "replyCount": 2,
+    "retweetCount": 0,
+    "likeCount": 5,
+    "conversationId": "1996036886356431091",
+    "inReplyToStatusId": "1996037378524455371",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1996038841262899322",
+    "text": "@jiroucaigou @humidifi 这种币应该链上就会有池子的",
+    "createdAt": "Wed Dec 03 02:08:39 +0000 2025",
+    "replyCount": 1,
+    "retweetCount": 0,
+    "likeCount": 2,
+    "conversationId": "1996036886356431091",
+    "inReplyToStatusId": "1996037212019052849",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1996036886356431091",
+    "text": "Jup DTF的第一个项目 @humidifi ，目前Sol上最大的Prop AMM。DTF主要强调的就是，所有代币供应全部在链上标记，这样用户就可以清楚看见代币去向。\n\n1号公布了Tokenomics之后有挺多FUD的，因为只有10%的代币给ICO，剩下的都分配给了Foundation+Ecosystem+Labs，不过后续宣布了打新FDV是69M，对应15.9M的流通市值（10% ICO，8% Foundation， 5% Ecosystem），再加上Coinbase上币新闻，性价比又出来了。\n\nICO分为3个阶段，从12.3号晚上10点开始，每个阶段持续12小时，都是FCFS的，第一个阶段是白名单，第二阶段是Jup质押者，最后一个阶段是公售，公售总共卖2%的币，单号限额1000 USDC，在官方网页可以看到更多细节：\nhttps://t.co/LlpwBpG1AR",
+    "createdAt": "Wed Dec 03 02:00:52 +0000 2025",
+    "replyCount": 144,
+    "retweetCount": 35,
+    "likeCount": 331,
+    "conversationId": "1996036886356431091",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "quotedTweet": {
+      "id": "1995892639187484810",
+      "text": "WET @humidifi is launching on Jupiter DTF on 3rd December!  \n\nSale format: First-come first-served  \n\nCheck all details below https://t.co/Yk6FnCWIuN",
+      "createdAt": "Tue Dec 02 16:27:41 +0000 2025",
+      "replyCount": 202,
+      "retweetCount": 172,
+      "likeCount": 896,
+      "conversationId": "1995892639187484810",
+      "author": {
+        "username": "JupiterExchange",
+        "name": "Jupiter"
+      },
+      "authorId": "1446489618208067586",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/1995891587528667136/img/1e2DZ4oCsmDfwAgr.jpg",
+          "width": 1920,
+          "height": 1080,
+          "previewUrl": "https://pbs.twimg.com/amplify_video_thumb/1995891587528667136/img/1e2DZ4oCsmDfwAgr.jpg:small",
+          "videoUrl": "https://video.twimg.com/amplify_video/1995891587528667136/vid/avc1/1920x1080/ldcxks66DeMqhvIJ.mp4?tag=21",
+          "durationMs": 10000
+        }
+      ]
+    },
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G7NSSIlaQAAEvoa.jpg",
+        "width": 1096,
+        "height": 752,
+        "previewUrl": "https://pbs.twimg.com/media/G7NSSIlaQAAEvoa.jpg:small"
+      }
+    ]
+  },
+  {
+    "id": "1995784871537770947",
+    "text": "@abyssofgambling 幽默这一块",
+    "createdAt": "Tue Dec 02 09:19:27 +0000 2025",
+    "replyCount": 1,
+    "retweetCount": 1,
+    "likeCount": 31,
+    "conversationId": "1995779999073268121",
+    "inReplyToStatusId": "1995781896824127718",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1995781559316590892",
+    "text": "@Ewimp66 平时很注重干湿分离，那次失误手滑了",
+    "createdAt": "Tue Dec 02 09:06:18 +0000 2025",
+    "replyCount": 12,
+    "retweetCount": 1,
+    "likeCount": 40,
+    "conversationId": "1995779999073268121",
+    "inReplyToStatusId": "1995781264490832081",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  },
+  {
+    "id": "1995779999073268121",
+    "text": "这段时间中文区发生的事情再次印证了我一年多以前的观点，典型的劣币驱逐良币，像龙王、Vida、Ray神等等都锁推了，他们基本上是已经还有分享欲的人里面的实力天花板了，而另一边早就有过ORD1，月化30%稳定理财这种言论的照样吃着流量饭。\n\n做交易判断错是在所难免的，我的看法一直是只要主观上不是故意作恶，分享的观点和自身操作能做到言行一致，就没什么问题，而往往是这样的博主，会更在乎他人的看法，面对舆论要么陷入自证陷阱浪费大量时间精力，要么就分享欲越来越低。而另一种没有任何真材实料的流量博主秉持“黑红也是红”的观念，反而不会因此内耗，甚至还沾沾自喜。\n\n归根结底，就如同部分散户根本判断不出项目好坏和币价走势一样，部分散户对于KOL的实力和水平也是看不太清的。以链上为例吧，明牌地址是一个相对直观的辨别方式，但一方面是各类聪明钱监控软件越来越普及，实盘对操作者本人的影响越来越大，另一方面是有心之人故意带节奏，将实盘刻意和“割跟单”，“小号建仓大号吸引买盘”等等行为挂钩，导致现在越来越多车头不愿意实盘了，散户能参考的东西就又少了一些。其实动脑子想想就知道了，做博主的大部分还是希望自己实力被认可的，从不实盘还反过来攻击明牌车头的，要么是想吃流量饭，要么是希望浑水摸鱼。\n\n一年多下来，这个现象不但没有改善，反而愈演愈烈。当然现在推特上也还是有高质量的内容，我这段时间也关注了好几个Vibe Coding结合具体币圈业务做的非常棒的博主，但还有很多真正高水平的人要么锁推了，要么不太分享了，时间线充斥着AI水文和模棱两可的流量贴，倒也说不上愤慨吧，上面这些我都经历过太多次了，早就佛系了，只是确实觉得有些可惜。",
+    "createdAt": "Tue Dec 02 09:00:06 +0000 2025",
+    "replyCount": 153,
+    "retweetCount": 74,
+    "likeCount": 756,
+    "conversationId": "1995779999073268121",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864",
+    "quotedTweet": {
+      "id": "1819696378471408050",
+      "text": "@cap_std 现在中文圈的趋势是一堆水货KOL为了引流拼命造谣带节奏，攻击有真材实料的人，劣币驱逐良币，另外老外圈子里镰刀更多，只不过大部分人有基本素养和认知。靠市场公开信息赚到钱为什么要被骂被造谣？",
+      "createdAt": "Sat Aug 03 11:26:39 +0000 2024",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 42,
+      "conversationId": "1819689649344004103",
+      "inReplyToStatusId": "1819694988277723376",
+      "author": {
+        "username": "0xSunNFT",
+        "name": "0xSun"
+      },
+      "authorId": "1146492710582308864"
+    }
+  },
+  {
+    "id": "1994927518131130761",
+    "text": "@niuniu255431 划重点：我现在学英语还算可以，但是不够，我觉得我应该找一个漂亮的英国女朋友，这样可以加速英语学习。",
+    "createdAt": "Sun Nov 30 00:32:38 +0000 2025",
+    "replyCount": 22,
+    "retweetCount": 3,
+    "likeCount": 139,
+    "conversationId": "1994783931812778514",
+    "inReplyToStatusId": "1994783931812778514",
+    "author": {
+      "username": "0xSunNFT",
+      "name": "0xSun"
+    },
+    "authorId": "1146492710582308864"
+  }
+]

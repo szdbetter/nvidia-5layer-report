@@ -1,0 +1,1 @@
+- 2026-03-09 22:21 CST: message tool send failed once because action parameter was omitted; fix: always include action=send for Discord outbound reports.

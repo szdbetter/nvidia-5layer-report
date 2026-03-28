@@ -1,0 +1,15 @@
+[Unit]
+Description=ClawLabs Dashboard MVP
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/.openclaw/workspace/dashboard-mvp
+ExecStart=/root/.nvm/versions/node/v24.13.1/bin/node server.js
+Restart=always
+RestartSec=5
+Environment=PORT=1980
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,13 @@
+{
+  "telegram_notify": true,
+  "collect_limits": {
+    "xhs": 20,
+    "reddit": 20,
+    "twitter": 15
+  },
+  "min_score": {
+    "xhs": 0,
+    "reddit": 0,
+    "twitter": 30
+  }
+}

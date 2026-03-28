@@ -1,0 +1,97 @@
+
+@0xAA_Science (0xAA):
+有啥可质疑的，都是等着币安上现货出货的。
+📅 Fri Oct 31 18:08:10 +0000 2025
+🔗 https://x.com/0xAA_Science/status/1984321513680748796
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+黑客用的合约是我部署的？
+最近 @eth_strategy 有一笔小额盗币（几万u）。白帽顺着交易找到了我，说黑客用的一个合约是 wtfacafemy.eth 部署的，问我认不认识黑客。 
+
+我寻思我也没黑过谁啊，但仔细看了下交易记录，合约还真是我部署的。
+
+结果一查，原来是我两年前写的批量转账合约 https://t.co/DZyhSjEqDU 。因为合约是用 Huff 写的，不是 Solidity，所以没法开源。白帽也不知道合约是做啥的，只能找我问了 😂
+
+Huff 是一个低级的以太坊智能合约语言，写出的合约非常优化，但学习曲线很高，写起来很像写字节码。可惜现在 Huff 团队也不再维护了，属于时代的眼泪。
+
+不过看起来，我写的合约的确很高效，连黑客都在用 😂
+@WTFAcademy_
+🖼️ https://pbs.twimg.com/media/G4loz80bcAEOEe7.jpg
+🖼️ https://pbs.twimg.com/media/G4loz8VakAAPT4m.jpg
+┌─ QT @0xAA_Science:
+│ 趁着gas低，把 https://t.co/dS3r6DCBPf 部署到了15个主网/测试网，包括 ETH, Optimism, Base, Arbitrum, Linea, BNB Chain, opBNB, Polygon/zkevm, pgn, gnosis chain, Goerli, Holesky, Sepolia, Scroll Sepolia。
+│ 只有Polygon zkevm和Scroll Sepolia（测试网）支持了 PUSH0 指令，其他链还需努力！ https://t.co/MI8gYCrTxA
+│ 🖼️ https://pbs.twimg.com/media/F72m_8paUAApfz-.jpg
+└─ https://x.com/0xAA_Science/status/1710708286281126268
+📅 Fri Oct 31 12:13:55 +0000 2025
+🔗 https://x.com/0xAA_Science/status/1984232362218279271
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+94 买的No，96 卖掉了，怒转 2u。
+我真的太稳了！ https://t.co/cTtW1yZnXm
+🖼️ https://pbs.twimg.com/media/G4lkZn2a8AErBkb.jpg
+┌─ QT @0xAA_Science:
+│ 如何在 Polymarket 上预测中本聪钱包是否会转移比特币
+│ 今天我试了下 Polymarket，觉得用户体验很好，就是网站有点卡，写个攻略方便小白使用。 
+│ 
+│ 1. 注册
+│ 🖼️ https://pbs.twimg.com/media/G3xkrAMW8AAgUdH.jpg
+│ 🖼️ https://pbs.twimg.com/media/G3xpJzJXQAAnvk2.jpg
+│ 🖼️ https://pbs.twimg.com/media/G3xprYtWUAA4UN2.jpg
+│ 🖼️ https://pbs.twimg.com/media/G3xsjCbWYAAO3mg.jpg
+└─ https://x.com/0xAA_Science/status/1980587888187437277
+📅 Fri Oct 31 11:55:08 +0000 2025
+🔗 https://x.com/0xAA_Science/status/1984227636940575033
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+@lizhenghui15860 故意打错的 和ai有分别 😎
+📅 Fri Oct 31 04:14:58 +0000 2025
+🔗 https://x.com/0xAA_Science/status/1984111831007596947
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+@ToDaMoon2030 我不吃早饭
+📅 Fri Oct 31 03:51:01 +0000 2025
+🔗 https://x.com/0xAA_Science/status/1984105806443508152
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+买在无人问津出
+卖在人声鼎沸时
+我还得修炼
+📅 Fri Oct 31 03:50:29 +0000 2025
+🔗 https://x.com/0xAA_Science/status/1984105671743410458
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+@leejone10178475 周末开新群统一回
+📅 Thu Oct 30 17:15:06 +0000 2025
+🔗 https://x.com/0xAA_Science/status/1983945772782776638
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+@pingobserver 😘
+📅 Thu Oct 30 16:37:12 +0000 2025
+🔗 https://x.com/0xAA_Science/status/1983936235338080437
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+鼠鼠群车，250k call的，我call完了才买，目前 3M，10x。
+
+欢迎绑定我的BN邀请码: XYO1V68R ，私聊截图进群。等周末开3群了统一拉人。 https://t.co/moESCDffTG
+🖼️ https://pbs.twimg.com/media/G4hSO5QaIAAAHtF.jpg
+🖼️ https://pbs.twimg.com/media/G4hSgnmb0AAfc6t.jpg
+🖼️ https://pbs.twimg.com/media/G4hTRj-a8AAdSN9.png
+📅 Thu Oct 30 16:01:52 +0000 2025
+🔗 https://x.com/0xAA_Science/status/1983927339781116095
+──────────────────────────────────────────────────
+
+@0xAA_Science (0xAA):
+@efo_xx 之前很多买水撸测试网的反撸
+我没撸过
+📅 Thu Oct 30 14:41:57 +0000 2025
+🔗 https://x.com/0xAA_Science/status/1983907228068585749
+──────────────────────────────────────────────────

@@ -1,0 +1,18 @@
+{
+  "endpoint": "https://data-api.polymarket.com/trades",
+  "tested_params": {
+    "effective": [
+      "eventId"
+    ],
+    "not_reliable": [
+      "slug",
+      "market",
+      "conditionId",
+      "asset"
+    ],
+    "partially_effective": [
+      "side"
+    ]
+  },
+  "conclusion": "当前公开接口中只有 eventId 过滤可作为可信研究输入；market 级过滤器不足以绕过单事件 offset > 3000 限制。"
+}

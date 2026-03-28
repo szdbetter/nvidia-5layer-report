@@ -1,0 +1,619 @@
+{
+  "tweets": [
+    {
+      "id": "1928952764828094755",
+      "text": "@otzgary 张朝阳也猛干，只是他猛干没用。\n\n前几年每天早晨6点召集高管去公司开晨会，现在不知道还这么折腾不了。",
+      "createdAt": "Sat May 31 23:12:32 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 13,
+      "conversationId": "1928810401262924096",
+      "inReplyToStatusId": "1928810915429749177",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1928819826027540626",
+      "text": "很难想象，\n一个不珍惜财的人，能守住财；\n一个不热衷于赚钱本身的人，能赚到钱。\n\n不用说 0.1b，哪怕100块对我来说也很重要，花掉可以，但一定是用在让我觉得值得的地方。",
+      "createdAt": "Sat May 31 14:24:16 +0000 2025",
+      "replyCount": 87,
+      "retweetCount": 55,
+      "likeCount": 600,
+      "conversationId": "1928819826027540626",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1928811340732207413",
+      "text": "不信你可以看看马云/刘强东这些人，前段时间跑国外避避风头，政策稍微缓和，马上要回国干活。\n\n天天游艇，天天满世界转，没意思啊。\n\n所以说，王思聪确实是个幸福的人，觉得每天带一群小姑娘吃吃欧马卡塞，去奈良喂喂鹿就很开心，也不会无聊，带不同姑娘刷同一个副本，也兴致勃勃，这是福报。",
+      "createdAt": "Sat May 31 13:50:33 +0000 2025",
+      "replyCount": 18,
+      "retweetCount": 4,
+      "likeCount": 171,
+      "conversationId": "1928810401262924096",
+      "inReplyToStatusId": "1928810401262924096",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1928810401262924096",
+      "text": "很多人不理解，\n像马云/马化腾这帮人，都那么有钱了，为啥还天天卷着做公司？\n像巴菲特/西蒙斯这帮人，都赚那么多了，为啥还天天忙着做投资/交易？\n\n没啥难理解的，一般人无聊了，就刷抖音，玩游戏，因为开心。\n\n有的人，打个王者，就是娱乐，打的烂也无所谓；\n有的人，打了青铜，就想打白银，打白银，就想打黄金，一直打到打不上去为止。\n\n因为人总要找让自己开心的事做，尤其是可以不断打怪升级这种事。\n\n不同级别的企业，不同级别的资金规模，你会遇到不同的问题，不管是术还是道，都要跟着提升，否则就会被打下来。\n\n游艇，飞机，嫩模这些，根本不可能让这些人快乐多久。\n\n真正能做成事的，一定是事情本身让他最快乐。",
+      "createdAt": "Sat May 31 13:46:49 +0000 2025",
+      "replyCount": 72,
+      "retweetCount": 49,
+      "likeCount": 511,
+      "conversationId": "1928810401262924096",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1928749303113330932",
+      "text": "手残怎么赢？\n和交易，以及任何事情一样，先认清自己，别较劲。\n\n选个不需要操作，但需要意识，又可以抱大腿的英雄类别：硬辅。",
+      "createdAt": "Sat May 31 09:44:02 +0000 2025",
+      "replyCount": 6,
+      "retweetCount": 3,
+      "likeCount": 44,
+      "conversationId": "1928732296045105177",
+      "inReplyToStatusId": "1928732296045105177",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1928732562051998187",
+      "text": "@linwanwan823 硬辅",
+      "createdAt": "Sat May 31 08:37:31 +0000 2025",
+      "replyCount": 4,
+      "retweetCount": 0,
+      "likeCount": 6,
+      "conversationId": "1928732296045105177",
+      "inReplyToStatusId": "1928732446490497051",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1928732296045105177",
+      "text": "行情有多无聊呢？\n\n我一个手残，单排打王者都上百🌟了。",
+      "createdAt": "Sat May 31 08:36:28 +0000 2025",
+      "replyCount": 55,
+      "retweetCount": 6,
+      "likeCount": 173,
+      "conversationId": "1928732296045105177",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1928715803060220206",
+      "text": "这里说的预测，是预测中短期的具体走势。\n\n长期当然可以预测，每个人都知道：\n\n一定会有熊市跌到每个人都沉默的时候，也一定会有牛市涨到所有人都觉得自己最牛逼看谁都是傻逼的时候。\n\n只是到沉默的时候，已经没有子弹；到觉得自己最牛逼的时候，还想再涨10倍罢了。",
+      "createdAt": "Sat May 31 07:30:55 +0000 2025",
+      "replyCount": 6,
+      "retweetCount": 10,
+      "likeCount": 94,
+      "conversationId": "1928712306495467893",
+      "inReplyToStatusId": "1928713792336097577",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1928713792336097577",
+      "text": "那靠什么赚钱呢？\n\n靠努力，你比别人更能枯坐，更有经验，判断更强；\n靠资源，你比别人更能获取信息，更懂庄家怎么想；\n靠耐心，你比别人更能等，不到击球区绝不出手；\n靠认知，你比别人更能识别优秀标的，理解买盘和流动性来源。\n\n就是不要靠“预测行情”，因为，没人能“预测行情”。",
+      "createdAt": "Sat May 31 07:22:56 +0000 2025",
+      "replyCount": 5,
+      "retweetCount": 19,
+      "likeCount": 130,
+      "conversationId": "1928712306495467893",
+      "inReplyToStatusId": "1928712306495467893",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1928712306495467893",
+      "text": "没人能预测行情，获得长久优势的秘诀是，不要寄希望于“预测正确”赚钱。\n\n任何人对行情发表的观点，包括我，都只是一种“希望”；就像我希望明天是个好天气，你希望世界和平一样。",
+      "createdAt": "Sat May 31 07:17:02 +0000 2025",
+      "replyCount": 23,
+      "retweetCount": 19,
+      "likeCount": 162,
+      "conversationId": "1928712306495467893",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1928706132346023942",
+      "text": "@Jeffson772010 你说的很对，容错率。\n\n另外，玩合约和杠杆借贷，通常会站在时间的敌人这一边。",
+      "createdAt": "Sat May 31 06:52:30 +0000 2025",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 5,
+      "conversationId": "1928702383359472076",
+      "inReplyToStatusId": "1928705831173750999",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1928704836188705277",
+      "text": "有人说，玩链上meme和交易所山寨，不是一样亏完？\n\n确实，做交易，大部分都会亏，只有少数会赚，美股也一样。\n\n但，交易和交易，亏损和亏损，是不同的。\n\n玩链上meme和交易所山寨，你可以用努力/影响力/耐心/时间来抹平不确定性，获得优势。\n\n而梭哈式赌大小，可以靠什么？\n只有一个，运气。",
+      "createdAt": "Sat May 31 06:47:21 +0000 2025",
+      "replyCount": 10,
+      "retweetCount": 7,
+      "likeCount": 79,
+      "conversationId": "1928702383359472076",
+      "inReplyToStatusId": "1928702383359472076",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1928702815981244858",
+      "text": "@56sd4f 显然不是。",
+      "createdAt": "Sat May 31 06:39:19 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "1928702383359472076",
+      "inReplyToStatusId": "1928702710393585864",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1928702383359472076",
+      "text": "猜大小式赌合约，只有一个结果，爆仓亏完。\n\n但这依然是币圈最多人参与，投入资金最多，交易所最大盈利来源。\n\n不管多少“天才”用自己告诉大家，这世界没有天才，还是有人相信自己是下一个幸运儿。\n\n为什么？人性。\n\n并不真想赚钱，只想赌博。\n\n自己骗自己，再多事实和逻辑都敌不过，\n\n自欺欺人。",
+      "createdAt": "Sat May 31 06:37:36 +0000 2025",
+      "replyCount": 57,
+      "retweetCount": 25,
+      "likeCount": 286,
+      "conversationId": "1928702383359472076",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1928375647350780335",
+      "text": "@BitScout 欲练神功必先自宫\n\n如若自宫未必成功\n\n若不自宫亦可练功",
+      "createdAt": "Fri May 30 08:59:16 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 1,
+      "likeCount": 6,
+      "conversationId": "1928268791806656970",
+      "inReplyToStatusId": "1928269134640349498",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1928268791806656970",
+      "text": "金庸对很多事情，是大师级别思考。\n\n天龙八部里面的扫地僧，不知道大家还是否记得。\n\n他讲出一个事实，同时发表了一个观点：\n\n1️⃣事实\n\n少林72绝技，没有几个人能练会，更别说同时掌握几项。\n\n2️⃣观点\n\n原因是，每修炼一项绝技，都要修行对应更深的佛法，才能真正掌握。\n\n鸠摩智，慕容博，萧远山都是当世高手，贪多去学习各项绝技，却对扫地僧放在旁边的佛经视而不见，最终反噬。\n\n当年看这个，我的理解是：\n绝技是杀人的，必须有相应的“慈悲”，才能真正领悟和掌握。\n\n现在回想，金庸的思考更深一层：\n世间的任何事，想成为大师级别，都有“术”和“道”两个层面。\n\n孙子兵法里的“道天地将法”，讲战争也是一样。\n\n大师不能只掌握“技术”，掌握“将和法”；那样到更高层面就会遇到问题，甚至反噬。\n\n交易，当你能掌握一个级别的资金，不止要掌握如何赚到这些钱的“术”，还要有能驾驭它的“道”，二者同样重要。\n\n贪多，想成为第一高手，不断在“术”上精进，天天练功，却不在“道”上下功夫，结局就是鸠摩智。\n\n任何领域的高手，都是：\n\n不止要练剑，还要念经。",
+      "createdAt": "Fri May 30 01:54:40 +0000 2025",
+      "replyCount": 97,
+      "retweetCount": 51,
+      "likeCount": 317,
+      "conversationId": "1928268791806656970",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1928264003437867118",
+      "text": "@CryptoRyan777 对，最经典的错误，就是给自己设定，每天赚多少。",
+      "createdAt": "Fri May 30 01:35:38 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 25,
+      "conversationId": "1928261308765356497",
+      "inReplyToStatusId": "1928262411695304765",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1928262433875087690",
+      "text": "@diamondhandjs 几个赚了几十m的车头，对应几十个亏了几m的。",
+      "createdAt": "Fri May 30 01:29:24 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 24,
+      "conversationId": "1928261308765356497",
+      "inReplyToStatusId": "1928262080655753641",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1928261308765356497",
+      "text": "trump 币一直涨的时候，\n\n有人给我留言：\ntrump你都没赚到，别说话了。\n\n还在这么想的人，说明交易的门还没入。\n\n因为：\n\n第一，他认为这个交易很简单\n事实上在trump这个币上没亏的已经跑赢大部分人了；\n\n第二，他认为什么机会都该抓\n交易者认为能力圈无限大，说明没有能力圈，并不真的懂任何事。",
+      "createdAt": "Fri May 30 01:24:56 +0000 2025",
+      "replyCount": 66,
+      "retweetCount": 24,
+      "likeCount": 279,
+      "conversationId": "1928261308765356497",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1927978861393748355",
+      "text": "阅读，交流，实践，自省，坚韧。\n\n知行合一的微观。",
+      "createdAt": "Thu May 29 06:42:35 +0000 2025",
+      "replyCount": 50,
+      "retweetCount": 12,
+      "likeCount": 216,
+      "conversationId": "1927978861393748355",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1927964288603361448",
+      "text": "e子也有自己的美股 ponzi了，那个什么季，能不能来一下子。",
+      "createdAt": "Thu May 29 05:44:40 +0000 2025",
+      "replyCount": 53,
+      "retweetCount": 6,
+      "likeCount": 131,
+      "conversationId": "1927964288603361448",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1927880394374009012",
+      "text": "@kljap94432164 赚到大钱，再亏完，这个比没赚到过痛苦100倍。\n\n不是每个人都能抗住的。",
+      "createdAt": "Thu May 29 00:11:18 +0000 2025",
+      "replyCount": 17,
+      "retweetCount": 5,
+      "likeCount": 119,
+      "conversationId": "1927870970775183678",
+      "inReplyToStatusId": "1927876451245711592",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1927879023625130494",
+      "text": "@diamondhandjs 钱不是越多越好，手里财富量，和能驾驭多少财富量匹配，才是好的。",
+      "createdAt": "Thu May 29 00:05:52 +0000 2025",
+      "replyCount": 3,
+      "retweetCount": 2,
+      "likeCount": 27,
+      "conversationId": "1927877524547109316",
+      "inReplyToStatusId": "1927877524547109316",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1927871391640006709",
+      "text": "@youyou5202 亏到想吐想死的经历，很重要。\n\n未来每次可能犯错前，都生理性恶心。",
+      "createdAt": "Wed May 28 23:35:32 +0000 2025",
+      "replyCount": 3,
+      "retweetCount": 4,
+      "likeCount": 31,
+      "conversationId": "1927871126362825194",
+      "inReplyToStatusId": "1927871126362825194",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1927870970775183678",
+      "text": "如果你能力强，运气好，又很勤奋，专注。\n\n侥幸在币圈赚到了几辈子花不完的钱。\n\n意气风发，鲜衣怒马，一夜看遍长安花。\n\n在不久的将来，一个寂静的夜里，呆呆的看着几乎归零的账户，才明白：\n\n原来，这一切，不过是命运轻轻张开嘴，对你露出了獠牙。\n\n从此，你的币圈投机才真正开始。",
+      "createdAt": "Wed May 28 23:33:52 +0000 2025",
+      "replyCount": 139,
+      "retweetCount": 75,
+      "likeCount": 808,
+      "conversationId": "1927870970775183678",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1927868030245040500",
+      "text": "@CryptoApprenti1 我也有亏到这样的时候，归集链上上百地址，每个地址里几十u的资产。\n\n所有弯路都是必经之路。",
+      "createdAt": "Wed May 28 23:22:11 +0000 2025",
+      "replyCount": 18,
+      "retweetCount": 6,
+      "likeCount": 108,
+      "conversationId": "1927678544475480418",
+      "inReplyToStatusId": "1927678544475480418",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1927715456057831712",
+      "text": "春秋时，秦穆公问蹇叔，我怎样才能称霸天下呢？\n\n蹇叔说：“夫霸天下者有三戒：毋贪，毋忿，毋急。贪则多失，忿则多难，急则多蹶。夫审大小而图之，乌用贪？衡彼己而施之，乌用忿？酌缓急而布之，乌用急？君能戒此三者，于霸也近矣。​”\n\n意思是：\n\n“\n霸天下的人有三戒：戒贪，戒忿，戒急。\n\n贪心，就会失去越多；\n忿怒，就容易有难；\n急躁，就会摔跟头。\n\n审查利害大小而图之，哪需要贪呢？\n将心比心，换位思考，衡量彼己，哪需要生对方的气呢？\n斟酌事情的缓急，从容计划安排，哪需要急躁呢？\n\n您能持这三条戒，霸业就近了。\n”\n\n想想交易时，也无非是：\n\n判断胜率/盈亏，而不是fomo盲目下注；\n控制情绪，不要胜负之时失去理性；\n不要急躁，保持耐心。\n\n2000年前，蹇叔就想明白了；他在现代，也会是一个好的交易员。",
+      "createdAt": "Wed May 28 13:15:54 +0000 2025",
+      "replyCount": 38,
+      "retweetCount": 37,
+      "likeCount": 200,
+      "conversationId": "1927715456057831712",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1927608263807484126",
+      "text": "@keyahayek 是的，还有少年班",
+      "createdAt": "Wed May 28 06:09:57 +0000 2025",
+      "replyCount": 3,
+      "retweetCount": 0,
+      "likeCount": 3,
+      "conversationId": "1927526776961700016",
+      "inReplyToStatusId": "1927607211867689466",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1927598302503079953",
+      "text": "@llamacorneth 有可能，我们大概10比1",
+      "createdAt": "Wed May 28 05:30:23 +0000 2025",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 2,
+      "conversationId": "1927526776961700016",
+      "inReplyToStatusId": "1927591735875744159",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1927535543161589998",
+      "text": "我愿意相信人人平等，种族之间应该和平相处，不该有任何歧视和敌意。\n\n但回顾人类历史，在资源紧张或者极端局势下，国籍并不能保证你的安全和被公平对待。\n\n日本偷袭珍珠港后，大批美国籍日本人被以间谍罪监禁，没收财产；\n98年印尼屠华事件，感兴趣的可以去搜一下，惨不忍睹；\n最近，在澳洲几个华人因为说中文，被一群澳洲青少年殴打，这个世界正在渐渐滑向我很不喜欢的右倾民粹的路。\n\n推上有很多对中国发表非常敌对言论的华人，你要明白，国籍可以改变，信仰可以改变，但你的种族是改不了的，生下来是华人，就永远是华人。\n\n一个发展更好更强盛的华人国家，永远是对华人这个种族最有利的。",
+      "createdAt": "Wed May 28 01:21:00 +0000 2025",
+      "replyCount": 108,
+      "retweetCount": 49,
+      "likeCount": 599,
+      "conversationId": "1927535543161589998",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1927530035075862990",
+      "text": "@feifan7686 中学班级男女比例10比1，大学班级5比1，进步了。",
+      "createdAt": "Wed May 28 00:59:06 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 4,
+      "conversationId": "1927526776961700016",
+      "inReplyToStatusId": "1927529408879104031",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1927526776961700016",
+      "text": "回顾中学时代，最悲惨的不是老师管的严。\n\n而是我的中学，是竞赛导向，只招理科尤其数学优先的学生，几乎没有女生。\n\n大部分人都是上了大学才开始学习怎么正常跟异性交往。",
+      "createdAt": "Wed May 28 00:46:10 +0000 2025",
+      "replyCount": 41,
+      "retweetCount": 3,
+      "likeCount": 146,
+      "conversationId": "1927526776961700016",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1927349177924665786",
+      "text": "@qinbafrank 段永平的好学生，应该是熟读中国历史上沈万山们的下场。",
+      "createdAt": "Tue May 27 13:00:27 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 27,
+      "conversationId": "1927340309693813086",
+      "inReplyToStatusId": "1927340309693813086",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1927348439857221670",
+      "text": "@pnutsolana 🥜🐿️",
+      "createdAt": "Tue May 27 12:57:31 +0000 2025",
+      "replyCount": 5,
+      "retweetCount": 2,
+      "likeCount": 44,
+      "conversationId": "1927331049199075402",
+      "inReplyToStatusId": "1927331049199075402",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1927237898589319521",
+      "text": "另外，钱少的时候，不要想着靠“借贷”翻身，老老实实去打工去撸毛去做生意，用体力和认知赚钱。\n\n短期也许可以用借来钱很快赚到，再换回去。\n长期来看，很少有人能跑赢借贷利率。",
+      "createdAt": "Tue May 27 05:38:16 +0000 2025",
+      "replyCount": 6,
+      "retweetCount": 7,
+      "likeCount": 75,
+      "conversationId": "1927222780812001605",
+      "inReplyToStatusId": "1927226296100151668",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1927233423115964909",
+      "text": "@WaitingAlpha @btc1516 长期来看，很少有人能跑过借贷利息。",
+      "createdAt": "Tue May 27 05:20:28 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 3,
+      "conversationId": "1927222780812001605",
+      "inReplyToStatusId": "1927230933888889284",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1927227143072739482",
+      "text": "@btc1516 即使是复利，前期资金少的时候，也应该打工/撸毛多获取一些本金再去做。\n\n1万块的 20%，只有2000；精力先放在打工上赚到100万，再去考虑20%复利，就是20万。",
+      "createdAt": "Tue May 27 04:55:31 +0000 2025",
+      "replyCount": 3,
+      "retweetCount": 0,
+      "likeCount": 12,
+      "conversationId": "1927222780812001605",
+      "inReplyToStatusId": "1927226331940479037",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1927226296100151668",
+      "text": "更底层的思考是：\n\n1️⃣任何交易博弈，都涉及大量不确定性；\n\n2️⃣如何抹平一些不确定性因素，获得竞争优势？\n\n体力好的，付出大量体力/精力/时间；\n宏观/k线/链上好的，就从这些领域去找线索；\n有更广泛联系的，就通过跟牛逼的人大量沟通找信息优势。\n\n总之，战壕里，认清自己，利用优势，才能赢面更大。",
+      "createdAt": "Tue May 27 04:52:09 +0000 2025",
+      "replyCount": 4,
+      "retweetCount": 6,
+      "likeCount": 66,
+      "conversationId": "1927222780812001605",
+      "inReplyToStatusId": "1927222780812001605",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1927222780812001605",
+      "text": "本质是：\n\n1️⃣不同资金体量，要考虑使用不同杠杆\n\n资金体量太小，要多用体力杠杠，不管是打工/撸毛，还是链上p非常小市值标的，你付出更多体力和时间，就会获得更多优势。\n\n2️⃣小资金有小资金的优势\n\n资金体量变大，就会涉及到自己时间/精力的权衡。而资金小理论上可以参与的博弈品类就更多，玩的好的人，倍数可以更高。\n\n对应不同的资金体量，a8之前甚至不需要懂二级，懂怎么玩链上项目就可以了。\n\na8之后，如果考虑资金增长速度问题，需要更理解二级应该怎么玩，理解宏观/k线这些。",
+      "createdAt": "Tue May 27 04:38:11 +0000 2025",
+      "replyCount": 38,
+      "retweetCount": 52,
+      "likeCount": 246,
+      "conversationId": "1927222780812001605",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "quotedTweet": {
+        "id": "1927200210402279513",
+        "text": "@Crypto_Cat888 a7之前应该做的：打工/撸毛/链上小资金p以小博大",
+        "createdAt": "Tue May 27 03:08:30 +0000 2025",
+        "replyCount": 35,
+        "retweetCount": 23,
+        "likeCount": 253,
+        "conversationId": "1927144332533833964",
+        "inReplyToStatusId": "1927144332533833964",
+        "author": {
+          "username": "0xcryptowizard",
+          "name": "0xWizard"
+        },
+        "authorId": "1195728139898376193"
+      }
+    },
+    {
+      "id": "1927202561490059675",
+      "text": "问：什么样的“鸡汤”会有大量共鸣？\n\n答：背后有真实交易案例和反思的“鸡汤”。\n\n有些人看着是“鸡汤”，有些人看着是一句点醒梦中人的“灵药”。",
+      "createdAt": "Tue May 27 03:17:51 +0000 2025",
+      "replyCount": 29,
+      "retweetCount": 8,
+      "likeCount": 95,
+      "conversationId": "1927202561490059675",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "quotedTweet": {
+        "id": "1926507524242419886",
+        "text": "在币圈，还是老老实实的提升自己的交易能力。\n\n围绕交易输出思考和信息，而不是想着搞流量。\n\n没有交易能力支持的流量，是没意义的。",
+        "createdAt": "Sun May 25 05:16:01 +0000 2025",
+        "replyCount": 97,
+        "retweetCount": 29,
+        "likeCount": 503,
+        "conversationId": "1926507524242419886",
+        "author": {
+          "username": "0xcryptowizard",
+          "name": "0xWizard"
+        },
+        "authorId": "1195728139898376193"
+      }
+    }
+  ],
+  "nextCursor": null
+}

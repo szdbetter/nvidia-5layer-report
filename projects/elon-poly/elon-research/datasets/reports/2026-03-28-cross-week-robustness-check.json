@@ -1,0 +1,87 @@
+{
+  "source": "/root/.openclaw/workspace/projects/elon-poly/elon-research/datasets/reports/2026-03-27-cross-week-weak-validation-unified-params.json",
+  "overall": {
+    "weeks": 8,
+    "trade_count": 0,
+    "total_pnl": 0.0,
+    "max_weekly_drawdown": 0.0,
+    "positive_week_ratio": 0.0
+  },
+  "non_overlap": {
+    "selected_event_ids": [
+      208544,
+      226986,
+      251243,
+      278377
+    ],
+    "summary": {
+      "weeks": 4,
+      "trade_count": 0,
+      "total_pnl": 0.0,
+      "max_weekly_drawdown": 0.0,
+      "positive_week_ratio": 0.0
+    }
+  },
+  "regime": {
+    "low_tweet": {
+      "event_ids": [
+        278377,
+        220474,
+        226986,
+        251243
+      ],
+      "summary": {
+        "weeks": 4,
+        "trade_count": 0,
+        "total_pnl": 0.0,
+        "max_weekly_drawdown": 0.0,
+        "positive_week_ratio": 0.0
+      }
+    },
+    "high_tweet": {
+      "event_ids": [
+        212454,
+        257217,
+        236151,
+        208544
+      ],
+      "summary": {
+        "weeks": 4,
+        "trade_count": 0,
+        "total_pnl": 0.0,
+        "max_weekly_drawdown": 0.0,
+        "positive_week_ratio": 0.0
+      }
+    },
+    "low_liquidity": {
+      "event_ids": [
+        208544,
+        226986,
+        257217,
+        212454
+      ],
+      "summary": {
+        "weeks": 4,
+        "trade_count": 0,
+        "total_pnl": 0.0,
+        "max_weekly_drawdown": 0.0,
+        "positive_week_ratio": 0.0
+      }
+    },
+    "high_liquidity": {
+      "event_ids": [
+        220474,
+        236151,
+        251243,
+        278377
+      ],
+      "summary": {
+        "weeks": 4,
+        "trade_count": 0,
+        "total_pnl": 0.0,
+        "max_weekly_drawdown": 0.0,
+        "positive_week_ratio": 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Reese 能力资产",
+  "children": [
+    {
+      "name": "模型层",
+      "children": [
+        {"name": "codex", "children": [{"name": "代码生成"}, {"name": "自动化脚本"}, {"name": "格式转换"}, {"name": "结构化产物"}]},
+        {"name": "gemini", "children": [{"name": "超长上下文"}, {"name": "多模态理解"}, {"name": "长文吸收"}]},
+        {"name": "glm", "children": [{"name": "中文总结"}, {"name": "中文归纳"}, {"name": "轻研究"}]},
+        {"name": "kimi", "children": [{"name": "长文速读"}, {"name": "文档初筛"}]},
+        {"name": "qwen", "children": [{"name": "批量初筛"}, {"name": "网页清洗"}, {"name": "低成本并行"}]}
+      ]
+    },
+    {
+      "name": "节点层",
+      "children": [
+        {"name": "本机主节点", "children": [{"name": "文件读写"}, {"name": "shell执行"}, {"name": "浏览器"}, {"name": "web搜索"}, {"name": "cron"}, {"name": "memory"}, {"name": "tts"}]},
+        {"name": "fiona_mbp2015", "children": [{"name": "macOS"}, {"name": "browser"}, {"name": "system.run"}, {"name": "system.which"}, {"name": "远端浏览器任务"}, {"name": "远端系统执行"}]}
+      ]
+    },
+    {
+      "name": "采集层",
+      "children": [
+        {"name": "已可用", "children": [{"name": "GitHub"}, {"name": "网页正文"}, {"name": "RSS"}, {"name": "Exa语义搜索"}, {"name": "YouTube"}, {"name": "B站"}, {"name": "Agent Reach"}]},
+        {"name": "待补齐", "children": [{"name": "Twitter/X"}, {"name": "Reddit"}, {"name": "小红书"}, {"name": "微博"}, {"name": "抖音"}, {"name": "LinkedIn"}, {"name": "微信公众号"}, {"name": "小宇宙转写"}]}
+      ]
+    },
+    {
+      "name": "生成层",
+      "children": [
+        {"name": "当前可用", "children": [{"name": "中文总结"}, {"name": "结构化报告"}, {"name": "基础思维导图"}, {"name": "基础TTS"}]},
+        {"name": "当前短板", "children": [{"name": "高质量思维导图模板链"}, {"name": "高质量总结路由"}, {"name": "语音生产流水线"}, {"name": "中文社媒采集链"}]}
+      ]
+    }
+  ]
+}

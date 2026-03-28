@@ -1,0 +1,20 @@
+{
+  "row_count": 6084,
+  "brackets": [
+    {
+      "bracket_low": 300,
+      "bracket_high": 319,
+      "rows": 2133
+    },
+    {
+      "bracket_low": 280,
+      "bracket_high": 299,
+      "rows": 1999
+    },
+    {
+      "bracket_low": 260,
+      "bracket_high": 279,
+      "rows": 1952
+    }
+  ]
+}

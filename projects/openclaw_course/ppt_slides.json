@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "title": "OpenClaw 橙皮书分享课件",
+    "version": "v1.0",
+    "source": "OpenClaw 橙皮书 v1.1.0",
+    "slides_count": 16,
+    "estimated_duration": "20分钟"
+  },
+  "slides": [
+    {
+      "page": 1,
+      "title": "OpenClaw：从聊天工具到数字员工的进化",
+      "bullets": [
+        "GitHub 28万+ Stars，全球开源项目第一（超越 React）",
+        "开源 AI Agent 系统，连接 20+ 消息渠道",
+        "吉祥物：龙虾，中文社区称「养虾」",
+        "从0到27.9万 Stars仅用不到4个月"
+      ],
+      "notes": "开场点题，用数据建立认知：28万 Stars、全球第一、4个月超React。介绍「养虾」文化梗，拉近距离。"
+    },
+    {
+      "page": 2,
+      "title": "OpenClaw 是什么",
+      "bullets": [
+        "开源、自托管的 AI Agent 系统",
+        "连接 WhatsApp/Telegram/飞书/钉钉/Discord 等 20+ 渠道",
+        "让 AI 从「顾问」变成「员工」——主动执行任务",
+        "与 ChatGPT 核心区别：自主执行 vs 你问我答"
+      ],
+      "notes": "核心定位对比表：ChatGPT是顾问，OpenClaw是员工。强调自托管、数据本地、多模型支持。"
+    },
+    {
+      "page": 3,
+      "title": "为什么火：现象级增长",
+      "bullets": [
+        "72小时内获得6万 Stars，单日增长9000 Stars",
+        「养虾」文化：中文社区独特标签，降低传播门槛",
+        "创始人 Peter Steinberger 加入 OpenAI，引发持续关注",
+        "Moltbook：3万+ AI Agent 的社交网络实验场"
+      ],
+      "notes": "增长数据震撼：平均每10秒1个Star。文化现象解释：深圳腾讯云总部千人排队安装。Moltbook是Agent社会化的首次大规模实验。"
+    },
+    {
+      "page": 4,
+      "title": "核心架构：Gateway-Node-Channel",
+      "bullets": [
+        "Gateway：中央控制平面，WebSocket 总线，24/7 守护",
+        "Node：设备端执行层（摄像头、录屏、系统命令）",
+        "Channel：20+ 消息渠道接入层",
+        "Loopback-First：默认只绑定 localhost，天然安全"
+      ],
+      "notes": "画三层架构图。强调 Loopback-First 设计理念：不开放外网端口，通过 Tailscale 暴露而非直接暴露。"
+    },
+    {
+      "page": 5,
+      "title": "记忆系统：四层架构",
+      "bullets": [
+        "SOUL：不可变人格内核（Agent 是谁）",
+        "TOOLS：动态工具列表（当前可用技能）",
+        "USER：语义长期记忆（用户偏好、决策记录）",
+        "Session：实时对话 + Pre-Compaction 自动保存"
+      ],
+      "notes": "对比 Claude Code 会话结束即丢失上下文，OpenClaw 通过文件系统实现真正持久记忆。向量搜索结合 Embedding + BM25。"
+    },
+    {
+      "page": 6,
+      "title": "部署方案：从本地到云端",
+      "bullets": [
+        "本地：npm install -g openclaw（开发者首选）",
+        "Docker：docker-compose up -d（环境隔离）",
+        "国内云：阿里云/腾讯云/火山引擎（9.9元/月起）",
+        "零门槛：扣子编程 SaaS（¥49/月起，无需服务器）"
+      ],
+      "notes": "按场景推荐：零基础选扣子编程或阿里云；开发者选本地或Docker；飞书用户选火山引擎。"
+    },
+    {
+      "page": 7,
+      "title": "渠道接入：20+ 平台统一连接",
+      "bullets": [
+        "国际：Telegram（5分钟入门）、Discord、WhatsApp、Slack",
+        "国内：QQ（官方支持）、飞书（内置）、钉钉（社区插件）、企微",
+        "统一三步：创建凭证 → 写入配置 → 启动 Gateway",
+        "DM Pairing：未知用户需验证码批准，防滥用"
+      ],
+      "notes": "推荐入门顺序：Telegram → QQ → Discord → 飞书。强调 DM Pairing 安全机制的重要性。"
+    },
+    {
+      "page": 8,
+      "title": "Skills 系统：能力扩展",
+      "bullets": [
+        "三层优先级：工作区级 > 用户级 > 内置级",
+        "ClawHub：13,729 个 Skills（精选 5,494 个）",
+        "内置 55 个技能开箱即用",
+        "热门：Gmail、Agent Browser、GitHub、Summarize、Web Search"
+      ],
+      "notes": "Skill 是最小扩展单元，一个 SKILL.md 文件即可定义。项目级 Skill 适合团队协作，可放入 Git 仓库。"
+    },
+    {
+      "page": 9,
+      "title": "Skills 安全：供应链攻击",
+      "bullets": [
+        "ClawHavoc 事件：约 12% Skills 被确认为恶意",
+        "攻击链：伪装工具 → 诱导安装 helper → 植入木马",
+        "篡改 SOUL.md 可「洗脑」Agent 长期行为",
+        "防护：审查源码、SecureClaw 扫描、优先精选列表"
+      ],
+      "notes": "安全红线：拒绝任何要求「下载zip」「执行脚本」「输入密码」的 Skill。ClawHub 20% Skills 有问题，不能盲目信任。"
+    },
+    {
+      "page": 10,
+      "title": "模型配置：多模型自由切换",
+      "bullets": [
+        "国际：Claude（Agent 最佳）、GPT-5.4、Gemini",
+        "国产：DeepSeek-V3（$0.14/M 性价比之王）、GLM-5（代码最强）",
+        "本地：Ollama/LM Studio（免费、隐私安全）",
+        "Fallback 机制：主模型不可用时自动降级"
+      ],
+      "notes": "价格对比：DeepSeek 输入价格是 Claude 的 1/20。配置要点：models.mode 设为 merge 保留内置 Provider。"
+    },
+    {
+      "page": 11,
+      "title": "成本控制：避免账单失控",
+      "bullets": [
+        "Token 消耗可能是传统聊天的几十到上百倍",
+        "省钱策略：三级 Fallback 链（Sonnet → Haiku → DeepSeek）",
+        "设置日预算上限：maxCostPerDay",
+        "推荐：复杂任务 Claude，日常 DeepSeek，心跳 Gemini Flash 免费"
+      ],
+      "notes": "真实案例：用户设置邮件处理 cron 任务，一晚循环推理产生 $1,100 账单。务必设置预算上限！"
+    },
+    {
+      "page": 12,
+      "title": "安全模型：默认不信任",
+      "bullets": [
+        "DM Pairing：未知用户需验证码批准",
+        "群组沙箱：会话隔离，群聊看不到私聊记忆",
+        "工具控制：allowlist/denylist 模式",
+        "创始人坦诚：「prompt injection 没解决，有绝对风险」"
+      ],
+      "notes": "v2026.3.8 新增 ACP 身份验证。安全是用户自己的责任，OpenClaw 提供基础机制但非企业级安全。"
+    },
+    {
+      "page": 13,
+      "title": "已知安全事件",
+      "bullets": [
+        "CVE-2026-25253：RCE 漏洞（CVSS 8.8），13.5万实例受影响",
+        "ClawHavoc：供应链攻击，800+ 恶意 Skills",
+        "谷歌封号：大规模封禁 OpenClaw 用户的 Google 账号",
+        "工信部/CNCERT 发布安全风险预警"
+      ],
+      "notes": "不到5个月7起重大安全事件。强调务必更新到 v2026.3.8，设置 Gateway 认证，不要暴露未认证实例到公网。"
+    },
+    {
+      "page": 14,
+      "title": "生态与社区：养虾文化",
+      "bullets": [
+        "「养虾」文化：中文社区独特标签，10万+「云养虾」用户",
+        "Moltbook：AI Agent 的社交网络，Agent 自主发帖互动",
+        "深圳龙岗 AI 局发布支持政策征求意见稿",
+        "国产 Claw 产品：MaxClaw、AutoClaw、QClaw、ArkClaw"
+      ],
+      "notes": "文化现象：「你养龙虾了吗？」成为 AI 圈问候语。国产产品选择建议：要模型自由选原版 OpenClaw，要省心选封装版。"
+    },
+    {
+      "page": 15,
+      "title": "OpenClaw vs Claude Code",
+      "bullets": [
+        "OpenClaw：通用 AI 生活助手，多平台接入，长期在线",
+        "Claude Code：专业编程 Agent，代码能力最强",
+        "互补关系：OpenClaw 管生活，Claude Code 管代码",
+        "可通过 MCP 协议桥接两者能力"
+      ],
+      "notes": "核心结论：不是同类产品。OpenClaw 追求的是随时可唤醒、长期积累人格的 Agent。"
+    },
+    {
+      "page": 16,
+      "title": "总结与建议",
+      "bullets": [
+        "入门：阿里云一键部署 + QQ/飞书接入 + DeepSeek（月均¥20-50）",
+        "安全：务必设置 Gateway 认证、审查 Skills 源码、定期备份",
+        "成本：配置 Fallback 链 + 日预算上限，避免账单失控",
+        "长期：关注社区精选列表，参与「养虾」生态共建"
+      ],
+      "notes": "三条 actionable 建议。强调模型费用才是大头，服务器成本已降到很低。Fallback + 预算上限是省钱核心。"
+    }
+  ],
+  "title_options": [
+    "《养虾指南：OpenClaw 从入门到精通》",
+    "《28万 Stars 的 AI Agent 系统：OpenClaw 架构与实战》",
+    "《从聊天工具到数字员工：OpenClaw 如何重塑人机协作》"
+  ]
+}

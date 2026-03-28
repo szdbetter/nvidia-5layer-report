@@ -1,0 +1,118 @@
+{
+  "event_id": 278377,
+  "tracking_id": "d861bacb-6108-45d6-9a14-47b9e58ea095",
+  "feature_mode": "proxy_tweet_windows",
+  "total_tweets": 269,
+  "summary": {
+    "trade_count": 0,
+    "total_pnl": 0.0,
+    "max_drawdown": 0.0
+  },
+  "sensitivity": [
+    {
+      "edge_threshold": 0.03,
+      "slippage_bps": 50,
+      "trade_count": 0,
+      "total_pnl": 0.0,
+      "max_drawdown": 0.0
+    },
+    {
+      "edge_threshold": 0.05,
+      "slippage_bps": 100,
+      "trade_count": 0,
+      "total_pnl": 0.0,
+      "max_drawdown": 0.0
+    },
+    {
+      "edge_threshold": 0.08,
+      "slippage_bps": 150,
+      "trade_count": 0,
+      "total_pnl": 0.0,
+      "max_drawdown": 0.0
+    }
+  ],
+  "brackets": [
+    {
+      "bracket_low": 260,
+      "bracket_high": 279,
+      "fair_value": 0.98,
+      "price_points": 253,
+      "trade_count": 0,
+      "window_results": {
+        "all": {
+          "trade_count": 0,
+          "total_pnl": 0.0,
+          "max_drawdown": 0.0
+        },
+        "last_2h": {
+          "trade_count": 0,
+          "total_pnl": 0.0,
+          "max_drawdown": 0.0
+        },
+        "last_1h": {
+          "trade_count": 0,
+          "total_pnl": 0.0,
+          "max_drawdown": 0.0
+        }
+      },
+      "feature_rows": [
+        {
+          "timestamp": "2026-03-17T05:00:46Z",
+          "market_mid": 0.5,
+          "fair_value": 0.98,
+          "tweets_total": 0,
+          "tweet_delta_5m": 0,
+          "tweet_delta_15m": 0,
+          "tweet_delta_1h": 0,
+          "tweet_delta_6h": 0,
+          "proxy_total_tweets": 269
+        },
+        {
+          "timestamp": "2026-03-17T06:00:33Z",
+          "market_mid": 0.5,
+          "fair_value": 0.98,
+          "tweets_total": 0,
+          "tweet_delta_5m": 0,
+          "tweet_delta_15m": 0,
+          "tweet_delta_1h": 0,
+          "tweet_delta_6h": 0,
+          "proxy_total_tweets": 269
+        },
+        {
+          "timestamp": "2026-03-17T07:00:35Z",
+          "market_mid": 0.5,
+          "fair_value": 0.98,
+          "tweets_total": 0,
+          "tweet_delta_5m": 0,
+          "tweet_delta_15m": 0,
+          "tweet_delta_1h": 0,
+          "tweet_delta_6h": 0,
+          "proxy_total_tweets": 269
+        },
+        {
+          "timestamp": "2026-03-17T08:00:34Z",
+          "market_mid": 0.5,
+          "fair_value": 0.98,
+          "tweets_total": 0,
+          "tweet_delta_5m": 0,
+          "tweet_delta_15m": 0,
+          "tweet_delta_1h": 0,
+          "tweet_delta_6h": 0,
+          "proxy_total_tweets": 269
+        },
+        {
+          "timestamp": "2026-03-17T09:00:35Z",
+          "market_mid": 0.5,
+          "fair_value": 0.98,
+          "tweets_total": 0,
+          "tweet_delta_5m": 0,
+          "tweet_delta_15m": 0,
+          "tweet_delta_1h": 0,
+          "tweet_delta_6h": 0,
+          "proxy_total_tweets": 269
+        }
+      ],
+      "trades": []
+    }
+  ]
+}

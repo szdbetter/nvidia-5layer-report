@@ -1,0 +1,334 @@
+{
+  "total_trades": 36,
+  "wins": 1,
+  "win_rate": 0.027777777777777776,
+  "total_pnl": -285.22,
+  "sharpe": -0.11,
+  "avg_profit": -7.92,
+  "trades": [
+    {
+      "week": "2024-06-28",
+      "bet_bracket": "60-69",
+      "resolved": "70-79",
+      "edge": 0.09371065116382868,
+      "market_price": 0.095,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2024-07-05",
+      "bet_bracket": "70-79",
+      "resolved": "70-79",
+      "edge": 0.09053706705630464,
+      "market_price": 0.046,
+      "profit": 414.7826086956522,
+      "won": true
+    },
+    {
+      "week": "2024-07-12",
+      "bet_bracket": "50-59 ",
+      "resolved": "100+",
+      "edge": 0.15342872486996562,
+      "market_price": 0.045,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2024-07-19",
+      "bet_bracket": "<60",
+      "resolved": "100-109",
+      "edge": 0.27838592755595776,
+      "market_price": 0.0155,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2024-07-26",
+      "bet_bracket": "<60",
+      "resolved": "120+",
+      "edge": 0.11947310644283629,
+      "market_price": 0.033,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2024-08-09",
+      "bet_bracket": "<60",
+      "resolved": "130+",
+      "edge": 0.10394227827555716,
+      "market_price": 0.025,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2024-08-23",
+      "bet_bracket": "110-119",
+      "resolved": "150+",
+      "edge": 0.1023561652227369,
+      "market_price": 0.013,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2024-08-30",
+      "bet_bracket": "140-149",
+      "resolved": "180+",
+      "edge": 0.08244815078330527,
+      "market_price": 0.014,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2024-09-06",
+      "bet_bracket": "<150",
+      "resolved": "225-249",
+      "edge": 0.24835515116939325,
+      "market_price": 0.23,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2024-09-13",
+      "bet_bracket": "125-149",
+      "resolved": "225-249",
+      "edge": 0.1678076575262537,
+      "market_price": 0.017,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2024-09-20",
+      "bet_bracket": "175-199",
+      "resolved": "200-224",
+      "edge": 0.198217133635201,
+      "market_price": 0.014,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2024-09-27",
+      "bet_bracket": "150-174",
+      "resolved": "300+",
+      "edge": 0.15645288659940623,
+      "market_price": 0.033,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2024-10-04",
+      "bet_bracket": "200-224 ",
+      "resolved": "175-199",
+      "edge": 0.14871422438479284,
+      "market_price": 0.036,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2024-10-18",
+      "bet_bracket": "250-274",
+      "resolved": "300+",
+      "edge": 0.15465405793483952,
+      "market_price": 0.0375,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2024-10-25",
+      "bet_bracket": "225-249",
+      "resolved": "400+",
+      "edge": 0.18779558967798993,
+      "market_price": 0.014,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2024-11-01",
+      "bet_bracket": "300-324",
+      "resolved": "375-399",
+      "edge": 0.11540079959452866,
+      "market_price": 0.013,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2024-11-15",
+      "bet_bracket": "300-324",
+      "resolved": "450+",
+      "edge": 0.10427028862189233,
+      "market_price": 0.0315,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2024-11-30",
+      "bet_bracket": "375-399",
+      "resolved": "<300",
+      "edge": 0.09710074950650334,
+      "market_price": 0.0155,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2024-12-27",
+      "bet_bracket": "450+",
+      "resolved": "400-424",
+      "edge": 0.1964859708136723,
+      "market_price": 0.0135,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2025-01-10",
+      "bet_bracket": "<400",
+      "resolved": "400-449",
+      "edge": 0.12020055441823202,
+      "market_price": 0.37,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2025-01-24",
+      "bet_bracket": "375-399",
+      "resolved": "275-299",
+      "edge": 0.0938524299647306,
+      "market_price": 0.017,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2025-01-31",
+      "bet_bracket": "400-424",
+      "resolved": "450+",
+      "edge": 0.08194578710039042,
+      "market_price": 0.0125,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2025-02-14",
+      "bet_bracket": "<500",
+      "resolved": "600-649",
+      "edge": 0.49673048069899817,
+      "market_price": 0.125,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2025-02-21",
+      "bet_bracket": "500-549",
+      "resolved": "750-799",
+      "edge": 0.13423426985586623,
+      "market_price": 0.0155,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2025-02-28",
+      "bet_bracket": "<500",
+      "resolved": "550-599",
+      "edge": 0.3603332578661404,
+      "market_price": 0.016,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2025-03-21",
+      "bet_bracket": "650+",
+      "resolved": "475-499",
+      "edge": 0.2532700997804341,
+      "market_price": 0.0125,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2025-04-25",
+      "bet_bracket": "400+",
+      "resolved": "150\u2013174",
+      "edge": 0.34583105380630347,
+      "market_price": 0.0125,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2025-05-02",
+      "bet_bracket": "350+",
+      "resolved": "225\u2013249",
+      "edge": 0.29564976876002597,
+      "market_price": 0.046,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2025-05-09",
+      "bet_bracket": "350+",
+      "resolved": "250\u2013274",
+      "edge": 0.18472454987109693,
+      "market_price": 0.0165,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2025-05-16",
+      "bet_bracket": "225\u2013249",
+      "resolved": "150\u2013174",
+      "edge": 0.0938234890628142,
+      "market_price": 0.02,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2025-05-23",
+      "bet_bracket": "200\u2013224",
+      "resolved": "125\u2013149",
+      "edge": 0.16077546584974597,
+      "market_price": 0.0315,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2025-05-30",
+      "bet_bracket": "155\u2013169",
+      "resolved": "230+",
+      "edge": 0.1135148281585662,
+      "market_price": 0.0215,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2025-06-05",
+      "bet_bracket": "200\u2013224",
+      "resolved": "175\u2013199",
+      "edge": 0.1302460621629985,
+      "market_price": 0.11,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2025-06-13",
+      "bet_bracket": "220\u2013234",
+      "resolved": "145\u2013159",
+      "edge": 0.0939711676640275,
+      "market_price": 0.033,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2025-07-18",
+      "bet_bracket": "150\u2013164",
+      "resolved": "195\u2013209",
+      "edge": 0.09797143336778528,
+      "market_price": 0.045,
+      "profit": -20,
+      "won": false
+    },
+    {
+      "week": "2025-07-25",
+      "bet_bracket": "195\u2013209",
+      "resolved": "150\u2013164",
+      "edge": 0.10277404427961055,
+      "market_price": 0.0485,
+      "profit": -20,
+      "won": false
+    }
+  ]
+}

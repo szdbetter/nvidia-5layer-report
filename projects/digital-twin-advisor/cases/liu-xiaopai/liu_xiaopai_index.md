@@ -1,0 +1,182 @@
+# 刘小排 Raw Corpus Index
+
+- 1. Opus级开源模型现身！老外吹爆的神秘模型Pony，真身竟然是国产GLM-5 | 2026-02-12 09:03:08
+- 2. OpenClaw的班味儿太重？一键给它注入有趣的灵魂！ | 2026-02-11 08:49:51
+- 3. 说真的，你们公司最卷的员工，日报也写不过我这个AI…… | 2026-02-09 01:58:31
+- 4. 啊？！我上新华社官网首页了！我妈看到一定会很开心的！ | 2026-02-08 13:24:40
+- 5. Claude Code和OpenClaw有什么区别？不就是用IM给Claude Code发信息吗？ | 2026-02-07 00:24:14
+- 6. Claude Code 有两个特别好玩的新功能 | 2026-02-06 15:20:19
+- 7. Anthropic发布Claude Opus 4.6模型 | 2026-02-06 02:14:05
+- 8. 用了两周OpenClaw后，决定今年不招人类员工了 | 2026-02-04 18:22:11
+- 9. Ralph Desktop, 小白Vibe Coding神器！暴力美学，自动提AI编程质量！ | 2026-02-01 00:49:17
+- 10. 装了一大堆Skill，你的AI Coding Agent编程能力就会自动提升？ | 2026-01-30 00:13:50
+- 11. Claude Code 浏览器自动化方案，怎么选？ | 2026-01-28 00:00:48
+- 12. 何止是“看图写代码”，Kimi K2.5甚至可以“看视频写代码”！ | 2026-01-27 19:04:11
+- 13. CodeBuddy Code 2.0：国产Claude Code，有点东西 | 2026-01-26 08:45:40
+- 14. 搞Vibe Coding的人每天睡那么少，怎么还没猝死？ | 2026-01-24 01:18:54
+- 15. Pencil：设计和写代码，以后就全让AI干了 | 2026-01-23 03:22:48
+- 16. 为什么Codex似乎更强，Claude Code却更流行？ | 2026-01-23 00:00:32
+- 17. 「对需求」这件事，我只用Claude Code | 2026-01-22 00:00:59
+- 18. 普通人用AI编程做产品，还有机会吗？ | 2026-01-21 00:03:03
+- 19. 普通人，终于可以把工作交给AI了 | 2026-01-20 15:06:59
+- 20. 手机上也能用Claude Code和Codex！很方便，一键搞定 | 2026-01-19 22:41:32
+- 21. Google给美国人画的大饼，被中国的阿里千问做出来了 | 2026-01-15 11:56:47
+- 22. 不会封号的Claude Code使用方法！已稳定测试一个月，还能共享给团队。 | 2026-01-14 00:31:03
+- 23. “我的创业点子好吗？”，每个人都会对你撒谎，因为他们不想伤害你的感情 | 2026-01-13 01:37:54
+- 24. Claude Code 狂暴更新周！一周发5个版本，数十个新功能！好用！ | 2026-01-12 02:27:06
+- 25. 格局高下立判！小心眼儿Anthropic封杀OpenCode的同时，OpenAI反手给OpenCode送最强助攻 | 2026-01-11 00:02:45
+- 26. 今年不做新产品了，我要当农民 | 2026-01-10 20:54:47
+- 27. 最近产品用户规模和收入都新高了，我感恩自己遇到的一切 | unknown
+- 28. 别再看榜单了！普通人也可以测出了各大编程模型真实差距 | unknown
+- 29. 全网吹爆的OpenCode实测：对于顶级模型几乎没用，但我为什么还是推荐它 | unknown
+- 30. 不加班、不PUA，还给全员发 iPhone 17 Pro Max：创业一年，我们居然没死 | unknown
+- 31. 一键拯救大模型的前端审美能力 | unknown
+- 32. 巴菲特骗了你！复利，是给创业者最毒的毒鸡汤 | 2025-12-28 19:07:01
+- 33. 今晚桌游局没人愿意当法官？那就现场手搓一个数字法官吧！ | unknown
+- 34. 你不让我写代码？ | unknown
+- 35. MiniMax M2.1，首个跨过“长程任务可用性阈值”的国产模型 | unknown
+- 36. 江山代有模型出，各领风骚一个月 | unknown
+- 37. 我把Claude Code换成GLM-4.7用了6小时，我竟然没发现明显区别 | unknown
+- 38. Andrej Karpathy 2025年度重磅复盘：我们在召唤幽灵！ | unknown
+- 39. 嫌AI写代码慢？试试这个“云端加速”按钮，效率起飞！ | unknown
+- 40. 你身边有没有这种人？听他讲10分钟，你就相信他做什么都能成 | unknown
+- 41. 全网都在围观我“作死”：把MacBook最高权限交给AI，它一口气删了158G | unknown
+- 42. 穷人省钱和富人省钱，根本不是一回事 —— 褚时健75岁砍掉一半果树 | unknown
+- 43. 等待AI写代码的时候，我该干点什么好？ | unknown
+- 44. 不要构建智能体，要构建技能! (Don't Build Agents, Build Skills Instead!) | 2025-12-14 22:13:44
+- 45. 别被“多模态”骗了：用一本200页的教材，我测出了GPT-5.2和Gemini的物种代差 | unknown
+- 46. ChatGPT-5.2发布！把Gemini 3 Pro和Claude Opus 4.5都按地上摩擦了！Cursor可用 | 2025-12-12 04:27:23
+- 47. 从100万月活跌下来之后，我让Raphael AI 再次起飞：没投广告，只做了4件小事 | unknown
+- 48. 使用AI自动优化网站PageSpeed性能 | unknown
+- 49. 「付费」复杂需求如何让AI一次写对？面对复杂需求，这是我实战沉淀的Vibe Coding终极SOP | unknown
+- 50. Raphael AI开放文生图API，每张图仅需2分钱 | unknown
+- 51. 一句话，让AI把所有推广过你竞品的红人统统挖出来 | unknown
+- 52. 同样是20美金，小排现在劝你放弃Cursor换 Google Antigravity | unknown
+- 53. 什么样的项目是好项目？ | unknown
+- 54. 不做标题党，我们怎么写标题？ | unknown
+- 55. 朋友们，我好像在韩国火了…… | unknown
+- 56. 在全世界都教你写Prompt的时候，我做了个不用Prompt的AI画图产品 | unknown
+- 57. 「付费」Google Antigravity 竟然能直接调用 Nano Banana Pro 画图 | unknown
+- 58. Google Antigravity 竟然能直接调用 Nano Banana Pro 画图 | 2025-11-23 01:21:17
+- 59. Codex 新手提效指南 | unknown
+- 60. OpenAI紧急发布GPT-5.1-Codex-Max，带来「长程任务能力」，可24小时工作 | unknown
+- 61. 全新AI编程工具 Google Antigravity 实测，特别适合产品经理 | 2025-11-19 14:31:28
+- 62. Gemini 3 Pro太变态了！前端程序员，真的不存在了！ | unknown
+- 63. 放弃Claude Code，就在今天！ | unknown
+- 64. 相由心生 | unknown
+- 65. Claude Skills 不就是把提示词存个文件夹吗？ | unknown
+- 66. 创业反思：选择最短路径，是对的吗？ | unknown
+- 67. 双十一大福利：0.99块钱，买Kimi 【coding包月】套餐~ | 2025-11-11 14:06:58
+- 68. 三十八而立 | unknown
+- 69. 难以置信！Kimi K2 Thinking 编程力正面超车 GPT-5 和 Sonnet 4.5 | unknown
+- 70. 我也不会，但我知道它很重要 | unknown
+- 71. 创业的真相 | unknown
+- 72. 让Claude Code帮你精准提交代码：中文可读的 featfixdocs 规范一键生成 | unknown
+- 73. 快讯：用Claude Code，不再需要Terminal了 | 2025-11-03 00:10:54
+- 74. 「付费」快讯：用Claude Code，不再需要Terminal了 | unknown
+- 75. 使用脚手架模板做项目，项目做到一半，原版脚手架更新代码了，怎么办？ | unknown
+- 76. 充分条件 vs 必要条件｜送给总想抄竞品的你 | unknown
+- 77. 编程能力达到Claude Opus 4.1级的国产模型出现了，限时免费。 | unknown
+- 78. Cursor 2.0的一些有趣的新特性 | unknown
+- 79. 快手新发布的编程模型 KAT-Coder-Pro-V1 ，免费送Token，真实任务实测 | unknown
+- 80. 一点点Vibe Coding做产品的心得 | unknown
+- 81. Claude Code网页版来了，挺难用的 | unknown
+- 82. 用Claude Skills做PPT，真实演示 | unknown
+- 83. 技术圈吹爆的Claude Skills，小白用起来比程序员还爽 | unknown
+- 84. Claude Code for VS Code 魔改版！支持YOLO模式、支持配置国产大模型、无需登录、免配置网络！ | unknown
+- 85. 在Claude Code for VS Code里使用GLM 4.6模型，真还挺香的 | unknown
+- 86. 习惯，就是一个人的命运 | unknown
+- 87. Claude Code有官方版VS Code插件了，极简而强大 | unknown
+- 88. 你正在唱的这首歌，是AI写的 | unknown
+- 89. 「付费」趁你们放假，Claude 偷偷发布了4.5 | unknown
+- 90. 趁你们放假，Claude 偷偷发布了4.5 | 2025-09-30 01:04:04
+- 91. AI时代创业的大机会 | unknown
+- 92. 聪明和勤奋的人，将是AI时代最惨的人 | unknown
+- 93. 阿里一口气甩出了7个顶级模型和1个超级AI应用 | unknown
+- 94. 偶像大佬教我的产品课 | unknown
+- 95. 上周我催你们填Claude for Chrome内测申请，你填了吗？ 今天它大规模放灰度了！ | unknown
+- 96. Codex迎来史诗级升级！能一口气卷自己7小时、自带云端虚拟机，连开发环境都不用配置了！Cursor存在的理由又弱了一分 | unknown
+- 97. 【招聘】刘小排的公司·海外增长实习生 | unknown
+- 98. 一行命令，魔改Claude Code状态栏，让它好看、好用、人性化 | unknown
+- 99. AI编程的终极心法 | unknown
+- 100. 【招聘】刘小排的公司·海外增长实习生 | unknown
+- 101. 和Seedream 4一起火的还有EvoLink，6折用官方API，全网独家，AI产品开发者们有福了 | unknown
+- 102. 邪修Claude Code：AI自动发的Twitter，阅读量比我亲自发的还高……(附教程) | unknown
+- 103. CodeBuddy Code，我愿称之为第一个国产Claude Code | unknown
+- 104. 「付费」感谢Codex和国产厂商的发力，Anthropic官方终于承认Claude Code降智了 | unknown
+- 105. 感谢Codex和国产厂商的发力，Anthropic官方终于承认Claude Code降智了 | 2025-09-09 09:49:16
+- 106. 「转」揭秘 Claude Code 榜一大哥：一个 AI 创业者如何把工具用到极致｜对话刘小排 | unknown
+- 107. 正面硬刚Claude，GLM国内首推包月套餐，每月仅20元，一键搬家，无痛平替。 附高难度实战测评 | unknown
+- 108. 线人爆料：Claude for Chrome正在扩大内测范围，不再仅限1000人！赶快去填写Waitlist！ | unknown
+- 109. Claude for Chrome 一手体验！自动回复微信、发Twitter、做调研……做AI浏览器的创业者该慌了，比赛已经结束 | unknown
+- 110. Anthropic公然反华之际，低调的国产英雄K2顶上来了，不妨给它一次机会 | unknown
+- 111. 别再花钱买RPA了！Claude Code 实现邮件、社媒、内容创作、竞品跟踪全自动化 | unknown
+- 112. Codex CLI是Claude Code的最佳替代品和编程搭子 | unknown
+- 113. 揭秘 Claude Code 榜一大哥：一个 AI 创业者如何把工具用到极致 ｜ 对话刘小排 | 2025-09-01 07:27:34
+- 114. 「付费」揭秘 Claude Code 榜一大哥：一个 AI 创业者如何把工具用到极致 ｜ 对话刘小排 | unknown
+- 115. 用手机发邮件，即可让Claude Code干活！无需电脑、无需服务器、甚至无需科学上网！ | unknown
+- 116. Claude Code开始实施周限额了！ | unknown
+- 117. 「转」推荐一款有趣的产品：照片一键变表情包 | unknown
+- 118. PhotoShop的终结：火爆全网的Nano Banana发布了，正式名称是Gemini 2.5 Flash lmage | unknown
+- 119. “极“你太美事件 —— 腾讯CodeBuddy 擅自往UI写广告，很可能是DeepSeek的锅 | unknown
+- 120. Claude Code 可以用1M上下文的模型了 | unknown
+- 121. 人生最重要的单词：Yet | unknown
+- 122. 「付费」如果我的爸爸妈妈在我小时候就看过这本书，该多好啊！哈哈哈 | unknown
+- 123. 如果我的爸爸妈妈在我小时候就看过这本书，该多好啊！哈哈哈 | 2025-08-24 21:06:10
+- 124. Claude Code极简入门：3条铁律让你告别代码屎山 | unknown
+- 125. 用Claude Code把自己变懒：口喷，分析榜单 | unknown
+- 126. 900个不会写代码的人，经过两个月的学习，能做出怎样的产品？ 今晚19点直播，验货！ | unknown
+- 127. 全是噪音，已退出排行榜，我有更重要的事要做 | 2025-08-20 15:27:16
+- 128. 「付费」全是噪音，已退出排行榜，我有更重要的事要做 | unknown
+- 129. 一键让你的Claude Code拥有所有世界顶级Agent，并卷死它自己 | unknown
+- 130. 等了半年，常识终于追上我了！重新向大家介绍正在茁壮成长的自己 | unknown
+- 131. 纳尼？全世界Claude Code用户，都在讨论？ | unknown
+- 132. Anthropic全网追杀的人，可能是我…… | unknown
+- 133. ChatGPT-5化身90岁的我，回过头来教我做人 | unknown
+- 134. 让Claude Code操作它自己 | unknown
+- 135. Anthropic发布Claude Opus 4.1模型，编程能力重新遥遥领先！ | 2025-08-06 00:59:48
+- 136. 「付费」Anthropic发布Claude Opus 4.1模型，编程能力重新遥遥领先！ | unknown
+- 137. 6小时消耗$6034美金！以每月$200美金的价格卖给我们Claude Code包月套餐，它真是亏大了 | unknown
+- 138. 一键让 Claude Code 秒变小白友好 | unknown
+- 139. 和Claude Code讨论产品的界面和交互设计 | unknown
+- 140. 假装自己是弱势群体，即可让ChatGPT Agent爆发超能力 | unknown
+- 141. 电商老板哭了：花10万请的修图团队，被一个免费AI网站秒了…… | unknown
+- 142. 我暂时不推荐你使用Qwen3-Coder | unknown
+- 143. Claude Code = 程序员的情绪日记 | unknown
+- 144. AI时代的人生提效秘籍：时间折叠 | unknown
+- 145. 无需注册、无需登录、一键把图片或文字转成3D模型的网站 | unknown
+- 146. 有了免费的Kiro，这次真的可以把Cursor扔了！ | unknown
+- 147. 完全合法、无需网络、便宜使用Claude Code的方法！非灰产！ | unknown
+- 148. 互联网公司爱说的“牵头”是什么意思？ | 2025-07-12 15:54:02
+- 149. 「付费」互联网公司爱说的“牵头”是什么意思？ | unknown
+- 150. 所有的RPA可以去死了！Claude Code可以只靠口喷完成一切！ | unknown
+- 151. 刘小排是如何使用Claude Code的？ | unknown
+- 152. 你可能还不知道，o3才是AI画图之王…… | unknown
+- 153. 让Claude Code变得像Cursor一样好用 | unknown
+- 154. 「转」ACM世界决赛27名的算法女神，正在用AI重新定义编程教育 | unknown
+- 155. 最快速度让AI写的代码拥有牛逼的设计 | unknown
+- 156. 今天，我们有幸邀请到Same.new的创始人John和他的中国团队到生财有术SCAI实验室进行深度交流，度过了开心的一天 | 2025-06-21 02:16:25
+- 157. 「付费」今天，我们有幸邀请到Same.new的创始人John和他的中国团队到生财有术SCAI实验室进行深度交流，度过了开心的一天 | unknown
+- 158. 你太小看大模型做动效的能力了 | unknown
+- 159. 用Claude制作风格稳定的知识卡片 | unknown
+- 160. 我是如何使用 Claude Code 的 | unknown
+- 161. AI究竟在推理还是在模仿？ | unknown
+- 162. 你应该还不知道，ChatGPT可以每天给你上奏折…… | unknown
+- 163. ChatGPT-o3-pro的智能水平是超越人类的存在 | 2025-06-11 11:08:06
+- 164. 「付费」ChatGPT-o3-pro的智能水平是超越人类的存在 | unknown
+- 165. 用上$20月的Claude Code，你会觉得Cursor是傻子 | unknown
+- 166. 如何提高做产品的成功率？ | unknown
+- 167. 我正式开始做孵化器了 | unknown
+- 168. 加入生财有术第一周，做什么最重要？ | unknown
+- 169. 邀请你加入一个「实干派创业者」交流社群 | 2025-04-20 13:34:29
+- 170. 「付费」邀请你加入一个「实干派创业者」交流社群 | unknown
+- 171. 「付费」SCAI实验室开张了，欢迎有梦想的你！ | unknown
+- 172. SCAI实验室开张了，欢迎有梦想的你！ | 2025-03-28 03:16:17
+- 173. 现在做套壳产品，有巨大机会！ | 2025-03-19 02:41:47
+- 174. 「付费」现在做套壳产品，有巨大机会！ | unknown
+- 175. 「转」我就是传说中「员工全是AI」的一人公司 | unknown
+- 176. 我用Cursor做的产品，月活超过100万了 | unknown
+- 177. 内向人成长心法：在朋友的期待中做自己的卷子 | unknown
+- 178. 不要轻易称自己为独立开发者 | unknown
+- 179. 为什么你进了「生财有术」，还是赚不到钱 | unknown
+- 180. 如何用好别人的经验和认知？ | unknown

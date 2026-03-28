@@ -1,0 +1,9 @@
+⚠️ Failed to read Safari cookies: EPERM: operation not permitted, open '/Users/ai/Library/Containers/com.apple.Safari/Data/Library/Cookies/Cookies.binarycookies'
+⚠️ No Twitter cookies found in Safari. Make sure you are logged into x.com in Safari.
+⚠️ Failed to read macOS Keychain (Chrome Safe Storage): Timed out after 3000ms
+⚠️ No Twitter cookies found in Chrome. Make sure you are logged into x.com in Chrome.
+⚠️ Firefox cookies database not found.
+⚠️ No Twitter cookies found in Firefox. Make sure you are logged into x.com in Firefox and the profile exists.
+⚠️ Missing auth_token - provide via --auth-token, AUTH_TOKEN env var, or login to x.com in Safari/Chrome/Firefox
+⚠️ Missing ct0 - provide via --ct0, CT0 env var, or login to x.com in Safari/Chrome/Firefox
+❌ Missing required credentials

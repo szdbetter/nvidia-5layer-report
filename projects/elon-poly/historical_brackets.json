@@ -1,0 +1,4040 @@
+[
+  {
+    "event_id": 10559,
+    "title": "# of Elon Musk tweets between May 3 and May 10?",
+    "start": "2024-05-03",
+    "end": "2024-05-10",
+    "resolved_bracket": "90-104",
+    "brackets": [
+      {
+        "bracket": "<60",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "60-74",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "75-89",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "90-104",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "105-119",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "120-134",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "135-149",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "150+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 10628,
+    "title": "# of Elon Musk tweets between May 10 and May 17?",
+    "start": "2024-05-10",
+    "end": "2024-05-17",
+    "resolved_bracket": "<60",
+    "brackets": [
+      {
+        "bracket": "<60",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "60-74 ",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "75-89 ",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "90-104 ",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "105-119 ",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "120-134",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "135-149",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "150+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 10678,
+    "title": "# of Elon Musk tweets between May 17 and May 24?",
+    "start": "2024-05-17",
+    "end": "2024-05-24",
+    "resolved_bracket": "75-84 ",
+    "brackets": [
+      {
+        "bracket": "<55",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "55-64",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "65-74",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "75-84 ",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "85-94 ",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "95-104",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "115+",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "105-114",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 10764,
+    "title": "# of Elon Musk tweets between May 24 and May 31?",
+    "start": "2024-05-24",
+    "end": "2024-05-31",
+    "resolved_bracket": "<55",
+    "brackets": [
+      {
+        "bracket": "<55",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "55-64",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "65-74",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "75-84",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "85-94",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "95-104",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "105-114",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "115+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 10825,
+    "title": "Elon Musk # of tweets May 31 - June 7?",
+    "start": "2024-05-31",
+    "end": "2024-06-07",
+    "resolved_bracket": "80-89",
+    "brackets": [
+      {
+        "bracket": "<40",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "40-49",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "50-59",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "60-69",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "70-79",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "80-89",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "90-99",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "100+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 10984,
+    "title": "Elon Musk # of tweets June 7-14?",
+    "start": "2024-06-07",
+    "end": "2024-06-14",
+    "resolved_bracket": "70-79",
+    "brackets": [
+      {
+        "bracket": "<40",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "40-49 ",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "50-59",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "60-69",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "70-79",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "80-89",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "90-99",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "100+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 11108,
+    "title": "Elon Musk # of tweets June 14-21?",
+    "start": "2024-06-14",
+    "end": "2024-06-21",
+    "resolved_bracket": "40-49 ",
+    "brackets": [
+      {
+        "bracket": "<40",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "40-49 ",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "50-59",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "60-69",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "70-79",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "80-89",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "90-99",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "100+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 11206,
+    "title": "Elon Musk # of tweets June 21-28?",
+    "start": "2024-06-21",
+    "end": "2024-06-28",
+    "resolved_bracket": "50-59",
+    "brackets": [
+      {
+        "bracket": "<40",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "40-49",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "50-59",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "60-69",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "70-79",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "80-89",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "90-99",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "100+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 11312,
+    "title": "Elon Musk # of tweets June 28 - July 5?",
+    "start": "2024-06-28",
+    "end": "2024-07-05",
+    "resolved_bracket": "70-79",
+    "brackets": [
+      {
+        "bracket": "<40",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "40-49",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "50-59",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "60-69",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "70-79",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "80-89",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "90-99",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "100+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 11407,
+    "title": "Elon Musk # of tweets July 5 - July 12?",
+    "start": "2024-07-05",
+    "end": "2024-07-12",
+    "resolved_bracket": "70-79",
+    "brackets": [
+      {
+        "bracket": "<40",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "40-49",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "50-59",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "60-69",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "70-79",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "80-89",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "90-99",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "100+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 11479,
+    "title": "Elon Musk # of tweets July 12 - July 19?",
+    "start": "2024-07-12",
+    "end": "2024-07-19",
+    "resolved_bracket": "100+",
+    "brackets": [
+      {
+        "bracket": "<40",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "40-49 ",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "50-59 ",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "60-69",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "70-79",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "80-89",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "90-99",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "100+",
+        "yes_price": 1.0
+      }
+    ]
+  },
+  {
+    "event_id": 11619,
+    "title": "Elon Musk # of tweets July 19-26?",
+    "start": "2024-07-19",
+    "end": "2024-07-26",
+    "resolved_bracket": "100-109",
+    "brackets": [
+      {
+        "bracket": "120+",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "<60",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "60-69",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "70-79",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "80-89",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "90-99",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "100-109",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "110-119",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 11725,
+    "title": "Elon Musk # of tweets July 26 - Aug 2?",
+    "start": "2024-07-26",
+    "end": "2024-08-02",
+    "resolved_bracket": "120+",
+    "brackets": [
+      {
+        "bracket": "<60",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "60-69",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "70-79",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "80-89",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "90-99",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "100-109",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "110-119",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "120+",
+        "yes_price": 1.0
+      }
+    ]
+  },
+  {
+    "event_id": 11820,
+    "title": "Elon Musk # of tweets August 2-9?",
+    "start": "2024-08-02",
+    "end": "2024-08-09",
+    "resolved_bracket": "80-89",
+    "brackets": [
+      {
+        "bracket": "<60",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "60-69",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "70-79",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "80-89",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "90-99",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "100-109",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "110-119",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "120-129",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "130+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 11955,
+    "title": "Elon Musk # of tweets August 9-16?",
+    "start": "2024-08-09",
+    "end": "2024-08-16",
+    "resolved_bracket": "130+",
+    "brackets": [
+      {
+        "bracket": "<60",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "60-69",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "70-79",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "80-89",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "90-99",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "100-109",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "110-119",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "120-129",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "130+",
+        "yes_price": 1.0
+      }
+    ]
+  },
+  {
+    "event_id": 12082,
+    "title": "Elon Musk # of tweets August 16-23?",
+    "start": "2024-08-16",
+    "end": "2024-08-23",
+    "resolved_bracket": "80-99",
+    "brackets": [
+      {
+        "bracket": "<60",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "60-79",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "80-99",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "100-109",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "110-119",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "120-129",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "130-139",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "140-159",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "180+",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "160-179",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 12192,
+    "title": "Elon Musk # of tweets August 23-30?",
+    "start": "2024-08-23",
+    "end": "2024-08-30",
+    "resolved_bracket": "150+",
+    "brackets": [
+      {
+        "bracket": "<60",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "60-69",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "70-79",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "80-89",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "90-99",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "100-109",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "110-119",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "130-139",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "150+",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "140-149",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "120-129",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 12312,
+    "title": "Elon Musk # of tweets August 30-Sept 6?",
+    "start": "2024-08-30",
+    "end": "2024-09-06",
+    "resolved_bracket": "180+",
+    "brackets": [
+      {
+        "bracket": "<80",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "80-99",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "100-109",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "110-119",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "130-139",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "120-129",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "140-149",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "150-159",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "160-179",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "180+",
+        "yes_price": 1.0
+      }
+    ]
+  },
+  {
+    "event_id": 12434,
+    "title": "Elon Musk # of tweets Sept 6-13?",
+    "start": "2024-09-06",
+    "end": "2024-09-13",
+    "resolved_bracket": "225-249",
+    "brackets": [
+      {
+        "bracket": "150-199",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "200-224",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "225-249",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "250-274",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "275-299",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "<150",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "300-324",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "325-349",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "350-399",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "400+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 12570,
+    "title": "Elon Musk # of tweets Sept 13-20?",
+    "start": "2024-09-13",
+    "end": "2024-09-20",
+    "resolved_bracket": "225-249",
+    "brackets": [
+      {
+        "bracket": "<100",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "100-124",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "125-149",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "150-174",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "175-199",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "200-224",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "225-249",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "250-274",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "275-299",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "300+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 12720,
+    "title": "Elon Musk # of tweets Sept 20-27?",
+    "start": "2024-09-20",
+    "end": "2024-09-27",
+    "resolved_bracket": "200-224",
+    "brackets": [
+      {
+        "bracket": "<100",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "100-124",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "125-149",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": " 150-174",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "175-199",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "200-224",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "225-249",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "250-274",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "275-299",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "300+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 12918,
+    "title": "Elon Musk # of tweets Sept 27- Oct 4?",
+    "start": "2024-09-27",
+    "end": "2024-10-04",
+    "resolved_bracket": "300+",
+    "brackets": [
+      {
+        "bracket": "300+",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "<100",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "175-199",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "100-124 ",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "125-149 ",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "150-174",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "200-224 ",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "225-249 ",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "250-274",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "275-299",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 13195,
+    "title": "Elon Musk # of tweets Oct 4-11?",
+    "start": "2024-10-04",
+    "end": "2024-10-11",
+    "resolved_bracket": "175-199",
+    "brackets": [
+      {
+        "bracket": "<150",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "150-174",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "175-199",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "200-224 ",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "225-249",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "250-274 ",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "275-299",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "300-324",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "325-349",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "350-374",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "375-399",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "400+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 13343,
+    "title": "Elon Musk # of tweets Oct 11-18?",
+    "start": "2024-10-11",
+    "end": "2024-10-18",
+    "resolved_bracket": "200-224",
+    "brackets": [
+      {
+        "bracket": "<150",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "150-174",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "175-199",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "200-224",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": " 225-249",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "250-274",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "275-299",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "300-324",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "325-349",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "350+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 13501,
+    "title": "Elon Musk # of tweets Oct 18-25?",
+    "start": "2024-10-18",
+    "end": "2024-10-25",
+    "resolved_bracket": "300+",
+    "brackets": [
+      {
+        "bracket": "<100",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "100-124",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "125-149",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "150-174",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "175-199",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "200-224 ",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "225-249 ",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "250-274",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "275-299",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "300+",
+        "yes_price": 1.0
+      }
+    ]
+  },
+  {
+    "event_id": 13748,
+    "title": "Elon Musk # of tweets Oct 25 - Nov 1?",
+    "start": "2024-10-25",
+    "end": "2024-11-01",
+    "resolved_bracket": "400+",
+    "brackets": [
+      {
+        "bracket": "<150",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "150-174",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "175-199",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "200-224 ",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "225-249",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "250-274 ",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "275-299",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "300-324",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "325-349",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "350-374",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "375-399",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "400+",
+        "yes_price": 1.0
+      }
+    ]
+  },
+  {
+    "event_id": 13993,
+    "title": "Elon Musk # of tweets Nov 1-8?",
+    "start": "2024-11-01",
+    "end": "2024-11-08",
+    "resolved_bracket": "375-399",
+    "brackets": [
+      {
+        "bracket": "375-399",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "450-474",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "575-599",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "350-374",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "325-349",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "<250",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "250-274",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "275-299",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "300-324",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "400-424",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "425-449",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "475-499",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "500-524",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "525-549",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "550-574",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "600+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 14237,
+    "title": "Elon Musk # of tweets Nov 8-15?",
+    "start": "2024-11-08",
+    "end": "",
+    "resolved_bracket": "375-399",
+    "brackets": [
+      {
+        "bracket": "<150",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "150-174",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "175-199",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "200-224 ",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "275-299",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "325-349",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "225-249",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "250-274 ",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "375-399",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "400-424",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "300-324",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "425-449",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "350-374",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "450+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 14438,
+    "title": "Elon Musk # of tweets Nov 15-22?",
+    "start": "2024-11-15",
+    "end": "2024-11-22",
+    "resolved_bracket": "450+",
+    "brackets": [
+      {
+        "bracket": "<200",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "200-224",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "225-249",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "250-274",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "275-299",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "300-324",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "325-349",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "350-374",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "375-399",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "400-424",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "425-449",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "450+",
+        "yes_price": 1.0
+      }
+    ]
+  },
+  {
+    "event_id": 14649,
+    "title": "Elon Musk # of tweets Nov 22-29?",
+    "start": "2024-11-22",
+    "end": "2024-11-29",
+    "resolved_bracket": "475-499",
+    "brackets": [
+      {
+        "bracket": "<300",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "300-324",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "325-349",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "350-374",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "375-399",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "400-424",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "425-449",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "450-474",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "475-499",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "500-524",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "525-549",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "550+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 14907,
+    "title": "Elon Musk # of tweets Nov 29-Dec 6?",
+    "start": "2024-11-30",
+    "end": "2024-12-06",
+    "resolved_bracket": "<300",
+    "brackets": [
+      {
+        "bracket": "<300",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "300-324",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "325-349",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "350-374",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "375-399",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "400-424",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "425-449",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "450-474",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "525-549",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "550+",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "475-499",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "500-524",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 15434,
+    "title": "Elon Musk # of tweets December 13-20?",
+    "start": "2024-12-13",
+    "end": "2024-12-20",
+    "resolved_bracket": "400-424",
+    "brackets": [
+      {
+        "bracket": "450-474",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "475-499",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "<300",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "500+",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "300-324",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "325-349",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "350-374",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "375-399",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "400-424",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "425-449",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 15700,
+    "title": "Elon Musk # of tweets December 20-27?",
+    "start": "2024-12-20",
+    "end": "2024-12-27",
+    "resolved_bracket": "300-324",
+    "brackets": [
+      {
+        "bracket": "<250",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "250-274",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "275-299",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "300-324",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "325-349",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "350-374",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "375-399",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "400-424",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "425-449",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "450-474",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "475-499",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "500+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 15936,
+    "title": "Elon Musk # of tweets December 27-January 3?",
+    "start": "2024-12-27",
+    "end": "2025-01-03",
+    "resolved_bracket": "400-424",
+    "brackets": [
+      {
+        "bracket": "400-424",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "300-324",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "<250",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "250-274",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "275-299",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "325-349",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "375-399",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "350-374",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "425-449",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "450+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 16255,
+    "title": "Elon Musk # of tweets January 3-10?",
+    "start": "2025-01-03",
+    "end": "2025-01-10",
+    "resolved_bracket": "500+",
+    "brackets": [
+      {
+        "bracket": "425-449",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "<250",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "250-274",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "275-299",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "300-324",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "325-349",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "350-374",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "375-399",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "400-424",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "450-474",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "475-499",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "500+",
+        "yes_price": 1.0
+      }
+    ]
+  },
+  {
+    "event_id": 16564,
+    "title": "Elon Musk # of tweets January 10-17? ",
+    "start": "2025-01-10",
+    "end": "2025-01-17",
+    "resolved_bracket": "400-449",
+    "brackets": [
+      {
+        "bracket": "<400",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "450-499",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "600-649",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "400-449",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "500-549",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "550-599",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "650-699",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "700-749",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "750-799",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "800+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 16852,
+    "title": "Elon Musk # of tweets January 17-24?",
+    "start": "2025-01-17",
+    "end": "2025-01-24",
+    "resolved_bracket": "325-349",
+    "brackets": [
+      {
+        "bracket": "475-499",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "500-524",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "<300",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "300-324",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "325-349",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "350-374",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "375-399",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "400-424",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "450-474",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "425-449",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "525-549",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "550+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 17169,
+    "title": "Elon Musk # of tweets January 24-31?",
+    "start": "2025-01-24",
+    "end": "2025-01-31",
+    "resolved_bracket": "275-299",
+    "brackets": [
+      {
+        "bracket": "475-499",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "525-549",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "325-349",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "<250",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "250-274",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "275-299",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "300-324",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "350-374",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "375-399",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "400-424",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "425-449",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "450-474",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "500-524",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "550+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 17552,
+    "title": "Elon Musk # of tweets Jan 31 - Feb 7?",
+    "start": "2025-01-31",
+    "end": "2025-02-07",
+    "resolved_bracket": "450+",
+    "brackets": [
+      {
+        "bracket": "275-299",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "200-224",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "375-399",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "225-249",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "250-274",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "325-349",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "400-424",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "425-449",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "450+",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "300-324",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "<200",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "350-374",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 17885,
+    "title": "Elon Musk # of tweets Feb 7-14? ",
+    "start": "2025-02-07",
+    "end": "2025-02-14",
+    "resolved_bracket": "800+",
+    "brackets": [
+      {
+        "bracket": "300-349",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "<300",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "750-799",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "800+",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "450-499",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "600-649",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "400-449",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "700-749",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "350-399",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "650-699",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "550-599",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "500-549",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 18630,
+    "title": "Elon Musk # of tweets Feb 14-21?",
+    "start": "2025-02-14",
+    "end": "2025-02-21",
+    "resolved_bracket": "600-649",
+    "brackets": [
+      {
+        "bracket": "<500",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "500-549",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "550-599",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "600-649",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "900-949",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "650-699",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "700-749",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "750-799",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "800-849",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "850-899",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "950-999",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "1000+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 19208,
+    "title": "Elon Musk # of tweets Feb 21-28?",
+    "start": "2025-02-21",
+    "end": "2025-02-28",
+    "resolved_bracket": "750-799",
+    "brackets": [
+      {
+        "bracket": "450-499",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "500-549",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "<400",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "700-749",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "400-449",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "900+",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "550-599",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "600-649",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "650-699",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "750-799",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "800-849",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "850-899",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 19918,
+    "title": "Elon Musk # of tweets Feb 28 - Mar 7?",
+    "start": "2025-02-28",
+    "end": "2025-03-07",
+    "resolved_bracket": "550-599",
+    "brackets": [
+      {
+        "bracket": "500-549",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "<500",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "600-649",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "700-749",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "850-899",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "550-599",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "650-699",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "750-799",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "800-849",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "900-949",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "950-999",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "1000+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 20511,
+    "title": "Elon Musk # of tweets Mar 7-14?",
+    "start": "2025-03-07",
+    "end": "2025-03-14",
+    "resolved_bracket": "500-524",
+    "brackets": [
+      {
+        "bracket": "750-774",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "775-799",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "500-524",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "450-474",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "475-499",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "<450",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "600-624",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "525-549",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "550-574",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "700-724",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "575-599",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "625-649",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "650-674",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "675-699",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "725-749",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "800+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 20929,
+    "title": "Elon Musk # of tweets Mar 14-21?",
+    "start": "2025-03-14",
+    "end": "2025-03-21",
+    "resolved_bracket": "425-449",
+    "brackets": [
+      {
+        "bracket": "400-424",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "<400",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "675-699",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "525-549",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "500-524",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "425-449",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "550-574",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "450-474",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "475-499",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "575-599",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "600-624",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "650-674",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "625-649",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "700+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 21349,
+    "title": "Elon Musk # of tweets Mar 21-28?",
+    "start": "2025-03-21",
+    "end": "2025-03-28",
+    "resolved_bracket": "475-499",
+    "brackets": [
+      {
+        "bracket": "<300",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "325-349",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "350-374",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "375-399",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "400-424",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "425-449",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "450-474",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "550-574",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "475-499",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "500-524",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "525-549",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "300-324",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "575-599",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "600-624",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "625-649",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "650+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 21761,
+    "title": "Elon Musk # of tweets Mar 28- Apr 4?",
+    "start": "2025-03-28",
+    "end": "2025-04-04",
+    "resolved_bracket": "325-349",
+    "brackets": [
+      {
+        "bracket": "425-449",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "575-599",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "600-624",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "<300",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "300-324",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "325-349",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "350-374",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "375-399",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "625-649",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "400-424",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "450-474",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "475-499",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "500-524",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "525-549",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "550-574",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "650+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 22240,
+    "title": "Elon Musk # of tweets April 4-11?",
+    "start": "2025-04-04",
+    "end": "2025-04-11",
+    "resolved_bracket": "<250",
+    "brackets": [
+      {
+        "bracket": "250-274",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "275-299",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "300-324",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "350-374",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "550-574",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "375-399",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "450-474",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "575-599",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "400-424",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "425-449",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "525-549",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "475-499",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "600+",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "<250",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "325-349",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "500-524",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 22635,
+    "title": "Elon Musk # of tweets April 11-18?",
+    "start": "2025-04-11",
+    "end": "2025-04-18",
+    "resolved_bracket": "150\u2013174",
+    "brackets": [
+      {
+        "bracket": "<100",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "100\u2013124",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "125\u2013149",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "150\u2013174",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "175\u2013199",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "200\u2013224",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "225\u2013249",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "250\u2013274",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "275\u2013299",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "300\u2013324",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "325\u2013349",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "350\u2013374",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "375\u2013399",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "400+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 23068,
+    "title": "Elon Musk # of tweets April 18-25?",
+    "start": "2025-04-18",
+    "end": "2025-04-25",
+    "resolved_bracket": "200\u2013224",
+    "brackets": [
+      {
+        "bracket": "<100",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "100\u2013124",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "125\u2013149",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "150\u2013174",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "175\u2013199",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "200\u2013224",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "225\u2013249",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "250\u2013274",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "275\u2013299",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "300\u2013324",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "325\u2013349",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "350\u2013374",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "375\u2013399",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "400+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 23428,
+    "title": "Elon Musk # of tweets April 25- May 2?",
+    "start": "2025-04-25",
+    "end": "2025-05-02",
+    "resolved_bracket": "150\u2013174",
+    "brackets": [
+      {
+        "bracket": "<100",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "100\u2013124",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "125\u2013149",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "150\u2013174",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "175\u2013199",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "200\u2013224",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "225\u2013249",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "250\u2013274",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "275\u2013299",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "300\u2013324",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "325\u2013349",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "350\u2013374",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "375\u2013399",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "400+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 23785,
+    "title": "Elon Musk # of tweets May 2-9?",
+    "start": "2025-05-02",
+    "end": "2025-05-09",
+    "resolved_bracket": "225\u2013249",
+    "brackets": [
+      {
+        "bracket": "<100",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "100\u2013124",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "125\u2013149",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "150\u2013174",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "175\u2013199",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "200\u2013224",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "225\u2013249",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "250\u2013274",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "275\u2013299",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "300\u2013324",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "325\u2013349",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "350+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 24189,
+    "title": "Elon Musk # of tweets May 9-16?",
+    "start": "2025-05-09",
+    "end": "2025-05-16",
+    "resolved_bracket": "250\u2013274",
+    "brackets": [
+      {
+        "bracket": "<100",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "100\u2013124",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "125\u2013149",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "150\u2013174",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "175\u2013199",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "200\u2013224",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "225\u2013249",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "250\u2013274",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "275\u2013299",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "300\u2013324",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "325\u2013349",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "350+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 24575,
+    "title": "Elon Musk # of tweets May 16-23?",
+    "start": "2025-05-16",
+    "end": "2025-05-23",
+    "resolved_bracket": "150\u2013174",
+    "brackets": [
+      {
+        "bracket": "<100",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "100\u2013124",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "125\u2013149",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "150\u2013174",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "175\u2013199",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "200\u2013224",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "225\u2013249",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "250\u2013274",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "275\u2013299",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "300\u2013324",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "325\u2013349",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "350+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 25108,
+    "title": "Elon Musk # of tweets May 23-30?",
+    "start": "2025-05-23",
+    "end": "2025-05-30",
+    "resolved_bracket": "125\u2013149",
+    "brackets": [
+      {
+        "bracket": "<100",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "100\u2013124",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "275\u2013299",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "350+",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "125\u2013149",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "150\u2013174",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "175\u2013199",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "200\u2013224",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "250\u2013274",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "300\u2013324",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "325\u2013349",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "225\u2013249",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 25570,
+    "title": "Elon Musk # of tweets May 30 - June 6?",
+    "start": "2025-05-30",
+    "end": "2025-06-06",
+    "resolved_bracket": "230+",
+    "brackets": [
+      {
+        "bracket": "<80",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "215\u2013229",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "80\u201394",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "95\u2013109",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "110\u2013124",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "125\u2013139",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "140\u2013154",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "155\u2013169",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "170\u2013184",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "185\u2013199",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "200\u2013214",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "230+",
+        "yes_price": 1.0
+      }
+    ]
+  },
+  {
+    "event_id": 26104,
+    "title": "Elon Musk # of tweets June 6-13?",
+    "start": "2025-06-05",
+    "end": "2025-06-13",
+    "resolved_bracket": "175\u2013199",
+    "brackets": [
+      {
+        "bracket": "<150",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "150\u2013174",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "175\u2013199",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "200\u2013224",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "225\u2013249",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "250\u2013274",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "275\u2013299",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "300\u2013324",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "325\u2013349",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "400\u2013424",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "350\u2013374",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "425\u2013449",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "375\u2013399",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "450\u2013474",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "475\u2013499",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "500+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 27102,
+    "title": "Elon Musk # of tweets June 13-20?",
+    "start": "2025-06-13",
+    "end": "2025-06-20",
+    "resolved_bracket": "145\u2013159",
+    "brackets": [
+      {
+        "bracket": "160\u2013174",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "205\u2013219",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "220\u2013234",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "250\u2013264",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "265\u2013279",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "175\u2013189",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "295+",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "<100",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "100\u2013114",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "115\u2013129",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "130\u2013144",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "145\u2013159",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "190\u2013204",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "235\u2013249",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "280\u2013294",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 28050,
+    "title": "Elon Musk # of tweets June 20-27?",
+    "start": "2025-06-20",
+    "end": "2025-06-27",
+    "resolved_bracket": "130\u2013144",
+    "brackets": [
+      {
+        "bracket": "205\u2013219",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "175\u2013189",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "235\u2013249",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "130\u2013144",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "145\u2013159",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "160\u2013174",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "280\u2013294",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "220\u2013234",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "<100",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "100\u2013114",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "115\u2013129",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "190\u2013204",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "250\u2013264",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "265\u2013279",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "295+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 29377,
+    "title": "Elon Musk # of tweets June 27 - July 4?",
+    "start": "2025-06-27",
+    "end": "2025-07-04",
+    "resolved_bracket": "165\u2013179",
+    "brackets": [
+      {
+        "bracket": "195\u2013209",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "<90",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "225\u2013239",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "105\u2013119",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "120\u2013134",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "135\u2013149",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "150\u2013164",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "165\u2013179",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "180\u2013194",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "210\u2013224",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "240\u2013254",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "255\u2013269",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "270+",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "90\u2013104",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 31102,
+    "title": "Elon Musk # of tweets July 4-11?",
+    "start": "2025-07-04",
+    "end": "2025-07-11",
+    "resolved_bracket": "150\u2013164",
+    "brackets": [
+      {
+        "bracket": "90\u2013104",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "165\u2013179",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "195\u2013209",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "<90",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "105\u2013119",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "120\u2013134",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "135\u2013149",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "150\u2013164",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "180\u2013194",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "210\u2013224",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "225\u2013239",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "240\u2013254",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "255\u2013269",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "270+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 32212,
+    "title": "Elon Musk # of tweets July 11-18?",
+    "start": "2025-07-11",
+    "end": "2025-07-18",
+    "resolved_bracket": "180\u2013194",
+    "brackets": [
+      {
+        "bracket": "165\u2013179",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "180\u2013194",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "240\u2013254",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "<90",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "90\u2013104",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "105\u2013119",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "120\u2013134",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "135\u2013149",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "150\u2013164",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "195\u2013209",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "210\u2013224",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "225\u2013239",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "255+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 33227,
+    "title": "Elon Musk # of tweets July 18-25?",
+    "start": "2025-07-18",
+    "end": "2025-07-25",
+    "resolved_bracket": "195\u2013209",
+    "brackets": [
+      {
+        "bracket": "<90",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "240\u2013254",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "90\u2013104",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "105\u2013119",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "120\u2013134",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "135\u2013149",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "150\u2013164",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "165\u2013179",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "180\u2013194",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "195\u2013209",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "210\u2013224",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "225\u2013239",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "255+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 34332,
+    "title": "Elon Musk # of tweets July 25 - August 1?",
+    "start": "2025-07-25",
+    "end": "2025-08-01",
+    "resolved_bracket": "150\u2013164",
+    "brackets": [
+      {
+        "bracket": "<90",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "90\u2013104",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "105\u2013119",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "120\u2013134",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "135\u2013149",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "150\u2013164",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "165\u2013179",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "180\u2013194",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "195\u2013209",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "210\u2013224",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "225\u2013239",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "240\u2013254",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "255+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 35439,
+    "title": "Elon Musk # of tweets August 1-8?",
+    "start": "2025-08-01",
+    "end": "2025-08-08",
+    "resolved_bracket": "255+",
+    "brackets": [
+      {
+        "bracket": "<90",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "90\u2013104",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "105\u2013119",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "120\u2013134",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "135\u2013149",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "150\u2013164",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "165\u2013179",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "180\u2013194",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "195\u2013209",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "210\u2013224",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "225\u2013239",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "240\u2013254",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "255+",
+        "yes_price": 1.0
+      }
+    ]
+  },
+  {
+    "event_id": 36709,
+    "title": "Elon Musk # of tweets August 8-15?",
+    "start": "2025-08-08",
+    "end": "2025-08-15",
+    "resolved_bracket": "470+",
+    "brackets": [
+      {
+        "bracket": "<215",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "215\u2013229",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "230\u2013244",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "245\u2013259",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "260\u2013274",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "275\u2013289",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "290\u2013304",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "305\u2013319",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "320\u2013334",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "335\u2013349",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "350\u2013364",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "365\u2013379",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "380\u2013394",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "395\u2013409",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "410\u2013424",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "425\u2013439",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "440\u2013454",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "455\u2013469",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "470+",
+        "yes_price": 1.0
+      }
+    ]
+  },
+  {
+    "event_id": 37966,
+    "title": "Elon Musk # of tweets August 15-22? ",
+    "start": "2025-08-15",
+    "end": "2025-08-22",
+    "resolved_bracket": "<250",
+    "brackets": [
+      {
+        "bracket": "375\u2013399",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "575\u2013599",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "425\u2013449",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "275\u2013299",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "<250",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "250\u2013274",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "300\u2013324",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "325\u2013349",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "350\u2013374",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "400\u2013424",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "450\u2013474",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "475\u2013499",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "500\u2013524",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "525\u2013549",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "550\u2013574",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "600\u2013624",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "625\u2013649",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "650+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 39278,
+    "title": "Elon Musk # of tweets August 22-29? ",
+    "start": "2025-08-22",
+    "end": "2025-08-29",
+    "resolved_bracket": "195\u2013209",
+    "brackets": [
+      {
+        "bracket": "<150",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "165\u2013179",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "195\u2013209",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "225\u2013239",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "255\u2013269",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "285\u2013299",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "315\u2013329",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "345\u2013359",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "375\u2013389",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "405\u2013419",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "435\u2013449",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "150\u2013164",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "180\u2013194",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "210\u2013224",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "240\u2013254",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "270\u2013284",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "300\u2013314",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "330\u2013344",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "360\u2013374",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "390\u2013404",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "420\u2013434",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "450+",
+        "yes_price": 0.0
+      }
+    ]
+  },
+  {
+    "event_id": 40670,
+    "title": "Elon Musk # of tweets August 29 - September 5? ",
+    "start": "2025-08-29",
+    "end": "2025-09-05",
+    "resolved_bracket": "400+",
+    "brackets": [
+      {
+        "bracket": "<100",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "115\u2013129",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "145\u2013159",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "175\u2013189",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "205\u2013219",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "235\u2013249",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "265\u2013279",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "295\u2013309",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "325\u2013339",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "355\u2013369",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "385\u2013399",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "100\u2013114",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "130\u2013144",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "160\u2013174",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "190\u2013204",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "220\u2013234",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "250\u2013264",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "280\u2013294",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "310\u2013324",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "340\u2013354",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "370\u2013384",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "400+",
+        "yes_price": 1.0
+      }
+    ]
+  },
+  {
+    "event_id": 42249,
+    "title": "Elon Musk # of tweets September 5-12? ",
+    "start": "2025-09-05",
+    "end": "2025-09-12",
+    "resolved_bracket": "220\u2013239",
+    "brackets": [
+      {
+        "bracket": "<200",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "220\u2013239",
+        "yes_price": 1.0
+      },
+      {
+        "bracket": "260\u2013279",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "300\u2013319",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "340\u2013359",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "380\u2013399",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "420\u2013439",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "460\u2013479",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "500\u2013519",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "540\u2013559",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "580\u2013599",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "200\u2013219",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "240\u2013259",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "280\u2013299",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "320\u2013339",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "360\u2013379",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "400\u2013419",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "440\u2013459",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "480\u2013499",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "520\u2013539",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "560\u2013579",
+        "yes_price": 0.0
+      },
+      {
+        "bracket": "600+",
+        "yes_price": 0.0
+      }
+    ]
+  }
+]

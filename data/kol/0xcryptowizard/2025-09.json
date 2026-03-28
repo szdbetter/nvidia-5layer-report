@@ -1,0 +1,613 @@
+{
+  "tweets": [
+    {
+      "id": "1973009120904274009",
+      "text": "@Tslabnb 一样的，被虚假信息骗了，说明“以为懂了，实际没懂。”",
+      "createdAt": "Tue Sep 30 12:56:45 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 8,
+      "conversationId": "1973004262612603180",
+      "inReplyToStatusId": "1973007576225980519",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1973005247242194959",
+      "text": "@0xPickleCati \"If you don't like it , you can short it ?\"",
+      "createdAt": "Tue Sep 30 12:41:22 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 6,
+      "conversationId": "1972993400216654162",
+      "inReplyToStatusId": "1972993400216654162",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1973004262612603180",
+      "text": "一个好的交易者，会具备看起来很矛盾的特质：\n“极度的耐心”和“果断的决策”。\n\n用懂和不懂来理解很简单：\n不懂的时候不动，当然看起来是“极度的耐心”；\n懂的时候直接干大仓，当然看起来是“果断的决策”。\n\n之所以很多事情看起来是矛盾的，是因为语言表达有局限性，真的经历过的人，不用语言也能体会。",
+      "createdAt": "Tue Sep 30 12:37:27 +0000 2025",
+      "replyCount": 43,
+      "retweetCount": 56,
+      "likeCount": 358,
+      "conversationId": "1973004262612603180",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1972844297746891077",
+      "text": "@broleon 一件事情如果要做几十年，晚点开始无所谓，也不必急，稳步坚定往那个方向走就好了。",
+      "createdAt": "Tue Sep 30 02:01:48 +0000 2025",
+      "replyCount": 15,
+      "retweetCount": 14,
+      "likeCount": 171,
+      "conversationId": "1972833925715378409",
+      "inReplyToStatusId": "1972833925715378409",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1972600164205682798",
+      "text": "一致性预期不会实现，群体共识形成就是终点。\n\n去年惩罚了开盘打新的，小市值高fdv一路浇给；\n今年就开始惩罚链上冲 meme 的。\n\n前面惩罚了钻石手看长线的，\n接下来就要惩罚来回 flip 不断进出的。",
+      "createdAt": "Mon Sep 29 09:51:42 +0000 2025",
+      "replyCount": 75,
+      "retweetCount": 32,
+      "likeCount": 333,
+      "conversationId": "1972600164205682798",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1972551597499838824",
+      "text": "今天刷到两个有趣的视频。\n\n一个是芒格说自己是个预期很低的人，只是事实赚到了很多。\n\n一个是黄仁勋说自己是个预期很低的人，所以遇到挫折和痛苦容易面对。\n\n有些人非要揪着问，老黄你预期低，为啥还要做英伟达？预期低，还努力个屁。\n\n这种问题，咋回答？我也不懂。",
+      "createdAt": "Mon Sep 29 06:38:43 +0000 2025",
+      "replyCount": 13,
+      "retweetCount": 3,
+      "likeCount": 62,
+      "conversationId": "1972541162067304565",
+      "inReplyToStatusId": "1972549380168401231",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1972549380168401231",
+      "text": "我发现有些兄弟喜欢扣概念，没意义。\n\n第一，啥是执着？\n\n既然做投资了，当然要做好，尽量取得合理收益。\n\n这和执着于我一定要赚某个数字，不是一回事。\n\n第二，只要不是全部放下，就是全部紧紧抓住？\n\n因上努力，果上不纠结。\n\n非要揪着问，果上不纠结，因上为啥努力？\n\n你这个理解不了，我没办法。",
+      "createdAt": "Mon Sep 29 06:29:55 +0000 2025",
+      "replyCount": 11,
+      "retweetCount": 0,
+      "likeCount": 57,
+      "conversationId": "1972541162067304565",
+      "inReplyToStatusId": "1972541162067304565",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1972547797460402250",
+      "text": "@yixiu18855 说了这么多，你还是没懂，兄弟，就这样吧。",
+      "createdAt": "Mon Sep 29 06:23:37 +0000 2025",
+      "replyCount": 5,
+      "retweetCount": 0,
+      "likeCount": 6,
+      "conversationId": "1972541162067304565",
+      "inReplyToStatusId": "1972547559446237551",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1972547224367440066",
+      "text": "@yixiu18855 这个问题我考虑过，也回答过，我再说一遍。\n\n从理性角度考虑，给自己家人和关心的人留够钱后，其他的全部身后捐出，回归社会是理性选择。\n\n第一，我没赚到这个级别。\n\n第二，我不敢说我觉悟到了这个程度，理解了不代表能做到，做不到就是不懂。\n\n第三，没做就说没意义。",
+      "createdAt": "Mon Sep 29 06:21:21 +0000 2025",
+      "replyCount": 4,
+      "retweetCount": 0,
+      "likeCount": 6,
+      "conversationId": "1972541162067304565",
+      "inReplyToStatusId": "1972546129079509070",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1972545774430117976",
+      "text": "@yixiu18855 这是我喜欢的工作，一种思考和智力游戏。",
+      "createdAt": "Mon Sep 29 06:15:35 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 8,
+      "conversationId": "1972541162067304565",
+      "inReplyToStatusId": "1972545309306962005",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1972543298188521875",
+      "text": "@yixiu18855 每个人想法不同，我不喜欢使唤别人，也不享受高人一等。\n\n我买的服务希望对方认真负责的完成工作就好，大家都是平等的。\n\n如果对方让我感觉高人一等，我反而会难受。",
+      "createdAt": "Mon Sep 29 06:05:45 +0000 2025",
+      "replyCount": 6,
+      "retweetCount": 0,
+      "likeCount": 27,
+      "conversationId": "1972541162067304565",
+      "inReplyToStatusId": "1972541769700307119",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1972541162067304565",
+      "text": "钱能带来很多好处，自由/安全感/舒适。\n\n这些如果已经有了，真没必要执着数字了。\n\n连首富，都可能成为限制高消费人群，你和你羡慕的那个人，谁能达到他的高度？纠结数字更多有什么意义？有何焦虑可言？\n\n我不理解。",
+      "createdAt": "Mon Sep 29 05:57:15 +0000 2025",
+      "replyCount": 61,
+      "retweetCount": 19,
+      "likeCount": 405,
+      "conversationId": "1972541162067304565",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1972489987305455756",
+      "text": "@china236c 我说大盘 macro top，具体标的更容易。",
+      "createdAt": "Mon Sep 29 02:33:54 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 8,
+      "conversationId": "1972489611118334201",
+      "inReplyToStatusId": "1972489859538579523",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1972489611118334201",
+      "text": "我理解大家对于逃顶的热情。\n\n但我也没见过大部分人能成功的。\n\n我只见过右侧在跌掉30，50，甚至70醒悟过来已经顶了。\n\n没见过左侧谁能 call 对，对了那也就是运气罢了。",
+      "createdAt": "Mon Sep 29 02:32:25 +0000 2025",
+      "replyCount": 65,
+      "retweetCount": 14,
+      "likeCount": 269,
+      "conversationId": "1972489611118334201",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1972177972531810781",
+      "text": "1️⃣认清自己的性格/特点/偏好\n2️⃣不断测试/确认能力圈和边界（懂什么/不懂什么）\n3️⃣根据1️⃣和2️⃣形成一套可行的流程和工作方法\n4️⃣坦然接受市场可能当前版本和自己不符，坚持自己的能力圈\n\n不死（来自原则定义的绝不做的事）\n少亏（不做不懂的，保证安全边际）\n多赚（在顺风版本，尽量拿到能力范围的盈利）",
+      "createdAt": "Sun Sep 28 05:54:04 +0000 2025",
+      "replyCount": 53,
+      "retweetCount": 39,
+      "likeCount": 275,
+      "conversationId": "1972177972531810781",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1972143059694768344",
+      "text": "第一层：\n谁火，咱就仿谁。\n\n第二层：\nfake it , until make it . https://t.co/ZAzu8ITGsS",
+      "createdAt": "Sun Sep 28 03:35:20 +0000 2025",
+      "replyCount": 127,
+      "retweetCount": 31,
+      "likeCount": 421,
+      "conversationId": "1972143059694768344",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/G150-joasAAdEq_.png",
+          "width": 651,
+          "height": 800,
+          "previewUrl": "https://pbs.twimg.com/media/G150-joasAAdEq_.png:small"
+        }
+      ]
+    },
+    {
+      "id": "1972138324547813615",
+      "text": "人和 ai 的差异没那么大。\n\n人的心法/逻辑/思考方式，就是 LLM 大语言模型底层；平时的“事上练”/经验/盈亏/读书，就是数据训练。\n\n所谓进步和升级，无非就是一边升级模型底层，一边不断喂数据。\n\n这样当 prompt 提示词适当的时候，就能给出更令人满意/更聪明/更接近正确的答案。",
+      "createdAt": "Sun Sep 28 03:16:31 +0000 2025",
+      "replyCount": 25,
+      "retweetCount": 7,
+      "likeCount": 124,
+      "conversationId": "1972138324547813615",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1971734385742565489",
+      "text": "努力去看本质，听起来是有些傲慢的，但是值得做的。\n\n我刚毕业时，短暂的上班生涯里，也因为自己总提本质，被公司的老员工笑，你一个小p孩儿，懂个p的本质。\n\n最初的思考可以是错的，甚至行动都是错的，但不要忽视日复一日年复一年的思考复利。\n\n思考本质的人，是在不断调校自己的前进方向。",
+      "createdAt": "Sat Sep 27 00:31:25 +0000 2025",
+      "replyCount": 76,
+      "retweetCount": 37,
+      "likeCount": 475,
+      "conversationId": "1971734385742565489",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1971580893136666740",
+      "text": "@kk79808877 说明前者运气好，后者你以为是投资。",
+      "createdAt": "Fri Sep 26 14:21:29 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 18,
+      "conversationId": "1971580428051181967",
+      "inReplyToStatusId": "1971580607554855385",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1971580428051181967",
+      "text": "怎么区分是赌博还是投资（或者，能力圈内的投机）？\n\n简单。\n\n赌博的时候，多巴胺飙升，非常兴奋/忐忑不安/激动人心；\n\n投资（能力圈内投机），耐心平静，按部就班，赚了也是意料之中，亏了也清楚错在哪。",
+      "createdAt": "Fri Sep 26 14:19:38 +0000 2025",
+      "replyCount": 75,
+      "retweetCount": 72,
+      "likeCount": 590,
+      "conversationId": "1971580428051181967",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1971482421481898331",
+      "text": "没有什么是能“抓住”的，\n一个“大结果”，\n一个“财富自由”，\n一个“版本之子”，\n一个“名誉”，\n一个“爱情”，\n一个“健康”，\n一个“亲人朋友”。\n\n每个人，\n能抓住的只有，\n在因上努力，\n尽量有一个好的生活习惯，\n不要赌博不要吸毒不要酗酒，\n有空多陪陪和关心家人爱人，\n多和良师益友交流，\n找到自己热爱的擅长的，\n找到心之所向，\n找到正确的事努力做好。\n\n抓不住过去，也抓不住未来，\n只能抓住现在，此刻，\n日复一日，过自己想过的生活，\n理解世界就是一场大型的模拟游戏，\n然后充满热情的去投入和感受。\n\n不管是否有轮回，\n也要过好这一生，\n不管是否有果报，\n也要以良知去行事。\n\n说到底，我们能抓住的，\n只有自己的内心，\n这里就是全部宇宙，\n它亮了，\n宇宙就一起呈现，\n它灭了，\n宇宙也一起寂灭。",
+      "createdAt": "Fri Sep 26 07:50:12 +0000 2025",
+      "replyCount": 71,
+      "retweetCount": 56,
+      "likeCount": 463,
+      "conversationId": "1971482421481898331",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1971467430540214713",
+      "text": "@0xlianjinshu vc币和meme币就像阴阳两极，从20年到25年来回翻转。\n\n表象在变，不变的是：\n一致性预期很难实现，太有共识的交易很难赚钱，大家都懂的玩法再玩破产。",
+      "createdAt": "Fri Sep 26 06:50:38 +0000 2025",
+      "replyCount": 10,
+      "retweetCount": 10,
+      "likeCount": 55,
+      "conversationId": "1971457470376837329",
+      "inReplyToStatusId": "1971457470376837329",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1971453165972357305",
+      "text": "@Xinjue1 不要纠结具体文字，如果一直很难受的做什么，是没法持久的。",
+      "createdAt": "Fri Sep 26 05:53:57 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "1971448502376083663",
+      "inReplyToStatusId": "1971452511598063879",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1971450442673684671",
+      "text": "@Xinjue1 这是一个很常见的误解，精进到底是为了什么？\n\n为了某个金额么？\n不对。\n\n为了某个结果么？\n不对。\n\n是为了尽力做好，盯着赛场，不是比分。\n\n你控制不了每个结果。",
+      "createdAt": "Fri Sep 26 05:43:07 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 1,
+      "conversationId": "1971448502376083663",
+      "inReplyToStatusId": "1971449890065850766",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1971449100865503327",
+      "text": "@Xinjue1 还真没有，我只反思因上的问题，果上早就想清楚了。",
+      "createdAt": "Fri Sep 26 05:37:48 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 2,
+      "conversationId": "1971448502376083663",
+      "inReplyToStatusId": "1971448837018616156",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1971448502376083663",
+      "text": "最近一年错过很多机会，我是这么看这件事的：\n\n第一，该不该抓住机会？\n既然在做这份工作，就该努力做好。\n不是每个机会都要抓住，但该交流的学习的理解的判断的，还是要尽力。\n\n第二，错过xx的金额，难受么？\n不该这么思考问题，该问自己，这个机会能看懂么？看懂了就做，看不懂就不做。\n所谓错过多少，都是很虚妄的自我欺骗。\n\n第三，那我哪里没做好？\n这两天思考，该跟优秀朋友多沟通，该放下对某种类型项目的偏见，该建立更好的信息流。\n\n第四，做这些是为了抓住下一个大机会？\n我觉得，目标不该是抓住什么，而是我自己能做到什么，是不是能做的更好。\n如果已经充分交流了，也放下偏见仔细研究，尽力了，那就可以。\n尽量能看懂，看不懂的就不是我的机会。\n\n总结就是，\n因上要努力，果上不要纠结；\n看懂的做，看不懂不做，但不能看不到，或者没好好看。",
+      "createdAt": "Fri Sep 26 05:35:25 +0000 2025",
+      "replyCount": 84,
+      "retweetCount": 49,
+      "likeCount": 362,
+      "conversationId": "1971448502376083663",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1971403573033623599",
+      "text": "@ruth_harty 今年我主要就是在关注你说这些。\n\n但既然在做 crypto 的投资/投机/交易，就要把事情做好，这样才能在“求道”上有更好的理解。\n\n我反思的原因，也只是说错过多少钱，那个不重要；\n重要的是，这件事情代表自己性格/习惯/工作流程上的问题，真正的“道”是在日常生活的每一天，当然也包括工作。",
+      "createdAt": "Fri Sep 26 02:36:53 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 18,
+      "conversationId": "1971382248525181323",
+      "inReplyToStatusId": "1971383569445802210",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1971382248525181323",
+      "text": "反思自己近期的几个问题：\n\n⭐跟优秀的人交流太少了\n⭐对项目标签化偏见\n⭐信息流和工作流程有问题\n\n这些问题根源，出自性格，习惯不好，没有持续维护好一个工作流程。\n\n精力在哪，收获就在哪，有些事可以做的更好。",
+      "createdAt": "Fri Sep 26 01:12:09 +0000 2025",
+      "replyCount": 71,
+      "retweetCount": 12,
+      "likeCount": 272,
+      "conversationId": "1971382248525181323",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1971244152500388131",
+      "text": "@cishanjia 链上 meme 最近几个月确实难",
+      "createdAt": "Thu Sep 25 16:03:24 +0000 2025",
+      "replyCount": 10,
+      "retweetCount": 0,
+      "likeCount": 19,
+      "conversationId": "1971190864119820649",
+      "inReplyToStatusId": "1971241764880334934",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1971237644932981135",
+      "text": "@luyaoyuan 恭喜陆老师，向你学习。",
+      "createdAt": "Thu Sep 25 15:37:33 +0000 2025",
+      "replyCount": 0,
+      "retweetCount": 0,
+      "likeCount": 10,
+      "conversationId": "1971138700471095775",
+      "inReplyToStatusId": "1971138700471095775",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1971193868894019631",
+      "text": "23年初的大反弹，23年底的铭文，24年初的所内meme拉盘，24年底的链上ai meme。\n\n版本都比最近半年强。\n\n最近半年地狱难度，只有理财撸毛和paper hand 能赚钱，赚的二级接盘的钱。",
+      "createdAt": "Thu Sep 25 12:43:36 +0000 2025",
+      "replyCount": 15,
+      "retweetCount": 4,
+      "likeCount": 88,
+      "conversationId": "1971190864119820649",
+      "inReplyToStatusId": "1971190864119820649",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1971190864119820649",
+      "text": "最近几个月，链上只能玩一段；\n所内也没有持续性行情，都是一小段叙事/喊单驱动。\n赚谁的钱，赚哪部分流动性，必须想的清清楚楚，才有可能盈利。\n这种极致pvp行情确实难玩。",
+      "createdAt": "Thu Sep 25 12:31:39 +0000 2025",
+      "replyCount": 49,
+      "retweetCount": 5,
+      "likeCount": 190,
+      "conversationId": "1971190864119820649",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1971125792206905415",
+      "text": "@bitfool1 就说“不死”这俩字，都是亏没一次，才能理解，没人躲得过。",
+      "createdAt": "Thu Sep 25 08:13:05 +0000 2025",
+      "replyCount": 6,
+      "retweetCount": 4,
+      "likeCount": 36,
+      "conversationId": "1971042137673540048",
+      "inReplyToStatusId": "1971106056467329455",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1971043528282456303",
+      "text": "@BTCdayu 复利的关键就是“不死，少亏”，不断用“还不错的”收益增长，偶尔有“多赚”的。",
+      "createdAt": "Thu Sep 25 02:46:12 +0000 2025",
+      "replyCount": 3,
+      "retweetCount": 7,
+      "likeCount": 47,
+      "conversationId": "1971042137673540048",
+      "inReplyToStatusId": "1971043118536618277",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1971042137673540048",
+      "text": "每个人都想着成为“版本之子”，找到“版本答案”。\n\n有没有可能，这根本不重要？\n\n重要的是，别踏进“版本陷阱”，犯下大错。\n\n每个版本都能取得“还不错”的结果，才是投资的终极答案。",
+      "createdAt": "Thu Sep 25 02:40:40 +0000 2025",
+      "replyCount": 70,
+      "retweetCount": 17,
+      "likeCount": 284,
+      "conversationId": "1971042137673540048",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1970689003260387639",
+      "text": "@cishanjia 前面是“困知勉行”，听说做A很好，我去做；\n中间是“学知利行”，我理解了做A很好，我做了也有感受，就坚持做；\n最后是“生知安行”，就像吃饭喝水睡觉一样，做A是我每天生活的一部分。",
+      "createdAt": "Wed Sep 24 03:17:26 +0000 2025",
+      "replyCount": 12,
+      "retweetCount": 6,
+      "likeCount": 93,
+      "conversationId": "1970659109671444530",
+      "inReplyToStatusId": "1970659109671444530",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1970683429286224270",
+      "text": "为了解决这个顽疾，出现了很多解法。\n\n最近10年最耳熟能详的，叫“第一性原理”；\n2000多年前，也有顶尖智慧，如金刚经，提出“空”；\n500年前，阳明心学，提出“心外无物”“格物致知”；\n100年前，维根斯坦提出“语言的边界，就是人思想的边界”。\n\n在我看来，都在解决世人困在各种“概念”中的问题。",
+      "createdAt": "Wed Sep 24 02:55:17 +0000 2025",
+      "replyCount": 11,
+      "retweetCount": 3,
+      "likeCount": 67,
+      "conversationId": "1970670935884927035",
+      "inReplyToStatusId": "1970670935884927035",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1970670935884927035",
+      "text": "智人能统治地球，最重要的 feature 就是“虚构概念”，以及能掌握语言进行协作。\n\n就像一个人最大的优点，通常也是他的缺点一样，我们可以管这个叫做“特点”。\n\n对于人来说，最坚固的牢笼就是语言和概念。\n\n看到很多人一辈子都被困在各种概念里打转，那是他的安全区域，也是永远走不出的盒子。",
+      "createdAt": "Wed Sep 24 02:05:39 +0000 2025",
+      "replyCount": 49,
+      "retweetCount": 8,
+      "likeCount": 147,
+      "conversationId": "1970670935884927035",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1970639669345104338",
+      "text": "@SBF_FTX sam回来参与pk？\nhttps://t.co/X6ybB6We2S",
+      "createdAt": "Wed Sep 24 00:01:24 +0000 2025",
+      "replyCount": 10,
+      "retweetCount": 2,
+      "likeCount": 30,
+      "conversationId": "1970633704323362904",
+      "inReplyToStatusId": "1970633704323362904",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "quotedTweet": {
+        "id": "1970307223512588739",
+        "text": "在币圈，一个产品最重要的 feature 就是赚钱效应。\n\nok也好，solana 和 pump 也罢，产品再好，赚不到钱用户也迅速撤离。\n\ncz 看的很清楚，一套组合拳打的明明白白。 solana 和 pump 想拿回流量，不自己搞个 cex ，是没机会的，把 ftx 搞回来运营是个解药？",
+        "createdAt": "Tue Sep 23 02:00:23 +0000 2025",
+        "replyCount": 115,
+        "retweetCount": 17,
+        "likeCount": 307,
+        "conversationId": "1970307223512588739",
+        "author": {
+          "username": "0xcryptowizard",
+          "name": "0xWizard"
+        },
+        "authorId": "1195728139898376193"
+      }
+    },
+    {
+      "id": "1970459711930802306",
+      "text": "@caiziboshi 5个队员三个华人，力压中国和中国香港。",
+      "createdAt": "Tue Sep 23 12:06:19 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 8,
+      "conversationId": "1970317678331207971",
+      "inReplyToStatusId": "1970317678331207971",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    }
+  ],
+  "nextCursor": null
+}

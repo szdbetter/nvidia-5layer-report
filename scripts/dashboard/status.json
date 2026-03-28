@@ -1,0 +1,22 @@
+{
+  "memory_to_obsidian": {
+    "last_run": "2026-03-28T09:41:02.112708+08:00",
+    "last_status": "ok",
+    "last_output": "[开始] 归档日期: 2026-03-28\n[跳过] 2026-03-28 没有找到 memory 文件"
+  },
+  "morning_briefing": {
+    "last_run": "2026-03-28T08:00:02.654650+08:00",
+    "last_status": "error",
+    "last_output": "^^^^^^^^^^\n  File \"/usr/lib64/python3.11/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib64/python3.11/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/lib64/python3.11/subprocess.py\", line 1950, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'openclaw'"
+  },
+  "context_briefing": {
+    "last_run": "2026-03-28T09:55:01.448788+08:00",
+    "last_status": "ok",
+    "last_output": "简报已生成: /root/.openclaw/workspace/BRIEFING.md | TODO:6条 | Memory片段:0个"
+  },
+  "github_backup": {
+    "last_run": "2026-03-28T08:33:02.079293+08:00",
+    "last_status": "ok",
+    "last_output": "备份完成: 2026-03-28 08:33 UTC+8 |  3 files changed, 18 insertions(+), 1 deletion(-)"
+  }
+}

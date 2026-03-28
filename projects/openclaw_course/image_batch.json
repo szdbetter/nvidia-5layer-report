@@ -1,0 +1,45 @@
+{
+  "jobs": 2,
+  "tasks": [
+    {
+      "id": "cover",
+      "promptFiles": [
+        "image_prompts_gen/cover.md"
+      ],
+      "image": "generated_images/cover.png",
+      "provider": "google",
+      "ar": "16:9",
+      "quality": "2k"
+    },
+    {
+      "id": "what-is",
+      "promptFiles": [
+        "image_prompts_gen/what-is.md"
+      ],
+      "image": "generated_images/what-is.png",
+      "provider": "google",
+      "ar": "16:9",
+      "quality": "2k"
+    },
+    {
+      "id": "why-hot",
+      "promptFiles": [
+        "image_prompts_gen/why-hot.md"
+      ],
+      "image": "generated_images/why-hot.png",
+      "provider": "google",
+      "ar": "16:9",
+      "quality": "2k"
+    },
+    {
+      "id": "risk",
+      "promptFiles": [
+        "image_prompts_gen/risk.md"
+      ],
+      "image": "generated_images/risk.png",
+      "provider": "google",
+      "ar": "16:9",
+      "quality": "2k"
+    }
+  ]
+}

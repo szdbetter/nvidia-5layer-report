@@ -1,0 +1,72 @@
+# Mermaid 思维导图模板
+
+```mermaid
+mindmap
+  root((Reese 能力资产))
+    模型层
+      codex
+        代码生成
+        自动化脚本
+        格式转换
+        结构化产物
+      gemini
+        超长上下文
+        多模态理解
+        长文吸收
+      glm
+        中文总结
+        中文归纳
+        轻研究
+      kimi
+        长文速读
+        文档初筛
+      qwen
+        批量初筛
+        网页清洗
+        低成本并行
+    节点层
+      本机主节点
+        文件读写
+        shell执行
+        浏览器
+        web搜索
+        cron
+        memory
+        tts
+      fiona_mbp2015
+        macOS
+        browser
+        system.run
+        system.which
+        远端浏览器任务
+        远端系统执行
+    采集层
+      已可用
+        GitHub
+        网页正文
+        RSS
+        Exa语义搜索
+        YouTube
+        B站
+        Agent Reach
+      待补齐
+        Twitter/X
+        Reddit
+        小红书
+        微博
+        抖音
+        LinkedIn
+        微信公众号
+        小宇宙转写
+    生成层
+      当前可用
+        中文总结
+        结构化报告
+        基础思维导图
+        基础TTS
+      当前短板
+        高质量思维导图模板链
+        高质量总结路由
+        语音生产流水线
+        中文社媒采集链
+```

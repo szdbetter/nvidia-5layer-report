@@ -1,0 +1,105 @@
+{
+  "jobs": 3,
+  "tasks": [
+    {
+      "id": "p01-cover",
+      "promptFiles": [
+        "image_prompts_ppt_v2/p01-cover.md"
+      ],
+      "image": "generated_images/ppt_v2/p01-cover.png",
+      "provider": "google",
+      "ar": "16:9",
+      "quality": "2k"
+    },
+    {
+      "id": "p02-typewriter",
+      "promptFiles": [
+        "image_prompts_ppt_v2/p02-typewriter.md"
+      ],
+      "image": "generated_images/ppt_v2/p02-typewriter.png",
+      "provider": "google",
+      "ar": "16:9",
+      "quality": "2k"
+    },
+    {
+      "id": "p03-boss-worker",
+      "promptFiles": [
+        "image_prompts_ppt_v2/p03-boss-worker.md"
+      ],
+      "image": "generated_images/ppt_v2/p03-boss-worker.png",
+      "provider": "google",
+      "ar": "16:9",
+      "quality": "2k"
+    },
+    {
+      "id": "p04-brain-hands",
+      "promptFiles": [
+        "image_prompts_ppt_v2/p04-brain-hands.md"
+      ],
+      "image": "generated_images/ppt_v2/p04-brain-hands.png",
+      "provider": "google",
+      "ar": "16:9",
+      "quality": "2k"
+    },
+    {
+      "id": "p05-autopilot",
+      "promptFiles": [
+        "image_prompts_ppt_v2/p05-autopilot.md"
+      ],
+      "image": "generated_images/ppt_v2/p05-autopilot.png",
+      "provider": "google",
+      "ar": "16:9",
+      "quality": "2k"
+    },
+    {
+      "id": "p06-intelligence-vs-execution",
+      "promptFiles": [
+        "image_prompts_ppt_v2/p06-intelligence-vs-execution.md"
+      ],
+      "image": "generated_images/ppt_v2/p06-intelligence-vs-execution.png",
+      "provider": "google",
+      "ar": "16:9",
+      "quality": "2k"
+    },
+    {
+      "id": "p09-audience",
+      "promptFiles": [
+        "image_prompts_ppt_v2/p09-audience.md"
+      ],
+      "image": "generated_images/ppt_v2/p09-audience.png",
+      "provider": "google",
+      "ar": "16:9",
+      "quality": "2k"
+    },
+    {
+      "id": "p10-agent-year",
+      "promptFiles": [
+        "image_prompts_ppt_v2/p10-agent-year.md"
+      ],
+      "image": "generated_images/ppt_v2/p10-agent-year.png",
+      "provider": "google",
+      "ar": "16:9",
+      "quality": "2k"
+    },
+    {
+      "id": "p11-cases",
+      "promptFiles": [
+        "image_prompts_ppt_v2/p11-cases.md"
+      ],
+      "image": "generated_images/ppt_v2/p11-cases.png",
+      "provider": "google",
+      "ar": "16:9",
+      "quality": "2k"
+    },
+    {
+      "id": "p12-ticket",
+      "promptFiles": [
+        "image_prompts_ppt_v2/p12-ticket.md"
+      ],
+      "image": "generated_images/ppt_v2/p12-ticket.png",
+      "provider": "google",
+      "ar": "16:9",
+      "quality": "2k"
+    }
+  ]
+}

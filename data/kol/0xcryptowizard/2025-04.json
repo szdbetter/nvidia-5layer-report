@@ -1,0 +1,648 @@
+{
+  "tweets": [
+    {
+      "id": "1917512839276945773",
+      "text": "只要没有明显病症出现，健康饮食，充足睡眠，规律运动能解决大部分身体问题。\n\n7-8年前，因为出差连续长途飞行，尾椎和颈椎都出了问题，颈椎的问题甚至到神经性的手臂麻木。\n\n跑去医院治疗和盲人按摩，都没有很好解决这些身体不适。\n\n然后规律运动了几个月，身体状态恢复了，自然就好了。\n\n想一想，身体健康不需要那么多补品和神奇的治疗方式，只需要尊重常识。\n\n祖母在你小时候告诉你的，好好吃饭，好好睡觉，好好运动，精神愉悦。",
+      "createdAt": "Wed Apr 30 09:34:21 +0000 2025",
+      "replyCount": 47,
+      "retweetCount": 23,
+      "likeCount": 229,
+      "conversationId": "1917512839276945773",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1917503765093179818",
+      "text": "布局下架币，现在的币圈，坦诚的令人害怕。",
+      "createdAt": "Wed Apr 30 08:58:17 +0000 2025",
+      "replyCount": 70,
+      "retweetCount": 5,
+      "likeCount": 158,
+      "conversationId": "1917503765093179818",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1917448548364476425",
+      "text": "@ohyishi 没有反馈的话，知行合一的一个重要环节就被打断了。\n\n行之后，现实世界给反馈，反思，再回到知的升级。",
+      "createdAt": "Wed Apr 30 05:18:53 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 17,
+      "conversationId": "1917407694346150059",
+      "inReplyToStatusId": "1917443102782193772",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1917437856035004576",
+      "text": "@FeiyanXie 汉服和隋唐宋都挺好看的。",
+      "createdAt": "Wed Apr 30 04:36:23 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 2,
+      "conversationId": "1917219912898281731",
+      "inReplyToStatusId": "1917219912898281731",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1917429638550413453",
+      "text": "@yubao_club 其实进入大厂也是不错的选择，身边的同事能力更强，能获得更大规模用户产品经验。\n\n不过网络游戏的大厂有个问题，就是生产流程太长，而且可能无法上线以及上线了很快也失败下线，这样反馈流程太长。\n\n年轻人没有几个4年可以浪费。",
+      "createdAt": "Wed Apr 30 04:03:44 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 4,
+      "conversationId": "1917407694346150059",
+      "inReplyToStatusId": "1917428608181887292",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1917414027032158370",
+      "text": "我上学时，隐约有这个意识。\n\n实习，选择了一个小创业公司，一个刚起步项目。\n\n产品在快速成长期，每天都能看到市场反馈，看到这个产品的收益和问题。\n\n在项目组实习两年，毛利从几十万人民币，做到几千万人民币，公司也从100人快速扩张到1000人。\n\n这就是真实世界的反馈。",
+      "createdAt": "Wed Apr 30 03:01:42 +0000 2025",
+      "replyCount": 11,
+      "retweetCount": 2,
+      "likeCount": 71,
+      "conversationId": "1917407694346150059",
+      "inReplyToStatusId": "1917407694346150059",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1917412104203808871",
+      "text": "@lijiuer1 亏了也是反馈啊。\n\n我记得 @0xSunNFT 有一个推我很喜欢，\n\nsometimes i win , sometimes i lose, but i always learn",
+      "createdAt": "Wed Apr 30 02:54:04 +0000 2025",
+      "replyCount": 4,
+      "retweetCount": 2,
+      "likeCount": 44,
+      "conversationId": "1917407694346150059",
+      "inReplyToStatusId": "1917411779002654807",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1917407694346150059",
+      "text": "选择职业方向，选那些能快速获得真实反馈，迭代提升自身能力的方向。\n\n我观察身边的例子，一个同学做网游策划，毕业在畅游做个项目做了4年多，后面上线草草测试效果不佳，公司就给下线了。又辗转在不同网游大厂，但始终没得到从策划，生产，到上线运营的真实反馈，一直无法把能力提升到一个新高度。\n\n这就是无法获得真实世界反馈的例子，在我看来这种职业方向，做起来会非常难，甚至不如快速上线一些手游项目，快速获得数据反馈来的有效。\n\n看多少书，学习多少知识，都不如实际世界给反馈来的有价值。\n\nNBA的职业教练，最重要的工作之一，就是观察球员的打球和训练过程，实时给反馈。\n\n币圈做交易，其中一个好处就是市场会快速给真实的结果，而且会不断出现新玩法。\n\n对于一个能不断反思和刻意练习的人来说，提升会非常快，在一年内，可以在新玩法里努力做到t0到t1级别。\n\n放弃这个优势，是有些可惜的。不断红着眼赌大小，做再久其实能力还是原地打转。",
+      "createdAt": "Wed Apr 30 02:36:32 +0000 2025",
+      "replyCount": 73,
+      "retweetCount": 29,
+      "likeCount": 281,
+      "conversationId": "1917407694346150059",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1917090702586220857",
+      "text": "@0x0xFeng 解决量的问题，商用路径就很清晰了。",
+      "createdAt": "Tue Apr 29 05:36:55 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 3,
+      "conversationId": "1917048091276120346",
+      "inReplyToStatusId": "1917090465708642593",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1917072725753139448",
+      "text": "@qinbafrank 又大又美丽\n\n好，真好，太好了，咋这么好呢\n\n15的月亮圆啊，又白又圆\n\n李白：飞流直下三千尺，疑是银河落九天\n川普：牛逼！！！！！！",
+      "createdAt": "Tue Apr 29 04:25:29 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 5,
+      "conversationId": "1916822472177189237",
+      "inReplyToStatusId": "1916822472177189237",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1917066534884925707",
+      "text": "@taofen_boy 对，淘宝代运营这种，一个客户能省几百万，就值得做，也好谈，利润好出来。",
+      "createdAt": "Tue Apr 29 04:00:53 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 3,
+      "conversationId": "1917048091276120346",
+      "inReplyToStatusId": "1917060979281789141",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1917060311313748381",
+      "text": "@taofen_boy 我的意思是，有的工作，能被ai替代，但是暂时还没有被产品化，原因是成本/价值还不够高。\n\n比如，一个助理每个月工资8000，主要工作是整理发票帮忙做点报告报表这些。",
+      "createdAt": "Tue Apr 29 03:36:10 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 7,
+      "conversationId": "1917048091276120346",
+      "inReplyToStatusId": "1917051707202371846",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1917049943635931376",
+      "text": "@Huaguibtc 还是有很多不容易被 ai 取代的工作。",
+      "createdAt": "Tue Apr 29 02:54:58 +0000 2025",
+      "replyCount": 3,
+      "retweetCount": 0,
+      "likeCount": 2,
+      "conversationId": "1917048091276120346",
+      "inReplyToStatusId": "1917048979352961417",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1917049766992806053",
+      "text": "@web3_eto 纯文字聊天类的，已经很多了，越来越不需要真人网恋了。",
+      "createdAt": "Tue Apr 29 02:54:16 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 0,
+      "conversationId": "1917048091276120346",
+      "inReplyToStatusId": "1917048792068854075",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1917049326007947438",
+      "text": "@peterpan_crypto 风俗产业 ai 能做，而且情绪价值肯定比人给的好。",
+      "createdAt": "Tue Apr 29 02:52:31 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 3,
+      "conversationId": "1917048091276120346",
+      "inReplyToStatusId": "1917048715090764176",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1917048091276120346",
+      "text": "如果你的工作，ai 能做，但目前还没被替代，说明这个工作成本/价值比较低，暂时不值得被替代。\n\n只要某个工作，ai 能做，且，成本/价值高，就一定会有公司把这个业务用 ai 产品化。\n\n刚看了一个中国式 ai 创业案例，做淘宝电商代运营，原来公司需要每年花450万雇佣美工/剪辑/文案大概20-30人来做，他们的产品只需要一年几十万就能帮助产出同等水平10倍的内容。\n\n技术不需要高深，业务一定深入，替代的就是成本/价值高的人力部分。",
+      "createdAt": "Tue Apr 29 02:47:36 +0000 2025",
+      "replyCount": 73,
+      "retweetCount": 14,
+      "likeCount": 156,
+      "conversationId": "1917048091276120346",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1916818358806405281",
+      "text": "我想要一根大阳线\n\ngod candle plz",
+      "createdAt": "Mon Apr 28 11:34:44 +0000 2025",
+      "replyCount": 49,
+      "retweetCount": 5,
+      "likeCount": 107,
+      "conversationId": "1916818358806405281",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1916735527795200160",
+      "text": "@Trader_S18 可以在最后一跌之前拉个新高骗流动性，配合各个山寨主力做暴涨。\n\n即使能预计到这个情况，也有可能是意料之外的流动性回归，让我们都会认为大牛。",
+      "createdAt": "Mon Apr 28 06:05:35 +0000 2025",
+      "replyCount": 3,
+      "retweetCount": 0,
+      "likeCount": 20,
+      "conversationId": "1916725199116157047",
+      "inReplyToStatusId": "1916735130611384385",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1916727602653667482",
+      "text": "@Trader_S18 假设场景里，最好的一个是新高骗炮，没人会认为是大牛市。",
+      "createdAt": "Mon Apr 28 05:34:06 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 8,
+      "conversationId": "1916725199116157047",
+      "inReplyToStatusId": "1916725199116157047",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1916725164961829250",
+      "text": "@market_beggar 没有，只是短期触底。",
+      "createdAt": "Mon Apr 28 05:24:25 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 16,
+      "conversationId": "1916723335641383322",
+      "inReplyToStatusId": "1916724124073738339",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1916723335641383322",
+      "text": "流动性回来了，那个什么季也回来了。\n\n你选了哪个二级标的？理由是什么？\n你选了哪个一级标的？理由是什么？\n都不选，认为又是一次骗炮，理由是什么？",
+      "createdAt": "Mon Apr 28 05:17:08 +0000 2025",
+      "replyCount": 108,
+      "retweetCount": 13,
+      "likeCount": 134,
+      "conversationId": "1916723335641383322",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "quotedTweet": {
+        "id": "1915958371704037439",
+        "text": "bro，you know what 季开始了么？\n\n前面敢提它名字的，坟头都三尺高了，恐惧敬畏尊重。",
+        "createdAt": "Sat Apr 26 02:37:27 +0000 2025",
+        "replyCount": 81,
+        "retweetCount": 9,
+        "likeCount": 124,
+        "conversationId": "1915958371704037439",
+        "author": {
+          "username": "0xcryptowizard",
+          "name": "0xWizard"
+        },
+        "authorId": "1195728139898376193"
+      }
+    },
+    {
+      "id": "1916711890639819016",
+      "text": "看个甜甜恋爱剧《苦尽柑来遇见你》，弹幕里面都能男女对立吵起来，还有中韩对立，还有诅咒小孩的，最牛逼的弹幕直接希望所有人都去死。\n\n我平时基本从不用微博/抖音这些，也不看任何投资以外的新闻和信息，最多听听歌，打打游戏，散散步。\n\n猛然间发现这个世界，突然冒出来这么多的仇恨，国家和国家之间，民族与民族之间，不同肤色之间，不同城市之间，不同性别之间，有孩子的和没孩子的，年轻人与老人。\n\n之前有人做过一个实验，一群陌生人，只是分成两组，说做一个竞争对抗游戏，起了不同的组名，比如“雄鹰队”和“狮子队”。这两组完全彼此不认识的陌生人，就开始仇视彼此。\n\n怪不得芒格对如何幸福生活，特别提到“不要仇恨”，因为这，就是人类最愿意去做的不幸之事之一。\n\n我从不圣母的认为这个世界就是充满和平的，也不会认为人性本善，但是作为一个理性人，对另外一个人的评价，应该无关他/她的性别，民族，国籍，肤色，地域，学校，财富。\n\n而是永远针对具体的人，他是否是一个可靠的人，是否是一个品行端正的人，是否是一个诚信的人，依据这些，得出对这个人的判断。\n\n少一点仇恨，少一点歧视，多一点理性，多一点心平气和，这个世界总会稍微好一些。",
+      "createdAt": "Mon Apr 28 04:31:40 +0000 2025",
+      "replyCount": 62,
+      "retweetCount": 11,
+      "likeCount": 154,
+      "conversationId": "1916711890639819016",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1916708610568262141",
+      "text": "@shixguang_ you are just a random thirdparty developer in china\n\n每次看到这种地域/民族/国籍歧视，都很无语。",
+      "createdAt": "Mon Apr 28 04:18:38 +0000 2025",
+      "replyCount": 3,
+      "retweetCount": 1,
+      "likeCount": 40,
+      "conversationId": "1916509141134434541",
+      "inReplyToStatusId": "1916509141134434541",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1916345138705543584",
+      "text": "很多人的问题是，拿着锤子，就非常笃定的告诉别人，这个世界就是一个巨大的钉子。\n\n如果事实证明，其实是个松饼的时候，他会说，没错，我说的就是钉子形状的松饼。\n\n别人说，这个松饼是圆的啊，他会说，没错，谁说钉子只能是尖的，我说的就是圆钉子，你理解问题。\n\n警惕这些钉子专业户。",
+      "createdAt": "Sun Apr 27 04:14:19 +0000 2025",
+      "replyCount": 95,
+      "retweetCount": 30,
+      "likeCount": 169,
+      "conversationId": "1916345138705543584",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1916322894168396031",
+      "text": "如果你觉得即使是这些精英，在你眼中也不值一提，都是小卡拉米。\n\n那搜一下 ltcm 的故事，团队里两个诺贝尔经济学奖得主，策略收益率年化 40％以上，存续4年破产了，被联储协调接管。",
+      "createdAt": "Sun Apr 27 02:45:56 +0000 2025",
+      "replyCount": 9,
+      "retweetCount": 2,
+      "likeCount": 45,
+      "conversationId": "1916319711828275555",
+      "inReplyToStatusId": "1916319711828275555",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1916319711828275555",
+      "text": "为什么把别死放在第一位，而且不厌其烦的每天发常识。\n\n如果你觉得自己是个天才，其他人的破产都是因为太愚蠢了，那读读惠轶的故事吧，随便在 Google 搜一下。\n\n善泳者溺，在币圈比比皆是。",
+      "createdAt": "Sun Apr 27 02:33:17 +0000 2025",
+      "replyCount": 57,
+      "retweetCount": 24,
+      "likeCount": 213,
+      "conversationId": "1916319711828275555",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "quotedTweet": {
+        "id": "1915992219460460656",
+        "text": "第一，别死\n不管成功率多高，回报率多好的策略，只要有归零可能性，就不做。\n\n第二，眼光好\n辨别“叙事”，辨别“热点”，理解资金流动，理解宏观和大盘，理解k线，理解情绪，找到“好标的”。\n\n第三，等\n等到“好标的”落入击球区，慢慢买；等到持仓进入卖出区，慢慢卖。\n\n第四，坚持以上原则，反复做。",
+        "createdAt": "Sat Apr 26 04:51:57 +0000 2025",
+        "replyCount": 129,
+        "retweetCount": 296,
+        "likeCount": 1245,
+        "conversationId": "1915992219460460656",
+        "author": {
+          "username": "0xcryptowizard",
+          "name": "0xWizard"
+        },
+        "authorId": "1195728139898376193"
+      }
+    },
+    {
+      "id": "1916317115633611200",
+      "text": "@broleon 币圈惨案太多了，善泳者溺的故事比比皆是。",
+      "createdAt": "Sun Apr 27 02:22:58 +0000 2025",
+      "replyCount": 3,
+      "retweetCount": 1,
+      "likeCount": 11,
+      "conversationId": "1916278444314530270",
+      "inReplyToStatusId": "1916316715790524541",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1916316573419164032",
+      "text": "@broleon 看看惠轶的故事。",
+      "createdAt": "Sun Apr 27 02:20:49 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 1,
+      "likeCount": 5,
+      "conversationId": "1916278444314530270",
+      "inReplyToStatusId": "1916278444314530270",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1916059836766425397",
+      "text": "@danielesesta totally agree with this",
+      "createdAt": "Sat Apr 26 09:20:38 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 1,
+      "likeCount": 3,
+      "conversationId": "1916056692367782206",
+      "inReplyToStatusId": "1916056692367782206",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1916047990130700318",
+      "text": "@phill76815 项目也没社区，只有叙事。",
+      "createdAt": "Sat Apr 26 08:33:33 +0000 2025",
+      "replyCount": 5,
+      "retweetCount": 2,
+      "likeCount": 4,
+      "conversationId": "1916047422641607072",
+      "inReplyToStatusId": "1916047804293910566",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1916047422641607072",
+      "text": "逻辑1\ncrypto 没有社区，只有热点\n\n逻辑2\n美国政治和宏观，会是这波行情的主线热点\n\n逻辑3\n热点决定方向，上的大所数量决定流动性基础\n\n逻辑4\ntrump 和 pnut 这两个标\ntrump的优缺点明显，优点是关系最直接/有明庄；\n缺点是不知道这个明庄要怎么博弈，直接浇还是拉一波浇。\n安全性考虑，选择了pnut。",
+      "createdAt": "Sat Apr 26 08:31:18 +0000 2025",
+      "replyCount": 72,
+      "retweetCount": 25,
+      "likeCount": 147,
+      "conversationId": "1916047422641607072",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "quotedTweet": {
+        "id": "1903282405462643071",
+        "text": "近期做的第三笔交易，是 cex 的，慢慢 dca 了一些 pnut 。\n\n理由：\n\n🌟叙事方向\n\n币圈如果还有一波 cex 行情，大概率是美国政策相关，trump 这个标是最直接的，但是市值和4月解锁是很大不确定性，还在观察；pnut 当前市值承接这个情绪似乎更合适。\n\n🌟上所最全\n\n中美两国散户用的最多的 cex 都上了，美国散户的 coinbase robinhood，中国散户的bn和ok 。\n\n如果我没记错，应该是同时上了这些所里，市值最低的标的。\n\n🌟k线\n\n目前看量价，像是吸筹区间。\n也不排除低位派发的可能性，所以等右侧突破这个区间回踩，再继续加仓。\n\n所内建仓，纯粹在赌大盘方向，兄弟们跟不跟，还是看自己对大盘判断，我这里只是记录一下操作。",
+        "createdAt": "Sat Mar 22 03:07:41 +0000 2025",
+        "replyCount": 93,
+        "retweetCount": 35,
+        "likeCount": 235,
+        "conversationId": "1903282405462643071",
+        "author": {
+          "username": "0xcryptowizard",
+          "name": "0xWizard"
+        },
+        "authorId": "1195728139898376193"
+      }
+    },
+    {
+      "id": "1916035864419045403",
+      "text": "@agintender 还有能力圈和耐心。\n\n能力圈不必是价值投资，可以是任何打法，关键是守住里面。",
+      "createdAt": "Sat Apr 26 07:45:22 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 4,
+      "conversationId": "1915992219460460656",
+      "inReplyToStatusId": "1916032843656138917",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1916031600569245817",
+      "text": "@agintender 没错，巴菲特和芒格思想精髓不是“价值投资”，而是关于投资和生活的更本质思考。",
+      "createdAt": "Sat Apr 26 07:28:26 +0000 2025",
+      "replyCount": 4,
+      "retweetCount": 1,
+      "likeCount": 28,
+      "conversationId": "1915992219460460656",
+      "inReplyToStatusId": "1915997031732031537",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1916018510590857302",
+      "text": "@cishanjia 每天那么多光着膀子在marina bay 咔咔跑的人，因为是要把身体里和脑子里的水排出去，否则昏昏沉沉，身体也懒懒的。",
+      "createdAt": "Sat Apr 26 06:36:25 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 6,
+      "conversationId": "1916003221187006640",
+      "inReplyToStatusId": "1916018178075033713",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1916017714055024776",
+      "text": "@cishanjia 痰是新加坡过于湿热，不只是抽烟的问题。",
+      "createdAt": "Sat Apr 26 06:33:15 +0000 2025",
+      "replyCount": 2,
+      "retweetCount": 0,
+      "likeCount": 13,
+      "conversationId": "1916003221187006640",
+      "inReplyToStatusId": "1916003221187006640",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1916017236470599728",
+      "text": "@KelseyWeb3VC @EarningArtist 他说的没错，我破产不止两次了。",
+      "createdAt": "Sat Apr 26 06:31:21 +0000 2025",
+      "replyCount": 1,
+      "retweetCount": 0,
+      "likeCount": 9,
+      "conversationId": "1915992219460460656",
+      "inReplyToStatusId": "1916014797092487657",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1915992219460460656",
+      "text": "第一，别死\n不管成功率多高，回报率多好的策略，只要有归零可能性，就不做。\n\n第二，眼光好\n辨别“叙事”，辨别“热点”，理解资金流动，理解宏观和大盘，理解k线，理解情绪，找到“好标的”。\n\n第三，等\n等到“好标的”落入击球区，慢慢买；等到持仓进入卖出区，慢慢卖。\n\n第四，坚持以上原则，反复做。",
+      "createdAt": "Sat Apr 26 04:51:57 +0000 2025",
+      "replyCount": 129,
+      "retweetCount": 296,
+      "likeCount": 1245,
+      "conversationId": "1915992219460460656",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1915962182925479975",
+      "text": "有一个强烈的目标，一个愿望，渴求，欲念。\n\n最幸福的，是在努力追求它的过程。\n\n最痛苦的，是求而不得，发现永远也达不到这个目标。\n\n更痛苦的，是达到了这个目标之后，发现不过如此。",
+      "createdAt": "Sat Apr 26 02:52:35 +0000 2025",
+      "replyCount": 105,
+      "retweetCount": 32,
+      "likeCount": 206,
+      "conversationId": "1915962182925479975",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    },
+    {
+      "id": "1915958371704037439",
+      "text": "bro，you know what 季开始了么？\n\n前面敢提它名字的，坟头都三尺高了，恐惧敬畏尊重。",
+      "createdAt": "Sat Apr 26 02:37:27 +0000 2025",
+      "replyCount": 81,
+      "retweetCount": 9,
+      "likeCount": 124,
+      "conversationId": "1915958371704037439",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193",
+      "quotedTweet": {
+        "id": "1915053967870247281",
+        "text": "那个什么季，现在在币圈，跟伏地魔一样，大家都是只敢想想，不敢说出来。\n\n互相聊的时候，要用暗号，you know what 季 ，来指代，生怕给自己的持仓带来凶兆。",
+        "createdAt": "Wed Apr 23 14:43:40 +0000 2025",
+        "replyCount": 112,
+        "retweetCount": 7,
+        "likeCount": 265,
+        "conversationId": "1915053967870247281",
+        "author": {
+          "username": "0xcryptowizard",
+          "name": "0xWizard"
+        },
+        "authorId": "1195728139898376193"
+      }
+    },
+    {
+      "id": "1915782596430070008",
+      "text": "前面行情比较冷，没怎么发过操作，也没怎么发过判断。\n\n发了一个判断：\n3月11日发了一个大概判断，1-2个月可以慢慢买。\n\n发了3个操作：\nbmt 20m建仓，1天4倍上了bn；\npnut 1-2个月建仓，现在拿着，依然是我认为这波最值得二级赌的山寨；\nanon链上买了一直拿着没动，押注ai。",
+      "createdAt": "Fri Apr 25 14:58:59 +0000 2025",
+      "replyCount": 27,
+      "retweetCount": 13,
+      "likeCount": 104,
+      "conversationId": "1915780771501191258",
+      "inReplyToStatusId": "1915780771501191258",
+      "author": {
+        "username": "0xcryptowizard",
+        "name": "0xWizard"
+      },
+      "authorId": "1195728139898376193"
+    }
+  ],
+  "nextCursor": null
+}

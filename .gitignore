@@ -1,0 +1,13 @@
+*.jsonl
+*.pdf
+node_modules/
+*.mp3
+*.aiff
+config/
+.secrets
+secrets_reese.md
+reese_wallet.md
+docs/openclaw/merged_files/*.md
+demo_oatmeal.mp4
+projects/openclaw_course/video_output/*.mp4
+.gstack/

@@ -1,0 +1,81 @@
+
+@jason_chen998 (陈剑Jason):
+临近年末，2025年度最良心项目和最畜生项目评选大赛开始🙌🏻在评论区留下你心目中认为今年最良心和畜生的项目，并给出对应理由，让我们看看哪些项目光荣上榜占比最高🤔
+📅 Sun Nov 30 23:29:09 +0000 2025
+🔗 https://x.com/jason_chen998/status/1995273927963386314
+──────────────────────────────────────────────────
+
+@jason_chen998 (陈剑Jason):
+@tradermige @binance @cz_binance 卧槽我看你把cz骂成那样，以为都被币安拉黑了🤣🤣🤣
+📅 Sun Nov 30 08:53:33 +0000 2025
+🔗 https://x.com/jason_chen998/status/1995053575496769589
+──────────────────────────────────────────────────
+
+@jason_chen998 (陈剑Jason):
+@mfanyu17 以太坊上的老项目，vitalik也投了
+📅 Sun Nov 30 08:31:34 +0000 2025
+🔗 https://x.com/jason_chen998/status/1995048045210394917
+──────────────────────────────────────────────────
+
+@jason_chen998 (陈剑Jason):
+由A16Z和Paradigm两巨头同时领投的Aztec这是要把公售给玩到极致了，项目方明确将不会有任何空投，那节点、早期贡献者、社区成员们怎么办呢？奖励你们公售白名单，想要空投吗？来花钱买吧🤣这次公售占Token总量14.95%，超过30万个白名单作为早鸟名额可以在12月2号之前参与，正式的公售则是12月2号到6号，所有人都可以注册，Aztec将采用Uniswap的CCA连续清算拍卖，是这个月刚推出的一种链上价格发现机制，项目方会先设定一个E本位的底价，Aztec本次定的是98493ETH即2.9亿美金，然后确定公售时间段，在此期间Token将会按照每个区块来分别竞拍，从而确保没有人可以一次性把Token全部抢光，CCA机制也是Uniswap迎合打新牛的一次创新尝试，Aztec作为第一个项目总得给点肉吃吧。
+┌─ QT @aztecnetwork:
+│ Study Aztec’s Technical Whitepaper.
+│ 
+│ Then verify your eligibility on the $AZTEC token site: https://t.co/i6koBrcKPe https://t.co/HhaWXdCcMe
+│ 🎬 https://pbs.twimg.com/amplify_video_thumb/1994844391135924224/img/vinAVOwXgy9tXTes.jpg
+└─ https://x.com/aztecnetwork/status/1994845867363467494
+📅 Sun Nov 30 08:22:29 +0000 2025
+🔗 https://x.com/jason_chen998/status/1995045756890120683
+──────────────────────────────────────────────────
+
+@jason_chen998 (陈剑Jason):
+@mfanyu17 他应该是故意玩抽象的😂只不过不少人没看懂信以为真了
+📅 Sun Nov 30 08:01:10 +0000 2025
+🔗 https://x.com/jason_chen998/status/1995040395408130219
+──────────────────────────────────────────────────
+
+@jason_chen998 (陈剑Jason):
+@jiroucaigou 我看比较主流的分析是他们觉得美联储会多次降息，持有美元不保值了
+📅 Sun Nov 30 07:21:11 +0000 2025
+🔗 https://x.com/jason_chen998/status/1995030329602773226
+──────────────────────────────────────────────────
+
+@jason_chen998 (陈剑Jason):
+很多人被Tether的这个资产负债表搞怕了以为看起来岌岌可危马上资不抵债，这是9月30号的审计报告，根据里面的数据Tether的总资产为1810亿，总负债1740亿，所以只有3.74%的缓冲，听起来很吓人是吗？但是首先这里的负债并不是指企业经营中的借钱欠债，而是USDT的发行数量，即对用户的兑付义务，所以这里的债务性质属于取存款而非还贷款，所以性质和银行存款一样，那银行存款的储备金有多少呢？5%到10%，也就是你存在银行100块钱，银行最少只需要保留5块钱，剩下的全部都能给你贷出去，而Tether目前则是完全超额的状况，其次即使去除掉其持有的黄金、BTC、企业债券等波动性风险资产，剩下77%全部都是现金、国债和货币基金的稳定流动性资产，也就是Tether的现金储备金达到了77%，而银行最多也就是10%的水平，到底哪个暴雷的可能性更高呢🤔
+该图表所属的审计报告全文链接如下：
+https://t.co/9D78s36rIG
+┌─ QT @CryptoHayes:
+│ The Tether folks are in the early innings of running a massive interest rate trade. How I read this audit is they think the Fed will cut rates which crushes their interest income. In response, they are buying gold and $BTC that should in theory moon as the price of money falls.
+│ 
+│ ...
+│ 🖼️ https://pbs.twimg.com/media/G69bU7abkAMsISj.jpg
+└─ https://x.com/CryptoHayes/status/1994915256150495652
+📅 Sun Nov 30 07:01:19 +0000 2025
+🔗 https://x.com/jason_chen998/status/1995025332878049784
+──────────────────────────────────────────────────
+
+@jason_chen998 (陈剑Jason):
+每隔几天就会有一个闪崩暴跌50%的币出现，以前出现这种情况还是个稀罕事，现在越来越频繁到甚至习以为常，Sahara这种可是同时上线币安、Upbit、OKX等所有交易所的流动性充沛项目，近10亿的市值却只需要259万的成交量就可以把币价砸下去50%，币圈项目太虚胖了。看Sahara公告怎么解释这个情况吧，看这K线也不可能是黑客之类的，哪个黑客这么牛逼在砸盘前还给你做个诱多假突破？🤣
+🖼️ https://pbs.twimg.com/media/G68cxsoasAAYesY.jpg
+┌─ QT @jason_chen998:
+│ ZEC爆拉10倍把隐私赛道带起来后，很多人踏空开始追其他标的，然后同为隐私赛道的Nillion趁机暴跌50%完美退场谢幕 https://t.co/DRNUamc4Zp
+│ 🖼️ https://pbs.twimg.com/media/G6LyCTWaUAEPpPM.jpg
+└─ https://x.com/jason_chen998/status/1991420113225187527
+📅 Sat Nov 29 19:04:00 +0000 2025
+🔗 https://x.com/jason_chen998/status/1994844814656094530
+──────────────────────────────────────────────────
+
+@jason_chen998 (陈剑Jason):
+@blockTVBee 币安毕竟是大所有带头作用
+📅 Fri Nov 28 23:24:42 +0000 2025
+🔗 https://x.com/jason_chen998/status/1994548031329624527
+──────────────────────────────────────────────────
+
+@jason_chen998 (陈剑Jason):
+@blockTVBee 刚才用ai搜了一下第一个搞储备金证明的居然是gate https://t.co/9i6STLaON1
+🖼️ https://pbs.twimg.com/media/G64LfCkbkAEm-dQ.jpg
+🖼️ https://pbs.twimg.com/media/G64LfCdbkAEUiqD.jpg
+📅 Fri Nov 28 23:10:04 +0000 2025
+🔗 https://x.com/jason_chen998/status/1994544349317824648
+──────────────────────────────────────────────────

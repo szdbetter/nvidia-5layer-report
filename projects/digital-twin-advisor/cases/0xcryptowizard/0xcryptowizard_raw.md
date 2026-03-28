@@ -1,0 +1,599 @@
+# 0xcryptowizard 完整推文语料（旧+新）
+
+## 旧推文语料（2025-02 ~ 2026-02）
+⚠️ Failed to read Safari cookies: EPERM: operation not permitted, open '/Users/ai/Library/Containers/com.apple.Safari/Data/Library/Cookies/Cookies.binarycookies'
+⚠️ No Twitter cookies found in Safari. Make sure you are logged into x.com in Safari.
+⚠️ Failed to read macOS Keychain (Chrome Safe Storage): Timed out after 3000ms
+⚠️ No Twitter cookies found in Chrome. Make sure you are logged into x.com in Chrome.
+⚠️ Firefox cookies database not found.
+⚠️ No Twitter cookies found in Firefox. Make sure you are logged into x.com in Firefox and the profile exists.
+⚠️ Missing auth_token - provide via --auth-token, AUTH_TOKEN env var, or login to x.com in Safari/Chrome/Firefox
+⚠️ Missing ct0 - provide via --ct0, CT0 env var, or login to x.com in Safari/Chrome/Firefox
+❌ Missing required credentials
+⚠️ Failed to read Safari cookies: EPERM: operation not permitted, open '/Users/ai/Library/Containers/com.apple.Safari/Data/Library/Cookies/Cookies.binarycookies'
+⚠️ No Twitter cookies found in Safari. Make sure you are logged into x.com in Safari.
+⚠️ Failed to read macOS Keychain (Chrome Safe Storage): Timed out after 3000ms
+⚠️ No Twitter cookies found in Chrome. Make sure you are logged into x.com in Chrome.
+⚠️ Firefox cookies database not found.
+⚠️ No Twitter cookies found in Firefox. Make sure you are logged into x.com in Firefox and the profile exists.
+⚠️ Missing auth_token - provide via --auth-token, AUTH_TOKEN env var, or login to x.com in Safari/Chrome/Firefox
+⚠️ Missing ct0 - provide via --ct0, CT0 env var, or login to x.com in Safari/Chrome/Firefox
+❌ Missing required credentials
+⚠️ Failed to read Safari cookies: EPERM: operation not permitted, open '/Users/ai/Library/Containers/com.apple.Safari/Data/Library/Cookies/Cookies.binarycookies'
+⚠️ No Twitter cookies found in Safari. Make sure you are logged into x.com in Safari.
+⚠️ Failed to read macOS Keychain (Chrome Safe Storage): Timed out after 3000ms
+⚠️ No Twitter cookies found in Chrome. Make sure you are logged into x.com in Chrome.
+⚠️ Firefox cookies database not found.
+⚠️ No Twitter cookies found in Firefox. Make sure you are logged into x.com in Firefox and the profile exists.
+⚠️ Missing auth_token - provide via --auth-token, AUTH_TOKEN env var, or login to x.com in Safari/Chrome/Firefox
+⚠️ Missing ct0 - provide via --ct0, CT0 env var, or login to x.com in Safari/Chrome/Firefox
+❌ Missing required credentials
+⚠️ Failed to read Safari cookies: EPERM: operation not permitted, open '/Users/ai/Library/Containers/com.apple.Safari/Data/Library/Cookies/Cookies.binarycookies'
+⚠️ No Twitter cookies found in Safari. Make sure you are logged into x.com in Safari.
+⚠️ Failed to read macOS Keychain (Chrome Safe Storage): Timed out after 3000ms
+⚠️ No Twitter cookies found in Chrome. Make sure you are logged into x.com in Chrome.
+⚠️ Firefox cookies database not found.
+⚠️ No Twitter cookies found in Firefox. Make sure you are logged into x.com in Firefox and the profile exists.
+⚠️ Missing auth_token - provide via --auth-token, AUTH_TOKEN env var, or login to x.com in Safari/Chrome/Firefox
+⚠️ Missing ct0 - provide via --ct0, CT0 env var, or login to x.com in Safari/Chrome/Firefox
+❌ Missing required credentials
+⚠️ Failed to read Safari cookies: EPERM: operation not permitted, open '/Users/ai/Library/Containers/com.apple.Safari/Data/Library/Cookies/Cookies.binarycookies'
+⚠️ No Twitter cookies found in Safari. Make sure you are logged into x.com in Safari.
+⚠️ Failed to read macOS Keychain (Chrome Safe Storage): Timed out after 3000ms
+⚠️ No Twitter cookies found in Chrome. Make sure you are logged into x.com in Chrome.
+⚠️ Firefox cookies database not found.
+⚠️ No Twitter cookies found in Firefox. Make sure you are logged into x.com in Firefox and the profile exists.
+⚠️ Missing auth_token - provide via --auth-token, AUTH_TOKEN env var, or login to x.com in Safari/Chrome/Firefox
+⚠️ Missing ct0 - provide via --ct0, CT0 env var, or login to x.com in Safari/Chrome/Firefox
+❌ Missing required credentials
+⚠️ Failed to read Safari cookies: EPERM: operation not permitted, open '/Users/ai/Library/Containers/com.apple.Safari/Data/Library/Cookies/Cookies.binarycookies'
+⚠️ No Twitter cookies found in Safari. Make sure you are logged into x.com in Safari.
+⚠️ Failed to read macOS Keychain (Chrome Safe Storage): Timed out after 3000ms
+⚠️ No Twitter cookies found in Chrome. Make sure you are logged into x.com in Chrome.
+⚠️ Firefox cookies database not found.
+⚠️ No Twitter cookies found in Firefox. Make sure you are logged into x.com in Firefox and the profile exists.
+⚠️ Missing auth_token - provide via --auth-token, AUTH_TOKEN env var, or login to x.com in Safari/Chrome/Firefox
+⚠️ Missing ct0 - provide via --ct0, CT0 env var, or login to x.com in Safari/Chrome/Firefox
+❌ Missing required credentials
+⚠️ Failed to read Safari cookies: EPERM: operation not permitted, open '/Users/ai/Library/Containers/com.apple.Safari/Data/Library/Cookies/Cookies.binarycookies'
+⚠️ No Twitter cookies found in Safari. Make sure you are logged into x.com in Safari.
+⚠️ Failed to read macOS Keychain (Chrome Safe Storage): Timed out after 3000ms
+⚠️ No Twitter cookies found in Chrome. Make sure you are logged into x.com in Chrome.
+⚠️ Firefox cookies database not found.
+⚠️ No Twitter cookies found in Firefox. Make sure you are logged into x.com in Firefox and the profile exists.
+⚠️ Missing auth_token - provide via --auth-token, AUTH_TOKEN env var, or login to x.com in Safari/Chrome/Firefox
+⚠️ Missing ct0 - provide via --ct0, CT0 env var, or login to x.com in Safari/Chrome/Firefox
+❌ Missing required credentials
+⚠️ Failed to read Safari cookies: EPERM: operation not permitted, open '/Users/ai/Library/Containers/com.apple.Safari/Data/Library/Cookies/Cookies.binarycookies'
+⚠️ No Twitter cookies found in Safari. Make sure you are logged into x.com in Safari.
+⚠️ Failed to read macOS Keychain (Chrome Safe Storage): Timed out after 3000ms
+⚠️ No Twitter cookies found in Chrome. Make sure you are logged into x.com in Chrome.
+⚠️ Firefox cookies database not found.
+⚠️ No Twitter cookies found in Firefox. Make sure you are logged into x.com in Firefox and the profile exists.
+⚠️ Missing auth_token - provide via --auth-token, AUTH_TOKEN env var, or login to x.com in Safari/Chrome/Firefox
+⚠️ Missing ct0 - provide via --ct0, CT0 env var, or login to x.com in Safari/Chrome/Firefox
+❌ Missing required credentials
+⚠️ Failed to read Safari cookies: EPERM: operation not permitted, open '/Users/ai/Library/Containers/com.apple.Safari/Data/Library/Cookies/Cookies.binarycookies'
+⚠️ No Twitter cookies found in Safari. Make sure you are logged into x.com in Safari.
+⚠️ Failed to read macOS Keychain (Chrome Safe Storage): Timed out after 3000ms
+⚠️ No Twitter cookies found in Chrome. Make sure you are logged into x.com in Chrome.
+⚠️ Firefox cookies database not found.
+⚠️ No Twitter cookies found in Firefox. Make sure you are logged into x.com in Firefox and the profile exists.
+⚠️ Missing auth_token - provide via --auth-token, AUTH_TOKEN env var, or login to x.com in Safari/Chrome/Firefox
+⚠️ Missing ct0 - provide via --ct0, CT0 env var, or login to x.com in Safari/Chrome/Firefox
+❌ Missing required credentials
+⚠️ Failed to read Safari cookies: EPERM: operation not permitted, open '/Users/ai/Library/Containers/com.apple.Safari/Data/Library/Cookies/Cookies.binarycookies'
+⚠️ No Twitter cookies found in Safari. Make sure you are logged into x.com in Safari.
+⚠️ Failed to read macOS Keychain (Chrome Safe Storage): Timed out after 3000ms
+⚠️ No Twitter cookies found in Chrome. Make sure you are logged into x.com in Chrome.
+⚠️ Firefox cookies database not found.
+⚠️ No Twitter cookies found in Firefox. Make sure you are logged into x.com in Firefox and the profile exists.
+⚠️ Missing auth_token - provide via --auth-token, AUTH_TOKEN env var, or login to x.com in Safari/Chrome/Firefox
+⚠️ Missing ct0 - provide via --ct0, CT0 env var, or login to x.com in Safari/Chrome/Firefox
+❌ Missing required credentials
+⚠️ Failed to read Safari cookies: EPERM: operation not permitted, open '/Users/ai/Library/Containers/com.apple.Safari/Data/Library/Cookies/Cookies.binarycookies'
+⚠️ No Twitter cookies found in Safari. Make sure you are logged into x.com in Safari.
+⚠️ Failed to read macOS Keychain (Chrome Safe Storage): Timed out after 3000ms
+⚠️ No Twitter cookies found in Chrome. Make sure you are logged into x.com in Chrome.
+⚠️ Firefox cookies database not found.
+⚠️ No Twitter cookies found in Firefox. Make sure you are logged into x.com in Firefox and the profile exists.
+⚠️ Missing auth_token - provide via --auth-token, AUTH_TOKEN env var, or login to x.com in Safari/Chrome/Firefox
+⚠️ Missing ct0 - provide via --ct0, CT0 env var, or login to x.com in Safari/Chrome/Firefox
+❌ Missing required credentials
+⚠️ Failed to read Safari cookies: EPERM: operation not permitted, open '/Users/ai/Library/Containers/com.apple.Safari/Data/Library/Cookies/Cookies.binarycookies'
+⚠️ No Twitter cookies found in Safari. Make sure you are logged into x.com in Safari.
+⚠️ Failed to read macOS Keychain (Chrome Safe Storage): Timed out after 3000ms
+⚠️ No Twitter cookies found in Chrome. Make sure you are logged into x.com in Chrome.
+⚠️ Firefox cookies database not found.
+⚠️ No Twitter cookies found in Firefox. Make sure you are logged into x.com in Firefox and the profile exists.
+⚠️ Missing auth_token - provide via --auth-token, AUTH_TOKEN env var, or login to x.com in Safari/Chrome/Firefox
+⚠️ Missing ct0 - provide via --ct0, CT0 env var, or login to x.com in Safari/Chrome/Firefox
+❌ Missing required credentials
+⚠️ Failed to read Safari cookies: EPERM: operation not permitted, open '/Users/ai/Library/Containers/com.apple.Safari/Data/Library/Cookies/Cookies.binarycookies'
+⚠️ No Twitter cookies found in Safari. Make sure you are logged into x.com in Safari.
+⚠️ Failed to read macOS Keychain (Chrome Safe Storage): Timed out after 3000ms
+⚠️ No Twitter cookies found in Chrome. Make sure you are logged into x.com in Chrome.
+⚠️ Firefox cookies database not found.
+⚠️ No Twitter cookies found in Firefox. Make sure you are logged into x.com in Firefox and the profile exists.
+⚠️ Missing auth_token - provide via --auth-token, AUTH_TOKEN env var, or login to x.com in Safari/Chrome/Firefox
+⚠️ Missing ct0 - provide via --ct0, CT0 env var, or login to x.com in Safari/Chrome/Firefox
+❌ Missing required credentials
+
+## 新推文语料（2026-03，via Fiona抓取）
+# @0xcryptowizard - 0xWizard@0xcryptowizard
+
+> 排名: #? | 粉丝: N/A
+> Bio: N/A
+> 抓取: 233 条推文 (去重后)
+
+## 推文列表
+
+- **Thu Mar 19 05:15:09 +0000 2026** @SpoVestEX 我试试
+  ❤️ 1 | 🔁 0 | 💬 0
+- **Thu Mar 19 05:15:02 +0000 2026** @SIRI2themoon 好，我去看看
+  ❤️ 0 | 🔁 0 | 💬 1
+- **Thu Mar 19 05:14:47 +0000 2026** @Crazayan 对，会损失很多信息
+  ❤️ 0 | 🔁 0 | 💬 0
+- **Thu Mar 19 05:14:25 +0000 2026** @JoshXie1 试试
+  ❤️ 0 | 🔁 0 | 💬 0
+- **Thu Mar 19 04:54:59 +0000 2026** @sai11881028 嗯，走的好是日本的版本。
+  ❤️ 0 | 🔁 0 | 💬 0
+- **Thu Mar 19 04:54:44 +0000 2026** @kyoueii 一直在学习和跟随趋势就好。
+  ❤️ 1 | 🔁 0 | 💬 0
+- **Thu Mar 19 04:51:39 +0000 2026** @_gimnasta 毕业前后上了2年班，后面没怎么上过。
+  ❤️ 1 | 🔁 0 | 💬 2
+- **Thu Mar 19 04:49:56 +0000 2026** a16z 的 marc 说，目前1/4时间刷推，1/4时间看最聪明人的播客访谈，1/4时间跟ai聊天，1/4时间看老书。  我现在： 差不多1/2的时间，跟 ai 对话，构建辅助信息/交易系统； 1/4的时间，看看 ai 总结的 x 与 telegram 信息； 1/4的时间，看感兴趣的老书。  播客看的还少，以后尝试增加点时间试试。 [💬]
+  ❤️ 97 | 🔁 11 | 💬 23
+- **Thu Mar 19 03:56:27 +0000 2026** @0xLuckytree 没事，非币圈内容。
+  ❤️ 1 | 🔁 0 | 💬 0
+- **Thu Mar 19 02:07:13 +0000 2026** @chantaiman_eth 温水煮青蛙，在不同时代不同地区不同行业，都能看到类似的样本。
+  ❤️ 4 | 🔁 0 | 💬 0
+- **Thu Mar 19 02:02:11 +0000 2026** @skquest2 国内公务员除了红色背景的，也都挺辛苦的。至少北京各部委是这样，都是打工人。
+  ❤️ 4 | 🔁 0 | 💬 2
+- **Thu Mar 19 02:01:04 +0000 2026** @meimeiwang9223 没错，以日为鉴。
+  ❤️ 2 | 🔁 0 | 💬 0
+- **Thu Mar 19 02:00:50 +0000 2026** @solo_lever ✅
+  ❤️ 0 | 🔁 0 | 💬 0
+- **Thu Mar 19 00:35:19 +0000 2026** @Zg6716GUJF1316 加油
+  ❤️ 1 | 🔁 0 | 💬 0
+- **Thu Mar 19 00:35:05 +0000 2026** @Ai86666 永远不变的是变化
+  ❤️ 3 | 🔁 0 | 💬 1
+- **Thu Mar 19 00:11:49 +0000 2026** @Guilin_Chen_ 叠加很多因素
+  ❤️ 1 | 🔁 0 | 💬 0
+- **Thu Mar 19 00:11:34 +0000 2026** @silverfang88 没错
+  ❤️ 1 | 🔁 0 | 💬 0
+- **Wed Mar 18 23:42:37 +0000 2026** ai 带来的失业，经济下行带来的失业，政府政策带来的失业。  本质都一样，外部冲击，不会以你能预料的方式出现。  看关于日本的纪录片，曾经90年代经济下行，日本全国也流行考公，大量年轻人从梦想去企业赚钱，变成了希望进体制内获得稳定。  然后呢？  日本公务员工资持续下降，而工作压力持续上升。  你可以预见，中国的考公浪潮，未来也一样。  这个世界，我们除了能把握自己以外，什么都控制不了。  曾经我挺羡慕在一个行业毕业就扎根的人，感觉在不断积累。  我则是不停创业，也经常换行业，因为内心就从来也不相信稳定，以至于有段时间很迷茫，自己怎么定义从事的是什么？商人？职业创业者？  现在其实更清晰，也更释怀了，在动荡的世界里，反而这种人更容易适应，从来不相信稳定，也不相信安全感是某个政府，某个职业，某个人能给的。  相信的是，只要永远抱有好奇心，和快速学习适应的能力，跟着机会走，结果都不会太差。
+  ❤️ 342 | 🔁 19 | 💬 54
+- **Wed Mar 18 09:45:33 +0000 2026** @DogeWould 水果萝卜生吃
+  ❤️ 2 | 🔁 0 | 💬 1
+- **Wed Mar 18 08:22:52 +0000 2026** @one_snowball 揉了，比较严重，必须吃药才行。
+  ❤️ 0 | 🔁 0 | 💬 0
+- **Wed Mar 18 08:08:03 +0000 2026** @dustrollapp ✅
+  ❤️ 1 | 🔁 0 | 💬 0
+- **Wed Mar 18 07:58:33 +0000 2026** 早晨被胀气痛苦折磨了一上午，估计是昨晚粗纤维吃多了导致的，吃了些药慢慢缓解了。  想到一个我反复思考过的一个问题，幸福其实不是个绝对概念，是个相对概念。  年轻时，特别害怕平庸和无聊，不止追求成就，甚至有时故意在追求某种危险和刺激。  记得有次跟一个二代朋友聊，他们家公司出大问题，老爷子被弄进去，他被迫在北京随时接受组织传唤和调查。  他跟我讲，处理完这个破事，会觉得生活每天有点事做，下午悠闲喝杯咖啡，就挺好。  我跟他同感。  幸福其实就是，能吃好，睡好，拉好；自己和家人平安，不愁温饱，就挺好。  如果有点小爱好，小事业做做，每天能心流一阵，就更好了。  拿什么去换这个？暴富，但是每天担惊受怕，睡不好吃不好，甚至冒着风险？  没必要。  留好安全垫，不管是投资还是投机，不要影响自己和家人最平凡的幸福，这是最重要的。
+  ❤️ 117 | 🔁 4 | 💬 44
+- **Mon Mar 16 09:05:55 +0000 2026** @LawrenceEros 还没看过
+  ❤️ 1 | 🔁 0 | 💬 1
+- **Mon Mar 16 09:00:45 +0000 2026** @LuYao_Trader 慢慢找
+  ❤️ 1 | 🔁 0 | 💬 0
+- **Mon Mar 16 08:06:00 +0000 2026** @Crypto_Cat888 实用主义现在基本不用看书，直接跟 ai 聊
+  ❤️ 3 | 🔁 0 | 💬 0
+- **Mon Mar 16 07:59:23 +0000 2026** @Crypto_Cat888 没事，都是循环，往下看，不用记住
+  ❤️ 0 | 🔁 0 | 💬 1
+- **Mon Mar 16 06:32:59 +0000 2026** @AntifragileChan 还没看。
+  ❤️ 0 | 🔁 0 | 💬 0
+- **Mon Mar 16 06:32:50 +0000 2026** @Tom20527749 也不是，悉达多和百年孤独，都不是东方的书。主要看有没有共鸣。
+  ❤️ 1 | 🔁 0 | 💬 0
+- **Mon Mar 16 06:32:24 +0000 2026** @liufeiyan_0924 看了十分之一，就读不动了。
+  ❤️ 0 | 🔁 0 | 💬 0
+- **Mon Mar 16 05:54:23 +0000 2026** @lingluan1998 交易的书，一般没啥用。
+  ❤️ 1 | 🔁 0 | 💬 0
+- **Mon Mar 16 05:54:02 +0000 2026** @0xcrypto_max 龙族我一口气看完了，很好。
+  ❤️ 3 | 🔁 0 | 💬 1
+- **Mon Mar 16 05:51:14 +0000 2026** 书是有灵魂的，看不下去，通常是跟自己不匹配。  同一个作者，不同的书，灵魂也不同。  我能一口气看完《百年孤独》，深受震撼，但马尔克斯《一桩事先张扬的谋杀案》，只看了1/3，到现在也没读完；能流畅阅读《悉达多》，但是黑塞的《荒原狼》看的磕磕绊绊。  找到和自己灵魂匹配的书，是一种幸运。
+  ❤️ 141 | 🔁 8 | 💬 58
+- **Mon Mar 16 04:43:58 +0000 2026** 学习到了在dex代币应该把止盈扩大的交易知识，有趣。 https://t.co/JWJDH8hB9S [📷]
+  ❤️ 6 | 🔁 0 | 💬 1
+- **Mon Mar 16 02:49:55 +0000 2026** @gongyue777 对，这个更像是观察实验，真的trading，不会往里接
+  ❤️ 2 | 🔁 0 | 💬 0
+- **Mon Mar 16 02:31:36 +0000 2026** @cyy7025219 嗯嗯，挺好玩的，我今天也加个预测市场，让他去模拟亏钱。
+  ❤️ 0 | 🔁 0 | 💬 1
+- **Mon Mar 16 02:18:59 +0000 2026** @xmcx___ 去玩了，亏了。  我让它模拟交易，链上和cex合约都做。
+  ❤️ 0 | 🔁 0 | 💬 1
+- **Mon Mar 16 02:13:57 +0000 2026** @Michael_Liu93 对，这些交易我有另一套在跑。  这种没法进化很快，可以快速回测，但是怕过拟合，只能随着时间推进，不断进行真实测试，再进化。  速度比信息类的慢很多，但也更可靠，因为都是基于交易数据。
+  ❤️ 2 | 🔁 0 | 💬 0
+- **Mon Mar 16 02:08:20 +0000 2026** @Michael_Liu93 对，目标就是让它快速学习，不断迭代，前面可以很蠢，但是每10分钟迭代一次。
+  ❤️ 4 | 🔁 0 | 💬 1
+- **Mon Mar 16 02:06:41 +0000 2026** @Michael_Liu93 可能是去买了链上垃圾币，被骗了，我都是让它在做paper trading，不管是cex还是dex都做。  不止看技术面，也看叙事。  这波应该是看 x 和 telegram 很多人聊这个叙事，就去 dex 上找垃圾币去了。
+  ❤️ 1 | 🔁 0 | 💬 2
+- **Mon Mar 16 02:02:54 +0000 2026** 看着 agent 很弱智又很努力想搞好交易的样子：  “`RWA Tokenization`叙事在`Spreading`状态下6笔交易全败，平均亏损-99.79%，风险极高。”  看着它的挣扎求生，有点好笑。  被叙事和各种垃圾币坑的样子，像极了你我。  继续努力吧，虽然现在很傻，但只要持续进化，我相信有一天你能成为交易高手。 https://t.co/Ga2uGhukdv [📷]
+  ❤️ 66 | 🔁 3 | 💬 31
+- **Tue Feb 24 10:27:46 +0000 2026** @Wuhuoqiu 除了rwa，perp和预测市场都是交易向的。在这么多赛道证伪之前，我也不太看好隐私，现在反而觉得这是 crypto 能干还没被证伪的少数几个方向了。
+  ❤️ 7 | 🔁 0 | 💬 2
+- **Tue Feb 24 02:05:27 +0000 2026** @Wuhuoqiu 还有隐私？
+  ❤️ 0 | 🔁 0 | 💬 2
+- **Tue Feb 17 02:56:02 +0000 2026** @Crypto_Cat888 不错的诗
+  ❤️ 2 | 🔁 0 | 💬 2
+- **Tue Feb 17 02:21:21 +0000 2026** @suxintang99 新年好
+  ❤️ 1 | 🔁 0 | 💬 1
+- **Tue Feb 17 02:21:16 +0000 2026** @Chris46666 新年快乐
+  ❤️ 0 | 🔁 0 | 💬 1
+- **Tue Feb 17 02:21:10 +0000 2026** @DanceKeanu 新年好
+  ❤️ 0 | 🔁 0 | 💬 0
+- **Tue Feb 17 02:21:04 +0000 2026** @0xTuffy 新年快乐
+  ❤️ 0 | 🔁 0 | 💬 0
+- **Tue Feb 17 02:20:26 +0000 2026** @0xathenalee 新年快乐！
+  ❤️ 1 | 🔁 0 | 💬 0
+- **Tue Feb 17 01:27:53 +0000 2026** @0xcryptopanda 马年快乐。
+  ❤️ 0 | 🔁 0 | 💬 0
+- **Tue Feb 17 01:16:35 +0000 2026** 我还是不够深刻 不够丰富 不够推陈出新  但我爱自己 爱自己的有力量 也爱自己的缺点  今年也平安无事地结束了 这比什么都重要 我做得不错 我必须赞美自己  跨过去 春天不远了 永远不要失去 发芽的信心  ---王小波《写给新的一年》
+  ❤️ 251 | 🔁 21 | 💬 72
+- **Mon Feb 16 15:14:31 +0000 2026** @KK_TSH 新年快乐。
+  ❤️ 1 | 🔁 0 | 💬 0
+- **Mon Feb 16 13:17:28 +0000 2026** @anymose 新年快乐。
+  ❤️ 1 | 🔁 0 | 💬 0
+- **Mon Feb 16 11:37:18 +0000 2026** @Evan99503 新年快乐。
+  ❤️ 1 | 🔁 0 | 💬 0
+- **Mon Feb 16 11:14:06 +0000 2026** @0x_MrFive 新年快乐。
+  ❤️ 1 | 🔁 0 | 💬 0
+- **Mon Feb 16 11:13:58 +0000 2026** @Siberiaxx1909 新年快乐。
+  ❤️ 1 | 🔁 0 | 💬 1
+- **Mon Feb 16 11:13:33 +0000 2026** @Ta1_D1 新年快乐。
+  ❤️ 1 | 🔁 0 | 💬 0
+- **Mon Feb 16 09:49:46 +0000 2026** @wuya666eth 新年快乐。
+  ❤️ 1 | 🔁 0 | 💬 0
+- **Mon Feb 16 09:39:26 +0000 2026** @Zg6716GUJF1316 新年快乐。
+  ❤️ 1 | 🔁 0 | 💬 0
+- **Mon Feb 16 09:39:19 +0000 2026** @0xBeyondLee 新年快乐。
+  ❤️ 2 | 🔁 0 | 💬 0
+- **Mon Feb 16 09:38:18 +0000 2026** 祝兄弟们，新年快乐。  在马年，身体健康，阖家欢乐，好运常伴。
+  ❤️ 196 | 🔁 1 | 💬 72
+- **Sat Jan 31 13:08:45 +0000 2026** @Alvin0617 个人助理应该是趋势
+  ❤️ 2 | 🔁 0 | 💬 3
+- **Sat Jan 31 11:48:15 +0000 2026** @dudunode 独行月球～
+  ❤️ 4 | 🔁 1 | 💬 2
+- **Sat Jan 31 11:14:19 +0000 2026** @KelseyWeb3VC dream big
+  ❤️ 5 | 🔁 2 | 💬 6
+- **Sat Jan 31 08:57:21 +0000 2026** @stevenkaiweb3 dreams
+  ❤️ 15 | 🔁 2 | 💬 7
+- **Sat Jan 31 07:38:10 +0000 2026** @mattyryze 🫡
+  ❤️ 3 | 🔁 0 | 💬 1
+- **Sat Jan 31 07:13:08 +0000 2026** @scottshics 我在实施看看了，主要还是模拟我在电脑端的行为，把tg作为ui和入口
+  ❤️ 0 | 🔁 0 | 💬 0
+- **Sat Jan 31 06:22:21 +0000 2026** @degentalk_hk 对的，clawd优势就是集成在一个界面，接管跟各种的接口。
+  ❤️ 2 | 🔁 0 | 💬 2
+- **Sat Jan 31 06:07:36 +0000 2026** @degentalk_hk 没有区别，主要是数据未来汇总融合，比如我现在已经做了以天为级别汇总热门代币和群聊话题，x的信息没法直接对接。  如果直接用 clawdbot 抓 x 信息，就把所有信息汇总融合了，查看也方便。
+  ❤️ 3 | 🔁 0 | 💬 2
+- **Sat Jan 31 05:52:37 +0000 2026** @coolish x402 + erc8004 我能想到 ai 需要 crypto 的就是这些，能支付，有身份。
+  ❤️ 33 | 🔁 4 | 💬 2
+- **Sat Jan 31 05:41:28 +0000 2026** @MMoonbit 这两个是可以结合
+  ❤️ 3 | 🔁 0 | 💬 1
+- **Sat Jan 31 05:39:18 +0000 2026** @scottshics tg vibe coding能做到什么程度
+  ❤️ 0 | 🔁 0 | 💬 1
+- **Sat Jan 31 05:12:22 +0000 2026** @lordr_eth dream big
+  ❤️ 9 | 🔁 0 | 💬 2
+- **Sat Jan 31 04:58:29 +0000 2026** @wdzij 对，我看好。
+  ❤️ 2 | 🔁 0 | 💬 0
+- **Sat Jan 31 04:58:20 +0000 2026** @aiedoaod40116 是的。
+  ❤️ 4 | 🔁 0 | 💬 1
+- **Sat Jan 31 04:58:13 +0000 2026** @Aniu1688 是的，erc8004官方列的推荐工具里，4个有2个是dreams的
+  ❤️ 7 | 🔁 0 | 💬 1
+- **Sat Jan 31 04:57:43 +0000 2026** @helen_sea 先有标准，后有应用，不过moltbot是一个有趣的催化剂，因为每个人真的很低成本可以部署 ai 助理了。
+  ❤️ 8 | 🔁 0 | 💬 1
+- **Sat Jan 31 04:57:12 +0000 2026** @LZRationalnvest 没错，终于看到曙光了
+  ❤️ 8 | 🔁 0 | 💬 1
+- **Sat Jan 31 04:50:12 +0000 2026** moltbot/clawdbot 的爆火，和erc8004的发布一起出现。  也许前面 x402 + erc8004 的标的都还太早期，一方面没有催化剂和hype，一方面还没有数据证明。  但从行业发展看，我能想到 ai + crypto 最佳应用（不是 meme），就是 x402 + erc8004 ，ai 助理普及之后，最佳的支付方式就是 crypto （带身份）。
+  ❤️ 387 | 🔁 49 | 💬 106
+- **Sat Jan 31 04:20:46 +0000 2026** @blu0222 我目前主要用这个，交易还是看看乐呵，真的用还是要很严肃的设计和测试，不能随便让它搞。
+  ❤️ 0 | 🔁 0 | 💬 0
+- **Sat Jan 31 04:20:05 +0000 2026** @WyHai_Crypto 就是智能监控了
+  ❤️ 1 | 🔁 0 | 💬 1
+- **Sun Nov 30 08:45:59 +0000 2025** @Michael_Liu93 也是好事，短期割韭菜的难度上升劝退，优质项目就更有空间了。
+  ❤️ 27 | 🔁 1 | 💬 3
+- **Sun Nov 30 07:01:46 +0000 2025** @timotimo007 https://t.co/8fFod2SeIF [📷]
+  ❤️ 4 | 🔁 0 | 💬 4
+- **Sun Nov 30 05:41:00 +0000 2025** 这个类比，并非说后面一定会出现312，以及随之而来的无限QE带来的疯狂牛市；  而是说，不要主观的认定下跌70%+的深熊已经开始了，尤其在宏观宽松的前夕。  深熊有没有可能？有，但那不是基准假设。
+  ❤️ 64 | 🔁 1 | 💬 10
+- **Sun Nov 30 05:38:30 +0000 2025** 如果非要刻舟求剑的类比，我更愿意用2025年类比2019年，而不是2021年。  1️⃣ 类似的宏观环境，宽松前夕，水没进来只有预期； 2️⃣ 类似的代币表现，btc小涨（感谢etf，这次新高了），山寨趴在地上不动； 3️⃣ 靠 bn 带来小财富效应，19年的ieo，26年的bsc meme。  btc 接下来一定是70%+的跌幅？ 这是市场很多参与者的假设，刻2022年的k线。 真的不一定。  与其不停的猜测/预测/幻想牛熊，不如根据几种可能（宽幅震荡/筑底走牛/深熊开启）的假设安排自己的仓位和计划。  换一个视角看btc/ndx，周线已经在极端超卖的区间，这个chart在我看来就是基本面与流动性之争，可能已经是黎明前的黑暗。 [📷]
+  ❤️ 371 | 🔁 56 | 💬 107
+- **Mon Nov 24 03:59:12 +0000 2025** 目前共识：二测做反弹，众所周知的压力位出货。
+  ❤️ 55 | 🔁 0 | 💬 9
+- **Mon Nov 24 03:57:53 +0000 2025** 暂时底 √ 强势币继续趋势 × 妖币乱飞 √ [💬]
+  ❤️ 125 | 🔁 2 | 💬 48
+- **Sat Nov 22 04:16:02 +0000 2025** @Guilin_Chen_ 没办法，浮盈回撤60%以上倒没什么，主要是zec高位日线背离有点可怕
+  ❤️ 13 | 🔁 0 | 💬 6
+- **Sat Nov 22 03:03:11 +0000 2025** 0.15 建仓，0.18加仓，依然有20%安全空间，保留一点仓位继续观察。
+  ❤️ 48 | 🔁 0 | 💬 11
+- **Sat Nov 22 02:49:57 +0000 2025** zec 日线收的很差，像派发。  strk 昨天收针很强后就开始跟随 zec，这不是好现象， 先减仓了。  继续观察几天，看要不要接回来，还是看好这个叙事，但尊重k线。  现在行情，想做个中期持仓都很难。
+  ❤️ 226 | 🔁 5 | 💬 96
+- **Fri Nov 21 08:04:46 +0000 2025** 今天插针后，strk的表现，让我想起了1011那天的zec。
+  ❤️ 126 | 🔁 4 | 💬 51
+- **Thu Nov 20 22:28:22 +0000 2025** 暂时底了，接下来震荡。  3个月100k上不去就继续走熊概率更大，宏观出大利好站上去就还有趋势行情。  山寨震荡期间，可能会有些强势币可以做，妖币也会表演。  现在已经不是恐慌出货的时机。
+  ❤️ 390 | 🔁 29 | 💬 91
+- **Thu Nov 20 06:27:19 +0000 2025** 哪有人喊单之后自己买的？ 我。  因为这不是喊单，这是表达观点。  周线放量突破重要 accumulation 区域，回踩区间顶部时加仓，是自然的选择。 [💬]
+  ❤️ 141 | 🔁 6 | 💬 76
+- **Thu Nov 20 03:20:28 +0000 2025** starknet quantum-secure √ [💬]
+  ❤️ 79 | 🔁 6 | 💬 32
+- **Thu Nov 20 00:36:33 +0000 2025** @PaikCapital strk
+  ❤️ 1 | 🔁 0 | 💬 1
+- **Thu Nov 20 00:01:36 +0000 2025** 想明白这个问题，才能想明白以 strk zec 为代表的这波 cyberpunk 叙事的持续性。  前两年 meme 是怎么气势如虹的替代 vc 币拉盘的，现在 cyberpunk 类赛道就会怎么替代 meme 拉盘。  前者代表了“公平”，后者代表了“理想”，这就是币圈的阴阳鱼。 [💬]
+  ❤️ 148 | 🔁 16 | 💬 65
+- **Wed Nov 19 23:46:07 +0000 2025** @elonmusk 老黄怎么突然消失了🤣
+  ❤️ 10 | 🔁 0 | 💬 5
+- **Wed Nov 19 11:55:37 +0000 2025** zec -&gt; strk https://t.co/IYCyBoMX8i [📷] [💬]
+  ❤️ 87 | 🔁 3 | 💬 46
+- **Wed Nov 19 09:57:33 +0000 2025** @CryptoTony__ zcash -&gt; starknet
+  ❤️ 9 | 🔁 0 | 💬 2
+- **Wed Nov 19 08:09:12 +0000 2025** @0xFinish zcash -&gt; starknet
+  ❤️ 2 | 🔁 0 | 💬 2
+- **Fri Oct 31 12:04:26 +0000 2025** @cz_binance @kaixinyyj @0xmoon 释迦牟尼来币圈都要被踹两脚，正常。
+  ❤️ 37 | 🔁 1 | 💬 4
+- **Fri Oct 31 06:48:29 +0000 2025** @creolophus123 没人用，自然没人骂
+  ❤️ 1 | 🔁 0 | 💬 0
+- **Fri Oct 31 06:32:52 +0000 2025** @Crypto_Cat888 对。
+  ❤️ 4 | 🔁 0 | 💬 1
+- **Fri Oct 31 06:26:26 +0000 2025** @huakfugui 先被套再建设
+  ❤️ 0 | 🔁 0 | 💬 1
+- **Fri Oct 31 06:23:33 +0000 2025** @jiroucaigou bn和ok都会被骂，只要有人用。 真的惨的，是连骂都没人骂的。
+  ❤️ 2 | 🔁 0 | 💬 1
+- **Fri Oct 31 06:13:19 +0000 2025** @tran_tuong71708 守护最好的币圈。
+  ❤️ 2 | 🔁 0 | 💬 1
+- **Fri Oct 31 06:11:43 +0000 2025** @Ri_Blockchain 对，抱有希望的，才会抱怨。
+  ❤️ 1 | 🔁 0 | 💬 0
+- **Fri Oct 31 06:10:45 +0000 2025** 做产品的都知道，在骂骂咧咧的，是还在用产品的人。  炒币久的都知道，还在骂币圈，还在自嘲没有底的，是钱还在场内的人。  沉默的，要么亏完了，要么清仓了，要么离场了。  珍惜还在骂骂咧咧，发段子自嘲的兄弟们。
+  ❤️ 247 | 🔁 11 | 💬 91
+- **Fri Oct 31 04:36:59 +0000 2025** @ilovesethwu @cz_binance 一句老韭菜的玩笑，都能破防，你是怎么学会用 vpn 的？
+  ❤️ 8 | 🔁 0 | 💬 1
+- **Fri Oct 31 04:14:00 +0000 2025** @GCsheng @thankUcrypto 都是 builder
+  ❤️ 5 | 🔁 0 | 💬 3
+- **Fri Oct 31 04:05:58 +0000 2025** @cz_binance 哥，意思是，如果想抄底，就有抄不完的底？
+  ❤️ 137 | 🔁 2 | 💬 34
+- **Fri Oct 31 03:49:25 +0000 2025** 兄弟，可能大家都是建设者，只是建设的东西略有不同。  你在建设 meme 币，他在建设 usdt 。
+  ❤️ 168 | 🔁 2 | 💬 66
+- **Fri Oct 31 01:15:04 +0000 2025** @wei_nan7499 这才是最刺激的部分。
+  ❤️ 2 | 🔁 0 | 💬 0
+- **Fri Oct 31 01:13:17 +0000 2025** 我不需要过万圣节，看看 k 线就跟见到鬼一样刺激。
+  ❤️ 234 | 🔁 9 | 💬 60
+- **Thu Oct 30 12:11:13 +0000 2025** 浇艺是否永远艰辛？还是仅仅现在才如此？ https://t.co/E3gd6L3nqv [📷]
+  ❤️ 139 | 🔁 18 | 💬 59
+- **Thu Oct 30 08:17:09 +0000 2025** @xingpt anything but crypto
+  ❤️ 5 | 🔁 0 | 💬 0
+- **Thu Oct 30 07:24:30 +0000 2025** 链上就是： 有什么技术创新，叙事创新，只要价格便宜，立刻选择清空智商先相信。  做先信资本。
+  ❤️ 362 | 🔁 36 | 💬 80
+- **Thu Oct 30 07:21:25 +0000 2025** @BitCloutCat 先信资本。
+  ❤️ 32 | 🔁 1 | 💬 4
+- **Thu Oct 30 07:19:44 +0000 2025** 交易不是交易现实，是交易预期。  这么差的现实，预期是会更差，还是更好？  本来就都不买了骂垃圾，清算了所有多头，更差是什么？全部归零？以后浇艺所只赌大币合约？  如果价格起来，会是哪些起来？起来的原因是什么？起来的时候大家会怎么想？谁先信？谁后信？谁真信？
+  ❤️ 38 | 🔁 3 | 💬 0
+- **Sun Aug 31 08:50:38 +0000 2025** 第二波打法，挺简单，就是等。  等到好标的，好时机，好价格。  也有点难，难在，  什么是好标的？ 叙事，团队，热度，筹码情况？  什么是好时机？ 处于趋势哪个阶段，启动前，fomo中，高潮，结束？  什么是好价格？ 压力/支撑位，平均成本，回撤幅度？  等，是战略耐力/定力和判断力的综合结果。
+  ❤️ 410 | 🔁 44 | 💬 128
+- **Sun Aug 31 05:59:10 +0000 2025** @a695785864 @cryptosixman ani我也考虑过建仓，后面没有，是因为叙事不如 spark 新颖，我个人意见哈。  不过 ani 和 spark 都有个优点，大家还没看到，就是有可能出现拆分盘，如果价格快速上涨，spark的那个动漫世界会再继续搞新盘子。  拆分盘的坏处是行情差的时候，影响主盘； 拆分盘的好处是行情好的时候，提升主盘影响力。
+  ❤️ 15 | 🔁 0 | 💬 5
+- **Sun Aug 31 05:50:40 +0000 2025** @cryptosixman 分析的很清晰，看趋势认为有望启动，看叙事是我喜欢和认可的，看价格和筹码有一定安全空间。  其实观察了蛮久，第一次14m拉起来我也在看，等着再回落才开始建仓，不够安全就宁可不动。
+  ❤️ 35 | 🔁 1 | 💬 2
+- **Sun Aug 31 04:19:55 +0000 2025** @elonmusk 强奸幼女的，都是该死的王八蛋，这个毋庸置疑。  但是，兄弟，你这么大流量，刻意在说亚洲人强奸白人，是不是在煽动对种群仇恨呢？
+  ❤️ 49 | 🔁 0 | 💬 7
+- **Sun Aug 31 03:58:43 +0000 2025** solana ai (meme) 这个，选了 $spark ，12m到15m建仓了不到1个点。  说实话，这个时间点，是比较冒险的，注意这不是第二波，这是赌链上趋势的第一波，因为还没有真正财富效应出来确认链上趋势启动。  同时，spark的市值较低，fdv目前只有12m，注意不要fomo。  说完风险，说一下我建仓的理由：  1️⃣叙事  看了一圈最近fomo过的标的，从我个人喜好上，选了一个看起来叙事最有趣的，有一定的新意，和一个在继续搞事的团队。  2️⃣二段  前面从14m反弹到40m附近，再跌回，有吸筹区间的感觉，不过还需要日线再确认，如果跌破了，那风险是再跌回2-3m。  3️⃣趋势  我个人认为大盘没有结束，链上和山寨在接下来几个月流动性会趋向更好。 因此，在bn赛道选了 bas（目前3x），在wlfi赛道选了block（目前略微盈利），在solana赛道选了spark。  如果趋势判断错了的话，那就认了，这个既是机会也是风险。  再一次强调，这和第二波理论不符，这是在赌趋势的第一波。 [💬]
+  ❤️ 424 | 🔁 61 | 💬 135
+- **Sun Aug 31 01:35:10 +0000 2025** 链上还是要玩的，去年投入链上几十万刀，最高浮盈差不多20m，真正落袋了30%，回撤了70%。  即使这么高的回撤，依然有10倍，这就是我说的，链上对我来说是“做对的事”，只是还需要提升能力，“把事做对”，做的更好。
+  ❤️ 139 | 🔁 11 | 💬 17
+- **Sun Aug 31 01:29:20 +0000 2025** 早晨整理记录链上钱包，整个一个晕倒。  去年底留在链上的币和仓位，除了 ava 和 anon ，基本全部归零了，差不多比年初又没了几十万刀。  确认链上趋势过去，全部清仓才是最好选择，要牢记。
+  ❤️ 261 | 🔁 24 | 💬 75
+- **Sat Aug 30 13:08:34 +0000 2025** 学习 ai 一定先看 karpathy 这个视频，讲的非常清晰，这就是真懂的人。  附了一张网友做的思维导图。  怕链接有问题的，直接去b站搜 karpathy，然后看3.5小时时长那个就是了。  https://t.co/BOPc20Wwmz https://t.co/Mt7K8ECTuu [📷]
+  ❤️ 1090 | 🔁 280 | 💬 33
+- **Sat Aug 30 08:01:59 +0000 2025** 现在 gmgn 能自定义所有工具栏和信息，其实是给用户一个更强大和适合自己的链上工具。  我自己试了一下，取消了很多原来会觉得冗余的信息项，界面更清晰了。  对长时间扫链的用户，更重要： A要123的功能，B觉得456的信息更重要，那大概花个15分钟了解适应，重新配置一下，还是很值得的。 [💬]
+  ❤️ 47 | 🔁 7 | 💬 21
+- **Sat Aug 30 07:54:24 +0000 2025** @timotimo007 都是大模型训练数据集和成本。
+  ❤️ 4 | 🔁 0 | 💬 2
+- **Sat Aug 30 07:48:50 +0000 2025** 这也能解释，为什么我创业10年，做公司最高只能做到几m刀一年的营收和利润；而做投机/投资，第一年就是创业时的10倍。  因为创业不只是一个思考游戏，更是要有管理/细节/执行；投机/投资不是，最重要的就是想清楚，动作反而越少越好。
+  ❤️ 102 | 🔁 9 | 💬 5
+- **Sat Aug 30 07:37:31 +0000 2025** 什么是能力圈？想想moba类游戏，英雄联盟和王者荣耀。  为什么每个人只能玩自己特定的几个英雄？ 因为每个人的特长，性格，爱好，目标，缘分都不一样。  我在王者只用硬辅，为啥？ 思考强，手慢，打不了射手； 更愿意直面敌人的攻击，不愿意猥琐，打不了软辅和法师； 大局观强，细节弱，打不了对抗路。  所以用硬辅，我可以单排120星，别的很难过20星。  这个思考过程，跟我20年入圈选择做链上degen起手，是一模一样的。  先分析自己，再分析要面对的对手和战场。  知己知彼，干啥都一样，知己排第一位，兄弟。
+  ❤️ 266 | 🔁 21 | 💬 79
+- **Sat Aug 30 07:19:32 +0000 2025** 怎么阅读？  一，量，把智者的书和他们的推荐的书，先不管功利目标，尽量看。  二，质，读时读后，带着困惑自己的问题，反复思考，在实践遇到的正负反馈也拿进来，吃饭走路旅行都在努力思考。  三，统一，所有内容和思考实践统一到自己框架，形成本能，和思考的肌肉记忆。
+  ❤️ 67 | 🔁 2 | 💬 6
+- **Sat Aug 30 07:03:54 +0000 2025** 对于阅读，我个人感受是，当我遇到困惑时，有时会同时问活在我脑子中的不同智者，他们会对同一个问题给我答案。  比如，关于懂和不懂，孔子说知之为知之，不知为不知；巴菲特说知道能力圈边界，比能力圈大小更重要。  比如，关于无法用语言表达的感悟，维根斯坦说语言的边界就是认知的边界；释迦牟尼说能用语言表达的法，就已经落入下乘。  我可以无限制的举例子下去。  有时候不是我看的透，而是我更爱跟智慧的人请教。
+  ❤️ 56 | 🔁 2 | 💬 6
+- **Sat Aug 30 06:51:24 +0000 2025** @CindyCreation 体脂还要看健康饮食和充足睡眠。
+  ❤️ 3 | 🔁 0 | 💬 2
+- **Sat Aug 30 06:42:10 +0000 2025** 阅读和运动，都是最划算的投资。  前者如果能配合理性与思考，会让你和人类文明最智慧的人交朋友。  后者每天投入一小时，复利结果，会让你更健康舒适，头脑清明的生活。
+  ❤️ 373 | 🔁 36 | 💬 60
+- **Fri Aug 29 09:47:52 +0000 2025** 什么事做的好的人，都是无比热爱自己的工作，无时无刻都琢磨那点事。  之前跟一个家里做了400年海带食品的兄弟聊，跟我聊了几个小时他的各种海带衍生品。  我没见过哪个做出成绩的人，是想着做这个就为了赚钱，实际每天惦记着诗和远方的。
+  ❤️ 233 | 🔁 19 | 💬 66
+- **Fri Aug 29 07:32:47 +0000 2025** @Crypto_Cat888 为了煲这碗汤，不知道亏了多少钱，enjoy
+  ❤️ 20 | 🔁 0 | 💬 5
+- **Fri Aug 29 01:22:38 +0000 2025** 投机投资很简单，便宜就买，贵了就卖，不用margin，不做空。  也很难，  什么是便宜什么是贵？ 这涉及到你的能力圈。  你能等到便宜和贵的时候么？ 这涉及到你的品性和耐心。  别人不认可，或其他资产更快更高上涨怎么办？ 这涉及对理性的信念和坚守。  每一步都需要悟道，大量的盈亏和反思去喂。
+  ❤️ 292 | 🔁 33 | 💬 74
+- **Thu Jul 31 09:26:25 +0000 2025** 少去批评别人。  第一，没人会被他人改变，唯有自我醒悟，批评是无用的。  第二，真诚的批评，是要费心费力去思考的，而表扬则毫不费力。  所以，表扬可以是免费的，批评必然是付费的，除非是真正的朋友，否则绝不批评。
+  ❤️ 472 | 🔁 66 | 💬 93
+- **Thu Jul 31 08:50:35 +0000 2025** 为啥近期链上不动？除了家中有事外，还有就是这个理论。  有人擅长第一波，那就让他们赚 ordi mint 和 goat 的钱。  我只赚 ordi 上所二段和 act 的钱就够了。
+  ❤️ 57 | 🔁 3 | 💬 19
+- **Thu Jul 31 08:46:19 +0000 2025** 为什么玩儿第二波？  你只看到暴富两字，那就还没想透。  第二波的关键，是三个字，确定性。  在多赚钱和少亏钱里，寻找平衡。  确定性可以让你少亏钱，赚多少各凭本事了。 [💬]
+  ❤️ 271 | 🔁 41 | 💬 76
+- **Thu Jul 31 08:37:11 +0000 2025** 少亏钱能学，大部分亏钱原因都差不多。  多赚钱不好学，每个人能力经历都不同，大概有个方向最后修行靠个人。  复利的隐含条件之一就是少亏钱，至于能赚多少，看个人。  只要少犯错，普通人积累下来，也会有不普通的财富。  这就是为什么强调复利的人，都会强调少亏钱，少犯错。
+  ❤️ 376 | 🔁 39 | 💬 98
+- **Wed Jul 30 10:37:32 +0000 2025** 抓到第一波固然好，但不必强求。  仔细观察等待，财富效应出来，哪怕错过也是好事，抓第二波更有确定性。
+  ❤️ 112 | 🔁 5 | 💬 8
+- **Wed Jul 30 10:26:28 +0000 2025** 前段时间没怎么关注链上，今天跟一些兄弟聊，感觉有点像去年8/9月。  btc和山寨还没有出现足够明确的突破，链上流动性也在回归中，并未真正回暖。  目前等待的是大盘的突破，以及去年链上 neiro 和 goat 带来的财富效应与新叙事。  冰冷和等待也会无聊，流动性终将回归，如果不想冒险，就等二段。  neiro 和 goat 出来，不必抓住，会有 act pnut以及大量其他机会出现的，那时候要果断介入。
+  ❤️ 539 | 🔁 54 | 💬 165
+- **Mon Jul 28 06:43:04 +0000 2025** 嘴开光了，刚说了伸手要钱的假和尚，少林方丈就进去了。  其实和尚这个职业，和分析师差不多，都是提供市场需要的。  市场需要求健康求升官求暴富，就有提供相应产品的和尚和分析师，至于念的经是不是歪的，客户不在意。 [💬]
+  ❤️ 172 | 🔁 12 | 💬 125
+- **Sun Jul 20 09:35:01 +0000 2025** 这衍生出两个推论：  第一，如果你赚钱的方式过于复杂（complicated），那出错概率变大，路径也很可能是错的。  第二，因为投资和投机，想获得确定性极其困难，一定要不懂不做，清晰知道自己不知道什么。
+  ❤️ 116 | 🔁 9 | 💬 13
+- **Sun Jul 20 08:24:57 +0000 2025** simple but not easy  能赚钱的路，一定是： 简单（不复杂），但不容易（困难）。  就像很多数学和物理公式一样，形式上一定是简单优美的，契合现实可以不断复现。  但，从公式本身的简单（simple），到发现和理解运用，还隔着千山万水（not easy）。
+  ❤️ 319 | 🔁 60 | 💬 117
+- **Fri Jul 18 08:56:07 +0000 2025** 你们牛市喊的口号，希望熊市还信。  你们熊市留的悔恨，希望牛市记得。
+  ❤️ 416 | 🔁 28 | 💬 99
+- **Fri Jul 18 06:19:25 +0000 2025** 都想知道我怎么做的判断， 说过，宏观技术情绪。  但，预测对了其实不重要。 你的策略应该建立在，一个大概正确的方向上，而不是精准预测上。  所有对大盘的预测，都是运气。  如果没有夏季攻势怎么办？ 无所谓啊，我可以等秋季攻势，冬季攻势。 [💬]
+  ❤️ 171 | 🔁 17 | 💬 56
+- **Fri Jul 18 06:03:57 +0000 2025** 没涨的时候， 没人能预测对。  凭什么认为涨了之后， 大家都能准确预测行情了？  因为账户里钱多了点， 能力就瞬间提升了？  想清楚自己不懂什么。
+  ❤️ 306 | 🔁 18 | 💬 87
+- **Thu Jul 17 09:10:31 +0000 2025** 链上是需要全部精力的，不是偶尔打开电脑参与一下小赌怡情。  我想了一下，在我人生最后一天，我不会后悔错过某个链上机会，但是我会后悔没有在家人脆弱时候陪着他们。
+  ❤️ 137 | 🔁 6 | 💬 14
+- **Thu Jul 17 07:33:24 +0000 2025** 这个判断，没毛病吧？  为什么最近没参与链上？ 因为对我来说，有更重要的事，家人病了，在提供陪伴情绪价值。  我特别喜欢一句话，如果你知道生命最后一天想做什么，就应该在生命每一天去做。  已经在4，5月建仓过了，做个农民等着就好，为了更重要的事，错过一些行情就错过吧，知行合一。 https://t.co/52hLzIIh1o [📷]
+  ❤️ 261 | 🔁 20 | 💬 96
+- **Thu Jul 17 07:08:38 +0000 2025** 耐心，意思是，用时间抹平不确定性。  一个需要判断正确10件事，才能获胜的游戏，长期来看怎么获得好的投资回报？太难了。  而加入时间这个变量，只需要判断正确3件事就可以获利。  你会选择哪条路？大部分人还是会认为自己更聪明，选择在更难的游戏里，尝试快速暴富。
+  ❤️ 245 | 🔁 24 | 💬 51
+- **Wed Jul 16 09:11:36 +0000 2025** 不懂不做，什么是懂？  能判断，较长时间，较大概率成立。  这叫懂。  不懂的时候，你不做，没人罚你款，敌人无非是通胀。  瞎操作，自以为什么都懂，你的敌人是时间和概率。
+  ❤️ 251 | 🔁 26 | 💬 58
+- **Wed Jul 16 07:15:43 +0000 2025** 有兄弟说没看懂，我补充几句。  如果唯一目标是赚钱，那，  赚够了怎么办？穷奢极欲？肆意妄为？赚更多的钱满足更大物欲？  亏没了怎么办？过去的努力毫无价值？否定一切？  遇到短期诱惑和长期坚持冲突时怎么办？先把眼前的钱揣兜里？  赚钱是唯一导向时，平常心，原则，这些都不再重要。
+  ❤️ 81 | 🔁 9 | 💬 20
+- **Wed Jul 16 06:57:39 +0000 2025** 人和企业一样，都要有利润之上的追求。  不是钱不重要，赚钱是生存的基本要素。  但，只盯着钱，容易做出错误选择，忽略本质，忽略长期正确。
+  ❤️ 179 | 🔁 9 | 💬 48
+- **Mon Jun 30 13:29:16 +0000 2025** 一些感情模式，我是看得懂的。  无非是极端物化他人，也物化自己。  每个人既是猎人也是猎物。  嘴上说讨厌对方爱的不过是钱和性，实际钓鱼的时候还是甩出豪车和性感照。  本质是极端利己主义，同时还要自怨自艾的渴望爱情。  我觉得也没毛病，在局内的，都是玩家，互相匹配开心消消乐，挺好。
+  ❤️ 160 | 🔁 5 | 💬 32
+- **Mon Jun 30 01:31:44 +0000 2025** 我观察所有投资投机方法，被验证有效的，没有一个是基于预测的。  然而，推上关于行情，最喜欢做的就是预测，然后争吵。
+  ❤️ 74 | 🔁 9 | 💬 12
+- **Mon Jun 30 01:20:38 +0000 2025** 右侧，趋势跟随； 左侧，逆趋势投资。  看起来矛盾，其实本质相同。  矛盾是，一个看技术面相对值，一个看基本面绝对值。  难点在，一个要止损止盈坚决，一个要持仓耐心。  本质一样，不预测，观察，耐心等待。
+  ❤️ 252 | 🔁 31 | 💬 73
+- **Sat Jun 28 03:31:06 +0000 2025** 蔡澜去世，看了一期许知远采访他的视频。  最大的感触不是蔡澜豁达，而是许提的问题，让我对知行这件事有了些重新思考。  许不断抛出来一些宏大主题，蔡都是插科打诨的回避掉，“别给自己那么重包袱”。  知识分子，如果是纯思维领域，比如数学，是可以不参与世间修行，获得大成就的。  若提出社会问题，纯靠看书，不断看书，自己死琢磨，思考，是没有任何答案的。  只是打坐，是没法悟道的。  去做事，去吃美食，去爱，去被拒绝，被打击，去失败，去绝望，去亏到一穷二白，去窘迫到无地自容，去热烈的活着，去真诚温柔的爱着，去激烈的恨过。  然后，再去思考这些主题。  只是看书思考，终究只能理解空洞的概念，苍白的词语罢了。
+  ❤️ 751 | 🔁 137 | 💬 173
+- **Fri Jun 27 09:42:21 +0000 2025** 每次行情好点，就有不少人休学辞职，all in 炒币炒股。  这条路，幸福感没那么强，对大部分人来说也不适合。  首先是经济压力，all in 后全部收入来源，都是投资投机收入，很容易急躁，希望每天稳定入账，这是投资大忌。  其次是社交支持生活轨迹缺失，工作上学是有稳定的生活轨迹和社交圈，突然大量时间空出来，很少有人能处理好。不分昼夜的梭哈赌，那当然是最差的一种时间利用方式。  最后是意义感缺失，即使真的一切进展顺利，脱离既定轨迹的意义感缺失，也会让很多人迷茫。  这也是大部分全职炒币炒股的人，幸福感很差的原因。  如果以上问题都能解决，并且找到了一条能盈利，并且平静而自恰的路，那恭喜你，这是一条人迹罕至的路。
+  ❤️ 700 | 🔁 74 | 💬 118
+- **Thu Jun 26 08:32:33 +0000 2025** 有意思的是，大部分人关心的是“某个大结果”。  那个数字，跟你我有关系么？  应该关心的是，他是怎么一步步做到的，而不是那个“结果”。  他遇到了哪些事，做了哪些思考，基于什么做了决策。  菩萨畏因，世人畏果。  换个角度想，大部分世人也只能看到果，罢了。
+  ❤️ 269 | 🔁 29 | 💬 69
+- **Thu Jun 26 06:46:07 +0000 2025** 再看看这个推，仔细想想。  没人能被改变，唯有自我觉醒。  站在永恒流逝的时间的对立面，这是不可能获胜的战争。  如果偶尔在与时间战斗中，小胜几次，那反而是更深的陷阱。 [💬]
+  ❤️ 133 | 🔁 6 | 💬 29
+- **Thu Jun 26 02:16:10 +0000 2025** @cishanjia 他的数据是有些反直觉的，印象深刻。  各个领域顶尖高手，很多思考都是类似的，大道很多方面是通的。
+  ❤️ 17 | 🔁 1 | 💬 1
+- **Thu Jun 26 02:08:22 +0000 2025** 看费德勒一个演讲视频，里面提到一个有意思的数据，和一个观点。  费德勒职业生涯获得了80%的胜率。  猜他从具体分数看，获得了多少？ 只有54％。  他的观点是，丢分和得分都是正常的，专注每一球。  这很有禅和正念的意思在。  从他的数据，我们还可以看到另一层，即使是顶尖高手，输赢都是正常的，除了费德勒提到的关注当下，还有，  关注过程正确，关注是否能形成正 ev 的系统。  而不是关注是否某一次打出了全场惊呼的 S 球，或者惊险回球，那些不重要，仅仅是一球罢了。
+  ❤️ 261 | 🔁 40 | 💬 65
+- **Thu Jun 26 02:01:05 +0000 2025** @hdchuanzhang1 所谓正确方法，长期看是ev正的，短期必然会有亏损。
+  ❤️ 6 | 🔁 0 | 💬 0
+- **Wed Jun 25 23:48:37 +0000 2025** 在其他行业，错了得到负反馈的概率较高，在投机投资领域，由于运气在其中占很大比重，很可能错了得到的是正反馈。  因此，反而这个领域是最难的，难就难在真假难分，正误难辨，很容易陷入人性的陷阱，沉沦在错误的道路上，一条路走到黑。
+  ❤️ 90 | 🔁 10 | 💬 2
+- **Wed Jun 25 23:38:13 +0000 2025** 可怕的，不是用错误的方法，得到亏损的结果；  可怕的是，用错误的方法，拿到了盈利的结果；  更可怕的是，用错误的方法，拿到大结果。
+  ❤️ 269 | 🔁 19 | 💬 55
+- **Wed Jun 25 06:45:18 +0000 2025** 大学刚入学，有个老师给我们做新生讲座，说这里是培养科学家的。  多年过去了，我没有成为科学家，我身边的同学绝大部分也不是。  现在，我认为他是错的。  真正的大学精神，是培养精神和人格独立的个体，培养他们探索和学习的精神，而不是告诉他们成为谁。  人，最重要的，是用一生找到自己。
+  ❤️ 418 | 🔁 26 | 💬 85
+- **Tue Jun 24 03:42:53 +0000 2025** 今年只有 trump 找到了喜欢的工作，赚了大钱，最近还高高兴兴全款还了楼贷。  美国是不是伟大不知道，老川家必须伟大。
+  ❤️ 525 | 🔁 24 | 💬 99
+- **Tue Jun 24 01:40:45 +0000 2025** 为什么有这个感慨？  今天看到纳瓦尔的推荐的几本书，里面有一本就是纪伯伦的“先知”。  我在初中偶遇这本书，没人告诉我它好在哪，看了就是喜欢，借回家抄写在本子上，很多诗到现在还记得。  对于一个14岁的孩子来说，也很难有明确的判断力，理性选择，只能说每个人注定会喜欢某种美感和理念，宿命。
+  ❤️ 70 | 🔁 3 | 💬 3
+- **Tue Jun 24 01:32:02 +0000 2025** 人一生，会遇到很多人，读过很多书，经历很多事，走过很多路，夜深反思很多次，也会经历很多痛苦。  不同人，即使走过一样的路，看过同一本书，得到的感受和结论也是不同的，他做出的选择也会完全不同。  我们终将成为自己会成为的那个人，是宿命论和理性选择共同作用的结果。
+  ❤️ 335 | 🔁 25 | 💬 45
+- **Sun Jun 22 09:49:26 +0000 2025** 整个币圈弥漫着一种淡淡的死感。
+  ❤️ 404 | 🔁 22 | 💬 181
+- **Sat Jun 21 03:30:38 +0000 2025** @cishanjia 还有身体健康。  巴菲特能复利那么久，有个重要原因是活得久。
+  ❤️ 36 | 🔁 0 | 💬 5
+- **Sat Jun 21 02:30:44 +0000 2025** 看似波澜不惊的行情，也可以消磨大量本金，原因无非是：  在贪婪嫉妒不甘等情绪驱使下，在能力圈外胡乱下注。
+  ❤️ 362 | 🔁 39 | 💬 81
+- **Sat May 31 23:12:32 +0000 2025** @otzgary 张朝阳也猛干，只是他猛干没用。  前几年每天早晨6点召集高管去公司开晨会，现在不知道还这么折腾不了。
+  ❤️ 13 | 🔁 0 | 💬 2
+- **Sat May 31 14:24:16 +0000 2025** 很难想象， 一个不珍惜财的人，能守住财； 一个不热衷于赚钱本身的人，能赚到钱。  不用说 0.1b，哪怕100块对我来说也很重要，花掉可以，但一定是用在让我觉得值得的地方。
+  ❤️ 595 | 🔁 53 | 💬 87
+- **Sat May 31 13:50:33 +0000 2025** 不信你可以看看马云/刘强东这些人，前段时间跑国外避避风头，政策稍微缓和，马上要回国干活。  天天游艇，天天满世界转，没意思啊。  所以说，王思聪确实是个幸福的人，觉得每天带一群小姑娘吃吃欧马卡塞，去奈良喂喂鹿就很开心，也不会无聊，带不同姑娘刷同一个副本，也兴致勃勃，这是福报。
+  ❤️ 169 | 🔁 4 | 💬 18
+- **Sat May 31 13:46:49 +0000 2025** 很多人不理解， 像马云/马化腾这帮人，都那么有钱了，为啥还天天卷着做公司？ 像巴菲特/西蒙斯这帮人，都赚那么多了，为啥还天天忙着做投资/交易？  没啥难理解的，一般人无聊了，就刷抖音，玩游戏，因为开心。  有的人，打个王者，就是娱乐，打的烂也无所谓； 有的人，打了青铜，就想打白银，打白银，就想打黄金，一直打到打不上去为止。  因为人总要找让自己开心的事做，尤其是可以不断打怪升级这种事。  不同级别的企业，不同级别的资金规模，你会遇到不同的问题，不管是术还是道，都要跟着提升，否则就会被打下来。  游艇，飞机，嫩模这些，根本不可能让这些人快乐多久。  真正能做成事的，一定是事情本身让他最快乐。
+  ❤️ 506 | 🔁 48 | 💬 72
+- **Sat May 31 09:44:02 +0000 2025** 手残怎么赢？ 和交易，以及任何事情一样，先认清自己，别较劲。  选个不需要操作，但需要意识，又可以抱大腿的英雄类别：硬辅。
+  ❤️ 44 | 🔁 3 | 💬 6
+- **Sat May 31 08:37:31 +0000 2025** @linwanwan823 硬辅
+  ❤️ 6 | 🔁 0 | 💬 4
+- **Sat May 31 08:36:28 +0000 2025** 行情有多无聊呢？  我一个手残，单排打王者都上百🌟了。
+  ❤️ 172 | 🔁 6 | 💬 55
+- **Sat May 31 07:30:55 +0000 2025** 这里说的预测，是预测中短期的具体走势。  长期当然可以预测，每个人都知道：  一定会有熊市跌到每个人都沉默的时候，也一定会有牛市涨到所有人都觉得自己最牛逼看谁都是傻逼的时候。  只是到沉默的时候，已经没有子弹；到觉得自己最牛逼的时候，还想再涨10倍罢了。
+  ❤️ 94 | 🔁 10 | 💬 6
+- **Sat May 31 07:22:56 +0000 2025** 那靠什么赚钱呢？  靠努力，你比别人更能枯坐，更有经验，判断更强； 靠资源，你比别人更能获取信息，更懂庄家怎么想； 靠耐心，你比别人更能等，不到击球区绝不出手； 靠认知，你比别人更能识别优秀标的，理解买盘和流动性来源。  就是不要靠“预测行情”，因为，没人能“预测行情”。
+  ❤️ 129 | 🔁 19 | 💬 5
+- **Sat May 31 07:17:02 +0000 2025** 没人能预测行情，获得长久优势的秘诀是，不要寄希望于“预测正确”赚钱。  任何人对行情发表的观点，包括我，都只是一种“希望”；就像我希望明天是个好天气，你希望世界和平一样。
+  ❤️ 162 | 🔁 19 | 💬 23
+- **Sat May 31 06:52:30 +0000 2025** @Jeffson772010 你说的很对，容错率。  另外，玩合约和杠杆借贷，通常会站在时间的敌人这一边。
+  ❤️ 5 | 🔁 0 | 💬 0
+- **Sat May 31 06:47:21 +0000 2025** 有人说，玩链上meme和交易所山寨，不是一样亏完？  确实，做交易，大部分都会亏，只有少数会赚，美股也一样。  但，交易和交易，亏损和亏损，是不同的。  玩链上meme和交易所山寨，你可以用努力/影响力/耐心/时间来抹平不确定性，获得优势。  而梭哈式赌大小，可以靠什么？ 只有一个，运气。
+  ❤️ 78 | 🔁 7 | 💬 10
+- **Sat May 31 06:39:19 +0000 2025** @56sd4f 显然不是。
+  ❤️ 0 | 🔁 0 | 💬 2
+- **Sat May 31 06:37:36 +0000 2025** 猜大小式赌合约，只有一个结果，爆仓亏完。  但这依然是币圈最多人参与，投入资金最多，交易所最大盈利来源。  不管多少“天才”用自己告诉大家，这世界没有天才，还是有人相信自己是下一个幸运儿。  为什么？人性。  并不真想赚钱，只想赌博。  自己骗自己，再多事实和逻辑都敌不过，  自欺欺人。
+  ❤️ 280 | 🔁 24 | 💬 57
+- **Fri May 30 08:59:16 +0000 2025** @BitScout 欲练神功必先自宫  如若自宫未必成功  若不自宫亦可练功
+  ❤️ 6 | 🔁 1 | 💬 1
+- **Fri May 30 01:54:40 +0000 2025** 金庸对很多事情，是大师级别思考。  天龙八部里面的扫地僧，不知道大家还是否记得。  他讲出一个事实，同时发表了一个观点：  1️⃣事实  少林72绝技，没有几个人能练会，更别说同时掌握几项。  2️⃣观点  原因是，每修炼一项绝技，都要修行对应更深的佛法，才能真正掌握。  鸠摩智，慕容博，萧远山都是当世高手，贪多去学习各项绝技，却对扫地僧放在旁边的佛经视而不见，最终反噬。  当年看这个，我的理解是： 绝技是杀人的，必须有相应的“慈悲”，才能真正领悟和掌握。  现在回想，金庸的思考更深一层： 世间的任何事，想成为大师级别，都有“术”和“道”两个层面。  孙子兵法里的“道天地将法”，讲战争也是一样。  大师不能只掌握“技术”，掌握“将和法”；那样到更高层面就会遇到问题，甚至反噬。  交易，当你能掌握一个级别的资金，不止要掌握如何赚到这些钱的“术”，还要有能驾驭它的“道”，二者同样重要。  贪多，想成为第一高手，不断在“术”上精进，天天练功，却不在“道”上下功夫，结局就是鸠摩智。  任何领域的高手，都是：  不止要练剑，还要念经。
+  ❤️ 314 | 🔁 51 | 💬 97
+- **Fri May 30 01:35:38 +0000 2025** @CryptoRyan777 对，最经典的错误，就是给自己设定，每天赚多少。
+  ❤️ 25 | 🔁 0 | 💬 1
+- **Fri May 30 01:29:24 +0000 2025** @diamondhandjs 几个赚了几十m的车头，对应几十个亏了几m的。
+  ❤️ 24 | 🔁 0 | 💬 2
+- **Fri May 30 01:24:56 +0000 2025** trump 币一直涨的时候，  有人给我留言： trump你都没赚到，别说话了。  还在这么想的人，说明交易的门还没入。  因为：  第一，他认为这个交易很简单 事实上在trump这个币上没亏的已经跑赢大部分人了；  第二，他认为什么机会都该抓 交易者认为能力圈无限大，说明没有能力圈，并不真的懂任何事。
+  ❤️ 278 | 🔁 23 | 💬 66
+- **Thu May 29 06:42:35 +0000 2025** 阅读，交流，实践，自省，坚韧。  知行合一的微观。
+  ❤️ 215 | 🔁 12 | 💬 50
+- **Wed Apr 30 09:34:21 +0000 2025** 只要没有明显病症出现，健康饮食，充足睡眠，规律运动能解决大部分身体问题。  7-8年前，因为出差连续长途飞行，尾椎和颈椎都出了问题，颈椎的问题甚至到神经性的手臂麻木。  跑去医院治疗和盲人按摩，都没有很好解决这些身体不适。  然后规律运动了几个月，身体状态恢复了，自然就好了。  想一想，身体健康不需要那么多补品和神奇的治疗方式，只需要尊重常识。  祖母在你小时候告诉你的，好好吃饭，好好睡觉，好好运动，精神愉悦。
+  ❤️ 229 | 🔁 23 | 💬 47
+- **Wed Apr 30 08:58:17 +0000 2025** 布局下架币，现在的币圈，坦诚的令人害怕。
+  ❤️ 157 | 🔁 5 | 💬 70
+- **Wed Apr 30 05:18:53 +0000 2025** @ohyishi 没有反馈的话，知行合一的一个重要环节就被打断了。  行之后，现实世界给反馈，反思，再回到知的升级。
+  ❤️ 17 | 🔁 0 | 💬 2
+- **Wed Apr 30 04:36:23 +0000 2025** @FeiyanXie 汉服和隋唐宋都挺好看的。
+  ❤️ 2 | 🔁 0 | 💬 2
+- **Wed Apr 30 04:03:44 +0000 2025** @yubao_club 其实进入大厂也是不错的选择，身边的同事能力更强，能获得更大规模用户产品经验。  不过网络游戏的大厂有个问题，就是生产流程太长，而且可能无法上线以及上线了很快也失败下线，这样反馈流程太长。  年轻人没有几个4年可以浪费。
+  ❤️ 4 | 🔁 0 | 💬 2
+- **Wed Apr 30 03:01:42 +0000 2025** 我上学时，隐约有这个意识。  实习，选择了一个小创业公司，一个刚起步项目。  产品在快速成长期，每天都能看到市场反馈，看到这个产品的收益和问题。  在项目组实习两年，毛利从几十万人民币，做到几千万人民币，公司也从100人快速扩张到1000人。  这就是真实世界的反馈。
+  ❤️ 71 | 🔁 2 | 💬 11
+- **Wed Apr 30 02:54:04 +0000 2025** @lijiuer1 亏了也是反馈啊。  我记得 @0xSunNFT 有一个推我很喜欢，  sometimes i win , sometimes i lose, but i always learn
+  ❤️ 44 | 🔁 2 | 💬 4
+- **Wed Apr 30 02:36:32 +0000 2025** 选择职业方向，选那些能快速获得真实反馈，迭代提升自身能力的方向。  我观察身边的例子，一个同学做网游策划，毕业在畅游做个项目做了4年多，后面上线草草测试效果不佳，公司就给下线了。又辗转在不同网游大厂，但始终没得到从策划，生产，到上线运营的真实反馈，一直无法把能力提升到一个新高度。  这就是无法获得真实世界反馈的例子，在我看来这种职业方向，做起来会非常难，甚至不如快速上线一些手游项目，快速获得数据反馈来的有效。  看多少书，学习多少知识，都不如实际世界给反馈来的有价值。  NBA的职业教练，最重要的工作之一，就是观察球员的打球和训练过程，实时给反馈。  币圈做交易，其中一个好处就是市场会快速给真实的结果，而且会不断出现新玩法。  对于一个能不断反思和刻意练习的人来说，提升会非常快，在一年内，可以在新玩法里努力做到t0到t1级别。  放弃这个优势，是有些可惜的。不断红着眼赌大小，做再久其实能力还是原地打转。
+  ❤️ 282 | 🔁 29 | 💬 73
+- **Tue Apr 29 05:36:55 +0000 2025** @0x0xFeng 解决量的问题，商用路径就很清晰了。
+  ❤️ 3 | 🔁 0 | 💬 2
+- **Tue Apr 29 04:25:29 +0000 2025** @qinbafrank 又大又美丽  好，真好，太好了，咋这么好呢  15的月亮圆啊，又白又圆  李白：飞流直下三千尺，疑是银河落九天 川普：牛逼！！！！！！
+  ❤️ 5 | 🔁 0 | 💬 2
+- **Tue Apr 29 04:00:53 +0000 2025** @taofen_boy 对，淘宝代运营这种，一个客户能省几百万，就值得做，也好谈，利润好出来。
+  ❤️ 3 | 🔁 0 | 💬 1
+- **Tue Apr 29 03:36:10 +0000 2025** @taofen_boy 我的意思是，有的工作，能被ai替代，但是暂时还没有被产品化，原因是成本/价值还不够高。  比如，一个助理每个月工资8000，主要工作是整理发票帮忙做点报告报表这些。
+  ❤️ 7 | 🔁 0 | 💬 2
+- **Tue Apr 29 02:54:58 +0000 2025** @Huaguibtc 还是有很多不容易被 ai 取代的工作。
+  ❤️ 2 | 🔁 0 | 💬 3
+- **Tue Apr 29 02:54:16 +0000 2025** @web3_eto 纯文字聊天类的，已经很多了，越来越不需要真人网恋了。
+  ❤️ 0 | 🔁 0 | 💬 1
+- **Tue Apr 29 02:52:31 +0000 2025** @peterpan_crypto 风俗产业 ai 能做，而且情绪价值肯定比人给的好。
+  ❤️ 3 | 🔁 0 | 💬 2
+- **Tue Apr 29 02:47:36 +0000 2025** 如果你的工作，ai 能做，但目前还没被替代，说明这个工作成本/价值比较低，暂时不值得被替代。  只要某个工作，ai 能做，且，成本/价值高，就一定会有公司把这个业务用 ai 产品化。  刚看了一个中国式 ai 创业案例，做淘宝电商代运营，原来公司需要每年花450万雇佣美工/剪辑/文案大概20-30人来做，他们的产品只需要一年几十万就能帮助产出同等水平10倍的内容。  技术不需要高深，业务一定深入，替代的就是成本/价值高的人力部分。
+  ❤️ 154 | 🔁 14 | 💬 73
+- **Mon Apr 28 11:34:44 +0000 2025** 我想要一根大阳线  god candle plz
+  ❤️ 107 | 🔁 5 | 💬 49
+- **Mon Apr 28 06:05:35 +0000 2025** @Trader_S18 可以在最后一跌之前拉个新高骗流动性，配合各个山寨主力做暴涨。  即使能预计到这个情况，也有可能是意料之外的流动性回归，让我们都会认为大牛。
+  ❤️ 20 | 🔁 0 | 💬 3
+- **Mon Apr 28 05:34:06 +0000 2025** @Trader_S18 假设场景里，最好的一个是新高骗炮，没人会认为是大牛市。
+  ❤️ 8 | 🔁 0 | 💬 2
+- **Mon Apr 28 05:24:25 +0000 2025** @market_beggar 没有，只是短期触底。
+  ❤️ 16 | 🔁 0 | 💬 2
+- **Mon Mar 31 12:29:49 +0000 2025** 巴菲特提到口香糖和航空这两个行业时，对比说明选择是多么重要。  航空业从诞生以来就没有为投资者带来任何利润，而口香糖则稳定为投资人带来丰厚回报。  为何？ 很多原因，包括经济特性，竞争格局，消费者忠诚度等。  有一点特别有趣，航空是高风险低回报，口香糖是低风险高回报。  币圈选币也一样，你是以大博大还是以小博大，赔率和风险如何？  其实，回到投资最根本的问题，不管是价值投资还是冲土狗，前面的分析框架和能力要求不同，但最终的下注决策原则都一样。
+  ❤️ 129 | 🔁 13 | 💬 54
+- **Mon Mar 31 10:58:22 +0000 2025** 观点一点都不重要。  无非是根据预测可能得几种情况，根据概率决定下注不下注，怎么下注，预测错了怎么应对。  顶级交易员都是观点坚定，但是随时就tm换了。  坚定和随时换，不矛盾，坚定是当前概率预测和情况没变时，不受别人影响；随时tm变是只要客观情况有变化，绝不固执。
+  ❤️ 193 | 🔁 25 | 💬 65
+- **Mon Mar 31 10:52:13 +0000 2025** @qinbafrank 观点一点不重要，别人的观点和我自己观点都不重要，重要的是行情真实走势，随时调整。
+  ❤️ 5 | 🔁 0 | 💬 3
+- **Mon Mar 31 09:52:00 +0000 2025** 之前聊，是说链上不会再产生一个500亿美金的标的，而是产生500个10亿美金标的。  看来这个市值上限要向下调，是500个1亿美金标的，生命周期也越来越短。  我觉得要警惕只靠cz去提及才会涨的标，他关联的标越多，这些标上限越低，很简单，因为稀释，至于长期走势，看看傻龙。  他的目标是活跃bsc，不是真的站台某个或者某几个标的。  参与 cz 概念标，就是要越跑越快。
+  ❤️ 286 | 🔁 27 | 💬 114
+- **Sun Mar 30 14:24:45 +0000 2025** 我看到很多拿到大结果的人分享，很明显他们的认知就是到位了，非要说是运气，那是人家谦虚，别跟着杠精起哄。  重要的是从他人的经验和分享中学习，在币圈一个学习能力足够强的人，2到3年足够成为链上某个新领域的顶尖高手了。
+  ❤️ 87 | 🔁 6 | 💬 18
+- **Sun Mar 30 13:54:54 +0000 2025** 屡次拿到大结果的人，一定长板足够长，总有些杠精非要说是运气，如果这样能让他们好受些，那就是吧，别人赚钱都是运气，亏钱都是实力。  其实对屡次拿到大结果的人，能不能再向上或者保持体量，一个是看长板能容纳的体量，一个是看短板有没有重大问题，最后看道，投资之道是不是能匹配体量。
+  ❤️ 321 | 🔁 26 | 💬 75
+- **Sun Mar 30 07:19:45 +0000 2025** @ohyishi 大部分都是拿着锤子找钉子。
+  ❤️ 5 | 🔁 0 | 💬 3
+- **Sun Mar 30 06:03:35 +0000 2025** @gokunocool 这么卷能活到58，已经是奇迹了。
+  ❤️ 2 | 🔁 0 | 💬 2
+- **Sun Mar 30 05:10:24 +0000 2025** @Vida_BWE 对，这里的德是比喻说法。  泛指，“位”需要掌握的能力心态等。
+  ❤️ 7 | 🔁 0 | 💬 1
+- **Sun Mar 30 03:47:18 +0000 2025** 亚洲 sigma 男人 p 皇帝 卷之帝王 每天睡3小时一年休3天 爱新觉罗胤禛 雍正皇帝的一天 https://t.co/GiY1pogI67 [📷]
+  ❤️ 95 | 🔁 13 | 💬 42
+- **Sun Mar 30 02:38:18 +0000 2025** 我比较喜欢研究一类现象， 人是如何快速跨越财富阶级，又在后面跌落的。  得出结论就是，只要拉足够长的时间看，德不配位的都会亏回去跌落，留下一句，盈亏同源。  不只是炒币，还有当年房地产行业的杠杆。  小到地方上小老板以10年为期几十亿人民币为量的暴富与破产； 大到恒大这种几十年为期几千亿人民币为量的暴富与破产。  都是一样的。  根本原因都是财富超过个人能掌握的维度了。  不要说是时代原因，那李嘉诚怎么一直稳如老狗？  知道我为什么敬佩扫地僧了吧，他展现的是关于这个世界的终极原理之一。
+  ❤️ 190 | 🔁 20 | 💬 15
+- **Sun Mar 30 02:28:25 +0000 2025** 有一种观点，说钱都是大风刮来的，大钱都不是靠努力得来的。  我是这么看的  第一，时间维度 一段时间实力和财富不匹配，很正常。 拉足够长的时间，最终都会匹配。 要么德不配位，钱亏回去了；要么实力提升，匹配了曾经无法掌握的财富。  第二，概率维度 单独看每次财富获取，都有运气成分。 但人的财富是由很多次的财富博弈和决策形成的。 整体概率，很难用运气解释，多次概率拉平了是要看实力的。 [💬]
+  ❤️ 275 | 🔁 31 | 💬 40
+- **Sun Mar 30 02:17:58 +0000 2025** @drjingle 不同视角  第一，时间  运气可以保证一段时间的财富不匹配，很难保证更长时间维度。  如果最初运气，后面实力提升了，也有可能。  第二，整体与单次财富  每一次财富获取，单独看都有运气成分，但是如果整体财富，是由一次次财富获取概率决定的。  这个概率就不能用运气来解释。
+  ❤️ 13 | 🔁 0 | 💬 4
+- **Sat Mar 29 14:43:25 +0000 2025** 研究发现，80%的司机，认为自己驾驶技术在平均水准以上。
+  ❤️ 24 | 🔁 0 | 💬 4
+- **Sat Mar 29 14:40:08 +0000 2025** 玩，肯定玩自己有优势，或者可以通过时间积累建立优势，未来可以进入前10％盈利玩家行列的游戏。  你说玩赌大小赌方向的游戏，别人玩了几百年了，币圈也玩了十来年了，如果不是天赋异禀，或者真的专业交易员厮杀出来的，怎么赢？
+  ❤️ 122 | 🔁 10 | 💬 48
+- **Sat Mar 29 14:32:05 +0000 2025** @jason_chen998 绝大部分币圈合约玩家，是在玩赌大小，而不是在交易。
+  ❤️ 31 | 🔁 1 | 💬 9
+- **Sat Mar 29 14:09:42 +0000 2025** 飞雪连天射白鹿，笑书神侠倚碧鸳。  这么多英雄，我最欣赏的是扫地僧。
+  ❤️ 93 | 🔁 3 | 💬 48
+- **Sat Mar 29 14:00:51 +0000 2025** @broleon 自己思考，自己记录，哈哈。
+  ❤️ 1 | 🔁 0 | 💬 1
+- **Sat Mar 29 13:55:19 +0000 2025** 听别人讲一堆道理，都似乎有用，转头就忘了，或者一用就错了。  为啥？  别人讲的东西，只是理解的第一层。还需要递进问几个问题：  他为什么这么想？ 他在什么情况下产生的这个思考？ 这些道理背后的思考和应用过程是什么？ 有什么限制条件和应用范围？ 回顾我的经历，对我有什么启发？怎么用？
+  ❤️ 222 | 🔁 31 | 💬 34
+
+---
+*2026-03-22T03:14:23.153Z*

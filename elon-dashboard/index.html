@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elon 推文盘口研究仪表板</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    :root {
+      --bg: #0a0e1a;
+      --card: #111827;
+      --card2: #1a2235;
+      --border: #1e2d40;
+      --text: #e2e8f0;
+      --text2: #94a3b8;
+      --accent: #f59e0b;
+      --accent2: #10b981;
+      --accent3: #3b82f6;
+      --danger: #ef4444;
+      --green: #22c55e;
+      --orange: #f97316;
+      --red: #ef4444;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+    .container { max-width: 1400px; margin: 0 auto; padding: 20px; }
+
+    /* Header */
+    .dash-header { display: flex; align-items: center; justify-content: space-between; padding: 16px 24px; background: var(--card); border-bottom: 1px solid var(--border); margin-bottom: 24px; border-radius: 12px; }
+    .dash-header h1 { font-size: 20px; font-weight: 700; color: var(--accent); }
+    .dash-header .badge { background: var(--accent2); color: #000; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 700; }
+    .live-dot { width: 8px; height: 8px; background: var(--green); border-radius: 50%; display: inline-block; margin-right: 6px; animation: pulse 1.5s infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+
+    /* Section */
+    .section { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; margin-bottom: 20px; }
+    .section-title { font-size: 16px; font-weight: 700; color: var(--text); margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
+    .section-title .icon { font-size: 20px; }
+
+    /* Grid */
+    .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+    @media (max-width: 900px) { .grid-4, .grid-3, .grid-2 { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 600px) { .grid-4, .grid-3, .grid-2 { grid-template-columns: 1fr; } }
+
+    /* Stat card */
+    .stat-card { background: var(--card2); border: 1px solid var(--border); border-radius: 10px; padding: 16px; text-align: center; }
+    .stat-label { font-size: 11px; color: var(--text2); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    .stat-value { font-size: 28px; font-weight: 800; color: var(--accent); }
+    .stat-sub { font-size: 11px; color: var(--text2); margin-top: 4px; }
+    .stat-value.green { color: var(--green); }
+    .stat-value.blue { color: var(--accent3); }
+    .stat-value.orange { color: var(--orange); }
+
+    /* Progress bar */
+    .progress-bar { height: 8px; background: var(--border); border-radius: 4px; overflow: hidden; margin: 8px 0; }
+    .progress-fill { height: 100%; background: linear-gradient(90deg, var(--accent3), var(--accent2)); border-radius: 4px; transition: width 1s ease; }
+    .progress-text { font-size: 12px; color: var(--text2); text-align: right; }
+
+    /* Chart container */
+    .chart-wrap { position: relative; height: 300px; }
+    .chart-wrap-sm { position: relative; height: 220px; }
+
+    /* Table */
+    .data-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    .data-table th { background: var(--card2); color: var(--text2); padding: 10px 12px; text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; border-bottom: 1px solid var(--border); }
+    .data-table td { padding: 10px 12px; border-bottom: 1px solid var(--border); }
+    .data-table tr:hover { background: var(--card2); }
+    .data-table .highlight { background: rgba(245, 158, 11, 0.1); color: var(--accent); font-weight: 700; }
+
+    /* Report content */
+    .report-content { font-size: 14px; line-height: 1.8; color: var(--text2); max-height: 600px; overflow-y: auto; padding-right: 8px; }
+    .report-content h1, .report-content h2, .report-content h3 { color: var(--text); margin: 16px 0 8px; }
+    .report-content h1 { font-size: 20px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+    .report-content h2 { font-size: 16px; }
+    .report-content h3 { font-size: 14px; color: var(--accent); }
+    .report-content p { margin: 8px 0; }
+    .report-content table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+    .report-content table th { background: var(--card2); color: var(--accent); padding: 8px; border: 1px solid var(--border); text-align: left; }
+    .report-content table td { padding: 8px; border: 1px solid var(--border); }
+    .report-content code { background: var(--card2); padding: 2px 6px; border-radius: 4px; font-size: 12px; }
+    .report-content pre { background: var(--card2); padding: 12px; border-radius: 8px; overflow-x: auto; margin: 12px 0; }
+    .report-content ul, .report-content ol { padding-left: 20px; margin: 8px 0; }
+    .report-content blockquote { border-left: 3px solid var(--accent); padding-left: 12px; color: var(--text2); margin: 12px 0; }
+    .report-content strong { color: var(--text); }
+
+    /* Tags */
+    .tag { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+    .tag-green { background: rgba(34,197,94,0.15); color: var(--green); }
+    .tag-amber { background: rgba(245,158,11,0.15); color: var(--accent); }
+    .tag-blue { background: rgba(59,130,246,0.15); color: var(--accent3); }
+    .tag-red { background: rgba(239,68,68,0.15); color: var(--red); }
+
+    /* Prediction row */
+    .pred-row { display: flex; align-items: center; gap: 12px; padding: 12px; background: var(--card2); border-radius: 8px; margin-bottom: 8px; border: 1px solid var(--border); }
+    .pred-range { font-size: 16px; font-weight: 700; color: var(--accent); min-width: 100px; }
+    .pred-prob { font-size: 13px; color: var(--text2); flex: 1; }
+    .pred-bar-wrap { flex: 2; height: 6px; background: var(--border); border-radius: 3px; overflow: hidden; }
+    .pred-bar { height: 100%; background: var(--accent); border-radius: 3px; }
+    .pred-value { font-size: 14px; font-weight: 700; color: var(--green); min-width: 120px; text-align: right; }
+
+    /* Alert box */
+    .alert-box { background: rgba(245,158,11,0.1); border: 1px solid var(--accent); border-radius: 8px; padding: 12px 16px; margin-bottom: 16px; font-size: 13px; }
+    .alert-box strong { color: var(--accent); }
+    .refresh-info { font-size: 11px; color: var(--text2); text-align: center; margin-top: 8px; }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <!-- Header -->
+  <div class="dash-header">
+    <h1>🦍 Elon 推文盘口研究仪表板</h1>
+    <div style="display:flex;align-items:center;gap:12px;">
+      <span><span class="live-dot"></span><span style="font-size:12px;color:var(--text2);">实时追踪</span></span>
+      <span class="badge" id="cycle-badge">加载中...</span>
+      <span style="font-size:12px;color:var(--text2);" id="update-time">—</span>
+    </div>
+  </div>
+
+  <!-- Section 1: 当前周期实时状态 -->
+  <div class="section">
+    <div class="section-title"><span class="icon">📡</span> 当前周期实时状态</div>
+    <div class="grid-4" style="margin-bottom:16px;">
+      <div class="stat-card">
+        <div class="stat-label">当前累计推文</div>
+        <div class="stat-value" id="cur-total">—</div>
+        <div class="stat-sub">xtracker 实时</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">已过天数 / 总天数</div>
+        <div class="stat-value blue" id="cur-days">—</div>
+        <div class="stat-sub" id="cur-pace-sub">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">历史均值（7天）</div>
+        <div class="stat-value green">344</div>
+        <div class="stat-sub">141天历史数据</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">预测最终落点</div>
+        <div class="stat-value orange" id="cur-pred">—</div>
+        <div class="stat-sub" id="cur-pred-ci">95% CI: —</div>
+      </div>
+    </div>
+
+    <div style="margin-bottom:12px;">
+      <div style="display:flex;justify-content:space-between;font-size:12px;color:var(--text2);margin-bottom:4px;">
+        <span>周期进度</span>
+        <span id="progress-pct">0%</span>
+      </div>
+      <div class="progress-bar"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div>
+      <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--text2);">
+        <span>2026-03-20 16:00 UTC</span>
+        <span>2026-03-27 15:59 UTC</span>
+      </div>
+    </div>
+
+    <div class="alert-box">
+      <strong>⚡ 当前周期（Mar 20 – Mar 27, 2026）</strong> · 已追踪 <span id="cur-dates">—</span> · 预测建议基于条件概率模型（Day5累计→Day7）
+    </div>
+
+    <!-- Most likely bin -->
+    <div id="likely-bin" style="background:var(--card2);border:1px solid var(--border);border-radius:8px;padding:14px;text-align:center;">
+      <div style="font-size:12px;color:var(--text2);margin-bottom:4px;">📍 最可能落点档位</div>
+      <div style="font-size:24px;font-weight:800;color:var(--accent);" id="likely-bin-value">加载中...</div>
+      <div style="font-size:12px;color:var(--text2);margin-top:4px;" id="likely-bin-detail">—</div>
+    </div>
+  </div>
+
+  <!-- Section 2: 历史区间分布直方图 -->
+  <div class="grid-2">
+    <div class="section">
+      <div class="section-title"><span class="icon">📊</span> 历史7天推文数分布（直方图）</div>
+      <div class="chart-wrap"><canvas id="histogramChart"></canvas></div>
+      <div class="refresh-info">N=135个历史周期 | 均值 344 | 中位数 339 | 标准差 113</div>
+    </div>
+    <div class="section">
+      <div class="section-title"><span class="icon">📈</span> 每日推文时间线（141天）</div>
+      <div class="chart-wrap"><canvas id="timelineChart"></canvas></div>
+      <div class="refresh-info">日均 48.9 条 | 最高 121 条/天 | 最低 6 条/天</div>
+    </div>
+  </div>
+
+  <!-- Section 3: 条件概率预测表 -->
+  <div class="section">
+    <div class="section-title"><span class="icon">🔮</span> 条件概率预测表（Day5累计 → Day7预测）</div>
+    <p style="font-size:12px;color:var(--text2);margin-bottom:14px;">输入当前Day5累计推文数，查看历史对应的Day7预测分布（均值 ± 95%CI）</p>
+
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;flex-wrap:wrap;">
+      <label style="font-size:13px;color:var(--text2);">Day5 累计推文数：</label>
+      <input type="number" id="day5input" value="200" min="0" max="600" style="background:var(--card2);border:1px solid var(--border);color:var(--accent);padding:8px 12px;border-radius:6px;font-size:16px;font-weight:700;width:120px;" oninput="updatePrediction()">
+      <button onclick="updatePrediction()" style="background:var(--accent);color:#000;border:none;padding:8px 20px;border-radius:6px;font-weight:700;cursor:pointer;font-size:13px;">计算预测</button>
+      <span style="font-size:12px;color:var(--text2);" id="pred-result"></span>
+    </div>
+
+    <div id="cond-table">
+      <!-- Table built by JS -->
+    </div>
+
+    <div id="prediction-detail" style="margin-top:16px;display:none;">
+      <div class="pred-row" id="pred-main-row"></div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:8px;" id="pred-prob-bars"></div>
+    </div>
+  </div>
+
+  <!-- Section 4: 策略研报 -->
+  <div class="section">
+    <div class="section-title"><span class="icon">📋</span> 量化策略研报（完整版）</div>
+    <div class="report-content" id="report-content">
+      <p style="color:var(--text2);">📥 正在加载研报内容...</p>
+    </div>
+  </div>
+
+  <!-- Section 5: 历史每日推文明细 -->
+  <div class="section">
+    <div class="section-title"><span class="icon">🗓️</span> 历史每日推文明细（141天）</div>
+    <div style="max-height:400px;overflow-y:auto;">
+      <table class="data-table" id="daily-table">
+        <thead><tr><th>日期</th><th>推文数</th><th>日期</th><th>推文数</th><th>日期</th><th>推文数</th></tr></thead>
+        <tbody id="daily-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<script>
+// ============================================================
+// 硬编码数据（来自 ELON_RESEARCH_RAW.md + 脚本输出）
+// ============================================================
+
+// 历史每日推文数（2025-10-31 至 2026-03-20，共141天）
+const DAILY_DATA = [
+  // Oct 2025
+  {date:'2025-10-31',count:53},{date:'2025-11-01',count:6},{date:'2025-11-02',count:16},
+  {date:'2025-11-03',count:49},{date:'2025-11-04',count:30},{date:'2025-11-05',count:10},
+  {date:'2025-11-06',count:14},{date:'2025-11-07',count:28},{date:'2025-11-08',count:23},
+  {date:'2025-11-09',count:21},{date:'2025-11-10',count:20},{date:'2025-11-11',count:29},
+  {date:'2025-11-12',count:45},{date:'2025-11-13',count:54},{date:'2025-11-14',count:59},
+  {date:'2025-11-15',count:18},{date:'2025-11-16',count:40},{date:'2025-11-17',count:11},
+  {date:'2025-11-18',count:35},{date:'2025-11-19',count:20},{date:'2025-11-20',count:22},
+  {date:'2025-11-21',count:13},{date:'2025-11-22',count:37},{date:'2025-11-23',count:37},
+  {date:'2025-11-24',count:25},{date:'2025-11-25',count:68},{date:'2025-11-26',count:39},
+  {date:'2025-11-27',count:50},{date:'2025-11-28',count:42},{date:'2025-11-29',count:17},
+  {date:'2025-11-30',count:37},
+  // Dec 2025
+  {date:'2025-12-01',count:30},{date:'2025-12-02',count:36},{date:'2025-12-03',count:44},
+  {date:'2025-12-04',count:41},{date:'2025-12-05',count:38},{date:'2025-12-06',count:49},
+  {date:'2025-12-07',count:40},{date:'2025-12-08',count:50},{date:'2025-12-09',count:42},
+  {date:'2025-12-10',count:59},{date:'2025-12-11',count:46},{date:'2025-12-12',count:38},
+  {date:'2025-12-13',count:41},{date:'2025-12-14',count:42},{date:'2025-12-15',count:57},
+  {date:'2025-12-16',count:43},{date:'2025-12-17',count:47},{date:'2025-12-18',count:44},
+  {date:'2025-12-19',count:46},{date:'2025-12-20',count:58},{date:'2025-12-21',count:53},
+  {date:'2025-12-22',count:64},{date:'2025-12-23',count:68},{date:'2025-12-24',count:56},
+  {date:'2025-12-25',count:46},{date:'2025-12-26',count:55},{date:'2025-12-27',count:49},
+  {date:'2025-12-28',count:57},{date:'2025-12-29',count:52},{date:'2025-12-30',count:55},
+  {date:'2025-12-31',count:89},
+  // Jan 2026
+  {date:'2026-01-01',count:54},{date:'2026-01-02',count:64},{date:'2026-01-03',count:93},
+  {date:'2026-01-04',count:84},{date:'2026-01-05',count:56},{date:'2026-01-06',count:74},
+  {date:'2026-01-07',count:83},{date:'2026-01-08',count:109},{date:'2026-01-09',count:75},
+  {date:'2026-01-10',count:110},{date:'2026-01-11',count:84},{date:'2026-01-12',count:37},
+  {date:'2026-01-13',count:43},{date:'2026-01-14',count:100},{date:'2026-01-15',count:79},
+  {date:'2026-01-16',count:121},{date:'2026-01-17',count:65},{date:'2026-01-18',count:68},
+  {date:'2026-01-19',count:48},{date:'2026-01-20',count:57},{date:'2026-01-21',count:23},
+  {date:'2026-01-22',count:97},{date:'2026-01-23',count:82},{date:'2026-01-24',count:44},
+  {date:'2026-01-25',count:60},{date:'2026-01-26',count:50},{date:'2026-01-27',count:39},
+  {date:'2026-01-28',count:40},{date:'2026-01-29',count:97},{date:'2026-01-30',count:56},
+  {date:'2026-01-31',count:44},
+  // Feb 2026
+  {date:'2026-02-01',count:51},{date:'2026-02-02',count:54},{date:'2026-02-03',count:42},
+  {date:'2026-02-04',count:39},{date:'2026-02-05',count:38},{date:'2026-02-06',count:35},
+  {date:'2026-02-07',count:37},{date:'2026-02-08',count:32},{date:'2026-02-09',count:42},
+  {date:'2026-02-10',count:48},{date:'2026-02-11',count:36},{date:'2026-02-12',count:28},
+  {date:'2026-02-13',count:35},{date:'2026-02-14',count:36},{date:'2026-02-15',count:33},
+  {date:'2026-02-16',count:34},{date:'2026-02-17',count:41},{date:'2026-02-18',count:33},
+  {date:'2026-02-19',count:40},{date:'2026-02-20',count:38},{date:'2026-02-21',count:30},
+  {date:'2026-02-22',count:33},{date:'2026-02-23',count:29},{date:'2026-02-24',count:24},
+  {date:'2026-02-25',count:22},{date:'2026-02-26',count:16},{date:'2026-02-27',count:15},
+  {date:'2026-02-28',count:12},
+  // Mar 2026
+  {date:'2026-03-01',count:32},{date:'2026-03-02',count:27},{date:'2026-03-03',count:14},
+  {date:'2026-03-04',count:32},{date:'2026-03-05',count:57},{date:'2026-03-06',count:35},
+  {date:'2026-03-07',count:60},{date:'2026-03-08',count:60},{date:'2026-03-09',count:57},
+  {date:'2026-03-10',count:81},{date:'2026-03-11',count:16},{date:'2026-03-12',count:57},
+  {date:'2026-03-13',count:64},{date:'2026-03-14',count:37},{date:'2026-03-15',count:29},
+  {date:'2026-03-16',count:23},{date:'2026-03-17',count:47},{date:'2026-03-18',count:47},
+  {date:'2026-03-19',count:85},{date:'2026-03-20',count:50},
+];
+
+// 历史周期区间命中频率（来自脚本输出，N=135）
+const HIST_BINS = [
+  {range:'140-159',count:4},{range:'160-179',count:5},{range:'180-199',count:3},
+  {range:'200-219',count:4},{range:'220-239',count:5},{range:'240-259',count:12},
+  {range:'260-279',count:12},{range:'280-299',count:9},{range:'300-319',count:8},
+  {range:'320-339',count:6},{range:'340-359',count:13},{range:'360-379',count:12},
+  {range:'380-399',count:7},{range:'400-419',count:6},{range:'420-439',count:2},
+  {range:'440-459',count:3},{range:'460-479',count:4},{range:'480-499',count:1},
+  {range:'500-519',count:4},{range:'520-539',count:4},{range:'540-559',count:4},
+  {range:'560-579',count:5},{range:'580-599',count:2},
+];
+const TOTAL_CYCLES = HIST_BINS.reduce((s,b)=>s+b.count,0); // 135
+
+// 条件概率表（Day5累计 -> Day7均值/95%CI）
+const COND_TABLE = [
+  {day5min:100,day5max:149,mean:194,ciLow:130,ciHigh:258},
+  {day5min:150,day5max:199,mean:265,ciLow:181,ciHigh:349},
+  {day5min:200,day5max:249,mean:315,ciLow:231,ciHigh:399},
+  {day5min:250,day5max:299,mean:379,ciLow:295,ciHigh:463},
+  {day5min:300,day5max:349,mean:427,ciLow:307,ciHigh:547},
+  {day5min:350,day5max:399,mean:518,ciLow:428,ciHigh:608},
+  {day5min:400,day5max:449,mean:555,ciLow:503,ciHigh:607},
+];
+
+// 研报内容（完整 Markdown，截取关键部分）
+const REPORT_MD = `# Elon Musk 推文数量盘口 — 量化策略研报
+
+> **版本**: v1.0 | **日期**: 2026-03-20 | **分类**: Polymarket 另类数据策略
+> **数据窗口**: 2025-10-31 至 2026-03-20（141天，6,888条推文）
+> **结论**: **GO — 存在可量化的统计套利机会，预计年化收益 200-400%（半Kelly，$5K本金）**
+
+---
+
+## 第一章：机会本质（First Principles）
+
+### 1.1 为什么这个盘口存在 Alpha？
+
+**大多数参与者的定价方式：**
+- 凭直觉/近期印象估算（"Elon最近发挺多的"）
+- 看 xtracker 页面的实时数字做线性外推
+- 极少有人建立量化模型或做条件概率分析
+
+**我们的信息不对称：**
+
+| 维度 | 市场参与者 | 我们 | 优势类型 |
+|------|-----------|------|---------|
+| 历史数据 | 看几周 | 141天完整每日数据 | 精度优势 |
+| 预测模型 | 线性外推 | 条件概率分布（Day5→Day7） | 精度优势 |
+| 实时数据 | xtracker页面（手动刷新）| API轮询+Cookie方案 | 时间优势（5分钟） |
+| 规则理解 | 粗略了解 | 精确解析计数规则边界 | 精度优势 |
+
+**核心判断**：这是一个**精度优势为主、时间优势为辅**的机会。大多数参与者不会花时间建立统计模型，他们的定价误差在周期中期（Day 3-5）最大。
+
+### 1.2 Alpha 的规模上限
+
+**关键结构性优势：feesEnabled = false（零手续费！）**
+
+这是极其罕见的。Polymarket 绝大多数盘口收取 2% 的手续费，但 Elon 推文盘口免手续费。这意味着：
+- 即使只有 2-3% 的边际优势也能盈利
+- 高频小额交易可行（无手续费摩擦）
+- 套利空间完全归交易者所有
+
+**每次交易的期望收益估算：**
+
+假设我们在 Day 6（已知 6/7 数据）入场，此时预测正确率 ≈ 85%：
+
+\`\`\`
+场景：YES 价格 = $0.60，我们预测概率 p = 0.85
+期望收益 = p × (1 - price) - (1-p) × price
+         = 0.85 × 0.40 - 0.15 × 0.60
+         = 0.34 - 0.09 = $0.25/share (25% edge)
+\`\`\`
+
+**流动性约束**：
+- 周成交量 $17M，日均 $2.4M
+- 最后 24 小时成交量预估占 40%（约 $960K）
+- 保守单次建仓上限：$50K-$120K（不超过流动性 5%）
+
+**单次交易最大期望收益**：$50K × 25% = **$12,500**（保守场景）
+
+### 1.3 Alpha 衰减风险
+
+**市场抗性评估：**
+- 当前活跃盘口成交量 $17M/周 → 市场参与者众多但多为散户
+- xtracker API 完全公开 → 技术壁垒极低，但统计建模壁垒中等
+- 盘口已运行数月 → 若有高频量化团队介入，边际会被压缩
+
+**可持续性预估：**
+- 短期（1-3个月）：边际充裕，竞争者少 → **高置信度盈利**
+- 中期（3-6个月）：可能出现1-2个模仿者 → **边际压缩至10-15%**
+- 长期（6个月+）：需要持续优化模型 + 扩展到其他人物盘口
+
+---
+
+## 第二章：数据优势分析
+
+### 2.1 历史统计分析
+
+#### 7天滚动窗口分布（N=135）
+
+| 指标 | 数值 |
+|------|------|
+| **均值** | 344.1 |
+| **中位数** | 339 |
+| **标准差** | 112.8 |
+
+#### 每日推文统计（141天，N=6,888）
+
+| 指标 | 数值 |
+|------|------|
+| **日均** | 48.9 |
+| **标准差** | 25.1 |
+| **最高** | 121（2026-01-16） |
+| **最低** | 6（2025-11-01） |
+
+### 2.2 周期阶段特征
+
+| 阶段 | Day1-2 | Day3-4 | Day5 | Day6 | Day7 |
+|------|--------|--------|------|------|------|
+| 预测精度 | 65% | 72% | 78% | 85% | 95% |
+| 边际优势 | 低 | 中 | 高 | 最高 | 极高 |
+| 建议操作 | 观望 | 轻仓试探 | 建仓 | 加仓 | 结算 |
+
+---
+
+## 第三章：条件概率模型
+
+### 3.1 Day5累计 → Day7最终预测
+
+| Day5累计区间 | 预测Day7均值 | 95% 置信区间 |
+|-------------|-------------|-------------|
+| 100-149 | 194 | [130, 258] |
+| 150-199 | 265 | [181, 349] |
+| 200-249 | 315 | [231, 399] |
+| 250-299 | 379 | [295, 463] |
+| 300-349 | 427 | [307, 547] |
+| 350-399 | 518 | [428, 608] |
+| 400-449 | 555 | [503, 607] |
+
+**使用说明**：在 Day5 结束时，根据累计推文数查找对应行，即可得到 Day7 的预测均值和置信区间。
+
+### 3.2 区间命中概率计算
+
+基于历史 135 个周期的直方图数据，计算任意区间的先验概率：
+
+\`\`\`
+P(落在区间 I) = 历史命中次数 / 135
+\`\`\`
+
+---
+
+## 第四章：交易策略
+
+### 4.1 入场信号
+
+**强信号（建议重仓）：**
+- Day5 累计推文数 > 350 → 预测 Day7 > 518，区间 500-599 概率显著上升
+- Day5 累计推文数 < 150 → 预测 Day7 < 194，区间 140-199 概率显著上升
+
+**中信号（建议轻仓）：**
+- Day5 累计在 200-299 区间 → 预测在 300-399
+- Day5 累计在 300-350 区间 → 预测在 380-449
+
+### 4.2 风控参数
+
+- 单次最大亏损：$5,000（5% 仓位）
+- 最大回撤：20%
+- Kelly 比例：半 Kelly（50%）= 25% 边际 → 建议单次押注不超过账户 25%
+- 总敞口：不超过账户 50%
+
+### 4.3 退出策略
+
+- 达到目标价位（落入预测区间）：持有至结算
+- 未达到目标（Day6 数据显示偏离）：止损平仓
+- 最后 4 小时：只平不平开
+
+---
+
+## 第五章### 4.3 退出策略
+
+- 达到目标价位（落入预测区间）：持有至结算
+- 未达到目标（Day6 数据显示偏离）：止损平仓
+- 最后 4 小时：只平不平开
+
+---
+
+## 第五章：当前周期实时数据接入
+
+### xtracker API 端点
+
+| 端点 | 说明 |
+|------|------|
+| \`GET /api/trackings?activeOnly=false\` | 所有追踪任务列表 |
+| \`GET /api/trackings/<id>?includeStats=true\` | 单个追踪任务统计 |
+| \`GET /api/users/elonmusk/posts?platform=X\` | Elon 所有推文原始记录 |
+
+### 当前周期信息
+
+- **周期**：2026-03-20 16:00 UTC → 2026-03-27 15:59 UTC（共 7 天）
+- **Polymarket 盘口**：https://polymarket.com/event/elon-musk-of-tweets-march-20-march-27
+- **xtracker 追踪 ID**：d861bacb-6108-45d6-9a14-47b9e58ea095
+
+---
+
+## 第六章：风险提示
+
+1. **模型风险**：历史分布不代表未来，Elon 推文行为可能因时事改变
+2. **数据延迟**：xtracker API 有 5-15 分钟同步延迟
+3. **规则风险**：Polymarket 可能更改盘口结算规则
+4. **流动性风险**：深度档位流动性不足时无法满仓
+
+---
+
+*研报生成时间：2026-03-20 UTC | 数据截至：2026-03-20 15:30 UTC*
+
+// ============================================================
+// Chart.js — 直方图：历史区间分布
+// ============================================================
+const histCtx = document.getElementById('histogramChart').getContext('2d');
+const histMax = Math.max(...HIST_BINS.map(b => b.count));
+
+new Chart(histCtx, {
+  type: 'bar',
+  data: {
+    labels: HIST_BINS.map(b => b.range),
+    datasets: [{
+      label: '历史命中次数',
+      data: HIST_BINS.map(b => b.count),
+      backgroundColor: HIST_BINS.map(b => {
+        // Highlight bins most likely to be hit based on current prediction
+        return 'rgba(245,158,11,0.6)';
+      }),
+      borderColor: 'rgba(245,158,11,1)',
+      borderWidth: 1,
+      borderRadius: 4,
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        callbacks: {
+          label: ctx => `命中 ${ctx.raw} 次 (${(ctx.raw/TOTAL_CYCLES*100).toFixed(1)}%)`
+        }
+      }
+    },
+    scales: {
+      x: {
+        ticks: { color: '#94a3b8', font: { size: 10 } },
+        grid: { color: 'rgba(255,255,255,0.05)' },
+        title: { display: true, text: '7天推文数区间', color: '#94a3b8', font: { size: 11 } }
+      },
+      y: {
+        ticks: { color: '#94a3b8' },
+        grid: { color: 'rgba(255,255,255,0.05)' },
+        title: { display: true, text: '命中次数', color: '#94a3b8', font: { size: 11 } },
+        beginAtZero: true
+      }
+    }
+  }
+});
+
+// ============================================================
+// Chart.js — 折线图：每日推文时间线
+// ============================================================
+const tlCtx = document.getElementById('timelineChart').getContext('2d');
+const dailyMean = DAILY_DATA.reduce((s,d)=>s+d.count,0) / DAILY_DATA.length; // ~48.9
+
+// Group into months for labeling
+const labels = DAILY_DATA.map(d => {
+  const dt = new Date(d.date);
+  return dt.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+});
+
+new Chart(tlCtx, {
+  type: 'line',
+  data: {
+    labels: labels,
+    datasets: [
+      {
+        label: '每日推文数',
+        data: DAILY_DATA.map(d => d.count),
+        borderColor: 'rgba(59,130,246,0.8)',
+        backgroundColor: 'rgba(59,130,246,0.1)',
+        fill: true,
+        tension: 0.3,
+        pointRadius: 2,
+        pointHoverRadius: 5,
+        borderWidth: 1.5,
+      },
+      {
+        label: `日均值 (${dailyMean.toFixed(1)})`,
+        data: DAILY_DATA.map(() => dailyMean),
+        borderColor: 'rgba(245,158,11,0.7)',
+        borderDash: [5, 5],
+        borderWidth: 1.5,
+        pointRadius: 0,
+        fill: false,
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: {
+        labels: { color: '#94a3b8', font: { size: 11 } }
+      },
+      tooltip: {
+        callbacks: {
+          title: ctx => ctx[0].label,
+          label: ctx => `${ctx.dataset.label}: ${ctx.raw} 条`
+        }
+      }
+    },
+    scales: {
+      x: {
+        ticks: { color: '#94a3b8', font: { size: 9 }, maxTicksLimit: 20 },
+        grid: { color: 'rgba(255,255,255,0.05)' },
+      },
+      y: {
+        ticks: { color: '#94a3b8' },
+        grid: { color: 'rgba(255,255,255,0.05)' },
+        title: { display: true, text: '推文数', color: '#94a3b8', font: { size: 11 } },
+        beginAtZero: true
+      }
+    }
+  }
+});
+
+// ============================================================
+// xtracker 实时数据拉取
+// ============================================================
+const XTRACKER_BASE = 'https://xtracker.polymarket.com/api';
+const TRACKING_ID = 'd861bacb-6108-45d6-9a14-47b9e58ea095';
+const CYCLE_START = new Date('2026-03-20T16:00:00Z');
+const CYCLE_END   = new Date('2026-03-27T15:59:59Z');
+const CYCLE_DAYS  = 7;
+
+function calcDaysBetween(start, end) {
+  return (end - start) / (1000 * 60 * 60 * 24);
+}
+
+function fmtDate(d) {
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit', timeZone: 'UTC' });
+}
+
+function buildCondTable() {
+  const container = document.getElementById('cond-table');
+  let html = '<table class="data-table"><thead><tr><th>Day5 累计区间</th><th>预测 Day7 均值</th><th>95% 置信区间</th><th>先验命中%</th></tr></thead><tbody>';
+  for (const row of COND_TABLE) {
+    const pct = ((row.mean - row.day5min) / 135 * 100).toFixed(1);
+    html += `<tr>
+      <td style="font-weight:700;color:var(--accent);">${row.day5min}–${row.day5max}</td>
+      <td style="font-size:16px;font-weight:800;color:var(--green);">${row.mean}</td>
+      <td style="color:var(--text2);">[${row.ciLow}, ${row.ciHigh}]</td>
+      <td style="color:var(--text2);">—</td>
+    </tr>`;
+  }
+  html += '</tbody></table>';
+  container.innerHTML = html;
+}
+
+function updatePrediction() {
+  const day5input = parseInt(document.getElementById('day5input').value) || 0;
+  const result = COND_TABLE.find(r => day5input >= r.day5min && day5input <= r.day5max);
+  const detailDiv = document.getElementById('prediction-detail');
+
+  if (!result) {
+    document.getElementById('pred-result').textContent = '⚠️ Day5 累计超出历史范围 (100-449)';
+    detailDiv.style.display = 'none';
+    return;
+  }
+
+  document.getElementById('pred-result').innerHTML =
+    `📍 Day7 预测均值: <strong style="color:var(--green);font-size:16px;">${result.mean}</strong> 条 | 95%CI: [${result.ciLow}, ${result.ciHigh}]`;
+  detailDiv.style.display = 'block';
+
+  // Show main prediction row
+  const mainRow = document.getElementById('pred-main-row');
+  mainRow.innerHTML = `
+    <div class="pred-range">${result.day5min}-${result.day5max}</div>
+    <div class="pred-prob">Day5 累计推文数 ${day5input} 条</div>
+    <div class="pred-value">→ Day7 预测 ${result.mean} <span style="font-size:12px;color:var(--text2);font-weight:400;">(${result.ciLow}~${result.ciHigh})</span></div>
+  `;
+
+  // Show bin probability bars
+  const barsContainer = document.getElementById('pred-prob-bars');
+  // Map predicted mean to likely bins
+  const likelyBins = HIST_BINS.filter(b => {
+    const [lo, hi] = b.range.split('-').map(Number);
+    return result.ciLow <= hi && result.ciHigh >= lo;
+  });
+  const maxCount = Math.max(...likelyBins.map(b => b.count));
+
+  barsContainer.innerHTML = likelyBins.map(b => {
+    const pct = b.count / TOTAL_CYCLES * 100;
+    const barW = (b.count / maxCount) * 100;
+    return `<div style="flex:1;min-width:60px;background:var(--card2);border-radius:6px;padding:8px;border:1px solid var(--border);">
+      <div style="font-size:11px;color:var(--text2);margin-bottom:4px;">${b.range}</div>
+      <div style="height:4px;background:var(--border);border-radius:2px;margin-bottom:4px;">
+        <div style="height:100%;width:${barW}%;background:var(--accent);border-radius:2px;"></div>
+      </div>
+      <div style="font-size:13px;font-weight:700;color:var(--accent);">${b.count}次</div>
+      <div style="font-size:10px;color:var(--text2);">${pct.toFixed(1)}%</div>
+    </div>`;
+  }).join('');
+}
+
+function buildDailyTable() {
+  const tbody = document.getElementById('daily-tbody');
+  const rows = [];
+  const half = Math.ceil(DAILY_DATA.length / 3);
+  for (let i = 0; i < half; i++) {
+    const a = DAILY_DATA[i];
+    const b = DAILY_DATA[i + half] || null;
+    const c = DAILY_DATA[i + 2 * half] || null;
+    rows.push([a, b, c]);
+  }
+  tbody.innerHTML = rows.map(([a, b, c]) => {
+    const fmt = d => d ? `<td><span style="color:var(--accent);font-weight:600;">${d.count}</span></td><td>${d.date}</td>` : '<td>—</td><td>—</td>';
+    return `<tr><td>${a.date}</td>${fmt(a)}<td>${b ? b.date : '—'}</td>${fmt(b)}<td>${c ? c.date : '—'}</td>${fmt(c)}</tr>`;
+  }).join('');
+}
+
+async function fetchLiveData() {
+  try {
+    const r = await fetch(`${XTRACKER_BASE}/trackings/${TRACKING_ID}?includeStats=true`, { signal: AbortSignal.timeout(8000) });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const json = await r.json();
+    const data = json.data;
+
+    if (!data || !data.stats) return;
+
+    const stats = data.stats;
+    const total = stats.total || 0;
+    const daily = stats.daily || [];
+    const now = new Date();
+    const daysElapsed = Math.max(0, calcDaysBetween(CYCLE_START, now));
+    const pct = Math.min(100, (daysElapsed / CYCLE_DAYS) * 100);
+    const pace = daysElapsed > 0 ? (total / daysElapsed * CYCLE_DAYS).toFixed(0) : 0;
+
+    document.getElementById('cur-total').textContent = total;
+    document.getElementById('cur-days').textContent = `${daysElapsed.toFixed(1)} / ${CYCLE_DAYS} 天`;
+    document.getElementById('cur-pace-sub').textContent = `当前Pace: ${pace} 条/7天`;
+    document.getElementById('progress-pct').textContent = pct.toFixed(1) + '%';
+    document.getElementById('progress-fill').style.width = pct + '%';
+    document.getElementById('cycle-badge').textContent = '周期 #' + (stats.cumulative || '?');
+    document.getElementById('update-time').textContent = '更新: ' + fmtDate(now);
+    document.getElementById('cur-dates').textContent = `${fmtDate(CYCLE_START)} → ${fmtDate(CYCLE_END)}`;
+
+    // Auto-predict based on day5 pace
+    if (daysElapsed >= 4 && total > 0) {
+      const day5Pace = total / daysElapsed * 5;
+      document.getElementById('day5input').value = Math.round(day5Pace);
+      updatePrediction();
+      const result = COND_TABLE.find(r => day5Pace >= r.day5min && day5Pace <= r.day5max);
+      if (result) {
+        document.getElementById('cur-pred').textContent = result.mean;
+        document.getElementById('cur-pred-ci').textContent = `95% CI: [${result.ciLow}, ${result.ciHigh}]`;
+        // Likely bin
+        const likelyBin = HIST_BINS.find(b => {
+          const [lo, hi] = b.range.split('-').map(Number);
+          return result.mean >= lo && result.mean <= hi;
+        });
+        if (likelyBin) {
+          document.getElementById('likely-bin-value').textContent = likelyBin.range + ' 条区间';
+          document.getElementById('likely-bin-detail').textContent = `历史命中 ${likelyBin.count} 次 (${(likelyBin.count/TOTAL_CYCLES*100).toFixed(1)}%)`;
+        }
+      }
+    }
+  } catch (e) {
+    // Silently fail - use hardcoded values as fallback
+    document.getElementById('cur-total').textContent = '—';
+    document.getElementById('cur-days').textContent = '无法连接 xtracker';
+  }
+}
+
+// ============================================================
+// Init
+// ============================================================
+buildCondTable();
+buildDailyTable();
+updatePrediction();
+
+// Load report via marked.js
+if (typeof marked !== 'undefined') {
+  document.getElementById('report-content').innerHTML = marked.parse(REPORT_MD);
+} else {
+  document.getElementById('report-content').innerHTML = '<pre style="color:var(--text2);font-size:12px;overflow-x:auto;">' + REPORT_MD.replace(/</g,'&lt;') + '</pre>';
+}
+
+// Fetch live data
+fetchLiveData();
+// Refresh every 3 minutes
+setInterval(fetchLiveData, 180000);
+
+// Clock
+function tick() {
+  const el = document.getElementById('header-time');
+  if (el) el.textContent = new Date().toLocaleString('zh-CN', { timeZone: 'UTC', hour:'2-digit', minute:'2-digit', second:'2-digit' }) + ' UTC';
+}
+tick();
+setInterval(tick, 1000);
+</script>
+</body>
+</html>

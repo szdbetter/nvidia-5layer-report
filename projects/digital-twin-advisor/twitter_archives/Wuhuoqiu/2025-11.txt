@@ -1,0 +1,125 @@
+
+@Wuhuoqiu (Lao Bai):
+@zankadynasty @AethirCloud 没办法，是飞轮就一定有卡住的可能，看Web2那边业务拓展的实力
+📅 Sun Nov 30 09:41:42 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1995065692220174715
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@shuliu87 @broleon hhhh
+📅 Sun Nov 30 09:39:52 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1995065231933104307
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@linsajiao wc这过分了
+📅 Sun Nov 30 09:29:11 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1995062544046969242
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+之前有写过我不是很看好去中心化算力这个赛道，主要原因就是即便价格上有优势，商业级SLA也是去中心化很难保证的。不过这个赛道上做的相对还OK的是 @AethirCloud ，当时他们那次卖节点之前我跟团队详细聊过一次
+
+之所以说相对OK，主要两个原因
+
+1是Aethir的GPU很多是中小型数据中心里的闲置GPU，这个相对于个人用户的游戏GPU稳定性好太多
+
+2是他们当时卖的那个节点是类似Check Ping与状态检测的节点，目的就是用来确认“干活GPU节点”时刻保持在线且性能是否达标
+
+这两个特性都是奔着商业级SLA去的，所以还行
+
+比较有意思的是Aethir这个DAT，转的好就是飞轮，转不好就是卡齿轮。但不管怎么转，跟MSTR那个模式都不一样。它是用POAI这个Web2企业接算力订单，Aethir又是POAI唯一的算力供应商，来了订单对ATH有需求，赚了钱还BuyBack ATH，相当于变相把ATH代币跟GPU资源做了一个“绑定”。但肯定也不是你在X上看到什么1:1映射/转换GPU资源，这个比例得看它飞轮转的咋样，换句话说，POAI能带来多少算力订单的需求
+
+在GPU逐渐成为未来10年的战略级资产的时代，这种DAT如果转起来，还是比很多单纯买币屯币的DAT要靠谱些
+┌─ QT @vanisaxxm:
+│ 《AI真的需要Crypto吗？》
+│ 
+│ 即使你不懂AI模型，不了解区块链技术，你也知道“AI+Crypto”是下一个风口。
+│ 但同时，你也很疑惑：AI真的需要Crypto吗？
+│ 🎬 https://pbs.twimg.com/amplify_video_thumb/1993665968980328448/img/CtqoJAHwrj7LEn0K.jpg
+└─ https://x.com/vanisaxxm/status/1993669735813353787
+📅 Sun Nov 30 09:28:40 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1995062411959959755
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@broleon 我决定以后也叫大师兄“大师子老哥”了，哈哈
+📅 Sun Nov 30 08:32:18 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1995048229738799523
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+这个“大狮子老哥” - 承包了我今日笑点🤣 @broleon
+┌─ QT @KuiGas:
+│ 大狮子老哥真能写
+│ 
+│ 这一段很共鸣：
+│ 
+└─ https://x.com/KuiGas/status/1995038957995003914
+📅 Sun Nov 30 08:30:28 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1995047765198713337
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@linsajiao 蹲一波！
+📅 Sun Nov 30 04:55:30 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1994993668147876183
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+上午说的昨天最值得看的两篇长文之二，Dragonfly的 @hosseeb 写的这篇“为指数增长辩护”
+
+先简单说说文章大意，具体细节还是建议大家自己阅读，然后说说为什么我觉得他能写出这样的文来
+
+核心观点有三个
+
+1. 金融犬儒主义 - 这是他在当前几个新公链上线时观察到的现象（Monad、Tempo、MegaETH），以前是要么Fomo要么冷漠，而现在则是大量的负面情绪（或者说“仇恨”）
+
+具体来说，金融犬儒主义就是“承认部分资产有价值，但认为它们被高估（可能只值当前价值的1/5至1/10），担心华尔街会戳穿这一“泡沫”，所以Haseeb反对用传统金融指标（如P/E比率）来评价区块链，认为这忽视了指数增长的潜力。
+
+2. 指数增长的历史 - 这部分跟上午Quote @mscryptojiayi 那篇长文有着异曲同工之妙，他拿了Web2的亚马逊以及Web3的稳定币举例，这俩一开始甚至运营了很多年之后都还在“挣扎”，Amazon成立了22年才开始实现盈利，USDT发行量第一次达到10亿的时候他个人都觉得不可思议，纽约时报甚至报道说Tether就是庞氏骗局，你再看看今天这俩公司变成啥样了
+
+3. 用REV（Real Economic Value）或者P/E这种指标来评估ETH或者SOL有一定意义，但这本质上是把区块链局限在线性增长框架内，忽视了其指数级发展的可能性。
+
+他认为华尔街喜欢线性，而硅谷看中指数级增长，总结成一句话就是 - 相信相信的力量！
+
+我来说说为什么Haseeb能写出这篇文，他一直是我最喜欢的投资人+Podcaster之一，洞见深刻，带点Drama，且非常“敢说”，这与他个人的传奇经历有关。感觉中文区很多人只是听过他的名字，但不太知道这人的牛逼
+
+之前看过他的一篇访谈，让我留下深刻印象的三个点
+
+1. 这家伙16岁开始玩德州，19岁就玩成了世界顶流+职业选手，21岁带着百万美金盈利退役，退役之后还捐给慈善机构不少，提倡有效利他主义
+
+2. 不打扑克之后他又开始自学编程，学成之后进了Airbnb做软件工程师（这自学能力也忒强了点。。。）
+
+3. 误打误撞进VC - Naval，对！就是那个喊单Zcash的纳瓦尔！之前创办过一个Web3基金Metastable Capital，18年之前进圈的老韭菜很多认应该知道。纳瓦尔当时邀请Haseeb担任Metastable的General Partner（合伙人），而在这之前Haseeb完全没干过VC。纳瓦尔说“兄弟你要不来试试？” Haseeb说“试试就试试！”，这也是他进加密投资领域的关键一步，后来才有了Dragonfly的故事
+
+能写出这样的文，一是跟他个人比较传奇的经历有关，能让纳瓦尔主动邀请去做基金合伙人的肯定不是一般人儿。二是DragonFly早期投过MakerDAO，Compound，见证过Defi从早期到爆发的指数级增长，信仰的确跟新VC或者新韭菜，甚至包括华尔街是不太一样的
+
+所以当前四家顶流VC，除了自身实力强，都有一个超级KOL级别的Founder/合伙人顶在前台不断发声也很关键，A16z有@pmarca, Paradigm有@gakonst, Multicoin有 @KyleSamani ,Dragonfly有 @hosseeb 
+
+所以老铁们，你们相信他说的“指数增长的力量么”🧐
+┌─ QT @hosseeb:
+│ In Defense of Exponentials
+│ 
+│ I used to tell founders, the reaction you are going to get to your launch is not hate, it’s indifference. By default, nobody cares about your new chain.
+│ 
+│ 🖼️ https://pbs.twimg.com/media/G6yBSvwbgAABDVs.jpg
+│ 🖼️ https://pbs.twimg.com/media/G6yBSvxa0AQbIv2.jpg
+│ 🖼️ https://pbs.twimg.com/media/G6yBSv0a0AEIAMc.jpg
+│ 🖼️ https://pbs.twimg.com/media/G6x-pgba0AYuSX9.jpg
+└─ https://x.com/hosseeb/status/1994110900454949263
+📅 Sat Nov 29 13:40:09 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1994763313440592278
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@zohanlin 同20年，祝福一个！
+📅 Sat Nov 29 12:43:26 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1994749039787864450
+──────────────────────────────────────────────────
+
+@Wuhuoqiu (Lao Bai):
+@yueya_eth 从此币圈又多一道靓丽风景线
+📅 Sat Nov 29 06:24:52 +0000 2025
+🔗 https://x.com/Wuhuoqiu/status/1994653771927097626
+──────────────────────────────────────────────────

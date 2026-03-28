@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elon推文监控 · 交易台</title>
+<script src="/vendor/chart.umd.min.js"></script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #f0f2f5;
+    --bg2: #ffffff;
+    --bg3: #f5f7fa;
+    --border: #e8e8e8;
+    --green: #00a854;
+    --green-dim: #00875a;
+    --red: #f5222d;
+    --red-dim: #cf1322;
+    --blue: #1890ff;
+    --blue-dim: #0050b3;
+    --text: #333333;
+    --text-dim: #555555;
+    --text-muted: #999999;
+    --gold: #d4a017;
+  }
+
+  html, body { height: 100%; background: var(--bg); color: var(--text); font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+
+  body { display: flex; flex-direction: column; min-height: 100vh; padding: 0; }
+
+  /* ── TOP BAR ── */
+  .topbar {
+    background: #001529;
+    border-bottom: 1px solid #001529;
+    padding: 10px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+  }
+  .topbar-title { font-size: 14px; color: #ffffff; letter-spacing: 0.08em; text-transform: uppercase; }
+  .topbar-right { display: flex; align-items: center; gap: 16px; }
+  .badge { font-size: 11px; padding: 3px 10px; border-radius: 20px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: rgba(255,255,255,0.7); }
+  .badge.live { border-color: var(--green); color: var(--green); }
+  #last-update { font-size: 11px; color: rgba(255,255,255,0.5); }
+
+  /* ── HERO METRICS ── */
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+    flex-shrink: 0;
+    padding: 16px 24px;
+  }
+  .hero-card {
+    background: var(--bg2);
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    padding: 24px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .hero-label {
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+  .hero-value {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: var(--text);
+  }
+  .hero-value.blue { color: var(--blue); }
+  .hero-value.gold { color: var(--gold); }
+  .hero-value.green { color: var(--green); }
+  .hero-value.red { color: var(--red); }
+  .hero-sub { font-size: 13px; color: var(--text-muted); margin-top: 4px; }
+
+  /* ── MAIN LAYOUT ── */
+  .main {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 380px;
+    grid-template-rows: auto 1fr;
+    gap: 12px;
+    background: var(--bg);
+    padding: 0 12px 12px 12px;
+    min-height: 0;
+  }
+
+  /* ── POSITIONS ── */
+  .positions-panel {
+    background: var(--bg);
+    padding: 12px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .section-title {
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 4px;
+  }
+  .position-card {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    padding: 20px 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    transition: border-color 0.2s;
+  }
+  .position-card:hover { border-color: var(--blue-dim); }
+  .position-card .range {
+    grid-column: 1 / -1;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text);
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 12px;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .range-badge {
+    font-size: 11px;
+    padding: 3px 10px;
+    border-radius: 4px;
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+  }
+  .pos-field { display: flex; flex-direction: column; gap: 4px; }
+  .pos-label { font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); }
+  .pos-val { font-size: 22px; font-weight: 600; color: var(--text); }
+  .pos-val.sm { font-size: 16px; }
+  .pos-val.green { color: var(--green); }
+  .pos-val.red { color: var(--red); }
+  .pos-val.blue { color: var(--blue); }
+  .pos-val.dim { color: var(--text-dim); }
+
+  /* probability bar */
+  .prob-row { grid-column: 1 / -1; margin-top: 4px; }
+  .prob-bar-bg { height: 6px; background: var(--bg3); border-radius: 3px; overflow: hidden; border: 1px solid var(--border); }
+  .prob-bar-fill { height: 100%; border-radius: 3px; transition: width 0.5s; }
+  .prob-label { font-size: 11px; color: var(--text-muted); margin-top: 4px; display: flex; justify-content: flex-start; gap: 12px; }
+
+  /* ── CHARTS PANEL ── */
+  .charts-panel {
+    background: var(--bg);
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .chart-card {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    padding: 20px;
+  }
+  .chart-card-title { font-size: 12px; color: var(--text-muted); margin-bottom: 16px; letter-spacing: 0.06em; text-transform: uppercase; }
+  .chart-wrap { position: relative; width: 100%; }
+
+  /* ── SIDE PANEL ── */
+  .side-panel {
+    background: var(--bg);
+    grid-row: 1 / 3;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    gap: 12px;
+    padding: 12px 0;
+  }
+
+  .strategy-block {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    padding: 20px;
+  }
+  .strategy-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+    gap: 12px;
+  }
+  .strategy-row:last-child { border-bottom: none; }
+  .strategy-key { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; flex-shrink: 0; min-width: 60px; }
+  .strategy-val { font-size: 12px; color: var(--text-dim); text-align: left; line-height: 1.5; }
+  .strategy-val.highlight { color: var(--gold); font-weight: 600; }
+  .strategy-val.danger { color: var(--red); }
+  .strategy-val.ok { color: var(--green); }
+
+  .market-block {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    padding: 20px;
+  }
+  .market-row {
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 13px;
+  }
+  .market-row:last-child { border-bottom: none; }
+  .market-key { color: var(--text-muted); min-width: 100px; }
+  .market-val { font-weight: 600; text-align: left; }
+  .market-val.green { color: var(--green); }
+  .market-val.red { color: var(--red); }
+  .market-val.blue { color: var(--blue); }
+
+  /* loading / error */
+  .loading-overlay {
+    position: fixed; inset: 0; background: rgba(240,242,245,0.9);
+    display: flex; align-items: center; justify-content: center;
+    z-index: 100; font-size: 16px; color: var(--text-muted);
+    backdrop-filter: blur(4px);
+  }
+  .spinner { width: 32px; height: 32px; border: 3px solid var(--border); border-top-color: var(--blue); border-radius: 50%; animation: spin 0.8s linear infinite; margin-right: 12px; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* responsive */
+  @media (max-width: 900px) {
+    .hero { grid-template-columns: 1fr 1fr; }
+    .hero-value { font-size: 36px; }
+    .main { grid-template-columns: 1fr; grid-template-rows: auto; }
+    .side-panel { grid-row: auto; border-left: none; }
+    .position-card { grid-template-columns: 1fr 1fr; }
+    .position-card .range { grid-column: 1 / -1; }
+    .prob-row { grid-column: 1 / -1; }
+  }
+  @media (max-width: 600px) {
+    .hero { grid-template-columns: 1fr; padding: 12px; }
+    .hero-card { padding: 16px; }
+    .hero-value { font-size: 40px; }
+    .positions-panel, .charts-panel { padding: 8px 0; }
+    .strategy-block, .market-block { padding: 14px; }
+    .position-card { grid-template-columns: 1fr 1fr; padding: 14px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="loading-overlay" id="loading">
+  <div class="spinner"></div>
+  <span>加载数据中…</span>
+</div>
+
+<!-- TOP BAR -->
+<header class="topbar">
+  <div class="topbar-title">⚡ Elon推文 · 交易监控台</div>
+  <div class="topbar-right">
+    <span class="badge live">● LIVE</span>
+    <span class="badge">Polymarket #278377</span>
+    <span id="last-update">--</span>
+  </div>
+</header>
+
+<!-- HERO METRICS -->
+<section class="hero">
+  <div class="hero-card">
+    <div class="hero-label">🐦 实时推文数</div>
+    <div class="hero-value blue" id="hero-tweets">--</div>
+    <div class="hero-sub" id="hero-tweets-sub">Day <span id="hero-day">-</span> · <span id="hero-rate">-</span> 条/天</div>
+  </div>
+  <div class="hero-card">
+    <div class="hero-label">🎯 预测终点 (Day7)</div>
+    <div class="hero-value gold" id="hero-proj">--</div>
+    <div class="hero-sub" id="hero-proj-sub">±50 STD · 阈值 344</div>
+  </div>
+  <div class="hero-card">
+    <div class="hero-label">💰 持仓总盈亏</div>
+    <div class="hero-value" id="hero-pnl">--</div>
+    <div class="hero-sub" id="hero-pnl-sub">成本 $5.99 · 当前价值 --</div>
+  </div>
+</section>
+
+<!-- MAIN -->
+<div class="main">
+
+  <!-- LEFT: positions + charts -->
+  <div style="display:flex;flex-direction:column;gap:12px;background:var(--bg);">
+
+    <!-- POSITIONS -->
+    <div class="positions-panel">
+      <div class="section-title">📊 持仓明细</div>
+
+      <!-- Position 280-299 -->
+      <div class="position-card" id="pos-280">
+        <div class="range">
+          <span>280–299 条区间</span>
+          <span class="range-badge" id="badge-280">计算中…</span>
+        </div>
+        <div class="pos-field">
+          <div class="pos-label">股数</div>
+          <div class="pos-val dim">23.1</div>
+        </div>
+        <div class="pos-field">
+          <div class="pos-label">买入均价</div>
+          <div class="pos-val dim">$0.13</div>
+        </div>
+        <div class="pos-field">
+          <div class="pos-label">成本</div>
+          <div class="pos-val dim">$3.00</div>
+        </div>
+        <div class="pos-field">
+          <div class="pos-label">当前价</div>
+          <div class="pos-val blue" id="price-280">--</div>
+        </div>
+        <div class="pos-field">
+          <div class="pos-label">市值</div>
+          <div class="pos-val" id="value-280">--</div>
+        </div>
+        <div class="pos-field">
+          <div class="pos-label">盈亏</div>
+          <div class="pos-val" id="pnl-280">--</div>
+        </div>
+        <div class="prob-row">
+          <div class="prob-bar-bg"><div class="prob-bar-fill" id="bar-280" style="width:0%;background:var(--blue)"></div></div>
+          <div class="prob-label"><span>模型概率</span><span id="prob-label-280">--</span></div>
+        </div>
+      </div>
+
+      <!-- Position 300-319 -->
+      <div class="position-card" id="pos-300">
+        <div class="range">
+          <span>300–319 条区间</span>
+          <span class="range-badge" id="badge-300">计算中…</span>
+        </div>
+        <div class="pos-field">
+          <div class="pos-label">股数</div>
+          <div class="pos-val dim">17.6</div>
+        </div>
+        <div class="pos-field">
+          <div class="pos-label">买入均价</div>
+          <div class="pos-val dim">$0.17</div>
+        </div>
+        <div class="pos-field">
+          <div class="pos-label">成本</div>
+          <div class="pos-val dim">$2.99</div>
+        </div>
+        <div class="pos-field">
+          <div class="pos-label">当前价</div>
+          <div class="pos-val blue" id="price-300">--</div>
+        </div>
+        <div class="pos-field">
+          <div class="pos-label">市值</div>
+          <div class="pos-val" id="value-300">--</div>
+        </div>
+        <div class="pos-field">
+          <div class="pos-label">盈亏</div>
+          <div class="pos-val" id="pnl-300">--</div>
+        </div>
+        <div class="prob-row">
+          <div class="prob-bar-bg"><div class="prob-bar-fill" id="bar-300" style="width:0%;background:var(--blue)"></div></div>
+          <div class="prob-label"><span>模型概率</span><span id="prob-label-300">--</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CHARTS -->
+    <div class="charts-panel">
+      <!-- Daily trend -->
+      <div class="chart-card">
+        <div class="chart-card-title">📈 每日推文趋势</div>
+        <div class="chart-wrap" style="height:160px;">
+          <canvas id="chart-daily"></canvas>
+        </div>
+      </div>
+
+      <!-- Probability comparison -->
+      <div class="chart-card">
+        <div class="chart-card-title">🎲 区间概率对比（盘口 vs 模型）</div>
+        <div class="chart-wrap" style="height:200px;">
+          <canvas id="chart-prob"></canvas>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- RIGHT SIDE PANEL -->
+  <aside class="side-panel">
+
+    <!-- Strategy -->
+    <div class="strategy-block">
+      <div class="section-title" style="margin-bottom:12px;">🧠 策略摘要</div>
+      <div class="strategy-row">
+        <div class="strategy-key">模型</div>
+        <div class="strategy-val">贝叶斯速率外推<br>Day7 = 0.4×外推 + 0.6×历史(344)</div>
+      </div>
+      <div class="strategy-row">
+        <div class="strategy-key">矛盾</div>
+        <div class="strategy-val danger">速率递减 64→51→31<br>衰减持续 → 终点偏低</div>
+      </div>
+      <div class="strategy-row">
+        <div class="strategy-key">结论</div>
+        <div class="strategy-val highlight">Day5速率 >40 持有<br>&lt;20 考虑止损</div>
+      </div>
+      <div class="strategy-row">
+        <div class="strategy-key">风险</div>
+        <div class="strategy-val danger">模型未回测验证<br>Elon行为不可预测</div>
+      </div>
+    </div>
+
+    <!-- Live market data -->
+    <div class="market-block">
+      <div class="section-title" style="margin-bottom:12px;">📡 实时盘口</div>
+      <div id="market-rows">
+        <div class="market-row"><span class="market-key">加载中…</span></div>
+      </div>
+    </div>
+
+  </aside>
+</div>
+
+<script>
+// ── CONSTANTS ──
+const MARKET_ID = '278377';
+
+let chartDaily, chartProb;
+
+// ── CHART INIT ──
+function initCharts() {
+  const dailyCtx = document.getElementById('chart-daily').getContext('2d');
+  chartDaily = new Chart(dailyCtx, {
+    type: 'bar',
+    data: { labels: [], datasets: [{
+      label: '推文数', data: [],
+      backgroundColor: 'rgba(41,121,255,0.7)',
+      borderColor: '#2979ff', borderWidth: 1, borderRadius: 3,
+    }]},
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { grid: { color: '#252a3a' }, ticks: { color: '#8892a4', font: { size: 10 } } },
+        y: { grid: { color: '#252a3a' }, ticks: { color: '#8892a4', font: { size: 10 } } },
+      }
+    }
+  });
+
+  const probCtx = document.getElementById('chart-prob').getContext('2d');
+  chartProb = new Chart(probCtx, {
+    type: 'bar',
+    data: { labels: [], datasets: [
+      { label: '盘口概率', data: [], backgroundColor: 'rgba(41,121,255,0.7)', borderColor: '#2979ff', borderWidth: 1, borderRadius: 3 },
+      { label: '模型概率', data: [], backgroundColor: 'rgba(0,230,118,0.6)', borderColor: '#00e676', borderWidth: 1, borderRadius: 3 },
+    ]},
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: true, labels: { color: '#8892a4', font: { size: 11 }, boxWidth: 12 } } },
+      scales: {
+        x: { grid: { color: '#252a3a' }, ticks: { color: '#8892a4', font: { size: 10 } } },
+        y: { grid: { color: '#252a3a' }, ticks: { color: '#8892a4', font: { size: 10 }, callback: v => (v*100).toFixed(0)+'%' } },
+      }
+    }
+  });
+}
+
+// ── HELPERS ──
+function parseBucketRange(title) {
+  const m = (title || '').match(/(\d+)[^\d]+(\d+)/);
+  if (m) return [parseInt(m[1]), parseInt(m[2])];
+  return null;
+}
+
+function pct(v) {
+  if (v === null || v === undefined || isNaN(v)) return '--';
+  return (v * 100).toFixed(1) + '%';
+}
+
+function erf(x) {
+  const a1=0.254829592,a2=-0.284496736,a3=1.421413741,a4=-1.453152027,a5=1.061405429,p=0.3275911;
+  const sign = x < 0 ? -1 : 1; x = Math.abs(x);
+  const t = 1 / (1 + p * x);
+  const y = 1 - (((((a5*t+a4)*t)+a3)*t+a2)*t+a1)*t*Math.exp(-x*x);
+  return sign * y;
+}
+function normCDF(x, mu, sigma) {
+  return 0.5 * (1 + erf((x - mu) / (sigma * Math.sqrt(2))));
+}
+function modelProb(lo, hi, mu, sigma) {
+  return normCDF(hi + 0.5, mu, sigma) - normCDF(lo - 0.5, mu, sigma);
+}
+
+// ── UPDATE FROM /api/elon-poly/status ──
+function updateFromStatus(d) {
+  const st = d.strategy || {};
+  const dm = d.daemon || {};
+  const prediction = st.prediction || {};
+  const factors = st.factors || {};
+  const positions = st.positions || {};
+  const pnl = st.pnl || {};
+  const dec = st.decision || {};
+  const f1 = factors.f1_momentum || {};
+  const f2 = factors.f2_trend || {};
+  const f3 = factors.f3_event || {};
+  const now = new Date();
+
+  // Hero: tweets
+  document.getElementById('hero-tweets').textContent = st.tweets || 0;
+  document.getElementById('hero-day').textContent = (st.day || 0).toFixed(1);
+  document.getElementById('hero-rate').textContent = (f1.rate_per_day || 0).toFixed(1);
+
+  // Hero: prediction
+  const projMean = prediction.mean || 0;
+  const projStd = prediction.std || 0;
+  document.getElementById('hero-proj').textContent = projMean;
+  document.getElementById('hero-proj-sub').textContent = `±${projStd} STD · 区间 ${prediction.range ? prediction.range.join('–') : '--'}`;
+
+  // Hero: P&L (from real backend data)
+  const totalPnl = pnl.total_pnl;
+  const totalCost = pnl.total_cost || 0;
+  const totalVal = pnl.total_val || 0;
+  const pnlPct = pnl.pnl_pct || 0;
+  if (totalPnl !== undefined) {
+    const pnlEl = document.getElementById('hero-pnl');
+    pnlEl.textContent = (totalPnl >= 0 ? '+$' : '-$') + Math.abs(totalPnl).toFixed(2);
+    pnlEl.className = 'hero-value ' + (totalPnl >= 0 ? 'green' : 'red');
+    document.getElementById('hero-pnl-sub').textContent =
+      `成本 $${totalCost.toFixed(2)} · 当前价值 $${totalVal.toFixed(2)} (${pnlPct >= 0 ? '+' : ''}${pnlPct.toFixed(1)}%)`;
+  }
+
+  // Position cards
+  const posMap = { '280': positions['280-299'], '300': positions['300-319'] };
+  const costMap = { '280': 3.00, '300': 2.99 };
+
+  for (const [id, pos] of Object.entries(posMap)) {
+    if (!pos) continue;
+    const positionPnl = pos.pnl;
+    const modelP = pos.model_prob || 0;
+    const cost = costMap[id];
+
+    const priceEl = document.getElementById('price-' + id);
+    const valueEl = document.getElementById('value-' + id);
+    const pnlEl2 = document.getElementById('pnl-' + id);
+    const barEl = document.getElementById('bar-' + id);
+    const probEl = document.getElementById('prob-label-' + id);
+    const badgeEl = document.getElementById('badge-' + id);
+    const cardEl = document.getElementById('pos-' + id);
+
+    priceEl.textContent = '$' + (pos.mid || 0).toFixed(3);
+    valueEl.textContent = '$' + (pos.val || 0).toFixed(2);
+    valueEl.className = 'pos-val ' + (positionPnl >= 0 ? 'green' : 'red');
+    pnlEl2.textContent = (positionPnl >= 0 ? '+$' : '-$') + Math.abs(positionPnl).toFixed(2);
+    pnlEl2.className = 'pos-val ' + (positionPnl >= 0 ? 'green' : 'red');
+
+    const pnlPctBracket = (positionPnl / cost * 100).toFixed(1);
+    badgeEl.textContent = (positionPnl >= 0 ? '▲ +' : '▼ ') + pnlPctBracket + '%';
+    badgeEl.style.borderColor = positionPnl >= 0 ? 'var(--green-dim)' : 'var(--red-dim)';
+    badgeEl.style.color = positionPnl >= 0 ? 'var(--green)' : 'var(--red)';
+    cardEl.style.borderColor = positionPnl >= 0 ? 'rgba(0,200,83,0.25)' : 'rgba(213,0,0,0.25)';
+
+    barEl.style.width = Math.min(modelP * 100 * 2.5, 100) + '%';
+    barEl.style.background = modelP > 0.2 ? 'var(--green)' : modelP > 0.1 ? 'var(--blue)' : 'var(--red)';
+    probEl.textContent = pct(modelP);
+  }
+
+  // Daily chart
+  if (st.daily && typeof st.daily === 'object') {
+    const entries = Object.entries(st.daily).sort((a, b) => a[0].localeCompare(b[0]));
+    chartDaily.data.labels = entries.map(([d]) => d.slice(5));
+    chartDaily.data.datasets[0].data = entries.map(([, v]) => v);
+    chartDaily.update('none');
+  }
+
+  // Strategy side panel
+  const urgencyColor = {'LOW':'var(--green)','MEDIUM':'var(--gold)','HIGH':'var(--red)','CRITICAL':'var(--red)'}[dec.urgency] || 'var(--text-dim)';
+  const f2Color = f2.trend === 'DECELERATING' ? 'var(--red)' : 'var(--green)';
+  const statusColor = dm.running ? 'var(--green)' : 'var(--red)';
+
+  const stratBlock = document.querySelector('.strategy-block');
+  if (stratBlock) {
+    stratBlock.innerHTML = `
+      <div class="section-title" style="margin-bottom:12px;">🧠 策略摘要</div>
+      <div class="strategy-row">
+        <div class="strategy-key">服务</div>
+        <div class="strategy-val" style="color:${statusColor}">${dm.running ? '🟢 运行中' : '🔴 已停止'} · PID ${dm.pid||'?'}</div>
+      </div>
+      <div class="strategy-row">
+        <div class="strategy-key">决策</div>
+        <div class="strategy-val" style="color:${urgencyColor};font-size:16px;font-weight:700">${dec.action || '—'}</div>
+      </div>
+      <div class="strategy-row">
+        <div class="strategy-key">理由</div>
+        <div class="strategy-val">${dec.reason || '—'}</div>
+      </div>
+      <div class="strategy-row">
+        <div class="strategy-key">紧急度</div>
+        <div class="strategy-val" style="color:${urgencyColor}">${dec.urgency || '—'}</div>
+      </div>
+      <div class="strategy-row">
+        <div class="strategy-key">F1 动量</div>
+        <div class="strategy-val">外推 ${f1.proj_rate_only||'?'} → 贝叶斯 ${f1.projection||'?'}<br>${(f1.rate_per_day||0).toFixed(1)} 条/天</div>
+      </div>
+      <div class="strategy-row">
+        <div class="strategy-key">F2 趋势</div>
+        <div class="strategy-val" style="color:${f2Color}">${f2.trend||'?'}<br>斜率 ${f2.slope||'?'}</div>
+      </div>
+      <div class="strategy-row">
+        <div class="strategy-key">F3 事件</div>
+        <div class="strategy-val">${f3.signals && f3.signals.length ? f3.signals.map(s=>s.msg||s).join('; ') : '无信号'}</div>
+      </div>
+      <div class="strategy-row">
+        <div class="strategy-key">止损线</div>
+        <div class="strategy-val danger">预测&lt;250 或亏&gt;60%</div>
+      </div>
+      <div class="strategy-row">
+        <div class="strategy-key">止盈线</div>
+        <div class="strategy-val ok">价格&gt;0.35 或盈&gt;100%</div>
+      </div>
+      <div class="strategy-row">
+        <div class="strategy-key">引擎时间</div>
+        <div class="strategy-val">${st.ts ? new Date(st.ts).toLocaleTimeString('zh-CN') : '—'}</div>
+      </div>
+    `;
+  }
+
+  document.getElementById('last-update').textContent = '更新: ' + now.toTimeString().slice(0,8);
+  document.getElementById('loading').style.display = 'none';
+}
+
+// ── UPDATE FROM /api/xtracker/gamma/278377 ──
+function updateFromGamma(gammaData, statusData) {
+  const markets = gammaData.markets || [];
+  const st = (statusData && statusData.strategy) || {};
+  const prediction = st.prediction || {};
+  const projMean = prediction.mean || 264;
+  const projStd = prediction.std || 45;
+
+  // Parse gamma markets: outcomePrices is a JSON string ["yes_price", "no_price"]
+  const buckets = markets.map(m => {
+    const parsed = parseBucketRange(m.question || '');
+    let price = 0;
+    try {
+      const prices = JSON.parse(m.outcomePrices || '[]');
+      price = parseFloat(prices[0]) || 0;
+    } catch(e) {}
+    return { question: m.question, parsed, price };
+  }).filter(b => b.parsed && b.price > 0.001);
+
+  // Sort by bucket range for display
+  const displaySorted = [...buckets].sort((a, b) => {
+    if (b.price !== a.price) return b.price - a.price;
+    return a.parsed[0] - b.parsed[0];
+  }).slice(0, 12).sort((a, b) => a.parsed[0] - b.parsed[0]);
+
+  // Market rows (side panel)
+  const rows = document.getElementById('market-rows');
+  let html = '';
+  displaySorted.forEach(b => {
+    const cls = b.price > 0.3 ? 'green' : b.price > 0.1 ? 'blue' : 'red';
+    const label = b.parsed[0] + '–' + b.parsed[1];
+    html += `<div class="market-row"><span class="market-key">${label}</span><span class="market-val ${cls}">${(b.price*100).toFixed(1)}%</span></div>`;
+  });
+  rows.innerHTML = html || '<div class="market-row"><span class="market-key">无盘口数据</span></div>';
+
+  // Prob comparison chart
+  if (displaySorted.length) {
+    const labels = displaySorted.map(b => b.parsed[0] + '-' + b.parsed[1]);
+    const mktPrices = displaySorted.map(b => b.price);
+    const modPrices = displaySorted.map(b => modelProb(b.parsed[0], b.parsed[1], projMean, projStd));
+    const maxY = Math.max(...mktPrices, ...modPrices, 0.1) * 1.2;
+    chartProb.data.labels = labels;
+    chartProb.data.datasets[0].data = mktPrices;
+    chartProb.data.datasets[1].data = modPrices;
+    chartProb.options.scales.y.max = maxY;
+    chartProb.update('none');
+  }
+}
+
+// ── FETCH ALL ──
+let lastStatusData = null;
+
+async function fetchAll() {
+  try {
+    const [statusRes, gammaRes] = await Promise.all([
+      fetch('/api/elon-poly/status'),
+      fetch('/api/xtracker/gamma/' + MARKET_ID),
+    ]);
+    const statusData = await statusRes.json();
+    const gammaData = await gammaRes.json();
+    lastStatusData = statusData;
+    updateFromStatus(statusData);
+    updateFromGamma(gammaData, statusData);
+  } catch (e) {
+    console.error('Fetch error', e);
+    document.getElementById('loading').innerHTML = '<div style="color:var(--red)">⚠ 数据加载失败: ' + e.message + '</div>';
+  }
+}
+
+// ── INIT ──
+initCharts();
+fetchAll();
+setInterval(fetchAll, 30000);
+</script>
+</body>
+</html>
